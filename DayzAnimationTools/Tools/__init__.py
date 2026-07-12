@@ -38,6 +38,8 @@ menus = [
 		]
 
 def register():
+	register_dayz_proxy_ik_sync_handlers()
+
 	try:
 		if not hasattr(bpy.types, 'DZAT_MT_ToolsMenu'):
 			bpy.utils.register_class(DZAT_MT_ToolsMenu)
@@ -76,6 +78,8 @@ def register():
 		pass
 
 def unregister():
+	unregister_dayz_proxy_ik_sync_handlers()
+
 	for cls in classes:
 		if hasattr(bpy.types, cls.__name__):
 			bpy.utils.unregister_class(cls)

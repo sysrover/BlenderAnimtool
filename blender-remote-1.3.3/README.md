@@ -113,6 +113,43 @@ blender-remote-cli execute my_script.py
 blender-remote-cli execute -c "import bpy; [bpy.ops.mesh.primitive_cube_add(location=(i*2, 0, 0)) for i in range(3)]" --use-base64
 ```
 
+**Token-efficient live queries**:
+
+```bash
+# Small scene summary without executing arbitrary Python
+blender-remote-cli query scene_summary
+
+# Inspect one bone and return only requested compact data
+blender-remote-cli query inspect_bone --param bone=RightHandThumb1 --param armature=_DayZ_Character
+
+# Page through a large list; responses default to 50 items and 32 KiB
+blender-remote-cli query list_bones --param armature=_DayZ_Character --limit 25
+blender-remote-cli query result_page --result-id result_ab12cd34ef56 --offset 25 --limit 25
+```
+
+The Python client exposes the same bounded TCP command:
+
+```python
+result = client.compact_query(
+    "inspect_bone",
+    armature="_DayZ_Character",
+    bone="RightHandThumb1",
+    fields=["name", "parent", "rotation_quaternion", "constraints"],
+)
+```
+
+Use `fields` for single-object results and `item_fields` for list results. Field
+projection happens inside Blender before pagination, caching, and TCP transfer.
+Nested projection such as `constraints.name` avoids returning complete child
+objects. Use `client.compact_batch([...])` to execute several compact queries in
+one bounded TCP round trip.
+
+Large list results are cached in Blender for five minutes and returned through
+`result_page`. Use `snapshot_pose` followed by `diff_pose` to retrieve only bones
+whose evaluated pose changed between operations, then call `restore_pose` with the
+same `snapshot_id` to restore the saved pose. Every compact response includes its
+final serialized `response_bytes` size.
+
 **6. Export addon or scripts for manual use**:
 ```bash
 # Export addon source code for inspection or manual installation

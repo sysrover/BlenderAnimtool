@@ -368,6 +368,42 @@ class BlenderMCPClient:
         response = self.execute_command("get_scene_info")
         return cast(Dict[str, Any], response.get("result", {}))
 
+    def compact_query(
+        self,
+        op: str = "scene_summary",
+        *,
+        offset: int = 0,
+        limit: int = 50,
+        max_bytes: int = 32 * 1024,
+        result_id: Optional[str] = None,
+        **params: Any,
+    ) -> Dict[str, Any]:
+        """Run a bounded Blender query with pagination and in-memory caching."""
+        payload: Dict[str, Any] = {
+            "op": op,
+            "offset": offset,
+            "limit": limit,
+            "max_bytes": max_bytes,
+            **params,
+        }
+        if result_id is not None:
+            payload["result_id"] = result_id
+        response = self.execute_command("compact_query", payload)
+        return cast(Dict[str, Any], response.get("result", {}))
+
+    def compact_batch(
+        self,
+        queries: list[Dict[str, Any]],
+        *,
+        max_bytes: int = 32 * 1024,
+    ) -> Dict[str, Any]:
+        """Run several compact queries in one bounded TCP round trip."""
+        response = self.execute_command(
+            "compact_query",
+            {"op": "batch", "queries": queries, "max_bytes": max_bytes},
+        )
+        return cast(Dict[str, Any], response.get("result", {}))
+
     def get_object_info(self, object_name: str) -> Dict[str, Any]:
         """
         Get information about a specific object in Blender.

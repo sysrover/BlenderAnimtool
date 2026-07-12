@@ -27,6 +27,10 @@ class BlenderCommandError(BlenderMCPError):
     pass
 
 
+# Backward-compatible public name used by the original client test suite.
+BlenderExecutionError = BlenderCommandError
+
+
 class BlenderTimeoutError(BlenderMCPError):
     """Exception raised when a Blender operation times out."""
 

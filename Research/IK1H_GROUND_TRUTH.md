@@ -327,6 +327,12 @@ MCH_RightHand_IK:
 - stretch is disabled.
 - `CTRL_RightHand` is the effector and wrist-rotation control.
 - `CTRL_RightElbow` is the pole/bend-plane control.
+- Retail visual validation on the current DayZ skeleton/template established
+  `35 deg` as the Blender proxy IK pole-angle calibration. The former automatic
+  fit selected `91.9 deg`: it reproduced the already imported Blender elbow,
+  but did not match the elbow plane observed in retail DayZ. Build therefore
+  uses `35 deg` by default. A skeleton-specific override can be stored as the
+  Scene custom property `dayz_proxy_pole_angle_degrees`.
 - rotating `CTRL_RightHand` does not move the wrist.
 - moving `CTRL_RightElbow` does not move the wrist target.
 - Python aligns the original DayZ anatomical joint vectors to the solved proxy.

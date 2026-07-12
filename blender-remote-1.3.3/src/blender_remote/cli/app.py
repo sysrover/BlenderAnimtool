@@ -21,6 +21,7 @@ from blender_remote.cli.commands.export import export
 from blender_remote.cli.commands.init import init
 from blender_remote.cli.commands.install import install
 from blender_remote.cli.commands.pkg import pkg
+from blender_remote.cli.commands.query import query
 from blender_remote.cli.commands.start import start
 from blender_remote.cli.commands.status import status
 
@@ -44,6 +45,7 @@ cli.add_command(execute)
 cli.add_command(status)
 cli.add_command(debug)
 cli.add_command(pkg)
+cli.add_command(query)
 
 
 if __name__ == "__main__":

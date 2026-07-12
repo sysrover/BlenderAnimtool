@@ -26,6 +26,7 @@ from typing import Dict, Any, Optional, Callable
 from dataclasses import dataclass
 
 from . import persist
+from .compact_query import CompactQueryService
 from .utils import log_info, log_warning, log_error, log_debug
 from .config import get_mcp_port, should_auto_start
 
@@ -193,6 +194,7 @@ class BldRemoteMCPServer:
         self.server_thread = None
         self.client_threads = []
         self.background_mode = bpy.app.background
+        self.compact_queries = CompactQueryService(bpy)
         
         # Background mode command queue for manual processing
         self.command_queue = queue.Queue() if self.background_mode else None
@@ -491,6 +493,7 @@ class BldRemoteMCPServer:
             "put_persist_data": self.put_persist_data,
             "get_persist_data": self.get_persist_data,
             "remove_persist_data": self.remove_persist_data,
+            "compact_query": self.compact_query,
         }
 
         handler = handlers.get(cmd_type)
@@ -507,6 +510,11 @@ class BldRemoteMCPServer:
         else:
             # Handle legacy message/code format for backward compatibility
             return self._handle_legacy_command(command)
+
+    def compact_query(self, **params):
+        """Execute a bounded, token-efficient read-only Blender query."""
+        return self.compact_queries.safe_query(**params)
+
 
     def _get_command_timeout_seconds(self, command: Dict[str, Any]) -> float:
         """Return the execution timeout for a command, allowing an optional override."""

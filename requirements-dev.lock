@@ -1,0 +1,7 @@
+--editable ./blender-remote-1.3.3[dev]
+
+# Direct development tools are pinned to keep local checks reproducible.
+pytest==8.4.2
+pytest-cov==6.2.1
+black==26.5.1
+ruff==0.15.21

@@ -330,6 +330,8 @@ RIGHT_ANIMATOR_CONTROLS = {
 	'hand': 'CTRL_RightHand',
 	'elbow': 'CTRL_RightElbow',
 }
+DAYZ_RIGHT_PROXY_POLE_ANGLE_DEGREES = 35.0
+DAYZ_RIGHT_PROXY_POLE_ANGLE_PROPERTY = 'dayz_proxy_pole_angle_degrees'
 
 IK_FINGER_CONTROLS = {
 	name: 'IK_' + name
@@ -714,7 +716,7 @@ def create_dayz_arm_fk_controls(ob):
 	proxy_ik.chain_count = 2
 	proxy_ik.use_rotation = False
 	proxy_ik.use_stretch = False
-	proxy_ik.pole_angle = 0.0
+	proxy_ik.pole_angle = radians(DAYZ_RIGHT_PROXY_POLE_ANGLE_DEGREES)
 
 	proxy_hand = rig.pose.bones[RIGHT_PROXY_BONES['hand']]
 	proxy_hand_rotation = proxy_hand.constraints.new(type='COPY_ROTATION')
@@ -1090,35 +1092,27 @@ def _fit_right_proxy_pole_angle(ob, rig):
 	scene = bpy.context.scene
 	old_busy = bool(scene.get('dayz_proxy_ik_sync_busy', False))
 	scene['dayz_proxy_ik_sync_busy'] = True
-	desired_elbow = _world_head(ob, 'RightForeArm')
-	best_angle = constraint.pole_angle
-	best_error = float('inf')
 	try:
-		# Coarse full-circle search followed by a fine local search. Blender's
-		# pole-angle zero depends on edit-bone roll, so deriving this from the
-		# actual imported pose is more reliable than a hard-coded +/-90 degrees.
-		for degree in range(-180, 181, 5):
-			constraint.pole_angle = radians(float(degree))
-			bpy.context.view_layer.update()
-			proxy_elbow = rig.matrix_world @ proxy_forearm.head
-			error = (proxy_elbow - desired_elbow).length
-			if error < best_error:
-				best_error = error
-				best_angle = constraint.pole_angle
-		coarse = best_angle
-		for tenth in range(-60, 61):
-			angle = coarse + radians(float(tenth) / 10.0)
-			constraint.pole_angle = angle
-			bpy.context.view_layer.update()
-			proxy_elbow = rig.matrix_world @ proxy_forearm.head
-			error = (proxy_elbow - desired_elbow).length
-			if error < best_error:
-				best_error = error
-				best_angle = angle
-		constraint.pole_angle = best_angle
+		# Retail DayZ visual validation showed that the old automatic fit
+		# (91.9 degrees for the current template) matched the imported Blender
+		# elbow but not the runtime elbow plane. The DayZ skeleton/Blender roll
+		# calibration is 35 degrees. Keep a scene override for future skeletons.
+		calibrated_degrees = float(
+			scene.get(
+				DAYZ_RIGHT_PROXY_POLE_ANGLE_PROPERTY,
+				rig.get(
+					DAYZ_RIGHT_PROXY_POLE_ANGLE_PROPERTY,
+					DAYZ_RIGHT_PROXY_POLE_ANGLE_DEGREES,
+				),
+			)
+		)
+		constraint.pole_angle = radians(calibrated_degrees)
 		bpy.context.view_layer.update()
-		rig['dayz_proxy_pole_angle'] = float(best_angle)
-		rig['dayz_proxy_pole_fit_error'] = float(best_error)
+		desired_elbow = _world_head(ob, 'RightForeArm')
+		proxy_elbow = rig.matrix_world @ proxy_forearm.head
+		rig[DAYZ_RIGHT_PROXY_POLE_ANGLE_PROPERTY] = calibrated_degrees
+		rig['dayz_proxy_pole_angle'] = float(constraint.pole_angle)
+		rig['dayz_proxy_pole_fit_error'] = float((proxy_elbow - desired_elbow).length)
 	finally:
 		scene['dayz_proxy_ik_sync_busy'] = old_busy
 	return None
@@ -1151,6 +1145,17 @@ def _ensure_dayz_proxy_ik_sync_handler():
 			for handler in handlers
 		):
 			handlers.append(_dayz_proxy_ik_sync_handler)
+
+def register_dayz_proxy_ik_sync_handlers():
+	"""Restore persistent live IK synchronization after addon registration."""
+	_ensure_dayz_proxy_ik_sync_handler()
+
+def unregister_dayz_proxy_ik_sync_handlers():
+	"""Remove live IK synchronization handlers owned by this addon."""
+	for handlers in (bpy.app.handlers.depsgraph_update_post, bpy.app.handlers.frame_change_post):
+		for handler in list(handlers):
+			if getattr(handler, '__name__', '') == _dayz_proxy_ik_sync_handler.__name__:
+				handlers.remove(handler)
 
 def enable_dayz_proxy_ik_sync(ob, rig):
 	active_action = ob.animation_data.action if ob.animation_data is not None else None

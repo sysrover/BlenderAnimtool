@@ -46,6 +46,7 @@ from .exceptions import (
     BlenderMCPError,
     BlenderConnectionError,
     BlenderCommandError,
+    BlenderExecutionError,
     BlenderTimeoutError,
 )
 
@@ -142,6 +143,7 @@ __all__ = [
     "BlenderMCPError",
     "BlenderConnectionError",
     "BlenderCommandError",
+    "BlenderExecutionError",
     "BlenderTimeoutError",
     # Convenience functions
     "connect_to_blender",
