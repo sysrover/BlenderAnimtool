@@ -1,0 +1,19 @@
+# Blender / temp
+*.blend
+*.blend1
+*.blend2
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
