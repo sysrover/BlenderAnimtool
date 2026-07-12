@@ -1,0 +1,26 @@
+{
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_separate_controlrig_v2.blend",
+  "changed_controls": [
+    "CTRL_Elbow.L",
+    "CTRL_Elbow.R",
+    "CTRL_Hand.L",
+    "CTRL_Hand.R"
+  ],
+  "fixed_ik": [
+    {
+      "bone": "LeftHand",
+      "target": "CTRL_Hand.L",
+      "pole": "CTRL_Elbow.L",
+      "chain_count": 5,
+      "pole_angle": -1.5707963705062866
+    },
+    {
+      "bone": "RightHand",
+      "target": "CTRL_Hand.R",
+      "pole": "CTRL_Elbow.R",
+      "chain_count": 5,
+      "pole_angle": -1.5707963705062866
+    }
+  ],
+  "note": "Fixed control orientation to match hand bones and chain_count to include roll bones/whole arm."
+}

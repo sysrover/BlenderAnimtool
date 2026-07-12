@@ -1,0 +1,506 @@
+{
+  "base_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "out_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_direct_ik_controls_v1.blend",
+  "sides": {
+    "L": {
+      "best": {
+        "chain_count": 3,
+        "pole_angle": -2.356194490192345,
+        "score": 1.45809236858428,
+        "details": [
+          {
+            "bone": "LeftArm",
+            "loc_delta": 1.666000468656264e-08,
+            "rot_delta_deg": 0.0
+          },
+          {
+            "bone": "LeftArmRoll",
+            "loc_delta": 2.9802322387695312e-08,
+            "rot_delta_deg": 0.0
+          },
+          {
+            "bone": "LeftForeArm",
+            "loc_delta": 5.960464477539063e-08,
+            "rot_delta_deg": 9.313386405040927
+          },
+          {
+            "bone": "LeftForeArmRoll",
+            "loc_delta": 0.002260921814264389,
+            "rot_delta_deg": 16.782018969984158
+          },
+          {
+            "bone": "LeftHand",
+            "loc_delta": 4.846205851346571e-05,
+            "rot_delta_deg": 56.12389322133197
+          }
+        ]
+      },
+      "neutral_details": [
+        {
+          "bone": "LeftArm",
+          "loc_delta": 1.666000468656264e-08,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "LeftArmRoll",
+          "loc_delta": 2.9802322387695312e-08,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "LeftForeArm",
+          "loc_delta": 5.960464477539063e-08,
+          "rot_delta_deg": 9.313386405040927
+        },
+        {
+          "bone": "LeftForeArmRoll",
+          "loc_delta": 0.002260921814264389,
+          "rot_delta_deg": 16.782018969984158
+        },
+        {
+          "bone": "LeftHand",
+          "loc_delta": 4.846205851346571e-05,
+          "rot_delta_deg": 56.12389322133197
+        }
+      ],
+      "move_test": [
+        {
+          "bone": "LeftArm",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "LeftArmRoll",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "LeftForeArm",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 16.88132821296885
+        },
+        {
+          "bone": "LeftForeArmRoll",
+          "loc_delta": 0.056414385605660186,
+          "rot_delta_deg": 15.8722514329168
+        },
+        {
+          "bone": "LeftHand",
+          "loc_delta": 0.07564968358708796,
+          "rot_delta_deg": 0.34491702920538636
+        }
+      ],
+      "top_candidates": [
+        {
+          "chain_count": 3,
+          "pole_angle": -2.356194490192345,
+          "score": 1.45809236858428,
+          "details": [
+            {
+              "bone": "LeftArm",
+              "loc_delta": 1.666000468656264e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftArmRoll",
+              "loc_delta": 2.9802322387695312e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftForeArm",
+              "loc_delta": 5.960464477539063e-08,
+              "rot_delta_deg": 9.313386405040927
+            },
+            {
+              "bone": "LeftForeArmRoll",
+              "loc_delta": 0.002260921814264389,
+              "rot_delta_deg": 16.782018969984158
+            },
+            {
+              "bone": "LeftHand",
+              "loc_delta": 4.846205851346571e-05,
+              "rot_delta_deg": 56.12389322133197
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": -1.9634954084936207,
+          "score": 1.531134521186667,
+          "details": [
+            {
+              "bone": "LeftArm",
+              "loc_delta": 1.666000468656264e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftArmRoll",
+              "loc_delta": 2.9802322387695312e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftForeArm",
+              "loc_delta": 5.960464477539063e-08,
+              "rot_delta_deg": 5.667588093552207
+            },
+            {
+              "bone": "LeftForeArmRoll",
+              "loc_delta": 0.002331953538705164,
+              "rot_delta_deg": 24.57037781261756
+            },
+            {
+              "bone": "LeftHand",
+              "loc_delta": 5.151352114742088e-05,
+              "rot_delta_deg": 56.12389322133197
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": -2.748893571891069,
+          "score": 1.581829401372385,
+          "details": [
+            {
+              "bone": "LeftArm",
+              "loc_delta": 1.666000468656264e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftArmRoll",
+              "loc_delta": 2.9802322387695312e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftForeArm",
+              "loc_delta": 5.960464477539063e-08,
+              "rot_delta_deg": 24.060881559027752
+            },
+            {
+              "bone": "LeftForeArmRoll",
+              "loc_delta": 0.0021684034372277143,
+              "rot_delta_deg": 9.17941395201842
+            },
+            {
+              "bone": "LeftHand",
+              "loc_delta": 4.4521799535211065e-05,
+              "rot_delta_deg": 56.12387956095363
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": -3.141592653589793,
+          "score": 1.7173307173921024,
+          "details": [
+            {
+              "bone": "LeftArm",
+              "loc_delta": 1.666000468656264e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftArmRoll",
+              "loc_delta": 2.9802322387695312e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftForeArm",
+              "loc_delta": 5.960464477539063e-08,
+              "rot_delta_deg": 38.863660264156664
+            },
+            {
+              "bone": "LeftForeArmRoll",
+              "loc_delta": 0.0021343498628066332,
+              "rot_delta_deg": 2.1605679134973346
+            },
+            {
+              "bone": "LeftHand",
+              "loc_delta": 4.3157755485263304e-05,
+              "rot_delta_deg": 56.12389322133197
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": 3.141592653589793,
+          "score": 1.717331075019971,
+          "details": [
+            {
+              "bone": "LeftArm",
+              "loc_delta": 1.666000468656264e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftArmRoll",
+              "loc_delta": 2.9802322387695312e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "LeftForeArm",
+              "loc_delta": 5.960464477539063e-08,
+              "rot_delta_deg": 38.86368075472417
+            },
+            {
+              "bone": "LeftForeArmRoll",
+              "loc_delta": 0.0021343498628066332,
+              "rot_delta_deg": 2.1605679134973346
+            },
+            {
+              "bone": "LeftHand",
+              "loc_delta": 4.3157755485263304e-05,
+              "rot_delta_deg": 56.12389322133197
+            }
+          ]
+        }
+      ]
+    },
+    "R": {
+      "best": {
+        "chain_count": 3,
+        "pole_angle": 2.748893571891069,
+        "score": 1.5498931478309323,
+        "details": [
+          {
+            "bone": "RightArm",
+            "loc_delta": 4.2146848510894035e-08,
+            "rot_delta_deg": 0.0
+          },
+          {
+            "bone": "RightArmRoll",
+            "loc_delta": 7.337970883992392e-08,
+            "rot_delta_deg": 0.0
+          },
+          {
+            "bone": "RightForeArm",
+            "loc_delta": 2.520290356216259e-07,
+            "rot_delta_deg": 2.5067152838878224
+          },
+          {
+            "bone": "RightForeArmRoll",
+            "loc_delta": 0.0033401353023966808,
+            "rot_delta_deg": 18.764179140709587
+          },
+          {
+            "bone": "RightHand",
+            "loc_delta": 0.00010590099160899904,
+            "rot_delta_deg": 65.55679769156437
+          }
+        ]
+      },
+      "neutral_details": [
+        {
+          "bone": "RightArm",
+          "loc_delta": 4.2146848510894035e-08,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "RightArmRoll",
+          "loc_delta": 7.337970883992392e-08,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "RightForeArm",
+          "loc_delta": 2.520290356216259e-07,
+          "rot_delta_deg": 2.5067152838878224
+        },
+        {
+          "bone": "RightForeArmRoll",
+          "loc_delta": 0.0033401353023966808,
+          "rot_delta_deg": 18.764179140709587
+        },
+        {
+          "bone": "RightHand",
+          "loc_delta": 0.00010590099160899904,
+          "rot_delta_deg": 65.55679769156437
+        }
+      ],
+      "move_test": [
+        {
+          "bone": "RightArm",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "RightArmRoll",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "RightForeArm",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 28.964899326488965
+        },
+        {
+          "bone": "RightForeArmRoll",
+          "loc_delta": 0.10201427572773279,
+          "rot_delta_deg": 49.78727059621727
+        },
+        {
+          "bone": "RightHand",
+          "loc_delta": 0.07992550904807683,
+          "rot_delta_deg": 0.0
+        }
+      ],
+      "top_candidates": [
+        {
+          "chain_count": 3,
+          "pole_angle": 2.748893571891069,
+          "score": 1.5498931478309323,
+          "details": [
+            {
+              "bone": "RightArm",
+              "loc_delta": 4.2146848510894035e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightArmRoll",
+              "loc_delta": 7.337970883992392e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightForeArm",
+              "loc_delta": 2.520290356216259e-07,
+              "rot_delta_deg": 2.5067152838878224
+            },
+            {
+              "bone": "RightForeArmRoll",
+              "loc_delta": 0.0033401353023966808,
+              "rot_delta_deg": 18.764179140709587
+            },
+            {
+              "bone": "RightHand",
+              "loc_delta": 0.00010590099160899904,
+              "rot_delta_deg": 65.55679769156437
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": -3.141592653589793,
+          "score": 1.6585358980796623,
+          "details": [
+            {
+              "bone": "RightArm",
+              "loc_delta": 4.2146848510894035e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightArmRoll",
+              "loc_delta": 7.337970883992392e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightForeArm",
+              "loc_delta": 2.520290356216259e-07,
+              "rot_delta_deg": 15.772803878601414
+            },
+            {
+              "bone": "RightForeArmRoll",
+              "loc_delta": 0.0033097525347013223,
+              "rot_delta_deg": 11.741383758744352
+            },
+            {
+              "bone": "RightHand",
+              "loc_delta": 0.00010395651119001964,
+              "rot_delta_deg": 65.55679769156437
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": 3.141592653589793,
+          "score": 1.6585361364982414,
+          "details": [
+            {
+              "bone": "RightArm",
+              "loc_delta": 4.2146848510894035e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightArmRoll",
+              "loc_delta": 7.337970883992392e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightForeArm",
+              "loc_delta": 2.520290356216259e-07,
+              "rot_delta_deg": 15.772803878601414
+            },
+            {
+              "bone": "RightForeArmRoll",
+              "loc_delta": 0.0033097525347013223,
+              "rot_delta_deg": 11.741383758744352
+            },
+            {
+              "bone": "RightHand",
+              "loc_delta": 0.00010395651119001964,
+              "rot_delta_deg": 65.5568113519427
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": -2.748893571891069,
+          "score": 1.7858167031923333,
+          "details": [
+            {
+              "bone": "RightArm",
+              "loc_delta": 4.2146848510894035e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightArmRoll",
+              "loc_delta": 7.337970883992392e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightForeArm",
+              "loc_delta": 2.520290356216259e-07,
+              "rot_delta_deg": 30.27083832598457
+            },
+            {
+              "bone": "RightForeArmRoll",
+              "loc_delta": 0.0033904880268484407,
+              "rot_delta_deg": 4.486823836541308
+            },
+            {
+              "bone": "RightHand",
+              "loc_delta": 0.00010905355543740877,
+              "rot_delta_deg": 65.55679769156437
+            }
+          ]
+        },
+        {
+          "chain_count": 3,
+          "pole_angle": 2.356194490192345,
+          "score": 1.8227755422680352,
+          "details": [
+            {
+              "bone": "RightArm",
+              "loc_delta": 4.2146848510894035e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightArmRoll",
+              "loc_delta": 7.337970883992392e-08,
+              "rot_delta_deg": 0.0
+            },
+            {
+              "bone": "RightForeArm",
+              "loc_delta": 2.520290356216259e-07,
+              "rot_delta_deg": 11.103065014766225
+            },
+            {
+              "bone": "RightForeArmRoll",
+              "loc_delta": 0.00328665752971699,
+              "rot_delta_deg": 25.835438129930644
+            },
+            {
+              "bone": "RightHand",
+              "loc_delta": 0.0001024824000079725,
+              "rot_delta_deg": 65.55679769156437
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3564 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_BufferConsumerScan.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 20:35:56 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_BufferConsumerScan.java
+Size: 4318 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 15 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+McpInline_WeaponIK_Vtable_Offsets.java:55: error: cannot find symbol
+                FlowType ft = r.getReferenceType().getFlowType();
+                                                  ^
+  symbol:   method getFlowType()
+  location: class ghidra.program.model.symbol.RefType
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM DayZDiag_x64.exe
+=== PLUS3_BYTE_READ_TOP ===
+102  FUN_140075b00 @ 140075b00
+102  FUN_14007f770 @ 14007f770
+102  FUN_140d27d10 @ 140d27d10
+8  FUN_14066cb30 @ 14066cb30
+8  FUN_140d06350 @ 140d06350
+7  FUN_1406b4c60 @ 1406b4c60
+6  FUN_140d27900 @ 140d27900
+5  FUN_1408ed710 @ 1408ed710
+4  FUN_1400fe480 @ 1400fe480
+4  FUN_140153000 @ 140153000
+4  FUN_1405886e0 @ 1405886e0
+4  FUN_140636cb0 @ 140636cb0
+4  FUN_1408ea420 @ 1408ea420
+4  FUN_140c9ddd0 @ 140c9ddd0
+3  FUN_140102760 @ 140102760
+3  FUN_14056a8b0 @ 14056a8b0
+3  FUN_140588ac0 @ 140588ac0
+3  FUN_1406827c0 @ 1406827c0
+3  FUN_1406c6d70 @ 1406c6d70
+3  FUN_1406c7030 @ 1406c7030
+3  FUN_140c9e950 @ 140c9e950
+3  FUN_140ca8020 @ 140ca8020
+3  FUN_140cdd090 @ 140cdd090
+3  FUN_140d0b880 @ 140d0b880
+3  FUN_140d0d920 @ 140d0d920
+2  FUN_1400ed580 @ 1400ed580
+2  FUN_1400fbe00 @ 1400fbe00
+2  FUN_1400fcb60 @ 1400fcb60
+2  FUN_1400fddd0 @ 1400fddd0
+2  FUN_1401017e0 @ 1401017e0
+2  FUN_140101f60 @ 140101f60
+2  FUN_140103f70 @ 140103f70
+2  FUN_140152d80 @ 140152d80
+2  FUN_140380ee0 @ 140380ee0
+2  FUN_140380f20 @ 140380f20
+2  FUN_140380f70 @ 140380f70
+2  FUN_140380ff0 @ 140380ff0
+2  FUN_14040d950 @ 14040d950
+2  FUN_14040fcd0 @ 14040fcd0
+2  FUN_14046ede0 @ 14046ede0
+2  FUN_14046f040 @ 14046f040
+2  FUN_140490970 @ 140490970
+2  FUN_140498310 @ 140498310
+2  FUN_140518f40 @ 140518f40
+2  FUN_14056a660 @ 14056a660
+2  FUN_140587300 @ 140587300
+2  FUN_140587880 @ 140587880
+2  FUN_140587900 @ 140587900
+2  FUN_140587a20 @ 140587a20
+2  FUN_140587d70 @ 140587d70
+2  FUN_1405891a0 @ 1405891a0
+2  FUN_1405892d0 @ 1405892d0
+2  FUN_140589fa0 @ 140589fa0
+2  FUN_14058a1f0 @ 14058a1f0
+2  FUN_14065d150 @ 14065d150
+2  FUN_14065daf0 @ 14065daf0
+2  FUN_140675890 @ 140675890
+2  FUN_140677ac0 @ 140677ac0
+2  FUN_140678e50 @ 140678e50
+2  FUN_14067d050 @ 14067d050
+2  FUN_140688ad0 @ 140688ad0
+2  FUN_14068b7c0 @ 14068b7c0
+2  FUN_1406bce40 @ 1406bce40
+2  FUN_1406ce6a0 @ 1406ce6a0
+2  FUN_1407375f0 @ 1407375f0
+2  FUN_1408ea2c0 @ 1408ea2c0
+2  FUN_1408ed030 @ 1408ed030
+2  FUN_14094cc30 @ 14094cc30
+2  FUN_140c3e710 @ 140c3e710
+2  FUN_140c45ad0 @ 140c45ad0
+2  FUN_140c54ad0 @ 140c54ad0
+2  FUN_140c55a90 @ 140c55a90
+2  FUN_140c9dba0 @ 140c9dba0
+2  FUN_140cf4650 @ 140cf4650
+2  FUN_140cf72a0 @ 140cf72a0
+2  FUN_140d0c600 @ 140d0c600
+2  FUN_140d0db20 @ 140d0db20
+2  FUN_140db2710 @ 140db2710
+1  FUN_1400734a0 @ 1400734a0
+1  FUN_140075860 @ 140075860
+=== SHIFT24_TOP ===
+60  FUN_140c54ad0 @ 140c54ad0
+60  FUN_140c55a90 @ 140c55a90
+19  FUN_140c56d00 @ 140c56d00
+15  FUN_14029ebb0 @ 14029ebb0
+6  FUN_1403d52d0 @ 1403d52d0
+6  FUN_140db5240 @ 140db5240
+5  FUN_1403d5db0 @ 1403d5db0
+4  FUN_1403d8410 @ 1403d8410
+4  FUN_140ae4260 @ 140ae4260
+4  FUN_140ae4700 @ 140ae4700
+3  FUN_140292ee0 @ 140292ee0
+3  FUN_140caeb10 @ 140caeb10
+3  FUN_140da3220 @ 140da3220
+3  FUN_140da59c0 @ 140da59c0
+3  FUN_140da6060 @ 140da6060
+3  FUN_140da6da0 @ 140da6da0
+2  FUN_14008e7e0 @ 14008e7e0
+2  FUN_1403ac990 @ 1403ac990
+2  FUN_1403b9b60 @ 1403b9b60
+2  FUN_1403d64a0 @ 1403d64a0
+2  FUN_1403d6fb0 @ 1403d6fb0
+2  FUN_1403d75f0 @ 1403d75f0
+2  FUN_1403d7e20 @ 1403d7e20
+2  FUN_1403efee0 @ 1403efee0
+2  FUN_140404240 @ 140404240
+2  FUN_14065d150 @ 14065d150
+2  FUN_1406c8c60 @ 1406c8c60
+2  FUN_1408647d0 @ 1408647d0
+2  FUN_140867e20 @ 140867e20
+2  FUN_140867fd0 @ 140867fd0
+2  FUN_140bc00f0 @ 140bc00f0
+2  FUN_140da95f0 @ 140da95f0
+2  FUN_140daaf20 @ 140daaf20
+1  FUN_140075860 @ 140075860
+1  FUN_14008fdf0 @ 14008fdf0
+1  FUN_1400b7840 @ 1400b7840
+1  FUN_1400b7d00 @ 1400b7d00
+1  FUN_1400cd3a0 @ 1400cd3a0
+1  FUN_1400e6fb0 @ 1400e6fb0
+1  FUN_1400e74a0 @ 1400e74a0
+1  FUN_1400f1d40 @ 1400f1d40
+1  FUN_14010a390 @ 14010a390
+1  FUN_14010ba30 @ 14010ba30
+1  FUN_14010ed00 @ 14010ed00
+1  FUN_14013c5b0 @ 14013c5b0
+1  FUN_14013c620 @ 14013c620
+1  FUN_14013c6b0 @ 14013c6b0
+1  FUN_140146c30 @ 140146c30
+1  FUN_1401b0870 @ 1401b0870
+1  FUN_1401e6be0 @ 1401e6be0
+1  FUN_1401ebf20 @ 1401ebf20
+1  FUN_1401ebf90 @ 1401ebf90
+1  FUN_1401f7cf0 @ 1401f7cf0
+1  FUN_1402067a0 @ 1402067a0
+1  FUN_14020bee0 @ 14020bee0
+1  FUN_14020f780 @ 14020f780
+1  FUN_1402102d0 @ 1402102d0
+1  FUN_140286550 @ 140286550
+1  FUN_140292870 @ 140292870
+1  FUN_1402a5b70 @ 1402a5b70
+1  FUN_1402bf3b0 @ 1402bf3b0
+1  FUN_14032aa60 @ 14032aa60
+1  FUN_1403a2200 @ 1403a2200
+1  FUN_1403abbb0 @ 1403abbb0
+1  FUN_1403b7380 @ 1403b7380
+1  FUN_1403bc440 @ 1403bc440
+1  FUN_1403e5b50 @ 1403e5b50
+1  FUN_1404056f0 @ 1404056f0
+1  FUN_1404626d0 @ 1404626d0
+1  FUN_140486fc0 @ 140486fc0
+1  FUN_1404870f0 @ 1404870f0
+1  FUN_140487220 @ 140487220
+1  FUN_14048bd10 @ 14048bd10
+1  FUN_14049a540 @ 14049a540
+1  FUN_1404d1530 @ 1404d1530
+1  FUN_1405b2690 @ 1405b2690
+1  FUN_1405b76e0 @ 1405b76e0
+1  FUN_1405b80e0 @ 1405b80e0
+1  FUN_1405b8e80 @ 1405b8e80
+1  FUN_1405b9420 @ 1405b9420
+=== HEADER_PLUS8_DWORD_TOP ===
+378  FUN_14007f770 @ 14007f770
+66  FUN_140baaa20 @ 140baaa20
+65  FUN_1406b4c60 @ 1406b4c60
+64  FUN_140784f60 @ 140784f60
+50  FUN_140368790 @ 140368790
+50  FUN_140d27d10 @ 140d27d10
+47  FUN_140075b00 @ 140075b00
+46  FUN_140413f10 @ 140413f10
+43  FUN_140dabb60 @ 140dabb60
+40  FUN_140b660e0 @ 140b660e0
+38  FUN_1402fe4e0 @ 1402fe4e0
+38  FUN_1402fea70 @ 1402fea70
+38  FUN_140b793e0 @ 140b793e0
+38  FUN_140caa520 @ 140caa520
+36  FUN_1402b8210 @ 1402b8210
+36  FUN_140b189e0 @ 140b189e0
+34  FUN_1401e5680 @ 1401e5680
+32  FUN_140337ea0 @ 140337ea0
+31  FUN_140111db0 @ 140111db0
+30  FUN_1401d9560 @ 1401d9560
+30  FUN_14071bf80 @ 14071bf80
+30  FUN_140cb6690 @ 140cb6690
+30  FUN_140dad7a0 @ 140dad7a0
+29  FUN_140bb4ea0 @ 140bb4ea0
+28  FUN_1404750e0 @ 1404750e0
+28  FUN_1404d2fe0 @ 1404d2fe0
+28  FUN_140daa8f0 @ 140daa8f0
+27  FUN_140186380 @ 140186380
+27  FUN_140186cc0 @ 140186cc0
+27  FUN_140187680 @ 140187680
+27  FUN_140188100 @ 140188100
+27  FUN_140188e70 @ 140188e70
+27  FUN_140a8fcb0 @ 140a8fcb0
+27  FUN_140daaf20 @ 140daaf20
+26  FUN_14022c580 @ 14022c580
+25  FUN_1401d1bd0 @ 1401d1bd0
+25  FUN_1406d09d0 @ 1406d09d0
+25  FUN_140706f30 @ 140706f30
+24  FUN_1402133e0 @ 1402133e0
+24  FUN_14025f5b0 @ 14025f5b0
+23  FUN_1402c3b10 @ 1402c3b10
+23  FUN_1402c5f30 @ 1402c5f30
+23  FUN_1402d21c0 @ 1402d21c0
+23  FUN_1404d3c00 @ 1404d3c00
+23  FUN_14071ed20 @ 14071ed20
+23  FUN_140783890 @ 140783890
+23  FUN_140d91090 @ 140d91090
+23  FUN_140da0320 @ 140da0320
+22  FUN_1406f3340 @ 1406f3340
+22  FUN_1406f3830 @ 1406f3830
+21  FUN_1400cef60 @ 1400cef60
+21  FUN_140b17d90 @ 140b17d90
+21  FUN_140cc0e80 @ 140cc0e80
+20  FUN_1400d2e10 @ 1400d2e10
+20  FUN_140125910 @ 140125910
+20  FUN_1401e8f90 @ 1401e8f90
+20  FUN_140353460 @ 140353460
+20  FUN_140729560 @ 140729560
+20  FUN_140789ea0 @ 140789ea0
+20  FUN_140811ef0 @ 140811ef0
+20  FUN_140b1df50 @ 140b1df50
+20  FUN_140b40570 @ 140b40570
+20  FUN_140bff480 @ 140bff480
+20  FUN_140d38160 @ 140d38160
+20  FUN_140d88050 @ 140d88050
+19  FUN_1400e1be0 @ 1400e1be0
+19  FUN_140783460 @ 140783460
+19  FUN_14091f6f0 @ 14091f6f0
+19  FUN_140b9ded0 @ 140b9ded0
+18  FUN_1400cbe00 @ 1400cbe00
+18  FUN_1401eae70 @ 1401eae70
+18  FUN_1402b7f70 @ 1402b7f70
+18  FUN_1404235d0 @ 1404235d0
+18  FUN_140457290 @ 140457290
+18  FUN_14049f140 @ 14049f140
+18  FUN_1404d2230 @ 1404d2230
+18  FUN_1404d2990 @ 1404d2990
+18  FUN_1406d7fe0 @ 1406d7fe0
+18  FUN_1406fd6b0 @ 1406fd6b0
+18  FUN_140b32f80 @ 140b32f80
+=== PLUS3_CONTEXT_FOR_TOP_COMMANDLIKE_FUNCS ===
+HIT 1400777d9 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400777cf MOV byte ptr [RDI + 0x1], AL
+  CTX -2 1400777d2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400777d6 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1400777d9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400777dd MOV byte ptr [RDI + 0x3], AL
+  CTX 2 1400777e0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400777e4 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 1400777e7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400777eb MOV byte ptr [RDI + 0x5], AL
+  CTX 6 1400777ee MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400777f2 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 1400777f5 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400777dd FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 1400777d2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400777d6 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 1400777d9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400777dd MOV byte ptr [RDI + 0x3], AL
+  CTX 1 1400777e0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400777e4 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 1400777e7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400777eb MOV byte ptr [RDI + 0x5], AL
+  CTX 5 1400777ee MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400777f2 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 1400777f5 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400777f9 MOV byte ptr [RDI + 0x7], AL
+HIT 140077a2f FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077a25 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077a28 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077a2c MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077a2f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077a33 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077a36 ADD RDI, 0x4
+  CTX 3 140077a3a JMP 0x140076e9c
+  CTX 4 140077a3f CMP RDX, qword ptr [RBX + 0x18]
+  CTX 5 140077a43 JC 0x140077a5e
+  CTX 6 140077a45 MOV RCX, RBX
+  CTX 7 140077a48 CALL 0x140075a40
+  CTX 8 140077a4d TEST AL, AL
+HIT 140077a33 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077a28 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077a2c MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077a2f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077a33 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077a36 ADD RDI, 0x4
+  CTX 2 140077a3a JMP 0x140076e9c
+  CTX 3 140077a3f CMP RDX, qword ptr [RBX + 0x18]
+  CTX 4 140077a43 JC 0x140077a5e
+  CTX 5 140077a45 MOV RCX, RBX
+  CTX 6 140077a48 CALL 0x140075a40
+  CTX 7 140077a4d TEST AL, AL
+  CTX 8 140077a4f JNZ 0x140077a5a
+HIT 140077af0 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077ae6 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077ae9 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077aed MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077af0 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077af4 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077af7 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140077afb MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140077afe ADD RDI, 0x5
+  CTX 5 140077b02 JMP 0x140076e9c
+  CTX 6 140077b07 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 7 140077b0b JC 0x140077b26
+  CTX 8 140077b0d MOV RCX, RBX
+HIT 140077af4 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077ae9 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077aed MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077af0 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077af4 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077af7 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140077afb MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140077afe ADD RDI, 0x5
+  CTX 4 140077b02 JMP 0x140076e9c
+  CTX 5 140077b07 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 6 140077b0b JC 0x140077b26
+  CTX 7 140077b0d MOV RCX, RBX
+  CTX 8 140077b10 CALL 0x140075a40
+HIT 140077bb9 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077baf MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077bb2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077bb6 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077bb9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077bbd MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077bc0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140077bc4 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140077bc7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140077bcb MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140077bce ADD RDI, 0x6
+  CTX 7 140077bd2 JMP 0x140076e9c
+  CTX 8 140077bd7 CMP RDX, qword ptr [RBX + 0x18]
+HIT 140077bbd FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077bb2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077bb6 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077bb9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077bbd MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077bc0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140077bc4 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140077bc7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140077bcb MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140077bce ADD RDI, 0x6
+  CTX 6 140077bd2 JMP 0x140076e9c
+  CTX 7 140077bd7 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 8 140077bdb JC 0x140077bf6
+HIT 140077c90 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077c86 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077c89 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077c8d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077c90 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077c94 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077c97 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140077c9b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140077c9e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140077ca2 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140077ca5 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140077ca9 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140077cac ADD RDI, 0x7
+HIT 140077c94 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077c89 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077c8d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077c90 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077c94 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077c97 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140077c9b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140077c9e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140077ca2 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140077ca5 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140077ca9 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140077cac ADD RDI, 0x7
+  CTX 8 140077cb0 JMP 0x140076e9c
+HIT 140077d65 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077d5b MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077d5e MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077d62 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077d65 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077d69 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077d6c MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140077d70 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140077d73 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140077d77 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140077d7a MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140077d7e MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140077d81 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140077d69 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077d5e MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077d62 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077d65 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077d69 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077d6c MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140077d70 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140077d73 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140077d77 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140077d7a MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140077d7e MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140077d81 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140077d85 MOV byte ptr [RDI + 0x7], AL
+HIT 140077e48 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077e3e MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077e41 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077e45 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077e48 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077e4c MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077e4f MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140077e53 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140077e56 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140077e5a MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140077e5d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140077e61 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140077e64 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140077e4c FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077e41 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077e45 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077e48 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077e4c MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077e4f MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140077e53 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140077e56 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140077e5a MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140077e5d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140077e61 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140077e64 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140077e68 MOV byte ptr [RDI + 0x7], AL
+HIT 140077f33 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140077f29 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140077f2c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140077f30 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140077f33 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140077f37 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140077f3a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140077f3e MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140077f41 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140077f45 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140077f48 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140077f4c MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140077f4f MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140077f37 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140077f2c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140077f30 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140077f33 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140077f37 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140077f3a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140077f3e MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140077f41 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140077f45 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140077f48 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140077f4c MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140077f4f MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140077f53 MOV byte ptr [RDI + 0x7], AL
+HIT 14007802c FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078022 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078025 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078029 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007802c MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078030 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078033 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078037 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007803a MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007803e MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078041 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078045 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078048 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078030 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078025 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078029 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007802c MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078030 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078033 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078037 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007803a MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007803e MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078041 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078045 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078048 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007804c MOV byte ptr [RDI + 0x7], AL
+HIT 140078123 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078119 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007811c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078120 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078123 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078127 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007812a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007812e MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078131 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078135 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078138 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007813c MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007813f MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078127 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007811c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078120 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078123 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078127 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007812a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007812e MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078131 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078135 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078138 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007813c MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007813f MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078143 MOV byte ptr [RDI + 0x7], AL
+HIT 140078228 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007821e MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078221 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078225 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078228 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007822c MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007822f MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078233 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078236 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007823a MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007823d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078241 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078244 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007822c FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078221 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078225 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078228 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007822c MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007822f MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078233 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078236 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007823a MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007823d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078241 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078244 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078248 MOV byte ptr [RDI + 0x7], AL
+HIT 140078335 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007832b MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007832e MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078332 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078335 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078339 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007833c MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078340 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078343 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078347 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007834a MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007834e MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078351 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078339 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007832e MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078332 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078335 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078339 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007833c MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078340 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078343 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078347 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007834a MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007834e MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078351 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078355 MOV byte ptr [RDI + 0x7], AL
+HIT 140078450 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078446 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078449 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007844d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078450 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078454 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078457 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007845b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007845e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078462 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078465 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078469 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007846c MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078454 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078449 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007844d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078450 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078454 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078457 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007845b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007845e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078462 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078465 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078469 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007846c MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078470 MOV byte ptr [RDI + 0x7], AL
+HIT 140078569 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007855f MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078562 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078566 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078569 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007856d MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078570 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078574 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078577 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007857b MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007857e MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078582 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078585 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007856d FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078562 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078566 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078569 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007856d MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078570 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078574 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078577 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007857b MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007857e MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078582 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078585 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078589 MOV byte ptr [RDI + 0x7], AL
+HIT 140078690 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078686 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078689 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007868d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078690 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078694 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078697 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007869b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007869e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400786a2 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 1400786a5 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400786a9 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 1400786ac MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078694 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078689 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007868d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078690 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078694 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078697 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007869b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007869e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400786a2 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 1400786a5 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400786a9 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 1400786ac MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400786b0 MOV byte ptr [RDI + 0x7], AL
+HIT 1400787bf FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400787b5 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 1400787b8 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400787bc MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1400787bf MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400787c3 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 1400787c6 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400787ca MOV byte ptr [RDI + 0x4], AL
+  CTX 4 1400787cd MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400787d1 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 1400787d4 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400787d8 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 1400787db MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400787c3 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 1400787b8 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400787bc MOV byte ptr [RDI + 0x2], AL
+  CTX -1 1400787bf MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400787c3 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 1400787c6 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400787ca MOV byte ptr [RDI + 0x4], AL
+  CTX 3 1400787cd MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400787d1 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 1400787d4 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400787d8 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 1400787db MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400787df MOV byte ptr [RDI + 0x7], AL
+HIT 1400788fc FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400788f2 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 1400788f5 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400788f9 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1400788fc MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078900 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078903 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078907 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007890a MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007890e MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078911 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078915 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078918 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078900 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 1400788f5 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400788f9 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 1400788fc MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078900 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078903 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078907 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007890a MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007890e MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078911 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078915 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078918 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007891c MOV byte ptr [RDI + 0x7], AL
+HIT 140078a37 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078a2d MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078a30 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078a34 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078a37 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078a3b MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078a3e MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078a42 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078a45 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078a49 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078a4c MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078a50 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078a53 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078a3b FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078a30 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078a34 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078a37 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078a3b MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078a3e MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078a42 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078a45 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078a49 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078a4c MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078a50 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078a53 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078a57 MOV byte ptr [RDI + 0x7], AL
+HIT 140078b80 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078b76 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078b79 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078b7d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078b80 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078b84 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078b87 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078b8b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078b8e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078b92 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078b95 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078b99 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078b9c MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078b84 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078b79 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078b7d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078b80 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078b84 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078b87 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078b8b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078b8e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078b92 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078b95 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078b99 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078b9c MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078ba0 MOV byte ptr [RDI + 0x7], AL
+HIT 140078cd1 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078cc7 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078cca MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078cce MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078cd1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078cd5 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078cd8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078cdc MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078cdf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078ce3 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078ce6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078cea MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078ced MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078cd5 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078cca MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078cce MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078cd1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078cd5 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078cd8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078cdc MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078cdf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078ce3 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078ce6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078cea MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078ced MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078cf1 MOV byte ptr [RDI + 0x7], AL
+HIT 140078e30 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078e26 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078e29 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078e2d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078e30 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078e34 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078e37 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078e3b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078e3e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078e42 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078e45 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078e49 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078e4c MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078e34 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078e29 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078e2d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078e30 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078e34 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078e37 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078e3b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078e3e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078e42 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078e45 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078e49 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078e4c MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078e50 MOV byte ptr [RDI + 0x7], AL
+HIT 140078f8d FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140078f83 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140078f86 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140078f8a MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140078f8d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140078f91 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140078f94 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140078f98 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140078f9b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140078f9f MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140078fa2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140078fa6 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140078fa9 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140078f91 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140078f86 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140078f8a MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140078f8d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140078f91 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140078f94 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140078f98 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140078f9b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140078f9f MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140078fa2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140078fa6 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140078fa9 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140078fad MOV byte ptr [RDI + 0x7], AL
+HIT 1400790f8 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400790ee MOV byte ptr [RDI + 0x1], AL
+  CTX -2 1400790f1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400790f5 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1400790f8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400790fc MOV byte ptr [RDI + 0x3], AL
+  CTX 2 1400790ff MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079103 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079106 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007910a MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007910d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079111 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079114 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400790fc FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 1400790f1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400790f5 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 1400790f8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400790fc MOV byte ptr [RDI + 0x3], AL
+  CTX 1 1400790ff MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079103 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079106 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007910a MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007910d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079111 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079114 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140079118 MOV byte ptr [RDI + 0x7], AL
+HIT 14007926b FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140079261 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140079264 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140079268 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007926b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007926f MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140079272 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079276 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079279 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007927d MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140079280 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079284 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079287 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007926f FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140079264 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140079268 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007926b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007926f MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140079272 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079276 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079279 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007927d MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140079280 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079284 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079287 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007928b MOV byte ptr [RDI + 0x7], AL
+HIT 1400793ec FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400793e2 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 1400793e5 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400793e9 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1400793ec MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400793f0 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 1400793f3 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400793f7 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 1400793fa MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400793fe MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140079401 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079405 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079408 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400793f0 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 1400793e5 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400793e9 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 1400793ec MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400793f0 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 1400793f3 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400793f7 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 1400793fa MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400793fe MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140079401 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079405 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079408 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007940c MOV byte ptr [RDI + 0x7], AL
+HIT 14007956b FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140079561 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140079564 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140079568 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007956b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007956f MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140079572 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079576 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079579 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007957d MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140079580 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079584 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079587 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007956f FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140079564 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140079568 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007956b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007956f MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140079572 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079576 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079579 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007957d MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140079580 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079584 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079587 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007958b MOV byte ptr [RDI + 0x7], AL
+HIT 1400796f8 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400796ee MOV byte ptr [RDI + 0x1], AL
+  CTX -2 1400796f1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400796f5 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1400796f8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400796fc MOV byte ptr [RDI + 0x3], AL
+  CTX 2 1400796ff MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079703 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079706 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007970a MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007970d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079711 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079714 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400796fc FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 1400796f1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400796f5 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 1400796f8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400796fc MOV byte ptr [RDI + 0x3], AL
+  CTX 1 1400796ff MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079703 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079706 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007970a MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007970d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079711 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079714 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140079718 MOV byte ptr [RDI + 0x7], AL
+HIT 14007988d FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140079883 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140079886 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007988a MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007988d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140079891 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140079894 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079898 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007989b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007989f MOV byte ptr [RDI + 0x5], AL
+  CTX 6 1400798a2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400798a6 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 1400798a9 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140079891 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140079886 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007988a MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007988d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140079891 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140079894 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079898 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007989b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007989f MOV byte ptr [RDI + 0x5], AL
+  CTX 5 1400798a2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400798a6 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 1400798a9 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400798ad MOV byte ptr [RDI + 0x7], AL
+HIT 140079a30 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140079a26 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140079a29 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140079a2d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140079a30 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140079a34 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140079a37 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079a3b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079a3e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140079a42 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140079a45 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079a49 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079a4c MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140079a34 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140079a29 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140079a2d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140079a30 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140079a34 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140079a37 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079a3b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079a3e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140079a42 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140079a45 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079a49 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079a4c MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140079a50 MOV byte ptr [RDI + 0x7], AL
+HIT 140079bd1 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140079bc7 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140079bca MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140079bce MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140079bd1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140079bd5 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140079bd8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079bdc MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079bdf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140079be3 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140079be6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079bea MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079bed MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140079bd5 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140079bca MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140079bce MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140079bd1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140079bd5 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140079bd8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079bdc MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079bdf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140079be3 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140079be6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079bea MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079bed MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140079bf1 MOV byte ptr [RDI + 0x7], AL
+HIT 140079d80 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140079d76 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 140079d79 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140079d7d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 140079d80 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140079d84 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 140079d87 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140079d8b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 140079d8e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140079d92 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 140079d95 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140079d99 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 140079d9c MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140079d84 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 140079d79 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140079d7d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 140079d80 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140079d84 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 140079d87 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140079d8b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 140079d8e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140079d92 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 140079d95 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140079d99 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 140079d9c MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140079da0 MOV byte ptr [RDI + 0x7], AL
+HIT 14007aa77 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007aa6d MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007aa70 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007aa74 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007aa77 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007aa7b MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007aa7e ADD RDI, 0x4
+  CTX 3 14007aa82 JMP 0x140075d30
+  CTX 4 14007aa87 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 5 14007aa8b JC 0x14007aaa4
+  CTX 6 14007aa8d MOV RCX, RBX
+  CTX 7 14007aa90 CALL 0x140075a40
+  CTX 8 14007aa95 TEST AL, AL
+HIT 14007aa7b FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007aa70 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007aa74 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007aa77 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007aa7b MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007aa7e ADD RDI, 0x4
+  CTX 2 14007aa82 JMP 0x140075d30
+  CTX 3 14007aa87 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 4 14007aa8b JC 0x14007aaa4
+  CTX 5 14007aa8d MOV RCX, RBX
+  CTX 6 14007aa90 CALL 0x140075a40
+  CTX 7 14007aa95 TEST AL, AL
+  CTX 8 14007aa97 JNZ 0x14007aaa0
+HIT 14007aaf4 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007aaea MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007aaed MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007aaf1 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007aaf4 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007aaf8 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007aafb ADD RDI, 0x4
+  CTX 3 14007aaff JMP 0x14007e8ff
+  CTX 4 14007ab04 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 5 14007ab08 JC 0x14007ab21
+  CTX 6 14007ab0a MOV RCX, RBX
+  CTX 7 14007ab0d CALL 0x140075a40
+  CTX 8 14007ab12 TEST AL, AL
+HIT 14007aaf8 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007aaed MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007aaf1 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007aaf4 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007aaf8 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007aafb ADD RDI, 0x4
+  CTX 2 14007aaff JMP 0x14007e8ff
+  CTX 3 14007ab04 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 4 14007ab08 JC 0x14007ab21
+  CTX 5 14007ab0a MOV RCX, RBX
+  CTX 6 14007ab0d CALL 0x140075a40
+  CTX 7 14007ab12 TEST AL, AL
+  CTX 8 14007ab14 JNZ 0x14007ab1d
+HIT 14007ab71 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007ab67 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007ab6a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007ab6e MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007ab71 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007ab75 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007ab78 ADD RDI, 0x4
+  CTX 3 14007ab7c JMP 0x14007e963
+  CTX 4 14007ab81 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 5 14007ab85 JC 0x14007ab9e
+  CTX 6 14007ab87 MOV RCX, RBX
+  CTX 7 14007ab8a CALL 0x140075a40
+  CTX 8 14007ab8f TEST AL, AL
+HIT 14007ab75 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007ab6a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007ab6e MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007ab71 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007ab75 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007ab78 ADD RDI, 0x4
+  CTX 2 14007ab7c JMP 0x14007e963
+  CTX 3 14007ab81 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 4 14007ab85 JC 0x14007ab9e
+  CTX 5 14007ab87 MOV RCX, RBX
+  CTX 6 14007ab8a CALL 0x140075a40
+  CTX 7 14007ab8f TEST AL, AL
+  CTX 8 14007ab91 JNZ 0x14007ab9a
+HIT 14007abee FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007abe4 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007abe7 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007abeb MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007abee MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007abf2 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007abf5 ADD RDI, 0x4
+  CTX 3 14007abf9 JMP 0x14007e9c8
+  CTX 4 14007abfe CMP RDX, qword ptr [RBX + 0x18]
+  CTX 5 14007ac02 JC 0x14007ac1b
+  CTX 6 14007ac04 MOV RCX, RBX
+  CTX 7 14007ac07 CALL 0x140075a40
+  CTX 8 14007ac0c TEST AL, AL
+HIT 14007abf2 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007abe7 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007abeb MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007abee MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007abf2 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007abf5 ADD RDI, 0x4
+  CTX 2 14007abf9 JMP 0x14007e9c8
+  CTX 3 14007abfe CMP RDX, qword ptr [RBX + 0x18]
+  CTX 4 14007ac02 JC 0x14007ac1b
+  CTX 5 14007ac04 MOV RCX, RBX
+  CTX 6 14007ac07 CALL 0x140075a40
+  CTX 7 14007ac0c TEST AL, AL
+  CTX 8 14007ac0e JNZ 0x14007ac17
+HIT 14007b625 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007b61b MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007b61e MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007b622 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007b625 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007b629 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007b62c MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007b630 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007b633 ADD RDI, 0x5
+  CTX 5 14007b637 JMP 0x140075d30
+  CTX 6 14007b63c CMP RDX, qword ptr [RBX + 0x18]
+  CTX 7 14007b640 JC 0x14007b659
+  CTX 8 14007b642 MOV RCX, RBX
+HIT 14007b629 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007b61e MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007b622 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007b625 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007b629 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007b62c MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007b630 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007b633 ADD RDI, 0x5
+  CTX 4 14007b637 JMP 0x140075d30
+  CTX 5 14007b63c CMP RDX, qword ptr [RBX + 0x18]
+  CTX 6 14007b640 JC 0x14007b659
+  CTX 7 14007b642 MOV RCX, RBX
+  CTX 8 14007b645 CALL 0x140075a40
+HIT 14007b6b0 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007b6a6 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007b6a9 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007b6ad MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007b6b0 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007b6b4 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007b6b7 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007b6bb MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007b6be ADD RDI, 0x5
+  CTX 5 14007b6c2 JMP 0x14007e8ff
+  CTX 6 14007b6c7 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 7 14007b6cb JC 0x14007b6e4
+  CTX 8 14007b6cd MOV RCX, RBX
+HIT 14007b6b4 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007b6a9 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007b6ad MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007b6b0 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007b6b4 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007b6b7 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007b6bb MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007b6be ADD RDI, 0x5
+  CTX 4 14007b6c2 JMP 0x14007e8ff
+  CTX 5 14007b6c7 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 6 14007b6cb JC 0x14007b6e4
+  CTX 7 14007b6cd MOV RCX, RBX
+  CTX 8 14007b6d0 CALL 0x140075a40
+HIT 14007b73b FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007b731 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007b734 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007b738 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007b73b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007b73f MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007b742 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007b746 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007b749 ADD RDI, 0x5
+  CTX 5 14007b74d JMP 0x14007e963
+  CTX 6 14007b752 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 7 14007b756 JC 0x14007b76f
+  CTX 8 14007b758 MOV RCX, RBX
+HIT 14007b73f FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007b734 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007b738 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007b73b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007b73f MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007b742 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007b746 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007b749 ADD RDI, 0x5
+  CTX 4 14007b74d JMP 0x14007e963
+  CTX 5 14007b752 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 6 14007b756 JC 0x14007b76f
+  CTX 7 14007b758 MOV RCX, RBX
+  CTX 8 14007b75b CALL 0x140075a40
+HIT 14007b7c6 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007b7bc MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007b7bf MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007b7c3 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007b7c6 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007b7ca MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007b7cd MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007b7d1 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007b7d4 ADD RDI, 0x5
+  CTX 5 14007b7d8 JMP 0x14007e9c8
+  CTX 6 14007b7dd CMP RDX, qword ptr [RBX + 0x18]
+  CTX 7 14007b7e1 JC 0x14007b7fa
+  CTX 8 14007b7e3 MOV RCX, RBX
+HIT 14007b7ca FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007b7bf MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007b7c3 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007b7c6 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007b7ca MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007b7cd MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007b7d1 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007b7d4 ADD RDI, 0x5
+  CTX 4 14007b7d8 JMP 0x14007e9c8
+  CTX 5 14007b7dd CMP RDX, qword ptr [RBX + 0x18]
+  CTX 6 14007b7e1 JC 0x14007b7fa
+  CTX 7 14007b7e3 MOV RCX, RBX
+  CTX 8 14007b7e6 CALL 0x140075a40
+HIT 14007c2fd FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007c2f3 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007c2f6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007c2fa MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007c2fd MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007c301 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007c304 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007c308 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007c30b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007c30f MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007c312 ADD RDI, 0x6
+  CTX 7 14007c316 JMP 0x140075d30
+  CTX 8 14007c31b CMP RDX, qword ptr [RBX + 0x18]
+HIT 14007c301 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007c2f6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007c2fa MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007c2fd MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007c301 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007c304 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007c308 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007c30b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007c30f MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007c312 ADD RDI, 0x6
+  CTX 6 14007c316 JMP 0x140075d30
+  CTX 7 14007c31b CMP RDX, qword ptr [RBX + 0x18]
+  CTX 8 14007c31f JC 0x14007c338
+HIT 14007c390 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007c386 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007c389 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007c38d MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007c390 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007c394 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007c397 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007c39b MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007c39e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007c3a2 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007c3a5 ADD RDI, 0x6
+  CTX 7 14007c3a9 JMP 0x14007e8ff
+  CTX 8 14007c3ae CMP RDX, qword ptr [RBX + 0x18]
+HIT 14007c394 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007c389 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007c38d MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007c390 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007c394 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007c397 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007c39b MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007c39e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007c3a2 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007c3a5 ADD RDI, 0x6
+  CTX 6 14007c3a9 JMP 0x14007e8ff
+  CTX 7 14007c3ae CMP RDX, qword ptr [RBX + 0x18]
+  CTX 8 14007c3b2 JC 0x14007c3cb
+HIT 14007c423 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007c419 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007c41c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007c420 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007c423 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007c427 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007c42a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007c42e MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007c431 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007c435 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007c438 ADD RDI, 0x6
+  CTX 7 14007c43c JMP 0x14007e963
+  CTX 8 14007c441 CMP RDX, qword ptr [RBX + 0x18]
+HIT 14007c427 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007c41c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007c420 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007c423 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007c427 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007c42a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007c42e MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007c431 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007c435 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007c438 ADD RDI, 0x6
+  CTX 6 14007c43c JMP 0x14007e963
+  CTX 7 14007c441 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 8 14007c445 JC 0x14007c45e
+HIT 14007c4b6 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007c4ac MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007c4af MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007c4b3 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007c4b6 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007c4ba MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007c4bd MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007c4c1 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007c4c4 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007c4c8 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007c4cb ADD RDI, 0x6
+  CTX 7 14007c4cf JMP 0x14007e9c8
+  CTX 8 14007c4d4 CMP RDX, qword ptr [RBX + 0x18]
+HIT 14007c4ba FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007c4af MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007c4b3 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007c4b6 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007c4ba MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007c4bd MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007c4c1 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007c4c4 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007c4c8 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007c4cb ADD RDI, 0x6
+  CTX 6 14007c4cf JMP 0x14007e9c8
+  CTX 7 14007c4d4 CMP RDX, qword ptr [RBX + 0x18]
+  CTX 8 14007c4d8 JC 0x14007c4f1
+HIT 14007d01f FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007d015 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007d018 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007d01c MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007d01f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007d023 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007d026 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007d02a MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007d02d MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007d031 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007d034 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007d038 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007d03b ADD RDI, 0x7
+HIT 14007d023 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007d018 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007d01c MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007d01f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007d023 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007d026 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007d02a MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007d02d MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007d031 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007d034 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007d038 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007d03b ADD RDI, 0x7
+  CTX 8 14007d03f JMP 0x140075d30
+HIT 14007d0c0 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007d0b6 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007d0b9 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007d0bd MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007d0c0 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007d0c4 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007d0c7 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007d0cb MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007d0ce MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007d0d2 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007d0d5 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007d0d9 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007d0dc ADD RDI, 0x7
+HIT 14007d0c4 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007d0b9 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007d0bd MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007d0c0 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007d0c4 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007d0c7 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007d0cb MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007d0ce MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007d0d2 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007d0d5 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007d0d9 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007d0dc ADD RDI, 0x7
+  CTX 8 14007d0e0 JMP 0x14007e8ff
+HIT 14007d161 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007d157 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007d15a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007d15e MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007d161 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007d165 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007d168 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007d16c MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007d16f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007d173 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007d176 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007d17a MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007d17d ADD RDI, 0x7
+HIT 14007d165 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007d15a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007d15e MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007d161 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007d165 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007d168 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007d16c MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007d16f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007d173 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007d176 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007d17a MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007d17d ADD RDI, 0x7
+  CTX 8 14007d181 JMP 0x14007e963
+HIT 14007d202 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007d1f8 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007d1fb MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007d1ff MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007d202 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007d206 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007d209 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007d20d MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007d210 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007d214 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007d217 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007d21b MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007d21e ADD RDI, 0x7
+HIT 14007d206 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007d1fb MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007d1ff MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007d202 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007d206 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007d209 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007d20d MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007d210 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007d214 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007d217 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007d21b MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007d21e ADD RDI, 0x7
+  CTX 8 14007d222 JMP 0x14007e9c8
+HIT 14007dd52 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007dd48 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007dd4b MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007dd4f MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007dd52 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007dd56 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007dd59 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007dd5d MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007dd60 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007dd64 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007dd67 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007dd6b MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007dd6e MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007dd56 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007dd4b MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007dd4f MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007dd52 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007dd56 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007dd59 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007dd5d MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007dd60 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007dd64 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007dd67 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007dd6b MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007dd6e MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007dd72 MOV byte ptr [RDI + 0x7], AL
+HIT 14007dded FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007dde3 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007dde6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007ddea MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007dded MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007ddf1 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007ddf4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007ddf8 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007ddfb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007ddff MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007de02 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007de06 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007de09 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007ddf1 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007dde6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007ddea MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007dded MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007ddf1 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007ddf4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007ddf8 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007ddfb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007ddff MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007de02 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007de06 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007de09 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007de0d MOV byte ptr [RDI + 0x7], AL
+HIT 14007de84 FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007de7a MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007de7d MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007de81 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007de84 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007de88 MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007de8b MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007de8f MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007de92 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007de96 MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007de99 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007de9d MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007dea0 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007de88 FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007de7d MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007de81 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007de84 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007de88 MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007de8b MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007de8f MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007de92 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007de96 MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007de99 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007de9d MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007dea0 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007dea4 MOV byte ptr [RDI + 0x7], AL
+HIT 14007df1b FUNC FUN_140075b00 @ 140075b00 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14007df11 MOV byte ptr [RDI + 0x1], AL
+  CTX -2 14007df14 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14007df18 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 14007df1b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14007df1f MOV byte ptr [RDI + 0x3], AL
+  CTX 2 14007df22 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14007df26 MOV byte ptr [RDI + 0x4], AL
+  CTX 4 14007df29 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14007df2d MOV byte ptr [RDI + 0x5], AL
+  CTX 6 14007df30 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14007df34 MOV byte ptr [RDI + 0x6], AL
+  CTX 8 14007df37 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14007df1f FUNC FUN_140075b00 @ 140075b00 :: MOV byte ptr [RDI + 0x3], AL
+  CTX -3 14007df14 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14007df18 MOV byte ptr [RDI + 0x2], AL
+  CTX -1 14007df1b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14007df1f MOV byte ptr [RDI + 0x3], AL
+  CTX 1 14007df22 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14007df26 MOV byte ptr [RDI + 0x4], AL
+  CTX 3 14007df29 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14007df2d MOV byte ptr [RDI + 0x5], AL
+  CTX 5 14007df30 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14007df34 MOV byte ptr [RDI + 0x6], AL
+  CTX 7 14007df37 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14007df3b MOV byte ptr [RDI + 0x7], AL
+HIT 140081db9 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140081daf MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140081db2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140081db6 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140081db9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140081dbd MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140081dc0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140081dc4 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140081dc7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140081dcb MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140081dce MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140081dd2 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140081dd5 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140081dbd FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140081db2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140081db6 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140081db9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140081dbd MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140081dc0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140081dc4 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140081dc7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140081dcb MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140081dce MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140081dd2 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140081dd5 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140081dd9 MOV byte ptr [RSI + 0x7], AL
+HIT 140082090 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082086 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082089 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008208d MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082090 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082094 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082097 ADD RSI, R13
+  CTX 3 14008209a JMP 0x1400810c8
+  CTX 4 14008209f CMP EDX, dword ptr [RBX + 0xc]
+  CTX 5 1400820a2 JGE 0x1400820b9
+  CTX 6 1400820a4 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 7 1400820ab MOVSXD RCX, EDX
+  CTX 8 1400820ae INC EDX
+HIT 140082094 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082089 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008208d MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082090 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082094 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082097 ADD RSI, R13
+  CTX 2 14008209a JMP 0x1400810c8
+  CTX 3 14008209f CMP EDX, dword ptr [RBX + 0xc]
+  CTX 4 1400820a2 JGE 0x1400820b9
+  CTX 5 1400820a4 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 6 1400820ab MOVSXD RCX, EDX
+  CTX 7 1400820ae INC EDX
+  CTX 8 1400820b0 MOVZX EBP, byte ptr [RCX + RAX*0x1]
+HIT 140082191 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082187 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008218a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008218e MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082191 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082195 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082198 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008219c MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008219f ADD RSI, 0x5
+  CTX 5 1400821a3 JMP 0x1400810c8
+  CTX 6 1400821a8 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 7 1400821ab JGE 0x1400821c2
+  CTX 8 1400821ad MOV RAX, qword ptr [RBX + 0x2028]
+HIT 140082195 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008218a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008218e MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082191 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082195 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082198 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008219c MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008219f ADD RSI, 0x5
+  CTX 4 1400821a3 JMP 0x1400810c8
+  CTX 5 1400821a8 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 6 1400821ab JGE 0x1400821c2
+  CTX 7 1400821ad MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 8 1400821b4 MOVSXD RCX, EDX
+HIT 14008229b FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082291 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082294 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082298 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008229b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008229f MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400822a2 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400822a6 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400822a9 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400822ad MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400822b0 ADD RSI, 0x6
+  CTX 7 1400822b4 JMP 0x1400810c8
+  CTX 8 1400822b9 CMP EDX, dword ptr [RBX + 0xc]
+HIT 14008229f FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082294 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082298 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008229b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008229f MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400822a2 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400822a6 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400822a9 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400822ad MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400822b0 ADD RSI, 0x6
+  CTX 6 1400822b4 JMP 0x1400810c8
+  CTX 7 1400822b9 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 8 1400822bc JGE 0x1400822d3
+HIT 1400823b3 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400823a9 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400823ac MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400823b0 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400823b3 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400823b7 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400823ba MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400823be MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400823c1 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400823c5 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400823c8 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400823cc MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400823cf ADD RSI, 0x7
+HIT 1400823b7 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400823ac MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400823b0 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400823b3 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400823b7 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400823ba MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400823be MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400823c1 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400823c5 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400823c8 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400823cc MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400823cf ADD RSI, 0x7
+  CTX 8 1400823d3 JMP 0x1400810c8
+HIT 1400824c9 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400824bf MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400824c2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400824c6 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400824c9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400824cd MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400824d0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400824d4 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400824d7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400824db MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400824de MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400824e2 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400824e5 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400824cd FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400824c2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400824c6 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400824c9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400824cd MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400824d0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400824d4 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400824d7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400824db MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400824de MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400824e2 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400824e5 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400824e9 MOV byte ptr [RSI + 0x7], AL
+HIT 1400825ed FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400825e3 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400825e6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400825ea MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400825ed MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400825f1 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400825f4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400825f8 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400825fb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400825ff MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140082602 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140082606 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140082609 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400825f1 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400825e6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400825ea MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400825ed MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400825f1 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400825f4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400825f8 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400825fb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400825ff MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140082602 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140082606 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140082609 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008260d MOV byte ptr [RSI + 0x7], AL
+HIT 140082719 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008270f MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082712 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082716 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082719 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008271d MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082720 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140082724 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082727 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008272b MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008272e MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140082732 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140082735 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008271d FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082712 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082716 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082719 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008271d MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082720 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140082724 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082727 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008272b MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008272e MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140082732 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140082735 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140082739 MOV byte ptr [RSI + 0x7], AL
+HIT 140082853 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082849 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008284c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082850 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082853 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082857 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008285a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008285e MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082861 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140082865 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140082868 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008286c MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008286f MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140082857 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008284c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082850 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082853 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082857 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008285a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008285e MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082861 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140082865 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140082868 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008286c MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008286f MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140082873 MOV byte ptr [RSI + 0x7], AL
+HIT 14008298b FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082981 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082984 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082988 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008298b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008298f MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082992 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140082996 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082999 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008299d MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400829a0 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400829a4 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400829a7 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008298f FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082984 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082988 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008298b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008298f MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082992 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140082996 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082999 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008299d MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400829a0 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400829a4 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400829a7 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400829ab MOV byte ptr [RSI + 0x7], AL
+HIT 140082ad1 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082ac7 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082aca MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082ace MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082ad1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082ad5 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082ad8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140082adc MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082adf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140082ae3 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140082ae6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140082aea MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140082aed MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140082ad5 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082aca MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082ace MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082ad1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082ad5 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082ad8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140082adc MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082adf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140082ae3 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140082ae6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140082aea MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140082aed MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140082af1 MOV byte ptr [RSI + 0x7], AL
+HIT 140082c1f FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082c15 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082c18 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082c1c MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082c1f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082c23 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082c26 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140082c2a MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082c2d MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140082c31 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140082c34 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140082c38 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140082c3b MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140082c23 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082c18 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082c1c MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082c1f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082c23 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082c26 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140082c2a MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082c2d MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140082c31 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140082c34 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140082c38 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140082c3b MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140082c3f MOV byte ptr [RSI + 0x7], AL
+HIT 140082d7b FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082d71 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082d74 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082d78 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082d7b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082d7f MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082d82 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140082d86 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082d89 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140082d8d MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140082d90 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140082d94 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140082d97 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140082d7f FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082d74 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082d78 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082d7b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082d7f MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082d82 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140082d86 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082d89 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140082d8d MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140082d90 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140082d94 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140082d97 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140082d9b MOV byte ptr [RSI + 0x7], AL
+HIT 140082ed5 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140082ecb MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140082ece MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140082ed2 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140082ed5 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140082ed9 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140082edc MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140082ee0 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140082ee3 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140082ee7 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140082eea MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140082eee MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140082ef1 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140082ed9 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140082ece MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140082ed2 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140082ed5 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140082ed9 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140082edc MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140082ee0 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140082ee3 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140082ee7 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140082eea MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140082eee MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140082ef1 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140082ef5 MOV byte ptr [RSI + 0x7], AL
+HIT 14008303d FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083033 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140083036 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008303a MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008303d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140083041 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140083044 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140083048 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008304b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008304f MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083052 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140083056 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140083059 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140083041 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140083036 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008303a MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008303d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140083041 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140083044 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140083048 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008304b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008304f MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083052 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140083056 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140083059 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008305d MOV byte ptr [RSI + 0x7], AL
+HIT 1400831ad FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400831a3 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400831a6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400831aa MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400831ad MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400831b1 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400831b4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400831b8 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400831bb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400831bf MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400831c2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400831c6 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400831c9 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400831b1 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400831a6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400831aa MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400831ad MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400831b1 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400831b4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400831b8 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400831bb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400831bf MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400831c2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400831c6 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400831c9 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400831cd MOV byte ptr [RSI + 0x7], AL
+HIT 14008332b FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083321 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140083324 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140083328 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008332b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008332f MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140083332 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140083336 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140083339 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008333d MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083340 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140083344 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140083347 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008332f FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140083324 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140083328 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008332b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008332f MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140083332 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140083336 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140083339 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008333d MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083340 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140083344 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140083347 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008334b MOV byte ptr [RSI + 0x7], AL
+HIT 1400834a7 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008349d MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400834a0 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400834a4 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400834a7 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400834ab MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400834ae MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400834b2 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400834b5 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400834b9 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400834bc MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400834c0 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400834c3 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400834ab FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400834a0 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400834a4 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400834a7 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400834ab MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400834ae MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400834b2 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400834b5 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400834b9 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400834bc MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400834c0 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400834c3 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400834c7 MOV byte ptr [RSI + 0x7], AL
+HIT 140083631 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083627 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008362a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008362e MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140083631 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140083635 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140083638 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008363c MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008363f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140083643 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083646 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008364a MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008364d MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140083635 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008362a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008362e MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140083631 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140083635 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140083638 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008363c MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008363f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140083643 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083646 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008364a MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008364d MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140083651 MOV byte ptr [RSI + 0x7], AL
+HIT 1400837c3 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400837b9 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400837bc MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400837c0 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400837c3 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400837c7 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400837ca MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400837ce MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400837d1 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400837d5 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400837d8 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400837dc MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400837df MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400837c7 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400837bc MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400837c0 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400837c3 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400837c7 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400837ca MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400837ce MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400837d1 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400837d5 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400837d8 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400837dc MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400837df MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400837e3 MOV byte ptr [RSI + 0x7], AL
+HIT 140083963 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083959 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008395c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140083960 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140083963 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140083967 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008396a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008396e MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140083971 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140083975 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083978 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008397c MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008397f MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140083967 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008395c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140083960 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140083963 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140083967 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008396a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008396e MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140083971 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140083975 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083978 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008397c MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008397f MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140083983 MOV byte ptr [RSI + 0x7], AL
+HIT 140083b01 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083af7 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140083afa MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140083afe MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140083b01 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140083b05 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140083b08 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140083b0c MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140083b0f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140083b13 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083b16 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140083b1a MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140083b1d MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140083b05 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140083afa MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140083afe MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140083b01 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140083b05 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140083b08 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140083b0c MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140083b0f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140083b13 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083b16 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140083b1a MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140083b1d MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140083b21 MOV byte ptr [RSI + 0x7], AL
+HIT 140083cad FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083ca3 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140083ca6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140083caa MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140083cad MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140083cb1 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140083cb4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140083cb8 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140083cbb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140083cbf MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083cc2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140083cc6 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140083cc9 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140083cb1 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140083ca6 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140083caa MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140083cad MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140083cb1 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140083cb4 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140083cb8 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140083cbb MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140083cbf MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083cc2 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140083cc6 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140083cc9 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140083ccd MOV byte ptr [RSI + 0x7], AL
+HIT 140083e61 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140083e57 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140083e5a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140083e5e MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140083e61 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140083e65 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140083e68 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140083e6c MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140083e6f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140083e73 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140083e76 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140083e7a MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140083e7d MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140083e65 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140083e5a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140083e5e MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140083e61 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140083e65 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140083e68 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140083e6c MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140083e6f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140083e73 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140083e76 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140083e7a MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140083e7d MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140083e81 MOV byte ptr [RSI + 0x7], AL
+HIT 140084023 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140084019 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008401c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140084020 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140084023 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140084027 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008402a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008402e MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140084031 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140084035 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140084038 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008403c MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008403f MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140084027 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008401c MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140084020 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140084023 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140084027 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008402a MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008402e MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140084031 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140084035 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140084038 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008403c MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008403f MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140084043 MOV byte ptr [RSI + 0x7], AL
+HIT 1400841e3 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400841d9 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400841dc MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400841e0 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400841e3 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400841e7 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400841ea MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400841ee MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400841f1 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400841f5 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400841f8 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400841fc MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400841ff MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400841e7 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400841dc MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400841e0 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400841e3 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400841e7 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400841ea MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400841ee MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400841f1 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400841f5 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400841f8 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400841fc MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400841ff MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140084203 MOV byte ptr [RSI + 0x7], AL
+HIT 1400843b1 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400843a7 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400843aa MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400843ae MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400843b1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400843b5 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400843b8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400843bc MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400843bf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400843c3 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400843c6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400843ca MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400843cd MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 1400843b5 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400843aa MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400843ae MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400843b1 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400843b5 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400843b8 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400843bc MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400843bf MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400843c3 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400843c6 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400843ca MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400843cd MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400843d1 MOV byte ptr [RSI + 0x7], AL
+HIT 140084587 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008457d MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140084580 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140084584 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140084587 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008458b MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008458e MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140084592 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140084595 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140084599 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008459c MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400845a0 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400845a3 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008458b FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140084580 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140084584 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140084587 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008458b MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008458e MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140084592 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140084595 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140084599 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008459c MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400845a0 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400845a3 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 1400845a7 MOV byte ptr [RSI + 0x7], AL
+HIT 14008476b FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140084761 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140084764 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140084768 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008476b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008476f MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140084772 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140084776 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140084779 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008477d MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140084780 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140084784 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140084787 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008476f FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140084764 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140084768 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008476b MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008476f MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140084772 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140084776 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140084779 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008477d MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140084780 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140084784 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140084787 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008478b MOV byte ptr [RSI + 0x7], AL
+HIT 14008494d FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140084943 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140084946 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008494a MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008494d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140084951 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140084954 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140084958 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008495b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008495f MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140084962 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140084966 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140084969 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140084951 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140084946 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008494a MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008494d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140084951 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140084954 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140084958 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008495b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008495f MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140084962 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140084966 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140084969 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008496d MOV byte ptr [RSI + 0x7], AL
+HIT 140084b3d FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140084b33 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140084b36 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140084b3a MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140084b3d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140084b41 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140084b44 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140084b48 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140084b4b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140084b4f MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140084b52 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140084b56 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140084b59 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 140084b41 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140084b36 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140084b3a MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140084b3d MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140084b41 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140084b44 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140084b48 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140084b4b MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140084b4f MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140084b52 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140084b56 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140084b59 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 140084b5d MOV byte ptr [RSI + 0x7], AL
+HIT 140085cb5 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140085cab MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140085cae MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140085cb2 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140085cb5 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140085cb9 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140085cbc ADD RSI, R13
+  CTX 3 140085cbf JMP 0x14007f9c0
+  CTX 4 140085cc4 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 5 140085cc7 JGE 0x140085ce0
+  CTX 6 140085cc9 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 7 140085cd0 MOVSXD RCX, EDX
+  CTX 8 140085cd3 MOVZX R8D, byte ptr [RCX + RAX*0x1]
+HIT 140085cb9 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140085cae MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140085cb2 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140085cb5 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140085cb9 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140085cbc ADD RSI, R13
+  CTX 2 140085cbf JMP 0x14007f9c0
+  CTX 3 140085cc4 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 4 140085cc7 JGE 0x140085ce0
+  CTX 5 140085cc9 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 6 140085cd0 MOVSXD RCX, EDX
+  CTX 7 140085cd3 MOVZX R8D, byte ptr [RCX + RAX*0x1]
+  CTX 8 140085cd8 LEA EAX, [RDX + 0x1]
+HIT 140085d50 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140085d46 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140085d49 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140085d4d MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140085d50 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140085d54 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140085d57 ADD RSI, R13
+  CTX 3 140085d5a JMP 0x14008b057
+  CTX 4 140085d5f CMP EDX, dword ptr [RBX + 0xc]
+  CTX 5 140085d62 JGE 0x140085d7b
+  CTX 6 140085d64 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 7 140085d6b MOVSXD RCX, EDX
+  CTX 8 140085d6e MOVZX R8D, byte ptr [RCX + RAX*0x1]
+HIT 140085d54 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140085d49 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140085d4d MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140085d50 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140085d54 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140085d57 ADD RSI, R13
+  CTX 2 140085d5a JMP 0x14008b057
+  CTX 3 140085d5f CMP EDX, dword ptr [RBX + 0xc]
+  CTX 4 140085d62 JGE 0x140085d7b
+  CTX 5 140085d64 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 6 140085d6b MOVSXD RCX, EDX
+  CTX 7 140085d6e MOVZX R8D, byte ptr [RCX + RAX*0x1]
+  CTX 8 140085d73 LEA EAX, [RDX + 0x1]
+HIT 140085deb FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140085de1 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140085de4 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140085de8 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140085deb MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140085def MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140085df2 ADD RSI, R13
+  CTX 3 140085df5 JMP 0x14008b0dd
+  CTX 4 140085dfa CMP EDX, dword ptr [RBX + 0xc]
+  CTX 5 140085dfd JGE 0x140085e16
+  CTX 6 140085dff MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 7 140085e06 MOVSXD RCX, EDX
+  CTX 8 140085e09 MOVZX R8D, byte ptr [RCX + RAX*0x1]
+HIT 140085def FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140085de4 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140085de8 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140085deb MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140085def MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140085df2 ADD RSI, R13
+  CTX 2 140085df5 JMP 0x14008b0dd
+  CTX 3 140085dfa CMP EDX, dword ptr [RBX + 0xc]
+  CTX 4 140085dfd JGE 0x140085e16
+  CTX 5 140085dff MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 6 140085e06 MOVSXD RCX, EDX
+  CTX 7 140085e09 MOVZX R8D, byte ptr [RCX + RAX*0x1]
+  CTX 8 140085e0e LEA EAX, [RDX + 0x1]
+HIT 140085e86 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140085e7c MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140085e7f MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140085e83 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140085e86 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140085e8a MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140085e8d ADD RSI, R13
+  CTX 3 140085e90 JMP 0x14008b164
+  CTX 4 140085e95 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 5 140085e98 JGE 0x140085eb1
+  CTX 6 140085e9a MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 7 140085ea1 MOVSXD RCX, EDX
+  CTX 8 140085ea4 MOVZX R8D, byte ptr [RCX + RAX*0x1]
+HIT 140085e8a FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140085e7f MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140085e83 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140085e86 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140085e8a MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140085e8d ADD RSI, R13
+  CTX 2 140085e90 JMP 0x14008b164
+  CTX 3 140085e95 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 4 140085e98 JGE 0x140085eb1
+  CTX 5 140085e9a MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 6 140085ea1 MOVSXD RCX, EDX
+  CTX 7 140085ea4 MOVZX R8D, byte ptr [RCX + RAX*0x1]
+  CTX 8 140085ea9 LEA EAX, [RDX + 0x1]
+HIT 140086c8f FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140086c85 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140086c88 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140086c8c MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140086c8f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140086c93 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140086c96 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140086c9a MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140086c9d ADD RSI, 0x5
+  CTX 5 140086ca1 JMP 0x14007f9c0
+  CTX 6 140086ca6 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 7 140086ca9 JGE 0x140086cc2
+  CTX 8 140086cab MOV RAX, qword ptr [RBX + 0x2028]
+HIT 140086c93 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140086c88 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140086c8c MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140086c8f MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140086c93 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140086c96 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140086c9a MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140086c9d ADD RSI, 0x5
+  CTX 4 140086ca1 JMP 0x14007f9c0
+  CTX 5 140086ca6 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 6 140086ca9 JGE 0x140086cc2
+  CTX 7 140086cab MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 8 140086cb2 MOVSXD RCX, EDX
+HIT 140086d3a FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140086d30 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140086d33 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140086d37 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140086d3a MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140086d3e MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140086d41 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140086d45 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140086d48 ADD RSI, 0x5
+  CTX 5 140086d4c JMP 0x14008b057
+  CTX 6 140086d51 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 7 140086d54 JGE 0x140086d6d
+  CTX 8 140086d56 MOV RAX, qword ptr [RBX + 0x2028]
+HIT 140086d3e FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140086d33 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140086d37 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140086d3a MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140086d3e MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140086d41 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140086d45 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140086d48 ADD RSI, 0x5
+  CTX 4 140086d4c JMP 0x14008b057
+  CTX 5 140086d51 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 6 140086d54 JGE 0x140086d6d
+  CTX 7 140086d56 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 8 140086d5d MOVSXD RCX, EDX
+HIT 140086de5 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140086ddb MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140086dde MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140086de2 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140086de5 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140086de9 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140086dec MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140086df0 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140086df3 ADD RSI, 0x5
+  CTX 5 140086df7 JMP 0x14008b0dd
+  CTX 6 140086dfc CMP EDX, dword ptr [RBX + 0xc]
+  CTX 7 140086dff JGE 0x140086e18
+  CTX 8 140086e01 MOV RAX, qword ptr [RBX + 0x2028]
+HIT 140086de9 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140086dde MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140086de2 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140086de5 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140086de9 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140086dec MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140086df0 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140086df3 ADD RSI, 0x5
+  CTX 4 140086df7 JMP 0x14008b0dd
+  CTX 5 140086dfc CMP EDX, dword ptr [RBX + 0xc]
+  CTX 6 140086dff JGE 0x140086e18
+  CTX 7 140086e01 MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 8 140086e08 MOVSXD RCX, EDX
+HIT 140086e90 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140086e86 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140086e89 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140086e8d MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140086e90 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140086e94 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140086e97 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140086e9b MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140086e9e ADD RSI, 0x5
+  CTX 5 140086ea2 JMP 0x14008b164
+  CTX 6 140086ea7 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 7 140086eaa JGE 0x140086ec3
+  CTX 8 140086eac MOV RAX, qword ptr [RBX + 0x2028]
+HIT 140086e94 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140086e89 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140086e8d MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140086e90 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140086e94 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140086e97 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140086e9b MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140086e9e ADD RSI, 0x5
+  CTX 4 140086ea2 JMP 0x14008b164
+  CTX 5 140086ea7 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 6 140086eaa JGE 0x140086ec3
+  CTX 7 140086eac MOV RAX, qword ptr [RBX + 0x2028]
+  CTX 8 140086eb3 MOVSXD RCX, EDX
+HIT 140087dbe FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140087db4 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140087db7 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140087dbb MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140087dbe MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140087dc2 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140087dc5 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140087dc9 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140087dcc MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140087dd0 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140087dd3 ADD RSI, 0x6
+  CTX 7 140087dd7 JMP 0x14007f9c0
+  CTX 8 140087ddc CMP EDX, dword ptr [RBX + 0xc]
+HIT 140087dc2 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140087db7 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140087dbb MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140087dbe MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140087dc2 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140087dc5 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140087dc9 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140087dcc MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140087dd0 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140087dd3 ADD RSI, 0x6
+  CTX 6 140087dd7 JMP 0x14007f9c0
+  CTX 7 140087ddc CMP EDX, dword ptr [RBX + 0xc]
+  CTX 8 140087ddf JGE 0x140087df8
+HIT 140087e71 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140087e67 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140087e6a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140087e6e MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140087e71 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140087e75 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140087e78 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140087e7c MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140087e7f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140087e83 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140087e86 ADD RSI, 0x6
+  CTX 7 140087e8a JMP 0x14008b057
+  CTX 8 140087e8f CMP EDX, dword ptr [RBX + 0xc]
+HIT 140087e75 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140087e6a MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140087e6e MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140087e71 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140087e75 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140087e78 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140087e7c MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140087e7f MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140087e83 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140087e86 ADD RSI, 0x6
+  CTX 6 140087e8a JMP 0x14008b057
+  CTX 7 140087e8f CMP EDX, dword ptr [RBX + 0xc]
+  CTX 8 140087e92 JGE 0x140087eab
+HIT 140087f24 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140087f1a MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140087f1d MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140087f21 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140087f24 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140087f28 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140087f2b MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140087f2f MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140087f32 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140087f36 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140087f39 ADD RSI, 0x6
+  CTX 7 140087f3d JMP 0x14008b0dd
+  CTX 8 140087f42 CMP EDX, dword ptr [RBX + 0xc]
+HIT 140087f28 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140087f1d MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140087f21 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140087f24 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140087f28 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140087f2b MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140087f2f MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140087f32 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140087f36 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140087f39 ADD RSI, 0x6
+  CTX 6 140087f3d JMP 0x14008b0dd
+  CTX 7 140087f42 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 8 140087f45 JGE 0x140087f5e
+HIT 140087fd7 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140087fcd MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140087fd0 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140087fd4 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140087fd7 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140087fdb MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140087fde MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140087fe2 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140087fe5 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140087fe9 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140087fec ADD RSI, 0x6
+  CTX 7 140087ff0 JMP 0x14008b164
+  CTX 8 140087ff5 CMP EDX, dword ptr [RBX + 0xc]
+HIT 140087fdb FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140087fd0 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140087fd4 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140087fd7 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140087fdb MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140087fde MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140087fe2 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140087fe5 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140087fe9 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140087fec ADD RSI, 0x6
+  CTX 6 140087ff0 JMP 0x14008b164
+  CTX 7 140087ff5 CMP EDX, dword ptr [RBX + 0xc]
+  CTX 8 140087ff8 JGE 0x140088011
+HIT 140088f37 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140088f2d MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140088f30 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140088f34 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140088f37 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140088f3b MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140088f3e MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140088f42 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140088f45 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 140088f49 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 140088f4c MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140088f50 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140088f53 ADD RSI, 0x7
+HIT 140088f3b FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140088f30 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140088f34 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140088f37 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140088f3b MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140088f3e MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140088f42 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140088f45 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 140088f49 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 140088f4c MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140088f50 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140088f53 ADD RSI, 0x7
+  CTX 8 140088f57 JMP 0x14007f9c0
+HIT 140088ff8 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140088fee MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140088ff1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140088ff5 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 140088ff8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140088ffc MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140088fff MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140089003 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140089006 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008900a MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008900d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140089011 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140089014 ADD RSI, 0x7
+HIT 140088ffc FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140088ff1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140088ff5 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 140088ff8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 140088ffc MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140088fff MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140089003 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140089006 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008900a MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008900d MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140089011 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140089014 ADD RSI, 0x7
+  CTX 8 140089018 JMP 0x14008b057
+HIT 1400890b9 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1400890af MOV byte ptr [RSI + 0x1], AL
+  CTX -2 1400890b2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1400890b6 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 1400890b9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1400890bd MOV byte ptr [RSI + 0x3], AL
+  CTX 2 1400890c0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1400890c4 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 1400890c7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 1400890cb MOV byte ptr [RSI + 0x5], AL
+  CTX 6 1400890ce MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 1400890d2 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 1400890d5 ADD RSI, 0x7
+HIT 1400890bd FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 1400890b2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 1400890b6 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 1400890b9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 1400890bd MOV byte ptr [RSI + 0x3], AL
+  CTX 1 1400890c0 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 1400890c4 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 1400890c7 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 1400890cb MOV byte ptr [RSI + 0x5], AL
+  CTX 5 1400890ce MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 1400890d2 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 1400890d5 ADD RSI, 0x7
+  CTX 8 1400890d9 JMP 0x14008b0dd
+HIT 14008917a FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140089170 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 140089173 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140089177 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008917a MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008917e MOV byte ptr [RSI + 0x3], AL
+  CTX 2 140089181 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 140089185 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 140089188 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008918c MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008918f MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 140089193 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 140089196 ADD RSI, 0x7
+HIT 14008917e FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 140089173 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 140089177 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008917a MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008917e MOV byte ptr [RSI + 0x3], AL
+  CTX 1 140089181 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 140089185 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 140089188 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008918c MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008918f MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 140089193 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 140089196 ADD RSI, 0x7
+  CTX 8 14008919a JMP 0x14008b164
+HIT 14008a0be FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008a0b4 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008a0b7 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008a0bb MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008a0be MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008a0c2 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008a0c5 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008a0c9 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008a0cc MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008a0d0 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008a0d3 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008a0d7 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008a0da MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008a0c2 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008a0b7 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008a0bb MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008a0be MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008a0c2 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008a0c5 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008a0c9 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008a0cc MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008a0d0 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008a0d3 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008a0d7 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008a0da MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008a0de MOV byte ptr [RSI + 0x7], AL
+HIT 14008a179 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008a16f MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008a172 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008a176 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008a179 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008a17d MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008a180 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008a184 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008a187 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008a18b MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008a18e MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008a192 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008a195 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008a17d FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008a172 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008a176 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008a179 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008a17d MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008a180 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008a184 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008a187 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008a18b MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008a18e MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008a192 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008a195 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008a199 MOV byte ptr [RSI + 0x7], AL
+HIT 14008a230 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008a226 MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008a229 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008a22d MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008a230 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008a234 MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008a237 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008a23b MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008a23e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008a242 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008a245 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008a249 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008a24c MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008a234 FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008a229 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008a22d MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008a230 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008a234 MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008a237 MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008a23b MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008a23e MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008a242 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008a245 MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008a249 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008a24c MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008a250 MOV byte ptr [RSI + 0x7], AL
+HIT 14008a2e7 FUNC FUN_14007f770 @ 14007f770 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14008a2dd MOV byte ptr [RSI + 0x1], AL
+  CTX -2 14008a2e0 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 14008a2e4 MOV byte ptr [RSI + 0x2], AL
+  CTX 0 14008a2e7 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 14008a2eb MOV byte ptr [RSI + 0x3], AL
+  CTX 2 14008a2ee MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14008a2f2 MOV byte ptr [RSI + 0x4], AL
+  CTX 4 14008a2f5 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 5 14008a2f9 MOV byte ptr [RSI + 0x5], AL
+  CTX 6 14008a2fc MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 7 14008a300 MOV byte ptr [RSI + 0x6], AL
+  CTX 8 14008a303 MOVZX EAX, byte ptr [RCX + 0x7]
+HIT 14008a2eb FUNC FUN_14007f770 @ 14007f770 :: MOV byte ptr [RSI + 0x3], AL
+  CTX -3 14008a2e0 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -2 14008a2e4 MOV byte ptr [RSI + 0x2], AL
+  CTX -1 14008a2e7 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 0 14008a2eb MOV byte ptr [RSI + 0x3], AL
+  CTX 1 14008a2ee MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 2 14008a2f2 MOV byte ptr [RSI + 0x4], AL
+  CTX 3 14008a2f5 MOVZX EAX, byte ptr [RCX + 0x5]
+  CTX 4 14008a2f9 MOV byte ptr [RSI + 0x5], AL
+  CTX 5 14008a2fc MOVZX EAX, byte ptr [RCX + 0x6]
+  CTX 6 14008a300 MOV byte ptr [RSI + 0x6], AL
+  CTX 7 14008a303 MOVZX EAX, byte ptr [RCX + 0x7]
+  CTX 8 14008a307 MOV byte ptr [RSI + 0x7], AL
+HIT 1400fe567 FUNC FUN_1400fe480 @ 1400fe480 :: MOV byte ptr [RAX + 0x3], 0x2
+  CTX -3 1400fe558 MOVAPS XMM6, xmmword ptr [RSP + 0x40]
+  CTX -2 1400fe55d MOV RBX, qword ptr [RSP + 0x58]
+  CTX -1 1400fe562 MOVSS dword ptr [RAX + 0x10], XMM0
+  CTX 0 1400fe567 MOV byte ptr [RAX + 0x3], 0x2
+  CTX 1 1400fe56b MOV qword ptr [RAX + 0x8], RBP
+  CTX 2 1400fe56f MOV dword ptr [RAX + 0x14], 0x0
+  CTX 3 1400fe576 MOV word ptr [RAX + 0x18], 0x0
+  CTX 4 1400fe57c MOV byte ptr [RAX + 0x1a], 0x1
+  CTX 5 1400fe580 JNZ 0x1400fe612
+  CTX 6 1400fe586 MOV RCX, qword ptr [RDI + 0x80]
+  CTX 7 1400fe58d MOV EDX, 0x20
+  CTX 8 1400fe592 CALL 0x1400da470
+HIT 1400fe5aa FUNC FUN_1400fe480 @ 1400fe480 :: MOV byte ptr [RAX + 0x3], 0x2
+  CTX -3 1400fe597 MOVSS XMM0, dword ptr [RSP + 0x80]
+  CTX -2 1400fe5a0 MOV EDX, 0xc
+  CTX -1 1400fe5a5 MOVSS dword ptr [RAX + 0x10], XMM0
+  CTX 0 1400fe5aa MOV byte ptr [RAX + 0x3], 0x2
+  CTX 1 1400fe5ae MOV qword ptr [RAX + 0x8], RBP
+  CTX 2 1400fe5b2 MOV dword ptr [RAX + 0x14], 0x0
+  CTX 3 1400fe5b9 MOV word ptr [RAX + 0x18], 0x0
+  CTX 4 1400fe5bf MOV byte ptr [RAX + 0x1a], 0x1
+  CTX 5 1400fe5c3 MOV RCX, qword ptr [RDI + 0x80]
+  CTX 6 1400fe5ca CALL 0x1400da470
+  CTX 7 1400fe5cf MOVSS XMM0, dword ptr [RSP + 0x88]
+  CTX 8 1400fe5d8 MOVSS dword ptr [RAX + 0x4], XMM0
+HIT 1400fe5dd FUNC FUN_1400fe480 @ 1400fe480 :: MOV byte ptr [RAX + 0x3], 0x3
+  CTX -3 1400fe5ca CALL 0x1400da470
+  CTX -2 1400fe5cf MOVSS XMM0, dword ptr [RSP + 0x88]
+  CTX -1 1400fe5d8 MOVSS dword ptr [RAX + 0x4], XMM0
+  CTX 0 1400fe5dd MOV byte ptr [RAX + 0x3], 0x3
+  CTX 1 1400fe5e1 MOV byte ptr [RAX + 0x8], 0x0
+  CTX 2 1400fe5e5 JMP 0x1400fe612
+  CTX 3 1400fe5e7 MOV R9, qword ptr [RSI + 0x40]
+  CTX 4 1400fe5eb LEA R8, [0x140debd48]
+  CTX 5 1400fe5f2 MOV RDX, RSI
+  CTX 6 1400fe5f5 MOV RCX, RDI
+  CTX 7 1400fe5f8 CALL 0x1400e4720
+  CTX 8 1400fe5fd MOV RCX, qword ptr [RDI + 0x80]
+HIT 1400fe60e FUNC FUN_1400fe480 @ 1400fe480 :: MOV byte ptr [RAX + 0x3], 0x1
+  CTX -3 1400fe5fd MOV RCX, qword ptr [RDI + 0x80]
+  CTX -2 1400fe604 MOV EDX, 0x4
+  CTX -1 1400fe609 CALL 0x1400da470
+  CTX 0 1400fe60e MOV byte ptr [RAX + 0x3], 0x1
+  CTX 1 1400fe612 MOV EAX, 0xffffffff
+  CTX 2 1400fe617 MOV dword ptr [RDI + 0xb0], 0x7f7fffff
+  CTX 3 1400fe621 MOV RDX, RDI
+  CTX 4 1400fe624 MOV word ptr [RDI + 0xb8], AX
+  CTX 5 1400fe62b MOV RCX, RSI
+  CTX 6 1400fe62e MOV dword ptr [RDI + 0xac], 0xff7fffff
+  CTX 7 1400fe638 CALL 0x1400e54b0
+  CTX 8 1400fe63d ADD RSP, 0x60
+HIT 140153248 FUNC FUN_140153000 @ 140153000 :: MOVZX EAX, byte ptr [R11 + 0x3]
+  CTX -3 14015323b MOV byte ptr [R15 + 0x1], AL
+  CTX -2 14015323f MOVZX EAX, byte ptr [R11 + 0x2]
+  CTX -1 140153244 MOV byte ptr [R15 + 0x2], AL
+  CTX 0 140153248 MOVZX EAX, byte ptr [R11 + 0x3]
+  CTX 1 14015324d ADD R11, qword ptr [RBP + R9*0x8 + -0x59]
+  CTX 2 140153252 MOV RDX, R11
+  CTX 3 140153255 MOV byte ptr [R15 + 0x3], AL
+  CTX 4 140153259 CALL 0x140152c90
+  CTX 5 14015325e SUB R11, qword ptr [RBP + R9*0x8 + -0x19]
+  CTX 6 140153263 JMP 0x140153274
+  CTX 7 140153265 MOV RDX, R11
+  CTX 8 140153268 MOV RCX, R15
+HIT 140153255 FUNC FUN_140153000 @ 140153000 :: MOV byte ptr [R15 + 0x3], AL
+  CTX -3 140153248 MOVZX EAX, byte ptr [R11 + 0x3]
+  CTX -2 14015324d ADD R11, qword ptr [RBP + R9*0x8 + -0x59]
+  CTX -1 140153252 MOV RDX, R11
+  CTX 0 140153255 MOV byte ptr [R15 + 0x3], AL
+  CTX 1 140153259 CALL 0x140152c90
+  CTX 2 14015325e SUB R11, qword ptr [RBP + R9*0x8 + -0x19]
+  CTX 3 140153263 JMP 0x140153274
+  CTX 4 140153265 MOV RDX, R11
+  CTX 5 140153268 MOV RCX, R15
+  CTX 6 14015326b CALL 0x140152ca0
+  CTX 7 140153270 ADD R11, 0x8
+  CTX 8 140153274 MOV R14, qword ptr [RBP + 0x77]
+HIT 140153558 FUNC FUN_140153000 @ 140153000 :: MOVZX EAX, byte ptr [R11 + 0x3]
+  CTX -3 140153549 MOV byte ptr [R12 + 0x1], AL
+  CTX -2 14015354e MOVZX EAX, byte ptr [R11 + 0x2]
+  CTX -1 140153553 MOV byte ptr [R12 + 0x2], AL
+  CTX 0 140153558 MOVZX EAX, byte ptr [R11 + 0x3]
+  CTX 1 14015355d ADD R11, qword ptr [RBP + R9*0x8 + -0x19]
+  CTX 2 140153562 MOV RDX, R11
+  CTX 3 140153565 MOV byte ptr [R12 + 0x3], AL
+  CTX 4 14015356a CALL 0x140152c90
+  CTX 5 14015356f SUB R11, qword ptr [RBP + R9*0x8 + -0x59]
+  CTX 6 140153574 JMP 0x140153585
+  CTX 7 140153576 MOV RDX, R11
+  CTX 8 140153579 MOV RCX, R12
+HIT 140153565 FUNC FUN_140153000 @ 140153000 :: MOV byte ptr [R12 + 0x3], AL
+  CTX -3 140153558 MOVZX EAX, byte ptr [R11 + 0x3]
+  CTX -2 14015355d ADD R11, qword ptr [RBP + R9*0x8 + -0x19]
+  CTX -1 140153562 MOV RDX, R11
+  CTX 0 140153565 MOV byte ptr [R12 + 0x3], AL
+  CTX 1 14015356a CALL 0x140152c90
+  CTX 2 14015356f SUB R11, qword ptr [RBP + R9*0x8 + -0x59]
+  CTX 3 140153574 JMP 0x140153585
+  CTX 4 140153576 MOV RDX, R11
+  CTX 5 140153579 MOV RCX, R12
+  CTX 6 14015357c CALL 0x140152ca0
+  CTX 7 140153581 ADD R11, 0x8
+  CTX 8 140153585 MOV R14, qword ptr [RBP + 0x77]
+HIT 1405887d8 FUNC FUN_1405886e0 @ 1405886e0 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 1405887ce MOV byte ptr [RBP + -0x1f], AL
+  CTX -2 1405887d1 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 1405887d5 MOV byte ptr [RBP + -0x1e], AL
+  CTX 0 1405887d8 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 1405887dc MOV byte ptr [RBP + -0x1d], AL
+  CTX 2 1405887df MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 1405887e3 MOV byte ptr [RBP + -0x1c], AL
+  CTX 4 1405887e6 MOV RBX, qword ptr [RCX + 0x8]
+  CTX 5 1405887ea TEST RBX, RBX
+  CTX 6 1405887ed JZ 0x1405887fb
+  CTX 7 1405887ef MOV RAX, qword ptr [RBX]
+  CTX 8 1405887f2 MOV RCX, RBX
+HIT 140588815 FUNC FUN_1405886e0 @ 1405886e0 :: MOVZX EAX, byte ptr [R12 + 0x3]
+  CTX -3 140588809 MOV byte ptr [RBP + -0xf], AL
+  CTX -2 14058880c MOVZX EAX, byte ptr [R12 + 0x2]
+  CTX -1 140588812 MOV byte ptr [RBP + -0xe], AL
+  CTX 0 140588815 MOVZX EAX, byte ptr [R12 + 0x3]
+  CTX 1 14058881b MOV qword ptr [RBP + -0x18], RBX
+  CTX 2 14058881f MOV RBX, qword ptr [R12 + 0x8]
+  CTX 3 140588824 MOV byte ptr [RBP + -0xd], AL
+  CTX 4 140588827 MOVZX EAX, byte ptr [R12 + 0x4]
+  CTX 5 14058882d MOV byte ptr [RBP + -0xc], AL
+  CTX 6 140588830 TEST RBX, RBX
+  CTX 7 140588833 JZ 0x140588841
+  CTX 8 140588835 MOV RAX, qword ptr [RBX]
+HIT 140588924 FUNC FUN_1405886e0 @ 1405886e0 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 14058891a MOV byte ptr [RBP + -0x1f], AL
+  CTX -2 14058891d MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140588921 MOV byte ptr [RBP + -0x1e], AL
+  CTX 0 140588924 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140588928 MOV byte ptr [RBP + -0x1d], AL
+  CTX 2 14058892b MOVZX EAX, byte ptr [RCX + 0x4]
+  CTX 3 14058892f MOV byte ptr [RBP + -0x1c], AL
+  CTX 4 140588932 MOV RBX, qword ptr [RCX + 0x8]
+  CTX 5 140588936 TEST RBX, RBX
+  CTX 6 140588939 JZ 0x140588947
+  CTX 7 14058893b MOV RAX, qword ptr [RBX]
+  CTX 8 14058893e MOV RCX, RBX
+HIT 140588961 FUNC FUN_1405886e0 @ 1405886e0 :: MOVZX EAX, byte ptr [R12 + 0x3]
+  CTX -3 140588955 MOV byte ptr [RBP + -0xf], AL
+  CTX -2 140588958 MOVZX EAX, byte ptr [R12 + 0x2]
+  CTX -1 14058895e MOV byte ptr [RBP + -0xe], AL
+  CTX 0 140588961 MOVZX EAX, byte ptr [R12 + 0x3]
+  CTX 1 140588967 MOV qword ptr [RBP + -0x18], RBX
+  CTX 2 14058896b MOV RBX, qword ptr [R12 + 0x8]
+  CTX 3 140588970 MOV byte ptr [RBP + -0xd], AL
+  CTX 4 140588973 MOVZX EAX, byte ptr [R12 + 0x4]
+  CTX 5 140588979 MOV byte ptr [RBP + -0xc], AL
+  CTX 6 14058897c TEST RBX, RBX
+  CTX 7 14058897f JZ 0x14058898d
+  CTX 8 140588981 MOV RAX, qword ptr [RBX]
+HIT 140636ccc FUNC FUN_140636cb0 @ 140636cb0 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140636cc4 MOVZX EDI, byte ptr [RCX]
+  CTX -2 140636cc7 TEST R8B, R8B
+  CTX -1 140636cca JZ 0x140636cd2
+  CTX 0 140636ccc MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140636cd0 JMP 0x140636cd6
+  CTX 2 140636cd2 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX 3 140636cd6 MOVZX ESI, byte ptr [RCX + 0x1]
+  CTX 4 140636cda LEA R10D, [RAX + RDI*0x1]
+  CTX 5 140636cde TEST R8B, R8B
+  CTX 6 140636ce1 JZ 0x140636ce9
+  CTX 7 140636ce3 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX 8 140636ce7 JMP 0x140636ced
+HIT 140636ce9 FUNC FUN_140636cb0 @ 140636cb0 :: MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX -3 140636ce1 JZ 0x140636ce9
+  CTX -2 140636ce3 MOVZX EAX, byte ptr [RCX + 0x2]
+  CTX -1 140636ce7 JMP 0x140636ced
+  CTX 0 140636ce9 MOVZX EAX, byte ptr [RCX + 0x3]
+  CTX 1 140636ced MOVZX R9D, byte ptr [RDX + 0x4]
+  CTX 2 140636cf2 LEA R8D, [RAX + RSI*0x1]
+  CTX 3 140636cf6 MOVZX EBX, byte ptr [RDX]
+  CTX 4 140636cf9 TEST R9B, R9B
+  CTX 5 140636cfc JZ 0x140636d04
+  CTX 6 140636cfe MOVZX EAX, byte ptr [RDX + 0x3]
+  CTX 7 140636d02 JMP 0x140636d08
+  CTX 8 140636d04 MOVZX EAX, byte ptr [RDX + 0x2]
+HIT 140636cfe FUNC FUN_140636cb0 @ 140636cb0 :: MOVZX EAX, byte ptr [RDX + 0x3]
+  CTX -3 140636cf6 MOVZX EBX, byte ptr [RDX]
+  CTX -2 140636cf9 TEST R9B, R9B
+  CTX -1 140636cfc JZ 0x140636d04
+  CTX 0 140636cfe MOVZX EAX, byte ptr [RDX + 0x3]
+  CTX 1 140636d02 JMP 0x140636d08
+  CTX 2 140636d04 MOVZX EAX, byte ptr [RDX + 0x2]
+  CTX 3 140636d08 MOVZX ECX, byte ptr [RDX + 0x1]
+  CTX 4 140636d0c LEA R11D, [RAX + RBX*0x1]
+  CTX 5 140636d10 TEST R9B, R9B
+  CTX 6 140636d13 JZ 0x140636d1c
+  CTX 7 140636d15 MOVZX R9D, byte ptr [RDX + 0x2]
+  CTX 8 140636d1a JMP 0x140636d21
+HIT 140636d1c FUNC FUN_140636cb0 @ 140636cb0 :: MOVZX R9D, byte ptr [RDX + 0x3]
+  CTX -3 140636d13 JZ 0x140636d1c
+  CTX -2 140636d15 MOVZX R9D, byte ptr [RDX + 0x2]
+  CTX -1 140636d1a JMP 0x140636d21
+  CTX 0 140636d1c MOVZX R9D, byte ptr [RDX + 0x3]
+  CTX 1 140636d21 CMP DIL, R11B
+  CTX 2 140636d24 JNC 0x140636d4b
+  CTX 3 140636d26 CMP R10B, BL
+  CTX 4 140636d29 JBE 0x140636d4b
+  CTX 5 140636d2b LEA EAX, [R9 + RCX*0x1]
+  CTX 6 140636d2f CMP SIL, AL
+  CTX 7 140636d32 JNC 0x140636d4b
+  CTX 8 140636d34 CMP R8B, CL
+HIT 14066cc07 FUNC FUN_14066cb30 @ 14066cb30 :: MOVZX ECX, byte ptr [RDX + R14*0x1 + 0x3]
+  CTX -3 14066cbf8 MOV byte ptr [0x141288292], CL
+  CTX -2 14066cbfe MOVZX EAX, byte ptr [R8 + R14*0x1 + 0x2]
+  CTX -1 14066cc04 MOVZX EDX, CL
+  CTX 0 14066cc07 MOVZX ECX, byte ptr [RDX + R14*0x1 + 0x3]
+  CTX 1 14066cc0d MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX 2 14066cc12 MOV byte ptr [R8 + R14*0x1 + 0x2], CL
+  CTX 3 14066cc17 SUB RBX, 0x1
+  CTX 4 14066cc1b JNZ 0x14066cbe0
+  CTX 5 14066cc1d MOV RBX, qword ptr [RSP + 0x130]
+  CTX 6 14066cc25 MOV byte ptr [0x141288290], 0x1
+  CTX 7 14066cc2c NOP dword ptr [RAX]
+  CTX 8 14066cc30 MOVZX EAX, byte ptr [0x141288291]
+HIT 14066cc0d FUNC FUN_14066cb30 @ 14066cb30 :: MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX -3 14066cbfe MOVZX EAX, byte ptr [R8 + R14*0x1 + 0x2]
+  CTX -2 14066cc04 MOVZX EDX, CL
+  CTX -1 14066cc07 MOVZX ECX, byte ptr [RDX + R14*0x1 + 0x3]
+  CTX 0 14066cc0d MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX 1 14066cc12 MOV byte ptr [R8 + R14*0x1 + 0x2], CL
+  CTX 2 14066cc17 SUB RBX, 0x1
+  CTX 3 14066cc1b JNZ 0x14066cbe0
+  CTX 4 14066cc1d MOV RBX, qword ptr [RSP + 0x130]
+  CTX 5 14066cc25 MOV byte ptr [0x141288290], 0x1
+  CTX 6 14066cc2c NOP dword ptr [RAX]
+  CTX 7 14066cc30 MOVZX EAX, byte ptr [0x141288291]
+  CTX 8 14066cc37 LEA RDI, [RDI + 0x1]
+HIT 14066cc4d FUNC FUN_14066cb30 @ 14066cb30 :: MOVZX R8D, byte ptr [RDX + R14*0x1 + 0x3]
+  CTX -3 14066cc3d MOV byte ptr [0x141288291], AL
+  CTX -2 14066cc43 MOVZX EDX, AL
+  CTX -1 14066cc46 MOVZX EAX, byte ptr [0x141288292]
+  CTX 0 14066cc4d MOVZX R8D, byte ptr [RDX + R14*0x1 + 0x3]
+  CTX 1 14066cc53 ADD AL, R8B
+  CTX 2 14066cc56 MOV byte ptr [0x141288292], AL
+  CTX 3 14066cc5c MOVZX ECX, AL
+  CTX 4 14066cc5f MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 5 14066cc65 MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX 6 14066cc6a MOVZX EAX, byte ptr [0x141288292]
+  CTX 7 14066cc71 MOV byte ptr [RAX + R14*0x1 + 0x3], R8B
+  CTX 8 14066cc76 MOVZX EAX, byte ptr [0x141288291]
+HIT 14066cc5f FUNC FUN_14066cb30 @ 14066cb30 :: MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX -3 14066cc53 ADD AL, R8B
+  CTX -2 14066cc56 MOV byte ptr [0x141288292], AL
+  CTX -1 14066cc5c MOVZX ECX, AL
+  CTX 0 14066cc5f MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 1 14066cc65 MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX 2 14066cc6a MOVZX EAX, byte ptr [0x141288292]
+  CTX 3 14066cc71 MOV byte ptr [RAX + R14*0x1 + 0x3], R8B
+  CTX 4 14066cc76 MOVZX EAX, byte ptr [0x141288291]
+  CTX 5 14066cc7d MOVZX EAX, byte ptr [RAX + R14*0x1 + 0x3]
+  CTX 6 14066cc83 ADD AL, R8B
+  CTX 7 14066cc86 MOVZX ECX, AL
+  CTX 8 14066cc89 MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+HIT 14066cc65 FUNC FUN_14066cb30 @ 14066cb30 :: MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX -3 14066cc56 MOV byte ptr [0x141288292], AL
+  CTX -2 14066cc5c MOVZX ECX, AL
+  CTX -1 14066cc5f MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 0 14066cc65 MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX 1 14066cc6a MOVZX EAX, byte ptr [0x141288292]
+  CTX 2 14066cc71 MOV byte ptr [RAX + R14*0x1 + 0x3], R8B
+  CTX 3 14066cc76 MOVZX EAX, byte ptr [0x141288291]
+  CTX 4 14066cc7d MOVZX EAX, byte ptr [RAX + R14*0x1 + 0x3]
+  CTX 5 14066cc83 ADD AL, R8B
+  CTX 6 14066cc86 MOVZX ECX, AL
+  CTX 7 14066cc89 MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 8 14066cc8f MOV byte ptr [RDI + -0x1], AL
+HIT 14066cc71 FUNC FUN_14066cb30 @ 14066cb30 :: MOV byte ptr [RAX + R14*0x1 + 0x3], R8B
+  CTX -3 14066cc5f MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX -2 14066cc65 MOV byte ptr [RDX + R14*0x1 + 0x3], AL
+  CTX -1 14066cc6a MOVZX EAX, byte ptr [0x141288292]
+  CTX 0 14066cc71 MOV byte ptr [RAX + R14*0x1 + 0x3], R8B
+  CTX 1 14066cc76 MOVZX EAX, byte ptr [0x141288291]
+  CTX 2 14066cc7d MOVZX EAX, byte ptr [RAX + R14*0x1 + 0x3]
+  CTX 3 14066cc83 ADD AL, R8B
+  CTX 4 14066cc86 MOVZX ECX, AL
+  CTX 5 14066cc89 MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 6 14066cc8f MOV byte ptr [RDI + -0x1], AL
+  CTX 7 14066cc92 SUB EBP, 0x1
+  CTX 8 14066cc95 JNZ 0x14066cc30
+HIT 14066cc7d FUNC FUN_14066cb30 @ 14066cb30 :: MOVZX EAX, byte ptr [RAX + R14*0x1 + 0x3]
+  CTX -3 14066cc6a MOVZX EAX, byte ptr [0x141288292]
+  CTX -2 14066cc71 MOV byte ptr [RAX + R14*0x1 + 0x3], R8B
+  CTX -1 14066cc76 MOVZX EAX, byte ptr [0x141288291]
+  CTX 0 14066cc7d MOVZX EAX, byte ptr [RAX + R14*0x1 + 0x3]
+  CTX 1 14066cc83 ADD AL, R8B
+  CTX 2 14066cc86 MOVZX ECX, AL
+  CTX 3 14066cc89 MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 4 14066cc8f MOV byte ptr [RDI + -0x1], AL
+  CTX 5 14066cc92 SUB EBP, 0x1
+  CTX 6 14066cc95 JNZ 0x14066cc30
+  CTX 7 14066cc97 MOV RCX, RSI
+  CTX 8 14066cc9a CALL 0x140670240
+HIT 14066cc89 FUNC FUN_14066cb30 @ 14066cb30 :: MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX -3 14066cc7d MOVZX EAX, byte ptr [RAX + R14*0x1 + 0x3]
+  CTX -2 14066cc83 ADD AL, R8B
+  CTX -1 14066cc86 MOVZX ECX, AL
+  CTX 0 14066cc89 MOVZX EAX, byte ptr [RCX + R14*0x1 + 0x3]
+  CTX 1 14066cc8f MOV byte ptr [RDI + -0x1], AL
+  CTX 2 14066cc92 SUB EBP, 0x1
+  CTX 3 14066cc95 JNZ 0x14066cc30
+  CTX 4 14066cc97 MOV RCX, RSI
+  CTX 5 14066cc9a CALL 0x140670240
+  CTX 6 14066cc9f MOV R14, qword ptr [RSP + 0x140]
+  CTX 7 14066cca7 JMP 0x14066ccb8
+  CTX 8 14066cca9 MOV RCX, RSI
+HIT 1406b72aa FUNC FUN_1406b4c60 @ 1406b4c60 :: MOV byte ptr [RSI + 0x3], 0x0
+  CTX -3 1406b72a1 MOV R12D, EAX
+  CTX -2 1406b72a4 MOV EAX, dword ptr [RSP + 0x58]
+  CTX -1 1406b72a8 XOR ECX, ECX
+  CTX 0 1406b72aa MOV byte ptr [RSI + 0x3], 0x0
+  CTX 1 1406b72ae MOV dword ptr [RSI + 0x28], ECX
+  CTX 2 1406b72b1 CMP EBX, 0x1a
+  CTX 3 1406b72b4 JL 0x1406b73d7
+  CTX 4 1406b72ba TEST EAX, EAX
+  CTX 5 1406b72bc JS 0x1406b738c
+  CTX 6 1406b72c2 JNZ 0x1406b72cd
+  CTX 7 1406b72c4 CMP EBX, 0x1b
+  CTX 8 1406b72c7 JZ 0x1406b738c
+HIT 1406b7539 FUNC FUN_1406b4c60 @ 1406b4c60 :: MOV byte ptr [RSI + 0x3], DIL
+  CTX -3 1406b752c TEST EAX, EAX
+  CTX -2 1406b752e MOV R9, qword ptr [RSP + 0x40]
+  CTX -1 1406b7533 MOV R10D, 0x1
+  CTX 0 1406b7539 MOV byte ptr [RSI + 0x3], DIL
+  CTX 1 1406b753d SETZ CL
+  CTX 2 1406b7540 MOV RDI, qword ptr [RSP + 0x30]
+  CTX 3 1406b7545 TEST EAX, EAX
+  CTX 4 1406b7547 MOV dword ptr [RSI + 0x2c], EAX
+  CTX 5 1406b754a SETNZ AL
+  CTX 6 1406b754d MOV dword ptr [RSI + 0x28], R15D
+  CTX 7 1406b7551 MOV byte ptr [RSI + 0x2], AL
+  CTX 8 1406b7554 CMP byte ptr [RDI], 0x1e
+HIT 1406b780c FUNC FUN_1406b4c60 @ 1406b4c60 :: MOV byte ptr [RSI + 0x3], 0x0
+  CTX -3 1406b77fd MOV EDI, 0xd
+  CTX -2 1406b7802 JMP 0x1406b9f58
+  CTX -1 1406b7807 MOV RDI, qword ptr [RSP + 0x30]
+  CTX 0 1406b780c MOV byte ptr [RSI + 0x3], 0x0
+  CTX 1 1406b7810 MOV dword ptr [RSI + 0x28], R15D
+  CTX 2 1406b7814 MOV RSI, qword ptr [RSP + 0x48]
+  CTX 3 1406b7819 MOV qword ptr [R14], RBX
+  CTX 4 1406b781c MOV R14, qword ptr [RSP + 0x50]
+  CTX 5 1406b7821 JMP 0x1406b4f8d
+  CTX 6 1406b7826 MOV RCX, qword ptr [RSP + 0x30]
+  CTX 7 1406b782b MOV ESI, R15D
+  CTX 8 1406b782e MOV R8, qword ptr [RSP + 0x48]
+HIT 1406b7943 FUNC FUN_1406b4c60 @ 1406b4c60 :: MOV byte ptr [RDI + 0x3], 0x0
+  CTX -3 1406b7937 AND R8D, 0xa
+  CTX -2 1406b793b CALL 0x1406952b0
+  CTX -1 1406b7940 XOR R8D, R8D
+  CTX 0 1406b7943 MOV byte ptr [RDI + 0x3], 0x0
+  CTX 1 1406b7947 MOV dword ptr [RDI + 0x28], R8D
+  CTX 2 1406b794b MOV EDI, EAX
+  CTX 3 1406b794d MOV dword ptr [RSP + 0x38], EAX
+  CTX 4 1406b7951 TEST EAX, EAX
+  CTX 5 1406b7953 JNZ 0x1406b9f51
+  CTX 6 1406b7959 MOV RAX, qword ptr [R13 + 0x120]
+  CTX 7 1406b7960 TEST RAX, RAX
+  CTX 8 1406b7963 JZ 0x1406b8ff5
+HIT 1406b7c2d FUNC FUN_1406b4c60 @ 1406b4c60 :: CMP byte ptr [RBX + 0x3], 0x0
+  CTX -3 1406b7c1d MOV R11D, 0x1000
+  CTX -2 1406b7c23 MOV word ptr [RAX + 0x8], R10W
+  CTX -1 1406b7c28 JMP 0x1406b99a3
+  CTX 0 1406b7c2d CMP byte ptr [RBX + 0x3], 0x0
+  CTX 1 1406b7c31 JZ 0x1406b7c43
+  CTX 2 1406b7c33 MOV RAX, qword ptr [RBX + 0x58]
+  CTX 3 1406b7c37 MOV qword ptr [RBP + -0x18], RAX
+  CTX 4 1406b7c3b MOV qword ptr [RDI], RAX
+  CTX 5 1406b7c3e JMP 0x1406b4f88
+  CTX 6 1406b7c43 CMP byte ptr [RBX], 0x2
+  CTX 7 1406b7c46 JNZ 0x1406b7c80
+  CTX 8 1406b7c48 MOV RCX, qword ptr [RBX + 0x38]
+HIT 1406b7d4c FUNC FUN_1406b4c60 @ 1406b4c60 :: MOV byte ptr [RDI + 0x3], 0x0
+  CTX -3 1406b7d42 MOV dword ptr [RSP + 0x38], EAX
+  CTX -2 1406b7d46 MOV EAX, dword ptr [RBP + -0x48]
+  CTX -1 1406b7d49 MOV byte ptr [RDI + 0x2], AL
+  CTX 0 1406b7d4c MOV byte ptr [RDI + 0x3], 0x0
+  CTX 1 1406b7d50 MOV dword ptr [RDI + 0x28], R15D
+  CTX 2 1406b7d54 MOV EDI, dword ptr [RSP + 0x38]
+  CTX 3 1406b7d58 TEST EDI, EDI
+  CTX 4 1406b7d5a JNZ 0x1406b9f58
+  CTX 5 1406b7d60 MOV RDI, qword ptr [RSP + 0x30]
+  CTX 6 1406b7d65 MOV R10D, 0x1
+  CTX 7 1406b7d6b MOV R12D, dword ptr [RSP + 0x38]
+  CTX 8 1406b7d70 MOV R9, qword ptr [RSP + 0x40]
+HIT 1406b7e4b FUNC FUN_1406b4c60 @ 1406b4c60 :: MOV byte ptr [RBX + 0x3], 0x0
+  CTX -3 1406b7e40 JMP 0x1406b7e53
+  CTX -2 1406b7e42 MOV RCX, qword ptr [RBX + 0x38]
+  CTX -1 1406b7e46 CALL 0x140695010
+  CTX 0 1406b7e4b MOV byte ptr [RBX + 0x3], 0x0
+  CTX 1 1406b7e4f MOV dword ptr [RBX + 0x28], R15D
+  CTX 2 1406b7e53 MOV dword ptr [RSP + 0x38], EAX
+  CTX 3 1406b7e57 MOV EDI, EAX
+  CTX 4 1406b7e59 TEST EAX, EAX
+  CTX 5 1406b7e5b JNZ 0x1406b9f58
+  CTX 6 1406b7e61 MOV EAX, dword ptr [RBP + -0x74]
+  CTX 7 1406b7e64 MOV R10D, 0x1
+  CTX 8 1406b7e6a MOV RDI, qword ptr [RSP + 0x30]
+HIT 1408ea4d1 FUNC FUN_1408ea420 @ 1408ea420 :: MOVZX EDX, byte ptr [RCX + 0x3]
+  CTX -3 1408ea4c7 CMP R8B, 0x18
+  CTX -2 1408ea4cb JC 0x1408ea510
+  CTX -1 1408ea4cd MOVZX EAX, byte ptr [RCX + 0x1]
+  CTX 0 1408ea4d1 MOVZX EDX, byte ptr [RCX + 0x3]
+  CTX 1 1408ea4d5 MOV RCX, qword ptr [0x1444c4010]
+  CTX 2 1408ea4dc INC EDX
+  CTX 3 1408ea4de MOVZX R8D, R8B
+  CTX 4 1408ea4e2 SHL R8, 0x8
+  CTX 5 1408ea4e6 ADD R8, RAX
+  CTX 6 1408ea4e9 MOVZX EAX, byte ptr [RBX + 0x2]
+  CTX 7 1408ea4ed SHL R8, 0x8
+  CTX 8 1408ea4f1 SUB RCX, R8
+HIT 1408ea516 FUNC FUN_1408ea420 @ 1408ea420 :: MOVZX ECX, byte ptr [RCX + 0x3]
+  CTX -3 1408ea50f RET
+  CTX -2 1408ea510 CMP R8B, 0x10
+  CTX -1 1408ea514 JC 0x1408ea562
+  CTX 0 1408ea516 MOVZX ECX, byte ptr [RCX + 0x3]
+  CTX 1 1408ea51a MOVZX EAX, byte ptr [RBX + 0x1]
+  CTX 2 1408ea51e MOVZX EDX, byte ptr [RBX + 0x4]
+  CTX 3 1408ea522 SHL ECX, 0x8
+  CTX 4 1408ea525 INC ECX
+  CTX 5 1408ea527 MOVZX R8D, R8B
+  CTX 6 1408ea52b ADD EDX, ECX
+  CTX 7 1408ea52d SHL R8, 0x8
+  CTX 8 1408ea531 MOV RCX, qword ptr [0x1444c4010]
+HIT 1408ea605 FUNC FUN_1408ea420 @ 1408ea420 :: MOVZX EAX, byte ptr [RBX + 0x3]
+  CTX -3 1408ea5fc INC EDX
+  CTX -2 1408ea5fe SHL R8, 0x8
+  CTX -1 1408ea602 ADD R8, RAX
+  CTX 0 1408ea605 MOVZX EAX, byte ptr [RBX + 0x3]
+  CTX 1 1408ea609 SHL R8, 0x8
+  CTX 2 1408ea60d SUB RCX, R8
+  CTX 3 1408ea610 SUB RCX, RAX
+  CTX 4 1408ea613 DEC RCX
+  CTX 5 1408ea616 CALL 0x1408ea110
+  CTX 6 1408ea61b ADD RBX, 0x5
+  CTX 7 1408ea61f MOV RAX, RBX
+  CTX 8 1408ea622 ADD RSP, 0x20
+HIT 1408ea654 FUNC FUN_1408ea420 @ 1408ea420 :: MOVZX EAX, byte ptr [RBX + 0x3]
+  CTX -3 1408ea648 ADD EDX, ECX
+  CTX -2 1408ea64a ADD R8, RAX
+  CTX -1 1408ea64d MOV RCX, qword ptr [0x1444c4010]
+  CTX 0 1408ea654 MOVZX EAX, byte ptr [RBX + 0x3]
+  CTX 1 1408ea658 SHL R8, 0x8
+  CTX 2 1408ea65c SUB RCX, R8
+  CTX 3 1408ea65f SUB RCX, RAX
+  CTX 4 1408ea662 DEC RCX
+  CTX 5 1408ea665 CALL 0x1408ea110
+  CTX 6 1408ea66a ADD RBX, 0x6
+  CTX 7 1408ea66e MOV RAX, RBX
+  CTX 8 1408ea671 ADD RSP, 0x20
+HIT 1408ed723 FUNC FUN_1408ed710 @ 1408ed710 :: CMP byte ptr [RCX + 0x3], 0x0
+  CTX -3 1408ed71b JNZ 0x1408ed729
+  CTX -2 1408ed71d CMP byte ptr [RCX + 0x2], 0x0
+  CTX -1 1408ed721 JNZ 0x1408ed729
+  CTX 0 1408ed723 CMP byte ptr [RCX + 0x3], 0x0
+  CTX 1 1408ed727 JZ 0x1408ed77e
+  CTX 2 1408ed729 CMP AL, 0x74
+  CTX 3 1408ed72b JNZ 0x1408ed73f
+  CTX 4 1408ed72d CMP byte ptr [RCX + 0x1], 0x79
+  CTX 5 1408ed731 JNZ 0x1408ed73f
+  CTX 6 1408ed733 CMP byte ptr [RCX + 0x2], 0x70
+  CTX 7 1408ed737 JNZ 0x1408ed73f
+  CTX 8 1408ed739 CMP byte ptr [RCX + 0x3], 0x31
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

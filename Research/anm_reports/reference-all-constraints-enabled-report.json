@@ -1,0 +1,414 @@
+{
+  "source_file": "C:\\Users\\sysro\\Downloads\\BlenderPoses_arms_ik_enabled_all_constraints_enabled.blend",
+  "save_as": "C:\\Users\\sysro\\Downloads\\BlenderPoses_arms_ik_enabled_all_constraints_enabled_all_constraints_enabled.blend",
+  "changed_count": 25,
+  "summary_by_type": {
+    "COPY_TRANSFORMS": 12,
+    "COPY_ROTATION": 5,
+    "IK": 4,
+    "LIMIT_DISTANCE": 4
+  },
+  "changed": [
+    {
+      "object": "rig",
+      "bone": "ORG-thigh.L",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "thigh_ik.L"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-shin.L",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-shin_ik.L"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-foot.L",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-thigh_ik_target.L"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-toe.L",
+      "constraint": "Copy Transforms",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-heel.02_roll2.L"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-thigh.R",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "thigh_ik.R"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-shin.R",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-shin_ik.R"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-foot.R",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-thigh_ik_target.R"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-toe.R",
+      "constraint": "Copy Transforms",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-heel.02_roll2.R"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_parent.L",
+      "constraint": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "root"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-shin_ik.L",
+      "constraint": "IK.001",
+      "type": "IK",
+      "before": {
+        "mute": true,
+        "influence": 1.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-thigh_ik_target.L"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_parent.R",
+      "constraint": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "root"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-shin_ik.R",
+      "constraint": "IK.001",
+      "type": "IK",
+      "before": {
+        "mute": true,
+        "influence": 1.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-thigh_ik_target.R"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-jaw_master",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-mouth_lock"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-jaw_master.001",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-mouth_lock"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-jaw_master.002",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-mouth_lock"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-jaw_master.003",
+      "constraint": "Copy Transforms.001",
+      "type": "COPY_TRANSFORMS",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-mouth_lock"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-ROT-neck",
+      "constraint": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "before": {
+        "mute": false,
+        "influence": 0.5
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "torso"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_parent.L",
+      "constraint": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "root"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-forearm_ik.L",
+      "constraint": "IK",
+      "type": "IK",
+      "before": {
+        "mute": true,
+        "influence": 1.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-upper_arm_ik_target.L"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_parent.R",
+      "constraint": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "root"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-forearm_ik.R",
+      "constraint": "IK",
+      "type": "IK",
+      "before": {
+        "mute": true,
+        "influence": 1.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-upper_arm_ik_target.R"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_ik_target.L",
+      "constraint": "Limit Distance",
+      "type": "LIMIT_DISTANCE",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-upper_arm_parent.L"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_ik_target.R",
+      "constraint": "Limit Distance",
+      "type": "LIMIT_DISTANCE",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-upper_arm_parent.R"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_ik_target.L",
+      "constraint": "Limit Distance",
+      "type": "LIMIT_DISTANCE",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-thigh_parent.L"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_ik_target.R",
+      "constraint": "Limit Distance",
+      "type": "LIMIT_DISTANCE",
+      "before": {
+        "mute": false,
+        "influence": 0.0
+      },
+      "after": {
+        "mute": false,
+        "influence": 1.0
+      },
+      "target": "rig",
+      "subtarget": "MCH-thigh_parent.R"
+    }
+  ],
+  "warning": "All muted/partial constraints were enabled. This can overconstrain rigs with alternative IK/FK branches; kept as separate file."
+}

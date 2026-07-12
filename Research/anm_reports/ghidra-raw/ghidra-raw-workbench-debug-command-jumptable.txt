@@ -1,0 +1,121 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_1086c87afc484.java
+Program: workbenchApp.exe
+Time: Sun May 31 18:37:46 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_1086c87afc484.java
+Size: 764 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+
+JUMPTABLE DAT_1404ebbc0
+case=00 rel=0x004EB89A target=1404eb89a func=<none> entry=<none>
+case=01 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=02 rel=0x004EB892 target=1404eb892 func=<none> entry=<none>
+case=03 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=04 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=05 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=06 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=07 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=08 rel=0x004EBA15 target=1404eba15 func=<none> entry=<none>
+case=09 rel=0x004EB678 target=1404eb678 func=<none> entry=<none>
+case=10 rel=0x004EB423 target=1404eb423 func=<none> entry=<none>
+case=11 rel=0x004EB8A3 target=1404eb8a3 func=<none> entry=<none>
+case=12 rel=0x004EBA29 target=1404eba29 func=<none> entry=<none>
+case=13 rel=0x004EBA63 target=1404eba63 func=<none> entry=<none>
+case=14 rel=0x004EBA9D target=1404eba9d func=<none> entry=<none>
+case=15 rel=0x004EBB85 target=1404ebb85 func=<none> entry=<none>
+case=16 rel=0x004EBAB9 target=1404ebab9 func=<none> entry=<none>
+case=17 rel=0x004EBB9B target=1404ebb9b func=<none> entry=<none>
+case=18 rel=0x004EBA1F target=1404eba1f func=<none> entry=<none>
+case=19 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=20 rel=0x004EB876 target=1404eb876 func=FUN_1404eb350 entry=1404eb350
+case=21 rel=0x004EB5A9 target=1404eb5a9 func=<none> entry=<none>
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

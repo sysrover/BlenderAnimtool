@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-11",
+  "source_blend": "P:\\Animation_Weapon\\saved\\Weapon_template_dayz_clean_pose_preload.blend",
+  "source_action": "DAT_Clean_IK1H",
+  "retail_reference": "P:\\UARP_Items_3\\ANM\\cable2.anm",
+  "corrected_export": "P:\\BlenderAnimtool\\Research\\anm_reports\\current_clean_pose_runtime_preview_fingers_fixed.anm",
+  "ghidra": {
+    "program": "DayZ_x64.exe",
+    "cache_function": "FUN_1400c8e60",
+    "inverse_function": "FUN_1400c5500",
+    "evaluator_function": "FUN_1400ca870",
+    "dayzdiag_solver_function": "FUN_1400e1be0",
+    "reach_multiplier": 0.9800000190734863,
+    "final_twist_slerp": 0.5
+  },
+  "live_preview": {
+    "old_proxy_wrist_difference_m": 0.006963185475886712,
+    "old_proxy_elbow_difference_m": 0.06953625467520069,
+    "corrected_right_hand_head": [0.2814671993255615, -0.08053092658519745, 0.8820136785507202],
+    "corrected_right_forearm_head": [0.27457451820373535, -0.04111339896917343, 1.154086709022522]
+  },
+  "bake_regression": {
+    "error": null,
+    "control_matrix_max_error": 0.0,
+    "finger_matrix_max_error": 2.384185791015625e-7,
+    "second_cycle_decoded_max_error": 2.2351741790771484e-8
+  },
+  "finger_export_regression": {
+    "right_finger_tracks": 17,
+    "max_decoded_location_error_m": 6.63823317051708e-7,
+    "rotation_rule": "decoded quaternion equals authored matrix_basis quaternion up to sign and quantization"
+  },
+  "source_hashes_sha256": {
+    "AddSurvivorIK.py": "AE6D7EFC8BE3CF9B86C586F07A49D0E1FB778B0B01F22DFF12A141E50847A18C",
+    "ExportAnm.py": "0578CBB1A1DF5C5A733D461C114575DAF9B0EB412E31EF552B29B452345A23CE"
+  },
+  "screenshots": [
+    "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\dayz_runtime_preview_front_clean.png",
+    "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\dayz_runtime_preview_thumb_no_prop.png"
+  ],
+  "retail_visual_validation": "FAILED: retail DayZ showed collapsed fingers/hand and a worse elbow plane",
+  "status": "REJECTED_AND_ROLLED_BACK",
+  "rollback_export": "P:\\UARP_Items_3\\ANM\\cable2_rollback_verified.anm",
+  "rollback_reference": "P:\\BlenderAnimtool\\Research\\anm_reports\\current_clean_pose_reexport.anm",
+  "rollback_max_decoded_component_error": 1.4572654034927801e-5,
+  "rollback_structural_origin_error": 4.165961239671612e-6
+}

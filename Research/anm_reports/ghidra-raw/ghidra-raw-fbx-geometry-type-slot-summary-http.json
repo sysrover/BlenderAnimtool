@@ -1,0 +1,38 @@
+[
+  {
+    "Class": "FbxMesh",
+    "VTable": "0x141cb9158",
+    "SlotB8": "0x1410e7740",
+    "FirstBytes": "b804000000c3cccc"
+  },
+  {
+    "Class": "FbxPatch",
+    "VTable": "0x141cd9b88",
+    "SlotB8": "0x141194b70",
+    "FirstBytes": "b806000000c3cccc"
+  },
+  {
+    "Class": "FbxNurbs",
+    "VTable": "0x141cd9618",
+    "SlotB8": "0x141192730",
+    "FirstBytes": "b805000000c3cccc"
+  },
+  {
+    "Class": "FbxNurbsSurface",
+    "VTable": "0x141cd9940",
+    "SlotB8": "0x141193ca0",
+    "FirstBytes": "b810000000c3cccc"
+  },
+  {
+    "Class": "FbxNurbsCurve",
+    "VTable": "0x141cd9770",
+    "SlotB8": "0x141192fc0",
+    "FirstBytes": "b80d000000c3cccc"
+  },
+  {
+    "Class": "FbxLine",
+    "VTable": "0x141cd8f08",
+    "SlotB8": "0x141190580",
+    "FirstBytes": "b815000000c3cccc"
+  }
+]

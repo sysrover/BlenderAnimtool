@@ -1,0 +1,268 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_aks74u_refstyle_ikfk_v10.blend",
+  "mode": "POSE",
+  "rig": "DAT_DayZ_RefStyleControlsWireV8",
+  "rig_props": {
+    "IK_FK_L": 1.0,
+    "IK_FK_R": 1.0
+  },
+  "export_constraints": {
+    "LeftArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Arm.L",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftArm.L",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "LeftArmRoll": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ArmRoll.L",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftArmRoll.L",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "LeftForeArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ForeArm.L",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftForeArm.L",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "LeftForeArmRoll": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftForeArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ForeArmRoll.L",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftForeArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftForeArmRoll.L",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "LeftHand": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Hand.L",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftHand.L",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Arm.R",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightArm.R",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightArmRoll": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ArmRoll.R",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightArmRoll.R",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightForeArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ForeArm.R",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightForeArm.R",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightForeArmRoll": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightForeArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ForeArmRoll.R",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightForeArmRoll",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightForeArmRoll.R",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightHand": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Hand.R",
+        "influence": 1.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightHand.R",
+        "influence": 0.0,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ]
+  },
+  "gaps": {
+    "L": {
+      "LeftArm->LeftArmRoll": 0.09999990571373121,
+      "LeftArmRoll->LeftForeArm": 0.010000320996905766,
+      "LeftForeArm->LeftForeArmRoll": 0.10399972880395733,
+      "LeftForeArmRoll->LeftHand": 0.02899992657452408
+    },
+    "R": {
+      "RightArm->RightArmRoll": 0.30000008512287124,
+      "RightArmRoll->RightForeArm": 0.19000014987817299,
+      "RightForeArm->RightForeArmRoll": 0.3039996041772565,
+      "RightForeArmRoll->RightHand": 0.17100056321617074
+    }
+  },
+  "bad_constraints": [],
+  "control_basis": {
+    "OUT_Hand.L": {
+      "loc_mag": 0.04576696013114092,
+      "rot_angle_deg": 0.0
+    },
+    "OUT_ForeArm.L": {
+      "loc_mag": 0.19443133183786934,
+      "rot_angle_deg": 102.56664216214202
+    },
+    "OUT_ForeArmRoll.L": {
+      "loc_mag": 0.06936308582605333,
+      "rot_angle_deg": 102.56664216214202
+    },
+    "OUT_Arm.L": {
+      "loc_mag": 6.664001874625056e-08,
+      "rot_angle_deg": 39.36569624362553
+    },
+    "OUT_ArmRoll.L": {
+      "loc_mag": 0.13409087324890478,
+      "rot_angle_deg": 39.36569624362553
+    },
+    "OUT_Hand.R": {
+      "loc_mag": 0.21027045518506576,
+      "rot_angle_deg": 0.0
+    },
+    "OUT_ForeArm.R": {
+      "loc_mag": 0.3404847709489255,
+      "rot_angle_deg": 59.17550904437236
+    },
+    "OUT_ForeArmRoll.R": {
+      "loc_mag": 0.1262889283873809,
+      "rot_angle_deg": 145.78130368232604
+    },
+    "OUT_Arm.R": {
+      "loc_mag": 1.3546182092708877e-07,
+      "rot_angle_deg": 110.08314240033599
+    },
+    "OUT_ArmRoll.R": {
+      "loc_mag": 0.23481541123951283,
+      "rot_angle_deg": 166.8682423295548
+    }
+  }
+}

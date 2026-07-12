@@ -1,0 +1,74 @@
+{
+  "source": "P:\\DZ\\anims\\anm\\player\\ik\\weapons\\aug.anm",
+  "source_format": "AnimSet6",
+  "source_fps": 30,
+  "source_sha256": "9d37bba5d4493c1206a10376b1cc31fe7506e3952c7c2c4b58e4e7a0f0606f39",
+  "raw_sha256": "9d37bba5d4493c1206a10376b1cc31fe7506e3952c7c2c4b58e4e7a0f0606f39",
+  "raw_exact": true,
+  "sampled_compare": {
+    "max_error": 6.253354923446697e-05,
+    "worst": {
+      "track": "LeftForeArmDirection",
+      "channel": "rotation",
+      "frame": 1,
+      "error": 6.253354923446697e-05
+    },
+    "missing_tracks": []
+  },
+  "control_edit": {
+    "before": 0.019392967224121094,
+    "after": 0.029392967000603676
+  },
+  "control_action_slot": 929201142,
+  "edit_runtime": {
+    "control_location": [
+      0.029392967000603676,
+      0.005842536687850952,
+      -0.09006446599960327
+    ],
+    "control_world": [
+      0.20815986394882202,
+      0.4256436228752136,
+      1.313064694404602
+    ],
+    "source_world": [
+      0.20815986394882202,
+      0.4256436228752136,
+      1.313064694404602
+    ],
+    "constraints": [
+      {
+        "name": "DAT_IK_AUTHOR_LeftHandIKTarget",
+        "enabled": true,
+        "influence": 1.0
+      }
+    ]
+  },
+  "edited_left_target_delta": {
+    "max_error": 0.007060853576118548,
+    "worst": {
+      "track": "LeftHandIKTarget",
+      "channel": "position",
+      "frame": 1,
+      "error": 0.007060853576118548
+    },
+    "missing_tracks": []
+  },
+  "edit_detected": true,
+  "cycle_compare": {
+    "max_error": 0.00011116266250610352,
+    "worst": {
+      "track": "RightForeArmDirection",
+      "channel": "rotation",
+      "frame": 1,
+      "error": 0.00011116266250610352
+    },
+    "missing_tracks": []
+  },
+  "paths": {
+    "raw": "C:\\temp\\dayz_weaponik_corpus\\aug_raw.anm",
+    "sampled": "C:\\temp\\dayz_weaponik_corpus\\aug_sampled.anm",
+    "edited": "C:\\temp\\dayz_weaponik_corpus\\aug_edited.anm",
+    "cycle": "C:\\temp\\dayz_weaponik_corpus\\aug_cycle.anm"
+  }
+}

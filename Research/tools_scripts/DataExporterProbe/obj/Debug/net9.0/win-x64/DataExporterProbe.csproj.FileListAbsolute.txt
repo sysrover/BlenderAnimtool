@@ -1,0 +1,14 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\bin\Debug\net9.0\win-x64\DataExporterProbe.exe
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\bin\Debug\net9.0\win-x64\DataExporterProbe.deps.json
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\bin\Debug\net9.0\win-x64\DataExporterProbe.runtimeconfig.json
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\bin\Debug\net9.0\win-x64\DataExporterProbe.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\bin\Debug\net9.0\win-x64\DataExporterProbe.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.AssemblyInfoInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.AssemblyInfo.cs
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.csproj.CoreCompileInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\refint\DataExporterProbe.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\DataExporterProbe.genruntimeconfig.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\DataExporterProbe\obj\Debug\net9.0\win-x64\ref\DataExporterProbe.dll

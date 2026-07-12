@@ -1,0 +1,67 @@
+{
+  "mode": "ANM import fixed: raw aks74u helper source",
+  "anm": "P:\\DZ\\anims\\anm\\player\\ik\\weapons\\aks74u.anm",
+  "addon_root": "P:\\BlenderAnimtool",
+  "removed_preview": {
+    "constraints": [],
+    "objects": []
+  },
+  "removed_actions": [
+    "aks74u"
+  ],
+  "active_action": "aks74u",
+  "action": {
+    "name": "aks74u",
+    "frame_range": [
+      0.0,
+      1.0
+    ],
+    "fcurves": 301,
+    "bones": {
+      "LeftHandRing": 7,
+      "LeftHandRing1": 7,
+      "LeftHandRing2": 7,
+      "LeftHandRing3": 7,
+      "LeftHandMiddle1": 7,
+      "LeftHandMiddle2": 7,
+      "LeftHandMiddle3": 7,
+      "LeftHandIndex1": 7,
+      "LeftHandIndex2": 7,
+      "LeftHandIndex3": 7,
+      "LeftHandThumb1": 7,
+      "LeftHandThumb2": 7,
+      "LeftHandThumb3": 7,
+      "LeftHandPinky": 7,
+      "LeftHandPinky1": 7,
+      "LeftHandPinky2": 7,
+      "LeftHandPinky3": 7,
+      "LeftHand_Dummy": 7,
+      "RightHandRing": 7,
+      "RightHandRing1": 7,
+      "RightHandRing2": 7,
+      "RightHandRing3": 7,
+      "RightHandThumb1": 7,
+      "RightHandThumb2": 7,
+      "RightHandThumb3": 7,
+      "RightHandMiddle1": 7,
+      "RightHandMiddle2": 7,
+      "RightHandMiddle3": 7,
+      "RightHandIndex1": 7,
+      "RightHandIndex2": 7,
+      "RightHandIndex3": 7,
+      "RightHandPinky": 7,
+      "RightHandPinky1": 7,
+      "RightHandPinky2": 7,
+      "RightHandPinky3": 7,
+      "RightHand_Dummy": 7,
+      "RightHandOrigin": 7,
+      "RightForeArmDirectionOrigin": 7,
+      "RightForeArmDirection": 7,
+      "LeftHandOrigin": 7,
+      "LeftHandIKTarget": 7,
+      "LeftForeArmDirectionOrigin": 7,
+      "LeftForeArmDirection": 7
+    }
+  },
+  "note": "This reimport uses DayzAnimationToolsBinary.Import.ImportAnm reloaded from disk after the ANM IK import patch."
+}

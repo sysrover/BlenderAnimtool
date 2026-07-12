@@ -1,0 +1,56 @@
+{
+  "source_clean_file": "P:\\Animation_Weapon\\Weapon_template_clean_no_blender_ik.blend",
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_controlrig_v4_fullclone.blend",
+  "dayz_armature": "_DayZ_Character",
+  "control_rig": "DAT_ControlRigV4",
+  "control_rig_bone_count": 167,
+  "visible_control_bones": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "copy_follow_constraints": [
+    {
+      "bone": "LeftArm",
+      "target": "LeftArm"
+    },
+    {
+      "bone": "LeftArmRoll",
+      "target": "LeftArmRoll"
+    },
+    {
+      "bone": "LeftForeArm",
+      "target": "LeftForeArm"
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "target": "LeftForeArmRoll"
+    },
+    {
+      "bone": "LeftHand",
+      "target": "LeftHand"
+    },
+    {
+      "bone": "RightArm",
+      "target": "RightArm"
+    },
+    {
+      "bone": "RightArmRoll",
+      "target": "RightArmRoll"
+    },
+    {
+      "bone": "RightForeArm",
+      "target": "RightForeArm"
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "target": "RightForeArmRoll"
+    },
+    {
+      "bone": "RightHand",
+      "target": "RightHand"
+    }
+  ],
+  "note": "Full clone control rig: DAT_ControlRigV4 has the same DayZ rest skeleton plus four visible controls. IK runs on the clone; export skeleton follows matching clone bones in pose space."
+}

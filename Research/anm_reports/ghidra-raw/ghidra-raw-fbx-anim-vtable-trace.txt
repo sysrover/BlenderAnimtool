@@ -1,0 +1,1503 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\FbxAnimVtableTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:09:59 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\FbxAnimVtableTrace.java
+Size: 4021 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+IMAGE_BASE 140000000
+============================================================
+VTABLE 141aaeef8
+  REF from=140455608 fn=FUN_1404555f0@1404555f0
+  REF from=140455616 fn=FUN_1404555f0@1404555f0
+  SLOT 0 +0x00 ptr=140457e40 fn=FUN_140457e40@140457e40
+  SLOT 1 +0x08 ptr=140457a40 fn=FUN_140457a40@140457a40
+  SLOT 2 +0x10 ptr=140457b50 fn=FUN_140457b50@140457b50
+  SLOT 3 +0x18 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 4 +0x20 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 5 +0x28 ptr=1402dce60 fn=FUN_1402dce60@1402dce60
+  SLOT 6 +0x30 ptr=1402a5070 fn=FUN_1402a5070@1402a5070
+  SLOT 7 +0x38 ptr=1402a50c0 fn=FUN_1402a50c0@1402a50c0
+  SLOT 8 +0x40 ptr=1402a6bf0 fn=FUN_1402a6bf0@1402a6bf0
+  SLOT 9 +0x48 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 10 +0x50 ptr=14006c820 fn=save@14006c820
+  SLOT 11 +0x58 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 12 +0x60 ptr=1402a7b20 fn=FUN_1402a7b20@1402a7b20
+  SLOT 13 +0x68 ptr=14006c820 fn=save@14006c820
+  SLOT 14 +0x70 ptr=1402a7b70 fn=FUN_1402a7b70@1402a7b70
+  SLOT 15 +0x78 ptr=14006c820 fn=save@14006c820
+  SLOT 16 +0x80 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 17 +0x88 ptr=140457310 fn=FUN_140457310@140457310
+  SLOT 18 +0x90 ptr=140457320 fn=FUN_140457320@140457320
+  SLOT 19 +0x98 ptr=1404572b0 fn=FUN_1404572b0@1404572b0
+  SLOT 20 +0xa0 ptr=140207980 fn=FUN_140207980@140207980
+  SLOT 21 +0xa8 ptr=1400a4340 fn=FUN_1400a4340@1400a4340
+  SLOT 22 +0xb0 ptr=140457200 fn=FUN_140457200@140457200
+  SLOT 23 +0xb8 ptr=140457250 fn=FUN_140457250@140457250
+  SLOT 24 +0xc0 ptr=140457120 fn=FUN_140457120@140457120
+  SLOT 25 +0xc8 ptr=526d696e41584246 fn=<none>
+  SLOT 26 +0xd0 ptr=43656372756f7365 fn=<none>
+  SLOT 27 +0xd8 ptr=7373616c fn=<none>
+  SLOT 28 +0xe0 ptr=61786266 fn=<none>
+  SLOT 29 +0xe8 ptr=141fb01b0 fn=<none>
+  SLOT 30 +0xf0 ptr=140457d20 fn=FUN_140457d20@140457d20
+  SLOT 31 +0xf8 ptr=140457a10 fn=FUN_140457a10@140457a10
+  SLOT 32 +0x100 ptr=140457b20 fn=FUN_140457b20@140457b20
+  SLOT 33 +0x108 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 34 +0x110 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 35 +0x118 ptr=1402dce60 fn=FUN_1402dce60@1402dce60
+  SLOT 36 +0x120 ptr=1402a5070 fn=FUN_1402a5070@1402a5070
+  SLOT 37 +0x128 ptr=1402a50c0 fn=FUN_1402a50c0@1402a50c0
+  SLOT 38 +0x130 ptr=1402a6bf0 fn=FUN_1402a6bf0@1402a6bf0
+  SLOT 39 +0x138 ptr=14006e640 fn=FUN_14006e640@14006e640
+VTABLE 141aaeb58
+  REF from=1404557b8 fn=FUN_1404557a0@1404557a0
+  REF from=1404557c6 fn=FUN_1404557a0@1404557a0
+  SLOT 0 +0x00 ptr=140457ec0 fn=FUN_140457ec0@140457ec0
+  SLOT 1 +0x08 ptr=140457a50 fn=FUN_140457a50@140457a50
+  SLOT 2 +0x10 ptr=140457b60 fn=FUN_140457b60@140457b60
+  SLOT 3 +0x18 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 4 +0x20 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 5 +0x28 ptr=1402dce60 fn=FUN_1402dce60@1402dce60
+  SLOT 6 +0x30 ptr=140458a50 fn=FUN_140458a50@140458a50
+  SLOT 7 +0x38 ptr=140458a30 fn=FUN_140458a30@140458a30
+  SLOT 8 +0x40 ptr=140458ac0 fn=FUN_140458ac0@140458ac0
+  SLOT 9 +0x48 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 10 +0x50 ptr=140458a20 fn=FUN_140458a20@140458a20
+  SLOT 11 +0x58 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 12 +0x60 ptr=1402a7b20 fn=FUN_1402a7b20@1402a7b20
+  SLOT 13 +0x68 ptr=14006c820 fn=save@14006c820
+  SLOT 14 +0x70 ptr=1402a7b70 fn=FUN_1402a7b70@1402a7b70
+  SLOT 15 +0x78 ptr=14006c820 fn=save@14006c820
+  SLOT 16 +0x80 ptr=140458280 fn=FUN_140458280@140458280
+  SLOT 17 +0x88 ptr=140457320 fn=FUN_140457320@140457320
+  SLOT 18 +0x90 ptr=140457270 fn=FUN_140457270@140457270
+  SLOT 19 +0x98 ptr=140457370 fn=FUN_140457370@140457370
+  SLOT 20 +0xa0 ptr=1404579a0 fn=FUN_1404579a0@1404579a0
+  SLOT 21 +0xa8 ptr=1400a4340 fn=FUN_1400a4340@1400a4340
+  SLOT 22 +0xb0 ptr=140457200 fn=FUN_140457200@140457200
+  SLOT 23 +0xb8 ptr=140457260 fn=FUN_140457260@140457260
+  SLOT 24 +0xc0 ptr=140457120 fn=FUN_140457120@140457120
+  SLOT 25 +0xc8 ptr=756f736552584246 fn=<none>
+  SLOT 26 +0xd0 ptr=7373616c43656372 fn=<none>
+  SLOT 27 +0xd8 ptr=78626600000000 fn=<none>
+  SLOT 28 +0xe0 ptr=141faff10 fn=<none>
+  SLOT 29 +0xe8 ptr=140458010 fn=FUN_140458010@140458010
+  SLOT 30 +0xf0 ptr=140457a80 fn=FUN_140457a80@140457a80
+  SLOT 31 +0xf8 ptr=140457b90 fn=FUN_140457b90@140457b90
+  SLOT 32 +0x100 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 33 +0x108 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 34 +0x110 ptr=1402dce60 fn=FUN_1402dce60@1402dce60
+  SLOT 35 +0x118 ptr=1402a5070 fn=FUN_1402a5070@1402a5070
+  SLOT 36 +0x120 ptr=1402a50c0 fn=FUN_1402a50c0@1402a50c0
+  SLOT 37 +0x128 ptr=1402a6bf0 fn=FUN_1402a6bf0@1402a6bf0
+  SLOT 38 +0x130 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 39 +0x138 ptr=14006c820 fn=save@14006c820
+VTABLE 141c8c840
+  REF from=140fc9aae fn=FUN_140fc9aa0@140fc9aa0
+  REF from=140fc9ab5 fn=FUN_140fc9aa0@140fc9aa0
+  SLOT 0 +0x00 ptr=140fce730 fn=FUN_140fce730@140fce730
+  SLOT 1 +0x08 ptr=140fce0f0 fn=FUN_140fce0f0@140fce0f0
+  SLOT 2 +0x10 ptr=140fce230 fn=FUN_140fce230@140fce230
+  SLOT 3 +0x18 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 4 +0x20 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 5 +0x28 ptr=14006e5e0 fn=FUN_14006e5e0@14006e5e0
+  SLOT 6 +0x30 ptr=1402a5070 fn=FUN_1402a5070@1402a5070
+  SLOT 7 +0x38 ptr=1402a50c0 fn=FUN_1402a50c0@1402a50c0
+  SLOT 8 +0x40 ptr=1402a6bf0 fn=FUN_1402a6bf0@1402a6bf0
+  SLOT 9 +0x48 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 10 +0x50 ptr=14006c820 fn=save@14006c820
+  SLOT 11 +0x58 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 12 +0x60 ptr=1402a7b20 fn=FUN_1402a7b20@1402a7b20
+  SLOT 13 +0x68 ptr=14006c820 fn=save@14006c820
+  SLOT 14 +0x70 ptr=1402a7b70 fn=FUN_1402a7b70@1402a7b70
+  SLOT 15 +0x78 ptr=14006c820 fn=save@14006c820
+  SLOT 16 +0x80 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 17 +0x88 ptr=140457310 fn=FUN_140457310@140457310
+  SLOT 18 +0x90 ptr=140457320 fn=FUN_140457320@140457320
+  SLOT 19 +0x98 ptr=1404572b0 fn=FUN_1404572b0@1404572b0
+  SLOT 20 +0xa0 ptr=140207980 fn=FUN_140207980@140207980
+  SLOT 21 +0xa8 ptr=1400a4340 fn=FUN_1400a4340@1400a4340
+  SLOT 22 +0xb0 ptr=140457200 fn=FUN_140457200@140457200
+  SLOT 23 +0xb8 ptr=140457250 fn=FUN_140457250@140457250
+  SLOT 24 +0xc0 ptr=140fc9fc0 fn=FUN_140fc9fc0@140fc9fc0
+  SLOT 25 +0xc8 ptr=526d696e41584246 fn=<none>
+  SLOT 26 +0xd0 ptr=43656372756f7365 fn=<none>
+  SLOT 27 +0xd8 ptr=42577373616c fn=<none>
+  SLOT 28 +0xe0 ptr=142066008 fn=<none>
+  SLOT 29 +0xe8 ptr=140fce650 fn=FUN_140fce650@140fce650
+  SLOT 30 +0xf0 ptr=140fce0d0 fn=FUN_140fce0d0@140fce0d0
+  SLOT 31 +0xf8 ptr=140fce210 fn=FUN_140fce210@140fce210
+  SLOT 32 +0x100 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 33 +0x108 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 34 +0x110 ptr=14006e5e0 fn=FUN_14006e5e0@14006e5e0
+  SLOT 35 +0x118 ptr=1402a5070 fn=FUN_1402a5070@1402a5070
+  SLOT 36 +0x120 ptr=1402a50c0 fn=FUN_1402a50c0@1402a50c0
+  SLOT 37 +0x128 ptr=1402a6bf0 fn=FUN_1402a6bf0@1402a6bf0
+  SLOT 38 +0x130 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 39 +0x138 ptr=14006c820 fn=save@14006c820
+VTABLE 141c8c4a0
+  REF from=140fc9ade fn=FUN_140fc9ad0@140fc9ad0
+  REF from=140fc9ae5 fn=FUN_140fc9ad0@140fc9ad0
+  SLOT 0 +0x00 ptr=140fce7a0 fn=FUN_140fce7a0@140fce7a0
+  SLOT 1 +0x08 ptr=140fce100 fn=FUN_140fce100@140fce100
+  SLOT 2 +0x10 ptr=140fce240 fn=FUN_140fce240@140fce240
+  SLOT 3 +0x18 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 4 +0x20 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 5 +0x28 ptr=14006e5e0 fn=FUN_14006e5e0@14006e5e0
+  SLOT 6 +0x30 ptr=140458a50 fn=FUN_140458a50@140458a50
+  SLOT 7 +0x38 ptr=140458a30 fn=FUN_140458a30@140458a30
+  SLOT 8 +0x40 ptr=140458ac0 fn=FUN_140458ac0@140458ac0
+  SLOT 9 +0x48 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 10 +0x50 ptr=140458a20 fn=FUN_140458a20@140458a20
+  SLOT 11 +0x58 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 12 +0x60 ptr=1402a7b20 fn=FUN_1402a7b20@1402a7b20
+  SLOT 13 +0x68 ptr=14006c820 fn=save@14006c820
+  SLOT 14 +0x70 ptr=1402a7b70 fn=FUN_1402a7b70@1402a7b70
+  SLOT 15 +0x78 ptr=14006c820 fn=save@14006c820
+  SLOT 16 +0x80 ptr=140458280 fn=FUN_140458280@140458280
+  SLOT 17 +0x88 ptr=140457320 fn=FUN_140457320@140457320
+  SLOT 18 +0x90 ptr=140457270 fn=FUN_140457270@140457270
+  SLOT 19 +0x98 ptr=140457370 fn=FUN_140457370@140457370
+  SLOT 20 +0xa0 ptr=1404579a0 fn=FUN_1404579a0@1404579a0
+  SLOT 21 +0xa8 ptr=1400a4340 fn=FUN_1400a4340@1400a4340
+  SLOT 22 +0xb0 ptr=140457200 fn=FUN_140457200@140457200
+  SLOT 23 +0xb8 ptr=140457260 fn=FUN_140457260@140457260
+  SLOT 24 +0xc0 ptr=140fca340 fn=FUN_140fca340@140fca340
+  SLOT 25 +0xc8 ptr=756f736552584246 fn=<none>
+  SLOT 26 +0xd0 ptr=7373616c43656372 fn=<none>
+  SLOT 27 +0xd8 ptr=00004257 fn=<none>
+  SLOT 28 +0xe0 ptr=142065d48 fn=<none>
+  SLOT 29 +0xe8 ptr=140fce5e0 fn=FUN_140fce5e0@140fce5e0
+  SLOT 30 +0xf0 ptr=140fce0c0 fn=FUN_140fce0c0@140fce0c0
+  SLOT 31 +0xf8 ptr=140fce200 fn=FUN_140fce200@140fce200
+  SLOT 32 +0x100 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 33 +0x108 ptr=14006c680 fn=_guard_check_icall@14006c680
+  SLOT 34 +0x110 ptr=14006e5e0 fn=FUN_14006e5e0@14006e5e0
+  SLOT 35 +0x118 ptr=1402a5070 fn=FUN_1402a5070@1402a5070
+  SLOT 36 +0x120 ptr=1402a50c0 fn=FUN_1402a50c0@1402a50c0
+  SLOT 37 +0x128 ptr=1402a6bf0 fn=FUN_1402a6bf0@1402a6bf0
+  SLOT 38 +0x130 ptr=14006e640 fn=FUN_14006e640@14006e640
+  SLOT 39 +0x138 ptr=14006c820 fn=save@14006c820
+============================================================
+------------------------------------------------------------
+FUNCTION_REQUEST 1404555f0 -> FUN_1404555f0@1404555f0
+ENTRY 1404555f0
+CALLERS
+  CALLER from=14ca00224 fn=<none>
+  CALLER from=140fc9aa9 fn=FUN_140fc9aa0@140fc9aa0
+DECOMPILE_BEGIN FUN_1404555f0 1404555f0
+
+undefined8 * FUN_1404555f0(undefined8 *param_1)
+
+{
+  char *local_res8 [2];
+  char *local_res18;
+  undefined *local_res20;
+  char *local_88;
+  char *local_80;
+  undefined4 local_78;
+  undefined4 local_74;
+  undefined1 local_70 [8];
+  undefined1 local_68 [8];
+  undefined8 local_60;
+  undefined8 uStack_58;
+  undefined1 local_50 [8];
+  undefined1 local_48 [8];
+  undefined1 local_40 [8];
+  undefined4 local_38;
+  undefined8 local_30;
+  undefined8 local_28;
+  
+  FUN_1404564a0();
+  local_78 = 0xb;
+  *param_1 = enf::FBXAnimResourceClass::vftable;
+  local_74 = 0xff0000;
+  local_80 = "Name of the animation take to import";
+  local_res20 = PTR_s_editbox_142321b38;
+  local_res18 = "Take 001";
+  local_res8[0] = "AnimationName";
+  local_88 = (char *)0x0;
+  FUN_1402c48c0(local_res8,local_70);
+  FUN_1402c48c0(&local_res18,local_68);
+  local_60 = 0;
+  uStack_58 = 0;
+  FUN_1402c48c0(&local_res20,local_50);
+  FUN_1402c48c0(&local_88,local_48);
+  FUN_1402c48c0(&local_80,local_40);
+  local_38 = 0;
+  local_30 = 0;
+  local_28 = 0;
+  DAT_142321adc = FUN_1402acdf0(param_1,&local_78);
+  FUN_14050e300(local_30);
+  FUN_1402ac180(&local_78);
+  local_78 = 8;
+  local_88 = "Play speed";
+  local_74 = 0xff0000;
+  local_80 = "0 3000 1";
+  local_res20 = PTR_s_editbox_142321b38;
+  local_res18 = "30";
+  local_res8[0] = "FPS";
+  FUN_1402c48c0(local_res8,local_70);
+  FUN_1402c48c0(&local_res18,local_68);
+  local_60 = 0;
+  uStack_58 = 0;
+  FUN_1402c48c0(&local_res20,local_50);
+  FUN_1402c48c0(&local_80,local_48);
+  FUN_1402c48c0(&local_88,local_40);
+  local_38 = 0;
+  local_30 = 0;
+  local_28 = 0;
+  DAT_142321ae0 = FUN_1402acdf0(param_1,&local_78);
+  FUN_14050e300(local_30);
+  FUN_1402ac180(&local_78);
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1404555f0 1404555f0
+CALLS
+  CALL from=140455603 ins=CALL 0x1404564a0
+  CALL from=14045565a ins=CALL 0x1402c48c0
+  CALL from=140455667 ins=CALL 0x1402c48c0
+  CALL from=14045567c ins=CALL 0x1402c48c0
+  CALL from=140455689 ins=CALL 0x1402c48c0
+  CALL from=140455696 ins=CALL 0x1402c48c0
+  CALL from=1404556ad ins=CALL 0x1402acdf0
+  CALL from=1404556bc ins=CALL 0x14050e300
+  CALL from=1404556c5 ins=CALL 0x1402ac180
+  CALL from=140455717 ins=CALL 0x1402c48c0
+  CALL from=140455724 ins=CALL 0x1402c48c0
+  CALL from=140455739 ins=CALL 0x1402c48c0
+  CALL from=140455746 ins=CALL 0x1402c48c0
+  CALL from=140455753 ins=CALL 0x1402c48c0
+  CALL from=14045576a ins=CALL 0x1402acdf0
+  CALL from=140455779 ins=CALL 0x14050e300
+  CALL from=140455782 ins=CALL 0x1402ac180
+------------------------------------------------------------
+FUNCTION_REQUEST 1404557a0 -> FUN_1404557a0@1404557a0
+ENTRY 1404557a0
+CALLERS
+  CALLER from=14ca00230 fn=<none>
+  CALLER from=140fc9ad9 fn=FUN_140fc9ad0@140fc9ad0
+DECOMPILE_BEGIN FUN_1404557a0 1404557a0
+
+undefined8 * FUN_1404557a0(undefined8 *param_1)
+
+{
+  char *local_res8 [2];
+  undefined1 *local_res18;
+  undefined *local_res20;
+  undefined8 local_88;
+  char *local_80;
+  undefined4 local_78;
+  undefined4 local_74;
+  undefined1 local_70 [8];
+  undefined1 local_68 [8];
+  undefined8 local_60;
+  undefined8 uStack_58;
+  undefined1 local_50 [8];
+  undefined1 local_48 [8];
+  undefined1 local_40 [8];
+  undefined4 local_38;
+  undefined8 local_30;
+  undefined8 local_28;
+  
+  FUN_140456590();
+  local_78 = 10;
+  *param_1 = enf::FBXResourceClass::vftable;
+  local_74 = 0xff0000;
+  local_80 = "Modify \"_\" to \"/\" in material names";
+  local_res20 = PTR_s_checkbox_142321b40;
+  local_res18 = &DAT_141a7573c;
+  local_res8[0] = "Modify material names";
+  local_88 = 0;
+  FUN_1402c48c0(local_res8,local_70);
+  FUN_1402c48c0(&local_res18,local_68);
+  local_60 = 0;
+  uStack_58 = 0;
+  FUN_1402c48c0(&local_res20,local_50);
+  FUN_1402c48c0(&local_88,local_48);
+  FUN_1402c48c0(&local_80,local_40);
+  local_38 = 0;
+  local_30 = 0;
+  local_28 = 0;
+  DAT_142321acc = FUN_1402acdf0(param_1,&local_78);
+  FUN_14050e300(local_30);
+  FUN_1402ac180(&local_78);
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1404557a0 1404557a0
+CALLS
+  CALL from=1404557b3 ins=CALL 0x140456590
+  CALL from=14045580a ins=CALL 0x1402c48c0
+  CALL from=140455817 ins=CALL 0x1402c48c0
+  CALL from=14045582c ins=CALL 0x1402c48c0
+  CALL from=140455839 ins=CALL 0x1402c48c0
+  CALL from=140455846 ins=CALL 0x1402c48c0
+  CALL from=14045585d ins=CALL 0x1402acdf0
+  CALL from=14045586c ins=CALL 0x14050e300
+  CALL from=140455875 ins=CALL 0x1402ac180
+------------------------------------------------------------
+FUNCTION_REQUEST 140457b50 -> FUN_140457b50@140457b50
+ENTRY 140457b50
+CALLERS
+  CALLER from=141aaef08 fn=<none>
+DECOMPILE_BEGIN FUN_140457b50 140457b50
+
+undefined8 * FUN_140457b50(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = "FBXAnimResourceClass";
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_140457b50 140457b50
+CALLS
+------------------------------------------------------------
+FUNCTION_REQUEST 140457b60 -> FUN_140457b60@140457b60
+ENTRY 140457b60
+CALLERS
+  CALLER from=141aaeb68 fn=<none>
+DECOMPILE_BEGIN FUN_140457b60 140457b60
+
+undefined8 * FUN_140457b60(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = "FBXResourceClass";
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_140457b60 140457b60
+CALLS
+------------------------------------------------------------
+FUNCTION_REQUEST 140fce230 -> FUN_140fce230@140fce230
+ENTRY 140fce230
+CALLERS
+  CALLER from=141c8c850 fn=<none>
+DECOMPILE_BEGIN FUN_140fce230 140fce230
+
+undefined8 * FUN_140fce230(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = "FBXAnimResourceClassWB";
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_140fce230 140fce230
+CALLS
+------------------------------------------------------------
+FUNCTION_REQUEST 140fce240 -> FUN_140fce240@140fce240
+ENTRY 140fce240
+CALLERS
+  CALLER from=141c8c4b0 fn=<none>
+DECOMPILE_BEGIN FUN_140fce240 140fce240
+
+undefined8 * FUN_140fce240(undefined8 param_1,undefined8 *param_2)
+
+{
+  *param_2 = "FBXResourceClassWB";
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_140fce240 140fce240
+CALLS
+------------------------------------------------------------
+FUNCTION_REQUEST 140fc3a70 -> FUN_140fc3a70@140fc3a70
+ENTRY 140fc3a70
+CALLERS
+  CALLER from=14caa47ec fn=<none>
+  CALLER from=140fbbb90 fn=FUN_140fbbb20@140fbbb20
+  CALLER from=140fc523a fn=FUN_140fc4c90@140fc4c90
+DECOMPILE_BEGIN FUN_140fc3a70 140fc3a70
+
+void FUN_140fc3a70(undefined8 param_1,longlong param_2,QListData *param_3,char param_4,char param_5)
+
+{
+  char cVar1;
+  bool bVar2;
+  ushort uVar3;
+  int iVar4;
+  int iVar5;
+  uint uVar6;
+  StandardButton SVar7;
+  char *pcVar8;
+  QString *pQVar9;
+  undefined2 *puVar10;
+  QByteArray *pQVar11;
+  char *pcVar12;
+  longlong *plVar13;
+  char *pcVar14;
+  short *psVar15;
+  ushort *puVar16;
+  QCheckBox *pQVar17;
+  longlong *plVar18;
+  undefined8 *puVar19;
+  undefined8 uVar20;
+  uint uVar21;
+  char *pcVar22;
+  undefined1 *puVar23;
+  uint uVar24;
+  char *pcVar25;
+  ulonglong uVar26;
+  undefined2 uVar27;
+  char *pcVar28;
+  char *pcVar29;
+  QChar local_res10 [8];
+  QListData *local_res18;
+  char local_res20;
+  ulonglong in_stack_fffffffffffff4c8;
+  undefined4 uVar31;
+  undefined8 uVar30;
+  ulonglong in_stack_fffffffffffff4d0;
+  int local_b18;
+  undefined1 *local_b10;
+  int local_b08 [2];
+  longlong *local_b00;
+  QByteArray local_af8 [8];
+  QChar local_af0 [2];
+  QChar local_aee [2];
+  QChar local_aec [2];
+  QChar local_aea [2];
+  QFile local_ae8 [16];
+  QString local_ad8 [8];
+  QString local_ad0 [8];
+  QString local_ac8 [8];
+  QString local_ac0 [8];
+  QString local_ab8 [8];
+  QString local_ab0 [8];
+  QString local_aa8 [8];
+  QString local_aa0 [8];
+  QString local_a98 [8];
+  QString local_a90 [8];
+  QString local_a88 [8];
+  QString local_a80 [8];
+  QString local_a78 [8];
+  QString local_a70 [8];
+  QString local_a68 [8];
+  QString local_a60 [8];
+  QString local_a58 [8];
+  char *local_a50;
+  undefined8 local_a48;
+  QString local_a40 [8];
+  QString local_a38 [8];
+  QString local_a30 [8];
+  QString local_a28 [8];
+  QString local_a20 [8];
+  QString local_a18 [8];
+  QString local_a10 [8];
+  QString local_a08 [8];
+  QString local_a00 [8];
+  undefined8 local_9f8;
+  QByteArray local_9f0 [8];
+  QString local_9e8 [8];
+  QMessageBox local_9e0 [48];
+  ushort local_9b0;
+  ushort local_9ae;
+  short local_9ac;
+  char local_9aa [257];
+  char local_8a9;
+  undefined1 local_8a8 [8];
+  undefined8 local_8a0;
+  QCheckBox *local_898;
+  undefined1 local_890 [24];
+  undefined1 local_878 [2];
+  ushort local_876;
+  char local_872 [257];
+  char local_771;
+  undefined **local_768 [2];
+  undefined **local_758;
+  char local_6b3;
+  undefined1 local_6a8 [24];
+  undefined1 local_690 [2];
+  undefined2 local_68e;
+  char local_68a [257];
+  char local_589;
+  undefined1 local_588 [6];
+  char local_582 [257];
+  char local_481;
+  undefined1 local_480 [2];
+  undefined2 local_47e;
+  char local_47a [281];
+  char local_361;
+  undefined1 local_360 [4];
+  short local_35c;
+  undefined1 local_35a [513];
+  char local_159;
+  undefined1 local_158 [6];
+  undefined1 local_152 [257];
+  char local_51;
+  
+  if (param_2 != 0) {
+    local_8a0 = 0xfffffffffffffffe;
+    pcVar12 = (char *)0x0;
+    local_b18 = 0;
+    local_b08[0] = 0;
+    local_361 = '\0';
+    local_res18 = param_3;
+    local_res20 = param_4;
+    FUN_140fb1350(param_2,local_480);
+    pcVar8 = local_47a;
+    if (local_361 == '\0') {
+      pcVar8 = pcVar12;
+    }
+    pcVar14 = &DAT_14c9c7609;
+    if (pcVar8 != (char *)0x0) {
+      pcVar14 = pcVar8;
+    }
+    pcVar8 = (char *)FUN_140f31e40(local_480);
+    do {
+      cVar1 = *pcVar14;
+      pcVar14 = pcVar14 + 1;
+      if ((cVar1 == '/') || (cVar1 == '\\')) {
+        cVar1 = '/';
+      }
+      *pcVar8 = cVar1;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar1 != '\0');
+    FUN_14044b6a0(param_2,&local_b10);
+    local_a50 = (char *)0x0;
+    local_a48 = 0;
+    iVar4 = QListData::size(param_3);
+    pcVar8 = pcVar12;
+    pcVar25 = pcVar12;
+    pcVar14 = pcVar12;
+    pcVar28 = pcVar12;
+    if (0 < iVar4) {
+      do {
+        uVar31 = (undefined4)(in_stack_fffffffffffff4c8 >> 0x20);
+        iVar4 = (int)pcVar12;
+        pQVar9 = (QString *)QListData::at(param_3,iVar4);
+        puVar10 = (undefined2 *)QChar::QChar(local_res10,0x2e);
+        in_stack_fffffffffffff4d0 = in_stack_fffffffffffff4d0 & 0xffffffff00000000;
+        in_stack_fffffffffffff4c8 = CONCAT44(uVar31,0xffffffff);
+        QString::section(pQVar9,local_b08,*puVar10,0xffffffff,in_stack_fffffffffffff4c8,
+                         in_stack_fffffffffffff4d0);
+        plVar13 = DAT_1425b7658;
+        pQVar11 = (QByteArray *)QString::toLatin1((QString *)local_b08);
+        pcVar12 = QByteArray::data(pQVar11);
+        plVar13 = (longlong *)(**(code **)(*plVar13 + 0xd8))(plVar13,pcVar12);
+        QByteArray::~QByteArray(local_af8);
+        pcVar14 = pcVar25;
+        if (((plVar13 != (longlong *)0x0) &&
+            (cVar1 = (**(code **)(*plVar13 + 0x68))(plVar13), cVar1 == '\0')) &&
+           (cVar1 = (**(code **)(*plVar13 + 0x80))(plVar13), cVar1 != '\0')) {
+          uVar24 = (int)pcVar28 + 1;
+          uVar21 = (uint)pcVar8;
+          if (uVar21 < uVar24) {
+            uVar6 = uVar21 + 4;
+            if (3 < uVar21 + 1) {
+              uVar6 = uVar21 * 2 + 1;
+            }
+            uVar21 = uVar24;
+            if (uVar24 <= uVar6) {
+              uVar21 = uVar6;
+            }
+            pcVar8 = (char *)(ulonglong)uVar21;
+            pcVar14 = (char *)FUN_14050dc90((ulonglong)uVar21 << 2);
+            if (pcVar25 != (char *)0x0) {
+              memmove(pcVar14,pcVar25,(longlong)pcVar28 << 2);
+              FUN_14050e300(pcVar25);
+            }
+            local_a48 = (ulonglong)uVar21;
+            param_3 = local_res18;
+            local_a50 = pcVar14;
+          }
+          *(int *)(pcVar14 + (longlong)pcVar28 * 4) = iVar4;
+          pcVar28 = (char *)(ulonglong)uVar24;
+          local_a48 = CONCAT44(uVar24,(undefined4)local_a48);
+        }
+        QString::~QString((QString *)local_b08);
+        pcVar12 = (char *)(ulonglong)(iVar4 + 1U);
+        iVar5 = QListData::size(param_3);
+        pcVar25 = pcVar14;
+      } while ((int)(iVar4 + 1U) < iVar5);
+    }
+    uVar26 = 0;
+    pcVar8 = (char *)(in_stack_fffffffffffff4c8 & 0xffffffff00000000);
+    FUN_140fadc00(local_768,param_1,1,1,pcVar8);
+    FUN_140702470(local_768,DAT_141f858d8 / (float)(longlong)pcVar28);
+    FUN_140fae120(local_768,1);
+    QString::QString((QString *)local_res10,"Register resource files");
+    FUN_140fae1a0(local_768,local_res10);
+    QString::~QString((QString *)local_res10);
+    FUN_140fade00(local_768);
+    QWidget::show((QWidget *)local_768);
+    FUN_140fadbe0(local_890,local_768,0);
+    FUN_140fadbe0(local_6a8,local_768,1);
+    local_b00 = (longlong *)0x0;
+    if ((uint)pcVar28 != 0) {
+      do {
+        if (local_6b3 != '\0') break;
+        local_8a9 = '\0';
+        pQVar9 = (QString *)QListData::at(param_3,*(int *)(pcVar14 + uVar26 * 4));
+        pQVar11 = (QByteArray *)QString::toLatin1(pQVar9);
+        pcVar12 = QByteArray::data(pQVar11);
+        pcVar25 = pcVar12;
+        if (pcVar12 == (char *)0x0) {
+          uVar24 = 0;
+        }
+        else {
+          do {
+            cVar1 = *pcVar25;
+            pcVar25 = pcVar25 + 1;
+          } while (cVar1 != '\0');
+          uVar24 = ((int)pcVar25 - (int)pcVar12) - 1;
+        }
+        pcVar29 = (char *)0x0;
+        uVar21 = uVar24 + 1;
+        pcVar25 = pcVar29;
+        pcVar22 = pcVar29;
+        if (local_8a9 == '\0') {
+LAB_140fc3e1c:
+          uVar3 = (ushort)pcVar25;
+          if ((uint)pcVar25 < uVar21) {
+            uVar3 = (ushort)uVar21;
+          }
+          if (0x101 < uVar3) goto LAB_140fc3ec4;
+          if (local_8a9 == '\0') {
+            local_8a9 = '\x01';
+            if (pcVar22 == (char *)0x0) {
+              local_9aa[0] = '\0';
+              puVar16 = &local_9b0;
+            }
+            else {
+              uVar6 = (uint)pcVar25 + 1;
+              uVar21 = 0x101;
+              if (uVar6 < 0x101) {
+                uVar21 = uVar6;
+              }
+              memcpy(local_9aa,pcVar22,(ulonglong)uVar21);
+              psVar15 = &local_9ac;
+              if (local_8a9 == '\0') {
+                psVar15 = (short *)0xfffffffffffffffe;
+              }
+              *psVar15 = *psVar15 + -1;
+              if (local_8a9 != '\0') {
+                local_8a9 = '\0';
+              }
+              puVar16 = (ushort *)&DAT_fffffffffffffffa;
+            }
+            puVar16[2] = 0;
+            *puVar16 = 0x101;
+            puVar16[1] = (ushort)pcVar25;
+            puVar16[2] = puVar16[2] + 1;
+            goto LAB_140fc3ec4;
+          }
+LAB_140fc3ec8:
+          pcVar25 = local_9aa;
+        }
+        else {
+          if ((local_9ac != 1) || (local_9b0 < uVar21)) {
+            pcVar25 = (char *)(ulonglong)local_9ae;
+            pcVar22 = local_9aa;
+            goto LAB_140fc3e1c;
+          }
+LAB_140fc3ec4:
+          pcVar25 = pcVar29;
+          if (local_8a9 != '\0') goto LAB_140fc3ec8;
+        }
+        pcVar25[uVar24] = '\0';
+        puVar16 = &local_9ae;
+        if (local_8a9 == '\0') {
+          puVar16 = (ushort *)0xfffffffffffffffc;
+        }
+        *puVar16 = (ushort)uVar24;
+        pcVar25 = (char *)FUN_140524b90(&local_9b0);
+        do {
+          cVar1 = *pcVar12;
+          pcVar12 = pcVar12 + 1;
+          if ((cVar1 == '/') || (cVar1 == '\\')) {
+            cVar1 = '/';
+          }
+          *pcVar25 = cVar1;
+          pcVar25 = pcVar25 + 1;
+        } while (cVar1 != '\0');
+        QByteArray::~QByteArray(local_9f0);
+        pcVar12 = pcVar29;
+        if (((local_8a9 != '\0') && (local_9ae != 0)) &&
+           (pcVar25 = local_9aa + local_9ae, local_9aa < pcVar25)) {
+          do {
+            pcVar25 = pcVar25 + -1;
+            pcVar12 = pcVar25;
+            if (*pcVar25 == '/') break;
+            pcVar12 = pcVar29;
+          } while (local_9aa < pcVar25);
+        }
+        pcVar25 = pcVar12 + 1;
+        if (pcVar12 == (char *)0x0) {
+          pcVar25 = (char *)0x0;
+        }
+        pcVar12 = pcVar29;
+        if (((local_8a9 != '\0') && (local_9ae != 0)) &&
+           (pcVar22 = local_9aa + local_9ae, local_9aa < pcVar22)) {
+          do {
+            pcVar22 = pcVar22 + -1;
+            pcVar12 = pcVar22;
+            if (*pcVar22 == '.') break;
+            pcVar12 = pcVar29;
+          } while (local_9aa < pcVar22);
+        }
+        pcVar22 = pcVar12 + 1;
+        if (pcVar12 == (char *)0x0) {
+          pcVar22 = (char *)0x0;
+        }
+        plVar13 = (longlong *)(**(code **)(*DAT_1425b7658 + 0xd8))(DAT_1425b7658,pcVar22);
+        uVar31 = (undefined4)((ulonglong)pcVar8 >> 0x20);
+        if (((pcVar22 == "fbx") ||
+            ((pcVar22 != (char *)0x0 &&
+             (iVar4 = FUN_1402c4a70(pcVar22,&DAT_141aaec34),
+             uVar31 = (undefined4)((ulonglong)pcVar8 >> 0x20), iVar4 == 0)))) &&
+           (uVar31 = (undefined4)((ulonglong)pcVar8 >> 0x20), plVar13 = local_b00,
+           local_b00 == (longlong *)0x0)) {
+          pQVar17 = operator_new(0x30);
+          local_898 = pQVar17;
+          if (pQVar17 == (QCheckBox *)0x0) {
+            pQVar17 = (QCheckBox *)0x0;
+          }
+          else {
+            QString::QString(local_ad8,"The same for all FBX files");
+            local_b18 = 1;
+            local_b08[0] = local_b18;
+            QCheckBox::QCheckBox(pQVar17,local_ad8,(QWidget *)0x0);
+            *(undefined ***)pQVar17 = QCheckBox::vftable;
+            *(undefined ***)(pQVar17 + 0x10) = QCheckBox::vftable;
+          }
+          plVar13 = (longlong *)0x0;
+          if (local_b18 != 0) {
+            local_b18 = 0;
+            QString::~QString(local_ad8);
+          }
+          QWidget::hide((QWidget *)local_768);
+          FUN_140fae120(local_768,0);
+          pcVar12 = local_9aa;
+          if (local_8a9 == '\0') {
+            pcVar12 = &DAT_14c9c60d2;
+          }
+          QString::QString(local_ac8,pcVar12);
+          QString::QString(local_ad0,"Register resource");
+          pQVar9 = (QString *)
+                   QString::QString(local_a40,
+                                    "File %1 is ambiguous. Do you want to register it as a model or as an animation?"
+                                   );
+          puVar10 = (undefined2 *)QChar::QChar(local_res10,0x20);
+          uVar30 = CONCAT62((int6)((ulonglong)pcVar8 >> 0x10),*puVar10);
+          uVar20 = QString::arg(pQVar9,local_9e8,local_ac8,0,uVar30);
+          uVar30 = CONCAT44((int)((ulonglong)uVar30 >> 0x20),0x414000);
+          QMessageBox::QMessageBox(local_9e0,4,local_ad0,uVar20,uVar30,param_1,0x103);
+          uVar31 = (undefined4)((ulonglong)uVar30 >> 0x20);
+          QString::~QString(local_9e8);
+          QString::~QString(local_a40);
+          QString::~QString(local_ad0);
+          QString::~QString(local_ac8);
+          QString::QString(local_ac0,"as Model");
+          QMessageBox::setButtonText(local_9e0,0x4000,local_ac0);
+          QString::~QString(local_ac0);
+          QString::QString(local_ab8,"as Animation");
+          QMessageBox::setButtonText(local_9e0,0x10000,local_ab8);
+          QString::~QString(local_ab8);
+          QMessageBox::setDefaultButton(local_9e0,0x4000);
+          QMessageBox::setCheckBox(local_9e0,pQVar17);
+          iVar4 = QDialog::exec((QDialog *)local_9e0);
+          QWidget::show((QWidget *)local_768);
+          FUN_140fae120(local_768,1);
+          if (iVar4 == 0x4000) {
+            plVar18 = (longlong *)
+                      (**(code **)DAT_1425b7658[4])(DAT_1425b7658 + 4,"FBXResourceClass");
+            if ((plVar18 != (longlong *)0x0) &&
+               (cVar1 = (**(code **)*plVar18)(plVar18,&enf::BaseClass::RTTI_Type_Descriptor),
+               cVar1 != '\0')) {
+              plVar13 = plVar18;
+            }
+            bVar2 = QAbstractButton::isChecked((QAbstractButton *)pQVar17);
+            if (bVar2) {
+              local_b00 = plVar13;
+            }
+          }
+          else {
+            if (iVar4 != 0x10000) {
+              QMessageBox::~QMessageBox(local_9e0);
+              break;
+            }
+            plVar18 = (longlong *)
+                      (**(code **)DAT_1425b7658[4])(DAT_1425b7658 + 4,"FBXAnimResourceClass");
+            if ((plVar18 != (longlong *)0x0) &&
+               (cVar1 = (**(code **)*plVar18)(plVar18,&enf::BaseClass::RTTI_Type_Descriptor),
+               cVar1 != '\0')) {
+              plVar13 = plVar18;
+            }
+            bVar2 = QAbstractButton::isChecked((QAbstractButton *)pQVar17);
+            if (bVar2) {
+              local_b00 = plVar13;
+            }
+          }
+          QMessageBox::~QMessageBox(local_9e0);
+        }
+        local_159 = '\0';
+        pcVar12 = local_9aa;
+        if (local_8a9 == '\0') {
+          pcVar12 = &DAT_14c9c60d2;
+        }
+        uVar24 = (int)uVar26 + 1;
+        pcVar8 = (char *)CONCAT44(uVar31,uVar24);
+        FUN_140095920(local_360,0x1ff,"Registering %s (%i/%i)",pcVar12,pcVar8,pcVar28);
+        puVar23 = local_35a;
+        if (local_159 == '\0') {
+          puVar23 = &DAT_14c9c75ec;
+        }
+        FUN_140fae010(local_890,puVar23);
+        FUN_1402c2340(local_890,uVar26,0,pcVar28);
+        (**(code **)(*plVar13 + 0x98))(plVar13,&local_9f8);
+        local_771 = '\0';
+        if (local_361 == '\0') {
+          uVar27 = 0;
+          pcVar12 = &DAT_14c9c7609;
+        }
+        else {
+          pcVar12 = local_47a;
+          uVar27 = local_47e;
+        }
+        FUN_14007bb00(local_878,pcVar12,uVar27);
+        uVar21 = (uint)local_876;
+        if (local_771 == '\0') {
+          uVar21 = 0;
+        }
+        if (pcVar25 == (char *)0x0) {
+LAB_140fc4430:
+          iVar4 = 0;
+        }
+        else if ((*pcVar25 == '\0') || (uVar21 == 0)) {
+LAB_140fc4412:
+          pcVar12 = pcVar25;
+          if (pcVar25 == (char *)0x0) goto LAB_140fc4430;
+          do {
+            cVar1 = *pcVar12;
+            pcVar12 = pcVar12 + 1;
+          } while (cVar1 != '\0');
+          iVar4 = ((int)pcVar12 - (int)pcVar25) + -1;
+        }
+        else {
+          pcVar12 = local_872;
+          if (local_771 == '\0') {
+            pcVar12 = &DAT_14c9c60d2;
+          }
+          if ((pcVar12[uVar21 - 1] == '/') || (pcVar12[uVar21 - 1] == '\\')) goto LAB_140fc4412;
+          FUN_1400bbac0(local_878,CONCAT71((int7)((ulonglong)pcVar12 >> 8),0x2f));
+          pcVar12 = pcVar25;
+          do {
+            cVar1 = *pcVar12;
+            pcVar12 = pcVar12 + 1;
+          } while (cVar1 != '\0');
+          iVar4 = ((int)pcVar12 - (int)pcVar25) + -1;
+        }
+        FUN_14007bc70(local_878,pcVar25,iVar4);
+        local_589 = '\0';
+        if (local_771 != '\0') {
+          FUN_14007bb00(local_690,local_872,local_876);
+        }
+        puVar19 = (undefined8 *)(**(code **)(*plVar13 + 0x98))(plVar13,local_8a8);
+        FUN_14045a960(local_690,*puVar19);
+        local_481 = '\0';
+        if (local_589 != '\0') {
+          FUN_14007bb00(local_588,local_68a,local_68e);
+        }
+        pcVar12 = &DAT_1425b6476;
+        if (DAT_1425b647f == '\0') {
+          pcVar12 = &DAT_1425b7526;
+        }
+        FUN_1400bbac0(local_588,0x2e);
+        pcVar22 = pcVar12;
+        do {
+          cVar1 = *pcVar22;
+          pcVar22 = pcVar22 + 1;
+        } while (cVar1 != '\0');
+        FUN_14007bc70(local_588,pcVar12,((int)pcVar22 - (int)pcVar12) + -1);
+        pcVar12 = local_582;
+        if (local_481 == '\0') {
+          pcVar12 = &DAT_14c9c60d2;
+        }
+        QString::QString(local_ab0,pcVar12);
+        bVar2 = QFileInfo::exists(local_ab0);
+        QString::~QString(local_ab0);
+        if (bVar2) {
+          pcVar12 = local_68a;
+          if (local_589 == '\0') {
+            pcVar12 = &DAT_14c9c60d2;
+          }
+          QString::QString(local_aa0,pcVar12);
+          QString::QString(local_aa8,"Register resource");
+          pQVar9 = (QString *)QString::QString(local_a30,"The file %1 is already registered!");
+          puVar10 = (undefined2 *)QChar::QChar(local_aea,0x20);
+          uVar26 = CONCAT62((int6)((ulonglong)pcVar8 >> 0x10),*puVar10);
+          uVar20 = QString::arg(pQVar9,local_a38,local_aa0,0,uVar26);
+          pcVar8 = (char *)(uVar26 & 0xffffffff00000000);
+          QMessageBox::information(param_1,local_aa8,uVar20,0x400,pcVar8);
+          QString::~QString(local_a38);
+          QString::~QString(local_a30);
+          QString::~QString(local_aa8);
+          QString::~QString(local_aa0);
+        }
+        else {
+          pcVar12 = local_9aa;
+          if (local_8a9 == '\0') {
+            pcVar12 = &DAT_14c9c60d2;
+          }
+          pcVar22 = local_872;
+          if (local_771 == '\0') {
+            pcVar22 = &DAT_14c9c60d2;
+          }
+          if ((pcVar12 == pcVar22) || (iVar4 = FUN_1402c4a70(), iVar4 == 0)) {
+LAB_140fc4a3a:
+            QCursor::QCursor((QCursor *)local_af8,3);
+            QGuiApplication::setOverrideCursor((QCursor *)local_af8);
+            QCursor::~QCursor((QCursor *)local_af8);
+            FUN_140f600d0();
+            QCoreApplication::processEvents(0);
+            pcVar12 = local_872;
+            if (local_771 == '\0') {
+              pcVar12 = &DAT_14c9c60d2;
+            }
+            plVar13 = (longlong *)FUN_140fb68c0(param_1,pcVar12,plVar13);
+            if (plVar13 != (longlong *)0x0) {
+              cVar1 = FUN_140fc37a0(param_1,plVar13,local_res20);
+              (**(code **)(*plVar13 + 0x28))(plVar13,1);
+              if ((cVar1 != '\0') && (param_5 != '\0')) {
+                local_51 = '\0';
+                pcVar8 = ":";
+                do {
+                  cVar1 = *pcVar8;
+                  pcVar8 = pcVar8 + 1;
+                } while (cVar1 != '\0');
+                uVar21 = (int)pcVar8 + 0xbe589ab3;
+                if (local_b10 == (undefined1 *)0x0) {
+                  uVar6 = 0;
+                }
+                else {
+                  uVar6 = (uint)*(ushort *)(local_b10 + -4);
+                }
+                if (uVar6 < uVar21) {
+LAB_140fc4b51:
+                  pcVar8 = "%s/%s";
+                }
+                else {
+                  puVar23 = &DAT_14c9c60d0;
+                  if (local_b10 != (undefined1 *)0x0) {
+                    puVar23 = local_b10;
+                  }
+                  iVar4 = strncmp(puVar23 + ((ulonglong)uVar6 - (ulonglong)uVar21),":",
+                                  (ulonglong)uVar21);
+                  pcVar8 = "%s%s";
+                  if (iVar4 != 0) goto LAB_140fc4b51;
+                }
+                puVar23 = &DAT_14c9c60d0;
+                if (local_b10 != (undefined1 *)0x0) {
+                  puVar23 = local_b10;
+                }
+                FUN_140094ca0(local_158,0xff,pcVar8,puVar23,pcVar25);
+                FUN_14045a960(local_158,local_9f8);
+                puVar23 = local_152;
+                if (local_51 == '\0') {
+                  puVar23 = &DAT_14c9c60d2;
+                }
+                FUN_140fc6480(param_1,puVar23,-(uint)(local_res20 != '\0') & 5000);
+                FUN_14007ae60(local_158);
+                pcVar8 = pcVar25;
+              }
+            }
+            QGuiApplication::restoreOverrideCursor();
+          }
+          else {
+            pcVar12 = local_872;
+            if (local_771 == '\0') {
+              pcVar12 = &DAT_14c9c60d2;
+            }
+            QString::QString(local_a98,pcVar12);
+            QFile::QFile(local_ae8,local_a98);
+            QString::~QString(local_a98);
+            bVar2 = QFile::exists(local_ae8);
+            if (bVar2) {
+              pcVar12 = local_872;
+              if (local_771 == '\0') {
+                pcVar12 = &DAT_14c9c60d2;
+              }
+              QString::QString(local_a88,pcVar12);
+              QString::QString(local_a90,"Register resource");
+              pQVar9 = (QString *)
+                       QString::QString(local_a20,
+                                        "The file %1 already exists. Do you want to overwrite and register it?"
+                                       );
+              puVar10 = (undefined2 *)QChar::QChar(local_af0,0x20);
+              uVar26 = CONCAT62((int6)((ulonglong)pcVar8 >> 0x10),*puVar10);
+              uVar20 = QString::arg(pQVar9,local_a28,local_a88,0,uVar26);
+              pcVar8 = (char *)(uVar26 & 0xffffffff00000000);
+              SVar7 = QMessageBox::question(param_1,local_a90,uVar20,0x404000,pcVar8);
+              QString::~QString(local_a28);
+              QString::~QString(local_a20);
+              QString::~QString(local_a90);
+              QString::~QString(local_a88);
+              if (SVar7 != 0x4000) {
+                QFile::~QFile(local_ae8);
+                FUN_14007ae60(local_588);
+                FUN_14007ae60(local_690);
+                FUN_14007ae60(local_878);
+                if (local_159 != '\0') {
+                  local_35c = local_35c + -1;
+                  local_159 = '\0';
+                }
+                FUN_14007ae60(&local_9b0);
+                goto LAB_140fc4bd2;
+              }
+              bVar2 = QFile::remove(local_ae8);
+              if (bVar2) goto LAB_140fc4906;
+              pcVar12 = local_872;
+              if (local_771 == '\0') {
+                pcVar12 = &DAT_14c9c60d2;
+              }
+              QString::QString(local_a78,pcVar12);
+              QString::QString(local_a80,"Register resource");
+              pQVar9 = (QString *)
+                       QString::QString(local_a10,
+                                        "Can\'t overwrite file %1. Registering file skipped.");
+              puVar10 = (undefined2 *)QChar::QChar(local_aee,0x20);
+              uVar26 = CONCAT62((int6)((ulonglong)pcVar8 >> 0x10),*puVar10);
+              uVar20 = QString::arg(pQVar9,local_a18,local_a78,0,uVar26);
+              pcVar8 = (char *)(uVar26 & 0xffffffff00000000);
+              QMessageBox::information(param_1,local_a80,uVar20,0x400,pcVar8);
+              QString::~QString(local_a18);
+              QString::~QString(local_a10);
+              QString::~QString(local_a80);
+              pQVar9 = local_a78;
+            }
+            else {
+LAB_140fc4906:
+              pcVar12 = local_872;
+              if (local_771 == '\0') {
+                pcVar12 = &DAT_14c9c60d2;
+              }
+              QString::QString(local_a68,pcVar12);
+              pcVar12 = local_9aa;
+              if (local_8a9 == '\0') {
+                pcVar12 = &DAT_14c9c60d2;
+              }
+              QString::QString(local_a70,pcVar12);
+              bVar2 = QFile::copy(local_a70,local_a68);
+              QString::~QString(local_a70);
+              QString::~QString(local_a68);
+              if (bVar2) {
+                QFile::~QFile(local_ae8);
+                goto LAB_140fc4a3a;
+              }
+              pcVar12 = local_872;
+              if (local_771 == '\0') {
+                pcVar12 = &DAT_14c9c60d2;
+              }
+              QString::QString(local_a58,pcVar12);
+              QString::QString(local_a60,"Register resource");
+              pQVar9 = (QString *)
+                       QString::QString(local_a00,
+                                        "Can\'t copy file to %1. Registering file skipped.");
+              puVar10 = (undefined2 *)QChar::QChar(local_aec,0x20);
+              uVar26 = CONCAT62((int6)((ulonglong)pcVar8 >> 0x10),*puVar10);
+              uVar20 = QString::arg(pQVar9,local_a08,local_a58,0,uVar26);
+              pcVar8 = (char *)(uVar26 & 0xffffffff00000000);
+              QMessageBox::information(param_1,local_a60,uVar20,0x400,pcVar8);
+              QString::~QString(local_a08);
+              QString::~QString(local_a00);
+              QString::~QString(local_a60);
+              pQVar9 = local_a58;
+            }
+            QString::~QString(pQVar9);
+            QFile::~QFile(local_ae8);
+            FUN_14007ae60(local_588);
+            FUN_14007ae60(local_690);
+            FUN_14007ae60(local_878);
+            if (local_159 != '\0') {
+              local_35c = local_35c + -1;
+              local_159 = '\0';
+            }
+            FUN_14007ae60(&local_9b0);
+          }
+        }
+LAB_140fc4bd2:
+        uVar26 = (ulonglong)uVar24;
+        param_3 = local_res18;
+      } while (uVar24 < (uint)pcVar28);
+    }
+    local_768[0] = WBProgressDialog::vftable;
+    local_758 = WBProgressDialog::vftable;
+    DAT_145854d50 = 0;
+    QDialog::~QDialog((QDialog *)local_768);
+    FUN_14050e300(pcVar14);
+    if (local_b10 != (undefined1 *)0x0) {
+      psVar15 = (short *)(local_b10 + -2);
+      *psVar15 = *psVar15 + -1;
+      if (*psVar15 == 0) {
+        FUN_14050e300(local_b10 + -6);
+      }
+      local_b10 = (undefined1 *)0x0;
+    }
+    FUN_1400c1380(local_480);
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_140fc3a70 140fc3a70
+CALLS
+  CALL from=140fc3ad3 ins=CALL 0x140fb1350
+  CALL from=140fc3aff ins=CALL 0x140f31e40
+  CALL from=140fc3b28 ins=CALL 0x14044b6a0
+  CALL from=140fc3b41 ins=CALL qword ptr [0x141928040]
+  CALL from=140fc3b57 ins=CALL qword ptr [0x141927e18]
+  CALL from=140fc3b6c ins=CALL qword ptr [0x141927d58]
+  CALL from=140fc3b91 ins=CALL qword ptr [0x141927988]
+  CALL from=140fc3ba9 ins=CALL qword ptr [0x141927dd0]
+  CALL from=140fc3bb3 ins=CALL qword ptr [0x141927d70]
+  CALL from=140fc3bc2 ins=CALL qword ptr [R8 + 0xd8]
+  CALL from=140fc3bd1 ins=CALL qword ptr [0x141927d68]
+  CALL from=140fc3be6 ins=CALL qword ptr [RDX + 0x68]
+  CALL from=140fc3bf7 ins=CALL qword ptr [RDX + 0x80]
+  CALL from=140fc3c2b ins=CALL 0x14050dc90
+  CALL from=140fc3c45 ins=CALL 0x14189f078
+  CALL from=140fc3c4d ins=CALL 0x14050e300
+  CALL from=140fc3c75 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc3c80 ins=CALL qword ptr [0x141928040]
+  CALL from=140fc3cac ins=CALL 0x140fadc00
+  CALL from=140fc3cd0 ins=CALL 0x140702470
+  CALL from=140fc3cde ins=CALL 0x140fae120
+  CALL from=140fc3cf1 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc3d06 ins=CALL 0x140fae1a0
+  CALL from=140fc3d13 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc3d20 ins=CALL 0x140fade00
+  CALL from=140fc3d2c ins=CALL qword ptr [0x141929c10]
+  CALL from=140fc3d43 ins=CALL 0x140fadbe0
+  CALL from=140fc3d5a ins=CALL 0x140fadbe0
+  CALL from=140fc3d9e ins=CALL qword ptr [0x141927e18]
+  CALL from=140fc3dab ins=CALL qword ptr [0x141927dd0]
+  CALL from=140fc3db5 ins=CALL qword ptr [0x141927d70]
+  CALL from=140fc3e5b ins=CALL 0x14189f06c
+  CALL from=140fc3efd ins=CALL 0x140524b90
+  CALL from=140fc3f22 ins=CALL qword ptr [0x141927d68]
+  CALL from=140fc3fd3 ins=CALL qword ptr [RAX + 0xd8]
+  CALL from=140fc3ff7 ins=CALL 0x1402c4a70
+  CALL from=140fc401b ins=CALL 0x14180c3c8
+  CALL from=140fc403a ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc405a ins=CALL qword ptr [0x14192c5f8]
+  CALL from=140fc4092 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc409f ins=CALL qword ptr [0x141929c18]
+  CALL from=140fc40ae ins=CALL 0x140fae120
+  CALL from=140fc40d0 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc40e2 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc40f4 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4106 ins=CALL qword ptr [0x141927d60]
+  CALL from=140fc4122 ins=CALL qword ptr [0x141927da0]
+  CALL from=140fc4155 ins=CALL qword ptr [0x14192ccc0]
+  CALL from=140fc4160 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc416b ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4176 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4181 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4192 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc41a6 ins=CALL qword ptr [0x14192cce8]
+  CALL from=140fc41b1 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc41c2 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc41d6 ins=CALL qword ptr [0x14192cce8]
+  CALL from=140fc41e1 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc41f0 ins=CALL qword ptr [0x14192a930]
+  CALL from=140fc41fd ins=CALL qword ptr [0x14192ccd8]
+  CALL from=140fc4207 ins=CALL qword ptr [0x141929f88]
+  CALL from=140fc4216 ins=CALL qword ptr [0x141929c10]
+  CALL from=140fc4225 ins=CALL 0x140fae120
+  CALL from=140fc4247 ins=CALL qword ptr [RAX]
+  CALL from=140fc425e ins=CALL qword ptr [RAX]
+  CALL from=140fc4269 ins=CALL qword ptr [0x14192dd60]
+  CALL from=140fc42a2 ins=CALL qword ptr [RAX]
+  CALL from=140fc42b9 ins=CALL qword ptr [RAX]
+  CALL from=140fc42c4 ins=CALL qword ptr [0x14192dd60]
+  CALL from=140fc42d7 ins=CALL qword ptr [0x141929f98]
+  CALL from=140fc431e ins=CALL 0x140095920
+  CALL from=140fc4343 ins=CALL 0x140fae010
+  CALL from=140fc4358 ins=CALL 0x1402c2340
+  CALL from=140fc4367 ins=CALL qword ptr [RAX + 0x98]
+  CALL from=140fc43a2 ins=CALL 0x14007bb00
+  CALL from=140fc43ef ins=CALL 0x1400bbac0
+  CALL from=140fc4440 ins=CALL 0x14007bc70
+  CALL from=140fc446b ins=CALL 0x14007bb00
+  CALL from=140fc447e ins=CALL qword ptr [RAX + 0x98]
+  CALL from=140fc448e ins=CALL 0x14045a960
+  CALL from=140fc44b9 ins=CALL 0x14007bb00
+  CALL from=140fc44e1 ins=CALL 0x1400bbac0
+  CALL from=140fc450a ins=CALL 0x14007bc70
+  CALL from=140fc452c ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4537 ins=CALL qword ptr [0x141927e58]
+  CALL from=140fc4544 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc456f ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4581 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4593 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc45a3 ins=CALL qword ptr [0x141927d60]
+  CALL from=140fc45bf ins=CALL qword ptr [0x141927da0]
+  CALL from=140fc45e0 ins=CALL qword ptr [0x14192dd90]
+  CALL from=140fc45eb ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc45f6 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4601 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc460c ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc464c ins=CALL 0x1402c4a70
+  CALL from=140fc466f ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc467f ins=CALL qword ptr [0x141926d38]
+  CALL from=140fc468a ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4695 ins=CALL qword ptr [0x141927368]
+  CALL from=140fc46b9 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc46cb ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc46dd ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc46ed ins=CALL qword ptr [0x141927d60]
+  CALL from=140fc4709 ins=CALL qword ptr [0x141927da0]
+  CALL from=140fc472c ins=CALL qword ptr [0x14192bd80]
+  CALL from=140fc4738 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4743 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc474e ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4759 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc476c ins=CALL qword ptr [0x141926d40]
+  CALL from=140fc477a ins=CALL 0x14007ae60
+  CALL from=140fc4787 ins=CALL 0x14007ae60
+  CALL from=140fc4794 ins=CALL 0x14007ae60
+  CALL from=140fc47bd ins=CALL 0x14007ae60
+  CALL from=140fc47cc ins=CALL qword ptr [0x141927b88]
+  CALL from=140fc47f6 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4808 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc481a ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc482a ins=CALL qword ptr [0x141927d60]
+  CALL from=140fc4846 ins=CALL qword ptr [0x141927da0]
+  CALL from=140fc4863 ins=CALL qword ptr [0x14192dd90]
+  CALL from=140fc486e ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4879 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4884 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc488f ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc489b ins=CALL qword ptr [0x141926d40]
+  CALL from=140fc48a9 ins=CALL 0x14007ae60
+  CALL from=140fc48b6 ins=CALL 0x14007ae60
+  CALL from=140fc48c3 ins=CALL 0x14007ae60
+  CALL from=140fc48ec ins=CALL 0x14007ae60
+  CALL from=140fc491c ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4939 ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc4948 ins=CALL qword ptr [0x141927338]
+  CALL from=140fc4955 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4960 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc498a ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc499c ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc49ae ins=CALL qword ptr [0x141927df0]
+  CALL from=140fc49be ins=CALL qword ptr [0x141927d60]
+  CALL from=140fc49da ins=CALL qword ptr [0x141927da0]
+  CALL from=140fc49f7 ins=CALL qword ptr [0x14192dd90]
+  CALL from=140fc4a02 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4a0d ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4a18 ins=CALL qword ptr [0x141927d88]
+  CALL from=140fc4a2d ins=CALL qword ptr [0x141926d40]
+  CALL from=140fc4a44 ins=CALL qword ptr [0x141929528]
+  CALL from=140fc4a50 ins=CALL qword ptr [0x141929628]
+  CALL from=140fc4a5c ins=CALL qword ptr [0x141929530]
+  CALL from=140fc4a62 ins=CALL 0x140f600d0
+  CALL from=140fc4a6b ins=CALL qword ptr [0x1419272d0]
+  CALL from=140fc4a90 ins=CALL 0x140fb68c0
+  CALL from=140fc4ab6 ins=CALL 0x140fc37a0
+  CALL from=140fc4ac9 ins=CALL qword ptr [R8 + 0x28]
+  CALL from=140fc4b3b ins=CALL qword ptr [0x14192ed38]
+  CALL from=140fc4b73 ins=CALL 0x140094ca0
+  CALL from=140fc4b83 ins=CALL 0x14045a960
+  CALL from=140fc4bb7 ins=CALL 0x140fc6480
+  CALL from=140fc4bc4 ins=CALL 0x14007ae60
+  CALL from=140fc4bc9 ins=CALL qword ptr [0x141929630]
+  CALL from=140fc4beb ins=CALL qword ptr [0x141929f98]
+  CALL from=140fc4c33 ins=CALL qword ptr [0x141929f80]
+  CALL from=140fc4c3d ins=CALL 0x14050e300
+  CALL from=140fc4c5c ins=CALL 0x14050e300
+  CALL from=140fc4c6d ins=CALL 0x1400c1380
+SCRIPT COMPLETED FbxAnimVtableTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

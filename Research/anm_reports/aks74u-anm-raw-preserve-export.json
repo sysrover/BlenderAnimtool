@@ -1,0 +1,16 @@
+{
+  "export_result": [
+    "DIRECT_EXPORT_ACTION"
+  ],
+  "source_blend_saved_as": "P:\\Animation_Weapon\\Weapon_template_aks74u_anm_safe_authoring_rawcache.blend",
+  "action": "aks74u",
+  "raw_cache_text": "DayZ_ANM_RAW_aks74u",
+  "raw_cache_bytes": 3579,
+  "original": "P:\\DZ\\anims\\anm\\player\\ik\\weapons\\aks74u.anm",
+  "exported": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\blender_roundtrip\\aks74u_raw_preserve_export.anm",
+  "original_bytes": 3579,
+  "exported_bytes": 3579,
+  "byte_identical": true,
+  "first_diff_offset": null,
+  "note": "Raw-preserve export writes the imported ANM bytes exactly. Disable it when exporting edited keys."
+}

@@ -1,0 +1,229 @@
+{
+  "module_file": "C:\\Users\\sysro\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\scripts\\addons\\DayzAnimationToolsBinary\\Types\\Anm.py",
+  "module_dir": [
+    "Anm",
+    "AnmBone",
+    "AnmEvent",
+    "AnmFormat",
+    "AnmImportSettings",
+    "AnmKeyFrame",
+    "BinaryReader",
+    "BytesIO",
+    "CompressFlt",
+    "Enum",
+    "FLT_EPSILON",
+    "FLT_MAX",
+    "SCALE_FACTOR",
+    "importSettings",
+    "os",
+    "struct"
+  ],
+  "classes": {
+    "Anm": {
+      "class_dir": [
+        "CreateFromFile",
+        "Read",
+        "WriteData",
+        "WriteForm",
+        "WriteHead",
+        "boneAnimModifiers",
+        "bones",
+        "custProps",
+        "events",
+        "formSize",
+        "format",
+        "fps",
+        "name",
+        "numFrames"
+      ],
+      "instance_dir": [
+        "CreateFromFile",
+        "Read",
+        "WriteData",
+        "WriteForm",
+        "WriteHead",
+        "boneAnimModifiers",
+        "bones",
+        "custProps",
+        "events",
+        "formSize",
+        "format",
+        "fps",
+        "name",
+        "numFrames"
+      ]
+    },
+    "AnmBone": {
+      "class_dir": [
+        "Read",
+        "Write",
+        "flags",
+        "name",
+        "numFrames",
+        "posBias",
+        "posKeys",
+        "posMulti",
+        "rotBias",
+        "rotKeys",
+        "rotMulti",
+        "scaleBias",
+        "scaleKeys",
+        "scaleMulti"
+      ],
+      "instance_dir": [
+        "Read",
+        "Write",
+        "flags",
+        "name",
+        "numFrames",
+        "posBias",
+        "posKeys",
+        "posMulti",
+        "rotBias",
+        "rotKeys",
+        "rotMulti",
+        "scaleBias",
+        "scaleKeys",
+        "scaleMulti"
+      ]
+    },
+    "AnmEvent": {
+      "class_dir": [
+        "frame",
+        "name",
+        "userInt",
+        "userString"
+      ],
+      "instance_dir": [
+        "frame",
+        "name",
+        "userInt",
+        "userString"
+      ]
+    },
+    "AnmFormat": {
+      "class_dir": [
+        "AnimSet5",
+        "AnimSet6"
+      ],
+      "instance_dir": [
+        "cannot instantiate: TypeError(\"EnumType.__call__() missing 1 required positional argument: 'value'\")"
+      ]
+    },
+    "AnmImportSettings": {
+      "class_dir": [
+        "bImportRotationKeys",
+        "bImportScaleKeys",
+        "bImportTranslationKeys",
+        "fUnitScale"
+      ],
+      "instance_dir": [
+        "bImportRotationKeys",
+        "bImportScaleKeys",
+        "bImportTranslationKeys",
+        "fUnitScale"
+      ]
+    },
+    "AnmKeyFrame": {
+      "class_dir": [
+        "data",
+        "frame"
+      ],
+      "instance_dir": [
+        "data",
+        "frame"
+      ]
+    },
+    "BinaryReader": {
+      "class_dir": [
+        "GetPos",
+        "Read",
+        "ReadAscii",
+        "ReadAsciiz",
+        "ReadBool",
+        "ReadByte",
+        "ReadBytes",
+        "ReadCharParseInt",
+        "ReadDouble",
+        "ReadInt16",
+        "ReadInt32",
+        "ReadInt32BE",
+        "ReadInt64",
+        "ReadSingle",
+        "ReadUByte",
+        "ReadUInt16",
+        "ReadUInt32",
+        "ReadUInt64",
+        "Seek",
+        "SetPos"
+      ],
+      "instance_dir": [
+        "cannot instantiate: TypeError(\"BinaryReader.__init__() missing 1 required positional argument: 'buffer'\")"
+      ]
+    },
+    "BytesIO": {
+      "class_dir": [
+        "_checkClosed",
+        "_checkReadable",
+        "_checkSeekable",
+        "_checkWritable",
+        "close",
+        "closed",
+        "detach",
+        "fileno",
+        "flush",
+        "getbuffer",
+        "getvalue",
+        "isatty",
+        "read",
+        "read1",
+        "readable",
+        "readinto",
+        "readinto1",
+        "readline",
+        "readlines",
+        "seek",
+        "seekable",
+        "tell",
+        "truncate",
+        "writable",
+        "write",
+        "writelines"
+      ],
+      "instance_dir": [
+        "_checkClosed",
+        "_checkReadable",
+        "_checkSeekable",
+        "_checkWritable",
+        "close",
+        "closed",
+        "detach",
+        "fileno",
+        "flush",
+        "getbuffer",
+        "getvalue",
+        "isatty",
+        "read",
+        "read1",
+        "readable",
+        "readinto",
+        "readinto1",
+        "readline",
+        "readlines",
+        "seek",
+        "seekable",
+        "tell",
+        "truncate",
+        "writable",
+        "write",
+        "writelines"
+      ]
+    },
+    "Enum": {
+      "class_dir": [],
+      "instance_dir": [
+        "cannot instantiate: TypeError(\"EnumType.__call__() missing 1 required positional argument: 'value'\")"
+      ]
+    }
+  }
+}

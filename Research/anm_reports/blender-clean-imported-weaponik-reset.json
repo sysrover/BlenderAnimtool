@@ -1,0 +1,80 @@
+{
+  "mode": "Clean Imported Tracks",
+  "removed_constraints": [],
+  "removed_controls": [],
+  "hierarchy_changes": [],
+  "active_action": "aks74u",
+  "nla": [
+    {
+      "track": "NlaTrack",
+      "strip": "p_rfl_erc_idle_ras",
+      "action": "p_rfl_erc_idle_ras",
+      "influence": 1.0,
+      "mute": false,
+      "track_mute": false
+    }
+  ],
+  "frame30_heads": {
+    "LeftArm": [
+      -0.047393783926963806,
+      0.1253947615623474,
+      1.4380712509155273
+    ],
+    "LeftArmRoll": [
+      -0.18460901081562042,
+      0.075736403465271,
+      1.30130136013031
+    ],
+    "LeftForeArm": [
+      -0.26439815759658813,
+      -0.35722965002059937,
+      1.3371078968048096
+    ],
+    "LeftForeArmRoll": [
+      -0.40701380372047424,
+      -1.0914888381958008,
+      1.5132859945297241
+    ],
+    "LeftHand": [
+      -0.6920791864395142,
+      -0.9909555912017822,
+      2.0060601234436035
+    ],
+    "LeftHandIKTarget": [
+      -0.2949299216270447,
+      -1.0073611736297607,
+      0.8824865818023682
+    ],
+    "LeftHandOrigin": [
+      -0.2968596816062927,
+      -1.0092108249664307,
+      0.8564074039459229
+    ],
+    "LeftForeArmDirection": [
+      -0.82942795753479,
+      -1.0511705875396729,
+      1.8538978099822998
+    ],
+    "LeftForeArmDirectionOrigin": [
+      -0.9009227752685547,
+      -1.1233553886413574,
+      1.8857293128967285
+    ],
+    "RightHand": [
+      -0.20904606580734253,
+      -1.302130103111267,
+      0.8877897262573242
+    ],
+    "RightHand_Dummy": [
+      -0.22687536478042603,
+      -1.1027982234954834,
+      0.8507706522941589
+    ],
+    "RightHandOrigin": [
+      -0.23105454444885254,
+      -1.3836792707443237,
+      0.8960765600204468
+    ]
+  },
+  "rule": "No Blender IK or manual control constraints are active. This is the clean imported DayZ helper-track state."
+}

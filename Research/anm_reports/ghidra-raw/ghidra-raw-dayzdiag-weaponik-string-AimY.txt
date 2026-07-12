@@ -1,0 +1,1 @@
+{"matches":[{"address":"140e6a1a0","value":"m_fCurrentAimY","encoding":"ascii"},{"address":"140e6a220","value":"m_fAimYCamOffset","encoding":"ascii"},{"address":"140e6a290","value":"m_fAimYHandsOffset","encoding":"ascii"},{"address":"140e6a318","value":"m_fAimYMouseShift","encoding":"ascii"}],"total":4,"offset":0,"limit":100}

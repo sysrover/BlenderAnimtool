@@ -1,0 +1,452 @@
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:4: byte *param_6,longlong param_7,longlong param_8,longlong *param_9,longlong param_10,
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:11: byte bVar4;
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:70: byte local_e0 [160];
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:81: uVar30 = (uint)((byte)(param_13 >> 0xe) & 1);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:90: (((byte)*(undefined4 *)
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:91: ((ulonglong)*(byte *)(param_4 + 0x44) * 0xe0 + *(longlong *)(param_2 + 0x1018) + 4) &
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:120: pcVar36 = (char *)(local_150 * 0xc0 + *(longlong *)(param_7 + 0x38));
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:125: ((((uVar35 >> 10 & 1) == 0 || ((*(uint *)(lVar28 + 0x30) >> 0x17 & 1) != 0)) &&
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:126: (((uVar30 = *(uint *)(lVar28 + 0x30), local_130 = pcVar36,
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:133: if ((sVar6 == 0 && ((byte)param_13 & 0x3f) != 0x3f) &&
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:140: uVar24 = FUN_1402c46b0((float *)(pcVar36 + 0x30),param_5,(uint *)pfVar41,param_13);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:143: if (((uVar8 >> 2 & 1) == 0) || (*(int *)(lVar28 + 0x30) < 0)) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:165: *(undefined4 *)(puVar25 + uVar32 * 4 + 0x30) =
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:167: *(undefined4 *)(puVar25 + uVar32 * 4 + 0x32) =
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:169: } while (uVar38 < (byte)pcVar36[0x22]);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:176: *(char *)((longlong)puVar25 + 0x3b) = pcVar36[0x23];
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:181: if ((*(byte *)(param_1 + 0x130) & 0x10) == 0) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:326: *(undefined4 *)((longlong)puVar37 + (0xc - uVar44)) = 0;
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:330: puVar26 = (undefined2 *)((longlong)puVar37 + (0xc - uVar44));
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:369: lVar40 = (longlong)*(int *)(local_128 + 0xc + lVar40 * 0x10);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:371: (*(float *)(local_120 + 0xc + lVar40 * 0x10) * fVar17);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:407: if (((param_6 == (byte *)0x0) || (*param_6 == 0)) || (-1 < *(char *)(lVar28 + 0x2e))) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:410: if ((((uVar30 & 0x4000) != 0) && ((*(byte *)(lVar28 + 0x2f) & 1) != 0)) &&
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:412: ((*(uint *)(lVar28 + 0x30) >> 0x14 & 1) != 0)))) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:413: if ((uint)*(byte *)(param_4 + 0x45) < *(uint *)(param_2 + 0x105c)) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:416: (ulonglong)*(byte *)(param_4 + 0x45) * 8);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:425: if (4 < *(int *)(lVar28 + 0x3c)) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:452: uVar30 = *(uint *)(*(longlong *)(puVar25 + 0x20) + 0x3c);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:456: uVar30 = *(uint *)(*(longlong *)(puVar25 + 0x20) + 0x3c);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:459: uVar38 = *(uint *)(param_2 + 0xc + (lVar28 + (ulonglong)uVar30) * 0x18);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:472: uVar38 = *(uint *)((longlong)plVar1 + 0xc);
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:475: *(uint *)((longlong)plVar1 + 0xc) = uVar38 + 1;
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt:498: if ((local_e0[uVar39 >> 3] & (byte)(1 << ((byte)uVar39 & 7))) != 0) {
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:47: 1402cb3b2: MOVZX EAX,byte ptr [R13 + 0x44]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:120: 1402cb4c9: MOV byte ptr [RSP + 0x40],AL
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:121: 1402cb4cd: MOV byte ptr [RSP + 0x41],AL
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:138: 1402cb538: ADD RBP,qword ptr [RDI + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:158: 1402cb591: MOV EAX,dword ptr [R14 + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:162: 1402cb5a0: MOV ESI,dword ptr [R14 + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:187: 1402cb603: BTR EAX,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:199: 1402cb62c: LEA RCX,[RBP + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:215: 1402cb665: MOV EAX,dword ptr [R14 + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:252: 1402cb6ed: CMP byte ptr [RBP + 0x22],R8B
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:270: 1402cb73c: MOVZX EAX,byte ptr [RBP + 0x22]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:275: 1402cb74c: MOV dword ptr [RSP + 0x38],EAX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:277: 1402cb753: MOV dword ptr [RSP + 0x30],EDI
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:285: 1402cb778: MOVZX EAX,byte ptr [RBP + 0x23]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:287: 1402cb77f: MOV byte ptr [RSI + 0x3b],AL
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:292: 1402cb79a: MOV byte ptr [RSI + 0x2],R12B
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:295: 1402cb7a6: TEST byte ptr [RAX + 0x130],0x10
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:316: 1402cb813: CMP byte ptr [RBP],DIL
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:319: 1402cb821: MOVZX R11D,byte ptr [RBP + 0x22]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:386: 1402cb92a: LEA RDX,[RDI + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:400: 1402cb959: MOV dword ptr [RDI + 0xc],EAX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:466: 1402cba4a: ADD R14,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:476: 1402cba75: MOVZX R14D,byte ptr [RBP + 0x22]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:480: 1402cba8a: MOV qword ptr [RSP + 0xc0],RAX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:498: 1402cbae9: MOV R13D,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:504: 1402cbafd: MOV qword ptr [RSP + 0xc8],RDX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:523: 1402cbb4b: MOV RAX,qword ptr [RSP + 0xc0]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:578: 1402cbc15: MOV R9,qword ptr [RSP + 0xc8]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:648: 1402cbd24: MOVSXD R11,dword ptr [R15 + R10*0x8 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:657: 1402cbd4f: MOVSS XMM0,dword ptr [RCX + RAX*0x8 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:680: 1402cbdb1: MOVZX EAX,byte ptr [R11 + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:681: 1402cbdb6: MOVZX ECX,byte ptr [R11 + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:684: 1402cbdc0: MOVZX EAX,byte ptr [R11 + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:687: 1402cbdca: MOVZX EAX,byte ptr [R11]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:690: 1402cbdd9: ADD R11,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:722: 1402cbe72: MOV dword ptr [RSI + 0x30],EAX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:724: 1402cbe78: MOV dword ptr [RSI + 0x34],EAX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:732: 1402cbe9a: SHR EAX,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:736: 1402cbea6: MOVZX EAX,word ptr [RSI + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:760: 1402cbf08: MOV dword ptr [RSP + 0x30],R8D
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:775: 1402cbf48: CMP byte ptr [RCX],0x0
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:777: 1402cbf51: MOVZX EAX,byte ptr [R14 + 0x2e]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:789: 1402cbf7e: CMP byte ptr [RSP + 0x40],0x0
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:801: 1402cbfc1: MOV byte ptr [RSP + 0x41],AL
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:802: 1402cbfc5: MOV byte ptr [RSP + 0x40],0x1
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:803: 1402cbfca: CMP byte ptr [RSP + 0x41],0x0
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:808: 1402cbfde: CMP byte ptr [RCX],DL
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:814: 1402cbff5: MOVZX ECX,byte ptr [RAX + RCX*0x1 + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:828: 1402cc038: TEST byte ptr [RSP + RAX*0x1 + 0xf8],R8B
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:830: 1402cc042: MOV dword ptr [RSP + 0x30],EDI
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:846: 1402cc081: MOVZX EAX,byte ptr [RCX]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:873: 1402cc103: TEST byte ptr [R14 + 0x2f],0x1
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:879: 1402cc115: MOV EAX,dword ptr [R14 + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:883: 1402cc120: MOVZX EAX,byte ptr [R13 + 0x45]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:899: 1402cc163: CMP dword ptr [RDI + 0x3c],0x5
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:926: 1402cc1e1: MOVSS XMM0,dword ptr [RAX + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:947: 1402cc237: SHL EAX,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:957: 1402cc256: MOV EDX,dword ptr [RAX + 0x3c]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:963: 1402cc26f: MOV EDX,dword ptr [RAX + 0x3c]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:969: 1402cc289: MOV R8D,dword ptr [R15 + RCX*0x8 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:984: 1402cc2c5: MOV R8D,dword ptr [RDI + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:988: 1402cc2d4: MOV dword ptr [RDI + 0xc],EAX
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:1012: 1402cc330: MOV qword ptr [RSP + 0x38],R10
+ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt:1013: 1402cc335: MOV qword ptr [RSP + 0x30],RAX
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:17: byte *pbVar13;
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:31: lVar1 = (longlong)puVar9 * 0xc;
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:34: pbVar13 = (byte *)(param_1[4] + lVar1);
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:44: if (((*(byte *)(*param_1 + uVar7) == ((byte)uVar10 & 0x7f)) &&
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:46: (uVar6 = uVar11, *(byte *)(*param_1 + uVar7) == 0x80)) break;
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:54: uVar6 = (ulonglong)*(uint *)((longlong)puVar8 + 0xc);
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:55: if (3 < *(uint *)((longlong)puVar8 + 0xc)) {
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:75: pbVar13 = (byte *)(param_1[4] + (longlong)puVar14 * 0xc);
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:89: if (((*(byte *)(*param_1 + uVar7) == ((byte)uVar10 & 0x7f)) &&
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:91: (uVar6 = uVar11, *(byte *)(*param_1 + uVar7) == 0x80)) break;
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:96: *(int *)((longlong)param_1 + 0xc) = *(int *)((longlong)param_1 + 0xc) + 1;
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:101: memmove((void *)((longlong)puVar14 * 0xc + param_1[4]),
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:102: (void *)(param_1[4] + ((ulonglong)*(uint *)((longlong)param_1 + 0x2c) - 1) * 0xc),
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt:103: 0xc);
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:29: 14073764f: MOV byte ptr [RBX + RCX*0x1 + 0x8],AL
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:32: 14073765a: CMP byte ptr [R11 + 0x8],R15B
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:36: 14073766f: MOVZX EAX,byte ptr [R11]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:40: 140737684: MOVZX EAX,byte ptr [R11 + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:42: 14073768c: MOVZX EAX,byte ptr [R11 + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:45: 14073769b: MOVZX EAX,byte ptr [R11 + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:59: 1407376d3: MOVZX EDX,byte ptr [RBX + RCX*0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:81: 140737714: MOV EAX,dword ptr [RDX + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:100: 140737751: MOV qword ptr [RSP + 0x38],RAX
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:105: 140737767: MOV qword ptr [RSP + 0x30],R9
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:120: 1407377ab: CMP byte ptr [R8 + 0x8],0x0
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:124: 1407377c1: MOVZX EAX,byte ptr [R8]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:129: 1407377d9: MOVZX EAX,byte ptr [R8 + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:131: 1407377e1: MOVZX EAX,byte ptr [R8 + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:134: 1407377f0: MOVZX EAX,byte ptr [R8 + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:148: 140737826: MOVZX EDX,byte ptr [RBX + RCX*0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:164: 140737853: INC dword ptr [RDI + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:168: 14073785f: MOV byte ptr [RCX + RAX*0x1],0xfe
+ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt:179: 14073788a: MOV R8D,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:4: void FUN_1408dc010(int *param_1,float *param_2,int param_3,uint param_4,byte param_5,float param_6)
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:9: byte bVar3;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:18: byte bVar12;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:71: if ((*(byte *)(param_1 + 0xc) & 1) == 0) {
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:102: *(undefined4 *)(lVar18 + 0xc) = uVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:113: *(undefined4 *)(lVar18 + 0x30) = uVar4;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:114: *(undefined4 *)(lVar18 + 0x34) = uVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:115: *(uint *)(*(longlong *)(param_1 + 0x10) + 0x38) = param_4;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:116: *(float *)(*(longlong *)(param_1 + 0x10) + 0x3c) = *pfVar26 - fVar33;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:129: *(longlong *)(param_1 + 0x12) = *(longlong *)(param_1 + 0x12) + 0xc;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:138: if (((((*(byte *)(param_1 + 0xc) & 2) == 0) || (0x1f < iVar14)) ||
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:147: iVar15 = 0xc;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:281: *(short *)(*(longlong *)(param_1 + 0x12) + 0xc) = sVar24;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:307: *(undefined4 *)(lVar27 + 0xc) = uVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:316: *(undefined4 *)(lVar27 + 0x30) = uVar4;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:317: *(undefined4 *)(lVar27 + 0x34) = uVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:318: *(uint *)(*(longlong *)(param_1 + 0x10) + 0x38) = param_4;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:319: *(undefined8 *)(*(longlong *)(param_1 + 0x10) + 0x3c) = *(undefined8 *)(pfVar19 + 2);
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:398: *(short *)(*(longlong *)(param_1 + 0x12) + 0xc) = sVar23;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:411: *(longlong *)(param_1 + 0x12) = *(longlong *)(param_1 + 0x12) + 0xc;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:428: *(undefined4 *)(lVar27 + 0xc) = uVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:439: *(undefined4 *)(lVar27 + 0x30) = uVar4;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:440: *(undefined4 *)(lVar27 + 0x34) = uVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:441: *(uint *)(*(longlong *)(param_1 + 0x10) + 0x38) = uVar28;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:442: *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x3c;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt:465: *(undefined4 *)(lVar18 + 0xc) = uStack_dc;
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:16: 1408dc047: MOV RAX,qword ptr [RCX + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:17: 1408dc04b: AND byte ptr [RSP + 0x140],0x1
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:34: 1408dc0a0: MOV qword ptr [RSP + 0x30],R12
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:35: 1408dc0a5: SETA byte ptr [RSP + 0x20]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:36: 1408dc0aa: TEST byte ptr [RCX + 0x30],0x1
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:47: 1408dc0e5: TEST byte ptr [RBX + 0x30],0x2
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:63: 1408dc11f: MOVZX R12D,byte ptr [RSP + 0x20]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:65: 1408dc128: MOV byte ptr [RSP + 0x130],0x1
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:66: 1408dc130: LEA EAX,[RBP + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:68: 1408dc135: MOVZX R12D,byte ptr [RSP + 0x20]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:69: 1408dc13b: MOV byte ptr [RSP + 0x130],0x0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:76: 1408dc154: MOV EAX,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:84: 1408dc171: CMP byte ptr [RSP + 0x130],0x0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:89: 1408dc185: MOV RCX,qword ptr [RBX + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:94: 1408dc198: MOV RAX,qword ptr [RBX + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:96: 1408dc19f: MOV R9,qword ptr [RSP + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:133: 1408dc232: MOVZX EAX,byte ptr [RSP + 0x140]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:140: 1408dc25d: CMP byte ptr [RSP + 0x130],R10B
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:142: 1408dc26b: CMP byte ptr [RSP + 0x20],R10B
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:167: 1408dc2df: MOVSS dword ptr [R11 + 0xc],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:202: 1408dc398: MOVSS dword ptr [R11 + RCX*0x8 + 0xc],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:224: 1408dc41a: MOV EAX,dword ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:242: 1408dc47a: MOV qword ptr [RSP + 0x30],RCX
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:245: 1408dc485: MOV R8D,dword ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:292: 1408dc551: MOVSS dword ptr [RAX + 0xc],XMM1
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:319: 1408dc5ca: MOV word ptr [RAX + 0xc],R9W
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:338: 1408dc61f: MOV RDX,qword ptr [RSP + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:370: 1408dc6be: MOVSS dword ptr [RAX + 0xc],XMM7
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:385: 1408dc701: MOVSS dword ptr [RAX + 0x30],XMM6
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:386: 1408dc706: MOVSS dword ptr [RAX + 0x34],XMM7
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:388: 1408dc70f: MOV dword ptr [RAX + 0x38],R14D
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:391: 1408dc71c: MOVSD qword ptr [RAX + 0x3c],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:426: 1408dc7b8: MOVSS dword ptr [R11 + 0xc],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:432: 1408dc7de: MOVSS dword ptr [R11 + RCX*0x8 + -0xc],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:444: 1408dc826: MOV R8D,dword ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:451: 1408dc850: MOVZX R14D,byte ptr [RSP + 0x130]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:456: 1408dc86a: MOV qword ptr [RSP + 0x38],RAX
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:459: 1408dc875: MOV EDX,dword ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:502: 1408dc92b: MOVSS dword ptr [RCX + 0xc],XMM1
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:517: 1408dc968: ADD qword ptr [RBX + 0x48],0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:529: 1408dc996: MOV word ptr [RAX + 0xc],R13W
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:541: 1408dc9cc: MOV R9,qword ptr [RSP + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:544: 1408dc9d6: CMP R9,qword ptr [RSP + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:548: 1408dc9ee: CMP byte ptr [RSP + 0x130],R10B
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:550: 1408dc9fc: MOV RAX,qword ptr [RBX + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:555: 1408dca10: MOVUPS xmmword ptr [RSP + 0x38],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:562: 1408dca35: MOVSS XMM3,dword ptr [RSP + 0x3c]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:564: 1408dca3e: MOVSS XMM4,dword ptr [RSP + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:574: 1408dca6d: MOVSS dword ptr [RAX + 0xc],XMM3
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:603: 1408dcaf0: MOVSS dword ptr [RAX + 0xc],XMM7
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:618: 1408dcb36: MOVSS dword ptr [RAX + 0x30],XMM6
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:619: 1408dcb3b: MOVSS dword ptr [RAX + 0x34],XMM7
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:621: 1408dcb44: MOV dword ptr [RAX + 0x38],R13D
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:626: 1408dcb5b: ADD dword ptr [RBX + 0x34],EAX
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:677: 1408dcc38: MOVSS dword ptr [RAX + 0xc],XMM7
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:701: 1408dcca4: MOVSS dword ptr [RAX + 0x30],XMM6
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:702: 1408dcca9: MOVSS dword ptr [RAX + 0x34],XMM7
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:704: 1408dccb2: MOV dword ptr [RAX + 0x38],R14D
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:708: 1408dccc3: MOVSS dword ptr [RAX + 0x3c],XMM0
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:719: 1408dccf6: MOVZX EAX,word ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:721: 1408dccfd: MOVZX ECX,word ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:726: 1408dcd10: MOVZX ECX,word ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:730: 1408dcd20: MOVZX EAX,word ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:733: 1408dcd2c: MOVZX ECX,word ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:736: 1408dcd38: MOVZX ECX,word ptr [RBX + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:740: 1408dcd48: ADD qword ptr [RBX + 0x48],0xc
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:741: 1408dcd4d: ADD dword ptr [RBX + 0x34],0x4
+ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt:745: 1408dcd63: MOVAPS XMM7,xmmword ptr [RSP + 0xc0]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-decompile.txt:21: uVar4 = CONCAT31(CONCAT21(CONCAT11(param_2[0xc],param_2[0xd]),param_2[0xe]),param_2[0xf]) ^
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-decompile.txt:158: if (0xc < *(int *)(param_1 + 0x200)) {
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-decompile.txt:202: param_3[0xc] = (char)(uVar1 >> 0x18);
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:9: 140c54aec: MOVZX EAX,byte ptr [RDX + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:11: 140c54af7: MOVZX EDI,byte ptr [RDX]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:13: 140c54b01: MOVZX R11D,byte ptr [RDX + 0x4]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:15: 140c54b09: MOVZX R9D,byte ptr [RDX + 0x8]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:17: 140c54b11: MOVZX R8D,byte ptr [RDX + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:21: 140c54b1f: MOVZX EAX,byte ptr [RDX + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:26: 140c54b30: MOVZX EAX,byte ptr [RDX + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:29: 140c54b39: MOVZX EAX,byte ptr [RDX + 0x5]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:32: 140c54b43: MOVZX EAX,byte ptr [RDX + 0x6]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:35: 140c54b4e: MOVZX EAX,byte ptr [RDX + 0x7]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:38: 140c54b59: MOVZX EAX,byte ptr [RDX + 0x9]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:41: 140c54b64: MOVZX EAX,byte ptr [RDX + 0xa]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:44: 140c54b6f: MOVZX EAX,byte ptr [RDX + 0xb]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:47: 140c54b7a: MOVZX EAX,byte ptr [RDX + 0xd]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:50: 140c54b85: MOVZX EAX,byte ptr [RDX + 0xe]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:53: 140c54b90: MOVZX EAX,byte ptr [RDX + 0xf]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:56: 140c54b9b: XOR R8D,dword ptr [R14 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:182: 140c54de6: XOR ESI,dword ptr [R14 + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:197: 140c54e2a: XOR EBX,dword ptr [R14 + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:208: 140c54e5c: XOR R10D,dword ptr [R14 + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:218: 140c54e93: XOR R8D,dword ptr [R14 + 0x3c]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:546: 140c554a4: XOR R12D,dword ptr [R14 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:657: 140c556a4: XOR R12D,dword ptr [R14 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:658: 140c556a8: CMP EDI,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:768: 140c558a4: XOR R12D,dword ptr [R14 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:771: 140c558af: MOVZX R9D,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:776: 140c558c5: MOVZX EAX,byte ptr [RCX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:782: 140c558dc: MOVZX EAX,byte ptr [RCX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:786: 140c558ee: MOVZX EAX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:791: 140c55903: MOVZX R8D,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:796: 140c55919: MOVZX EAX,byte ptr [RCX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:802: 140c55931: MOVZX EAX,byte ptr [RCX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:806: 140c55944: MOVZX EAX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:812: 140c5595c: MOVZX EDX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:818: 140c55972: MOVZX EAX,byte ptr [RCX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:824: 140c55988: MOVZX EAX,byte ptr [RCX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:828: 140c55999: MOVZX EAX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:833: 140c559ae: MOVZX ECX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:836: 140c559bd: MOVZX EAX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:840: 140c559cd: MOVZX EAX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:844: 140c559de: MOVZX EAX,byte ptr [RAX + RBP*0x1 + 0x4820730]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:849: 140c559f2: MOV byte ptr [R13],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:852: 140c559fe: MOV RBP,qword ptr [RSP + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:853: 140c55a03: MOV RSI,qword ptr [RSP + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:856: 140c55a10: MOV byte ptr [R13 + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:859: 140c55a1a: MOV byte ptr [R13 + 0x2],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:862: 140c55a24: MOV byte ptr [R13 + 0x4],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:865: 140c55a2e: MOV byte ptr [R13 + 0x5],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:868: 140c55a38: MOV byte ptr [R13 + 0x6],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:871: 140c55a41: MOV byte ptr [R13 + 0x8],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:874: 140c55a4a: MOV byte ptr [R13 + 0x9],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:877: 140c55a53: MOV byte ptr [R13 + 0xa],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:880: 140c55a5c: MOV byte ptr [R13 + 0xc],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:883: 140c55a65: MOV byte ptr [R13 + 0xd],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:886: 140c55a6e: MOV byte ptr [R13 + 0xe],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:887: 140c55a72: MOV byte ptr [R13 + 0x3],R9B
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:888: 140c55a76: MOV byte ptr [R13 + 0x7],R8B
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:889: 140c55a7a: MOV byte ptr [R13 + 0xb],DL
+ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt:890: 140c55a7e: MOV byte ptr [R13 + 0xf],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-decompile.txt:19: uVar4 = CONCAT31(CONCAT21(CONCAT11(param_2[0xc],param_2[0xd]),param_2[0xe]),param_2[0xf]) ^
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-decompile.txt:38: (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[0xc];
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-decompile.txt:114: if (0xc < (int)param_1[0x80]) {
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-decompile.txt:158: param_3[0xc] = (char)(uVar1 >> 0x18);
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:9: 140c55aac: MOVZX EAX,byte ptr [RDX + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:11: 140c55ab7: MOVZX EDI,byte ptr [RDX]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:13: 140c55abe: MOVZX R10D,byte ptr [RDX + 0x4]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:15: 140c55ac6: MOVZX R9D,byte ptr [RDX + 0x8]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:17: 140c55ace: MOVZX R8D,byte ptr [RDX + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:21: 140c55adc: MOVZX EAX,byte ptr [RDX + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:26: 140c55aed: MOVZX EAX,byte ptr [RDX + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:29: 140c55af6: MOVZX EAX,byte ptr [RDX + 0x5]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:32: 140c55aff: MOVZX EAX,byte ptr [RDX + 0x6]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:35: 140c55b0a: MOVZX EAX,byte ptr [RDX + 0x7]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:38: 140c55b15: MOVZX EAX,byte ptr [RDX + 0x9]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:41: 140c55b20: MOVZX EAX,byte ptr [RDX + 0xa]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:44: 140c55b2b: MOVZX EAX,byte ptr [RDX + 0xb]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:47: 140c55b36: MOVZX EAX,byte ptr [RDX + 0xd]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:50: 140c55b41: MOVZX EAX,byte ptr [RDX + 0xe]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:53: 140c55b4c: MOVZX EAX,byte ptr [RDX + 0xf]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:57: 140c55b5a: XOR R8D,dword ptr [RCX + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:111: 140c55c58: XOR R8D,dword ptr [R15 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:233: 140c55e8e: XOR EDI,dword ptr [R15 + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:247: 140c55ecf: XOR EBX,dword ptr [R15 + 0x34]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:262: 140c55f13: XOR R9D,dword ptr [R15 + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:273: 140c55f4d: XOR R8D,dword ptr [R15 + 0x3c]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:546: 140c5644a: XOR EBX,dword ptr [R15 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:657: 140c56650: XOR EBX,dword ptr [R15 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:658: 140c56654: CMP EDI,0xc
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:768: 140c56856: XOR EBX,dword ptr [R15 + 0xc]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:771: 140c56860: MOVZX R9D,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:776: 140c56875: MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:782: 140c5688e: MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:786: 140c568a1: MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:791: 140c568b7: MOVZX R8D,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:796: 140c568cd: MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:802: 140c568e5: MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:806: 140c568f9: MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:811: 140c56910: MOVZX EDX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:816: 140c56924: MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:823: 140c5693d: MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:828: 140c56952: MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:833: 140c56967: MOVZX ECX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:836: 140c56977: MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:840: 140c56989: MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:844: 140c5699b: MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x481f630]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:849: 140c569b0: MOV byte ptr [R13],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:852: 140c569bc: MOV RBP,qword ptr [RSP + 0x30]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:853: 140c569c1: MOV RSI,qword ptr [RSP + 0x38]
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:856: 140c569ce: MOV byte ptr [R13 + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:859: 140c569d8: MOV byte ptr [R13 + 0x2],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:862: 140c569e2: MOV byte ptr [R13 + 0x4],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:865: 140c569ec: MOV byte ptr [R13 + 0x5],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:868: 140c569f6: MOV byte ptr [R13 + 0x6],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:871: 140c569ff: MOV byte ptr [R13 + 0x8],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:874: 140c56a08: MOV byte ptr [R13 + 0x9],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:877: 140c56a11: MOV byte ptr [R13 + 0xa],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:880: 140c56a1a: MOV byte ptr [R13 + 0xc],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:883: 140c56a23: MOV byte ptr [R13 + 0xd],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:886: 140c56a2c: MOV byte ptr [R13 + 0xe],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:887: 140c56a30: MOV byte ptr [R13 + 0x3],R9B
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:888: 140c56a34: MOV byte ptr [R13 + 0x7],R8B
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:889: 140c56a38: MOV byte ptr [R13 + 0xb],DL
+ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt:890: 140c56a3c: MOV byte ptr [R13 + 0xf],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt:2: void FUN_140d06350(byte *param_1,int param_2,longlong param_3)
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt:5: byte bVar1;
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt:6: byte bVar2;
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt:9: byte *pbVar5;
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt:10: byte bVar6;
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:3: 140d0635a: MOVZX R9D,byte ptr [RCX + -0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:5: 140d06363: MOVZX R10D,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:11: 140d06377: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:13: 140d0637d: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:28: 140d063af: MOV byte ptr [RDI + 0x1],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:38: 140d063cd: MOV byte ptr [RDI + 0x2],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:40: 140d063d3: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:41: 140d063d7: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:44: 140d063e0: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:46: 140d063e6: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:60: 140d06411: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:61: 140d06414: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:71: 140d06431: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:73: 140d06437: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:74: 140d0643b: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:77: 140d06444: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:79: 140d0644a: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:93: 140d06475: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:94: 140d06478: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:104: 140d06495: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:106: 140d0649b: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:107: 140d0649f: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:110: 140d064a8: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:112: 140d064ae: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:126: 140d064d9: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:127: 140d064dc: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:137: 140d064f9: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:139: 140d064ff: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:140: 140d06503: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:143: 140d0650c: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:145: 140d06512: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:159: 140d0653d: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:160: 140d06540: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:170: 140d0655d: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:172: 140d06563: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:173: 140d06567: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:176: 140d06570: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:178: 140d06576: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:192: 140d065a1: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:193: 140d065a4: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:203: 140d065c1: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:205: 140d065c7: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:206: 140d065cb: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:209: 140d065d4: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:211: 140d065da: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:225: 140d06605: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:226: 140d06608: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:236: 140d06625: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:238: 140d0662b: MOVZX EDX,byte ptr [RDI + 0x1]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:239: 140d0662f: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:242: 140d06638: MOVZX EAX,byte ptr [RDI + 0x3]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:244: 140d0663e: MOVZX EAX,byte ptr [RDI]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:259: 140d0666e: MOV byte ptr [RDI + 0x1],AL
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:260: 140d06671: MOVZX EAX,byte ptr [RDI + 0x2]
+ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt:270: 140d0668e: MOV byte ptr [RDI + 0x2],CL
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:6: decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt bytes=4920
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:7: disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt bytes=7812
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:8: callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-callers.txt bytes=25
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:9: callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-callees.txt bytes=35
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:10: xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-xrefs_to.txt bytes=127
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:11: xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-xrefs_from.txt bytes=21
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:12: complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-complete.txt bytes=36
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:15: decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt bytes=4366
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:16: disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt bytes=6093
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:17: callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-callers.txt bytes=25
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:18: callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-callees.txt bytes=45
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:19: xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-xrefs_to.txt bytes=118
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:20: xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-xrefs_from.txt bytes=45
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:21: complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-complete.txt bytes=36
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:24: decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-decompile.txt bytes=13200
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:25: disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt bytes=31478
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:26: callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-callers.txt bytes=25
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:27: callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-callees.txt bytes=35
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:28: xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-xrefs_to.txt bytes=74
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:29: xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-xrefs_from.txt bytes=21
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:30: complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-complete.txt bytes=36
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:33: decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-decompile.txt bytes=12042
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:34: disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt bytes=31432
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:35: callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-callers.txt bytes=25
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:36: callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-callees.txt bytes=35
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:37: xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-xrefs_to.txt bytes=74
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:38: xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-xrefs_from.txt bytes=21
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:39: complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-complete.txt bytes=36
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:42: decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt bytes=24504
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:43: disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt bytes=33559
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:44: callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-callers.txt bytes=25
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:45: callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-callees.txt bytes=441
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:46: xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-xrefs_to.txt bytes=202
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:47: xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-xrefs_from.txt bytes=22
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:48: complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-complete.txt bytes=36
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:51: decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt bytes=19034
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:52: disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt bytes=28365
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:53: callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-callers.txt bytes=519
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:54: callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-callees.txt bytes=77
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:55: xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-xrefs_to.txt bytes=1390
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:56: xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-xrefs_from.txt bytes=45
+ghidra-raw-dayzdiag-weaponik-candidates-http-summary.txt:57: complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-complete.txt bytes=36

@@ -1,0 +1,10 @@
+FUN_140060890 @ 140060890
+FUN_140ab2a30 @ 140ab2a30
+FUN_140c54ad0 @ 140c54ad0
+FUN_140c56d00 @ 140c56d00
+FUN_140c5ac20 @ 140c5ac20
+free @ 140dbfb4c
+memcpy @ 140dc685e
+memmove @ 140dc6852
+operator_new @ 140dbfb54
+thunk_FUN_14006b140 @ 140068fa0

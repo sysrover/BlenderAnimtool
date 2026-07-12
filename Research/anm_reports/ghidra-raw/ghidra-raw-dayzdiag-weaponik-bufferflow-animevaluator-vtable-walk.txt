@@ -1,0 +1,249 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_WalkAnimEvaluatorVtables.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 20:38:23 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_WalkAnimEvaluatorVtables.java
+Size: 939 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 15 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+McpInline_WeaponIK_Vtable_Offsets.java:55: error: cannot find symbol
+                FlowType ft = r.getReferenceType().getFlowType();
+                                                  ^
+  symbol:   method getFlowType()
+  location: class ghidra.program.model.symbol.RefType
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+VTABLE AnimEvaluator @ 140de9d80
+  SLOT 00 140de9d80 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 01 140de9d88 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 02 140de9d90 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 03 140de9d98 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 04 140de9da0 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 05 140de9da8 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 06 140de9db0 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 07 140de9db8 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 08 140de9dc0 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 09 140de9dc8 -> 00000001400db320 FUN_1400db320 @ 1400db320
+  SLOT 10 140de9dd0 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 11 140de9dd8 -> 0000000140c34910 FUN_140c34910 @ 140c34910
+  SLOT 12 140de9de0 -> 0000000140fa20b8 <no function>
+  SLOT 13 140de9de8 -> 00000001400de7b0 FUN_1400de7b0 @ 1400de7b0
+  SLOT 14 140de9df0 -> 00000001400e12e0 FUN_1400e12e0 @ 1400e12e0
+  SLOT 15 140de9df8 -> 00000001400e13e0 FUN_1400e13e0 @ 1400e13e0
+  SLOT 16 140de9e00 -> 00000001400db420 FUN_1400db420 @ 1400db420
+  SLOT 17 140de9e08 -> 00000001400db3d0 FUN_1400db3d0 @ 1400db3d0
+  SLOT 18 140de9e10 -> 00000001400dbe00 FUN_1400dbe00 @ 1400dbe00
+  SLOT 19 140de9e18 -> 00000001400db3a0 FUN_1400db3a0 @ 1400db3a0
+  SLOT 20 140de9e20 -> 00000001400db390 FUN_1400db390 @ 1400db390
+  SLOT 21 140de9e28 -> 00000001400e02a0 FUN_1400e02a0 @ 1400e02a0
+  SLOT 22 140de9e30 -> 00000001400db350 FUN_1400db350 @ 1400db350
+  SLOT 23 140de9e38 -> 000000014005c7e0 _guard_check_icall @ 14005c7e0
+VTABLE IAnimEvaluator @ 140de9de8
+  SLOT 00 140de9de8 -> 00000001400de7b0 FUN_1400de7b0 @ 1400de7b0
+  SLOT 01 140de9df0 -> 00000001400e12e0 FUN_1400e12e0 @ 1400e12e0
+  SLOT 02 140de9df8 -> 00000001400e13e0 FUN_1400e13e0 @ 1400e13e0
+  SLOT 03 140de9e00 -> 00000001400db420 FUN_1400db420 @ 1400db420
+  SLOT 04 140de9e08 -> 00000001400db3d0 FUN_1400db3d0 @ 1400db3d0
+  SLOT 05 140de9e10 -> 00000001400dbe00 FUN_1400dbe00 @ 1400dbe00
+  SLOT 06 140de9e18 -> 00000001400db3a0 FUN_1400db3a0 @ 1400db3a0
+  SLOT 07 140de9e20 -> 00000001400db390 FUN_1400db390 @ 1400db390
+  SLOT 08 140de9e28 -> 00000001400e02a0 FUN_1400e02a0 @ 1400e02a0
+  SLOT 09 140de9e30 -> 00000001400db350 FUN_1400db350 @ 1400db350
+  SLOT 10 140de9e38 -> 000000014005c7e0 _guard_check_icall @ 14005c7e0
+  SLOT 11 140de9e40 -> 00000001400e0290 thunk_FUN_1400e02c0 @ 1400e0290
+  SLOT 12 140de9e48 -> 3f7fff5800000000 <no function>
+  SLOT 13 140de9e50 -> 00000000bf7ff972 <no function>
+  SLOT 14 140de9e58 -> 0000000000000000 <no function>
+  SLOT 15 140de9e60 -> 0000000000000000 <no function>
+  SLOT 16 140de9e68 -> 3f80000000000000 <no function>
+  SLOT 17 140de9e70 -> 0000000140fa2190 <no function>
+  SLOT 18 140de9e78 -> 00000001400e4d20 FUN_1400e4d20 @ 1400e4d20
+  SLOT 19 140de9e80 -> 0000000140fa2210 <no function>
+  SLOT 20 140de9e88 -> 00000001400e48f0 FUN_1400e48f0 @ 1400e48f0
+  SLOT 21 140de9e90 -> 0000000140fa2290 <no function>
+  SLOT 22 140de9e98 -> 00000001400e4d80 FUN_1400e4d80 @ 1400e4d80
+  SLOT 23 140de9ea0 -> 0000000140fa2310 <no function>
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

@@ -1,0 +1,383 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\AnmWorkbenchByteNeedleSearch.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:01:06 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\AnmWorkbenchByteNeedleSearch.java
+Size: 4485 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+
+PROGRAM workbenchApp.exe
+IMAGE_BASE 140000000
+============================================================
+------------------------------------------------------------
+NEEDLE ASCII .txa bytes=4
+  HIT 141c14618 block=.rdata
+    REF 140d5d26e <- FUN_140d5cf10 @ 140d5cf10
+SUMMARY needle=.txa wide=false hits=1
+------------------------------------------------------------
+NEEDLE UTF16LE .txa bytes=8
+SUMMARY needle=.txa wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII txa bytes=3
+  HIT 141a756d4 block=.rdata
+    REF 140eb8ab1 <- FUN_140eb8840 @ 140eb8840
+    REF 140f65270 <- FUN_140f64690 @ 140f64690
+    REF 140457250 <- FUN_140457250 @ 140457250
+    REF 140457257 <- FUN_140457250 @ 140457250
+    REF 1423196f0 <- <no-function>
+  HIT 141c14619 block=.rdata
+    REF <none>
+  HIT 141c51e64 block=.rdata
+    REF <none>
+SUMMARY needle=txa wide=false hits=3
+------------------------------------------------------------
+NEEDLE UTF16LE txa bytes=6
+SUMMARY needle=txa wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII TXA bytes=3
+  HIT 141026467 block=.text
+    REF <none>
+  HIT 141aaeed8 block=.rdata
+    REF 140f649ea <- FUN_140f64690 @ 140f64690
+    REF 140d5d28d <- FUN_140d5cf10 @ 140d5cf10
+    REF 140457bd0 <- FUN_140457bd0 @ 140457bd0
+    REF 140457bd7 <- FUN_140457bd0 @ 140457bd0
+  HIT 141c14653 block=.rdata
+    REF <none>
+  HIT 141c1467b block=.rdata
+    REF <none>
+  HIT 141c146c0 block=.rdata
+    REF <none>
+  HIT 141c5fe7f block=.rdata
+    REF <none>
+  HIT 141c70714 block=.rdata
+    REF <none>
+  HIT 141c8c820 block=.rdata
+    REF 140fce290 <- FUN_140fce290 @ 140fce290
+    REF 140fce297 <- FUN_140fce290 @ 140fce290
+  HIT 141c9b66d block=.rdata
+    REF <none>
+  HIT 1424e81bc block=.data
+    REF <none>
+  HIT 14251faa6 block=.data
+    REF <none>
+  HIT 14252bfd4 block=.data
+    REF <none>
+  HIT 14252dbc7 block=.data
+    REF <none>
+  HIT 14252dbee block=.data
+    REF <none>
+  HIT 14252dc18 block=.data
+    REF <none>
+  HIT 14252dc4a block=.data
+    REF <none>
+  HIT 14252dc6e block=.data
+    REF <none>
+  HIT 14252dc9b block=.data
+    REF <none>
+SUMMARY needle=TXA wide=false hits=18
+------------------------------------------------------------
+NEEDLE UTF16LE TXA bytes=6
+SUMMARY needle=TXA wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII Txa bytes=3
+SUMMARY needle=Txa wide=false hits=0
+------------------------------------------------------------
+NEEDLE UTF16LE Txa bytes=6
+SUMMARY needle=Txa wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII .anm bytes=4
+  HIT 141c4cf70 block=.rdata
+    REF 140efcd24 <- FUN_140efc710 @ 140efc710
+    REF 140e760d3 <- FUN_140e75c10 @ 140e75c10
+    REF 140e760e0 <- FUN_140e75c10 @ 140e75c10
+  HIT 141c69131 block=.rdata
+    REF <none>
+SUMMARY needle=.anm wide=false hits=2
+------------------------------------------------------------
+NEEDLE UTF16LE .anm bytes=8
+SUMMARY needle=.anm wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII RTM_0100 bytes=8
+  HIT 141bc6c80 block=.rdata
+    REF 140b89761 <- FUN_140b896c0 @ 140b896c0
+SUMMARY needle=RTM_0100 wide=false hits=1
+------------------------------------------------------------
+NEEDLE UTF16LE RTM_0100 bytes=16
+SUMMARY needle=RTM_0100 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII RTM_0101 bytes=8
+  HIT 141bc6c90 block=.rdata
+    REF 140b897d4 <- FUN_140b896c0 @ 140b896c0
+SUMMARY needle=RTM_0101 wide=false hits=1
+------------------------------------------------------------
+NEEDLE UTF16LE RTM_0101 bytes=16
+SUMMARY needle=RTM_0101 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII .fbx bytes=4
+  HIT 141c5e966 block=.rdata
+    REF <none>
+  HIT 141c89634 block=.rdata
+    REF 140fb8c6e <- FUN_140fb8bb0 @ 140fb8bb0
+    REF 140fb8c80 <- FUN_140fb8bb0 @ 140fb8bb0
+    REF 140fb8ce1 <- FUN_140fb8bb0 @ 140fb8bb0
+  HIT 141cc4fa0 block=.rdata
+    REF 1411470eb <- FUN_141146fe0 @ 141146fe0
+  HIT 141cc4fb0 block=.rdata
+    REF 14114722a <- FUN_141146fe0 @ 141146fe0
+  HIT 141cc5194 block=.rdata
+    REF 141148e0a <- FUN_141148dc0 @ 141148dc0
+  HIT 141cc51d0 block=.rdata
+    REF 141148f12 <- FUN_141148e80 @ 141148e80
+  HIT 141d03d59 block=.rdata
+    REF <none>
+  HIT 141d03d88 block=.rdata
+    REF <none>
+  HIT 141d03dbc block=.rdata
+    REF <none>
+  HIT 141d059ad block=.rdata
+    REF <none>
+  HIT 141d059dc block=.rdata
+    REF <none>
+  HIT 141d05a18 block=.rdata
+    REF <none>
+  HIT 141d06b26 block=.rdata
+    REF <none>
+SUMMARY needle=.fbx wide=false hits=13
+------------------------------------------------------------
+NEEDLE UTF16LE .fbx bytes=8
+SUMMARY needle=.fbx wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII FBX201600 bytes=9
+  HIT 141cc4b08 block=.rdata
+    REF 141145da2 <- FUN_141145d70 @ 141145d70
+  HIT 141d05a40 block=.rdata
+    REF 141295273 <- FUN_1412950c0 @ 1412950c0
+    REF 141295262 <- FUN_1412950c0 @ 1412950c0
+    REF 142375d90 <- <no-function>
+  HIT 141d8b058 block=.rdata
+    REF 1413d0050 <- FUN_1413cfff0 @ 1413cfff0
+  HIT 141d8b168 block=.rdata
+    REF 1413d0208 <- FUN_1413d01a0 @ 1413d01a0
+SUMMARY needle=FBX201600 wide=false hits=4
+------------------------------------------------------------
+NEEDLE UTF16LE FBX201600 bytes=18
+SUMMARY needle=FBX201600 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII FBX201400 bytes=9
+  HIT 141cc4b18 block=.rdata
+    REF 141145dc1 <- FUN_141145d70 @ 141145d70
+  HIT 141d05a50 block=.rdata
+    REF 141295273 <- FUN_1412950c0 @ 1412950c0
+    REF 141295262 <- FUN_1412950c0 @ 1412950c0
+    REF 142375d98 <- <no-function>
+SUMMARY needle=FBX201400 wide=false hits=2
+------------------------------------------------------------
+NEEDLE UTF16LE FBX201400 bytes=18
+SUMMARY needle=FBX201400 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII FBX201300 bytes=9
+  HIT 141cc4b28 block=.rdata
+    REF 141145de0 <- FUN_141145d70 @ 141145d70
+  HIT 141d05a60 block=.rdata
+    REF 142375da0 <- <no-function>
+SUMMARY needle=FBX201300 wide=false hits=2
+------------------------------------------------------------
+NEEDLE UTF16LE FBX201300 bytes=18
+SUMMARY needle=FBX201300 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII FBX201200 bytes=9
+  HIT 141cc4b38 block=.rdata
+    REF 141145dff <- FUN_141145d70 @ 141145d70
+  HIT 141d05a70 block=.rdata
+    REF 142375da8 <- <no-function>
+SUMMARY needle=FBX201200 wide=false hits=2
+------------------------------------------------------------
+NEEDLE UTF16LE FBX201200 bytes=18
+SUMMARY needle=FBX201200 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII FBX201100 bytes=9
+  HIT 141cc4b48 block=.rdata
+    REF 141145e1e <- FUN_141145d70 @ 141145d70
+  HIT 141d05a80 block=.rdata
+    REF 142375db0 <- <no-function>
+SUMMARY needle=FBX201100 wide=false hits=2
+------------------------------------------------------------
+NEEDLE UTF16LE FBX201100 bytes=18
+SUMMARY needle=FBX201100 wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII Autodesk_Cache_File bytes=19
+  HIT 141e14a68 block=.rdata
+    REF 1414cec91 <- FUN_1414cec40 @ 1414cec40
+  HIT 141e14c10 block=.rdata
+    REF 1414cf090 <- FUN_1414cf050 @ 1414cf050
+SUMMARY needle=Autodesk_Cache_File wide=false hits=2
+------------------------------------------------------------
+NEEDLE UTF16LE Autodesk_Cache_File bytes=38
+SUMMARY needle=Autodesk_Cache_File wide=true hits=0
+------------------------------------------------------------
+NEEDLE ASCII Alias_Cache_File bytes=16
+  HIT 141e14a80 block=.rdata
+    REF 1414ceca5 <- FUN_1414cec40 @ 1414cec40
+SUMMARY needle=Alias_Cache_File wide=false hits=1
+------------------------------------------------------------
+NEEDLE UTF16LE Alias_Cache_File bytes=32
+SUMMARY needle=Alias_Cache_File wide=true hits=0
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

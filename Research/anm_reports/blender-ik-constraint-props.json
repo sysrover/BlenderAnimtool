@@ -1,0 +1,187 @@
+{
+  "LeftHand": {
+    "bone_head_local": [
+      0.586174488067627,
+      0.07344280928373337,
+      1.0715985298156738
+    ],
+    "bone_tail_local": [
+      0.6626693606376648,
+      0.0716136023402214,
+      1.0072153806686401
+    ],
+    "length": 0.10000000149011612,
+    "parent": "LeftForeArmRoll",
+    "pose_head": [
+      0.0702739953994751,
+      0.4285123646259308,
+      1.4450442790985107
+    ],
+    "pose_tail": [
+      0.14025935530662537,
+      0.497931569814682,
+      1.4282211065292358
+    ],
+    "pose_matrix_translation": [
+      0.0702739953994751,
+      0.4285123646259308,
+      1.4450442790985107
+    ]
+  },
+  "RightHand": [
+    {
+      "active": true,
+      "chain_count": 5,
+      "distance": 1.0,
+      "enabled": true,
+      "error_location": 0.0,
+      "error_rotation": 0.0,
+      "ik_type": "COPY_POSE",
+      "influence": 1.0,
+      "is_override_data": false,
+      "is_valid": true,
+      "iterations": 500,
+      "limit_mode": "LIMITDIST_INSIDE",
+      "lock_location_x": true,
+      "lock_location_y": true,
+      "lock_location_z": true,
+      "lock_rotation_x": true,
+      "lock_rotation_y": true,
+      "lock_rotation_z": true,
+      "mute": false,
+      "name": "DayZ WeaponIK Preview",
+      "orient_weight": 1.0,
+      "owner_space": "WORLD",
+      "pole_angle": 0.790633499622345,
+      "pole_subtarget": "RightForeArmDirection",
+      "reference_axis": "BONE",
+      "show_expanded": true,
+      "space_object": null,
+      "space_subtarget": "",
+      "subtarget": "RightHandOrigin",
+      "target_space": "WORLD",
+      "type": "IK",
+      "use_location": true,
+      "use_rotation": true,
+      "use_stretch": false,
+      "use_tail": true,
+      "weight": 1.0
+    }
+  ],
+  "LeftHandIKTarget": {
+    "bone_head_local": [
+      0.6626693606376648,
+      0.0716136023402214,
+      1.0072153806686401
+    ],
+    "bone_tail_local": [
+      0.6626693606376648,
+      0.0716136023402214,
+      1.107215404510498
+    ],
+    "length": 0.10000003129243851,
+    "parent": "RightHand_Dummy",
+    "pose_head": [
+      0.14025944471359253,
+      0.49793145060539246,
+      1.428221344947815
+    ],
+    "pose_tail": [
+      0.21024474501609802,
+      0.5673506855964661,
+      1.41139817237854
+    ],
+    "pose_matrix_translation": [
+      0.14025944471359253,
+      0.49793145060539246,
+      1.428221344947815
+    ]
+  },
+  "LeftHandOrigin": {
+    "bone_head_local": [
+      0.6626693606376648,
+      0.0716136023402214,
+      1.0072153806686401
+    ],
+    "bone_tail_local": [
+      0.7391642332077026,
+      0.06978439539670944,
+      0.9428322315216064
+    ],
+    "length": 0.09999998658895493,
+    "parent": "RightHand_Dummy",
+    "pose_head": [
+      0.13836252689361572,
+      0.5014519691467285,
+      1.4023125171661377
+    ],
+    "pose_tail": [
+      0.22022223472595215,
+      0.5545644760131836,
+      1.3804486989974976
+    ],
+    "pose_matrix_translation": [
+      0.13836252689361572,
+      0.5014519691467285,
+      1.4023125171661377
+    ]
+  },
+  "RightHand_Dummy": {
+    "bone_head_local": [
+      -0.15425610542297363,
+      -0.2101196050643921,
+      1.3711812496185303
+    ],
+    "bone_tail_local": [
+      -0.15522199869155884,
+      -0.11012399941682816,
+      1.371019959449768
+    ],
+    "length": 0.10000038146972656,
+    "parent": "RightHand",
+    "pose_head": [
+      0.20770263671875,
+      0.4104803502559662,
+      1.3777308464050293
+    ],
+    "pose_tail": [
+      0.20740440487861633,
+      0.31049221754074097,
+      1.3761930465698242
+    ],
+    "pose_matrix_translation": [
+      0.20770263671875,
+      0.4104803502559662,
+      1.3777308464050293
+    ]
+  },
+  "Weapon_Magazine": {
+    "bone_head_local": [
+      -0.15425610542297363,
+      -0.2101196050643921,
+      1.3711812496185303
+    ],
+    "bone_tail_local": [
+      -0.15473900735378265,
+      -0.16012200713157654,
+      1.371019959449768
+    ],
+    "length": 0.050000179558992386,
+    "parent": "Weapon_Root",
+    "pose_head": [
+      0.2077026069164276,
+      0.4104803502559662,
+      1.3777308464050293
+    ],
+    "pose_tail": [
+      0.20755340158939362,
+      0.36048758029937744,
+      1.3768812417984009
+    ],
+    "pose_matrix_translation": [
+      0.2077026069164276,
+      0.4104803502559662,
+      1.3777308464050293
+    ]
+  }
+}

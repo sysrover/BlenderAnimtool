@@ -1,0 +1,138 @@
+Workbench MetaFile / ResourceGUID HTTP pass
+Date: 2026-05-17
+Program: workbenchApp.exe
+
+Local sample:
+- anm/fbx/StalkerSnork_runright.anm.meta contains:
+  Name "{FE542D5525E19BD8}StalkerSnork_runright.anm"
+
+Local byte validation:
+- StalkerSnork_runright.anm vs StalkerSnork_runright.optimized.from_txa.anm:
+  MATCH 13749 bytes
+- StalkerSnork_runright.exact.from_txa.anm:
+  exact length: 20947
+
+HTTP evidence:
+
+1. /search_strings?program=workbenchApp.exe&search_term=MetaFileClass
+- "MetaFileClass" at 0x141aabdd8.
+- RTTI ".?AVMetaFileClass@enf@@" at 0x1424e7598.
+
+2. /batch_string_anchor_report?program=workbenchApp.exe&pattern=MetaFileClass
+- Candidate functions include FUN_140430b60, FUN_140430460,
+  FUN_140430520, FUN_1404305b0, FUN_140431960.
+
+3. /batch_decompile?program=workbenchApp.exe&functions=0x1404305b0,...
+- FUN_1404305b0 registers MetaFileClass properties.
+- It registers Name with display/description string "Name&GUID" and widget
+  PTR_s_resourceNamePicker_142321688. The property id is stored in
+  DAT_142321660.
+- It also registers Author, ChangeDate, Creator, CreateDate,
+  Configurations, and Tags.
+- FUN_140430460 is a MetaFile constructor. It looks up MetaFileClass, installs
+  enf::MetaFile::vftable, uses DAT_142321660, assigns Name, then calls
+  FUN_140430f10.
+- FUN_140430b60 handles "MetaFileClass" in meta parsing/configuration and
+  resolves resource classes. It logs "Can't find resource class '%s'" when a
+  resource class name is invalid.
+
+4. /search_strings?program=workbenchApp.exe&search_term=GUID
+- "Name&GUID" at 0x141aac230.
+- "enf::ResourceGUID" strings at 0x141bfc29a, 0x141c07acb, 0x141c09111.
+- "%s (GUID=%s)" at 0x141c2d9f0.
+- "Duplicate data file has been detected (2 files share same GUID)..." at
+  0x141c80380.
+- Qt signal strings contain FileAdded/FileDeleted signatures with
+  "const enf::ResourceGUID&".
+
+5. /analyze_function_complete?program=workbenchApp.exe&address=0x140f96970
+- FUN_140f96970 handles duplicate ResourceGUID detection and shows a dialog:
+  "Duplicate data file has been detected (2 files share same GUID) we need to
+  delete one of them".
+- It offers actions to delete file 1, delete file 2, or kill the application.
+- This confirms ResourceGUID is used as a resource database identity and must
+  be unique.
+
+6. /analyze_function_complete?program=workbenchApp.exe&address=0x140fb2140
+- ResourceManager constructor path connects signals:
+  FileAdded(enf::ResourceDB*, enf::CStr, const enf::ResourceGUID&,
+  enf::RDBTreeEntry*)
+  FileDeleted(enf::ResourceDB*, enf::CStr, const enf::ResourceGUID&)
+- This confirms ResourceGUID is part of resource database add/delete events.
+
+7. /analyze_function_complete?program=workbenchApp.exe&address=0x140de0110
+- Property editor case for ResourceName/GUID uses:
+  FUN_140454380(&local_328, _Src)
+  FUN_140454eb0(puVar20, local_1c0)
+- It formats UI text with "%s (GUID=%s)".
+- This confirms the meta Name field is parsed/formatted as resource name plus
+  ResourceGUID, not as an ANM payload field.
+
+8. /batch_decompile?program=workbenchApp.exe&functions=0x140454380,0x140454e90,0x140454eb0
+- FUN_140454380 parses/builds a resource-name object from text. It tries to
+  obtain a GUID from the input via FUN_1404541e0/FUN_140454dd0 and consults the
+  resource database through DAT_1425b7658 when available.
+- FUN_140454e90 returns the stored GUID pointer at object +0x10 when a
+  resource-name object exists, otherwise returns a zero/default static GUID.
+- FUN_140454eb0 formats the 64-bit value at *param_1 as exactly 16 uppercase
+  hexadecimal characters and writes a terminator at param_2[0x10].
+
+9. /batch_decompile?program=workbenchApp.exe&functions=0x1404541e0,0x140454dd0,0x140454a60,0x140454380
+- FUN_140454dd0 parses an explicit `{...}` prefix. It consumes hex nibbles
+  until `}` and returns a pointer to the remaining resource name. This is how
+  `{FE542D5525E19BD8}StalkerSnork_runright.anm` is read.
+- FUN_1404541e0 generates a 64-bit ResourceGUID when no `{...}` prefix is
+  present. It:
+  - starts from `0xffffffffffffffff`;
+  - scans the ASCII resource name;
+  - normalizes both `\` and `/` to `/`;
+  - collapses repeated path separators;
+  - uppercases ASCII lowercase `a..z` by `byte & 0xdf`;
+  - updates through the 256-entry 64-bit table at `DAT_141a81160`;
+  - returns the bitwise inverse of the final accumulator.
+- `analyze_data_region` on `0x141a81160` identifies a 2048-byte table with
+  xrefs only from `FUN_1404541e0` at `140454212` and `14045426b`.
+- FUN_140454a60 stores the normalized name and the generated/parsed 64-bit
+  ResourceGUID into the `ResourceNameRef` object.
+
+10. /get_xrefs_to?program=workbenchApp.exe&address=0x1404541e0
+- Direct callers include `FUN_140454380`, `FUN_1404547c0`,
+  `FUN_140454640`, and `FUN_140446e10`.
+
+11. /batch_decompile?program=workbenchApp.exe&functions=0x140454640,0x1404547c0,0x140446e10
+- FUN_140454640 always calls `FUN_1404541e0(param_3)` and then
+  `FUN_140454a60`, proving ResourceName creation without an explicit GUID uses
+  the deterministic hash path.
+- FUN_1404547c0 first tries `FUN_140454dd0` for an explicit `{GUID}`; when
+  absent it calls `FUN_1404541e0(param_3)`.
+- FUN_140446e10 is a ResourceDB file scan/add path. It computes a GUID from the
+  found resource name with `FUN_1404541e0`, then builds a ResourceName object
+  and fires file add/change events.
+
+Local reproduction using the `DAT_141a81160` table and `FUN_1404541e0`
+algorithm:
+
+```text
+StalkerSnork_runright.anm => FE542D5525E19BD8
+stalkersnork_runright.anm => FE542D5525E19BD8
+anm/fbx/StalkerSnork_runright.anm => 41868E2598EE0FBF
+C:/Users/sysro/diag/CsharpModVScode/anm/fbx/StalkerSnork_runright.anm => 64DD4085956812FE
+StalkerSnork_runright.fbx => 323DAA5790BCBD28
+StalkerSnork_runright.txa => F08062F27CACE9BF
+```
+
+This proves the observed meta GUID is generated from the resource name
+`StalkerSnork_runright.anm`, not from the full local filesystem path and not
+from the ANM bytes.
+
+Conclusion:
+- confirmed: FE542D5525E19BD8 is a 64-bit Enfusion ResourceGUID represented as
+  16 uppercase hex characters inside the MetaFileClass Name property.
+- confirmed: the GUID is not part of the ANM binary payload. The Workbench ANM
+  bytes match the local optimized TXA->ANM output exactly while the meta file
+  remains separate.
+- confirmed: the GUID is needed by Workbench/Enfusion ResourceDB for unique
+  resource identity, add/delete events, and duplicate-resource detection.
+- confirmed: when no explicit `{GUID}` prefix is supplied, Workbench generates
+  the ResourceGUID deterministically from the normalized resource name with
+  `FUN_1404541e0` and table `DAT_141a81160`.

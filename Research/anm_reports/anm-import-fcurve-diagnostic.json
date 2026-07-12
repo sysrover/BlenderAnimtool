@@ -1,0 +1,3962 @@
+{
+  "op_result": [
+    "FINISHED"
+  ],
+  "action": "aks74u.001",
+  "frame_range": [
+    0.0,
+    1.0
+  ],
+  "fcurves": [
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandThumb3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandPinky3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHand_Dummy\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandOrigin\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftHandIKTarget\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"LeftForeArmDirection\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    }
+  ],
+  "right_related": [
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandRing3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandThumb3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandMiddle3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandIndex3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky1\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky2\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandPinky3\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHand_Dummy\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightHandOrigin\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0
+      ],
+      "key_count": 1
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirectionOrigin\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].location",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].location",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].location",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 0,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 1,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 2,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    },
+    {
+      "data_path": "pose.bones[\"RightForeArmDirection\"].rotation_quaternion",
+      "array_index": 3,
+      "keys": [
+        0.0,
+        1.0
+      ],
+      "key_count": 2
+    }
+  ]
+}

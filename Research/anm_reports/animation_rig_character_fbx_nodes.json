@@ -1,0 +1,2509 @@
+{
+  "file": "C:\\Users\\sysro\\Downloads\\animation_rig_character.fbx",
+  "version": 7400,
+  "models": [
+    {
+      "id": 1781608368,
+      "raw": "EntityPosition\u0000\u0001Model",
+      "kind": "Null",
+      "name": "EntityPosition::Model"
+    },
+    {
+      "id": 1781623712,
+      "raw": "Pelvis\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Pelvis::Model"
+    },
+    {
+      "id": 1781610560,
+      "raw": "LeftUpLeg\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftUpLeg::Model"
+    },
+    {
+      "id": 1781617136,
+      "raw": "LeftUpLegRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftUpLegRoll::Model"
+    },
+    {
+      "id": 1781625904,
+      "raw": "LeftKneeExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftKneeExtra::Model"
+    },
+    {
+      "id": 1781614944,
+      "raw": "LeftLeg\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftLeg::Model"
+    },
+    {
+      "id": 1781612752,
+      "raw": "LeftLegRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftLegRoll::Model"
+    },
+    {
+      "id": 1781641248,
+      "raw": "LeftFoot\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftFoot::Model"
+    },
+    {
+      "id": 1781628096,
+      "raw": "LeftToeBase\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftToeBase::Model"
+    },
+    {
+      "id": 1781632480,
+      "raw": "LeftToeBase_End\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftToeBase_End::Model"
+    },
+    {
+      "id": 1781634672,
+      "raw": "RightUpLeg\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightUpLeg::Model"
+    },
+    {
+      "id": 1781636864,
+      "raw": "RightUpLegRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightUpLegRoll::Model"
+    },
+    {
+      "id": 1781639056,
+      "raw": "RightKneeExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightKneeExtra::Model"
+    },
+    {
+      "id": 1781643440,
+      "raw": "RightLeg\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightLeg::Model"
+    },
+    {
+      "id": 1781630288,
+      "raw": "RightLegRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightLegRoll::Model"
+    },
+    {
+      "id": 1781647824,
+      "raw": "RightFoot\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightFoot::Model"
+    },
+    {
+      "id": 1781645632,
+      "raw": "RightToeBase\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightToeBase::Model"
+    },
+    {
+      "id": 1781660976,
+      "raw": "RightToeBase_End\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightToeBase_End::Model"
+    },
+    {
+      "id": 1781656592,
+      "raw": "Spine\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Spine::Model"
+    },
+    {
+      "id": 1781654400,
+      "raw": "Spine1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Spine1::Model"
+    },
+    {
+      "id": 1781652208,
+      "raw": "Spine2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Spine2::Model"
+    },
+    {
+      "id": 1781658784,
+      "raw": "Spine3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Spine3::Model"
+    },
+    {
+      "id": 1781663168,
+      "raw": "Neck\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Neck::Model"
+    },
+    {
+      "id": 1781650016,
+      "raw": "Neck1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Neck1::Model"
+    },
+    {
+      "id": 1781671936,
+      "raw": "Head\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Head::Model"
+    },
+    {
+      "id": 1781674128,
+      "raw": "Camera1st_lock_dummy\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Camera1st_lock_dummy::Model"
+    },
+    {
+      "id": 1781667552,
+      "raw": "Face_Hub\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Face_Hub::Model"
+    },
+    {
+      "id": 1781665360,
+      "raw": "Face_EyelidUpperLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_EyelidUpperLeft::Model"
+    },
+    {
+      "id": 1781669744,
+      "raw": "Face_EyelidUpperRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_EyelidUpperRight::Model"
+    },
+    {
+      "id": 1781687280,
+      "raw": "Face_Jawbone\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_Jawbone::Model"
+    },
+    {
+      "id": 1781689472,
+      "raw": "Face_Chin\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_Chin::Model"
+    },
+    {
+      "id": 1781680704,
+      "raw": "Face_ChopLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_ChopLeft::Model"
+    },
+    {
+      "id": 1781682896,
+      "raw": "Face_ChopRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_ChopRight::Model"
+    },
+    {
+      "id": 1781676320,
+      "raw": "Face_Jowl\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_Jowl::Model"
+    },
+    {
+      "id": 1781678512,
+      "raw": "Face_LipLowerLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_LipLowerLeft::Model"
+    },
+    {
+      "id": 1781685088,
+      "raw": "Face_LipLowerMiddle\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_LipLowerMiddle::Model"
+    },
+    {
+      "id": 1781696048,
+      "raw": "Face_LipLowerRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_LipLowerRight::Model"
+    },
+    {
+      "id": 1781691664,
+      "raw": "Face_Tongue\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_Tongue::Model"
+    },
+    {
+      "id": 1781702624,
+      "raw": "EyeRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "EyeRight::Model"
+    },
+    {
+      "id": 1781704816,
+      "raw": "EyeLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "EyeLeft::Model"
+    },
+    {
+      "id": 1781707008,
+      "raw": "Face_CheekFrontLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CheekFrontLeft::Model"
+    },
+    {
+      "id": 1781693856,
+      "raw": "Face_CheekFrontRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CheekFrontRight::Model"
+    },
+    {
+      "id": 1781698240,
+      "raw": "Face_CheekUpperLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CheekUpperLeft::Model"
+    },
+    {
+      "id": 1781700432,
+      "raw": "Face_CheekUpperRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CheekUpperRight::Model"
+    },
+    {
+      "id": 2034078096,
+      "raw": "Face_CornerLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CornerLeft::Model"
+    },
+    {
+      "id": 2034089056,
+      "raw": "Face_CheekSideLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CheekSideLeft::Model"
+    },
+    {
+      "id": 2034082480,
+      "raw": "Face_CornerRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CornerRight::Model"
+    },
+    {
+      "id": 2034084672,
+      "raw": "Face_CheekSideRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_CheekSideRight::Model"
+    },
+    {
+      "id": 2034080288,
+      "raw": "Face_EyelidLowerLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_EyelidLowerLeft::Model"
+    },
+    {
+      "id": 2034075904,
+      "raw": "Face_EyelidLowerRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_EyelidLowerRight::Model"
+    },
+    {
+      "id": 2034095632,
+      "raw": "Face_Eyelids\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_Eyelids::Model"
+    },
+    {
+      "id": 2034102208,
+      "raw": "Face_Forehead\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_Forehead::Model"
+    },
+    {
+      "id": 2034097824,
+      "raw": "Face_BrowFrontLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_BrowFrontLeft::Model"
+    },
+    {
+      "id": 2034091248,
+      "raw": "Face_BrowFrontRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_BrowFrontRight::Model"
+    },
+    {
+      "id": 2034104400,
+      "raw": "Face_BrowMiddle\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_BrowMiddle::Model"
+    },
+    {
+      "id": 2034093440,
+      "raw": "Face_BrowSideLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_BrowSideLeft::Model"
+    },
+    {
+      "id": 2034106592,
+      "raw": "Face_BrowSideRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_BrowSideRight::Model"
+    },
+    {
+      "id": 2034108784,
+      "raw": "Face_LipUpperLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_LipUpperLeft::Model"
+    },
+    {
+      "id": 2034110976,
+      "raw": "Face_LipUpperMiddle\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_LipUpperMiddle::Model"
+    },
+    {
+      "id": 2034113168,
+      "raw": "Face_LipUpperRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_LipUpperRight::Model"
+    },
+    {
+      "id": 2034100016,
+      "raw": "Face_NostrilLeft\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_NostrilLeft::Model"
+    },
+    {
+      "id": 2034117552,
+      "raw": "Face_NostrilRight\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "Face_NostrilRight::Model"
+    },
+    {
+      "id": 2034128512,
+      "raw": "Camera1st_free_dummy\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Camera1st_free_dummy::Model"
+    },
+    {
+      "id": 2034115360,
+      "raw": "LeftShoulder\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftShoulder::Model"
+    },
+    {
+      "id": 2034130704,
+      "raw": "LeftArm\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftArm::Model"
+    },
+    {
+      "id": 2034124128,
+      "raw": "LeftArmRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftArmRoll::Model"
+    },
+    {
+      "id": 2034126320,
+      "raw": "LeftForeArm\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftForeArm::Model"
+    },
+    {
+      "id": 2034132896,
+      "raw": "LeftForeArmRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftForeArmRoll::Model"
+    },
+    {
+      "id": 2034119744,
+      "raw": "LeftHand\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHand::Model"
+    },
+    {
+      "id": 2034135088,
+      "raw": "LeftHandRing\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandRing::Model"
+    },
+    {
+      "id": 2034121936,
+      "raw": "LeftHandRing1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandRing1::Model"
+    },
+    {
+      "id": 2034137280,
+      "raw": "LeftHandRing2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandRing2::Model"
+    },
+    {
+      "id": 2034139472,
+      "raw": "LeftHandRing3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandRing3::Model"
+    },
+    {
+      "id": 1331077888,
+      "raw": "LeftHandRing4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandRing4::Model"
+    },
+    {
+      "id": 1331066928,
+      "raw": "LeftHandMiddle1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandMiddle1::Model"
+    },
+    {
+      "id": 1331071312,
+      "raw": "LeftHandMiddle2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandMiddle2::Model"
+    },
+    {
+      "id": 1331095424,
+      "raw": "LeftHandMiddle3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandMiddle3::Model"
+    },
+    {
+      "id": 1331093232,
+      "raw": "LeftHandMiddle4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandMiddle4::Model"
+    },
+    {
+      "id": 1331088848,
+      "raw": "LeftHandIndex1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandIndex1::Model"
+    },
+    {
+      "id": 1331097616,
+      "raw": "LeftHandIndex2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandIndex2::Model"
+    },
+    {
+      "id": 1331091040,
+      "raw": "LeftHandIndex3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandIndex3::Model"
+    },
+    {
+      "id": 1331099808,
+      "raw": "LeftHandIndex4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandIndex4::Model"
+    },
+    {
+      "id": 1331086656,
+      "raw": "LeftHandThumb1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandThumb1::Model"
+    },
+    {
+      "id": 1331115152,
+      "raw": "LeftHandThumb2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandThumb2::Model"
+    },
+    {
+      "id": 1331104192,
+      "raw": "LeftHandThumb3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandThumb3::Model"
+    },
+    {
+      "id": 1331112960,
+      "raw": "LeftHandThumb4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandThumb4::Model"
+    },
+    {
+      "id": 1331110768,
+      "raw": "LeftHandPinky\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandPinky::Model"
+    },
+    {
+      "id": 1331106384,
+      "raw": "LeftHandPinky1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandPinky1::Model"
+    },
+    {
+      "id": 1331117344,
+      "raw": "LeftHandPinky2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandPinky2::Model"
+    },
+    {
+      "id": 1331108576,
+      "raw": "LeftHandPinky3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHandPinky3::Model"
+    },
+    {
+      "id": 1164882896,
+      "raw": "LeftHandPinky4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandPinky4::Model"
+    },
+    {
+      "id": 1164869744,
+      "raw": "LeftHand_Dummy\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHand_Dummy::Model"
+    },
+    {
+      "id": 1812382720,
+      "raw": "LeftWristExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftWristExtra::Model"
+    },
+    {
+      "id": 1812376144,
+      "raw": "LeftForeArmExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftForeArmExtra::Model"
+    },
+    {
+      "id": 1812380528,
+      "raw": "LeftElbowExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftElbowExtra::Model"
+    },
+    {
+      "id": 1812371760,
+      "raw": "LeftArmExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftArmExtra::Model"
+    },
+    {
+      "id": 1812369568,
+      "raw": "RightShoulder\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightShoulder::Model"
+    },
+    {
+      "id": 1812378336,
+      "raw": "RightArm\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightArm::Model"
+    },
+    {
+      "id": 1812373952,
+      "raw": "RightArmExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightArmExtra::Model"
+    },
+    {
+      "id": 1812398064,
+      "raw": "RightArmRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightArmRoll::Model"
+    },
+    {
+      "id": 1812391488,
+      "raw": "RightForeArm\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightForeArm::Model"
+    },
+    {
+      "id": 1812387104,
+      "raw": "RightForeArmRoll\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightForeArmRoll::Model"
+    },
+    {
+      "id": 1812389296,
+      "raw": "RightHand\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHand::Model"
+    },
+    {
+      "id": 1812384912,
+      "raw": "RightHandRing\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandRing::Model"
+    },
+    {
+      "id": 1812393680,
+      "raw": "RightHandRing1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandRing1::Model"
+    },
+    {
+      "id": 1812402448,
+      "raw": "RightHandRing2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandRing2::Model"
+    },
+    {
+      "id": 1812400256,
+      "raw": "RightHandRing3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandRing3::Model"
+    },
+    {
+      "id": 1812404640,
+      "raw": "RightHandRing4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandRing4::Model"
+    },
+    {
+      "id": 1812406832,
+      "raw": "RightHandThumb1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandThumb1::Model"
+    },
+    {
+      "id": 1812395872,
+      "raw": "RightHandThumb2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandThumb2::Model"
+    },
+    {
+      "id": 1812413408,
+      "raw": "RightHandThumb3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandThumb3::Model"
+    },
+    {
+      "id": 1812422176,
+      "raw": "RightHandThumb4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandThumb4::Model"
+    },
+    {
+      "id": 1812415600,
+      "raw": "RightHandMiddle1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandMiddle1::Model"
+    },
+    {
+      "id": 1812409024,
+      "raw": "RightHandMiddle2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandMiddle2::Model"
+    },
+    {
+      "id": 1812419984,
+      "raw": "RightHandMiddle3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandMiddle3::Model"
+    },
+    {
+      "id": 1812424368,
+      "raw": "RightHandMiddle4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandMiddle4::Model"
+    },
+    {
+      "id": 1812417792,
+      "raw": "RightHandIndex1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandIndex1::Model"
+    },
+    {
+      "id": 1812411216,
+      "raw": "RightHandIndex2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandIndex2::Model"
+    },
+    {
+      "id": 1812426560,
+      "raw": "RightHandIndex3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandIndex3::Model"
+    },
+    {
+      "id": 1812428752,
+      "raw": "RightHandIndex4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandIndex4::Model"
+    },
+    {
+      "id": 1812430944,
+      "raw": "RightHandPinky\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandPinky::Model"
+    },
+    {
+      "id": 1829722368,
+      "raw": "RightHandPinky1\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandPinky1::Model"
+    },
+    {
+      "id": 1829733328,
+      "raw": "RightHandPinky2\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandPinky2::Model"
+    },
+    {
+      "id": 1829724560,
+      "raw": "RightHandPinky3\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHandPinky3::Model"
+    },
+    {
+      "id": 1829726752,
+      "raw": "RightHandPinky4\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandPinky4::Model"
+    },
+    {
+      "id": 1829720176,
+      "raw": "RightHand_Dummy\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHand_Dummy::Model"
+    },
+    {
+      "id": 1829735520,
+      "raw": "Weapon_Root\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Weapon_Root::Model"
+    },
+    {
+      "id": 1829742096,
+      "raw": "Bullet\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Bullet::Model"
+    },
+    {
+      "id": 1829737712,
+      "raw": "Trigger\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Trigger::Model"
+    },
+    {
+      "id": 1829739904,
+      "raw": "Magazine\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Magazine::Model"
+    },
+    {
+      "id": 1829728944,
+      "raw": "Bolt\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Bolt::Model"
+    },
+    {
+      "id": 1829744288,
+      "raw": "Bullets_Magazine\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Bullets_Magazine::Model"
+    },
+    {
+      "id": 1829731136,
+      "raw": "Bullets_holder\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Bullets_holder::Model"
+    },
+    {
+      "id": 1829753056,
+      "raw": "Bullets_on_holder\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Bullets_on_holder::Model"
+    },
+    {
+      "id": 1829757440,
+      "raw": "Universal1\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Universal1::Model"
+    },
+    {
+      "id": 1829750864,
+      "raw": "Universal2\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Universal2::Model"
+    },
+    {
+      "id": 1829755248,
+      "raw": "RightWristExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightWristExtra::Model"
+    },
+    {
+      "id": 1829759632,
+      "raw": "RightForeArmExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightForeArmExtra::Model"
+    },
+    {
+      "id": 1829746480,
+      "raw": "RightElbowExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightElbowExtra::Model"
+    },
+    {
+      "id": 1829761824,
+      "raw": "RightHandIK_Helper\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandIK_Helper::Model"
+    },
+    {
+      "id": 1829748672,
+      "raw": "RightHandIK\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHandIK::Model"
+    },
+    {
+      "id": 1829766208,
+      "raw": "RightAimIK_Helper\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightAimIK_Helper::Model"
+    },
+    {
+      "id": 1829777168,
+      "raw": "Marker\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Marker::Model"
+    },
+    {
+      "id": 1829774976,
+      "raw": "LeftHandIK\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHandIK::Model"
+    },
+    {
+      "id": 1829772784,
+      "raw": "Weapon_Holster\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Weapon_Holster::Model"
+    },
+    {
+      "id": 1829768400,
+      "raw": "Pistol_Holster\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Pistol_Holster::Model"
+    },
+    {
+      "id": 1829770592,
+      "raw": "Weapon2hnd_Holster\u0000\u0001Model",
+      "kind": "Null",
+      "name": "Weapon2hnd_Holster::Model"
+    },
+    {
+      "id": 1829764016,
+      "raw": "weapon\u0000\u0001Model",
+      "kind": "Null",
+      "name": "weapon::Model"
+    },
+    {
+      "id": 1829785936,
+      "raw": "RightHipExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "RightHipExtra::Model"
+    },
+    {
+      "id": 1829779360,
+      "raw": "LeftHipExtra\u0000\u0001Model",
+      "kind": "LimbNode",
+      "name": "LeftHipExtra::Model"
+    },
+    {
+      "id": 1829781552,
+      "raw": "LeftHip_Helper\u0000\u0001Model",
+      "kind": "Null",
+      "name": "LeftHip_Helper::Model"
+    },
+    {
+      "id": 1829783744,
+      "raw": "RightHip_Helper\u0000\u0001Model",
+      "kind": "Null",
+      "name": "RightHip_Helper::Model"
+    },
+    {
+      "id": 2017295168,
+      "raw": "Male_body\u0000\u0001Model",
+      "kind": "Mesh",
+      "name": "Male_body::Model"
+    }
+  ],
+  "node_attributes": [
+    {
+      "id": 1809325296,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809337968,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809332336,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809342192,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809332512,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809340432,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809338672,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809339376,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809335680,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809337264,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809336208,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809331456,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809338144,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809336384,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809337792,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809337440,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809332688,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809337088,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809338320,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809340080,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809341312,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809332864,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809338848,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809338496,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809340608,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809336032,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809339552,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809339904,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809341664,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809339024,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809333040,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809333216,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809333568,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809340256,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809333920,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809341136,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809339200,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809334624,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809340784,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809340960,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809331280,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809341488,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809342368,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809331632,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809336560,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809331808,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809335856,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809333392,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809334976,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809334096,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809334272,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809334448,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809334800,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809335152,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809335328,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809335504,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809349056,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809347120,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809349936,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809346240,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809342720,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809348176,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809350288,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809346064,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809344128,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809352400,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809346768,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809347296,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809346944,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809350816,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809351520,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809344304,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809346416,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809346592,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809352048,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809345888,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809344480,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809347472,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809347648,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809350640,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809348528,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809347824,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809342896,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809349232,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809348000,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809348880,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809350992,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809351168,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809344832,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809352928,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809348352,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809348704,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809351344,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809349408,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809349584,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809351696,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809349760,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809350112,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809350464,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809353104,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809351872,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809352224,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809353280,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809352576,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809343072,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809353456,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809352752,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809353632,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809342544,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809343248,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809343424,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809343952,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809343600,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809345712,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809343776,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809344656,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809345008,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809345184,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809345360,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809345536,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809353808,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809354336,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809353984,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809354160,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809354512,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809293968,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809295200,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809293616,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809289392,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809293440,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809293792,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809286576,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809286752,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809289216,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809286400,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809295024,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809294144,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809291856,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809293264,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809295376,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809295552,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809296608,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809293088,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809290272,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809291680,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809294320,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809297136,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809296784,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809295728,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809289568,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809290448,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1809294496,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "Null",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783161616,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783161040,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783162768,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783155280,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783162192,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783161808,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783153744,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783152784,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783158736,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783152976,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783161232,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783156432,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783160080,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783157584,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783157776,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783154896,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783155856,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783162384,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783159696,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783160848,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783153168,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783155472,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783153936,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783154320,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783161424,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783156240,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783157968,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783154128,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783164112,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783155088,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783162576,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783156624,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783154512,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783163728,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783153360,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783164304,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783158160,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783164496,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783158352,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783163920,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783154704,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783156816,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783157008,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783160656,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783157200,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783158544,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783158928,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783159120,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783159312,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783159504,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783159888,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783172176,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783169296,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783176400,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783176784,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783172944,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783175440,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783168912,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783169488,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783171984,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783173904,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783176592,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783175632,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783173136,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783169104,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783166992,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783168336,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783172368,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783175056,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783174480,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783165072,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783171216,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783165840,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783175248,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783166416,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783173328,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783168144,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783176976,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783167568,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783170256,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783175824,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783165264,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783173712,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783172560,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783176016,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783172752,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783174096,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783173520,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783174672,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783165456,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783174288,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783174864,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783176208,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783170448,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783171408,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783166032,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783177168,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783165648,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783171600,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783166800,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783169680,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783166224,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783166608,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783171792,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783169872,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783170064,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783167184,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783167376,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783167760,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783170640,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    },
+    {
+      "id": 1783167952,
+      "raw": "\u0000\u0001NodeAttribute",
+      "kind": "LimbNode",
+      "name": "::NodeAttribute"
+    }
+  ],
+  "model_kind_counts": {
+    "Null": 41,
+    "LimbNode": 111,
+    "Mesh": 1
+  }
+}

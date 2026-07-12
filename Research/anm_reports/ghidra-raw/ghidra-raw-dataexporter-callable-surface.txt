@@ -1,0 +1,766 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DataExporterCallableSurface.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:17:52 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DataExporterCallableSurface.java
+Size: 4693 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 14 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+DataExporterUsageResearch.java:121: error: incompatible types: ghidra.program.model.symbol.Symbol[] cannot be converted to ghidra.program.model.symbol.SymbolIterator
+        SymbolIterator it = symbols.getSymbols(address);
+                                              ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+TARGET_PROGRAM dataExporter_v141_x64_RetailDX11.dll
+TARGET_PATH /dataExporter_v141_x64_RetailDX11.dll
+============================================================
+EXPORT_NAME_STRING_REFS
+EXPORT_NAME_STRING_ADDR 180b4911f
+  XREF from=180b4904c function=<none> entry=<none>
+EXPORT_NAME_STRING_ADDR 180b49144
+  XREF from=180b49050 function=<none> entry=<none>
+EXPORT_NAME_STRING_ADDR 180b4916f
+  XREF from=180b49054 function=<none> entry=<none>
+============================================================
+FUNCTION_REQUEST 1800ab3f0
+FUNCTION FUN_1800ab3f0 entry=1800ab3f0
+
+QDialog * FUN_1800ab3f0(QDialog *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QDialog *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QDialog *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialog" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab431. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QDialog::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800ab5b0
+FUNCTION FUN_1800ab5b0 entry=1800ab5b0
+
+QStyledItemDelegate * FUN_1800ab5b0(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileCBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab5f1. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800ab620
+FUNCTION FUN_1800ab620 entry=1800ab620
+
+QStyledItemDelegate * FUN_1800ab620(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileChBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab661. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800ab710
+FUNCTION FUN_1800ab710 entry=1800ab710
+
+QStyledItemDelegate * FUN_1800ab710(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileDiffTgD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab751. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800abb40
+FUNCTION FUN_1800abb40 entry=1800abb40
+
+QStyledItemDelegate * FUN_1800abb40(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileFBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800abb81. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800abc40
+FUNCTION FUN_1800abc40 entry=1800abc40
+
+QDialog * FUN_1800abc40(QDialog *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QDialog *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QDialog *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"ExportDialog" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800abc81. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QDialog::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800af8c0
+FUNCTION FUN_1800af8c0 entry=1800af8c0
+
+undefined8
+FUN_1800af8c0(longlong param_1,longlong *param_2,undefined4 param_3,int param_4,longlong *param_5)
+
+{
+  short *psVar1;
+  char cVar2;
+  int iVar3;
+  char *pcVar4;
+  longlong lVar5;
+  undefined1 *puVar6;
+  undefined1 *puVar7;
+  char *pcVar8;
+  undefined *puVar9;
+  uint uVar10;
+  longlong lVar11;
+  uint uVar12;
+  QByteArray local_res8 [8];
+  
+  QString::toUtf8((QString *)(param_1 + 0x18));
+  pcVar4 = QByteArray::constData(local_res8);
+  uVar10 = 0;
+  pcVar8 = pcVar4;
+  if (pcVar4 == (char *)0x0) {
+    if (*param_5 != 0) {
+      psVar1 = (short *)(*param_5 + -2);
+      *psVar1 = *psVar1 + -1;
+      if (*psVar1 == 0) {
+        FUN_1802242d0(*param_5 + -6);
+      }
+      *param_5 = 0;
+    }
+  }
+  else {
+    do {
+      cVar2 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar2 != '\0');
+    FUN_1800b2160(param_5,pcVar4,((int)pcVar8 - (int)pcVar4) + -1);
+  }
+  QByteArray::~QByteArray(local_res8);
+  lVar5 = (**(code **)(*param_2 + 0x18))(param_2,param_3);
+  if (*param_5 != 0) {
+    uVar10 = (uint)*(ushort *)(*param_5 + -4);
+  }
+  lVar11 = (ulonglong)uVar10 - 1;
+  if (-1 < lVar11) {
+    do {
+      uVar12 = uVar10 - 1;
+      puVar7 = &DAT_180bdb0d8;
+      if ((undefined1 *)*param_5 != (undefined1 *)0x0) {
+        puVar7 = (undefined1 *)*param_5;
+      }
+      iVar3 = isspace((int)(char)puVar7[lVar11]);
+      if (iVar3 == 0) {
+        puVar7 = (undefined1 *)*param_5;
+        puVar6 = &DAT_180bdb0d8;
+        if (puVar7 != (undefined1 *)0x0) {
+          puVar6 = puVar7;
+        }
+        if (puVar6[uVar12] != '\\') {
+          puVar6 = &DAT_180bdb0d8;
+          if (puVar7 != (undefined1 *)0x0) {
+            puVar6 = puVar7;
+          }
+          if (puVar6[uVar12] != '/') {
+            FUN_1800ad700(param_5,&DAT_1808f9eb0,0xffffffff);
+            goto LAB_1800af9d8;
+          }
+        }
+        FUN_1800ada80(param_5,uVar10 + 1,0,1);
+        *(undefined1 *)((ulonglong)uVar10 + *param_5) = 0;
+        *(short *)(*param_5 + -4) = (short)uVar10;
+        goto LAB_1800af9d8;
+      }
+      lVar11 = lVar11 + -1;
+      uVar10 = uVar12;
+    } while (-1 < lVar11);
+  }
+  pcVar8 = "/";
+  do {
+    cVar2 = *pcVar8;
+    pcVar8 = pcVar8 + 1;
+  } while (cVar2 != '\0');
+  FUN_1800b2160(param_5,&DAT_1808f9eb0,(int)pcVar8 + 0x7f70614f);
+LAB_1800af9d8:
+  FUN_1800ad700(param_5,*(undefined8 *)(lVar5 + 0x10),0xffffffff);
+  if (param_4 == 0) {
+    puVar9 = &DAT_180900a98;
+  }
+  else {
+    if (param_4 != 1) {
+      return 1;
+    }
+    puVar9 = &DAT_180900aa0;
+  }
+  FUN_1800ad700(param_5,puVar9,0xffffffff);
+  return 1;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800b3d20
+FUNCTION FUN_1800b3d20 entry=1800b3d20
+
+void FUN_1800b3d20(longlong param_1,QWidget *param_2)
+
+{
+  QString *pQVar1;
+  QString local_res8 [8];
+  
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","TXA Export Dialog",0);
+  QWidget::setWindowTitle(param_2,pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export Select:",0);
+  QLabel::setText(*(QLabel **)(param_1 + 0x20),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","All Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x28),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","None",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x30),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Current",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x38),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x48),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show All",0)
+  ;
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x50),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Validate All",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x58),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","ssssssssssssss",0);
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0x78),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Selects base path for all exports / profiles",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x98),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Creates export profile based on selection (pelvis + EntityPos)",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Create Profile",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Reloads all profiles and scripts ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Reload Profiles",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plot takes when exporting ?",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot Takes",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plots all takes for export",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Copies values from current line (bold number) ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Copy Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Pastes path and profile settings to current(bold) line",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Paste Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Saves edited properties in source file "
+                      ,0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Save Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Export all valid and selected takes",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Cancel",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x108),pQVar1);
+  QString::~QString(local_res8);
+  return;
+}
+
+
+============================================================
+FUNCTION_REQUEST 1800b76e0
+FUNCTION FUN_1800b76e0 entry=1800b76e0
+
+void FUN_1800b76e0(undefined8 *param_1,QObject *param_2)
+
+{
+  int iVar1;
+  longlong *plVar2;
+  QHBoxLayout *pQVar3;
+  QComboBox *this;
+  uint *puVar4;
+  QLineEdit *this_00;
+  QSize *pQVar5;
+  QString *pQVar6;
+  uint local_res8 [2];
+  uint local_res18 [2];
+  QHBoxLayout *local_res20;
+  QBrush local_68 [8];
+  QBrush local_60 [8];
+  undefined8 local_58;
+  QPalette local_50 [16];
+  QColor local_40 [16];
+  QColor local_30 [24];
+  
+  local_58 = 0xfffffffffffffffe;
+  plVar2 = (longlong *)QObject::objectName(param_2);
+  iVar1 = *(int *)(*plVar2 + 4);
+  QString::~QString((QString *)&local_res20);
+  if (iVar1 == 0) {
+    local_res20 = (QHBoxLayout *)&DAT_180900870;
+    QObject::setObjectName(param_2,(QString *)&local_res20);
+    QString::~QString((QString *)&local_res20);
+  }
+  QWidget::resize((QWidget *)param_2,299,0x6d);
+  QWidget::setWindowOpacity((QWidget *)param_2,DAT_180a3d278);
+  QWidget::setAutoFillBackground((QWidget *)param_2,false);
+  local_res20 = (QHBoxLayout *)&DAT_1809008b8;
+  QWidget::setStyleSheet((QWidget *)param_2,(QString *)&local_res20);
+  QString::~QString((QString *)&local_res20);
+  pQVar3 = operator_new(0x20);
+  local_res20 = pQVar3;
+  if (pQVar3 == (QHBoxLayout *)0x0) {
+    pQVar3 = (QHBoxLayout *)0x0;
+  }
+  else {
+    QHBoxLayout::QHBoxLayout(pQVar3,(QWidget *)param_2);
+    *(undefined ***)pQVar3 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar3 + 0x10) = QHBoxLayout::vftable;
+  }
+  *param_1 = pQVar3;
+  QBoxLayout::setSpacing((QBoxLayout *)pQVar3,0);
+  local_res20 = (QHBoxLayout *)&DAT_1809008e0;
+  QObject::setObjectName((QObject *)*param_1,(QString *)&local_res20);
+  QString::~QString((QString *)&local_res20);
+  QLayout::setContentsMargins((QLayout *)*param_1,2,0,0,0);
+  this = operator_new(0x30);
+  if (this == (QComboBox *)0x0) {
+    this = (QComboBox *)0x0;
+  }
+  else {
+    local_res20 = (QHBoxLayout *)this;
+    QComboBox::QComboBox(this,(QWidget *)param_2);
+    *(undefined ***)this = QComboBox::vftable;
+    *(undefined ***)(this + 0x10) = QComboBox::vftable;
+  }
+  param_1[1] = this;
+  local_res20 = (QHBoxLayout *)&DAT_180900920;
+  QObject::setObjectName((QObject *)this,(QString *)&local_res20);
+  QString::~QString((QString *)&local_res20);
+  QSizePolicy::QSizePolicy((QSizePolicy *)local_res8,7,0,1);
+  QSizePolicy::setHorizontalStretch((QSizePolicy *)local_res8,0);
+  QSizePolicy::setVerticalStretch((QSizePolicy *)local_res8,0);
+  puVar4 = (uint *)QWidget::sizePolicy((QWidget *)param_1[1]);
+  local_res8[0] = local_res8[0] ^ (*puVar4 ^ local_res8[0]) & 0x20000000;
+  QWidget::setSizePolicy((QWidget *)param_1[1]);
+  QBoxLayout::addWidget((QBoxLayout *)*param_1,param_1[1],0,0);
+  this_00 = operator_new(0x30);
+  if (this_00 == (QLineEdit *)0x0) {
+    this_00 = (QLineEdit *)0x0;
+  }
+  else {
+    local_res20 = (QHBoxLayout *)this_00;
+    QLineEdit::QLineEdit(this_00,(QWidget *)param_2);
+    *(undefined ***)this_00 = QLineEdit::vftable;
+    *(undefined ***)(this_00 + 0x10) = QLineEdit::vftable;
+  }
+  param_1[2] = this_00;
+  local_res20 = (QHBoxLayout *)&DAT_180900948;
+  QObject::setObjectName((QObject *)this_00,(QString *)&local_res20);
+  QString::~QString((QString *)&local_res20);
+  QSizePolicy::QSizePolicy((QSizePolicy *)local_res18,0,0,1);
+  QSizePolicy::setHorizontalStretch((QSizePolicy *)local_res18,0);
+  QSizePolicy::setVerticalStretch((QSizePolicy *)local_res18,0);
+  puVar4 = (uint *)QWidget::sizePolicy((QWidget *)param_1[2]);
+  local_res18[0] = local_res18[0] ^ (*puVar4 ^ local_res18[0]) & 0x20000000;
+  QWidget::setSizePolicy((QWidget *)param_1[2]);
+  pQVar5 = (QSize *)QSize::QSize((QSize *)&local_res20,0x28,0xffffff);
+  QWidget::setMaximumSize((QWidget *)param_1[2],pQVar5);
+  pQVar5 = (QSize *)QSize::QSize((QSize *)&local_res20,0,0);
+  QWidget::setBaseSize((QWidget *)param_1[2],pQVar5);
+  QPalette::QPalette(local_50);
+  QColor::setRgb(local_40,0xff,0,4,0xff);
+  QBrush::QBrush(local_68,local_40,1);
+  QBrush::setStyle(local_68,1);
+  QPalette::setBrush(local_50,0,6,local_68);
+  QPalette::setBrush(local_50,2,6,local_68);
+  QColor::setRgb(local_30,0x78,0x78,0x78,0xff);
+  QBrush::QBrush(local_60,local_30,1);
+  QBrush::setStyle(local_60,1);
+  QPalette::setBrush(local_50,1,6,local_60);
+  QWidget::setPalette((QWidget *)param_1[2],local_50);
+  QBoxLayout::addWidget((QBoxLayout *)*param_1,param_1[2],0);
+  pQVar6 = (QString *)
+           QCoreApplication::translate((char *)&local_res20,"TXAExportDialog_DiffTg","Form",0);
+  QWidget::setWindowTitle((QWidget *)param_2,pQVar6);
+  QString::~QString((QString *)&local_res20);
+  pQVar6 = (QString *)QString::QString((QString *)&local_res20);
+  QLineEdit::setText((QLineEdit *)param_1[2],pQVar6);
+  QString::~QString((QString *)&local_res20);
+  QMetaObject::connectSlotsByName(param_2);
+  QBrush::~QBrush(local_60);
+  QBrush::~QBrush(local_68);
+  QPalette::~QPalette(local_50);
+  return;
+}
+
+
+============================================================
+SCRIPT COMPLETED DataExporterCallableSurface
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

@@ -1,0 +1,1200 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_FindTrack64.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 17:23:40 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_FindTrack64.java
+Size: 2176 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 14 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+SCRIPT: Find instructions likely touching ANM runtime track +0x64 flag byte
+PROGRAM: DayZDiag_x64.exe
+140001391 | 140001370 | FUN_140001370 | MOV ECX,0x64
+1400015b9 | 1400015a0 | FUN_1400015a0 | MOV ECX,0x64
+14001c06d | 14001be60 | FUN_14001be60 | MOV dword ptr [RSP + 0x64],0x0
+14001c077 | 14001be60 | FUN_14001be60 | MOV dword ptr [RSP + 0x64],0x1
+14001c07f | 14001be60 | FUN_14001be60 | MOV EAX,dword ptr [RSP + 0x64]
+14001cf37 | 14001ce90 | FUN_14001ce90 | MOV dword ptr [RSP + 0x64],EAX
+140028273 | 140028060 | FUN_140028060 | MOV dword ptr [RDX + 0x640],EAX
+140028279 | 140028060 | FUN_140028060 | MOVUPS xmmword ptr [RDX + 0x648],XMM0
+14005ea9e | 14005ea90 | FUN_14005ea90 | CMP dword ptr [RAX + 0x64],ECX
+14005eae7 | 14005ea90 | FUN_14005ea90 | CMP ECX,dword ptr [R8 + 0x64]
+1400642a1 | 140064210 | FUN_140064210 | CMP dword ptr [R12 + 0x64],EAX
+140064457 | 140064210 | FUN_140064210 | CMP EAX,dword ptr [R12 + 0x64]
+140064eeb | 140064e60 | FUN_140064e60 | MOV EAX,dword ptr [RBX + 0x64]
+140064f21 | 140064e60 | FUN_140064e60 | MOV EAX,dword ptr [RBX + 0x64]
+140065a89 | 140065a80 | FUN_140065a80 | MOV EAX,dword ptr [RCX + 0x64]
+140066491 | 1400663e0 | FUN_1400663e0 | MOV R8D,dword ptr [R10 + 0x64]
+140066506 | 1400663e0 | FUN_1400663e0 | MOV dword ptr [R10 + 0x64],EAX
+140069b8b | 140069b10 | FUN_140069b10 | CMP EAX,dword ptr [R14 + 0x64]
+140071f5c | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+140071fbc | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+14007201c | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+14007207c | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+1400720dc | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+14007213c | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+14007219c | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+1400721fc | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+14007225c | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+1400722bd | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+14007231e | 140071c90 | FUN_140071c90 | MOV EAX,dword ptr [RSP + 0x64]
+1400734c8 | 1400734a0 | FUN_1400734a0 | MOV R14D,dword ptr [RCX + 0x64]
+140073557 | 1400734a0 | FUN_1400734a0 | MOVZX EAX,byte ptr [RCX + 0x64]
+14007355e | 1400734a0 | FUN_1400734a0 | MOV dword ptr [RCX + 0x64],R14D
+140073703 | 1400736c0 | FUN_1400736c0 | MOV EDI,dword ptr [RAX + 0x64]
+1400759af | 140075990 | FUN_140075990 | MOV dword ptr [RCX + 0x64],0xa54ff53a
+14008c2c3 | 14008bfd0 | FUN_14008bfd0 | MOV dword ptr [RBX + 0x64],0x1
+14008c2d0 | 14008bfd0 | FUN_14008bfd0 | MOV ECX,dword ptr [RBX + 0x64]
+14008c2d7 | 14008bfd0 | FUN_14008bfd0 | MOV dword ptr [RBX + 0x64],ECX
+14008c69f | 14008bfd0 | FUN_14008bfd0 | CMP dword ptr [RSI + 0x64],R12D
+14009021c | 1400900a0 | FUN_1400900a0 | MOV EAX,dword ptr [RSP + 0x64]
+14009df1d | 14009df00 | FUN_14009df00 | MOV EAX,dword ptr [RCX + 0x64]
+14009df8c | 14009df00 | FUN_14009df00 | MOV EAX,dword ptr [RDI + 0x64]
+14009dfc2 | 14009df00 | FUN_14009df00 | MOV EAX,dword ptr [RDI + 0x64]
+14009e24f | 14009e1a0 | FUN_14009e1a0 | MOV EAX,dword ptr [R15 + 0x64]
+14009f241 | 14009f100 | FUN_14009f100 | MOV byte ptr [RSP + 0x64],CL
+1400a5e46 | 1400a5e30 | FUN_1400a5e30 | CMP dword ptr [RCX + 0x64],EBP
+1400a5e8f | 1400a5e30 | FUN_1400a5e30 | CMP EDI,dword ptr [RSI + 0x64]
+1400a6342 | 1400a6330 | FUN_1400a6330 | MOV EAX,dword ptr [RCX + 0x64]
+1400a63f5 | 1400a6330 | FUN_1400a6330 | CMP R14D,dword ptr [RBX + 0x64]
+1400a646e | 1400a6330 | FUN_1400a6330 | MOV EAX,dword ptr [RBX + 0x64]
+1400a651c | 1400a6330 | FUN_1400a6330 | MOV EAX,dword ptr [RBX + 0x64]
+1400a6560 | 1400a6330 | FUN_1400a6330 | MOV R8D,dword ptr [RBX + 0x64]
+1400a657b | 1400a6330 | FUN_1400a6330 | MOV EAX,dword ptr [RBX + 0x64]
+1400a6b6e | 1400a6b20 | FUN_1400a6b20 | CMP dword ptr [RBX + 0x64],EDI
+1400a6bde | 1400a6b20 | FUN_1400a6b20 | CMP EDI,dword ptr [RBX + 0x64]
+1400a70eb | 1400a70c0 | FUN_1400a70c0 | CMP dword ptr [RCX + 0x64],EBX
+1400a7139 | 1400a70c0 | FUN_1400a70c0 | CMP EBX,dword ptr [RBP + 0x64]
+1400a7bba | 1400a7ba0 | FUN_1400a7ba0 | CMP dword ptr [RCX + 0x64],EBX
+1400a7c03 | 1400a7ba0 | FUN_1400a7ba0 | MOV EAX,dword ptr [RSI + 0x64]
+1400a7c4b | 1400a7ba0 | FUN_1400a7ba0 | CMP EBX,dword ptr [RSI + 0x64]
+1400a7d4e | 1400a7c70 | FUN_1400a7c70 | CMP dword ptr [RDI + 0x64],EBX
+1400a7d8f | 1400a7c70 | FUN_1400a7c70 | CMP EBX,dword ptr [RDI + 0x64]
+1400a8011 | 1400a7f30 | FUN_1400a7f30 | CMP dword ptr [RSI + 0x64],0x0
+1400a8062 | 1400a7f30 | FUN_1400a7f30 | CMP EBX,dword ptr [RSI + 0x64]
+1400a813c | 1400a7f30 | FUN_1400a7f30 | CMP dword ptr [RSI + 0x64],0x0
+1400a9753 | 1400a9480 | FUN_1400a9480 | MOV dword ptr [RCX + 0x648],0x8000ffff
+1400a975d | 1400a9480 | FUN_1400a9480 | MOV word ptr [RCX + 0x64c],SI
+1400aa856 | 1400aa560 | FUN_1400aa560 | MOVSS dword ptr [RDI + 0x64],XMM6
+1400ab822 | 1400ab7d0 | FUN_1400ab7d0 | MOVSS XMM2,dword ptr [RDX + 0x64]
+1400acb8c | 1400acab0 | FUN_1400acab0 | MOV dword ptr [R14 + 0x64],R10D
+1400af7b0 | 1400af4d0 | FUN_1400af4d0 | MOVSS dword ptr [RSP + 0x64],XMM0
+1400af93d | 1400af4d0 | FUN_1400af4d0 | MOVSS dword ptr [RSP + 0x64],XMM4
+1400afb95 | 1400af4d0 | FUN_1400af4d0 | MOVSS dword ptr [RBP + 0x64],XMM0
+1400b2308 | 1400b1e30 | FUN_1400b1e30 | MOVSS XMM7,dword ptr [RSP + 0x64]
+1400b2a97 | 1400b2980 | FUN_1400b2980 | MOVSS dword ptr [RSP + 0x64],XMM0
+1400b2b52 | 1400b2980 | FUN_1400b2980 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400b2d02 | 1400b2ce0 | FUN_1400b2ce0 | MOV EDX,dword ptr [RCX + 0x64]
+1400b3030 | 1400b2ff0 | FUN_1400b2ff0 | MOV dword ptr [RCX + 0x64],0xff7fffff
+1400b31c1 | 1400b2ff0 | FUN_1400b2ff0 | MOVSS XMM0,dword ptr [RBX + 0x64]
+1400b31e1 | 1400b2ff0 | FUN_1400b2ff0 | MOVSS dword ptr [RBX + 0x64],XMM0
+1400b324b | 1400b2ff0 | FUN_1400b2ff0 | MOVSS dword ptr [RBX + 0x64],XMM2
+1400b3559 | 1400b2ff0 | FUN_1400b2ff0 | MOVSS XMM0,dword ptr [RBX + 0x64]
+1400b3576 | 1400b2ff0 | FUN_1400b2ff0 | MOVSS dword ptr [RBX + 0x64],XMM0
+1400b3592 | 1400b2ff0 | FUN_1400b2ff0 | MOVSS XMM1,dword ptr [RBX + 0x64]
+1400b35b5 | 1400b2ff0 | FUN_1400b2ff0 | MOVSS dword ptr [RBX + 0x64],XMM1
+1400b3888 | 1400b3830 | FUN_1400b3830 | MOV dword ptr [RCX + 0x64],0x40000000
+1400b4f97 | 1400b4c20 | FUN_1400b4c20 | MOV dword ptr [RSP + 0x64],0x6600ff00
+1400b702b | 1400b6e60 | FUN_1400b6e60 | MOV dword ptr [RSP + 0x64],EAX
+1400b7262 | 1400b7200 | FUN_1400b7200 | MOV EAX,dword ptr [R8 + 0x64]
+1400b773d | 1400b76f0 | FUN_1400b76f0 | MOV EAX,dword ptr [RDI + 0x64]
+1400b7b37 | 1400b7840 | FUN_1400b7840 | MOVSS dword ptr [RSP + RAX*0x4 + 0x64],XMM6
+1400b8003 | 1400b7d00 | FUN_1400b7d00 | MOVSS dword ptr [RSP + RAX*0x4 + 0x64],XMM7
+1400b87c5 | 1400b8550 | FUN_1400b8550 | MOVSS dword ptr [R10 + RDX*0x4 + 0x64],XMM1
+1400b9a0e | 1400b9960 | FUN_1400b9960 | MOVSS dword ptr [RSP + 0x64],XMM0
+1400b9b22 | 1400b9960 | FUN_1400b9960 | MOVSS dword ptr [RBP + 0x64],XMM4
+1400ba40e | 1400ba0d0 | FUN_1400ba0d0 | MOV dword ptr [RBP + 0x64],ECX
+1400bb890 | 1400bb600 | FUN_1400bb600 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400bc55f | 1400bc220 | FUN_1400bc220 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400bc5d8 | 1400bc220 | FUN_1400bc220 | MOVSS XMM9,dword ptr [RSP + 0x64]
+1400bc6d3 | 1400bc220 | FUN_1400bc220 | MOVSS dword ptr [RSP + 0x64],XMM9
+1400bc700 | 1400bc220 | FUN_1400bc220 | MOVSS XMM3,dword ptr [RSP + 0x64]
+1400bc742 | 1400bc220 | FUN_1400bc220 | MOVSS XMM3,dword ptr [RSP + 0x64]
+1400bd242 | 1400bcf60 | FUN_1400bcf60 | MOVSS dword ptr [RSP + 0x64],XMM2
+1400bd261 | 1400bcf60 | FUN_1400bcf60 | MOVSS XMM3,dword ptr [RSP + 0x64]
+1400bd2aa | 1400bcf60 | FUN_1400bcf60 | MOVSS XMM3,dword ptr [RSP + 0x64]
+1400bd322 | 1400bcf60 | FUN_1400bcf60 | MOVSS XMM3,dword ptr [RSP + 0x64]
+1400be613 | 1400be440 | FUN_1400be440 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400c1e40 | 1400c1db0 | FUN_1400c1db0 | MOV byte ptr [RBX + 0x64],AL
+1400c26ea | 1400c2690 | FUN_1400c2690 | MOVZX EAX,byte ptr [RCX + 0x64]
+1400c2799 | 1400c2690 | FUN_1400c2690 | MOV R8D,dword ptr [RBX + 0x64]
+1400c27c5 | 1400c2690 | FUN_1400c2690 | MOV dword ptr [RBX + 0x64],0x3
+1400c2b29 | 1400c2690 | FUN_1400c2690 | MOV word ptr [RSP + 0x64],AX
+1400c4bc5 | 1400c4930 | FUN_1400c4930 | MOV RDX,qword ptr [RAX + 0x648]
+1400c556a | 1400c5120 | FUN_1400c5120 | CMP dword ptr [RSP + 0x64],0x0
+1400c55b3 | 1400c5120 | FUN_1400c5120 | CMP EDI,dword ptr [RSP + 0x64]
+1400cbc46 | 1400cb950 | FUN_1400cb950 | MOVSS XMM0,dword ptr [RSP + 0x64]
+1400cbca3 | 1400cb950 | FUN_1400cb950 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400cbfde | 1400cbe00 | FUN_1400cbe00 | MOV dword ptr [RSP + 0x64],0xffffffff
+1400ccadb | 1400cbe00 | FUN_1400cbe00 | MOV ECX,0x64
+1400ccee6 | 1400cbe00 | FUN_1400cbe00 | MOVSS dword ptr [RBP + 0x64],XMM1
+1400cda22 | 1400cd3a0 | FUN_1400cd3a0 | MOVSS dword ptr [RSP + 0x64],XMM3
+1400cdbf7 | 1400cd3a0 | FUN_1400cd3a0 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400d0f4b | 1400d0da0 | FUN_1400d0da0 | MOVZX EAX,byte ptr [RDX + RCX*0x1 + 0x64]
+1400d0f50 | 1400d0da0 | FUN_1400d0da0 | MOV byte ptr [RCX + 0x64],AL
+1400d2541 | 1400d2140 | FUN_1400d2140 | MOVZX EAX,byte ptr [RDX + 0x64]
+1400d3e9f | 1400d3e40 | FUN_1400d3e40 | TEST byte ptr [RCX + 0x64],0x10
+1400d4017 | 1400d3e40 | FUN_1400d3e40 | TEST byte ptr [RDI + 0x64],0x20
+1400d42a2 | 1400d4250 | FUN_1400d4250 | TEST byte ptr [RCX + 0x64],0x10
+1400d4366 | 1400d4250 | FUN_1400d4250 | TEST byte ptr [RDI + 0x64],0x20
+1400d498a | 1400d4520 | FUN_1400d4520 | MOV byte ptr [RDI + RCX*0x1 + 0x64],AL
+1400d4b47 | 1400d4520 | FUN_1400d4520 | MOV byte ptr [RBX + RCX*0x1 + 0x64],AL
+1400d4bfc | 1400d4520 | FUN_1400d4520 | MOV byte ptr [RBX + RAX*0x1 + 0x64],0x0
+1400d4d79 | 1400d4520 | FUN_1400d4520 | MOVZX R9D,byte ptr [RBX + 0x64]
+1400d4d97 | 1400d4520 | FUN_1400d4520 | MOVZX R9D,byte ptr [RBX + 0x64]
+1400d4de6 | 1400d4520 | FUN_1400d4520 | MOVZX R9D,byte ptr [RBX + 0x64]
+1400d7e13 | 1400d7d20 | FUN_1400d7d20 | MOV EAX,dword ptr [RBP + 0x64]
+1400dd3ba | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RCX*0x8 + 0x64],EAX
+1400dd4c6 | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RCX*0x8 + 0x64],EAX
+1400dd52d | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RCX*0x8 + 0x64],EAX
+1400dd596 | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RCX*0x8 + 0x64],EAX
+1400dd5ee | 1400dd250 | FUN_1400dd250 | MOV EAX,dword ptr [RDX + 0x64]
+1400dd5ff | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RCX*0x8 + 0x64],EAX
+1400dd6a4 | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RCX*0x8 + 0x64],EAX
+1400dd72f | 1400dd250 | FUN_1400dd250 | MOV dword ptr [RBX + RSI*0x8 + 0x64],EAX
+1400dda22 | 1400dd250 | FUN_1400dd250 | MOVSS dword ptr [RBX + RSI*0x8 + 0x64],XMM0
+1400de459 | 1400de220 | FUN_1400de220 | MOVSS dword ptr [RCX + RDX*0x8 + 0x64],XMM0
+1400de521 | 1400de220 | FUN_1400de220 | MOVSS XMM3,dword ptr [RSP + 0x64]
+1400defb9 | 1400dec30 | FUN_1400dec30 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400df010 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400df036 | 1400dec30 | FUN_1400dec30 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400df131 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RDI + 0x64]
+1400df1d8 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400df491 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400df532 | 1400dec30 | FUN_1400dec30 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400df811 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400df858 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400df89c | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400df9a0 | 1400dec30 | FUN_1400dec30 | MOVSS XMM14,dword ptr [RSP + 0x64]
+1400df9ff | 1400dec30 | FUN_1400dec30 | MOVSS dword ptr [RSP + 0x64],XMM14
+1400dfb24 | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400dfb4c | 1400dec30 | FUN_1400dec30 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400dfc5d | 1400dec30 | FUN_1400dec30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400dfd07 | 1400dec30 | FUN_1400dec30 | MOVSS dword ptr [RBP + 0x64],XMM1
+1400dfda0 | 1400dec30 | FUN_1400dec30 | MOVSS XMM7,dword ptr [RDI + 0x64]
+1400e0f7c | 1400e0330 | FUN_1400e0330 | MOVZX EAX,byte ptr [RBX + 0x64]
+1400e104b | 1400e0330 | FUN_1400e0330 | MOVZX EAX,byte ptr [RBX + 0x64]
+1400e1168 | 1400e0330 | FUN_1400e0330 | MOVZX EAX,byte ptr [RBX + 0x64]
+1400e1239 | 1400e0330 | FUN_1400e0330 | MOVZX EAX,byte ptr [RBX + 0x64]
+1400e1448 | 1400e1430 | FUN_1400e1430 | MOV EAX,dword ptr [RCX + 0x64]
+1400e147e | 1400e1430 | FUN_1400e1430 | MOV EDX,dword ptr [RBX + 0x64]
+1400e149c | 1400e1430 | FUN_1400e1430 | MOV EAX,dword ptr [RBX + 0x64]
+1400e1940 | 1400e17c0 | FUN_1400e17c0 | MOV qword ptr [RDI + 0x64],R12
+1400e1b19 | 1400e1a30 | FUN_1400e1a30 | MOVSS XMM1,dword ptr [RSP + 0x64]
+1400e2423 | 1400e1be0 | FUN_1400e1be0 | MOVSS dword ptr [RSP + 0x64],XMM2
+1400e2651 | 1400e1be0 | FUN_1400e1be0 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400e27d9 | 1400e1be0 | FUN_1400e1be0 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400e2a61 | 1400e1be0 | FUN_1400e1be0 | MOVSS dword ptr [RSP + 0x64],XMM1
+1400e2aaf | 1400e1be0 | FUN_1400e1be0 | MOVSS XMM9,dword ptr [RDI + 0x64]
+1400e2b6c | 1400e1be0 | FUN_1400e1be0 | MOVSS dword ptr [RDI + 0x64],XMM3
+1400e2fc2 | 1400e1be0 | FUN_1400e1be0 | MOVSS XMM5,dword ptr [RDI + 0x64]
+1400e30d0 | 1400e1be0 | FUN_1400e1be0 | MOV dword ptr [RDI + 0x64],ECX
+1400e3b2a | 1400e3ad0 | FUN_1400e3ad0 | MOV dword ptr [RBX + 0x64],ESI
+1400e5ec0 | 1400e5e30 | FUN_1400e5e30 | MOV dword ptr [RSP + 0x64],0x3f800000
+1400e6035 | 1400e5e30 | FUN_1400e5e30 | MOV qword ptr [RBP + 0x64],-0x1
+1400eb25e | 1400eb1e0 | FUN_1400eb1e0 | MOV EAX,dword ptr [RDX + 0x64]
+1400eb261 | 1400eb1e0 | FUN_1400eb1e0 | MOV dword ptr [RCX + 0x64],EAX
+1400eb7cf | 1400eb790 | FUN_1400eb790 | MOV EAX,dword ptr [RCX + 0x64]
+1400eb7d6 | 1400eb790 | FUN_1400eb790 | MOVZX EBP,word ptr [RCX + 0x64]
+1400eb809 | 1400eb790 | FUN_1400eb790 | MOV EAX,dword ptr [RSI + 0x64]
+1400eb8be | 1400eb890 | FUN_1400eb890 | MOV R8D,dword ptr [RBX + 0x64]
+1400eca7f | 1400ebc60 | FUN_1400ebc60 | MOV EBX,dword ptr [R13 + 0x64]
+1400ecc8a | 1400ebc60 | FUN_1400ebc60 | CMP dword ptr [R13 + 0x64],0x0
+1400ecfc4 | 1400ebc60 | FUN_1400ebc60 | CMP R14D,dword ptr [R13 + 0x64]
+1400ed190 | 1400ed180 | FUN_1400ed180 | MOV EBP,dword ptr [RCX + 0x64]
+1400ed1eb | 1400ed180 | FUN_1400ed180 | MOV dword ptr [RDI + 0x64],R14D
+1400ed25a | 1400ed250 | FUN_1400ed250 | MOV EDI,dword ptr [RCX + 0x64]
+1400ed298 | 1400ed250 | FUN_1400ed250 | MOV EAX,dword ptr [RBX + 0x64]
+1400ed2a8 | 1400ed250 | FUN_1400ed250 | MOV dword ptr [RBX + 0x64],EAX
+1400ed2d9 | 1400ed250 | FUN_1400ed250 | MOV EDI,dword ptr [RBX + 0x64]
+1400ef3f6 | 1400ef3d0 | FUN_1400ef3d0 | MOVZX EDX,word ptr [RCX + 0x64]
+1400ef405 | 1400ef3d0 | FUN_1400ef3d0 | CMP dword ptr [RDI + 0x64],R14D
+1400ef50f | 1400ef3d0 | FUN_1400ef3d0 | CMP ESI,dword ptr [RDI + 0x64]
+1400f0039 | 1400f0030 | FUN_1400f0030 | MOVZX EAX,word ptr [RCX + 0x64]
+1400f0057 | 1400f0030 | FUN_1400f0030 | CMP dword ptr [RBP + 0x64],EBX
+1400f00bc | 1400f0030 | FUN_1400f0030 | CMP EBX,dword ptr [RBP + 0x64]
+1400f1a55 | 1400f1a40 | FUN_1400f1a40 | MOV dword ptr [RCX + 0x64],0xffffffff
+1400f1fa6 | 1400f1f80 | FUN_1400f1f80 | MOV dword ptr [RCX + 0x64],EDI
+1400f1ff7 | 1400f1f80 | FUN_1400f1f80 | MOV dword ptr [RBX + 0x64],EDI
+1400f2f58 | 1400f2810 | FUN_1400f2810 | CMP byte ptr [RAX],0x64
+140101928 | 1401017e0 | FUN_1401017e0 | MOV EBP,dword ptr [RSI + 0x64]
+1401052a7 | 140105280 | FUN_140105280 | MOV EBP,dword ptr [RCX + 0x64]
+140105731 | 140105500 | FUN_140105500 | MOV EAX,dword ptr [RBP + 0x64]
+14010576c | 140105500 | FUN_140105500 | MOV dword ptr [RBP + 0x64],R14D
+1401057a7 | 140105500 | FUN_140105500 | MOV ECX,dword ptr [RBP + 0x64]
+14010582f | 140105500 | FUN_140105500 | MOV EAX,dword ptr [RBP + 0x64]
+140105865 | 140105500 | FUN_140105500 | MOV EAX,dword ptr [RBP + 0x64]
+1401058e3 | 140105500 | FUN_140105500 | MOV EAX,dword ptr [RBP + 0x64]
+1401058f4 | 140105500 | FUN_140105500 | MOV dword ptr [RBP + 0x64],EAX
+140105ece | 140105e40 | FUN_140105e40 | MOV R14D,dword ptr [RBX + 0x64]
+140106210 | 140106150 | FUN_140106150 | MOV EDX,dword ptr [RDI + 0x64]
+14010621c | 140106150 | FUN_140106150 | CMP dword ptr [RDI + 0x64],ESI
+14010626c | 140106150 | FUN_140106150 | CMP ESI,dword ptr [RDI + 0x64]
+1401067fb | 140106730 | FUN_140106730 | CMP dword ptr [RBP + 0x64],R13D
+14010755a | 140107510 | FUN_140107510 | MOV dword ptr [RSI + 0x64],EBX
+14010765c | 140107510 | FUN_140107510 | MOV dword ptr [RSI + 0x64],EBX
+140107bd5 | 140107b90 | FUN_140107b90 | MOV dword ptr [RBX + 0x64],0x7f7fffff
+140109d2f | 140109d20 | FUN_140109d20 | MOV EAX,dword ptr [RCX + 0x64]
+140109ea9 | 140109e60 | FUN_140109e60 | MOV R8D,dword ptr [RBX + 0x64]
+140109f9f | 140109f90 | FUN_140109f90 | MOV EAX,dword ptr [RCX + 0x64]
+140109ff3 | 140109f90 | FUN_140109f90 | MOV dword ptr [RBP + 0x64],EDI
+14010a010 | 140109f90 | FUN_140109f90 | MOV dword ptr [RCX + 0x64],EDI
+14010a7be | 14010a760 | FUN_14010a760 | MOV EDX,dword ptr [RDI + 0x64]
+14010c2dc | 14010c230 | FUN_14010c230 | MOV dword ptr [RBX + 0x64],R10D
+14010c2e6 | 14010c230 | FUN_14010c230 | MOV dword ptr [RBX + 0x64],0x0
+1401141f6 | 1401141f0 | FUN_1401141f0 | MOV R9D,0x64
+1401196a1 | 140119660 | FUN_140119660 | MOV dword ptr [RCX + 0x64],EAX
+140119ed0 | 140119d80 | FUN_140119d80 | MOVSS XMM1,dword ptr [RSP + 0x64]
+14011bacc | 14011ba60 | FUN_14011ba60 | MOV dword ptr [RSI + 0x64],EBP
+14011befb | 14011beb0 | FUN_14011beb0 | CMP dword ptr [RDX + 0x64],EBP
+14011befe | 14011beb0 | FUN_14011beb0 | MOV dword ptr [RDX + 0x64],EBP
+14011c1e5 | 14011c160 | FUN_14011c160 | MOV EDX,dword ptr [RDI + 0x64]
+14011c68e | 14011c650 | FUN_14011c650 | MOV EDX,dword ptr [RBX + 0x64]
+14011d5c5 | 14011d590 | FUN_14011d590 | MOV EDX,dword ptr [RDI + 0x64]
+14011e14a | 14011e090 | FUN_14011e090 | MOV dword ptr [RAX + 0x64],EBX
+14011eedf | 14011ed20 | FUN_14011ed20 | MOVSS dword ptr [RSP + 0x64],XMM6
+1401218a1 | 1401215f0 | FUN_1401215f0 | MOVSS dword ptr [R15 + 0x64],XMM0
+1401219c3 | 1401218f0 | FUN_1401218f0 | MOVSS dword ptr [RBX + 0x64],XMM0
+140121f88 | 1401219f0 | FUN_1401219f0 | MOV R8D,0x64
+140121fd1 | 1401219f0 | FUN_1401219f0 | MOV dword ptr [RBP + 0x354],0x64
+140122028 | 1401219f0 | FUN_1401219f0 | MOV dword ptr [RBP + 0x354],0x64
+14012206c | 1401219f0 | FUN_1401219f0 | MOV dword ptr [RBP + -0x74],0x64
+140122ddf | 140122da0 | FUN_140122da0 | MOVSS dword ptr [RBX + 0x64],XMM6
+140122e1b | 140122da0 | FUN_140122da0 | MOVSS dword ptr [RDX + 0x64],XMM6
+140124c92 | 140124b60 | FUN_140124b60 | MOVSS XMM0,dword ptr [RBP + 0x64]
+140124d23 | 140124b60 | FUN_140124b60 | MOVSS dword ptr [RSI + 0x64],XMM1
+140124eb7 | 140124d50 | FUN_140124d50 | MOVSS XMM0,dword ptr [R15 + 0x64]
+140124f52 | 140124d50 | FUN_140124d50 | MOVSS dword ptr [RSI + 0x64],XMM1
+1401261ca | 140126050 | FUN_140126050 | MOVSS XMM12,dword ptr [RAX + 0x64]
+140126370 | 140126050 | FUN_140126050 | MOVSS XMM0,dword ptr [RSP + 0x64]
+1401266ac | 140126050 | FUN_140126050 | MOVSS XMM0,dword ptr [RSP + 0x64]
+14012714e | 140126f60 | FUN_140126f60 | MOVSS dword ptr [RBX + 0x64],XMM1
+140127838 | 1401277e0 | FUN_1401277e0 | MOVSS XMM4,dword ptr [RSP + 0x64]
+140127bc6 | 1401277e0 | FUN_1401277e0 | MOVSS XMM11,dword ptr [RDI + 0x64]
+140127dd8 | 1401277e0 | FUN_1401277e0 | MOV dword ptr [RBP + 0x64],0x41fffe00
+140128eca | 140128ec0 | FUN_140128ec0 | CMP EDX,0x64
+140131eb8 | 140131d60 | FUN_140131d60 | MOV EAX,dword ptr [RCX + RDX*0x1 + 0x64]
+140131ebc | 140131d60 | FUN_140131d60 | MOV dword ptr [RCX + 0x64],EAX
+140132d0e | 140132ba0 | FUN_140132ba0 | MOV EAX,dword ptr [R10 + RCX*0x1 + 0x64]
+140132d13 | 140132ba0 | FUN_140132ba0 | MOV dword ptr [RCX + 0x64],EAX
+140142b28 | 140142ac0 | FUN_140142ac0 | MOV EAX,dword ptr [RSI + 0x64]
+140142b70 | 140142ac0 | FUN_140142ac0 | MOV dword ptr [RSI + 0x64],EBX
+140142eb4 | 140142e90 | FUN_140142e90 | CMP dword ptr [RCX + 0x64],R15D
+140142eff | 140142e90 | FUN_140142e90 | CMP EDI,dword ptr [RBX + 0x64]
+140142f04 | 140142e90 | FUN_140142e90 | MOV EAX,dword ptr [RBX + 0x64]
+140142f48 | 140142e90 | FUN_140142e90 | MOV R8D,dword ptr [RBX + 0x64]
+140142f63 | 140142e90 | FUN_140142e90 | MOV EAX,dword ptr [RBX + 0x64]
+140142f80 | 140142e90 | FUN_140142e90 | MOV EAX,dword ptr [RBX + 0x64]
+140142f8f | 140142e90 | FUN_140142e90 | MOV dword ptr [RBX + 0x64],EAX
+140143f98 | 140143f70 | FUN_140143f70 | CMP EBX,dword ptr [RCX + 0x64]
+140143ff1 | 140143f70 | FUN_140143f70 | CMP EBX,dword ptr [RSI + 0x64]
+140144465 | 140144440 | FUN_140144440 | CMP dword ptr [RCX + 0x64],EBX
+1401444ab | 140144440 | FUN_140144440 | CMP EBX,dword ptr [RDI + 0x64]
+1401497d7 | 1401497b0 | FUN_1401497b0 | MOV EAX,dword ptr [RDI + 0x64]
+14014987e | 140149860 | FUN_140149860 | MOV EDX,dword ptr [RBX + 0x64]
+140149e4c | 140149e30 | FUN_140149e30 | MOV EBX,dword ptr [RCX + 0x64]
+140149ed4 | 140149e30 | FUN_140149e30 | MOV R12D,dword ptr [RBP + 0x64]
+140149edc | 140149e30 | FUN_140149e30 | MOV EAX,dword ptr [RBP + 0x64]
+140149f12 | 140149e30 | FUN_140149e30 | MOV EAX,dword ptr [RBP + 0x64]
+140149f37 | 140149e30 | FUN_140149e30 | MOV EAX,dword ptr [RBP + 0x64]
+140149f46 | 140149e30 | FUN_140149e30 | MOV dword ptr [RBP + 0x64],EAX
+14014a02e | 14014a010 | FUN_14014a010 | MOV EBX,dword ptr [RCX + 0x64]
+14014a0d9 | 14014a010 | FUN_14014a010 | MOV EBP,dword ptr [R15 + 0x64]
+14014a0e1 | 14014a010 | FUN_14014a010 | MOV EAX,dword ptr [R15 + 0x64]
+14014a11c | 14014a010 | FUN_14014a010 | MOV EAX,dword ptr [R15 + 0x64]
+14014a14b | 14014a010 | FUN_14014a010 | MOV EAX,dword ptr [R15 + 0x64]
+14014a160 | 14014a010 | FUN_14014a010 | MOV dword ptr [R15 + 0x64],EAX
+14014a43b | 14014a420 | FUN_14014a420 | CMP dword ptr [RCX + 0x64],R15D
+14014a4a1 | 14014a420 | FUN_14014a420 | CMP R14D,dword ptr [RBP + 0x64]
+14014a4ac | 14014a420 | FUN_14014a420 | MOV EAX,dword ptr [RBP + 0x64]
+14014a4d8 | 14014a420 | FUN_14014a420 | MOV dword ptr [RBP + 0x64],R15D
+14014a517 | 14014a500 | FUN_14014a500 | CMP dword ptr [RCX + 0x64],R15D
+14014a581 | 14014a500 | FUN_14014a500 | CMP R14D,dword ptr [RBP + 0x64]
+14014a986 | 14014a980 | FUN_14014a980 | CMP dword ptr [RCX + 0x64],0x0
+14014aa28 | 14014aa10 | FUN_14014aa10 | CMP dword ptr [RCX + 0x64],0x0
+14014aade | 14014aac0 | FUN_14014aac0 | CMP dword ptr [RCX + 0x64],0x0
+1401b0a6f | 1401b0870 | FUN_1401b0870 | CMP dword ptr [RSI + 0x64],EBX
+1401d3a00 | 1401d1bd0 | FUN_1401d1bd0 | CMP R15D,dword ptr [R11 + R14*0x1 + 0x64]
+1401dfd36 | 1401df980 | FUN_1401df980 | CMP dword ptr [RBP + 0x640],0x0
+1401dfe90 | 1401df980 | FUN_1401df980 | CMP dword ptr [RBP + 0x640],EDX
+1401e0189 | 1401df980 | FUN_1401df980 | CMP dword ptr [RBP + 0x640],0x0
+1401f2da8 | 1401f2d30 | FUN_1401f2d30 | CMP dword ptr [RSP + 0x64],0x0
+1401f778d | 1401f7170 | FUN_1401f7170 | CMP EBX,0x64
+1401f780e | 1401f7170 | FUN_1401f7170 | CMP EBX,0x64
+1401f788d | 1401f7170 | FUN_1401f7170 | CMP EBX,0x64
+140202e40 | 140202df0 | FUN_140202df0 | CMP dword ptr [R8 + 0x64],EAX
+140202ef3 | 140202e90 | FUN_140202e90 | CMP dword ptr [R8 + 0x64],EAX
+140203010 | 140202fa0 | FUN_140202fa0 | CMP dword ptr [R8 + 0x64],EAX
+140203120 | 1402030d0 | FUN_1402030d0 | CMP dword ptr [R8 + 0x64],EAX
+1402031cd | 140203170 | FUN_140203170 | CMP dword ptr [R8 + 0x64],EAX
+140203329 | 1402032d0 | FUN_1402032d0 | CMP dword ptr [R8 + 0x64],EAX
+140203730 | 1402036d0 | FUN_1402036d0 | CMP dword ptr [R8 + 0x64],EAX
+1402067e0 | 1402067a0 | FUN_1402067a0 | CMP dword ptr [R8 + 0x64],EAX
+14020693e | 140206910 | FUN_140206910 | CMP dword ptr [R8 + 0x64],EAX
+1402069b8 | 140206980 | FUN_140206980 | CMP dword ptr [R8 + 0x64],EAX
+14020745d | 140207440 | FUN_140207440 | CMP dword ptr [RAX + 0x64],EDX
+1402167c4 | 1402162b0 | FUN_1402162b0 | MOVZX R8D,word ptr [RBP + 0x64]
+14021680b | 1402162b0 | FUN_1402162b0 | MOVZX R8D,word ptr [RBP + 0x64]
+140216843 | 1402162b0 | FUN_1402162b0 | CMP AX,word ptr [RBP + 0x64]
+14021699e | 1402162b0 | FUN_1402162b0 | MOVZX EAX,word ptr [RBP + 0x64]
+1402169ed | 1402162b0 | FUN_1402162b0 | MOVZX EAX,word ptr [RBP + 0x64]
+14028023f | 140280190 | FUN_140280190 | MOV byte ptr [RBX + 0x64],DIL
+140284901 | 1402847c0 | FUN_1402847c0 | CMP dword ptr [RBP + 0x64],0x8c
+14028e929 | 14028e920 | FUN_14028e920 | CMP EDX,0x64
+14028fdad | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+14028fdf2 | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+14028fe31 | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+14028fe7b | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+14028fec5 | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+14028ff0a | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+14028ff49 | 14028f500 | FUN_14028f500 | CMP EAX,0x64
+1402a0ec4 | 1402a0b40 | FUN_1402a0b40 | CMP dword ptr [R9 + 0x64],0xff00
+1402a0f07 | 1402a0b40 | FUN_1402a0b40 | CMP dword ptr [R9 + 0x64],0x0
+1402bae20 | 1402bae20 | FUN_1402bae20 | CMP EDX,0x64
+1402f002e | 1402efff0 | FUN_1402efff0 | CMP dword ptr [RDX + 0x64],0x0
+140306455 |  | <none> | CMP dword ptr [RCX + 0x64],EDX
+140306488 |  | <none> | CMP dword ptr [RCX + 0x64],EDX
+14030654d | 1403064b0 | FUN_1403064b0 | CMP dword ptr [RBP + 0x64],R12D
+140337100 | 140336ea0 | FUN_140336ea0 | CMP dword ptr [RDI + 0x64],0x0
+140343c17 | 140343bb0 | FUN_140343bb0 | CMP dword ptr [R9 + 0x64],R10D
+14034759c | 1403474c0 | FUN_1403474c0 | CMP ESI,dword ptr [RDI + 0x64]
+1403475d8 | 1403475c0 | FUN_1403475c0 | CMP dword ptr [RDX + 0x64],EBX
+14034763d | 1403475c0 | FUN_1403475c0 | CMP EBX,dword ptr [RBP + 0x64]
+1403476bd | 1403476a0 | FUN_1403476a0 | CMP dword ptr [RDX + 0x64],EBX
+140347705 | 1403476a0 | FUN_1403476a0 | CMP EBX,dword ptr [RDI + 0x64]
+140349ee1 | 140349e10 | FUN_140349e10 | CMP EBX,dword ptr [RSI + 0x64]
+14034a78d | 14034a770 | FUN_14034a770 | CMP dword ptr [RDX + 0x64],EBX
+14034a7d5 | 14034a770 | FUN_14034a770 | CMP EBX,dword ptr [RDI + 0x64]
+14034b955 | 14034b7e0 | FUN_14034b7e0 | CMP dword ptr [RAX + 0x64],EBX
+14034b9e4 | 14034b7e0 | FUN_14034b7e0 | CMP ESI,dword ptr [RAX + 0x64]
+14034d6ca |  | <none> | CMP dword ptr [RBX + 0x64],0x0
+14034d761 |  | <none> | CMP ESI,dword ptr [RBX + 0x64]
+14034de2f | 14034de20 | FUN_14034de20 | CMP dword ptr [RCX + 0x64],EDI
+14034dedf | 14034de20 | FUN_14034de20 | CMP EDI,dword ptr [RBX + 0x64]
+140351d99 | 140351ca0 | FUN_140351ca0 | CMP EDI,dword ptr [RSI + 0x64]
+140351dc7 | 140351ca0 | FUN_140351ca0 | CMP EDI,dword ptr [RSI + 0x64]
+1403599bd | 1403598d0 | FUN_1403598d0 | CMP EAX,dword ptr [RBP + 0x64]
+1403728a0 | 140372880 | FUN_140372880 | CMP R10D,0x64
+14038befa | 14038bef0 | FUN_14038bef0 | CMP EDX,0x64
+1403bdf40 | 1403bdd00 | FUN_1403bdd00 | CMP R13D,0x64
+1403be1e0 | 1403bdd00 | FUN_1403bdd00 | CMP R15D,0x64
+1403be300 | 1403bdd00 | FUN_1403bdd00 | CMP R14D,0x64
+1403eb867 | 1403eb720 | FUN_1403eb720 | CMP dword ptr [R14 + 0x64],R13D
+1403eba4a | 1403eb720 | FUN_1403eb720 | CMP ESI,dword ptr [R14 + 0x64]
+14042de30 | 14042de30 | FUN_14042de30 | CMP dword ptr [RCX + 0x190],0x64
+1404389dd | 140438920 | FUN_140438920 | CMP dword ptr [RDI + 0x64],EBX
+140438a37 | 140438920 | FUN_140438920 | CMP EBX,dword ptr [RDI + 0x64]
+140439090 | 140439040 | FUN_140439040 | CMP byte ptr [RDI + 0x64],0x0
+1404392b4 | 1404391f0 | FUN_1404391f0 | MOV byte ptr [RDI + 0x64],0x1
+1404392d3 | 1404391f0 | FUN_1404391f0 | MOV byte ptr [RDI + 0x64],0x0
+14043953c | 140439530 | FUN_140439530 | CMP byte ptr [RCX + 0x64],0x0
+14044f8c3 | 14044f840 | FUN_14044f840 | MOV byte ptr [RBX + 0x64],DL
+14044f909 | 14044f840 | FUN_14044f840 | OR byte ptr [RBX + 0x64],0x7
+1404516a5 | 140451550 | FUN_140451550 | CMP dword ptr [RBX + 0x64],0x0
+140451706 | 140451550 | FUN_140451550 | CMP EDI,dword ptr [RBX + 0x64]
+1404813a6 | 140480ea0 | FUN_140480ea0 | MOV byte ptr [R13 + 0x64],0x1
+14048faa7 | 14048fa10 | FUN_14048fa10 | CMP dword ptr [RAX + 0x64],EDI
+1404abe96 | 1404abba0 | FUN_1404abba0 | CMP dword ptr [RBP + 0x640],EDI
+1404da513 | 1404da4f0 | FUN_1404da4f0 | CMP EAX,dword ptr [RCX + 0x64]
+1404da65d | 1404da4f0 | FUN_1404da4f0 | CMP EAX,dword ptr [RBX + 0x64]
+140504b80 | 140504ad0 | FUN_140504ad0 | CMP EBX,dword ptr [RCX + 0x64]
+140519755 | 140518f40 | FUN_140518f40 | CMP dword ptr [R14 + 0x64],R15D
+14051e49f | 14051e420 | FUN_14051e420 | MOV byte ptr [RSI + 0x64],0x0
+140523584 | 140523520 | FUN_140523520 | MOV byte ptr [RDI + 0x64],AL
+140523594 | 140523520 | FUN_140523520 | MOV byte ptr [RDI + 0x64],AL
+1405320f5 | 140531ff0 | FUN_140531ff0 | CMP dword ptr [RBX + R8*0x8 + 0x99c],0x64
+1405433e4 | 140543140 | FUN_140543140 | MOVZX ECX,byte ptr [RAX + 0x64]
+140552771 | 140552720 | FUN_140552720 | CMP byte ptr [RBX + 0x64],0x0
+14055564f | 140555560 | FUN_140555560 | CMP byte ptr [RBX + 0x64],0x0
+14055a0b0 |  | <none> | CMP dword ptr [RCX + 0x64],0x2
+140569289 | 140569230 | FUN_140569230 | CMP EDI,0x64
+14056a16f | 14056a160 | FUN_14056a160 | CMP ECX,0x64
+14056a6a5 | 14056a660 | FUN_14056a660 | CMP R10D,0x64
+14056a901 | 14056a8b0 | FUN_14056a8b0 | CMP R9D,0x64
+14056ac1e | 14056a8b0 | FUN_14056a8b0 | CMP ECX,0x64
+14057a47d | 14057a040 | FUN_14057a040 | CMP dword ptr [RBX + 0x30],0x64
+14057e42c | 14057e2e0 | FUN_14057e2e0 | MOV byte ptr [RBX + 0x64],DIL
+1405805ec | 1405805b0 | FUN_1405805b0 | MOV byte ptr [RCX + 0x64],AL
+140589931 | 1405894b0 | FUN_1405894b0 | MOV byte ptr [RSP + 0x64],AL
+1405899d2 | 1405894b0 | FUN_1405894b0 | MOV byte ptr [RSP + 0x64],AL
+140589a71 | 1405894b0 | FUN_1405894b0 | MOV byte ptr [RSP + 0x64],AL
+1405affb3 | 1405aef10 | FUN_1405aef10 | MOV byte ptr [RDI + 0x64f],R13B
+1405bc721 | 1405bc6d0 | FUN_1405bc6d0 | CMP RSI,0x640
+1405bc761 | 1405bc6d0 | FUN_1405bc6d0 | CMP RCX,0x640
+1405bc773 | 1405bc6d0 | FUN_1405bc6d0 | CMP RCX,0x640
+1405bc819 | 1405bc810 | FUN_1405bc810 | MOV byte ptr [RCX + 0x64c],0x0
+1405d25f9 | 1405d25e0 | FUN_1405d25e0 | CMP dword ptr [RBX + 0x70c],0x64
+1405d2633 | 1405d25e0 | FUN_1405d25e0 | CMP dword ptr [RBX + 0x70c],0x64
+1405d9154 | 1405d9140 | FUN_1405d9140 | MOV byte ptr [RCX + 0x64],AL
+1405d9416 | 1405d9410 | FUN_1405d9410 | CMP byte ptr [RCX + 0x64],0x0
+1405d947a | 1405d9410 | FUN_1405d9410 | MOV byte ptr [RSI + 0x64],0x1
+14061a8c0 | 140619f70 | FUN_140619f70 | CMP EAX,0x64
+1406209d7 | 1406209a0 | FUN_1406209a0 | MOV byte ptr [RCX + 0x64],AL
+140621f50 | 140621f20 | FUN_140621f20 | CMP R10D,0x64
+14063c5a1 | 14063c560 | FUN_14063c560 | CMP EBX,dword ptr [RAX + 0x64]
+14063c72d | 14063c720 | FUN_14063c720 | CMP EBX,dword ptr [RAX + 0x64]
+140642391 | 140642220 | FUN_140642220 | CMP dword ptr [RBX + 0x64],0x0
+140643404 | 1406433e0 | FUN_1406433e0 | CMP EAX,0x64
+140648d88 | 140648900 | FUN_140648900 | MOVZX EAX,byte ptr [RDX + R15*0x1 + 0x649354]
+1406493a9 | 140649390 | FUN_140649390 | MOVZX EAX,byte ptr [RCX + RBX*0x1 + 0x649564]
+1406673cc | 140667340 | FUN_140667340 | CMP EAX,0x64
+140667b1e | 140667830 | FUN_140667830 | CMP EAX,0x64
+14066bdc8 | 14066bcd0 | FUN_14066bcd0 | CMP EAX,0x64
+14066be40 | 14066bcd0 | FUN_14066bcd0 | CMP EBP,0x64
+14066beb7 | 14066bcd0 | FUN_14066bcd0 | CMP EBP,0x64
+140671904 | 140671820 | FUN_140671820 | CMP R8,0x64
+140672736 | 140672720 | FUN_140672720 | CMP EAX,0x64
+140674bfb | 140674a30 | FUN_140674a30 | TEST byte ptr [RSI + 0x64],0x8
+1406771c9 | 140677170 | FUN_140677170 | CMP EAX,0x64
+14067e2be | 14067e280 | FUN_14067e280 | CMP EAX,0x64
+14067e2f0 | 14067e280 | FUN_14067e280 | CMP EAX,0x64
+1406823b1 | 140682380 | FUN_140682380 | TEST byte ptr [RBX + 0x64],0x10
+140684abc | 140684aa0 | FUN_140684aa0 | TEST byte ptr [RDX + 0x64],0x4
+1406884a9 | 140688370 | FUN_140688370 | MOV byte ptr [RBX + 0x64],0xff
+1406918d2 | 140691820 | FUN_140691820 | CMP ECX,0x646f7562
+1406923e4 | 1406922f0 | FUN_1406922f0 | TEST byte ptr [RCX + 0x64],0x80
+14069637c | 140695fe0 | FUN_140695fe0 | MOVZX EDX,byte ptr [RSP + 0x64]
+14069a8ff | 14069a880 | FUN_14069a880 | TEST byte ptr [RAX + 0x64],0x3
+1406a1e0d | 1406a1d80 | FUN_1406a1d80 | TEST byte ptr [RSI + 0x64],0x8
+1406a2334 | 1406a2270 | FUN_1406a2270 | TEST byte ptr [RBX + 0x64],0x8
+1406a5566 | 1406a5560 | FUN_1406a5560 | CMP dword ptr [RCX + 0x70],0x64cffc7f
+1406a9e3d | 1406a9780 | FUN_1406a9780 | MOV byte ptr [R15 + 0x64],SIL
+1406ab962 | 1406a9780 | FUN_1406a9780 | TEST byte ptr [RAX + 0x64],0x80
+1406adb2b | 1406ad940 | FUN_1406ad940 | MOVZX EAX,byte ptr [RBX + 0x64]
+1406af090 | 1406ae030 | FUN_1406ae030 | TEST byte ptr [RAX + 0x64],0x4
+1406b07f6 | 1406b0700 | FUN_1406b0700 | CMP EAX,0x64
+1406b3a73 | 1406b2ff0 | FUN_1406b2ff0 | CMP ESI,0x64
+1406b77f8 | 1406b4c60 | FUN_1406b4c60 | CMP EDI,0x64
+1406b890f | 1406b4c60 | FUN_1406b4c60 | MOVZX EAX,word ptr [RDI + 0x64]
+1406ba738 | 1406ba710 | FUN_1406ba710 | CMP dword ptr [RCX + 0x64],ESI
+1406ba751 | 1406ba710 | FUN_1406ba710 | CMP ESI,dword ptr [RDI + 0x64]
+1406c22b5 | 1406c2210 | FUN_1406c2210 | TEST byte ptr [RAX + 0x64],0x80
+1406c56d8 | 1406c5580 | FUN_1406c5580 | CMP R14D,0x64
+1406c95cc | 1406c9460 | FUN_1406c9460 | CMP dword ptr [RBX + 0x64],EAX
+1406ca268 | 1406ca240 | FUN_1406ca240 | CMP R9D,0x64
+1406cb08d | 1406cad90 | FUN_1406cad90 | TEST byte ptr [R15 + 0x64],0x20
+1406cb0da | 1406cad90 | FUN_1406cad90 | TEST byte ptr [R15 + 0x64],0x4
+1406cb5c2 | 1406cb260 | FUN_1406cb260 | TEST byte ptr [R14 + 0x64],0x8
+1406cb8da | 1406cb260 | FUN_1406cb260 | TEST byte ptr [R14 + 0x64],0x40
+1406cd00f | 1406ccd70 | FUN_1406ccd70 | TEST byte ptr [R11 + 0x64],0x4
+1406ce2e1 | 1406ce1b0 | FUN_1406ce1b0 | TEST byte ptr [RBX + 0x64],0x20
+14073b2b9 | 14073b270 | FUN_14073b270 | CMP dword ptr [RBX + 0x64],0x0
+14073e5e1 | 14073e5a0 | FUN_14073e5a0 | CMP dword ptr [RBX + 0x64],EDI
+1407436d9 | 140743510 | FUN_140743510 | MOV byte ptr [RSP + 0x64],R13B
+14074b00a | 14074af40 | FUN_14074af40 | MOVZX EAX,byte ptr [RDI + 0x64]
+14074b00e | 14074af40 | FUN_14074af40 | MOV byte ptr [RBX + 0x64],AL
+14075f888 | 14075f730 | FUN_14075f730 | MOV byte ptr [RDI + 0x64],AL
+14075f88d | 14075f730 | FUN_14075f730 | MOVZX EAX,byte ptr [RDI + 0x64]
+1407c4afa | 1407c4890 | FUN_1407c4890 | CMP EAX,0x64
+1407e6e5f | 1407e6ca0 | FUN_1407e6ca0 | MOV byte ptr [RDX + 0x64],AL
+1407e8e72 | 1407e8c50 | FUN_1407e8c50 | MOV byte ptr [RDX + 0x64],AL
+1407ffbbc | 1407fef30 | FUN_1407fef30 | CMP word ptr [RBP + 0x64],0x1
+1408072c8 | 140807290 | FUN_140807290 | CMP byte ptr [RBX + 0x10],0x64
+140870816 | 140870510 | FUN_140870510 | CMP dword ptr [R15 + 0x64],0x0
+140870a7b | 140870510 | FUN_140870510 | CMP EBX,dword ptr [R15 + 0x64]
+140872804 | 1408727e0 | FUN_1408727e0 | CMP R9D,dword ptr [RCX + 0x64]
+140880e58 | 140880790 | FUN_140880790 | MOV byte ptr [RCX + 0x64],AL
+140881305 | 140880790 | FUN_140880790 | CMP byte ptr [RDI + 0x64],BPL
+14088301e | 140882fe0 | FUN_140882fe0 | CMP byte ptr [RSI + 0x64],0x0
+14089589d | 140895210 | FUN_140895210 | CMP dword ptr [RSP + 0x64],EAX
+14089ea87 | 14089ea70 | FUN_14089ea70 | CMP byte ptr [R8 + 0x64],0x0
+1408b2ce3 | 1408b2cb0 | FUN_1408b2cb0 | CMP byte ptr [RBX + 0x64],0x0
+1408ba920 | 1408ba720 | FUN_1408ba720 | CMP EBX,0x64
+1408baa3d | 1408ba720 | FUN_1408ba720 | CMP EBX,0x64
+1408bc410 | 1408ba720 | FUN_1408ba720 | CMP EBX,0x64
+1408bc5d5 | 1408ba720 | FUN_1408ba720 | CMP EBX,0x64
+1408d6694 | 1408d6540 | FUN_1408d6540 | CMP EBX,0x64
+1408dbb17 | 1408dba00 | FUN_1408dba00 | MOV byte ptr [RSP + 0x64],0x1
+1408f0850 | 1408f0630 | FUN_1408f0630 | CMP R12D,dword ptr [RSI + 0x64]
+1408f2352 | 1408f1e50 | FUN_1408f1e50 | MOVZX R8D,word ptr [RDI + RCX*0x1 + 0x64]
+1408f7242 | 1408f7220 | FUN_1408f7220 | CMP dword ptr [RCX + 0x64],-0x1
+1408f767d | 1408f7440 | FUN_1408f7440 | MOVZX EAX,word ptr [RBX + RDI*0x1 + 0x64]
+14090c969 | 14090c950 | FUN_14090c950 | MOVZX R9D,byte ptr [RBX + 0x64]
+1409108f4 | 140910010 | FUN_140910010 | MOVZX R15D,byte ptr [RSI + 0x64]
+1409109cd | 140910010 | FUN_140910010 | TEST dword ptr [RSP + 0x64],0x80000
+140911549 | 140910010 | FUN_140910010 | TEST byte ptr [RSP + 0x64],0x80
+140912046 | 140910010 | FUN_140910010 | TEST dword ptr [RSP + 0x64],0x8000
+140912476 | 140910010 | FUN_140910010 | TEST dword ptr [RSP + 0x64],0x20000
+140912863 | 140910010 | FUN_140910010 | TEST byte ptr [RSP + 0x64],0x40
+1409161b3 | 1409161b0 | FUN_1409161b0 | CMP byte ptr [RAX + 0x64],0x0
+14091b18e | 14091ad60 | FUN_14091ad60 | CMP byte ptr [RSP + 0x64],0x0
+14091b367 | 14091ad60 | FUN_14091ad60 | MOVZX EBX,byte ptr [RSP + 0x64]
+14091b3f4 | 14091ad60 | FUN_14091ad60 | CMP byte ptr [RSP + 0x64],0x0
+14091b907 | 14091ad60 | FUN_14091ad60 | CMP byte ptr [RSP + 0x64],0x0
+14091ba4c | 14091ad60 | FUN_14091ad60 | CMP byte ptr [RSP + 0x64],0x0
+140933091 | 140932100 | FUN_140932100 | CMP byte ptr [RBX + 0x64],0x0
+140934f46 | 140934a40 | FUN_140934a40 | CMP dword ptr [RSP + 0x64],EDI
+14093d728 | 14093d5c0 | FUN_14093d5c0 | CMP EBX,0x64
+1409404cc | 140940420 | FUN_140940420 | CMP ECX,0x64
+1409404f6 | 140940420 | FUN_140940420 | CMP ECX,0x64
+140941f1d | 140941b40 | FUN_140941b40 | CMP EAX,0x64
+140943c8f | 1409438f0 | FUN_1409438f0 | CMP EBX,0x64
+140944ae9 | 140944a40 | FUN_140944a40 | CMP EBX,0x64
+140947372 | 1409472e0 | FUN_1409472e0 | CMP EDI,0x64
+1409b27eb | 1409b2780 | FUN_1409b2780 | CMP dword ptr [R14 + 0x64],0x0
+140a18d74 | 140a18130 | FUN_140a18130 | CMP R8D,0x64
+140a1c5f0 | 140a1c5f0 | FUN_140a1c5f0 | CMP dword ptr [RCX + 0x64],0x0
+140a2062e | 140a205e0 | FUN_140a205e0 | CMP dword ptr [RDX + 0x64],R14D
+140a20664 | 140a205e0 | FUN_140a205e0 | CMP EDI,dword ptr [R15 + 0x64]
+140a20c8e | 140a20c50 | FUN_140a20c50 | CMP dword ptr [RSI + 0x64],EBX
+140a20cec | 140a20c50 | FUN_140a20c50 | CMP EBX,dword ptr [RSI + 0x64]
+140a21e8e | 140a21e00 | FUN_140a21e00 | CMP dword ptr [R13 + 0x64],ESI
+140a22082 | 140a21e00 | FUN_140a21e00 | CMP R15D,dword ptr [R13 + 0x64]
+140a224d3 | 140a224c0 | FUN_140a224c0 | CMP dword ptr [RBX + 0x64],R8D
+140a22501 | 140a224c0 | FUN_140a224c0 | CMP R8D,dword ptr [RBX + 0x64]
+140a22537 | 140a22520 | FUN_140a22520 | CMP dword ptr [RCX + 0x64],EDI
+140a2254f | 140a22520 | FUN_140a22520 | CMP EDI,dword ptr [RBX + 0x64]
+140a226f9 | 140a22680 | FUN_140a22680 | CMP dword ptr [RDI + 0x64],R15D
+140a22771 | 140a22680 | FUN_140a22680 | CMP EBP,dword ptr [RDI + 0x64]
+140a22a21 | 140a229f0 | FUN_140a229f0 | CMP dword ptr [RSI + 0x64],R12D
+140a22a95 | 140a229f0 | FUN_140a229f0 | CMP EDI,dword ptr [RSI + 0x64]
+140a2ba26 | 140a2adc0 | FUN_140a2adc0 | CMP dword ptr [RDI + 0x64],0x0
+140a2bbab | 140a2adc0 | FUN_140a2adc0 | CMP ESI,dword ptr [RDI + 0x64]
+140a420bb | 140a42070 | FUN_140a42070 | CMP dword ptr [RBX + 0x64],ESI
+140a420db | 140a42070 | FUN_140a42070 | CMP EDI,dword ptr [RBX + 0x64]
+140a4518b | 140a45030 | FUN_140a45030 | CMP dword ptr [RBX + 0x64],0x0
+140a451b1 | 140a45030 | FUN_140a45030 | CMP dword ptr [RBX + 0x64],0x0
+140a451fa | 140a45030 | FUN_140a45030 | CMP dword ptr [RBX + 0x64],0x0
+140a455c2 | 140a455a0 | FUN_140a455a0 | CMP dword ptr [R14 + 0x64],R12D
+140a45947 | 140a455a0 | FUN_140a455a0 | CMP ECX,dword ptr [R14 + 0x64]
+140a45b9f | 140a45b90 | FUN_140a45b90 | CMP dword ptr [RCX + 0x64],EDI
+140a45be6 | 140a45b90 | FUN_140a45b90 | CMP EDI,dword ptr [RSI + 0x64]
+140a45d59 | 140a45d40 | FUN_140a45d40 | CMP dword ptr [RCX + 0x64],R9D
+140a45d78 | 140a45d40 | FUN_140a45d40 | CMP R8D,dword ptr [RBX + 0x64]
+140a45dcd | 140a45dc0 | FUN_140a45dc0 | CMP dword ptr [RCX + 0x64],R10D
+140a45df4 | 140a45dc0 | FUN_140a45dc0 | CMP EAX,dword ptr [R9 + 0x64]
+140a461f7 | 140a46030 | FUN_140a46030 | CMP dword ptr [RBX + 0x64],EDI
+140a491c4 | 140a49050 | FUN_140a49050 | CMP dword ptr [R9 + 0x64],0x0
+140a49250 | 140a49050 | FUN_140a49050 | CMP R10D,dword ptr [R9 + 0x64]
+140a493b2 | 140a49050 | FUN_140a49050 | CMP dword ptr [RBP + 0x64],ESI
+140a4942a | 140a49050 | FUN_140a49050 | CMP ESI,dword ptr [RBP + 0x64]
+140a494d4 | 140a494c0 | FUN_140a494c0 | CMP dword ptr [RCX + 0x64],R9D
+140a49569 | 140a494c0 | FUN_140a494c0 | CMP EAX,dword ptr [R10 + 0x64]
+140a49585 | 140a494c0 | FUN_140a494c0 | CMP R9D,dword ptr [R10 + 0x64]
+140a49c0b | 140a49bf0 | FUN_140a49bf0 | CMP dword ptr [RDX + 0x64],0x0
+140a4b233 | 140a4abe0 | FUN_140a4abe0 | CMP R12D,dword ptr [RCX + 0x64]
+140a5a672 | 140a59ac0 | FUN_140a59ac0 | CMP dword ptr [RSP + 0x64],0x0
+140a74c16 | 140a749e0 | FUN_140a749e0 | CMP R14D,0x64
+140a74c27 | 140a749e0 | FUN_140a749e0 | CMP ESI,0x64
+140a7c7a3 | 140a7c790 | FUN_140a7c790 | MOV byte ptr [RCX + 0x64],R8B
+140aaa2c7 | 140aaa160 | FUN_140aaa160 | CMP dword ptr [RBX + 0x64],R15D
+140aaa2e2 | 140aaa160 | FUN_140aaa160 | CMP R8D,dword ptr [RBX + 0x64]
+140ac535f | 140ac5240 | FUN_140ac5240 | CMP EBX,0x64
+140b063c7 | 140b056a0 | FUN_140b056a0 | CMP R15D,dword ptr [RSP + 0x64]
+140b26634 | 140b25ff0 | FUN_140b25ff0 | CMP EAX,0x64
+140b266cd | 140b25ff0 | FUN_140b25ff0 | CMP EDI,0x64
+140b29f7d | 140b29d80 | FUN_140b29d80 | CMP EDX,0x64
+140b29f90 | 140b29d80 | FUN_140b29d80 | CMP dword ptr [RBX + 0x64],0x0
+140b2a49c | 140b2a390 | FUN_140b2a390 | CMP EDI,0x64
+140b311c1 | 140b31170 | FUN_140b31170 | CMP RSI,0x640
+140b31201 | 140b31170 | FUN_140b31170 | CMP RCX,0x640
+140b31213 | 140b31170 | FUN_140b31170 | CMP RCX,0x640
+140b40612 | 140b40570 | FUN_140b40570 | CMP dword ptr [RDI + 0x64],R14D
+140b40631 | 140b40570 | FUN_140b40570 | CMP EDX,dword ptr [RDI + 0x64]
+140b4b4ac | 140b4add0 | FUN_140b4add0 | CMP dword ptr [RSI + 0x64],EBX
+140b63ca5 | 140b63050 | FUN_140b63050 | CMP dword ptr [RSP + 0x64],ESI
+140b63efd | 140b63050 | FUN_140b63050 | CMP R15D,dword ptr [RSP + 0x64]
+140b78c05 | 140b78040 | FUN_140b78040 | CMP dword ptr [RAX + 0x38],0x64
+140b7dfd4 | 140b7dfc0 | FUN_140b7dfc0 | CMP dword ptr [R9 + 0x64],EAX
+140b7e4e1 | 140b7e4a0 | FUN_140b7e4a0 | CMP dword ptr [RAX + 0x64],0x0
+140b7e561 | 140b7e520 | FUN_140b7e520 | CMP dword ptr [RAX + 0x64],0x0
+140b81032 | 140b80fc0 | FUN_140b80fc0 | MOV byte ptr [RSP + 0x64],0x1
+140b81a3b | 140b81a00 | FUN_140b81a00 | MOV byte ptr [RSP + 0x64],0x1
+140b857ab | 140b85790 | FUN_140b85790 | CMP EAX,0x64
+140b85cf7 | 140b85cc0 | FUN_140b85cc0 | MOV byte ptr [RSP + 0x64],0x1
+140b8c0cc | 140b8bef0 | FUN_140b8bef0 | CMP ECX,0x64
+140be1bc7 | 140be1bc0 | FUN_140be1bc0 | CMP byte ptr [RCX],0x64
+140be434f | 140be3b60 | FUN_140be3b60 | CMP dword ptr [RSP + 0x64],0x1
+140be492a | 140be3b60 | FUN_140be3b60 | CMP dword ptr [RSP + 0x64],0x1
+140be4a39 | 140be3b60 | FUN_140be3b60 | CMP dword ptr [RSP + 0x64],0x1
+140c2181d | 140c21800 | FUN_140c21800 | CMP dword ptr [RCX + 0x64],0x0
+140c23e36 | 140c23dc0 | FUN_140c23dc0 | CMP dword ptr [RBX + 0x64],0x1
+140c33db1 | 140c33d20 | FUN_140c33d20 | CMP ECX,0x64
+140c34814 | 140c34770 | FUN_140c34770 | CMP EDX,0x64
+140c45552 | 140c45500 | FUN_140c45500 | CMP dword ptr [RBX + 0x64],0x0
+140c59280 | 140c590b0 | FUN_140c590b0 | MOVZX ECX,byte ptr [RSP + 0x64]
+140c80efa | 140c80930 | FUN_140c80930 | CMP EAX,0x64
+140c80f89 | 140c80930 | FUN_140c80930 | CMP EAX,0x64
+140c8701a | 140c86c80 | FUN_140c86c80 | CMP ECX,0x64
+140c896c9 | 140c89680 | FUN_140c89680 | CMP RCX,0x6400000
+140c94b1f | 140c94ad0 | FUN_140c94ad0 | CMP EAX,0x64
+140c94b3c | 140c94ad0 | FUN_140c94ad0 | CMP EAX,0x64
+140c94c0f | 140c94bd0 | FUN_140c94bd0 | CMP EAX,0x64
+140c94e89 | 140c94e70 | FUN_140c94e70 | CMP EAX,0x64
+140c94ff3 | 140c94f00 | FUN_140c94f00 | CMP EAX,0x64
+140c95074 | 140c94f00 | FUN_140c94f00 | CMP EAX,0x64
+140c95159 | 140c94f00 | FUN_140c94f00 | CMP EAX,0x64
+140c97fb1 | 140c97f90 | FUN_140c97f90 | CMP EAX,0x64
+140c98990 | 140c98970 | FUN_140c98970 | CMP EAX,0x64
+140c99587 | 140c99520 | FUN_140c99520 | CMP EAX,0x64
+140ca0cda | 140ca0bd0 | FUN_140ca0bd0 | CMP qword ptr [RBX + 0x940],0x64
+140ca2fca | 140ca2e60 | FUN_140ca2e60 | MOV byte ptr [RSP + 0x64],AL
+140ca31d0 | 140ca2e60 | FUN_140ca2e60 | MOVZX R8D,byte ptr [RSP + 0x64]
+140cb14b3 | 140cb0dc0 | FUN_140cb0dc0 | CMP EBX,0x64
+140cb327f | 140cb0dc0 | FUN_140cb0dc0 | CMP R10D,0x64
+140cb3732 | 140cb33f0 | FUN_140cb33f0 | CMP R8D,0x64
+140cb8995 | 140cb6690 | FUN_140cb6690 | CMP R8D,0x64
+140cb89a4 | 140cb6690 | FUN_140cb6690 | CMP R8D,0x64
+140cbc1b4 | 140cbc140 | FUN_140cbc140 | CMP EAX,0x64
+140cc10d2 | 140cc0e80 | FUN_140cc0e80 | CMP EAX,0x64
+140cc3f17 | 140cc3e90 | FUN_140cc3e90 | CMP ECX,0x64
+140cc4065 | 140cc3e90 | FUN_140cc3e90 | CMP EAX,0x64
+140cc4076 | 140cc3e90 | FUN_140cc3e90 | CMP EDI,0x64
+140cc42bb | 140cc3e90 | FUN_140cc3e90 | CMP ECX,0x64
+140cd4a29 | 140cd4960 | FUN_140cd4960 | CMP dword ptr [RCX + 0x20],0x64
+140cfda54 | 140cfd5f0 | FUN_140cfd5f0 | CMP EAX,0x64
+140d11599 | 140d11580 | FUN_140d11580 | CMP EAX,dword ptr [RBX + 0x64]
+140d4afba | 140d4abd0 | FUN_140d4abd0 | CMP word ptr [RSP + 0x64],R11W
+140d58989 | 140d588a0 | FUN_140d588a0 | MOV byte ptr [RSP + 0x64],DIL
+140d58a29 | 140d588a0 | FUN_140d588a0 | CMP byte ptr [RSP + 0x64],DIL
+140d58b8e | 140d588a0 | FUN_140d588a0 | CMP byte ptr [RSP + 0x64],0x0
+140d6de52 | 140d6d3d0 | FUN_140d6d3d0 | CMP dword ptr [RBX + 0x64],0x0
+140d9dce9 | 140d9d290 | FUN_140d9d290 | CMP byte ptr [RBP + 0x64],0x0
+TOTAL_MATCHING_INSTRUCTIONS=3142
+FUNCTIONS_WITH_MATCHES=361
+FUNC 
+FUNC 140001370
+FUNC 1400015a0
+FUNC 14001be60
+FUNC 14001ce90
+FUNC 140028060
+FUNC 14005ea90
+FUNC 140064210
+FUNC 140064e60
+FUNC 140065a80
+FUNC 1400663e0
+FUNC 140069b10
+FUNC 140071c90
+FUNC 1400734a0
+FUNC 1400736c0
+FUNC 140075990
+FUNC 14008bfd0
+FUNC 1400900a0
+FUNC 14009df00
+FUNC 14009e1a0
+FUNC 14009f100
+FUNC 1400a5e30
+FUNC 1400a6330
+FUNC 1400a6b20
+FUNC 1400a70c0
+FUNC 1400a7ba0
+FUNC 1400a7c70
+FUNC 1400a7f30
+FUNC 1400a9480
+FUNC 1400aa560
+FUNC 1400ab7d0
+FUNC 1400acab0
+FUNC 1400af4d0
+FUNC 1400b1e30
+FUNC 1400b2980
+FUNC 1400b2ce0
+FUNC 1400b2ff0
+FUNC 1400b3830
+FUNC 1400b4c20
+FUNC 1400b6e60
+FUNC 1400b7200
+FUNC 1400b76f0
+FUNC 1400b7840
+FUNC 1400b7d00
+FUNC 1400b8550
+FUNC 1400b9960
+FUNC 1400ba0d0
+FUNC 1400bb600
+FUNC 1400bc220
+FUNC 1400bcf60
+FUNC 1400be440
+FUNC 1400c1db0
+FUNC 1400c2690
+FUNC 1400c4930
+FUNC 1400c5120
+FUNC 1400cb950
+FUNC 1400cbe00
+FUNC 1400cd3a0
+FUNC 1400d0da0
+FUNC 1400d2140
+FUNC 1400d3e40
+FUNC 1400d4250
+FUNC 1400d4520
+FUNC 1400d7d20
+FUNC 1400dd250
+FUNC 1400de220
+FUNC 1400dec30
+FUNC 1400e0330
+FUNC 1400e1430
+FUNC 1400e17c0
+FUNC 1400e1a30
+FUNC 1400e1be0
+FUNC 1400e3ad0
+FUNC 1400e5e30
+FUNC 1400eb1e0
+FUNC 1400eb790
+FUNC 1400eb890
+FUNC 1400ebc60
+FUNC 1400ed180
+FUNC 1400ed250
+FUNC 1400ef3d0
+FUNC 1400f0030
+FUNC 1400f1a40
+FUNC 1400f1f80
+FUNC 1400f2810
+FUNC 1401017e0
+FUNC 140105280
+FUNC 140105500
+FUNC 140105e40
+FUNC 140106150
+FUNC 140106730
+FUNC 140107510
+FUNC 140107b90
+FUNC 140109d20
+FUNC 140109e60
+FUNC 140109f90
+FUNC 14010a760
+FUNC 14010c230
+FUNC 1401141f0
+FUNC 140119660
+FUNC 140119d80
+FUNC 14011ba60
+FUNC 14011beb0
+FUNC 14011c160
+FUNC 14011c650
+FUNC 14011d590
+FUNC 14011e090
+FUNC 14011ed20
+FUNC 1401215f0
+FUNC 1401218f0
+FUNC 1401219f0
+FUNC 140122da0
+FUNC 140124b60
+FUNC 140124d50
+FUNC 140126050
+FUNC 140126f60
+FUNC 1401277e0
+FUNC 140128ec0
+FUNC 140131d60
+FUNC 140132ba0
+FUNC 140142ac0
+FUNC 140142e90
+FUNC 140143f70
+FUNC 140144440
+FUNC 1401497b0
+FUNC 140149860
+FUNC 140149e30
+FUNC 14014a010
+FUNC 14014a420
+FUNC 14014a500
+FUNC 14014a980
+FUNC 14014aa10
+FUNC 14014aac0
+FUNC 1401b0870
+FUNC 1401d1bd0
+FUNC 1401df980
+FUNC 1401f2d30
+FUNC 1401f7170
+FUNC 140202df0
+FUNC 140202e90
+FUNC 140202fa0
+FUNC 1402030d0
+FUNC 140203170
+FUNC 1402032d0
+FUNC 1402036d0
+FUNC 1402067a0
+FUNC 140206910
+FUNC 140206980
+FUNC 140207440
+FUNC 1402162b0
+FUNC 140280190
+FUNC 1402847c0
+FUNC 14028e920
+FUNC 14028f500
+FUNC 1402a0b40
+FUNC 1402bae20
+FUNC 1402efff0
+FUNC 1403064b0
+FUNC 140336ea0
+FUNC 140343bb0
+FUNC 1403474c0
+FUNC 1403475c0
+FUNC 1403476a0
+FUNC 140349e10
+FUNC 14034a770
+FUNC 14034b7e0
+FUNC 14034de20
+FUNC 140351ca0
+FUNC 1403598d0
+FUNC 140372880
+FUNC 14038bef0
+FUNC 1403bdd00
+FUNC 1403eb720
+FUNC 14042de30
+FUNC 140438920
+FUNC 140439040
+FUNC 1404391f0
+FUNC 140439530
+FUNC 14044f840
+FUNC 140451550
+FUNC 140480ea0
+FUNC 14048fa10
+FUNC 1404abba0
+FUNC 1404da4f0
+FUNC 140504ad0
+FUNC 140518f40
+FUNC 14051e420
+FUNC 140523520
+FUNC 140531ff0
+FUNC 140543140
+FUNC 140552720
+FUNC 140555560
+FUNC 140569230
+FUNC 14056a160
+FUNC 14056a660
+FUNC 14056a8b0
+FUNC 14057a040
+FUNC 14057e2e0
+FUNC 1405805b0
+FUNC 1405894b0
+FUNC 1405aef10
+FUNC 1405bc6d0
+FUNC 1405bc810
+FUNC 1405d25e0
+FUNC 1405d9140
+FUNC 1405d9410
+FUNC 140619f70
+FUNC 1406209a0
+FUNC 140621f20
+FUNC 14063c560
+FUNC 14063c720
+FUNC 140642220
+FUNC 1406433e0
+FUNC 140648900
+FUNC 140649390
+FUNC 140667340
+FUNC 140667830
+FUNC 14066bcd0
+FUNC 140671820
+FUNC 140672720
+FUNC 140674a30
+FUNC 140677170
+FUNC 14067e280
+FUNC 140682380
+FUNC 140684aa0
+FUNC 140688370
+FUNC 140691820
+FUNC 1406922f0
+FUNC 140695fe0
+FUNC 14069a880
+FUNC 1406a1d80
+FUNC 1406a2270
+FUNC 1406a5560
+FUNC 1406a9780
+FUNC 1406ad940
+FUNC 1406ae030
+FUNC 1406b0700
+FUNC 1406b2ff0
+FUNC 1406b4c60
+FUNC 1406ba710
+FUNC 1406c2210
+FUNC 1406c5580
+FUNC 1406c9460
+FUNC 1406ca240
+FUNC 1406cad90
+FUNC 1406cb260
+FUNC 1406ccd70
+FUNC 1406ce1b0
+FUNC 14073b270
+FUNC 14073e5a0
+FUNC 140743510
+FUNC 14074af40
+FUNC 14075f730
+FUNC 1407c4890
+FUNC 1407e6ca0
+FUNC 1407e8c50
+FUNC 1407fef30
+FUNC 140807290
+FUNC 140870510
+FUNC 1408727e0
+FUNC 140880790
+FUNC 140882fe0
+FUNC 140895210
+FUNC 14089ea70
+FUNC 1408b2cb0
+FUNC 1408ba720
+FUNC 1408d6540
+FUNC 1408dba00
+FUNC 1408f0630
+FUNC 1408f1e50
+FUNC 1408f7220
+FUNC 1408f7440
+FUNC 14090c950
+FUNC 140910010
+FUNC 1409161b0
+FUNC 14091ad60
+FUNC 140932100
+FUNC 140934a40
+FUNC 14093d5c0
+FUNC 140940420
+FUNC 140941b40
+FUNC 1409438f0
+FUNC 140944a40
+FUNC 1409472e0
+FUNC 1409b2780
+FUNC 140a18130
+FUNC 140a1c5f0
+FUNC 140a205e0
+FUNC 140a20c50
+FUNC 140a21e00
+FUNC 140a224c0
+FUNC 140a22520
+FUNC 140a22680
+FUNC 140a229f0
+FUNC 140a2adc0
+FUNC 140a42070
+FUNC 140a45030
+FUNC 140a455a0
+FUNC 140a45b90
+FUNC 140a45d40
+FUNC 140a45dc0
+FUNC 140a46030
+FUNC 140a49050
+FUNC 140a494c0
+FUNC 140a49bf0
+FUNC 140a4abe0
+FUNC 140a59ac0
+FUNC 140a749e0
+FUNC 140a7c790
+FUNC 140aaa160
+FUNC 140ac5240
+FUNC 140b056a0
+FUNC 140b25ff0
+FUNC 140b29d80
+FUNC 140b2a390
+FUNC 140b31170
+FUNC 140b40570
+FUNC 140b4add0
+FUNC 140b63050
+FUNC 140b78040
+FUNC 140b7dfc0
+FUNC 140b7e4a0
+FUNC 140b7e520
+FUNC 140b80fc0
+FUNC 140b81a00
+FUNC 140b85790
+FUNC 140b85cc0
+FUNC 140b8bef0
+FUNC 140be1bc0
+FUNC 140be3b60
+FUNC 140c21800
+FUNC 140c23dc0
+FUNC 140c33d20
+FUNC 140c34770
+FUNC 140c45500
+FUNC 140c590b0
+FUNC 140c80930
+FUNC 140c86c80
+FUNC 140c89680
+FUNC 140c94ad0
+FUNC 140c94bd0
+FUNC 140c94e70
+FUNC 140c94f00
+FUNC 140c97f90
+FUNC 140c98970
+FUNC 140c99520
+FUNC 140ca0bd0
+FUNC 140ca2e60
+FUNC 140cb0dc0
+FUNC 140cb33f0
+FUNC 140cb6690
+FUNC 140cbc140
+FUNC 140cc0e80
+FUNC 140cc3e90
+FUNC 140cd4960
+FUNC 140cfd5f0
+FUNC 140d11580
+FUNC 140d4abd0
+FUNC 140d588a0
+FUNC 140d6d3d0
+FUNC 140d9d290
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

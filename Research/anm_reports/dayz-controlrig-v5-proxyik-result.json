@@ -1,0 +1,53 @@
+{
+  "source_clean_file": "P:\\Animation_Weapon\\Weapon_template_clean_no_blender_ik.blend",
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_controlrig_v5_proxyik.blend",
+  "dayz_armature": "_DayZ_Character",
+  "control_rig": "DAT_ControlRigV5",
+  "visible_control_bones": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "hidden_proxy_bones": [
+    "IK_Arm.L",
+    "IK_ForeArm.L",
+    "IK_Hand.L",
+    "IK_Arm.R",
+    "IK_ForeArm.R",
+    "IK_Hand.R"
+  ],
+  "dayz_follow_constraints": [
+    {
+      "bone": "LeftArm",
+      "proxy": "IK_Arm.L",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "bone": "LeftForeArm",
+      "proxy": "IK_ForeArm.L",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "bone": "LeftHand",
+      "proxy": "IK_Hand.L",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "bone": "RightArm",
+      "proxy": "IK_Arm.R",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "bone": "RightForeArm",
+      "proxy": "IK_ForeArm.R",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "bone": "RightHand",
+      "proxy": "IK_Hand.R",
+      "type": "COPY_ROTATION"
+    }
+  ],
+  "note": "Proxy IK rig: IK uses a clean 3-bone arm chain without DayZ roll bones. DayZ skeleton keeps rest locations and copies rotations only."
+}

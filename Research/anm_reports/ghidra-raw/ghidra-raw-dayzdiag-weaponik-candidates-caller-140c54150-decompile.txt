@@ -1,0 +1,149 @@
+
+undefined8 FUN_140c54150(longlong param_1,void *param_2,undefined8 param_3,undefined8 *param_4)
+
+{
+  uint uVar1;
+  uint uVar2;
+  ulonglong uVar3;
+  void *_Src;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  ulonglong uVar7;
+  ulonglong *puVar8;
+  ulonglong *puVar9;
+  undefined8 uVar10;
+  ulonglong uVar11;
+  char *pcVar12;
+  ulonglong uVar13;
+  byte *pbVar14;
+  longlong lVar15;
+  ulonglong *puVar16;
+  longlong lVar17;
+  int iVar18;
+  undefined8 *puVar19;
+  size_t _Size;
+  ulonglong uVar20;
+  ulonglong local_288 [4];
+  ulonglong *local_268;
+  int local_260;
+  uint local_248 [136];
+  
+  _Size = (size_t)(int)param_3;
+  iVar18 = *(int *)(param_1 + 0x10);
+  if (((iVar18 - 0x10U & 0xffffffe7) == 0) && (iVar18 != 0x28)) {
+    if (((*(int *)(param_1 + 0x20) == iVar18) && (*(int *)(param_1 + 0x50) == iVar18)) &&
+       (*(int *)(param_1 + 0x38) == 0x10)) {
+      puVar19 = param_4;
+      FUN_140060890(&local_268);
+      FUN_140ab2a30(param_4,(longlong *)&local_268,param_3,(longlong)puVar19);
+      uVar2 = *(uint *)(param_1 + 0x10);
+      uVar11 = 0;
+      if (uVar2 != 0) {
+        if (0x3f < uVar2) {
+          uVar20 = *(ulonglong *)(param_1 + 0x18);
+          uVar1 = uVar2 - 1;
+          uVar3 = *(ulonglong *)(param_1 + 0x48);
+          uVar13 = (longlong)local_288 + (ulonglong)uVar1;
+          if ((((ulonglong *)(uVar20 + uVar1) < local_288) || (uVar13 < uVar20)) &&
+             (((ulonglong *)(uVar3 + uVar1) < local_288 || (uVar13 < uVar3)))) {
+            do {
+              iVar18 = (int)uVar11;
+              lVar17 = (longlong)iVar18;
+              uVar13 = ((ulonglong *)(uVar20 + lVar17))[1];
+              uVar4 = ((ulonglong *)(uVar3 + lVar17))[1];
+              puVar8 = (ulonglong *)(uVar20 + lVar17 + 0x10);
+              uVar5 = *puVar8;
+              uVar6 = puVar8[1];
+              *(ulonglong *)((longlong)local_288 + uVar11) =
+                   *(ulonglong *)(uVar3 + lVar17) ^ *(ulonglong *)(uVar20 + lVar17);
+              *(ulonglong *)((longlong)local_288 + uVar11 + 8) = uVar4 ^ uVar13;
+              uVar11 = (ulonglong)(iVar18 + 0x40U);
+              puVar8 = (ulonglong *)(uVar3 + lVar17 + 0x10);
+              uVar13 = puVar8[1];
+              puVar16 = (ulonglong *)(uVar20 + lVar17 + 0x20);
+              uVar4 = *puVar16;
+              uVar7 = puVar16[1];
+              *(ulonglong *)((longlong)local_288 + (ulonglong)(iVar18 + 0x10)) = *puVar8 ^ uVar5;
+              *(ulonglong *)((longlong)local_288 + (ulonglong)(iVar18 + 0x10) + 8) = uVar13 ^ uVar6;
+              puVar8 = (ulonglong *)(uVar3 + lVar17 + 0x20);
+              uVar13 = puVar8[1];
+              puVar16 = (ulonglong *)(uVar20 + lVar17 + 0x30);
+              uVar5 = *puVar16;
+              uVar6 = puVar16[1];
+              *(ulonglong *)((longlong)local_288 + (ulonglong)(iVar18 + 0x20)) = *puVar8 ^ uVar4;
+              *(ulonglong *)((longlong)local_288 + (ulonglong)(iVar18 + 0x20) + 8) = uVar13 ^ uVar7;
+              puVar8 = (ulonglong *)(uVar3 + lVar17 + 0x30);
+              uVar13 = puVar8[1];
+              *(ulonglong *)((longlong)local_288 + (ulonglong)(iVar18 + 0x30)) = *puVar8 ^ uVar5;
+              *(ulonglong *)((longlong)local_288 + (ulonglong)(iVar18 + 0x30) + 8) = uVar13 ^ uVar6;
+            } while (iVar18 + 0x40U < (uVar2 & 0xffffffc0));
+          }
+        }
+        if ((uint)uVar11 < uVar2) {
+          lVar17 = *(longlong *)(param_1 + 0x48);
+          lVar15 = *(longlong *)(param_1 + 0x18);
+          pbVar14 = (byte *)((longlong)local_288 + uVar11);
+          do {
+            iVar18 = (int)uVar11;
+            uVar11 = (ulonglong)(iVar18 + 1U);
+            *pbVar14 = *(byte *)(iVar18 + lVar17) ^ *(byte *)(iVar18 + lVar15);
+            pbVar14 = pbVar14 + 1;
+          } while (iVar18 + 1U < uVar2);
+        }
+      }
+      FUN_140c56d00(local_248,(longlong)local_288,uVar2 * 8);
+      iVar18 = *(int *)(param_1 + 0x38);
+      _Src = *(void **)(param_1 + 0x30);
+      puVar8 = operator_new((longlong)iVar18);
+      memmove(puVar8,_Src,(longlong)iVar18);
+      if (0 < local_260) {
+        lVar17 = (longlong)puVar8 - (longlong)local_268;
+        uVar20 = (ulonglong)((local_260 - 1U >> 4) + 1);
+        puVar16 = local_268;
+        do {
+          uVar3 = *puVar16;
+          uVar13 = puVar16[1];
+          FUN_140c54ad0((longlong)local_248,(undefined1 *)puVar16,(undefined1 *)puVar16);
+          if (((ulonglong *)((longlong)puVar8 + 0xfU) < puVar16) ||
+             ((ulonglong *)((longlong)puVar16 + 0xfU) < puVar8)) {
+            uVar4 = puVar8[1];
+            *puVar16 = *puVar8 ^ *puVar16;
+            puVar16[1] = uVar4 ^ puVar16[1];
+          }
+          else {
+            lVar15 = 0x10;
+            puVar9 = puVar16;
+            do {
+              *(byte *)puVar9 = (byte)*puVar9 ^ *(byte *)((longlong)puVar9 + lVar17);
+              puVar9 = (ulonglong *)((longlong)puVar9 + 1);
+              lVar15 = lVar15 + -1;
+            } while (lVar15 != 0);
+          }
+          puVar16 = puVar16 + 2;
+          lVar17 = lVar17 + -0x10;
+          *puVar8 = uVar3;
+          puVar8[1] = uVar13;
+          uVar20 = uVar20 - 1;
+        } while (uVar20 != 0);
+      }
+      FUN_140c56d00(local_248,0x14481f610,*(int *)(param_1 + 0x10) << 3);
+      memcpy(param_2,local_268,_Size);
+      if (puVar8 != (ulonglong *)0x0) {
+        free(puVar8);
+      }
+      uVar10 = thunk_FUN_14006b140(&local_268,local_268,_Size,uVar11);
+      return CONCAT71((int7)((ulonglong)uVar10 >> 8),1);
+    }
+    pcVar12 = "Invalid data used for AES algorithm. Call Init() before using encryption/decryption";
+  }
+  else {
+    pcVar12 = 
+    "Invalid key size used for AES algorithm: key size length must be 16B, 24B or 32B. Call Init() before using encryption/decryption"
+    ;
+  }
+  uVar11 = FUN_140c5ac20(pcVar12,param_2,param_3,param_4);
+  return uVar11 & 0xffffffffffffff00;
+}
+
+

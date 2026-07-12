@@ -1,0 +1,51 @@
+{
+  "file_saved_as": "P:\\Animation_Weapon\\Weapon_template_arm_ik_controls.blend",
+  "created_or_updated_controls": [
+    "DAT_CTRL_L_Elbow",
+    "DAT_CTRL_L_Hand",
+    "DAT_CTRL_R_Elbow",
+    "DAT_CTRL_R_Hand"
+  ],
+  "auto_follow_helper_bones": [
+    "LeftForeArmDirection",
+    "LeftForeArmDirectionOrigin",
+    "LeftHandIK",
+    "LeftHandIKTarget",
+    "LeftHandOrigin",
+    "LeftHand_Dummy",
+    "RightForeArmDirection",
+    "RightForeArmDirectionOrigin",
+    "RightHandIK",
+    "RightHandOrigin",
+    "RightHand_Dummy"
+  ],
+  "visible_bones": [
+    "DAT_CTRL_L_Elbow",
+    "DAT_CTRL_L_Hand",
+    "DAT_CTRL_R_Elbow",
+    "DAT_CTRL_R_Hand",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightHand",
+    "RightShoulder",
+    "Weapon_Bolt",
+    "Weapon_Magazine",
+    "Weapon_Root",
+    "Weapon_Trigger"
+  ],
+  "visible_bones_count": 16,
+  "hidden_shape_objects": [
+    "zJD_Axis",
+    "zJD_Axis_Small",
+    "zJD_Circle",
+    "zJD_Cube",
+    "zJD_SingleArrow",
+    "zJD_Sphere"
+  ],
+  "removed_old_weaponik_preview_constraints": [],
+  "note": "Move DAT_CTRL_* hand bones for arm IK and DAT_CTRL_* elbow bones for pole direction. Technical DayZ helper bones are hidden and constrained to controls."
+}

@@ -1,0 +1,37 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+float * FUN_1400e33b0(float *param_1,float *param_2,undefined4 param_3)
+
+{
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+  switch(param_3) {
+  case 0:
+    FUN_1400dac60(param_1,param_2);
+    return param_1;
+  case 1:
+    FUN_1400dad40(param_1,param_2);
+    return param_1;
+  case 2:
+    FUN_1400dae70(param_1,param_2);
+    return param_1;
+  case 3:
+    FUN_1400dacd0(param_1,param_2);
+    return param_1;
+  case 4:
+    FUN_1400dadd0(param_1,param_2);
+    return param_1;
+  case 5:
+    FUN_1400daf10(param_1,param_2);
+    return param_1;
+  default:
+    local_18 = _DAT_140de9e60;
+    uStack_10 = _UNK_140de9e68;
+    FUN_140c2d5c0(param_1,(undefined4 *)&local_18);
+    return param_1;
+  }
+}
+
+

@@ -1,0 +1,148 @@
+
+ulonglong FUN_1410580e0(longlong param_1,undefined8 param_2,undefined8 param_3,longlong *param_4)
+
+{
+  undefined4 *puVar1;
+  undefined8 *puVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  longlong lVar9;
+  undefined4 *puVar10;
+  undefined8 uVar11;
+  undefined8 uVar12;
+  uint uVar13;
+  uint uVar14;
+  longlong *plVar15;
+  ulonglong uVar16;
+  uint uVar17;
+  longlong lVar18;
+  ulonglong uVar19;
+  undefined **local_b8;
+  undefined4 local_b0;
+  longlong local_a8;
+  undefined8 local_a0;
+  undefined4 *local_98;
+  
+  plVar15 = (longlong *)*param_4;
+  if (((char *)*plVar15 == "frame") ||
+     (((char *)*plVar15 != (char *)0x0 && (plVar15 = (longlong *)FUN_1402c4a30(), (int)plVar15 == 0)
+      ))) {
+    if (*(uint *)((longlong)param_4 + 0xc) < 2) {
+      plVar15 = (longlong *)
+                FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*(undefined8 *)*param_4);
+    }
+    else {
+      lVar9 = *(longlong *)(param_1 + 0x18);
+      uVar14 = *(uint *)(lVar9 + 0x24);
+      uVar13 = *(uint *)(lVar9 + 0x20);
+      uVar17 = uVar14 + 1;
+      if (uVar13 < uVar17) {
+        uVar14 = uVar13 + 4;
+        if (3 < uVar13 + 1) {
+          uVar14 = uVar13 * 2 + 1;
+        }
+        if (uVar17 <= uVar14) {
+          uVar17 = uVar14;
+        }
+        FUN_141057790(lVar9 + 0x18,uVar17);
+        uVar14 = *(uint *)(lVar9 + 0x24);
+      }
+      lVar18 = *(longlong *)(lVar9 + 0x18);
+      puVar1 = (undefined4 *)(lVar18 + (ulonglong)uVar14 * 0x28);
+      if (puVar1 != (undefined4 *)0x0) {
+        *(undefined8 *)(puVar1 + 3) = 0x3f800000;
+        *(undefined8 *)(puVar1 + 1) = 0;
+        *puVar1 = 0;
+        *(undefined8 *)(puVar1 + 5) = 0;
+        puVar1[9] = 0x3f800000;
+        puVar1[8] = 0x3f800000;
+        puVar1[7] = 0x3f800000;
+        uVar14 = *(uint *)(lVar9 + 0x24);
+        lVar18 = *(longlong *)(lVar9 + 0x18);
+      }
+      puVar1 = (undefined4 *)(lVar18 + (ulonglong)uVar14 * 0x28);
+      *(uint *)(lVar9 + 0x24) = uVar14 + 1;
+      uVar13 = FUN_140202210(*param_4 + 8,0);
+      uVar19 = (ulonglong)uVar13;
+      if (uVar13 != 0) {
+        puVar10 = *(undefined4 **)(*(longlong *)(param_1 + 0x18) + 0x18);
+        *puVar1 = *puVar10;
+        puVar1[1] = puVar10[1];
+        puVar1[2] = puVar10[2];
+        puVar1[3] = puVar10[3];
+        puVar1[4] = puVar10[4];
+        puVar1[5] = puVar10[5];
+        puVar1[6] = puVar10[6];
+        puVar1[7] = puVar10[7];
+        puVar1[8] = puVar10[8];
+        puVar1[9] = puVar10[9];
+      }
+      uVar14 = uVar13;
+      if (2 < *(uint *)((longlong)param_4 + 0xc)) {
+        uVar14 = FUN_140202210(*param_4 + 0x10,0);
+      }
+      local_a0 = *(undefined8 *)(param_1 + 0x18);
+      local_b0 = 3;
+      local_b8 = TXA::ParseFrame::vftable;
+      local_a8 = param_1;
+      local_98 = puVar1;
+      plVar15 = (longlong *)FUN_141058e60(param_2,param_3,&local_b8);
+      if ((char)plVar15 != '\0') {
+        uVar16 = *(ulonglong *)(param_1 + 0x18);
+        lVar9 = *(longlong *)(uVar16 + 0x18);
+        uVar3 = *(undefined4 *)(lVar9 + 0x10 + uVar19 * 0x28);
+        uVar4 = *(undefined4 *)(lVar9 + 0x14 + uVar19 * 0x28);
+        uVar5 = *(undefined4 *)(lVar9 + 0x18 + uVar19 * 0x28);
+        uVar6 = *(undefined4 *)(lVar9 + 0x1c + uVar19 * 0x28);
+        uVar7 = *(undefined4 *)(lVar9 + 0x20 + uVar19 * 0x28);
+        uVar8 = *(undefined4 *)(lVar9 + 0x24 + uVar19 * 0x28);
+        puVar2 = (undefined8 *)(lVar9 + uVar19 * 0x28);
+        uVar11 = *puVar2;
+        uVar12 = puVar2[1];
+        if (uVar13 + 1 <= uVar14) {
+          uVar19 = (ulonglong)((uVar14 - (uVar13 + 1)) + 1);
+          do {
+            lVar9 = *(longlong *)(param_1 + 0x18);
+            uVar14 = *(uint *)(lVar9 + 0x24);
+            uVar17 = *(uint *)(lVar9 + 0x20);
+            uVar13 = uVar14 + 1;
+            if (uVar17 < uVar13) {
+              uVar14 = uVar17 + 4;
+              if (3 < uVar17 + 1) {
+                uVar14 = uVar17 * 2 + 1;
+              }
+              if (uVar13 <= uVar14) {
+                uVar13 = uVar14;
+              }
+              FUN_141057790(lVar9 + 0x18,uVar13);
+              uVar14 = *(uint *)(lVar9 + 0x24);
+            }
+            puVar2 = (undefined8 *)(*(longlong *)(lVar9 + 0x18) + (ulonglong)uVar14 * 0x28);
+            if (puVar2 != (undefined8 *)0x0) {
+              *puVar2 = uVar11;
+              puVar2[1] = uVar12;
+              *(undefined4 *)(puVar2 + 2) = uVar3;
+              *(undefined4 *)((longlong)puVar2 + 0x14) = uVar4;
+              *(undefined4 *)(puVar2 + 3) = uVar5;
+              *(undefined4 *)((longlong)puVar2 + 0x1c) = uVar6;
+              *(undefined4 *)(puVar2 + 4) = uVar7;
+              *(undefined4 *)((longlong)puVar2 + 0x24) = uVar8;
+              uVar14 = *(uint *)(lVar9 + 0x24);
+            }
+            uVar16 = (ulonglong)(uVar14 + 1);
+            *(uint *)(lVar9 + 0x24) = uVar14 + 1;
+            uVar19 = uVar19 - 1;
+          } while (uVar19 != 0);
+        }
+        return CONCAT71((int7)(uVar16 >> 8),1);
+      }
+    }
+  }
+  return (ulonglong)plVar15 & 0xffffffffffffff00;
+}
+
+

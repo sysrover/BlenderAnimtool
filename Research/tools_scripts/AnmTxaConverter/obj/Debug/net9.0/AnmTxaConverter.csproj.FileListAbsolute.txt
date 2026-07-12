@@ -1,0 +1,14 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Debug\net9.0\AnmTxaConverter.exe
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Debug\net9.0\AnmTxaConverter.deps.json
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Debug\net9.0\AnmTxaConverter.runtimeconfig.json
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Debug\net9.0\AnmTxaConverter.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Debug\net9.0\AnmTxaConverter.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.AssemblyInfoInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.AssemblyInfo.cs
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.csproj.CoreCompileInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\refint\AnmTxaConverter.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\AnmTxaConverter.genruntimeconfig.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\obj\Debug\net9.0\ref\AnmTxaConverter.dll

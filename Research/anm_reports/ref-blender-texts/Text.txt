@@ -1,0 +1,27 @@
+import bpy
+
+bone_names = []
+for armature in [ob for ob in bpy.data.objects if (ob.type == 'ARMATURE' and ob.name == "Armature")]:
+    for bone in armature.data.bones:
+        if not (bone.name.startswith(("ORG", "DEF","MCH","VIS"))) :
+            bone_names.append(bone.name)
+        
+print(bone_names)
+    
+for bone in bone_names:
+    armObj = bpy.data.objects['Armature']
+    pose = armObj.pose
+
+    selected_bone = pose.bones.get(bone)
+    print(selected_bone)
+    selected_bone.constraints.new(type='COPY_TRANSFORMS')
+    selected_bone.constraints["Copy Transforms"].target = bpy.data.objects["Pose RPG"]
+    selected_bone.constraints["Copy Transforms"].subtarget = bone
+    boneToSelect = bpy.data.objects['Armature'].pose.bones[bone].bone
+    #Set as active 
+    bpy.context.object.data.bones.active = boneToSelect
+    #Select in viewport
+    boneToSelect.select = True
+    bpy.ops.constraint.apply(constraint="Copy Transforms", owner='BONE')
+    boneToSelect.select = False
+    bpy.context.object.data.bones.active = None

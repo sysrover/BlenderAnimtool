@@ -1,0 +1,25 @@
+{
+  "left_pole": [
+    -0.33079957962036133,
+    0.5084307193756104,
+    0.9631385803222656
+  ],
+  "right_pole": [
+    0.7702504396438599,
+    -0.08389893919229507,
+    0.9741977453231812
+  ],
+  "left_ik": {
+    "target": "LeftHandIKTarget",
+    "pole_target": "WIK_L_Elbow_Pole",
+    "chain_count": 3,
+    "use_tail": false
+  },
+  "right_ik": {
+    "target": "RightHandOrigin",
+    "pole_target": "WIK_R_Elbow_Pole",
+    "chain_count": 3,
+    "use_tail": true
+  },
+  "note": "Blender preview uses anatomical elbow pole controls and chain_count=3 to avoid pulling upper arms into the face."
+}

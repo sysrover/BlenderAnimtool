@@ -1,0 +1,7 @@
+# Ghidra Raw: Workbench slerp threshold
+
+Endpoint: /read_memory?program=workbenchApp.exe&address=0x141a6d970&length=8
+
+{"address":"141a6d970","length":8,"data":[119,190,127,63,107,11,94,221],"hex":"77be7f3f6b0b5edd"}
+
+Interpretation note for docs: first 4 little-endian bytes 77 be 7f 3f = float 0.999. This address is DAT_141a6d970 in FUN_1402bbe70 decompile.

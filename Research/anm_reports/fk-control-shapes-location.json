@@ -1,0 +1,125 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v14_roll_locks.blend",
+  "shapes": [
+    {
+      "name": "WGT_DAT_FK_Joint_Ring",
+      "missing": false,
+      "state": {
+        "hide_viewport": false,
+        "hide_get": false,
+        "hide_select": false,
+        "display_type": "WIRE",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      },
+      "used_by": [
+        "DAT_DayZ_Arm_FK_Controls:FK_LeftArm.L",
+        "DAT_DayZ_Arm_FK_Controls:FK_LeftForeArm.L",
+        "DAT_DayZ_Arm_FK_Controls:FK_RightArm.R",
+        "DAT_DayZ_Arm_FK_Controls:FK_RightForeArm.R"
+      ]
+    },
+    {
+      "name": "WGT_DAT_FK_Roll_Ring",
+      "missing": false,
+      "state": {
+        "hide_viewport": false,
+        "hide_get": false,
+        "hide_select": false,
+        "display_type": "WIRE",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      },
+      "used_by": [
+        "DAT_DayZ_Arm_FK_Controls:FK_LeftArmRoll.L",
+        "DAT_DayZ_Arm_FK_Controls:FK_LeftForeArmRoll.L",
+        "DAT_DayZ_Arm_FK_Controls:FK_RightArmRoll.R",
+        "DAT_DayZ_Arm_FK_Controls:FK_RightForeArmRoll.R"
+      ]
+    },
+    {
+      "name": "WGT_DAT_FK_Hand_Ring",
+      "missing": false,
+      "state": {
+        "hide_viewport": false,
+        "hide_get": false,
+        "hide_select": false,
+        "display_type": "WIRE",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      },
+      "used_by": [
+        "DAT_DayZ_Arm_FK_Controls:FK_LeftHand.L",
+        "DAT_DayZ_Arm_FK_Controls:FK_RightHand.R"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "name": "WGT_DAT_FK_Joint_Ring",
+      "before": {
+        "hide_viewport": true,
+        "hide_get": true,
+        "hide_select": false,
+        "display_type": "TEXTURED",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      },
+      "after": {
+        "hide_viewport": false,
+        "hide_get": false,
+        "hide_select": false,
+        "display_type": "WIRE",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      }
+    },
+    {
+      "name": "WGT_DAT_FK_Roll_Ring",
+      "before": {
+        "hide_viewport": true,
+        "hide_get": true,
+        "hide_select": false,
+        "display_type": "TEXTURED",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      },
+      "after": {
+        "hide_viewport": false,
+        "hide_get": false,
+        "hide_select": false,
+        "display_type": "WIRE",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      }
+    },
+    {
+      "name": "WGT_DAT_FK_Hand_Ring",
+      "before": {
+        "hide_viewport": true,
+        "hide_get": true,
+        "hide_select": false,
+        "display_type": "TEXTURED",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      },
+      "after": {
+        "hide_viewport": false,
+        "hide_get": false,
+        "hide_select": false,
+        "display_type": "WIRE",
+        "collections": [
+          "DayZ Animation Controls"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "source_clean": "P:\\Animation_Weapon\\Weapon_template_dayz_diag_restored.blend",
+  "user_reference": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\right-hand-loaded-pose-delta.json",
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_dayz_diag_loaded_base_right_hand_correct.blend",
+  "applied_bones": [
+    "RightHand"
+  ],
+  "right_hand_target_matrix_basis": [
+    [
+      0.7361869215965271,
+      -0.6400023698806763,
+      -0.22005869448184967,
+      0.0
+    ],
+    [
+      0.6589884161949158,
+      0.6038204431533813,
+      0.4484810531139374,
+      0.0
+    ],
+    [
+      -0.15415295958518982,
+      -0.4751819968223572,
+      0.8662788271903992,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "check_bones": {
+    "RightHand": {
+      "matrix_basis_max_abs_delta_vs_user": 1.1920928955078125e-07,
+      "direction_max_abs_delta_vs_user": 5.960464477539063e-08,
+      "after_direction_world": [
+        -0.08642489463090897,
+        -0.9819968342781067,
+        -0.16796699166297913
+      ],
+      "user_direction_world": [
+        -0.08642489463090897,
+        -0.9819968938827515,
+        -0.16796699166297913
+      ]
+    },
+    "RightHand_Dummy": {
+      "matrix_basis_max_abs_delta_vs_user": 0.0,
+      "direction_max_abs_delta_vs_user": 1.1920928955078125e-06,
+      "after_direction_world": [
+        0.00861283391714096,
+        -0.9999178647994995,
+        0.009492594748735428
+      ],
+      "user_direction_world": [
+        0.0086129829287529,
+        -0.9999178647994995,
+        0.00949140265583992
+      ]
+    },
+    "RightHandIK": {
+      "matrix_basis_max_abs_delta_vs_user": 0.0,
+      "direction_max_abs_delta_vs_user": 0.0,
+      "after_direction_world": [
+        -0.7670581340789795,
+        -0.009177015163004398,
+        0.6415119171142578
+      ],
+      "user_direction_world": [
+        -0.7670581340789795,
+        -0.009177015163004398,
+        0.6415119171142578
+      ]
+    },
+    "RightHandOrigin": {
+      "matrix_basis_max_abs_delta_vs_user": 0.0,
+      "direction_max_abs_delta_vs_user": 0.0,
+      "after_direction_world": [
+        -0.09506475180387497,
+        -0.9796337485313416,
+        -0.17686240375041962
+      ],
+      "user_direction_world": [
+        -0.09506475180387497,
+        -0.9796337485313416,
+        -0.17686240375041962
+      ]
+    },
+    "RightForeArmDirectionOrigin": {
+      "matrix_basis_max_abs_delta_vs_user": 0.0,
+      "direction_max_abs_delta_vs_user": 1.7881393432617188e-07,
+      "after_direction_world": [
+        0.681361973285675,
+        -0.5107836127281189,
+        -0.5242575407028198
+      ],
+      "user_direction_world": [
+        0.6813621520996094,
+        -0.5107834339141846,
+        -0.5242574214935303
+      ]
+    }
+  },
+  "max_error": 1.1920928955078125e-06,
+  "accepted": true,
+  "meaning": "Setting only RightHand.matrix_basis reproduces the user-correct loaded pose for hand and inherited helpers."
+}

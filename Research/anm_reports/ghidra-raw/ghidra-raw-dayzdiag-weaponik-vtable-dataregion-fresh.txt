@@ -1,0 +1,1 @@
+{"start_address":"140decb30","end_address":"140decb67","byte_span":56,"xref_map":{"140decb30":["140108ca6","140108cb0","140108d3c","140108d43"]},"unique_xref_addresses":["140108ca6","140108d3c","140108d43","140108cb0"],"xref_count":4,"classification_hint":"ARRAY","stride_detected":1,"current_name":"vftable","current_type":"pointer[7]","is_likely_string":false}

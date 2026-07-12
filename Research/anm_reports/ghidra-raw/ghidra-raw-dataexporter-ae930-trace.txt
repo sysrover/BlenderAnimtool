@@ -1,0 +1,3190 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DataExporterAe930Trace.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:30:35 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DataExporterAe930Trace.java
+Size: 5415 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+TARGET_PROGRAM dataExporter_v141_x64_RetailDX11.dll
+TARGET_PATH /dataExporter_v141_x64_RetailDX11.dll
+============================================================
+FUNCTION_REQUEST 1800ae930
+FUNCTION FUN_1800ae930 entry=1800ae930
+CALLERS
+  CALLER from=183ee8338 function=<none> entry=<none>
+  CALLER from=1800b7d3d function=ShowAnimExportDialogThread2 entry=1800b7b90
+  CALLER from=1800b7e11 function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800ae9c9 to=18015d5b0 function=FUN_18015d5b0 entry=18015d5b0
+  CALL from=1800ae9e4 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800ae9fd to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800aea0d to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800aea18 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800aeab8 to=1808ce3b0 function=operator_new entry=1808ce3b0
+  CALL from=1800aeb4c to=1800b8430 function=FUN_1800b8430 entry=1800b8430
+  CALL from=1800aeb84 to=1800b2160 function=FUN_1800b2160 entry=1800b2160
+  CALL from=1800aebe3 to=EXTERNAL:000003ba function=atol entry=EXTERNAL:000003ba
+  CALL from=1800aec28 to=180223ce0 function=FUN_180223ce0 entry=180223ce0
+  CALL from=1800aec4f to=1808df412 function=memcpy entry=1808df412
+  CALL from=1800aec63 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800aecc0 to=1808ce3b0 function=operator_new entry=1808ce3b0
+  CALL from=1800aed1b to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800aed24 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800aed5a to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800aed6a to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800aed75 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800aedb3 to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800aeddc to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800aee1e to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800aee47 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800aee5b to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800aee74 to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800aee84 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800aee8f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800aeeaa to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800aeeec to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800aeefe to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800aef07 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800aef1c to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800aef2c to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800aef4e to=1800afc00 function=FUN_1800afc00 entry=1800afc00
+  CALL from=1800aefa3 to=1800adb60 function=FUN_1800adb60 entry=1800adb60
+  CALL from=1800aefb9 to=1800af0c0 function=FUN_1800af0c0 entry=1800af0c0
+  CALL from=1800aefd7 to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800af004 to=1800b1820 function=FUN_1800b1820 entry=1800b1820
+  CALL from=1800af01f to=1807e4360 function=FUN_1807e4360 entry=1807e4360
+  CALL from=1800af02c to=1800ad960 function=FUN_1800ad960 entry=1800ad960
+  CALL from=1800af035 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800af042 to=1800ad9f0 function=FUN_1800ad9f0 entry=1800ad9f0
+  CALL from=1800af04b to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800af055 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800af077 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800af088 to=1800aca80 function=FUN_1800aca80 entry=1800aca80
+  CALL from=1800af092 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800af09b to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800af0a6 to=EXTERNAL:000003aa function=_invalid_parameter_noinfo_noreturn entry=EXTERNAL:000003aa
+  CALL from=1800af0ad to=EXTERNAL:000003aa function=_invalid_parameter_noinfo_noreturn entry=EXTERNAL:000003aa
+DECOMPILE_BEGIN FUN_1800ae930 1800ae930
+
+undefined8 FUN_1800ae930(longlong *param_1,longlong *param_2,QString *param_3)
+
+{
+  short *psVar1;
+  longlong *plVar2;
+  undefined1 auVar3 [16];
+  undefined1 auVar4 [16];
+  uint uVar5;
+  void *pvVar6;
+  bool bVar7;
+  char cVar8;
+  byte bVar9;
+  byte bVar10;
+  int iVar11;
+  uint uVar12;
+  long lVar13;
+  longlong lVar14;
+  QString *pQVar15;
+  __uint64 _Var16;
+  QString *_Memory;
+  undefined2 *puVar17;
+  QString *_Memory_00;
+  undefined8 *puVar18;
+  longlong lVar19;
+  char *pcVar20;
+  undefined1 *puVar21;
+  void *pvVar22;
+  uint uVar23;
+  ulonglong uVar24;
+  char *pcVar25;
+  uint uVar26;
+  longlong *plVar27;
+  QString *pQVar28;
+  longlong lVar29;
+  ulonglong uVar30;
+  size_t _Size;
+  uint uVar31;
+  uint local_res20;
+  QString *in_stack_fffffffffffffef8;
+  undefined4 uVar33;
+  undefined8 uVar32;
+  undefined1 local_e0;
+  undefined7 uStack_df;
+  undefined8 local_d0;
+  ulonglong local_c8;
+  undefined4 local_c0 [2];
+  char *local_b8;
+  longlong local_b0;
+  ulonglong local_a8;
+  QString *local_a0;
+  QString local_98 [8];
+  QString local_90 [8];
+  QString local_88 [8];
+  QString local_80 [8];
+  undefined **local_78;
+  longlong local_70;
+  undefined **local_68;
+  longlong local_60;
+  undefined8 local_58;
+  
+  local_58 = 0xfffffffffffffffe;
+  local_res20 = 0;
+  iVar11 = (**(code **)(*param_2 + 8))(param_2);
+  if (iVar11 != 0) {
+    do {
+      lVar14 = (**(code **)(*param_2 + 0x18))(param_2,local_res20);
+      local_b0 = lVar14;
+      if (*(char *)(lVar14 + 1) != '\0') {
+        uVar32 = *(undefined8 *)(lVar14 + 0x18);
+        uVar12 = *(uint *)((longlong)param_1 + 0xc);
+        plVar2 = (longlong *)*param_1;
+        uVar24 = 0;
+        plVar27 = plVar2;
+        if (uVar12 != 0) {
+LAB_1800ae9b1:
+          puVar21 = &DAT_180bdb0d8;
+          if (*(undefined1 **)(*plVar27 + 0x18) != (undefined1 *)0x0) {
+            puVar21 = *(undefined1 **)(*plVar27 + 0x18);
+          }
+          iVar11 = FUN_18015d5b0(puVar21,uVar32);
+          if (iVar11 != 0) goto code_r0x0001800ae9d6;
+          pQVar15 = (QString *)plVar2[uVar24];
+          if (pQVar15 == (QString *)0x0) goto LAB_1800ae9e0;
+          _Memory_00 = (QString *)0x0;
+          local_70 = param_1[2];
+          local_78 = AnimExportDialogCtxTransMod::vftable;
+          local_68 = AnimExportDialogCtxTransGen::vftable;
+          uVar12 = *(uint *)(pQVar15 + 0xc);
+          local_a8 = CONCAT44(0,uVar12);
+          uVar24 = (ulonglong)uVar12;
+          auVar3._8_8_ = 0;
+          auVar3._0_8_ = local_a8;
+          _Var16 = SUB168(ZEXT816(0x28) * auVar3,0);
+          if (SUB168(ZEXT816(0x28) * auVar3,8) != 0) {
+            _Var16 = 0xffffffffffffffff;
+          }
+          local_60 = local_70;
+          _Memory = operator_new(_Var16);
+          if (uVar12 != 0) {
+            lVar29 = 0;
+            pQVar28 = _Memory + 8;
+            uVar30 = (ulonglong)uVar12;
+            do {
+              puVar21 = &DAT_180bdb0d8;
+              if (*(undefined1 **)(lVar29 + *(longlong *)pQVar15) != (undefined1 *)0x0) {
+                puVar21 = *(undefined1 **)(lVar29 + *(longlong *)pQVar15);
+              }
+              *(undefined1 **)(pQVar28 + -8) = puVar21;
+              *(longlong *)pQVar28 = 0;
+              *(longlong *)(pQVar28 + 0x10) = 0;
+              lVar19 = *(longlong *)pQVar15;
+              iVar11 = *(int *)(lVar29 + 0xc + lVar19);
+              if ((iVar11 != -1) || (iVar11 = *(int *)(pQVar15 + 0x20), iVar11 != -1)) {
+                *(undefined ****)pQVar28 = &local_78;
+                *(int *)(pQVar28 + 8) = iVar11;
+                lVar19 = *(longlong *)pQVar15;
+              }
+              iVar11 = *(int *)(lVar19 + 0x14 + lVar29);
+              if (iVar11 != -1) {
+                *(undefined ****)(pQVar28 + 0x10) = &local_68;
+                *(int *)(pQVar28 + 0x18) = iVar11;
+              }
+              lVar29 = lVar29 + 0x20;
+              pQVar28 = pQVar28 + 0x28;
+              uVar30 = uVar30 - 1;
+            } while (uVar30 != 0);
+          }
+          bVar9 = 1;
+          local_a0 = _Memory;
+          cVar8 = FUN_1800b8430(pQVar15);
+          if (cVar8 == '\0') {
+LAB_1800aeeb5:
+            in_stack_fffffffffffffef8 = _Memory;
+            bVar10 = (**(code **)(*param_2 + 0x40))
+                               (param_2,local_res20,1,*(undefined4 *)(lVar14 + 0x28),_Memory,uVar12,
+                                local_c0,*(undefined4 *)(pQVar15 + 0x10));
+            free(_Memory);
+            if ((bVar9 & bVar10) != 0) {
+              puVar18 = (undefined8 *)FUN_1800afc00(param_1,param_2,local_res20,local_c0[0]);
+              bVar7 = false;
+              uVar12 = 0;
+              if (*(int *)(pQVar15 + 0xc) != 0) {
+                do {
+                  bVar9 = *(byte *)((ulonglong)uVar12 * 0x20 + 0x18 + *(longlong *)pQVar15);
+                  if (bVar9 != 0) {
+                    if ((bVar9 & 0x70) == 0x10) {
+                      in_stack_fffffffffffffef8 = _Memory_00;
+                      iVar11 = FUN_1800adb60();
+                    }
+                    else {
+                      in_stack_fffffffffffffef8 = pQVar15;
+                      iVar11 = FUN_1800af0c0(param_1,param_2,local_res20,uVar12,pQVar15,puVar18,
+                                             param_3);
+                    }
+                    if (iVar11 == -1) {
+                      bVar7 = true;
+                      break;
+                    }
+                  }
+                  uVar12 = uVar12 + 1;
+                } while (uVar12 < *(uint *)(pQVar15 + 0xc));
+              }
+              if (_Memory_00 != (QString *)0x0) {
+                free(_Memory_00);
+              }
+              (**(code **)(*param_2 + 0x48))(param_2);
+              if (!bVar7) {
+                in_stack_fffffffffffffef8 = param_3;
+                FUN_1800b1820(param_1,param_2,local_res20,puVar18,param_3);
+              }
+              if (puVar18 != (undefined8 *)0x0) {
+                *puVar18 = TXA::Animation::vftable;
+                FUN_1807e4360(puVar18);
+                FUN_1800ad960(puVar18[0xe],*(undefined4 *)((longlong)puVar18 + 0x7c));
+                FUN_1802242d0(puVar18[0xe]);
+                FUN_1800ad9f0(puVar18[0xc],*(undefined4 *)((longlong)puVar18 + 0x6c));
+                FUN_1802242d0(puVar18[0xc]);
+                FUN_1802242d0(puVar18[10]);
+                if (puVar18[8] != 0) {
+                  psVar1 = (short *)(puVar18[8] + -2);
+                  *psVar1 = *psVar1 + -1;
+                  if (*psVar1 == 0) {
+                    FUN_1802242d0(puVar18[8] + -6);
+                  }
+                  puVar18[8] = 0;
+                }
+                FUN_1800aca80(puVar18 + 3);
+                FUN_1802242d0(puVar18[1]);
+                FUN_1802242d0(puVar18);
+              }
+              goto LAB_1800aea26;
+            }
+            if (_Memory_00 != (QString *)0x0) {
+              free(_Memory_00);
+            }
+            pQVar15 = (QString *)QString::QString(local_88);
+            pQVar15 = QString::sprintf(pQVar15,"Take %s not exported: error preparing export\n",
+                                       *(undefined8 *)(lVar14 + 8));
+            QString::append(param_3,pQVar15);
+            pQVar15 = local_88;
+            goto LAB_1800aea18;
+          }
+          pcVar25 = *(char **)(lVar14 + 0x20);
+          local_b8 = (char *)0x0;
+          pcVar20 = pcVar25;
+          if (pcVar25 != (char *)0x0) {
+            do {
+              cVar8 = *pcVar20;
+              pcVar20 = pcVar20 + 1;
+            } while (cVar8 != '\0');
+            FUN_1800b2160(&local_b8,pcVar25,((int)pcVar20 - (int)pcVar25) + -1);
+          }
+          pcVar25 = local_b8;
+          pcVar20 = &DAT_180bdb0d8;
+          if (local_b8 != (char *)0x0) {
+            pcVar20 = local_b8;
+          }
+          if (*pcVar20 == '\0') {
+            lVar13 = 0;
+          }
+          else {
+            pcVar20 = &DAT_180bdb0d8;
+            if (local_b8 != (char *)0x0) {
+              pcVar20 = local_b8;
+            }
+            for (; (pcVar20 != (char *)0x0 && (*pcVar20 != '\0')); pcVar20 = pcVar20 + 1) {
+              if (*pcVar20 == ',') goto LAB_1800aebd3;
+            }
+            pcVar20 = (char *)0x0;
+LAB_1800aebd3:
+            lVar13 = 0;
+            if (pcVar20 != (char *)0x0) {
+              lVar13 = atol(pcVar20 + 1);
+              iVar11 = -0x7f424f28;
+              if (pcVar25 != (char *)0x0) {
+                iVar11 = (int)pcVar25;
+              }
+              uVar26 = (int)pcVar20 - iVar11;
+              uVar23 = uVar26 + 1;
+              uVar31 = 0;
+              if (pcVar25 == (char *)0x0) {
+LAB_1800aec17:
+                uVar5 = uVar31;
+                if (uVar31 < uVar23) {
+                  uVar5 = uVar23;
+                }
+                _Size = (size_t)uVar5;
+                puVar17 = (undefined2 *)FUN_180223ce0(_Size + 6);
+                pcVar20 = (char *)(puVar17 + 3);
+                uVar24 = local_a8;
+                if (pcVar20 != (char *)0x0) {
+                  if (pcVar25 != (char *)0x0) {
+                    if (uVar31 + 1 < uVar5) {
+                      _Size = (size_t)(uVar31 + 1);
+                    }
+                    memcpy(pcVar20,pcVar25,_Size);
+                    psVar1 = (short *)(pcVar25 + -2);
+                    *psVar1 = *psVar1 + -1;
+                    if (*psVar1 == 0) {
+                      FUN_1802242d0();
+                    }
+                  }
+                  *(undefined4 *)(puVar17 + 1) = 0;
+                  *puVar17 = (short)uVar5;
+                  puVar17[1] = (short)uVar31;
+                  puVar17[2] = puVar17[2] + 1;
+                  pcVar25 = pcVar20;
+                  uVar24 = local_a8;
+                  local_b8 = pcVar20;
+                }
+              }
+              else if ((*(short *)(pcVar25 + -2) != 1) || (*(ushort *)(pcVar25 + -6) < uVar23)) {
+                uVar31 = (uint)*(ushort *)(pcVar25 + -4);
+                goto LAB_1800aec17;
+              }
+              pcVar25[uVar26] = '\0';
+              *(short *)(pcVar25 + -4) = (short)uVar26;
+            }
+          }
+          uVar33 = (undefined4)((ulonglong)in_stack_fffffffffffffef8 >> 0x20);
+          if ((pcVar25 == (char *)0x0) || (*(short *)(pcVar25 + -4) == 0)) {
+            pQVar15 = (QString *)QString::QString(local_90);
+            pQVar15 = QString::sprintf(pQVar15,"Take %s not exported: no diff target specified\n",
+                                       *(undefined8 *)(local_b0 + 8));
+            QString::append(param_3,pQVar15);
+            QString::~QString(local_90);
+            if (pcVar25 != (char *)0x0) {
+              psVar1 = (short *)(pcVar25 + -2);
+              *psVar1 = *psVar1 + -1;
+              if (*psVar1 == 0) {
+                FUN_1802242d0();
+              }
+            }
+          }
+          else {
+            auVar4._8_8_ = 0;
+            auVar4._0_8_ = uVar24;
+            _Var16 = SUB168(ZEXT816(0x40) * auVar4,0);
+            if (SUB168(ZEXT816(0x40) * auVar4,8) != 0) {
+              _Var16 = 0xffffffffffffffff;
+            }
+            _Memory_00 = operator_new(_Var16);
+            local_d0 = 0;
+            local_c8 = 0xf;
+            local_e0 = 0;
+            uVar32 = CONCAT44(uVar33,uVar12);
+            bVar9 = (**(code **)(*param_2 + 0x60))
+                              (param_2,pcVar25,lVar13,local_a0,uVar32,_Memory_00,&local_e0);
+            uVar33 = (undefined4)((ulonglong)uVar32 >> 0x20);
+            bVar9 = bVar9 & 1;
+            if (bVar9 != 0) {
+              if (0xf < local_c8) {
+                pvVar6 = (void *)CONCAT71(uStack_df,local_e0);
+                pvVar22 = pvVar6;
+                if ((0xfff < local_c8 + 1) &&
+                   (pvVar22 = *(void **)((longlong)pvVar6 + -8),
+                   0x1f < (ulonglong)((longlong)pvVar6 + (-8 - (longlong)pvVar22)))) {
+                    /* WARNING: Subroutine does not return */
+                  _invalid_parameter_noinfo_noreturn();
+                }
+                free(pvVar22);
+              }
+              local_d0 = 0;
+              local_c8 = 0xf;
+              local_e0 = 0;
+              psVar1 = (short *)(pcVar25 + -2);
+              *psVar1 = *psVar1 + -1;
+              _Memory = local_a0;
+              lVar14 = local_b0;
+              if (*psVar1 == 0) {
+                FUN_1802242d0();
+                _Memory = local_a0;
+                lVar14 = local_b0;
+              }
+              goto LAB_1800aeeb5;
+            }
+            free(_Memory_00);
+            pQVar15 = (QString *)QString::QString(local_98);
+            puVar21 = &local_e0;
+            if (0xf < local_c8) {
+              puVar21 = (undefined1 *)CONCAT71(uStack_df,local_e0);
+            }
+            in_stack_fffffffffffffef8 = (QString *)CONCAT44(uVar33,lVar13);
+            pQVar15 = QString::sprintf(pQVar15,
+                                       "Take %s not exported: error getting pose for differential animation - diff target %s, frame %d \nBone %s in profile - not found in scene"
+                                       ,*(undefined8 *)(local_b0 + 8),pcVar25,
+                                       in_stack_fffffffffffffef8,puVar21);
+            QString::append(param_3,pQVar15);
+            QString::~QString(local_98);
+            if (0xf < local_c8) {
+              pvVar6 = (void *)CONCAT71(uStack_df,local_e0);
+              pvVar22 = pvVar6;
+              if ((0xfff < local_c8 + 1) &&
+                 (pvVar22 = *(void **)((longlong)pvVar6 + -8),
+                 0x1f < (ulonglong)((longlong)pvVar6 + (-8 - (longlong)pvVar22)))) {
+                    /* WARNING: Subroutine does not return */
+                _invalid_parameter_noinfo_noreturn();
+              }
+              free(pvVar22);
+            }
+            local_d0 = 0;
+            local_c8 = 0xf;
+            local_e0 = 0;
+            psVar1 = (short *)(pcVar25 + -2);
+            *psVar1 = *psVar1 + -1;
+            if (*psVar1 == 0) {
+              FUN_1802242d0();
+            }
+          }
+          goto LAB_1800aea26;
+        }
+LAB_1800ae9e0:
+        pQVar15 = (QString *)QString::QString(local_80);
+        pQVar15 = QString::sprintf(pQVar15,"Take %s not exported: profile %s missing\n",
+                                   *(undefined8 *)(lVar14 + 8),*(undefined8 *)(lVar14 + 0x18));
+        QString::append(param_3,pQVar15);
+        pQVar15 = local_80;
+LAB_1800aea18:
+        QString::~QString(pQVar15);
+      }
+LAB_1800aea26:
+      local_res20 = local_res20 + 1;
+      uVar12 = (**(code **)(*param_2 + 8))(param_2);
+    } while (local_res20 < uVar12);
+  }
+  return CONCAT71((int7)((ulonglong)*(longlong *)param_3 >> 8),
+                  *(int *)(*(longlong *)param_3 + 4) == 0);
+code_r0x0001800ae9d6:
+  uVar23 = (int)uVar24 + 1;
+  uVar24 = (ulonglong)uVar23;
+  plVar27 = plVar27 + 1;
+  if (uVar12 <= uVar23) goto LAB_1800ae9e0;
+  goto LAB_1800ae9b1;
+}
+
+
+DECOMPILE_END FUN_1800ae930 1800ae930
+============================================================
+FUNCTION_REQUEST 1800afc00
+FUNCTION FUN_1800afc00 entry=1800afc00
+CALLERS
+  CALLER from=183ee83a4 function=<none> entry=<none>
+  CALLER from=1800aef4e function=FUN_1800ae930 entry=1800ae930
+CALLEES
+  CALL from=1800afc36 to=1800af8c0 function=FUN_1800af8c0 entry=1800af8c0
+  CALL from=1800afc4e to=180223ce0 function=FUN_180223ce0 entry=180223ce0
+  CALL from=1800afcd4 to=18015cde0 function=FUN_18015cde0 entry=18015cde0
+  CALL from=1800afcf0 to=1807e5c70 function=FUN_1807e5c70 entry=1807e5c70
+  CALL from=1800afcff to=1807e4360 function=FUN_1807e4360 entry=1807e4360
+  CALL from=1800afd03 to=1807e4440 function=FUN_1807e4440 entry=1807e4440
+  CALL from=1800afd2e to=18015cec0 function=FUN_18015cec0 entry=18015cec0
+  CALL from=1800afd48 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+DECOMPILE_BEGIN FUN_1800afc00 1800afc00
+
+undefined8 * FUN_1800afc00(undefined8 param_1,longlong *param_2,ulonglong param_3,int param_4)
+
+{
+  short *psVar1;
+  undefined1 *puVar2;
+  int iVar3;
+  longlong lVar4;
+  undefined8 *puVar5;
+  undefined1 *puVar6;
+  undefined8 *puVar7;
+  undefined1 *local_res10;
+  undefined1 local_38 [8];
+  longlong local_30;
+  
+  puVar7 = (undefined8 *)0x0;
+  local_res10 = (undefined1 *)0x0;
+  FUN_1800af8c0(param_1,param_2,param_3,0,&local_res10);
+  lVar4 = (**(code **)(*param_2 + 0x18))(param_2,param_3 & 0xffffffff);
+  puVar5 = (undefined8 *)FUN_180223ce0(0x88);
+  puVar2 = local_res10;
+  if (puVar5 != (undefined8 *)0x0) {
+    puVar5[1] = 0;
+    puVar5[2] = 0;
+    puVar5[4] = 0;
+    puVar5[5] = 0;
+    *(undefined4 *)(puVar5 + 6) = 0;
+    *(undefined4 *)(puVar5 + 7) = 0;
+    puVar5[8] = 0;
+    *(undefined1 *)(puVar5 + 9) = 0;
+    *puVar5 = TXA::Animation::vftable;
+    puVar5[10] = 0;
+    puVar5[0xb] = 0;
+    puVar5[0xc] = 0;
+    puVar5[0xd] = 0;
+    puVar5[0xe] = 0;
+    puVar5[0xf] = 0;
+    puVar5[0x10] = 0;
+    puVar7 = puVar5;
+  }
+  puVar6 = &DAT_180bdb0d8;
+  if (local_res10 != (undefined1 *)0x0) {
+    puVar6 = local_res10;
+  }
+  FUN_18015cde0(local_38,puVar6,0);
+  if (local_30 != 0) {
+    iVar3 = FUN_1807e5c70(puVar7,local_38,0,0);
+    if (iVar3 == 0) {
+      FUN_1807e4440(puVar7);
+    }
+    else {
+      (**(code **)*puVar7)();
+    }
+  }
+  *(int *)(puVar7 + 0x10) = (int)(longlong)(*(float *)(lVar4 + 0x28) + DAT_180a3d22c);
+  *(int *)((longlong)puVar7 + 0x84) = param_4 + -1;
+  FUN_18015cec0(local_38);
+  if (puVar2 != (undefined1 *)0x0) {
+    psVar1 = (short *)(puVar2 + -2);
+    *psVar1 = *psVar1 + -1;
+    if (*psVar1 == 0) {
+      FUN_1802242d0();
+    }
+  }
+  return puVar7;
+}
+
+
+DECOMPILE_END FUN_1800afc00 1800afc00
+============================================================
+FUNCTION_REQUEST 1800af0c0
+FUNCTION FUN_1800af0c0 entry=1800af0c0
+CALLERS
+  CALLER from=183ee8344 function=<none> entry=<none>
+  CALLER from=1800aefb9 function=FUN_1800ae930 entry=1800ae930
+CALLEES
+  CALL from=1800af22f to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800af244 to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800af254 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800af262 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800af284 to=1807e4650 function=FUN_1807e4650 entry=1807e4650
+  CALL from=1800af2c3 to=1807e4060 function=FUN_1807e4060 entry=1807e4060
+  CALL from=1800af2f5 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800af30a to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800af31a to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800af328 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800af450 to=1800b8290 function=FUN_1800b8290 entry=1800b8290
+  CALL from=1800af4b5 to=1807ba5e0 function=FUN_1807ba5e0 entry=1807ba5e0
+  CALL from=1800af500 to=1807ba5e0 function=FUN_1807ba5e0 entry=1807ba5e0
+  CALL from=1800af54c to=1807ba5e0 function=FUN_1807ba5e0 entry=1807ba5e0
+  CALL from=1800af55f to=1800b20f0 function=FUN_1800b20f0 entry=1800b20f0
+  CALL from=1800af56c to=1800b20f0 function=FUN_1800b20f0 entry=1800b20f0
+  CALL from=1800af57a to=1800b20f0 function=FUN_1800b20f0 entry=1800b20f0
+  CALL from=1800af6e7 to=18022bc20 function=FUN_18022bc20 entry=18022bc20
+  CALL from=1800af6f5 to=1807b80a0 function=FUN_1807b80a0 entry=1807b80a0
+  CALL from=1800af706 to=1807b80a0 function=FUN_1807b80a0 entry=1807b80a0
+  CALL from=1800af717 to=1807b80a0 function=FUN_1807b80a0 entry=1807b80a0
+  CALL from=1800af77c to=1807b8140 function=FUN_1807b8140 entry=1807b8140
+  CALL from=1800af7e3 to=180155f60 function=FUN_180155f60 entry=180155f60
+DECOMPILE_BEGIN FUN_1800af0c0 1800af0c0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined4
+FUN_1800af0c0(longlong param_1,longlong *param_2,undefined4 param_3,ulonglong param_4,
+             longlong *param_5,longlong param_6,QString *param_7)
+
+{
+  byte bVar1;
+  undefined1 *puVar2;
+  float fVar3;
+  float fVar4;
+  longlong *plVar5;
+  undefined4 uVar6;
+  longlong lVar7;
+  QString *pQVar8;
+  undefined4 *puVar9;
+  undefined4 *puVar10;
+  undefined4 *puVar11;
+  undefined1 *puVar12;
+  longlong lVar13;
+  byte bVar14;
+  uint uVar15;
+  undefined1 *puVar16;
+  uint uVar17;
+  float fVar18;
+  float fVar19;
+  float fVar20;
+  float fVar21;
+  float fVar22;
+  float fVar23;
+  float fVar24;
+  longlong *local_res10;
+  undefined4 local_res18;
+  uint local_res20;
+  undefined8 local_1c8;
+  undefined8 uStack_1c0;
+  undefined8 local_1b8;
+  undefined8 uStack_1b0;
+  float local_1a8;
+  undefined4 local_1a4;
+  undefined4 local_1a0;
+  undefined4 local_19c;
+  undefined4 local_198;
+  undefined4 uStack_194;
+  undefined4 uStack_190;
+  undefined4 uStack_18c;
+  undefined4 local_188;
+  undefined4 uStack_184;
+  undefined4 uStack_180;
+  undefined4 uStack_17c;
+  float local_178;
+  uint local_170;
+  undefined4 local_16c;
+  longlong local_168;
+  uint local_160;
+  undefined1 *local_158;
+  undefined4 local_150;
+  undefined4 uStack_14c;
+  undefined4 uStack_148;
+  undefined4 uStack_144;
+  longlong local_140;
+  undefined8 local_138;
+  undefined4 local_128;
+  undefined4 uStack_124;
+  undefined4 uStack_120;
+  undefined4 uStack_11c;
+  undefined1 local_118 [12];
+  undefined1 local_10c [12];
+  undefined1 local_100 [192];
+  
+  local_138 = 0xfffffffffffffffe;
+  lVar13 = (param_4 & 0xffffffff) * 0x20;
+  lVar7 = *param_5;
+  bVar1 = *(byte *)(lVar13 + 0x18 + lVar7);
+  local_res20 = (uint)(bVar1 & 1);
+  uVar15 = local_res20 | 2;
+  if ((bVar1 & 2) == 0) {
+    uVar15 = (uint)(bVar1 & 1);
+  }
+  uVar17 = uVar15 | 4;
+  if ((bVar1 & 4) == 0) {
+    uVar17 = uVar15;
+  }
+  local_158 = &DAT_180bdb0d8;
+  if (*(undefined1 **)(lVar13 + lVar7) != (undefined1 *)0x0) {
+    local_158 = *(undefined1 **)(lVar13 + lVar7);
+  }
+  uVar15 = *(uint *)(lVar13 + 8 + lVar7);
+  puVar16 = (undefined1 *)0x0;
+  puVar12 = puVar16;
+  if ((uVar15 != 0xffffffff) &&
+     (puVar2 = *(undefined1 **)((ulonglong)uVar15 * 0x20 + lVar7), puVar12 = &DAT_180bdb0d8,
+     puVar2 != (undefined1 *)0x0)) {
+    puVar12 = puVar2;
+  }
+  bVar14 = bVar1 & 0x70;
+  if (bVar14 != 0) {
+    if (bVar14 == 0x10) {
+      uVar17 = uVar17 | 0x10;
+    }
+    else if (bVar14 == 0x20) {
+      uVar17 = uVar17 | 0x20;
+      puVar12 = puVar16;
+    }
+    else if (bVar14 == 0x30) {
+      uVar17 = uVar17 | 0x30;
+    }
+    else if (bVar14 == 0x40) {
+      uVar17 = uVar17 | 0x40;
+    }
+  }
+  local_res10 = param_2;
+  local_res18 = param_3;
+  (**(code **)(*param_2 + 0x50))(param_2,&local_168,local_158,puVar12,uVar17);
+  if (local_168 == 0) {
+    lVar7 = (**(code **)(*param_2 + 0x18))(param_2,local_res18);
+    pQVar8 = (QString *)QString::QString((QString *)&local_res10);
+    pQVar8 = QString::sprintf(pQVar8,"Take %s not exported: error exporting keys\n",
+                              *(undefined8 *)(lVar7 + 8));
+    QString::append(param_7,pQVar8);
+    QString::~QString((QString *)&local_res10);
+    local_16c = 0xffffffff;
+  }
+  else {
+    if (puVar12 == (undefined1 *)0x0) {
+      uVar6 = 0xffffffff;
+    }
+    else {
+      uVar6 = FUN_1807e4650(param_6,puVar12);
+    }
+    puVar12 = local_158;
+    local_16c = *(undefined4 *)(param_6 + 0x5c);
+    local_140 = FUN_1807e4060(param_6,local_158,uVar6,local_160,(char)local_res20,
+                              (bVar1 & 0xf) >> 1 & 1,1);
+    plVar5 = local_res10;
+    fVar4 = DAT_1809011b4;
+    if (local_140 == 0) {
+      lVar7 = (**(code **)(*local_res10 + 0x18))(local_res10,local_res18);
+      pQVar8 = (QString *)QString::QString((QString *)&local_res10);
+      pQVar8 = QString::sprintf(pQVar8,"Take %s not exported: error allocating track \n",
+                                *(undefined8 *)(lVar7 + 8));
+      QString::append(param_7,pQVar8);
+      QString::~QString((QString *)&local_res10);
+      local_16c = 0xffffffff;
+    }
+    else {
+      local_res20 = *(int *)(lVar13 + 0x10 + *param_5);
+      if (local_res20 == -1) {
+        local_res20 = *(int *)((longlong)param_5 + 0x24);
+      }
+      if (local_160 != 0) {
+        local_170 = uVar17 & 1;
+        do {
+          fVar20 = DAT_180a3d2dc;
+          lVar7 = *(longlong *)(local_140 + 0x18);
+          lVar13 = (longlong)puVar16 * 0x40;
+          local_1a4 = *(undefined4 *)(lVar13 + 0x30 + local_168);
+          local_1a0 = *(undefined4 *)(lVar13 + 0x34 + local_168);
+          local_19c = *(undefined4 *)(lVar13 + 0x38 + local_168);
+          uVar6 = *(undefined4 *)(lVar13 + 0x24 + local_168);
+          local_1a8 = *(float *)(lVar13 + 0x28 + local_168);
+          fVar21 = *(float *)(lVar13 + 0x10 + local_168);
+          fVar22 = *(float *)(lVar13 + 0x14 + local_168);
+          fVar18 = *(float *)(lVar13 + 0x18 + local_168);
+          fVar23 = *(float *)(lVar13 + 4 + local_168);
+          fVar19 = *(float *)(lVar13 + 8 + local_168);
+          local_1c8 = CONCAT44(fVar23,*(float *)(lVar13 + local_168));
+          uStack_1c0 = CONCAT44(fVar21,fVar19);
+          local_1b8 = CONCAT44(fVar18,fVar22);
+          uStack_1b0 = CONCAT44(uVar6,*(undefined4 *)(lVar13 + 0x20 + local_168));
+          fVar24 = *(float *)(lVar13 + local_168);
+          if (local_res20 != -1) {
+            FUN_1800b8290(*(undefined8 *)(param_1 + 0x10),uVar6,&local_1c8);
+            fVar21 = uStack_1c0._4_4_;
+            fVar22 = (float)local_1b8;
+            fVar18 = local_1b8._4_4_;
+            fVar23 = local_1c8._4_4_;
+            fVar24 = (float)local_1c8;
+            fVar19 = (float)uStack_1c0;
+          }
+          fVar3 = DAT_1809011b0;
+          fVar23 = fVar23 * fVar23 + fVar24 * fVar24 + fVar19 * fVar19;
+          if (DAT_1809011b0 < fVar23) {
+            if (fVar23 <= fVar20) {
+              fVar21 = (float)FUN_1807ba5e0(fVar23);
+              fVar23 = fVar21 * fVar23;
+              fVar21 = uStack_1c0._4_4_;
+              fVar22 = (float)local_1b8;
+              fVar18 = local_1b8._4_4_;
+            }
+          }
+          else {
+            fVar23 = 0.0;
+          }
+          fVar21 = fVar22 * fVar22 + fVar21 * fVar21 + fVar18 * fVar18;
+          if (fVar3 < fVar21) {
+            if (fVar21 <= fVar20) {
+              fVar22 = (float)FUN_1807ba5e0(fVar21);
+              fVar21 = fVar22 * fVar21;
+            }
+          }
+          else {
+            fVar21 = 0.0;
+          }
+          fVar22 = uStack_1b0._4_4_ * uStack_1b0._4_4_ + (float)uStack_1b0 * (float)uStack_1b0 +
+                   local_1a8 * local_1a8;
+          if (fVar3 < fVar22) {
+            if (fVar22 <= fVar20) {
+              fVar18 = (float)FUN_1807ba5e0(fVar22);
+              fVar22 = fVar18 * fVar22;
+            }
+          }
+          else {
+            fVar22 = 0.0;
+          }
+          fVar18 = (float)FUN_1800b20f0(&local_1c8);
+          fVar19 = (float)FUN_1800b20f0((longlong)&uStack_1c0 + 4);
+          fVar20 = (float)FUN_1800b20f0(&uStack_1b0);
+          if (((fVar18 <= fVar4) || (fVar19 <= fVar4)) || (fVar20 <= fVar4)) {
+LAB_1800af6b3:
+            lVar13 = (**(code **)(*plVar5 + 0x18))(plVar5,local_res18);
+            local_128 = _DAT_180b596c8;
+            uStack_124 = uRam0000000180b596cc;
+            uStack_120 = uRam0000000180b596d0;
+            uStack_11c = uRam0000000180b596d4;
+            FUN_18022bc20(0x10,&local_128,"%s - %s - matrix is not orthonormal",
+                          *(undefined8 *)(lVar13 + 8),puVar12);
+            puVar9 = (undefined4 *)FUN_1807b80a0(&uStack_1b0,local_118);
+            puVar10 = (undefined4 *)FUN_1807b80a0((longlong)&uStack_1c0 + 4,local_10c);
+            puVar11 = (undefined4 *)FUN_1807b80a0(&local_1c8,local_100);
+            local_198 = *puVar11;
+            uStack_194 = puVar11[1];
+            uStack_190 = puVar11[2];
+            uStack_18c = *puVar10;
+            local_188 = puVar10[1];
+            uStack_184 = puVar10[2];
+            uStack_180 = *puVar9;
+            uStack_17c = puVar9[1];
+            local_178 = (float)puVar9[2];
+            FUN_1807b8140(&local_198);
+            local_1c8 = CONCAT44(uStack_194,local_198);
+            uStack_1c0 = CONCAT44(uStack_18c,uStack_190);
+            local_1b8 = CONCAT44(uStack_184,local_188);
+            uStack_1b0 = CONCAT44(uStack_17c,uStack_180);
+            local_1a8 = local_178;
+            puVar12 = local_158;
+          }
+          else {
+            if (DAT_180a3d1cc <=
+                (float)local_1b8 * local_1c8._4_4_ + uStack_1c0._4_4_ * (float)local_1c8 +
+                local_1b8._4_4_ * (float)uStack_1c0) goto LAB_1800af6b3;
+            if (((DAT_180a3d1cc <=
+                  uStack_1b0._4_4_ * local_1c8._4_4_ + (float)uStack_1b0 * (float)local_1c8 +
+                  local_1a8 * (float)uStack_1c0) ||
+                (DAT_180a3d1cc <=
+                 uStack_1b0._4_4_ * (float)local_1b8 + (float)uStack_1b0 * uStack_1c0._4_4_ +
+                 local_1a8 * local_1b8._4_4_)) ||
+               ((local_1a8 * (float)local_1b8 - uStack_1b0._4_4_ * local_1b8._4_4_) *
+                (float)local_1c8 +
+                ((float)uStack_1b0 * local_1b8._4_4_ - local_1a8 * uStack_1c0._4_4_) *
+                local_1c8._4_4_ +
+                (uStack_1b0._4_4_ * uStack_1c0._4_4_ - (float)uStack_1b0 * (float)local_1b8) *
+                (float)uStack_1c0 < fVar4)) goto LAB_1800af6b3;
+          }
+          if (local_170 != 0) {
+            *(undefined4 *)(lVar7 + 0x10 + (longlong)puVar16 * 0x28) = local_1a4;
+            *(undefined4 *)(lVar7 + 0x14 + (longlong)puVar16 * 0x28) = local_1a0;
+            *(undefined4 *)(lVar7 + 0x18 + (longlong)puVar16 * 0x28) = local_19c;
+          }
+          if ((uVar17 & 2) != 0) {
+            FUN_180155f60(&local_150,&local_1c8);
+            puVar9 = (undefined4 *)(lVar7 + (longlong)puVar16 * 0x28);
+            *puVar9 = local_150;
+            puVar9[1] = uStack_14c;
+            puVar9[2] = uStack_148;
+            puVar9[3] = uStack_144;
+          }
+          if ((uVar17 & 4) != 0) {
+            *(float *)(lVar7 + 0x1c + (longlong)puVar16 * 0x28) = fVar23;
+            *(float *)(lVar7 + 0x20 + (longlong)puVar16 * 0x28) = fVar21;
+            *(float *)(lVar7 + 0x24 + (longlong)puVar16 * 0x28) = fVar22;
+          }
+          uVar15 = (int)puVar16 + 1;
+          puVar16 = (undefined1 *)(ulonglong)uVar15;
+        } while (uVar15 < local_160);
+      }
+      (**(code **)(*plVar5 + 0x58))(plVar5,&local_168);
+    }
+  }
+  return local_16c;
+}
+
+
+DECOMPILE_END FUN_1800af0c0 1800af0c0
+============================================================
+FUNCTION_REQUEST 1800b1820
+FUNCTION FUN_1800b1820 entry=1800b1820
+CALLERS
+  CALLER from=183ee84e8 function=<none> entry=<none>
+  CALLER from=1800af004 function=FUN_1800ae930 entry=1800ae930
+CALLEES
+  CALL from=1800b186b to=1800af8c0 function=FUN_1800af8c0 entry=1800af8c0
+  CALL from=1800b1889 to=18015ce50 function=FUN_18015ce50 entry=18015ce50
+  CALL from=1800b18a9 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800b18c8 to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800b18d5 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800b18e0 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b18eb to=18015cef0 function=FUN_18015cef0 entry=18015cef0
+  CALL from=1800b1905 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800b1919 to=1807e4a50 function=FUN_1807e4a50 entry=1807e4a50
+  CALL from=1800b1923 to=18015cef0 function=FUN_18015cef0 entry=18015cef0
+  CALL from=1800b193d to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800b197d to=1807f68b0 function=FUN_1807f68b0 entry=1807f68b0
+  CALL from=1800b19ae to=1800af8c0 function=FUN_1800af8c0 entry=1800af8c0
+  CALL from=1800b19c5 to=18015ce50 function=FUN_18015ce50 entry=18015ce50
+  CALL from=1800b19e5 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800b1a04 to=EXTERNAL:00000154 function=sprintf entry=EXTERNAL:00000154
+  CALL from=1800b1a11 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800b1a1c to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b1a32 to=1807f7010 function=FUN_1807f7010 entry=1807f7010
+  CALL from=1800b1a4f to=EXTERNAL:00000161 function=operator+= entry=EXTERNAL:00000161
+  CALL from=1800b1a5a to=18015cef0 function=FUN_18015cef0 entry=18015cef0
+  CALL from=1800b1a6f to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800b1a8c to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800b1aa8 to=1807f64b0 function=FUN_1807f64b0 entry=1807f64b0
+  CALL from=1800b1ab5 to=18015cef0 function=FUN_18015cef0 entry=18015cef0
+  CALL from=1800b1aca to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800b1ae7 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+  CALL from=1800b1b03 to=1807f64b0 function=FUN_1807f64b0 entry=1807f64b0
+DECOMPILE_BEGIN FUN_1800b1820 1800b1820
+
+undefined8
+FUN_1800b1820(undefined8 param_1,longlong *param_2,undefined4 param_3,undefined8 param_4,
+             QString *param_5)
+
+{
+  short *psVar1;
+  char *pcVar2;
+  longlong lVar3;
+  QString *pQVar4;
+  char *pcVar5;
+  char **ppcVar6;
+  undefined **local_a8;
+  char *local_a0;
+  int local_98;
+  char *local_90;
+  QString local_88 [8];
+  undefined1 local_80 [8];
+  undefined8 local_78;
+  undefined8 local_70;
+  undefined8 local_68;
+  undefined8 local_60;
+  undefined8 local_58;
+  undefined8 local_50;
+  undefined1 local_48 [8];
+  longlong local_40;
+  undefined8 local_30;
+  
+  local_30 = 0xfffffffffffffffe;
+  local_90 = (char *)0x0;
+  ppcVar6 = &local_90;
+  FUN_1800af8c0();
+  pcVar2 = local_90;
+  pcVar5 = &DAT_180bdb0d8;
+  if (local_90 != (char *)0x0) {
+    pcVar5 = local_90;
+  }
+  FUN_18015ce50(&local_a8,pcVar5);
+  if (local_a0 == (char *)0x0) {
+    lVar3 = (**(code **)(*param_2 + 0x18))(param_2,param_3);
+    pQVar4 = (QString *)QString::QString(local_88);
+    pcVar5 = &DAT_180bdb0d8;
+    if (pcVar2 != (char *)0x0) {
+      pcVar5 = pcVar2;
+    }
+    pQVar4 = QString::sprintf(pQVar4,"Take %s not exported: error creating file %s\n",
+                              *(undefined8 *)(lVar3 + 8),pcVar5,ppcVar6);
+    QString::append(param_5,pQVar4);
+    QString::~QString(local_88);
+    FUN_18015cef0(&local_a8);
+    if (pcVar2 != (char *)0x0) {
+      psVar1 = (short *)(pcVar2 + -2);
+      *psVar1 = *psVar1 + -1;
+      if (*psVar1 == 0) {
+        FUN_1802242d0();
+      }
+    }
+  }
+  else {
+    FUN_1807e4a50(param_4,&local_a8);
+    FUN_18015cef0(&local_a8);
+    if (pcVar2 != (char *)0x0) {
+      psVar1 = (short *)(pcVar2 + -2);
+      *psVar1 = *psVar1 + -1;
+      if (*psVar1 == 0) {
+        FUN_1802242d0();
+      }
+    }
+    local_78 = 0;
+    local_70 = 0;
+    local_68 = 0;
+    local_60 = 0;
+    local_58 = 0;
+    local_50 = 0;
+    local_a8 = `protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'
+               ::__l7::AnimErrorReporter::vftable;
+    local_a0 = (char *)0x0;
+    local_98 = 0;
+    FUN_1807f68b0(local_80,param_4,0,&local_a8);
+    DAT_180ba48c8 = 0;
+    DAT_180ba48cc = 0;
+    DAT_180ba48d0 = 0;
+    local_90 = (char *)0x0;
+    FUN_1800af8c0(param_1,param_2,param_3,1,&local_90);
+    pcVar2 = local_90;
+    pcVar5 = &DAT_180bdb0d8;
+    if (local_90 != (char *)0x0) {
+      pcVar5 = local_90;
+    }
+    FUN_18015ce50(local_48,pcVar5);
+    if (local_40 == 0) {
+      lVar3 = (**(code **)(*param_2 + 0x18))(param_2,param_3);
+      pQVar4 = (QString *)QString::QString(local_88);
+      pcVar5 = &DAT_180bdb0d8;
+      if (pcVar2 != (char *)0x0) {
+        pcVar5 = pcVar2;
+      }
+      pQVar4 = QString::sprintf(pQVar4,"Take %s not exported: error creating file %s\n",
+                                *(undefined8 *)(lVar3 + 8),pcVar5);
+      QString::append(param_5,pQVar4);
+      QString::~QString(local_88);
+    }
+    else {
+      FUN_1807f7010(local_80,local_48,0,1);
+      if (local_98 == 0) {
+        FUN_18015cef0(local_48);
+        if (pcVar2 != (char *)0x0) {
+          psVar1 = (short *)(pcVar2 + -2);
+          *psVar1 = *psVar1 + -1;
+          if (*psVar1 == 0) {
+            FUN_1802242d0();
+          }
+        }
+        if (local_a0 != (char *)0x0) {
+          psVar1 = (short *)(local_a0 + -2);
+          *psVar1 = *psVar1 + -1;
+          if (*psVar1 == 0) {
+            FUN_1802242d0(local_a0 + -6);
+          }
+          local_a0 = (char *)0x0;
+        }
+        local_a8 = TXO::ValidateHandler::vftable;
+        FUN_1807f64b0(local_80);
+        return 1;
+      }
+      pcVar5 = &DAT_180bdb0d8;
+      if (local_a0 != (char *)0x0) {
+        pcVar5 = local_a0;
+      }
+      QString::operator+=(param_5,pcVar5);
+    }
+    FUN_18015cef0(local_48);
+    if (pcVar2 != (char *)0x0) {
+      psVar1 = (short *)(pcVar2 + -2);
+      *psVar1 = *psVar1 + -1;
+      if (*psVar1 == 0) {
+        FUN_1802242d0();
+      }
+    }
+    if (local_a0 != (char *)0x0) {
+      psVar1 = (short *)(local_a0 + -2);
+      *psVar1 = *psVar1 + -1;
+      if (*psVar1 == 0) {
+        FUN_1802242d0(local_a0 + -6);
+      }
+      local_a0 = (char *)0x0;
+    }
+    local_a8 = TXO::ValidateHandler::vftable;
+    FUN_1807f64b0(local_80);
+  }
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1800b1820 1800b1820
+============================================================
+FUNCTION_REQUEST 1800b2250
+FUNCTION FUN_1800b2250 entry=1800b2250
+CALLERS
+  CALLER from=183ee8548 function=<none> entry=<none>
+  CALLER from=1800b7d7b function=ShowAnimExportDialogThread2 entry=1800b7b90
+  CALLER from=1800b7e4a function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800b2254 to=1800b1740 function=FUN_1800b1740 entry=1800b1740
+DECOMPILE_BEGIN FUN_1800b2250 1800b2250
+
+undefined8 FUN_1800b2250(void)
+
+{
+  FUN_1800b1740();
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1800b2250 1800b2250
+============================================================
+FUNCTION_REQUEST 1800baa20
+FUNCTION FUN_1800baa20 entry=1800baa20
+CALLERS
+  CALLER from=183ee895c function=<none> entry=<none>
+  CALLER from=1800ba9b3 function=ShowExportDialogThread entry=1800ba990
+CALLEES
+  CALL from=1800baa2b to=EXTERNAL:0000009d function=OutputDebugStringA entry=EXTERNAL:0000009d
+  CALL from=1800baa33 to=1800ba700 function=ShowExportDialog entry=1800ba700
+  CALL from=1800baa3f to=EXTERNAL:0000009d function=OutputDebugStringA entry=EXTERNAL:0000009d
+DECOMPILE_BEGIN FUN_1800baa20 1800baa20
+
+undefined8 FUN_1800baa20(void)
+
+{
+  OutputDebugStringA("ShowExportDialogThreadRT Started \n");
+  ShowExportDialog((HWND__ *)0x0);
+  OutputDebugStringA("ShowExportDialogThreadRT Ended \n");
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1800baa20 1800baa20
+============================================================
+FUNCTION_REQUEST 1800abcb0
+FUNCTION FUN_1800abcb0 entry=1800abcb0
+CALLERS
+  CALLER from=183ee80ec function=<none> entry=<none>
+  CALLER from=1800b17d9 function=FUN_1800b1740 entry=1800b1740
+  CALLER from=1800b7cc6 function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800abcf0 to=EXTERNAL:000001d3 function=QDialog entry=EXTERNAL:000001d3
+  CALL from=1800abd1a to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd28 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd36 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd44 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd52 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd60 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd6e to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd7c to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abdba to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800abde5 to=EXTERNAL:00000218 function=warning entry=EXTERNAL:00000218
+  CALL from=1800abdff to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800abe16 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800abe42 to=EXTERNAL:00000218 function=warning entry=EXTERNAL:00000218
+  CALL from=1800abe4e to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800abe5a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800abe64 to=EXTERNAL:00000153 function=clear entry=EXTERNAL:00000153
+  CALL from=1800abe79 to=180230560 function=FUN_180230560 entry=180230560
+  CALL from=1800abe8e to=1802330a0 function=FUN_1802330a0 entry=1802330a0
+  CALL from=1800abed5 to=18015c7d0 function=FUN_18015c7d0 entry=18015c7d0
+  CALL from=1800abef9 to=180064720 function=_guard_check_icall entry=180064720
+  CALL from=1800abf15 to=180223ce0 function=FUN_180223ce0 entry=180223ce0
+  CALL from=1800abf2c to=1801a48d0 function=FUN_1801a48d0 entry=1801a48d0
+  CALL from=1800abf49 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800abf62 to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800abf94 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800abfad to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800abfd2 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800abfeb to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800ac00c to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800ac025 to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800ac04c to=1800b4bb0 function=FUN_1800b4bb0 entry=1800b4bb0
+  CALL from=1800ac076 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac080 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac0ab to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac0b5 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac0dc to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac0e6 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac106 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac110 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac13b to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac145 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac170 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac17a to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac1a5 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac1af to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac1da to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac1e4 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac20f to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac219 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac244 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac24e to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac276 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac280 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac2a8 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac2b2 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac2da to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac2e4 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac30f to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac319 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac341 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac34b to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac376 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac380 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac3ab to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac3b5 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac3e0 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac3ea to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac410 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac42f to=EXTERNAL:00000135 function=QString entry=EXTERNAL:00000135
+  CALL from=1800ac453 to=EXTERNAL:0000015b function=fromUtf8 entry=EXTERNAL:0000015b
+  CALL from=1800ac462 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800ac46d to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac47d to=EXTERNAL:0000012b function=QFile entry=EXTERNAL:0000012b
+  CALL from=1800ac489 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac49b to=EXTERNAL:00000129 function=open entry=EXTERNAL:00000129
+  CALL from=1800ac4b0 to=EXTERNAL:0000011b function=readAll entry=EXTERNAL:0000011b
+  CALL from=1800ac4bf to=EXTERNAL:0000015f function=QString entry=EXTERNAL:0000015f
+  CALL from=1800ac4ca to=EXTERNAL:00000144 function=~QByteArray entry=EXTERNAL:00000144
+  CALL from=1800ac4d4 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800ac4e1 to=EXTERNAL:000001bf function=setStyleSheet entry=EXTERNAL:000001bf
+  CALL from=1800ac4ec to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac4fa to=EXTERNAL:000001bf function=setStyleSheet entry=EXTERNAL:000001bf
+  CALL from=1800ac506 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac514 to=EXTERNAL:0000012a function=~QFile entry=EXTERNAL:0000012a
+  CALL from=1800ac520 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac529 to=1800b2260 function=FUN_1800b2260 entry=1800b2260
+  CALL from=1800ac53a to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac551 to=1800ba1e0 function=FUN_1800ba1e0 entry=1800ba1e0
+  CALL from=1800ac565 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac57a to=EXTERNAL:000001b8 function=pos entry=EXTERNAL:000001b8
+  CALL from=1800ac58a to=EXTERNAL:00000101 function=QVariant entry=EXTERNAL:00000101
+  CALL from=1800ac5a3 to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac5b1 to=EXTERNAL:000000fd function=toPoint entry=EXTERNAL:000000fd
+  CALL from=1800ac5bf to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac5cd to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac5d9 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac5eb to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac600 to=EXTERNAL:000001b9 function=size entry=EXTERNAL:000001b9
+  CALL from=1800ac610 to=EXTERNAL:00000102 function=QVariant entry=EXTERNAL:00000102
+  CALL from=1800ac629 to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac637 to=EXTERNAL:0000010b function=toSize entry=EXTERNAL:0000010b
+  CALL from=1800ac645 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac653 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac65f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac671 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac682 to=EXTERNAL:00000107 function=QVariant entry=EXTERNAL:00000107
+  CALL from=1800ac69a to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac6a8 to=EXTERNAL:000000fe function=toString entry=EXTERNAL:000000fe
+  CALL from=1800ac6b6 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac6c4 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac6cf to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac6e1 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac6f2 to=EXTERNAL:00000107 function=QVariant entry=EXTERNAL:00000107
+  CALL from=1800ac70a to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac718 to=EXTERNAL:000000fe function=toString entry=EXTERNAL:000000fe
+  CALL from=1800ac726 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac734 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac73f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac74c to=1800ba2a0 function=FUN_1800ba2a0 entry=1800ba2a0
+  CALL from=1800ac760 to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac775 to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac782 to=EXTERNAL:000001c3 function=move entry=EXTERNAL:000001c3
+  CALL from=1800ac78f to=EXTERNAL:000001c5 function=resize entry=EXTERNAL:000001c5
+  CALL from=1800ac7b9 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac7e4 to=EXTERNAL:00000216 function=getExistingDirectory entry=EXTERNAL:00000216
+  CALL from=1800ac7ef to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac814 to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac828 to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac84e to=EXTERNAL:00000135 function=QString entry=EXTERNAL:00000135
+  CALL from=1800ac872 to=EXTERNAL:0000015b function=fromUtf8 entry=EXTERNAL:0000015b
+  CALL from=1800ac880 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800ac88b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac89f to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac8aa to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac8c2 to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac8d0 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac8df to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac8fe to=EXTERNAL:00000135 function=QString entry=EXTERNAL:00000135
+  CALL from=1800ac922 to=EXTERNAL:0000015b function=fromUtf8 entry=EXTERNAL:0000015b
+  CALL from=1800ac930 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800ac93b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac94f to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac95a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac972 to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac989 to=1800afd70 function=FUN_1800afd70 entry=1800afd70
+  CALL from=1800ac993 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac99e to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+DECOMPILE_BEGIN FUN_1800abcb0 1800abcb0
+
+QWidget * FUN_1800abcb0(QWidget *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                       longlong param_5,char *param_6,QWidget param_7)
+
+{
+  char cVar1;
+  bool bVar2;
+  longlong *plVar3;
+  longlong lVar4;
+  QStyledItemDelegate *pQVar5;
+  QStyledItemDelegate *pQVar6;
+  QString *pQVar7;
+  QString *pQVar8;
+  QByteArray *pQVar9;
+  QSettings *this;
+  QPoint *pQVar10;
+  QVariant *pQVar11;
+  QSize *pQVar12;
+  QStyledItemDelegate *pQVar13;
+  longlong local_res18 [2];
+  ulonglong in_stack_fffffffffffffdb8;
+  uint uVar14;
+  QTypedArrayData<unsigned_short> *local_238;
+  QTypedArrayData<unsigned_short> *local_230;
+  QTypedArrayData<unsigned_short> *local_228;
+  longlong *local_220;
+  QString local_218 [8];
+  QString local_210 [8];
+  QTypedArrayData<unsigned_short> *local_208;
+  QTypedArrayData<unsigned_short> *local_200;
+  QTypedArrayData<unsigned_short> *local_1f8;
+  QTypedArrayData<unsigned_short> *local_1f0;
+  QTypedArrayData<unsigned_short> *local_1e8;
+  QTypedArrayData<unsigned_short> *local_1e0;
+  QTypedArrayData<unsigned_short> *local_1d8;
+  QString local_1d0 [8];
+  QString local_1c8 [8];
+  QString local_1c0 [8];
+  QString local_1b8 [8];
+  QObject local_1b0 [8];
+  QObject local_1a8 [8];
+  QObject local_1a0 [8];
+  QObject local_198 [8];
+  QObject local_190 [8];
+  QObject local_188 [8];
+  QObject local_180 [8];
+  QObject local_178 [8];
+  QObject local_170 [8];
+  QObject local_168 [8];
+  QObject local_160 [8];
+  QObject local_158 [8];
+  QObject local_150 [8];
+  QObject local_148 [8];
+  QObject local_140 [8];
+  QObject local_138 [8];
+  QObject local_130 [8];
+  QObject local_128 [8];
+  QString local_120 [8];
+  QByteArray local_118 [8];
+  QString local_110 [8];
+  QPoint local_108 [8];
+  QSize local_100 [8];
+  QString local_f8 [8];
+  QString local_f0 [8];
+  QFile local_e8 [16];
+  undefined8 local_d8;
+  undefined8 local_c0;
+  QString local_b8 [16];
+  QVariant local_a8 [16];
+  QString local_98 [16];
+  QVariant local_88 [16];
+  QString local_78 [16];
+  QVariant local_68 [16];
+  QString local_58 [16];
+  QVariant local_48 [16];
+  
+  local_c0 = 0xfffffffffffffffe;
+  pQVar13 = (QStyledItemDelegate *)0x0;
+  QDialog::QDialog((QDialog *)param_1,param_4,0);
+  *(undefined ***)param_1 = AnimExportDialog::vftable;
+  *(undefined ***)(param_1 + 0x10) = AnimExportDialog::vftable;
+  *(undefined8 *)(param_1 + 0x140) = param_3;
+  QString::QString((QString *)(param_1 + 0x178));
+  QString::QString((QString *)(param_1 + 0x180));
+  QString::QString((QString *)(param_1 + 0x188));
+  QString::QString((QString *)(param_1 + 400));
+  QString::QString((QString *)(param_1 + 0x198));
+  QString::QString((QString *)(param_1 + 0x1a0));
+  QString::QString((QString *)(param_1 + 0x1a8));
+  QString::QString((QString *)(param_1 + 0x1b0));
+  uVar14 = (uint)(in_stack_fffffffffffffdb8 >> 0x20);
+  param_1[0x1b8] = param_7;
+  *(longlong *)(param_1 + 0x170) = param_5;
+  if (*(char *)(param_5 + 0x31) != '\0') {
+    if (*(int *)(*(longlong *)(param_5 + 0x28) + 4) < 1) {
+      local_228 = QString::fromAscii_helper("All exports ok",0xe);
+      local_230 = QString::fromAscii_helper("Export Takes",0xc);
+      lVar4 = (ulonglong)uVar14 << 0x20;
+      QMessageBox::warning(param_1,&local_230,&local_228,0x400,lVar4);
+      uVar14 = (uint)((ulonglong)lVar4 >> 0x20);
+      QString::~QString((QString *)&local_230);
+      pQVar7 = (QString *)&local_228;
+    }
+    else {
+      local_238 = QString::fromAscii_helper("Export Takes",0xc);
+      in_stack_fffffffffffffdb8 = in_stack_fffffffffffffdb8 & 0xffffffff00000000;
+      QMessageBox::warning(param_1,&local_238,param_5 + 0x28,0x400,in_stack_fffffffffffffdb8);
+      uVar14 = (uint)(in_stack_fffffffffffffdb8 >> 0x20);
+      pQVar7 = (QString *)&local_238;
+    }
+    QString::~QString(pQVar7);
+    QString::clear((QString *)(param_5 + 0x28));
+    *(undefined1 *)(param_5 + 0x31) = 0;
+    param_5 = *(longlong *)(param_1 + 0x170);
+  }
+  *(undefined1 *)(param_5 + 0x30) = 0;
+  cVar1 = FUN_180230560();
+  if (cVar1 == '\0') {
+    local_d8 = 0;
+    plVar3 = (longlong *)FUN_1802330a0(0,0);
+    (**(code **)(*plVar3 + 0x98))(plVar3,&DAT_180900e34,0,"currentDir",CONCAT44(uVar14,1000),0);
+  }
+  pQVar5 = (QStyledItemDelegate *)DAT_180c4b180;
+  if (DAT_180c4b180 == (undefined8 *)0x0) {
+    FUN_18015c7d0(&local_220,0x400000,0);
+    if (local_220 != (longlong *)0x0) {
+      LOCK();
+      plVar3 = local_220 + 1;
+      lVar4 = *plVar3;
+      *(int *)plVar3 = (int)*plVar3 + -1;
+      UNLOCK();
+      _guard_check_icall(local_220);
+      if ((int)lVar4 == 1) {
+        (**(code **)(*local_220 + 0x18))(local_220);
+      }
+      local_220 = (longlong *)0x0;
+    }
+    lVar4 = FUN_180223ce0(0x538);
+    pQVar5 = pQVar13;
+    if (lVar4 != 0) {
+      pQVar5 = (QStyledItemDelegate *)FUN_1801a48d0(lVar4);
+    }
+  }
+  DAT_180c4b180 = (undefined8 *)pQVar5;
+  *(undefined8 *)(param_1 + 0x148) = param_2;
+  pQVar6 = operator_new(0x820);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileCBD::vftable;
+    *(undefined8 *)(pQVar6 + 0x10) = 0x100;
+    *(QStyledItemDelegate **)(pQVar6 + 0x18) = pQVar6 + 0x20;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x150) = pQVar5;
+  pQVar6 = operator_new(0x18);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileFBD::vftable;
+    *(QWidget **)(pQVar6 + 0x10) = param_1;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x158) = pQVar5;
+  pQVar6 = operator_new(0x10);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileChBD::vftable;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x160) = pQVar5;
+  pQVar5 = operator_new(0x18);
+  if (pQVar5 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar5,(QObject *)0x0);
+    *(undefined ***)pQVar5 = AnimExportDialogProfileDiffTgD::vftable;
+    *(QWidget **)(pQVar5 + 0x10) = param_1;
+    pQVar13 = pQVar5;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x168) = pQVar13;
+  FUN_1800b4bb0(param_1 + 0x30,param_1);
+  QObject::connect(local_1b0,*(char **)(param_1 + 0x130),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e38);
+  QMetaObject::Connection::~Connection((Connection *)local_1b0);
+  QObject::connect(local_1a8,*(char **)(param_1 + 0x138),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e50);
+  QMetaObject::Connection::~Connection((Connection *)local_1a8);
+  QObject::connect(local_1a0,(char *)param_1,(QObject *)"2accepted()",(char *)param_1,0x80900e68);
+  QMetaObject::Connection::~Connection((Connection *)local_1a0);
+  QObject::connect(local_198,(char *)param_1,(QObject *)"2rejected()",(char *)param_1,0x80900e68);
+  QMetaObject::Connection::~Connection((Connection *)local_198);
+  QObject::connect(local_190,*(char **)(param_1 + 0xb0),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e98);
+  QMetaObject::Connection::~Connection((Connection *)local_190);
+  QObject::connect(local_188,*(char **)(param_1 + 200),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900eb0);
+  QMetaObject::Connection::~Connection((Connection *)local_188);
+  QObject::connect(local_180,*(char **)(param_1 + 0xd0),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ec8);
+  QMetaObject::Connection::~Connection((Connection *)local_180);
+  QObject::connect(local_178,*(char **)(param_1 + 0x120),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ee8);
+  QMetaObject::Connection::~Connection((Connection *)local_178);
+  QObject::connect(local_170,*(char **)(param_1 + 0xd8),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ef8);
+  QMetaObject::Connection::~Connection((Connection *)local_170);
+  QObject::connect(local_168,*(char **)(param_1 + 0xf8),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f10);
+  QMetaObject::Connection::~Connection((Connection *)local_168);
+  QObject::connect(local_160,*(char **)(param_1 + 0x58),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f20);
+  QMetaObject::Connection::~Connection((Connection *)local_160);
+  QObject::connect(local_158,*(char **)(param_1 + 0x60),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f38);
+  QMetaObject::Connection::~Connection((Connection *)local_158);
+  QObject::connect(local_150,*(char **)(param_1 + 0x68),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f58);
+  QMetaObject::Connection::~Connection((Connection *)local_150);
+  QObject::connect(local_148,*(char **)(param_1 + 0x80),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f78);
+  QMetaObject::Connection::~Connection((Connection *)local_148);
+  QObject::connect(local_140,*(char **)(param_1 + 0x78),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f88);
+  QMetaObject::Connection::~Connection((Connection *)local_140);
+  QObject::connect(local_138,*(char **)(param_1 + 0x88),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f98);
+  QMetaObject::Connection::~Connection((Connection *)local_138);
+  QObject::connect(local_130,*(char **)(param_1 + 0x110),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900fb0);
+  QMetaObject::Connection::~Connection((Connection *)local_130);
+  QObject::connect(local_128,*(char **)(param_1 + 0x118),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900fc0);
+  QMetaObject::Connection::~Connection((Connection *)local_128);
+  if (param_6 != (char *)0x0) {
+    lVar4 = -1;
+    do {
+      lVar4 = lVar4 + 1;
+    } while (param_6[lVar4] != '\0');
+    local_208 = QString::fromAscii_helper(param_6,(int)lVar4);
+    if (0 < *(int *)(local_208 + 4)) {
+      pQVar7 = (QString *)QString::QString(local_218,(QString *)&local_208);
+      pQVar8 = (QString *)QString::fromUtf8((char *)local_120,-0x7f6ff028);
+      QString::append(local_218,pQVar8);
+      QString::~QString(local_120);
+      QFile::QFile(local_e8,pQVar7);
+      QString::~QString(local_218);
+      bVar2 = QFile::open(local_e8,1);
+      if (bVar2) {
+        pQVar9 = (QByteArray *)QIODevice::readAll((QIODevice *)local_e8);
+        QString::QString(local_210,pQVar9);
+        QByteArray::~QByteArray(local_118);
+        pQVar7 = (QString *)QString::QString(local_110);
+        QWidget::setStyleSheet(param_1,pQVar7);
+        QString::~QString(local_110);
+        QWidget::setStyleSheet(param_1,local_210);
+        QString::~QString(local_210);
+      }
+      QFile::~QFile(local_e8);
+    }
+    QString::~QString((QString *)&local_208);
+  }
+  FUN_1800b2260(param_1);
+  local_200 = QString::fromAscii_helper("MainWnd",7);
+  this = (QSettings *)FUN_1800ba1e0(*(undefined8 *)(param_1 + 0x140),&local_200);
+  local_1f8 = QString::fromAscii_helper("pos",3);
+  pQVar10 = (QPoint *)QWidget::pos(param_1);
+  QVariant::QVariant(local_a8,pQVar10);
+  pQVar11 = (QVariant *)QSettings::value(this,local_b8,(QVariant *)&local_1f8);
+  QVariant::toPoint(pQVar11);
+  QVariant::~QVariant((QVariant *)local_b8);
+  QVariant::~QVariant(local_a8);
+  QString::~QString((QString *)&local_1f8);
+  local_1f0 = QString::fromAscii_helper("size",4);
+  pQVar12 = (QSize *)QWidget::size(param_1);
+  QVariant::QVariant(local_88,pQVar12);
+  pQVar11 = (QVariant *)QSettings::value(this,local_98,(QVariant *)&local_1f0);
+  QVariant::toSize(pQVar11);
+  QVariant::~QVariant((QVariant *)local_98);
+  QVariant::~QVariant(local_88);
+  QString::~QString((QString *)&local_1f0);
+  local_1e8 = QString::fromAscii_helper("basePath",8);
+  QVariant::QVariant(local_68);
+  pQVar11 = (QVariant *)QSettings::value(this,local_78,(QVariant *)&local_1e8);
+  QVariant::toString(pQVar11);
+  QVariant::~QVariant((QVariant *)local_78);
+  QVariant::~QVariant(local_68);
+  QString::~QString((QString *)&local_1e8);
+  local_1e0 = QString::fromAscii_helper("profilesPath",0xc);
+  QVariant::QVariant(local_48);
+  pQVar11 = (QVariant *)QSettings::value(this,local_58,(QVariant *)&local_1e0);
+  QVariant::toString(pQVar11);
+  QVariant::~QVariant((QVariant *)local_58);
+  QVariant::~QVariant(local_48);
+  QString::~QString((QString *)&local_1e0);
+  FUN_1800ba2a0(*(undefined8 *)(param_1 + 0x140));
+  QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x18),local_1b8);
+  QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),local_1c0);
+  QWidget::move(param_1,local_108);
+  QWidget::resize(param_1,local_100);
+  if (*(int *)(*(longlong *)(*(longlong *)(param_1 + 0x170) + 0x18) + 4) < 1) {
+    local_1d8 = QString::fromAscii_helper("Select Base Path for export",0x1b);
+    QFileDialog::getExistingDirectory
+              (local_res18,param_1,&local_1d8,*(longlong *)(param_1 + 0x170) + 0x18,1);
+    QString::~QString((QString *)&local_1d8);
+    if (*(int *)(local_res18[0] + 4) != 0) {
+      QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x18),(QString *)local_res18);
+      QLineEdit::setText(*(QLineEdit **)(param_1 + 0xa8),(QString *)local_res18);
+    }
+    if (*(int *)(*(longlong *)(*(longlong *)(param_1 + 0x170) + 0x20) + 4) < 1) {
+      pQVar7 = (QString *)QString::QString(local_1d0,(QString *)local_res18);
+      pQVar8 = (QString *)QString::fromUtf8((char *)local_f8,-0x7f6fefd8);
+      QString::append(local_1d0,pQVar8);
+      QString::~QString(local_f8);
+      QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),pQVar7);
+      QString::~QString(local_1d0);
+      QLineEdit::setText(*(QLineEdit **)(param_1 + 0xc0),
+                         (QString *)(*(longlong *)(param_1 + 0x170) + 0x20));
+    }
+    QString::~QString((QString *)local_res18);
+  }
+  else {
+    QLineEdit::setText(*(QLineEdit **)(param_1 + 0xa8),
+                       (QString *)(*(longlong *)(param_1 + 0x170) + 0x18));
+  }
+  lVar4 = *(longlong *)(param_1 + 0x170);
+  if (*(int *)(*(longlong *)(lVar4 + 0x20) + 4) < 1) {
+    pQVar7 = (QString *)QString::QString(local_1c8,(QString *)(lVar4 + 0x18));
+    pQVar8 = (QString *)QString::fromUtf8((char *)local_f0,-0x7f6fefd8);
+    QString::append(local_1c8,pQVar8);
+    QString::~QString(local_f0);
+    QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),pQVar7);
+    QString::~QString(local_1c8);
+    lVar4 = *(longlong *)(param_1 + 0x170);
+  }
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0xc0),(QString *)(lVar4 + 0x20));
+  FUN_1800afd70(*(undefined8 *)(param_1 + 0x170),*(undefined8 *)(param_1 + 0x150),param_1);
+  QString::~QString(local_1c0);
+  QString::~QString(local_1b8);
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1800abcb0 1800abcb0
+============================================================
+FUNCTION_REQUEST 1800b4bb0
+FUNCTION FUN_1800b4bb0 entry=1800b4bb0
+CALLERS
+  CALLER from=183ee8728 function=<none> entry=<none>
+  CALLER from=1800ac04c function=FUN_1800abcb0 entry=1800abcb0
+  CALLER from=1800ba843 function=ShowExportDialog entry=1800ba700
+CALLEES
+  CALL from=1800b4bf3 to=EXTERNAL:00000165 function=objectName entry=EXTERNAL:00000165
+  CALL from=1800b4c07 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4c29 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b4c37 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4c4b to=EXTERNAL:000001c4 function=resize entry=EXTERNAL:000001c4
+  CALL from=1800b4c56 to=EXTERNAL:00000173 function=QPalette entry=EXTERNAL:00000173
+  CALL from=1800b4c75 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4c8d to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4ca0 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4cb7 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4cd5 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4ceb to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4cfc to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4d12 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4d30 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4d45 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4d55 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4d6a to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4d88 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4d9d to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4dad to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4dc2 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4de0 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4df5 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4e05 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4e1a to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4e38 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4e4d to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4e5d to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4e72 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4e8a to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4eaa to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4ebf to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4ecf to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4ee4 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4efc to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4f12 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4f28 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4f43 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4f58 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4f68 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4f7d to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4f9f to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b4fb4 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b4fc4 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b4fd9 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b4ff7 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b500c to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b501c to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b5031 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5046 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5065 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b507a to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b508a to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b509f to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b50b4 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b50cd to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b50e6 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b50fd to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5115 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b512d to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5145 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5160 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5178 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5193 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b51ac to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b51c5 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b51dd to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b51f5 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b520d to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5225 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b523d to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5255 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5273 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5289 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b529a to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b52b1 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b52c9 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b52e1 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b52f9 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5311 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5329 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5342 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b535a to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5373 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b538c to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b53a5 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b53bd to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b53df to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b53f4 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b5404 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b541c to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5434 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5452 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5467 to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b5477 to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b548f to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b54a7 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b54bf to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b54cd to=EXTERNAL:000001bd function=setPalette entry=EXTERNAL:000001bd
+  CALL from=1800b54e1 to=EXTERNAL:000001c0 function=setWindowOpacity entry=EXTERNAL:000001c0
+  CALL from=1800b5512 to=EXTERNAL:0000011d function=QString entry=EXTERNAL:0000011d
+  CALL from=1800b5523 to=EXTERNAL:000001bf function=setStyleSheet entry=EXTERNAL:000001bf
+  CALL from=1800b5531 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b553c to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5567 to=EXTERNAL:000001e5 function=QVBoxLayout entry=EXTERNAL:000001e5
+  CALL from=1800b5594 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b55a2 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b55ad to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b55d2 to=EXTERNAL:000001e1 function=QHBoxLayout entry=EXTERNAL:000001e1
+  CALL from=1800b5600 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b560e to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5619 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5630 to=EXTERNAL:000001e4 function=QVBoxLayout entry=EXTERNAL:000001e4
+  CALL from=1800b5665 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5673 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b567e to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5695 to=EXTERNAL:000001e1 function=QHBoxLayout entry=EXTERNAL:000001e1
+  CALL from=1800b56c3 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b56d1 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b56dc to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b56f9 to=EXTERNAL:000001ec function=QLabel entry=EXTERNAL:000001ec
+  CALL from=1800b5735 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5743 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5757 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b5762 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b578a to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b57b8 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b57c6 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b57da to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b57e5 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b57ff to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b582d to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b583b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b584f to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b585a to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5874 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b58a2 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b58b0 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b58c4 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b58d5 to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b58e0 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b58f7 to=EXTERNAL:000001e1 function=QHBoxLayout entry=EXTERNAL:000001e1
+  CALL from=1800b592c to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b593a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5945 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b595f to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b598d to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b599b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b59af to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b59ba to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b59d4 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b5a02 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5a10 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5a24 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b5a2f to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5a49 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b5a77 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5a85 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5a99 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b5aaa to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b5abb to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b5ac6 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5ae3 to=EXTERNAL:000001d5 function=QFrame entry=EXTERNAL:000001d5
+  CALL from=1800b5b1f to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5b2d to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5b3c to=EXTERNAL:000001d7 function=setFrameShape entry=EXTERNAL:000001d7
+  CALL from=1800b5b4b to=EXTERNAL:000001d8 function=setFrameShadow entry=EXTERNAL:000001d8
+  CALL from=1800b5b5f to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b5b6a to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5b81 to=EXTERNAL:000001e4 function=QVBoxLayout entry=EXTERNAL:000001e4
+  CALL from=1800b5bbd to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5bcb to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5bd6 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5bed to=EXTERNAL:000001e1 function=QHBoxLayout entry=EXTERNAL:000001e1
+  CALL from=1800b5c22 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5c30 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5c3b to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b5c55 to=EXTERNAL:000001ef function=QLineEdit entry=EXTERNAL:000001ef
+  CALL from=1800b5c91 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b5c9f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b5cab to=EXTERNAL:000001b7 function=setEnabled entry=EXTERNAL:000001b7
+  CALL from=1800b5cb5 to=EXTERNAL:00000173 function=QPalette entry=EXTERNAL:00000173
+  CALL from=1800b5ccc to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5ce8 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b5d02 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b5d20 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5d35 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5d53 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5d68 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5d79 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b5d8e to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5da5 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5dbc to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5dd8 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b5df2 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b5e10 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5e25 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5e43 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5e58 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5e69 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b5e7e to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5e9a to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b5eb4 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b5ed1 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5ee5 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5f02 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5f16 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5f27 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b5f3c to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5f54 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b5f70 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b5f8a to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b5fa7 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5fbb to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b5fdb to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b5ff2 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6003 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b601b to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6035 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b604f to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b606b to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b6085 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b60a5 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b60bc to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b60dc to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b60f3 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6104 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b611c to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6138 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b6152 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b6172 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6189 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b61a9 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b61c0 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b61d1 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b61e9 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b61ff to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6216 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b622e to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6246 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b625e to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6276 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6284 to=EXTERNAL:000001bd function=setPalette entry=EXTERNAL:000001bd
+  CALL from=1800b6290 to=EXTERNAL:000001f1 function=setReadOnly entry=EXTERNAL:000001f1
+  CALL from=1800b62a4 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b62af to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b62c9 to=EXTERNAL:0000020a function=QToolButton entry=EXTERNAL:0000020a
+  CALL from=1800b6308 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b6316 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b632d to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b633e to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b6349 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6360 to=EXTERNAL:000001e1 function=QHBoxLayout entry=EXTERNAL:000001e1
+  CALL from=1800b6398 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b63a6 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b63b1 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b63cb to=EXTERNAL:000001ef function=QLineEdit entry=EXTERNAL:000001ef
+  CALL from=1800b640a to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b6418 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b6427 to=EXTERNAL:000001f1 function=setReadOnly entry=EXTERNAL:000001f1
+  CALL from=1800b6441 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b644c to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6466 to=EXTERNAL:0000020a function=QToolButton entry=EXTERNAL:0000020a
+  CALL from=1800b64a5 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b64b3 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b64cd to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b64d8 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b64f2 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b6523 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b6531 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b654b to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b6556 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6570 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b65a1 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b65af to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b65c9 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b65dd to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b65ee to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b65fe to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b6609 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6623 to=EXTERNAL:00000200 function=QTableWidget entry=EXTERNAL:00000200
+  CALL from=1800b665e to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b666a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b6685 to=EXTERNAL:000001b2 function=QSizePolicy entry=EXTERNAL:000001b2
+  CALL from=1800b6694 to=EXTERNAL:000001b3 function=setHorizontalStretch entry=EXTERNAL:000001b3
+  CALL from=1800b66a3 to=EXTERNAL:000001b4 function=setVerticalStretch entry=EXTERNAL:000001b4
+  CALL from=1800b66b7 to=EXTERNAL:000001c7 function=sizePolicy entry=EXTERNAL:000001c7
+  CALL from=1800b66dc to=EXTERNAL:000001c8 function=setSizePolicy entry=EXTERNAL:000001c8
+  CALL from=1800b66e7 to=EXTERNAL:00000173 function=QPalette entry=EXTERNAL:00000173
+  CALL from=1800b66ff to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b671b to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b6735 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b6755 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b676c to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b678c to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b67ab to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b67cb to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b67e2 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b67f3 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b6809 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6821 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6839 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6855 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b686f to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b688f to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b68a6 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b68c6 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b68dd to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b68fa to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b690e to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b691f to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b6935 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6951 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b696b to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b6988 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b699c to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b69b9 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b69cd to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b69eb to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6a00 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6a11 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b6a27 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6a47 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6a5e to=EXTERNAL:0000016b function=QBrush entry=EXTERNAL:0000016b
+  CALL from=1800b6a6e to=EXTERNAL:0000016e function=setStyle entry=EXTERNAL:0000016e
+  CALL from=1800b6a83 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6a9c to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6ab8 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b6ad2 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b6af2 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6b09 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6b29 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6b40 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6b60 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6b77 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6b88 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b6ba1 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6bbc to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6bd7 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6bf3 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b6c0d to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b6c2d to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6c44 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6c64 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6c7b to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6c9b to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6cb2 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6cc3 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b6cdc to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6cf8 to=EXTERNAL:00000171 function=QLinearGradient entry=EXTERNAL:00000171
+  CALL from=1800b6d12 to=EXTERNAL:00000170 function=setCoordinateMode entry=EXTERNAL:00000170
+  CALL from=1800b6d32 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6d49 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6d69 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6d80 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6da0 to=EXTERNAL:0000016a function=setRgb entry=EXTERNAL:0000016a
+  CALL from=1800b6db7 to=EXTERNAL:0000016f function=setColorAt entry=EXTERNAL:0000016f
+  CALL from=1800b6dc8 to=EXTERNAL:0000016c function=QBrush entry=EXTERNAL:0000016c
+  CALL from=1800b6de1 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6df9 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6e10 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6e28 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6e41 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6e5a to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6e73 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6e8c to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6ea4 to=EXTERNAL:00000175 function=setBrush entry=EXTERNAL:00000175
+  CALL from=1800b6eb6 to=EXTERNAL:000001bd function=setPalette entry=EXTERNAL:000001bd
+  CALL from=1800b6ecc to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b6ed7 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6eee to=EXTERNAL:000001e1 function=QHBoxLayout entry=EXTERNAL:000001e1
+  CALL from=1800b6f26 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b6f34 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b6f3f to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6f59 to=EXTERNAL:000001cf function=QCheckBox entry=EXTERNAL:000001cf
+  CALL from=1800b6f98 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b6fa6 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b6fc0 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b6fcb to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b6fe5 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b7016 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b7024 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b703e to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b7049 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b7075 to=EXTERNAL:000001da function=QSpacerItem entry=EXTERNAL:000001da
+  CALL from=1800b709e to=180813a2b function=addItem entry=180813a2b
+  CALL from=1800b70a6 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b70c3 to=EXTERNAL:000001d5 function=QFrame entry=EXTERNAL:000001d5
+  CALL from=1800b7109 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b7117 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b7129 to=EXTERNAL:000001d7 function=setFrameShape entry=EXTERNAL:000001d7
+  CALL from=1800b713b to=EXTERNAL:000001d8 function=setFrameShadow entry=EXTERNAL:000001d8
+  CALL from=1800b7155 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b7160 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b717a to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b71ab to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b71b9 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b71d3 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b71de to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b71f8 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b7229 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b7237 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b7251 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b725c to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b7276 to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b72a7 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b72b5 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b72c4 to=EXTERNAL:000001f5 function=setAutoDefault entry=EXTERNAL:000001f5
+  CALL from=1800b72de to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b72e9 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b7306 to=EXTERNAL:000001d5 function=QFrame entry=EXTERNAL:000001d5
+  CALL from=1800b733e to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b734c to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b735e to=EXTERNAL:000001d7 function=setFrameShape entry=EXTERNAL:000001d7
+  CALL from=1800b7370 to=EXTERNAL:000001d8 function=setFrameShadow entry=EXTERNAL:000001d8
+  CALL from=1800b738a to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b7395 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b73af to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b73e0 to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b73ee to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b7408 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b7413 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b742d to=EXTERNAL:000001f3 function=QPushButton entry=EXTERNAL:000001f3
+  CALL from=1800b745e to=EXTERNAL:00000166 function=setObjectName entry=EXTERNAL:00000166
+  CALL from=1800b746c to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b7486 to=EXTERNAL:000001de function=addWidget entry=EXTERNAL:000001de
+  CALL from=1800b7499 to=EXTERNAL:000001df function=addLayout entry=EXTERNAL:000001df
+  CALL from=1800b74a5 to=1800b3d20 function=FUN_1800b3d20 entry=1800b3d20
+  CALL from=1800b74ad to=EXTERNAL:00000163 function=connectSlotsByName entry=EXTERNAL:00000163
+  CALL from=1800b74b8 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b74c6 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b74d1 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b74df to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b74ea to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b74f8 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b7503 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b750e to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b751c to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b7527 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7535 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b7540 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b754e to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b755a to=EXTERNAL:00000174 function=~QPalette entry=EXTERNAL:00000174
+  CALL from=1800b7565 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7573 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b757e to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b758c to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b7597 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b75a5 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b75b0 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b75be to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b75c9 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b75d7 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b75e2 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b75f0 to=EXTERNAL:00000172 function=~QLinearGradient entry=EXTERNAL:00000172
+  CALL from=1800b75fb to=EXTERNAL:00000174 function=~QPalette entry=EXTERNAL:00000174
+  CALL from=1800b7606 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7611 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b761d to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7628 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7633 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b763e to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7649 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7654 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b765f to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b766a to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7675 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b7680 to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b768c to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b769a to=EXTERNAL:0000016d function=~QBrush entry=EXTERNAL:0000016d
+  CALL from=1800b76a6 to=EXTERNAL:00000174 function=~QPalette entry=EXTERNAL:00000174
+DECOMPILE_BEGIN FUN_1800b4bb0 1800b4bb0
+
+void FUN_1800b4bb0(undefined8 *param_1,QObject *param_2)
+
+{
+  int iVar1;
+  double dVar2;
+  double dVar3;
+  longlong *plVar4;
+  QVBoxLayout *pQVar5;
+  QHBoxLayout *pQVar6;
+  QLabel *pQVar7;
+  QPushButton *pQVar8;
+  QFrame *pQVar9;
+  QLineEdit *pQVar10;
+  QToolButton *pQVar11;
+  QTableWidget *this;
+  uint *puVar12;
+  QCheckBox *this_00;
+  QSpacerItem *this_01;
+  QPushButton *pQVar13;
+  QLabel *this_02;
+  QVBoxLayout *pQVar14;
+  QLineEdit *pQVar15;
+  QToolButton *pQVar16;
+  QTableWidget *this_03;
+  QHBoxLayout *pQVar17;
+  QCheckBox *this_04;
+  QSpacerItem *pQVar18;
+  QFrame *pQVar19;
+  QPushButton *this_05;
+  uint local_res8 [2];
+  QVBoxLayout *local_res18;
+  QBrush local_res20 [8];
+  QPalette local_5a8 [16];
+  QBrush local_598 [8];
+  QBrush local_590 [8];
+  undefined *local_588;
+  char *pcStack_580;
+  QPalette local_578 [16];
+  QColor local_568 [16];
+  QPalette local_558 [16];
+  QBrush local_548 [8];
+  QBrush local_540 [8];
+  QBrush local_538 [8];
+  QBrush local_530 [8];
+  QBrush local_528 [8];
+  QBrush local_520 [8];
+  QBrush local_518 [8];
+  QBrush local_510 [8];
+  QBrush local_508 [8];
+  QBrush local_500 [8];
+  QBrush local_4f8 [8];
+  QBrush local_4f0 [8];
+  QBrush local_4e8 [8];
+  QBrush local_4e0 [8];
+  QBrush local_4d8 [8];
+  QBrush local_4d0 [8];
+  QBrush local_4c8 [8];
+  QBrush local_4c0 [8];
+  QBrush local_4b8 [8];
+  QBrush local_4b0 [8];
+  QBrush local_4a8 [8];
+  QBrush local_4a0 [8];
+  QBrush local_498 [8];
+  QBrush local_490 [8];
+  QColor local_488 [16];
+  QColor local_478 [16];
+  QColor local_468 [16];
+  QColor local_458 [16];
+  QColor local_448 [16];
+  QColor local_438 [16];
+  QColor local_428 [16];
+  QColor local_418 [16];
+  undefined8 local_408;
+  QColor local_400 [16];
+  QColor local_3f0 [16];
+  QColor local_3e0 [16];
+  QColor local_3d0 [16];
+  QColor local_3c0 [16];
+  QColor local_3b0 [16];
+  QColor local_3a0 [16];
+  QColor local_390 [16];
+  QColor local_380 [16];
+  QColor local_370 [24];
+  QLinearGradient local_358 [4];
+  undefined4 local_354;
+  QLinearGradient local_318 [4];
+  undefined4 local_314;
+  QLinearGradient local_2d8 [4];
+  undefined4 local_2d4;
+  QLinearGradient local_298 [4];
+  undefined4 local_294;
+  QLinearGradient local_258 [4];
+  undefined4 local_254;
+  QLinearGradient local_218 [4];
+  undefined4 local_214;
+  QLinearGradient local_1d8 [4];
+  undefined4 local_1d4;
+  QLinearGradient local_198 [4];
+  undefined4 local_194;
+  QLinearGradient local_158 [4];
+  undefined4 local_154;
+  QLinearGradient local_118 [4];
+  undefined4 local_114;
+  QLinearGradient local_d8 [4];
+  undefined4 local_d4;
+  QLinearGradient local_98 [4];
+  undefined4 local_94;
+  
+  local_408 = 0xfffffffffffffffe;
+  plVar4 = (longlong *)QObject::objectName(param_2);
+  iVar1 = *(int *)(*plVar4 + 4);
+  QString::~QString((QString *)&local_res18);
+  if (iVar1 == 0) {
+    local_res18 = (QVBoxLayout *)&DAT_1808fbc00;
+    QObject::setObjectName(param_2,(QString *)&local_res18);
+    QString::~QString((QString *)&local_res18);
+  }
+  QWidget::resize((QWidget *)param_2,0x35f,0x1e5);
+  QPalette::QPalette(local_5a8);
+  QColor::setRgb((QColor *)&local_588,0xdd,0xdd,0xdd,0xff);
+  QBrush::QBrush(local_res20,(QColor *)&local_588,1);
+  QBrush::setStyle(local_res20,1);
+  QPalette::setBrush(local_5a8,0,0,local_res20);
+  QColor::setRgb(local_568,0x30,0x30,0x30,0xff);
+  QBrush::QBrush(local_598,local_568,1);
+  QBrush::setStyle(local_598,1);
+  QPalette::setBrush(local_5a8,0,1,local_598);
+  QColor::setRgb((QColor *)&local_588,0x4b,0x4b,0x4b,0xff);
+  QBrush::QBrush(local_510,(QColor *)&local_588,1);
+  QBrush::setStyle(local_510,1);
+  QPalette::setBrush(local_5a8,0,2,local_510);
+  QColor::setRgb(local_568,0x3e,0x3e,0x3e,0xff);
+  QBrush::QBrush(local_518,local_568,1);
+  QBrush::setStyle(local_518,1);
+  QPalette::setBrush(local_5a8,0,3,local_518);
+  QColor::setRgb((QColor *)&local_588,0x19,0x19,0x19,0xff);
+  QBrush::QBrush(local_540,(QColor *)&local_588,1);
+  QBrush::setStyle(local_540,1);
+  QPalette::setBrush(local_5a8,0,4,local_540);
+  QColor::setRgb(local_568,0x21,0x21,0x21,0xff);
+  QBrush::QBrush(local_520,local_568,1);
+  QBrush::setStyle(local_520,1);
+  QPalette::setBrush(local_5a8,0,5,local_520);
+  QPalette::setBrush(local_5a8,0,6,local_res20);
+  QColor::setRgb((QColor *)&local_588,0x68,0x67,0x66,0xff);
+  QBrush::QBrush(local_508,(QColor *)&local_588,1);
+  QBrush::setStyle(local_508,1);
+  QPalette::setBrush(local_5a8,0,7,local_508);
+  QPalette::setBrush(local_5a8,0,8,local_res20);
+  QPalette::setBrush(local_5a8,0,9,local_598);
+  QPalette::setBrush(local_5a8,0,10,local_598);
+  QColor::setRgb(local_568,0,0,0,0xff);
+  QBrush::QBrush(local_548,local_568,1);
+  QBrush::setStyle(local_548,1);
+  QPalette::setBrush(local_5a8,0,0xb,local_548);
+  QColor::setRgb((QColor *)&local_588,0x1c,0x8b,0xcf,0xff);
+  QBrush::QBrush(local_500,(QColor *)&local_588,1);
+  QBrush::setStyle(local_500,1);
+  QPalette::setBrush(local_5a8,0,0xc,local_500);
+  QColor::setRgb(local_568,0xe2,0xe2,0xe2,0xff);
+  QBrush::QBrush(local_528,local_568,1);
+  QBrush::setStyle(local_528,1);
+  QPalette::setBrush(local_5a8,0,0xd,local_528);
+  QPalette::setBrush(local_5a8,0,0x10,local_540);
+  QColor::setRgb((QColor *)&local_588,0xff,0xff,0xdc,0xff);
+  QBrush::QBrush(local_530,(QColor *)&local_588,1);
+  QBrush::setStyle(local_530,1);
+  QPalette::setBrush(local_5a8,0,0x12,local_530);
+  QPalette::setBrush(local_5a8,0,0x13,local_548);
+  QPalette::setBrush(local_5a8,2,0,local_res20);
+  QPalette::setBrush(local_5a8,2,1,local_598);
+  QPalette::setBrush(local_5a8,2,2,local_510);
+  QPalette::setBrush(local_5a8,2,3,local_518);
+  QPalette::setBrush(local_5a8,2,4,local_540);
+  QPalette::setBrush(local_5a8,2,5,local_520);
+  QPalette::setBrush(local_5a8,2,6,local_res20);
+  QPalette::setBrush(local_5a8,2,7,local_508);
+  QPalette::setBrush(local_5a8,2,8,local_res20);
+  QPalette::setBrush(local_5a8,2,9,local_598);
+  QPalette::setBrush(local_5a8,2,10,local_598);
+  QPalette::setBrush(local_5a8,2,0xb,local_548);
+  QPalette::setBrush(local_5a8,2,0xc,local_500);
+  QPalette::setBrush(local_5a8,2,0xd,local_528);
+  QPalette::setBrush(local_5a8,2,0x10,local_540);
+  QPalette::setBrush(local_5a8,2,0x12,local_530);
+  QPalette::setBrush(local_5a8,2,0x13,local_548);
+  QColor::setRgb(local_568,0x80,0x80,0x80,0xff);
+  QBrush::QBrush(local_590,local_568,1);
+  QBrush::setStyle(local_590,1);
+  QPalette::setBrush(local_5a8,1,0,local_590);
+  QPalette::setBrush(local_5a8,1,1,local_598);
+  QPalette::setBrush(local_5a8,1,2,local_510);
+  QPalette::setBrush(local_5a8,1,3,local_518);
+  QPalette::setBrush(local_5a8,1,4,local_540);
+  QPalette::setBrush(local_5a8,1,5,local_520);
+  QPalette::setBrush(local_5a8,1,6,local_590);
+  QPalette::setBrush(local_5a8,1,7,local_508);
+  QPalette::setBrush(local_5a8,1,8,local_590);
+  QPalette::setBrush(local_5a8,1,9,local_598);
+  QPalette::setBrush(local_5a8,1,10,local_598);
+  QPalette::setBrush(local_5a8,1,0xb,local_548);
+  QColor::setRgb((QColor *)&local_588,0x33,0x99,0xff,0xff);
+  QBrush::QBrush(local_4f0,(QColor *)&local_588,1);
+  QBrush::setStyle(local_4f0,1);
+  QPalette::setBrush(local_5a8,1,0xc,local_4f0);
+  QPalette::setBrush(local_5a8,1,0xd,local_528);
+  QColor::setRgb(local_568,0x32,0x32,0x32,0xff);
+  QBrush::QBrush(local_4f8,local_568,1);
+  QBrush::setStyle(local_4f8,1);
+  QPalette::setBrush(local_5a8,1,0x10,local_4f8);
+  QPalette::setBrush(local_5a8,1,0x12,local_530);
+  QPalette::setBrush(local_5a8,1,0x13,local_548);
+  QWidget::setPalette((QWidget *)param_2,local_5a8);
+  dVar3 = DAT_180a3d278;
+  QWidget::setWindowOpacity((QWidget *)param_2,DAT_180a3d278);
+  local_588 = (undefined *)CONCAT44(local_588._4_4_,0x3c3f);
+  pcStack_580 = 
+  "/*\n\n\tDefault Enfusion Editor dark skin.\n\n*/\n\n\n\nQWidget\n{\n    color: #dddddd;\n    background-color: #303030;\n}\n\nQWidget:item:hover\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #404040, stop: 1 #303030);\n    color: #dddddd;\n}\n\nQWidget:item:selected\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffaa00, stop: 1 #b66c16);\n    color: #000000;\n}\n\nQWidget:disabled\n{\n    color: #808080;\n    background-color: #303030;\n}\n\n\n/* opacity doesn\'t work well: when popping up, the tooltip is colored correctly, but then it changes its opacity to 50 or so */\nQToolTip\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffffff, stop: 1 #909090);\n    border: 1px solid black;\n    color: #000000;\n    border-radius: 0px;\n}\n\n\nQMenuBar::item\n{\n    background: transparent;\n}\n\nQMenuBar::item:selected\n{\n    /*background: transparent;*/\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #505050 );\n    border: 1px solid #707070;\n    color: #dddddd;\n/*    color: #000000;*/\n}\n\nQMenuBar::item:pressed\n{\n    border: 1px solid #505050;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #404040, stop:0.4 #606060 );\n    margin-bottom: -1px;\n    padding-bottom: 1px;\n    border: 1px solid #707070;\n    color: #ffffffff;\n}\n\n\nQMenu\n{\n    border: 1px solid #202020;\n}\n\nQMenu::item\n{\n    padding: 4px 30px 4px 30px;\n    margin-left: 2px;\n}\n\n/* orange\nQMenu::item:selected\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #606060, stop:0.4 #909090 );\n    color: #000000;\n    border: 1px solid #505050;\n}*/\n\nQMenu::item:selected\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #505050 );\n    border: 1px solid #707070;\n    border-left-width: 1px;\n    margin-left: 1px;\n    color: #dddddd;\n}\n\n/* not tested as we don\'t have a separator anywhere yet */\nQMenu::separator\n{\n    height: 2px;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #101010, stop: 0..." /* TRUNCATED STRING LITERAL */
+  ;
+  QString::QString((QString *)&local_res18,&local_588);
+  QWidget::setStyleSheet((QWidget *)param_2,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar5 = operator_new(0x20);
+  this_05 = (QPushButton *)0x0;
+  pQVar14 = (QVBoxLayout *)this_05;
+  if (pQVar5 != (QVBoxLayout *)0x0) {
+    local_res18 = pQVar5;
+    QVBoxLayout::QVBoxLayout(pQVar5,(QWidget *)param_2);
+    *(undefined ***)pQVar5 = QVBoxLayout::vftable;
+    *(undefined ***)(pQVar5 + 0x10) = QVBoxLayout::vftable;
+    pQVar14 = pQVar5;
+  }
+  *param_1 = pQVar14;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbc40;
+  QObject::setObjectName((QObject *)pQVar14,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar6 = operator_new(0x20);
+  pQVar17 = (QHBoxLayout *)this_05;
+  if (pQVar6 != (QHBoxLayout *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar6;
+    QHBoxLayout::QHBoxLayout(pQVar6);
+    *(undefined ***)pQVar6 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar6 + 0x10) = QHBoxLayout::vftable;
+    pQVar17 = pQVar6;
+  }
+  param_1[1] = pQVar17;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbc80;
+  QObject::setObjectName((QObject *)pQVar17,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar5 = operator_new(0x20);
+  pQVar14 = (QVBoxLayout *)this_05;
+  if (pQVar5 != (QVBoxLayout *)0x0) {
+    local_res18 = pQVar5;
+    QVBoxLayout::QVBoxLayout(pQVar5);
+    *(undefined ***)pQVar5 = QVBoxLayout::vftable;
+    *(undefined ***)(pQVar5 + 0x10) = QVBoxLayout::vftable;
+    pQVar14 = pQVar5;
+  }
+  param_1[2] = pQVar14;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbcb8;
+  QObject::setObjectName((QObject *)pQVar14,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar6 = operator_new(0x20);
+  pQVar17 = (QHBoxLayout *)this_05;
+  if (pQVar6 != (QHBoxLayout *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar6;
+    QHBoxLayout::QHBoxLayout(pQVar6);
+    *(undefined ***)pQVar6 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar6 + 0x10) = QHBoxLayout::vftable;
+    pQVar17 = pQVar6;
+  }
+  param_1[3] = pQVar17;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbcf0;
+  QObject::setObjectName((QObject *)pQVar17,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar7 = operator_new(0x30);
+  this_02 = (QLabel *)this_05;
+  if (pQVar7 != (QLabel *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar7;
+    QLabel::QLabel(pQVar7,param_2);
+    *(undefined ***)pQVar7 = QLabel::vftable;
+    *(undefined ***)(pQVar7 + 0x10) = QLabel::vftable;
+    this_02 = pQVar7;
+  }
+  param_1[4] = this_02;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbd20;
+  QObject::setObjectName((QObject *)this_02,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[3],param_1[4],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[5] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbd50;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[3],param_1[5],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[6] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbd80;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[3],param_1[6],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[7] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbdb0;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[3],param_1[7],0,0);
+  QBoxLayout::addLayout((QBoxLayout *)param_1[2],(QLayout *)param_1[3],0);
+  pQVar6 = operator_new(0x20);
+  pQVar17 = (QHBoxLayout *)this_05;
+  if (pQVar6 != (QHBoxLayout *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar6;
+    QHBoxLayout::QHBoxLayout(pQVar6);
+    *(undefined ***)pQVar6 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar6 + 0x10) = QHBoxLayout::vftable;
+    pQVar17 = pQVar6;
+  }
+  param_1[8] = pQVar17;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbde8;
+  QObject::setObjectName((QObject *)pQVar17,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[9] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbe18;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[8],param_1[9],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[10] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbe48;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[8],param_1[10],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0xb] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbe70;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[8],param_1[0xb],0,0);
+  QBoxLayout::addLayout((QBoxLayout *)param_1[2],(QLayout *)param_1[8],0);
+  QBoxLayout::addLayout((QBoxLayout *)param_1[1],(QLayout *)param_1[2],0);
+  pQVar9 = operator_new(0x30);
+  pQVar19 = (QFrame *)this_05;
+  if (pQVar9 != (QFrame *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar9;
+    QFrame::QFrame(pQVar9,param_2);
+    *(undefined ***)pQVar9 = QFrame::vftable;
+    *(undefined ***)(pQVar9 + 0x10) = QFrame::vftable;
+    pQVar19 = pQVar9;
+  }
+  param_1[0xc] = pQVar19;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbea0;
+  QObject::setObjectName((QObject *)pQVar19,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QFrame::setFrameShape((QFrame *)param_1[0xc],5);
+  QFrame::setFrameShadow((QFrame *)param_1[0xc],0x30);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[1],param_1[0xc],0,0);
+  pQVar5 = operator_new(0x20);
+  pQVar14 = (QVBoxLayout *)this_05;
+  if (pQVar5 != (QVBoxLayout *)0x0) {
+    local_res18 = pQVar5;
+    QVBoxLayout::QVBoxLayout(pQVar5);
+    *(undefined ***)pQVar5 = QVBoxLayout::vftable;
+    *(undefined ***)(pQVar5 + 0x10) = QVBoxLayout::vftable;
+    pQVar14 = pQVar5;
+  }
+  param_1[0xd] = pQVar14;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbec8;
+  QObject::setObjectName((QObject *)pQVar14,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar6 = operator_new(0x20);
+  pQVar17 = (QHBoxLayout *)this_05;
+  if (pQVar6 != (QHBoxLayout *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar6;
+    QHBoxLayout::QHBoxLayout(pQVar6);
+    *(undefined ***)pQVar6 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar6 + 0x10) = QHBoxLayout::vftable;
+    pQVar17 = pQVar6;
+  }
+  param_1[0xe] = pQVar17;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbef8;
+  QObject::setObjectName((QObject *)pQVar17,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar10 = operator_new(0x30);
+  pQVar15 = (QLineEdit *)this_05;
+  if (pQVar10 != (QLineEdit *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar10;
+    QLineEdit::QLineEdit(pQVar10,(QWidget *)param_2);
+    *(undefined ***)pQVar10 = QLineEdit::vftable;
+    *(undefined ***)(pQVar10 + 0x10) = QLineEdit::vftable;
+    pQVar15 = pQVar10;
+  }
+  param_1[0xf] = pQVar15;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbf30;
+  QObject::setObjectName((QObject *)pQVar15,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QWidget::setEnabled((QWidget *)param_1[0xf],true);
+  QPalette::QPalette(local_558);
+  QPalette::setBrush(local_558,0,0,local_res20);
+  QLinearGradient::QLinearGradient(local_98,0.0,0.0,0.0,dVar3);
+  local_94 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_98,2);
+  QColor::setRgb(local_568,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_98,0.0,local_568);
+  QColor::setRgb(local_568,0x50,0x50,0x50,0xff);
+  QGradient::setColorAt((QGradient *)local_98,dVar3,local_568);
+  QBrush::QBrush(local_498,(QGradient *)local_98);
+  QPalette::setBrush(local_558,0,1,local_498);
+  QPalette::setBrush(local_558,0,6,local_res20);
+  QPalette::setBrush(local_558,0,8,local_res20);
+  QLinearGradient::QLinearGradient(local_d8,0.0,0.0,0.0,dVar3);
+  local_d4 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_d8,2);
+  QColor::setRgb(local_568,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_d8,0.0,local_568);
+  QColor::setRgb((QColor *)&local_588,0x50,0x50,0x50,0xff);
+  QGradient::setColorAt((QGradient *)local_d8,dVar3,(QColor *)&local_588);
+  QBrush::QBrush(local_4a0,(QGradient *)local_d8);
+  QPalette::setBrush(local_558,0,9,local_4a0);
+  QLinearGradient::QLinearGradient(local_118,0.0,0.0,0.0,dVar3);
+  local_114 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_118,2);
+  QColor::setRgb(local_488,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_118,0.0,local_488);
+  QColor::setRgb(local_478,0x50,0x50,0x50,0xff);
+  QGradient::setColorAt((QGradient *)local_118,dVar3,local_478);
+  QBrush::QBrush(local_490,(QGradient *)local_118);
+  QPalette::setBrush(local_558,0,10,local_490);
+  QPalette::setBrush(local_558,2,0,local_res20);
+  QLinearGradient::QLinearGradient(local_158,0.0,0.0,0.0,dVar3);
+  local_154 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_158,2);
+  QColor::setRgb(local_468,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_158,0.0,local_468);
+  QColor::setRgb(local_458,0x50,0x50,0x50,0xff);
+  QGradient::setColorAt((QGradient *)local_158,dVar3,local_458);
+  QBrush::QBrush(local_4a8,(QGradient *)local_158);
+  QPalette::setBrush(local_558,2,1,local_4a8);
+  QPalette::setBrush(local_558,2,6,local_res20);
+  QPalette::setBrush(local_558,2,8,local_res20);
+  QLinearGradient::QLinearGradient(local_198,0.0,0.0,0.0,dVar3);
+  local_194 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_198,2);
+  QColor::setRgb(local_448,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_198,0.0,local_448);
+  QColor::setRgb(local_438,0x50,0x50,0x50,0xff);
+  QGradient::setColorAt((QGradient *)local_198,dVar3,local_438);
+  QBrush::QBrush(local_4b0,(QGradient *)local_198);
+  QPalette::setBrush(local_558,2,9,local_4b0);
+  QLinearGradient::QLinearGradient(local_1d8,0.0,0.0,0.0,dVar3);
+  local_1d4 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_1d8,2);
+  QColor::setRgb(local_428,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_1d8,0.0,local_428);
+  QColor::setRgb(local_418,0x50,0x50,0x50,0xff);
+  QGradient::setColorAt((QGradient *)local_1d8,dVar3,local_418);
+  QBrush::QBrush(local_4b8,(QGradient *)local_1d8);
+  QPalette::setBrush(local_558,2,10,local_4b8);
+  QPalette::setBrush(local_558,1,0,local_590);
+  QPalette::setBrush(local_558,1,1,local_598);
+  QPalette::setBrush(local_558,1,6,local_590);
+  QPalette::setBrush(local_558,1,8,local_590);
+  QPalette::setBrush(local_558,1,9,local_598);
+  QPalette::setBrush(local_558,1,10,local_598);
+  QWidget::setPalette((QWidget *)param_1[0xf],local_558);
+  QLineEdit::setReadOnly((QLineEdit *)param_1[0xf],true);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0xe],param_1[0xf],0,0);
+  pQVar11 = operator_new(0x30);
+  pQVar16 = (QToolButton *)this_05;
+  if (pQVar11 != (QToolButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar11;
+    QToolButton::QToolButton(pQVar11,(QWidget *)param_2);
+    *(undefined ***)pQVar11 = QToolButton::vftable;
+    *(undefined ***)(pQVar11 + 0x10) = QToolButton::vftable;
+    pQVar16 = pQVar11;
+  }
+  param_1[0x10] = pQVar16;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbf60;
+  QObject::setObjectName((QObject *)pQVar16,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0xe],param_1[0x10],0,0);
+  QBoxLayout::addLayout((QBoxLayout *)param_1[0xd],(QLayout *)param_1[0xe],0);
+  pQVar6 = operator_new(0x20);
+  pQVar17 = (QHBoxLayout *)this_05;
+  if (pQVar6 != (QHBoxLayout *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar6;
+    QHBoxLayout::QHBoxLayout(pQVar6);
+    *(undefined ***)pQVar6 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar6 + 0x10) = QHBoxLayout::vftable;
+    pQVar17 = pQVar6;
+  }
+  param_1[0x11] = pQVar17;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbf98;
+  QObject::setObjectName((QObject *)pQVar17,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  pQVar10 = operator_new(0x30);
+  pQVar15 = (QLineEdit *)this_05;
+  if (pQVar10 != (QLineEdit *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar10;
+    QLineEdit::QLineEdit(pQVar10,(QWidget *)param_2);
+    *(undefined ***)pQVar10 = QLineEdit::vftable;
+    *(undefined ***)(pQVar10 + 0x10) = QLineEdit::vftable;
+    pQVar15 = pQVar10;
+  }
+  param_1[0x12] = pQVar15;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbfc0;
+  QObject::setObjectName((QObject *)pQVar15,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QLineEdit::setReadOnly((QLineEdit *)param_1[0x12],true);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x11],param_1[0x12],0,0);
+  pQVar11 = operator_new(0x30);
+  pQVar16 = (QToolButton *)this_05;
+  if (pQVar11 != (QToolButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar11;
+    QToolButton::QToolButton(pQVar11,(QWidget *)param_2);
+    *(undefined ***)pQVar11 = QToolButton::vftable;
+    *(undefined ***)(pQVar11 + 0x10) = QToolButton::vftable;
+    pQVar16 = pQVar11;
+  }
+  param_1[0x13] = pQVar16;
+  local_res18 = (QVBoxLayout *)&DAT_1808fbfe8;
+  QObject::setObjectName((QObject *)pQVar16,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x11],param_1[0x13],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x14] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc020;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x11],param_1[0x14],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x15] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc060;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x11],param_1[0x15],0,0);
+  QBoxLayout::addLayout((QBoxLayout *)param_1[0xd],(QLayout *)param_1[0x11],0);
+  QBoxLayout::addLayout((QBoxLayout *)param_1[1],(QLayout *)param_1[0xd],0);
+  QBoxLayout::addLayout((QBoxLayout *)*param_1,(QLayout *)param_1[1],0);
+  this = operator_new(0x30);
+  this_03 = (QTableWidget *)this_05;
+  local_res18 = (QVBoxLayout *)this;
+  if (this != (QTableWidget *)0x0) {
+    QTableWidget::QTableWidget(this,(QWidget *)param_2);
+    *(undefined ***)this = QTableWidget::vftable;
+    *(undefined ***)(this + 0x10) = QTableWidget::vftable;
+    this_03 = this;
+  }
+  param_1[0x16] = this_03;
+  local_588 = &DAT_1808fc0a8;
+  QObject::setObjectName((QObject *)this_03,(QString *)&local_588);
+  QString::~QString((QString *)&local_588);
+  QSizePolicy::QSizePolicy((QSizePolicy *)local_res8,7,1,1);
+  QSizePolicy::setHorizontalStretch((QSizePolicy *)local_res8,0);
+  QSizePolicy::setVerticalStretch((QSizePolicy *)local_res8,0);
+  puVar12 = (uint *)QWidget::sizePolicy((QWidget *)param_1[0x16]);
+  local_res8[0] = local_res8[0] ^ (local_res8[0] ^ *puVar12) & 0x20000000;
+  QWidget::setSizePolicy((QWidget *)param_1[0x16]);
+  QPalette::QPalette(local_578);
+  QPalette::setBrush(local_578,0,0,local_res20);
+  QLinearGradient::QLinearGradient(local_218,0.0,0.0,0.0,dVar3);
+  local_214 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_218,2);
+  QColor::setRgb(local_418,0x30,0x30,0x30,0xff);
+  QGradient::setColorAt((QGradient *)local_218,0.0,local_418);
+  QColor::setRgb(local_428,0x35,0x35,0x35,0xff);
+  dVar2 = DAT_1809011b8;
+  QGradient::setColorAt((QGradient *)local_218,DAT_1809011b8,local_428);
+  QColor::setRgb(local_438,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_218,dVar3,local_438);
+  QBrush::QBrush(local_4c0,(QGradient *)local_218);
+  QPalette::setBrush(local_578,0,1,local_4c0);
+  QPalette::setBrush(local_578,0,6,local_res20);
+  QPalette::setBrush(local_578,0,8,local_res20);
+  QLinearGradient::QLinearGradient(local_258,0.0,0.0,0.0,dVar3);
+  local_254 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_258,2);
+  QColor::setRgb(local_448,0x30,0x30,0x30,0xff);
+  QGradient::setColorAt((QGradient *)local_258,0.0,local_448);
+  QColor::setRgb(local_458,0x35,0x35,0x35,0xff);
+  QGradient::setColorAt((QGradient *)local_258,dVar2,local_458);
+  QColor::setRgb(local_468,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_258,dVar3,local_468);
+  QBrush::QBrush(local_4c8,(QGradient *)local_258);
+  QPalette::setBrush(local_578,0,9,local_4c8);
+  QLinearGradient::QLinearGradient(local_298,0.0,0.0,0.0,dVar3);
+  local_294 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_298,2);
+  QColor::setRgb(local_478,0x30,0x30,0x30,0xff);
+  QGradient::setColorAt((QGradient *)local_298,0.0,local_478);
+  QColor::setRgb(local_488,0x35,0x35,0x35,0xff);
+  QGradient::setColorAt((QGradient *)local_298,dVar2,local_488);
+  QColor::setRgb(local_568,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_298,dVar3,local_568);
+  QBrush::QBrush(local_4d0,(QGradient *)local_298);
+  QPalette::setBrush(local_578,0,10,local_4d0);
+  QColor::setRgb(local_400,0xff,0xff,0,0xff);
+  QBrush::QBrush(local_538,local_400,1);
+  QBrush::setStyle(local_538,1);
+  QPalette::setBrush(local_578,0,0x10,local_538);
+  QPalette::setBrush(local_578,2,0,local_res20);
+  QLinearGradient::QLinearGradient(local_2d8,0.0,0.0,0.0,dVar3);
+  local_2d4 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_2d8,2);
+  QColor::setRgb(local_3f0,0x30,0x30,0x30,0xff);
+  QGradient::setColorAt((QGradient *)local_2d8,0.0,local_3f0);
+  QColor::setRgb(local_3e0,0x35,0x35,0x35,0xff);
+  QGradient::setColorAt((QGradient *)local_2d8,dVar2,local_3e0);
+  QColor::setRgb(local_3d0,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_2d8,dVar3,local_3d0);
+  QBrush::QBrush(local_4d8,(QGradient *)local_2d8);
+  QPalette::setBrush(local_578,2,1,local_4d8);
+  QPalette::setBrush(local_578,2,6,local_res20);
+  QPalette::setBrush(local_578,2,8,local_res20);
+  QLinearGradient::QLinearGradient(local_318,0.0,0.0,0.0,dVar3);
+  local_314 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_318,2);
+  QColor::setRgb(local_3c0,0x30,0x30,0x30,0xff);
+  QGradient::setColorAt((QGradient *)local_318,0.0,local_3c0);
+  QColor::setRgb(local_3b0,0x35,0x35,0x35,0xff);
+  QGradient::setColorAt((QGradient *)local_318,dVar2,local_3b0);
+  QColor::setRgb(local_3a0,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_318,dVar3,local_3a0);
+  QBrush::QBrush(local_4e0,(QGradient *)local_318);
+  QPalette::setBrush(local_578,2,9,local_4e0);
+  QLinearGradient::QLinearGradient(local_358,0.0,0.0,0.0,dVar3);
+  local_354 = 0;
+  QGradient::setCoordinateMode((QGradient *)local_358,2);
+  QColor::setRgb(local_390,0x30,0x30,0x30,0xff);
+  QGradient::setColorAt((QGradient *)local_358,0.0,local_390);
+  QColor::setRgb(local_380,0x35,0x35,0x35,0xff);
+  QGradient::setColorAt((QGradient *)local_358,dVar2,local_380);
+  QColor::setRgb(local_370,0x40,0x40,0x40,0xff);
+  QGradient::setColorAt((QGradient *)local_358,dVar3,local_370);
+  QBrush::QBrush(local_4e8,(QGradient *)local_358);
+  QPalette::setBrush(local_578,2,10,local_4e8);
+  QPalette::setBrush(local_578,2,0x10,local_538);
+  QPalette::setBrush(local_578,1,0,local_590);
+  QPalette::setBrush(local_578,1,1,local_598);
+  QPalette::setBrush(local_578,1,6,local_590);
+  QPalette::setBrush(local_578,1,8,local_590);
+  QPalette::setBrush(local_578,1,9,local_598);
+  QPalette::setBrush(local_578,1,10,local_598);
+  QPalette::setBrush(local_578,1,0x10,local_538);
+  QWidget::setPalette((QWidget *)param_1[0x16],local_578);
+  QBoxLayout::addWidget((QBoxLayout *)*param_1,param_1[0x16],0,0);
+  pQVar6 = operator_new(0x20);
+  pQVar17 = (QHBoxLayout *)this_05;
+  if (pQVar6 != (QHBoxLayout *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar6;
+    QHBoxLayout::QHBoxLayout(pQVar6);
+    *(undefined ***)pQVar6 = QHBoxLayout::vftable;
+    *(undefined ***)(pQVar6 + 0x10) = QHBoxLayout::vftable;
+    pQVar17 = pQVar6;
+  }
+  param_1[0x17] = pQVar17;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc0d0;
+  QObject::setObjectName((QObject *)pQVar17,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  this_00 = operator_new(0x30);
+  this_04 = (QCheckBox *)this_05;
+  if (this_00 != (QCheckBox *)0x0) {
+    local_res18 = (QVBoxLayout *)this_00;
+    QCheckBox::QCheckBox(this_00,(QWidget *)param_2);
+    *(undefined ***)this_00 = QCheckBox::vftable;
+    *(undefined ***)(this_00 + 0x10) = QCheckBox::vftable;
+    this_04 = this_00;
+  }
+  param_1[0x18] = this_04;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc108;
+  QObject::setObjectName((QObject *)this_04,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x18],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x19] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc140;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x19],0,0);
+  this_01 = operator_new(0x30);
+  pQVar18 = (QSpacerItem *)this_05;
+  local_res18 = (QVBoxLayout *)this_01;
+  if (this_01 != (QSpacerItem *)0x0) {
+    QSpacerItem::QSpacerItem(this_01,0x28,0x14,7,1);
+    *(undefined ***)this_01 = QSpacerItem::vftable;
+    pQVar18 = this_01;
+  }
+  param_1[0x1a] = pQVar18;
+  (**(code **)(*(longlong *)param_1[0x17] + 0x58))((longlong *)param_1[0x17],pQVar18);
+  pQVar9 = operator_new(0x30);
+  pQVar19 = (QFrame *)this_05;
+  if (pQVar9 != (QFrame *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar9;
+    QFrame::QFrame(pQVar9,param_2);
+    *(undefined ***)pQVar9 = QFrame::vftable;
+    *(undefined ***)(pQVar9 + 0x10) = QFrame::vftable;
+    pQVar19 = pQVar9;
+  }
+  param_1[0x1b] = pQVar19;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc178;
+  QObject::setObjectName((QObject *)pQVar19,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QFrame::setFrameShape((QFrame *)param_1[0x1b],5);
+  QFrame::setFrameShadow((QFrame *)param_1[0x1b],0x30);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x1b],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x1c] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc1a0;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x1c],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x1d] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc1d0;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x1d],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x1e] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc200;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QPushButton::setAutoDefault((QPushButton *)param_1[0x1e],false);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x1e],0,0);
+  pQVar9 = operator_new(0x30);
+  pQVar19 = (QFrame *)this_05;
+  if (pQVar9 != (QFrame *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar9;
+    QFrame::QFrame(pQVar9,param_2);
+    *(undefined ***)pQVar9 = QFrame::vftable;
+    *(undefined ***)(pQVar9 + 0x10) = QFrame::vftable;
+    pQVar19 = pQVar9;
+  }
+  param_1[0x1f] = pQVar19;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc230;
+  QObject::setObjectName((QObject *)pQVar19,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QFrame::setFrameShape((QFrame *)param_1[0x1f],5);
+  QFrame::setFrameShadow((QFrame *)param_1[0x1f],0x30);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x1f],0,0);
+  pQVar8 = operator_new(0x30);
+  pQVar13 = this_05;
+  if (pQVar8 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar8;
+    QPushButton::QPushButton(pQVar8,(QWidget *)param_2);
+    *(undefined ***)pQVar8 = QPushButton::vftable;
+    *(undefined ***)(pQVar8 + 0x10) = QPushButton::vftable;
+    pQVar13 = pQVar8;
+  }
+  param_1[0x20] = pQVar13;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc258;
+  QObject::setObjectName((QObject *)pQVar13,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x20],0,0);
+  pQVar13 = operator_new(0x30);
+  if (pQVar13 != (QPushButton *)0x0) {
+    local_res18 = (QVBoxLayout *)pQVar13;
+    QPushButton::QPushButton(pQVar13,(QWidget *)param_2);
+    *(undefined ***)pQVar13 = QPushButton::vftable;
+    *(undefined ***)(pQVar13 + 0x10) = QPushButton::vftable;
+    this_05 = pQVar13;
+  }
+  param_1[0x21] = this_05;
+  local_res18 = (QVBoxLayout *)&DAT_1808fc288;
+  QObject::setObjectName((QObject *)this_05,(QString *)&local_res18);
+  QString::~QString((QString *)&local_res18);
+  QBoxLayout::addWidget((QBoxLayout *)param_1[0x17],param_1[0x21],0,0);
+  QBoxLayout::addLayout((QBoxLayout *)*param_1,(QLayout *)param_1[0x17],0);
+  FUN_1800b3d20(param_1,param_2);
+  QMetaObject::connectSlotsByName(param_2);
+  QBrush::~QBrush(local_4e8);
+  QLinearGradient::~QLinearGradient(local_358);
+  QBrush::~QBrush(local_4e0);
+  QLinearGradient::~QLinearGradient(local_318);
+  QBrush::~QBrush(local_4d8);
+  QLinearGradient::~QLinearGradient(local_2d8);
+  QBrush::~QBrush(local_538);
+  QBrush::~QBrush(local_4d0);
+  QLinearGradient::~QLinearGradient(local_298);
+  QBrush::~QBrush(local_4c8);
+  QLinearGradient::~QLinearGradient(local_258);
+  QBrush::~QBrush(local_4c0);
+  QLinearGradient::~QLinearGradient(local_218);
+  QPalette::~QPalette(local_578);
+  QBrush::~QBrush(local_4b8);
+  QLinearGradient::~QLinearGradient(local_1d8);
+  QBrush::~QBrush(local_4b0);
+  QLinearGradient::~QLinearGradient(local_198);
+  QBrush::~QBrush(local_4a8);
+  QLinearGradient::~QLinearGradient(local_158);
+  QBrush::~QBrush(local_490);
+  QLinearGradient::~QLinearGradient(local_118);
+  QBrush::~QBrush(local_4a0);
+  QLinearGradient::~QLinearGradient(local_d8);
+  QBrush::~QBrush(local_498);
+  QLinearGradient::~QLinearGradient(local_98);
+  QPalette::~QPalette(local_558);
+  QBrush::~QBrush(local_4f8);
+  QBrush::~QBrush(local_4f0);
+  QBrush::~QBrush(local_590);
+  QBrush::~QBrush(local_530);
+  QBrush::~QBrush(local_528);
+  QBrush::~QBrush(local_500);
+  QBrush::~QBrush(local_548);
+  QBrush::~QBrush(local_508);
+  QBrush::~QBrush(local_520);
+  QBrush::~QBrush(local_540);
+  QBrush::~QBrush(local_518);
+  QBrush::~QBrush(local_510);
+  QBrush::~QBrush(local_598);
+  QBrush::~QBrush(local_res20);
+  QPalette::~QPalette(local_5a8);
+  return;
+}
+
+
+DECOMPILE_END FUN_1800b4bb0 1800b4bb0
+============================================================
+SCRIPT COMPLETED DataExporterAe930Trace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

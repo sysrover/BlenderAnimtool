@@ -1,0 +1,5 @@
+{
+  "saved": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_ik_live_solver_v2_nostretch.blend",
+  "mode": "NO_STRETCH viewport preview",
+  "note": "Live preview applies DayZDiag WeaponIK rotations but preserves rest offsets on deform arm chain to avoid mesh stretching. Exact IK helper action remains active for export/source data."
+}

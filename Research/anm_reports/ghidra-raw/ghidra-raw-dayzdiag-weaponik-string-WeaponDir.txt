@@ -1,0 +1,1 @@
+{"matches":[{"address":"140decc38","value":"Weapon Dir LR Angle","encoding":"ascii"},{"address":"140decc50","value":"Weapon Dir UD Angle","encoding":"ascii"}],"total":2,"offset":0,"limit":100}

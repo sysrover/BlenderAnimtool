@@ -1,0 +1,2981 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DayZGuiLayoutSemanticsScan.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:32:07 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DayZGuiLayoutSemanticsScan.java
+Size: 8351 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+CURRENT_PROGRAM workbenchApp.exe
+TARGET_PROGRAM DayZDiag_x64.exe
+TARGET_PATH /DayZDiag_x64.exe
+IMAGE_BASE 140000000
+LANGUAGE x86:LE:64:default
+COMPILER windows
+============================================================
+DEFINED_STRING_SCAN
+STRING 140de2c18 Error: can't resize AutoArray to negative size!
+  XREF from=14049f8bd function=FUN_14049f840 entry=14049f840
+  XREF from=14072f883 function=FUN_14072f870 entry=14072f870
+  XREF from=14061f884 function=FUN_14061f860 entry=14061f860
+  XREF from=140b6f894 function=FUN_140b6f880 entry=140b6f880
+  XREF from=140c1f8f3 function=FUN_140c1f8e0 entry=140c1f8e0
+  XREF from=140b6f833 function=FUN_140b6f820 entry=140b6f820
+  XREF from=14072f8e3 function=FUN_14072f8d0 entry=14072f8d0
+  XREF from=140b5f885 function=FUN_140b5f840 entry=140b5f840
+  XREF from=140b5f8e8 function=FUN_140b5f840 entry=140b5f840
+  XREF from=14049f9c8 function=FUN_14049f910 entry=14049f910
+  XREF from=140c1f953 function=FUN_140c1f940 entry=140c1f940
+  XREF from=140b6f984 function=FUN_140b6f970 entry=140b6f970
+  XREF from=14058fa36 function=FUN_14058fa00 entry=14058fa00
+  XREF from=140b6fb04 function=FUN_140b6faf0 entry=140b6faf0
+  XREF from=140b50006 function=FUN_140b4fac0 entry=140b4fac0
+  XREF from=140b4ff23 function=FUN_140b4fac0 entry=140b4fac0
+STRING 140de3480 IMAGE
+  XREF from=140071e8f function=FUN_140071c90 entry=140071c90
+STRING 140de3558 at %llp: base %p, size %5x, state%s, protect%s, type%s
+  XREF from=14007238d function=FUN_140071c90 entry=140071c90
+STRING 140de5948 needDirection
+  XREF from=14001dac6 function=FUN_14001dac0 entry=14001dac0
+STRING 140de61b0 Error loading AI Template - Behaviour: %s for Slot: %s is not correct
+  XREF from=140094c7f function=FUN_140094870 entry=140094870
+STRING 140de6e98 AddNoisePos
+  XREF from=14009e68e function=FUN_14009e5f0 entry=14009e5f0
+STRING 140de74f8 GetVisionPointPositionWS
+  XREF from=1400a0031 function=FUN_1400a0010 entry=1400a0010
+STRING 140de7518 GetHeadPositionWS
+  XREF from=1400a005b function=FUN_1400a0010 entry=1400a0010
+STRING 140de77c0 SampleNavmeshPosition
+  XREF from=1400a09ee function=FUN_1400a08d0 entry=1400a08d0
+STRING 140de7990 showLifeCycle
+  XREF from=1400a4565 function=FUN_1400a4510 entry=1400a4510
+STRING 140de79a0 showViewCones
+  XREF from=1400a45ca function=FUN_1400a4510 entry=1400a4510
+STRING 140de83f8 Position
+  XREF from=1409f5a05 function=FUN_1409f52d0 entry=1409f52d0
+  XREF from=1403e11f1 function=FUN_1403e0bf0 entry=1403e0bf0
+  XREF from=1403e120f function=FUN_1403e0bf0 entry=1403e0bf0
+  XREF from=14111d858 function=<no-function> entry=<none>
+STRING 140de8450 Pathgraph pos: %.1f, %.1f, %.1f
+  XREF from=1400afc20 function=FUN_1400af4d0 entry=1400af4d0
+  XREF from=1400afc42 function=FUN_1400af4d0 entry=1400af4d0
+STRING 140de8470 Pathgraph pos INVALID: %.1f, %.1f, %.1f
+  XREF from=1400afc36 function=FUN_1400af4d0 entry=1400af4d0
+  XREF from=1400afc42 function=FUN_1400af4d0 entry=1400af4d0
+STRING 140de8bf0 seedPosition
+  XREF from=1400c32bc function=FUN_1400c30a0 entry=1400c30a0
+STRING 140de8c00 cellSize%d
+  XREF from=1400c3433 function=FUN_1400c30a0 entry=1400c30a0
+STRING 140de8c94 color
+  XREF from=14041c252 function=FUN_14041c100 entry=14041c100
+  XREF from=1405bbed0 function=FUN_1405bbe10 entry=1405bbe10
+  XREF from=1405b9ecd function=FUN_1405b9c80 entry=1405b9c80
+  XREF from=140768b74 function=FUN_140768af0 entry=140768af0
+  XREF from=1400388ba function=FUN_1400370d0 entry=1400370d0
+  XREF from=14072724e function=FUN_140727150 entry=140727150
+  XREF from=1407c5557 function=FUN_1407c5360 entry=1407c5360
+  XREF from=140755530 function=FUN_1407553e0 entry=1407553e0
+  XREF from=1408d5b5a function=FUN_1408d5430 entry=1408d5430
+  XREF from=1408d5f26 function=FUN_1408d5430 entry=1408d5430
+  XREF from=140615061 function=FUN_140614df0 entry=140614df0
+  XREF from=1400c3977 function=FUN_1400c30a0 entry=1400c30a0
+  XREF from=1409b14e1 function=FUN_1409b1490 entry=1409b1490
+  XREF from=1403e1164 function=FUN_1403e0bf0 entry=1403e0bf0
+  XREF from=1403e116b function=FUN_1403e0bf0 entry=1403e0bf0
+STRING 140de8f98 Vertices Size: %.2f MB
+  XREF from=1400cbedc function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cbf07 function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de8fb0 Polygons Size: %.2f MB
+  XREF from=1400cbf1d function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cbf45 function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de8fc8 Detail Meshes Size: %.2f MB
+  XREF from=1400cbf5b function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cbf83 function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de8fe8 Detail Vertices Size: %.2f MB
+  XREF from=1400cbf99 function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cbfc1 function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de9008 Detail Tris Size: %.2f MB
+  XREF from=1400cbfd0 function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cbfff function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de9028 Bounding Volume Nodes Size: %.2f MB
+  XREF from=1400cc015 function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cc03d function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de9050 Offmesh Connections Size: %.2f MB
+  XREF from=1400cc053 function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cc07b function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de9078 Metadata Size: %.2f MB
+  XREF from=1400cc091 function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cc0b9 function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de9090 Total Size: %.2f MB
+  XREF from=1400cc0f9 function=FUN_1400cbe00 entry=1400cbe00
+  XREF from=1400cc110 function=FUN_1400cbe00 entry=1400cbe00
+STRING 140de91e8 Model
+  XREF from=14004a51e function=FUN_140049f50 entry=140049f50
+STRING 140de9570 entitypos
+  XREF from=1400d55d9 function=FUN_1400d53b0 entry=1400d53b0
+  XREF from=1400d563a function=FUN_1400d53b0 entry=1400d53b0
+STRING 140de9580 Error parsing EntityPos in animation %s
+  XREF from=1400d569f function=FUN_1400d53b0 entry=1400d53b0
+STRING 140de9fc0 EditorPos
+  XREF from=1400e52e4 function=FUN_1400e52d0 entry=1400e52d0
+STRING 140dea260 result incorect :
+  XREF from=1400e6763 function=FUN_1400e66a0 entry=1400e66a0
+STRING 140debbd0 Node Pose
+  XREF from=1400fe1b0 function=FUN_1400fe1b0 entry=1400fe1b0
+STRING 140debbf8 AnimNodePose
+  XREF from=1400fe1c0 function=FUN_1400fe1c0 entry=1400fe1c0
+STRING 140debcb0 Node Pose 2
+  XREF from=1400fead0 function=FUN_1400fead0 entry=1400fead0
+STRING 140debcbc Pose 2
+  XREF from=14111f528 function=<no-function> entry=<none>
+  XREF from=14111f558 function=<no-function> entry=<none>
+  XREF from=14111f588 function=<no-function> entry=<none>
+  XREF from=14111f5b8 function=<no-function> entry=<none>
+STRING 140debd60 AnimNodePose2
+  XREF from=1400feaf0 function=FUN_1400feaf0 entry=1400feaf0
+STRING 140decaa0 Var Update
+  XREF from=140108130 function=FUN_140108130 entry=140108130
+STRING 140decac0 AnimNodeVarUpdate: in node - expecting number of variables
+  XREF from=1401081ec function=FUN_140108150 entry=140108150
+STRING 140decb10 AnimNodeVarUpdate
+  XREF from=140108140 function=FUN_140108140 entry=140108140
+STRING 140deccb8 ikpose_chainoffset
+  XREF from=1401096f1 function=FUN_1401093e0 entry=1401093e0
+STRING 140deccd0 ikpose_weaponoffset
+  XREF from=14010970d function=FUN_1401093e0 entry=1401093e0
+STRING 140decce8 ikpose_secchainoffset
+  XREF from=140109729 function=FUN_1401093e0 entry=1401093e0
+STRING 140decd00 ikpose_chainmiddledir
+  XREF from=140109745 function=FUN_1401093e0 entry=1401093e0
+STRING 140decd18 ikpose_secchainmiddledir
+  XREF from=140109761 function=FUN_1401093e0 entry=1401093e0
+STRING 140decd38 ikpose_chainmiddlediro
+  XREF from=1401097a6 function=FUN_1401093e0 entry=1401093e0
+STRING 140decd50 ikpose_secchainmiddlediro
+  XREF from=1401097eb function=FUN_1401093e0 entry=1401093e0
+STRING 140ded19c ikpose
+  XREF from=14010a9d7 function=FUN_14010a800 entry=14010a800
+  XREF from=14010a9ec function=FUN_14010a800 entry=14010a800
+STRING 140ded6c8 previewModel
+  XREF from=14010cef8 function=FUN_14010cd70 entry=14010cd70
+  XREF from=14010cf0d function=FUN_14010cd70 entry=14010cd70
+STRING 140ded6f0 Apply Pose
+  XREF from=14001eecf function=FUN_14001eeb0 entry=14001eeb0
+STRING 140def928 Cannot find PP effect %s, is the name correct?
+  XREF from=1401194e9 function=FUN_1401193c0 entry=1401193c0
+STRING 140df0308 Directional(HDR): %1.6f, %1.6f, %1.6f
+  XREF from=1401220dd function=FUN_1401219f0 entry=1401219f0
+  XREF from=1401220e8 function=FUN_1401219f0 entry=1401219f0
+STRING 140df0330 Directional(set): %1.3f, %1.3f, %1.3f
+  XREF from=140122175 function=FUN_1401219f0 entry=1401219f0
+  XREF from=14012217f function=FUN_1401219f0 entry=1401219f0
+STRING 140df03a8 Light direction:  %1.3f, %1.3f, %1.3f
+  XREF from=1401222c4 function=FUN_1401219f0 entry=1401219f0
+  XREF from=1401222ce function=FUN_1401219f0 entry=1401219f0
+STRING 140df03d0 Real direction:   %1.3f, %1.3f, %1.3f
+  XREF from=140122323 function=FUN_1401219f0 entry=1401219f0
+  XREF from=14012232d function=FUN_1401219f0 entry=1401219f0
+STRING 140df0690 MatSkyColor
+  XREF from=14016b4a1 function=FUN_14016b460 entry=14016b460
+  XREF from=14016b4be function=FUN_14016b460 entry=14016b460
+  XREF from=14018d4b0 function=FUN_14018d4b0 entry=14018d4b0
+  XREF from=14018d4b7 function=FUN_14018d4b0 entry=14018d4b0
+STRING 140df0cd0 FColor[]
+  XREF from=14013b34c function=FUN_14013b2b0 entry=14013b2b0
+  XREF from=14013b353 function=FUN_14013b2b0 entry=14013b2b0
+STRING 140df0d60 FColor
+  XREF from=14013b431 function=FUN_14013b2b0 entry=14013b2b0
+  XREF from=14013b438 function=FUN_14013b2b0 entry=14013b2b0
+STRING 140df1bd8 sizeof
+  XREF from=140144946 function=FUN_1401444e0 entry=1401444e0
+STRING 140df29d8 Graph widget normal
+  XREF from=1401597c0 function=FUN_140159310 entry=140159310
+STRING 140df29f0 Graph widget vertical
+  XREF from=14015983a function=FUN_140159310 entry=140159310
+STRING 140df2ab0 Custom position
+  XREF from=140159a92 function=FUN_140159310 entry=140159310
+STRING 140df2ad0 Graph widget live
+  XREF from=140159b2e function=FUN_140159310 entry=140159310
+STRING 140df2b90 rover_sim_colorable
+  XREF from=14015a5ba function=FUN_14015a590 entry=14015a590
+STRING 140df3e00 Image Sets
+  XREF from=14015b7c7 function=FUN_14015b430 entry=14015b430
+  XREF from=14015b7ce function=FUN_14015b430 entry=14015b430
+STRING 140df3e10 imageSets
+  XREF from=14047be77 function=FUN_14047bcd0 entry=14047bcd0
+  XREF from=14015b7e1 function=FUN_14015b430 entry=14015b430
+  XREF from=14015b7e8 function=FUN_14015b430 entry=14015b430
+STRING 140df3e20 Widget Styles
+  XREF from=14015b863 function=FUN_14015b430 entry=14015b430
+  XREF from=14015b86e function=FUN_14015b430 entry=14015b430
+STRING 140df3e30 widgetStyles
+  XREF from=14047be8a function=FUN_14047bcd0 entry=14047bcd0
+  XREF from=14015b885 function=FUN_14015b430 entry=14015b430
+  XREF from=14015b88c function=FUN_14015b430 entry=14015b430
+STRING 140df3f48 Localization directory
+  XREF from=14015bcb5 function=FUN_14015b430 entry=14015b430
+  XREF from=14015bccf function=FUN_14015b430 entry=14015b430
+STRING 140df4070 Directory path
+  XREF from=14015aeb5 function=FUN_14015add0 entry=14015add0
+  XREF from=14015aec0 function=FUN_14015add0 entry=14015add0
+STRING 140df4080 Directory
+  XREF from=14015aed7 function=FUN_14015add0 entry=14015add0
+  XREF from=14015aede function=FUN_14015add0 entry=14015add0
+STRING 140df46c0 Mode of the resource streaming
+  XREF from=14015ca67 function=FUN_14015ca20 entry=14015ca20
+  XREF from=14015ca71 function=FUN_14015ca20 entry=14015ca20
+STRING 140df46e0 StreamMode
+  XREF from=14015ca4a function=FUN_14015ca20 entry=14015ca20
+STRING 140df4720 Title to show in GUI
+  XREF from=14015b35d function=FUN_14015b1c0 entry=14015b1c0
+  XREF from=14015b368 function=FUN_14015b1c0 entry=14015b1c0
+STRING 140df48b8 WindowsResizeEvent
+  XREF from=140160b80 function=FUN_140160b80 entry=140160b80
+  XREF from=140160b87 function=FUN_140160b80 entry=140160b80
+STRING 140df4a58 resizeable
+  XREF from=14016000f function=FUN_14015fdd0 entry=14015fdd0
+  XREF from=14015eab6 function=FUN_14015ea90 entry=14015ea90
+STRING 140df4a78 Device resize: cannot find proper mode (%dx%d) !
+  XREF from=140162486 function=FUN_1401620d0 entry=1401620d0
+STRING 140df4ab0 Device%d resize: cannot find proper mode, using %dx%d
+  XREF from=1401624d9 function=FUN_1401620d0 entry=1401620d0
+STRING 140df4d88 VMErrorMode
+  XREF from=14015fb34 function=FUN_14015f4e0 entry=14015f4e0
+STRING 140df4e00 Cannot find selected mode (%dx%d) on device (%d)
+  XREF from=14015ee71 function=FUN_14015ed50 entry=14015ed50
+STRING 140df4e40 Cannot find any compatible mode on device (%d), trying to find different device
+  XREF from=14015eed8 function=FUN_14015ed50 entry=14015ed50
+STRING 140df4e90 Cannot find any compatible mode on any device, switching to windowed mode
+  XREF from=14015ef2b function=FUN_14015ed50 entry=14015ed50
+STRING 140df4f00 windowmode
+  XREF from=14015ef93 function=FUN_14015ed50 entry=14015ed50
+  XREF from=14048a0a3 function=FUN_140489e00 entry=140489e00
+  XREF from=14048a0be function=FUN_140489e00 entry=140489e00
+  XREF from=1401f8873 function=FUN_1401f8800 entry=1401f8800
+  XREF from=1401f7276 function=FUN_1401f7170 entry=1401f7170
+STRING 140df4f38 Creating in minimized window mode
+  XREF from=14015f0cf function=FUN_14015ed50 entry=14015ed50
+STRING 140df4fb0 ImageToClipboard: not supported format yet (%s)
+  XREF from=1401610a2 function=FUN_140160c40 entry=140160c40
+STRING 140df4fe0 Image successfully copied into clipboard
+  XREF from=140161061 function=FUN_140160c40 entry=140160c40
+STRING 140df507f ?colorPicker
+STRING 140df50d8 VD_Position_Tex0_Color
+  XREF from=141121ee8 function=<no-function> entry=<none>
+  XREF from=1411225a8 function=<no-function> entry=<none>
+STRING 140df50f0 VD_Position_Normal_Tex0
+  XREF from=141121ef0 function=<no-function> entry=<none>
+  XREF from=1411225b0 function=<no-function> entry=<none>
+STRING 140df5108 VD_Position_Normal_Tex0_ST
+  XREF from=141121ef8 function=<no-function> entry=<none>
+  XREF from=1411225b8 function=<no-function> entry=<none>
+STRING 140df5128 VD_Position_Normal_Tex0_Tex1
+  XREF from=141121f00 function=<no-function> entry=<none>
+  XREF from=1411225c0 function=<no-function> entry=<none>
+STRING 140df5148 VD_Position_Normal_Tex0_Tex1_ST
+  XREF from=141121f08 function=<no-function> entry=<none>
+  XREF from=1411225c8 function=<no-function> entry=<none>
+STRING 140df5168 VD_Position_Normal_Tex0_ST_Float3
+  XREF from=141121f10 function=<no-function> entry=<none>
+  XREF from=1411225d0 function=<no-function> entry=<none>
+STRING 140df9080 ColorModulate
+  XREF from=1411234b0 function=<no-function> entry=<none>
+STRING 140df90c8 Specular color modificator
+  XREF from=140163d1d function=FUN_1401638e0 entry=1401638e0
+  XREF from=140163d28 function=FUN_1401638e0 entry=1401638e0
+STRING 140df9270 BlendMode
+  XREF from=1401af3b8 function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1402078a9 function=FUN_1402075c0 entry=1402075c0
+  XREF from=1401640f1 function=FUN_1401638e0 entry=1401638e0
+STRING 140df92a0 Projection vector for possible layer projection
+  XREF from=1401641ed function=FUN_1401638e0 entry=1401638e0
+  XREF from=1401641f8 function=FUN_1401638e0 entry=1401638e0
+STRING 140df9330 Common material class, can render almost all geometry but with no realtime usage, mainly for developer purposes.
+  XREF from=140163863 function=FUN_140163840 entry=140163840
+  XREF from=14016386a function=FUN_140163840 entry=140163840
+STRING 140df95d0 Trees colorizations
+  XREF from=1401701a6 function=FUN_14016f950 entry=14016f950
+STRING 140df95e8 Colorize texture based on world positions, 0.5 = no change
+  XREF from=1401701b6 function=FUN_14016f950 entry=14016f950
+  XREF from=1401701c4 function=FUN_14016f950 entry=14016f950
+STRING 140df9628 WorldColorizeMap
+  XREF from=140170209 function=FUN_14016f950 entry=14016f950
+  XREF from=140170210 function=FUN_14016f950 entry=14016f950
+STRING 140df9640 Colorize texture size in meters
+  XREF from=1401702e9 function=FUN_14016f950 entry=14016f950
+  XREF from=1401702f0 function=FUN_14016f950 entry=14016f950
+STRING 140df9670 WorldColorizeMapSize
+  XREF from=140170328 function=FUN_14016f950 entry=14016f950
+  XREF from=14017032f function=FUN_14016f950 entry=14016f950
+STRING 140df9688 Height offset of center for color lerp
+  XREF from=1401703d3 function=FUN_14016f950 entry=14016f950
+  XREF from=1401703e4 function=FUN_14016f950 entry=14016f950
+STRING 140df96c0 ColorizeHeightOffset
+  XREF from=140170423 function=FUN_14016f950 entry=14016f950
+  XREF from=14017042a function=FUN_14016f950 entry=14016f950
+STRING 140df96e0 Direction of main mask for lerp. The full direction is random, this value affects the size in Y dir before normalization
+  XREF from=1401704dc function=FUN_14016f950 entry=14016f950
+  XREF from=1401704f7 function=FUN_14016f950 entry=14016f950
+STRING 140df9778 ColorizeDir
+  XREF from=1401704e7 function=FUN_14016f950 entry=14016f950
+STRING 140df9788 Lerp in meter between mask and normal color
+  XREF from=14017055c function=FUN_14016f950 entry=14016f950
+  XREF from=140170577 function=FUN_14016f950 entry=14016f950
+STRING 140df97c8 ColorizeMaskLerp
+  XREF from=140170567 function=FUN_14016f950 entry=14016f950
+STRING 140df98f8 Ambient specular color modificator. Zero = no effect
+  XREF from=140170767 function=FUN_14016f950 entry=14016f950
+  XREF from=140170782 function=FUN_14016f950 entry=14016f950
+STRING 140df9930 SpecAmbColor
+  XREF from=140170772 function=FUN_14016f950 entry=14016f950
+STRING 140df9940 Intensity of ambient specular color modificator
+  XREF from=1401707e9 function=FUN_14016f950 entry=14016f950
+  XREF from=1401707f0 function=FUN_14016f950 entry=14016f950
+STRING 140df9970 SpecAmbColorInt
+  XREF from=1401707f5 function=FUN_14016f950 entry=14016f950
+STRING 140df9a30 Directional affection of perlin noise, 1 = full, 0 = no affection, only global wind
+  XREF from=1401709dd function=FUN_14016f950 entry=14016f950
+  XREF from=1401709fb function=FUN_14016f950 entry=14016f950
+  XREF from=14038f14c function=FUN_14038e200 entry=14038e200
+  XREF from=14038f16a function=FUN_14038e200 entry=14038e200
+  XREF from=140164a2b function=FUN_1401644e0 entry=1401644e0
+  XREF from=140164a36 function=FUN_1401644e0 entry=1401644e0
+STRING 140df9bd0 Color map with possible alpha for top/down projection
+  XREF from=140170cb7 function=FUN_14016f950 entry=14016f950
+  XREF from=140170cce function=FUN_14016f950 entry=14016f950
+  XREF from=14016d9a9 function=FUN_14016cae0 entry=14016cae0
+  XREF from=14016d9c3 function=FUN_14016cae0 entry=14016cae0
+STRING 140df9c08 TopDownColorMap
+  XREF from=140170ce7 function=FUN_14016f950 entry=14016f950
+  XREF from=14016d9b4 function=FUN_14016cae0 entry=14016cae0
+STRING 140df9c30 UVSrcTopDownColorMap
+  XREF from=140170d32 function=FUN_14016f950 entry=14016f950
+  XREF from=14016da0c function=FUN_14016cae0 entry=14016cae0
+STRING 140df9c48 TopDown color maptexture matrix
+  XREF from=140170dbb function=FUN_14016f950 entry=14016f950
+  XREF from=140170dd6 function=FUN_14016f950 entry=14016f950
+  XREF from=14016da8c function=FUN_14016cae0 entry=14016cae0
+  XREF from=14016daa7 function=FUN_14016cae0 entry=14016cae0
+STRING 140df9c70 TopDownColorMapTexMat
+  XREF from=140170dc6 function=FUN_14016f950 entry=14016f950
+  XREF from=14016da97 function=FUN_14016cae0 entry=14016cae0
+STRING 140df9f60 Fading of planes paralell to camera direction
+  XREF from=14016f204 function=FUN_14016f0c0 entry=14016f0c0
+  XREF from=14016f20f function=FUN_14016f0c0 entry=14016f0c0
+STRING 140dfa098 Translucency color for sky
+  XREF from=14016f6db function=FUN_14016f0c0 entry=14016f0c0
+  XREF from=14016f6e6 function=FUN_14016f0c0 entry=14016f0c0
+STRING 140dfa0c8 TransColor
+  XREF from=14016f708 function=FUN_14016f0c0 entry=14016f0c0
+  XREF from=14016f70f function=FUN_14016f0c0 entry=14016f0c0
+STRING 140dfa0d8 Translucency color modificator for sun (based on TransColor)
+  XREF from=14016f791 function=FUN_14016f0c0 entry=14016f0c0
+  XREF from=14016f79c function=FUN_14016f0c0 entry=14016f0c0
+STRING 140dfa630 AmbientShadow map, green channel defines ambient occlusion which multiplies indirect lighting, blue channel is shadow coefficient, multiplies specular and directional light
+  XREF from=14016d452 function=FUN_14016cae0 entry=14016cae0
+  XREF from=14016d470 function=FUN_14016cae0 entry=14016cae0
+  XREF from=14016a7f1 function=FUN_140169f40 entry=140169f40
+  XREF from=14016a7fc function=FUN_140169f40 entry=140169f40
+  XREF from=1401671f8 function=FUN_140166590 entry=140166590
+  XREF from=140167216 function=FUN_140166590 entry=140166590
+  XREF from=140166089 function=FUN_140165050 entry=140165050
+  XREF from=140166090 function=FUN_140165050 entry=140165050
+  XREF from=140163486 function=FUN_140162e10 entry=140162e10
+  XREF from=140163491 function=FUN_140162e10 entry=140162e10
+STRING 140dfac10 Colorization map, RGB multiplies final combination of macro, detail and albedo map
+  XREF from=14016d8c3 function=FUN_14016cae0 entry=14016cae0
+  XREF from=14016d8ca function=FUN_14016cae0 entry=14016cae0
+STRING 140dfac68 ColorizeMap
+  XREF from=14016d89c function=FUN_14016cae0 entry=14016cae0
+  XREF from=140164792 function=FUN_1401644e0 entry=1401644e0
+  XREF from=1401647a7 function=FUN_1401644e0 entry=1401644e0
+STRING 140dfaf10 Unscattered layer color
+  XREF from=14016ac40 function=FUN_140169f40 entry=140169f40
+  XREF from=14016ac5b function=FUN_140169f40 entry=140169f40
+STRING 140dfaf38 UnscattererColor
+  XREF from=14016ac4b function=FUN_140169f40 entry=140169f40
+STRING 140dfb330 Colorization map based on XZ world pos, RGB multiplies albedo map
+  XREF from=140164780 function=FUN_1401644e0 entry=1401644e0
+  XREF from=140164787 function=FUN_1401644e0 entry=1401644e0
+STRING 140dfb4b0 World rect coordinates of global normal map in <minX minZ maxX maxZ>
+  XREF from=140164f53 function=FUN_1401644e0 entry=1401644e0
+  XREF from=140164f5a function=FUN_1401644e0 entry=1401644e0
+STRING 140dfb500 GlobNormalMapWorldRect
+  XREF from=140164f2a function=FUN_1401644e0 entry=1401644e0
+STRING 140dfb710 Simple sky box color material
+  XREF from=14016b4c2 function=FUN_14016b460 entry=14016b460
+  XREF from=14016b4c9 function=FUN_14016b460 entry=14016b460
+STRING 140dfb730 Color modificator of bottom color. Gray by default (color is doubled to allow overbright)
+  XREF from=14016b493 function=FUN_14016b460 entry=14016b460
+  XREF from=14016b4ee function=FUN_14016b460 entry=14016b460
+  XREF from=14016b57c function=FUN_14016b460 entry=14016b460
+STRING 140dfb7a0 ColorBottom
+  XREF from=14016b4e3 function=FUN_14016b460 entry=14016b460
+  XREF from=14016b4ea function=FUN_14016b460 entry=14016b460
+STRING 140dfb7b0 ColorZenith
+  XREF from=14016b580 function=FUN_14016b460 entry=14016b460
+  XREF from=14016b58e function=FUN_14016b460 entry=14016b460
+STRING 140dfb7c0 Color modificator of up color. Gray by default (color is doubled to allow overbright)
+  XREF from=14016b618 function=FUN_14016b460 entry=14016b460
+  XREF from=14016b623 function=FUN_14016b460 entry=14016b460
+STRING 140dfb818 ColorUp
+  XREF from=14016b63a function=FUN_14016b460 entry=14016b460
+  XREF from=14016b641 function=FUN_14016b460 entry=14016b460
+STRING 140dfb8f4 COLOR
+  XREF from=14019a520 function=FUN_14019a480 entry=14019a480
+  XREF from=140998979 function=FUN_140998850 entry=140998850
+  XREF from=140998980 function=FUN_140998850 entry=140998850
+  XREF from=141125100 function=<no-function> entry=<none>
+STRING 140dfb978 Sky Color
+STRING 140dfbb50 Sky color top
+  XREF from=14016be42 function=FUN_14016b850 entry=14016b850
+  XREF from=14016be4d function=FUN_14016b850 entry=14016b850
+STRING 140dfbb60 Color 0
+  XREF from=14016be63 function=FUN_14016b850 entry=14016b850
+  XREF from=14016be72 function=FUN_14016b850 entry=14016b850
+STRING 140dfbb68 Sky color bottom
+  XREF from=14016beff function=FUN_14016b850 entry=14016b850
+  XREF from=14016bf15 function=FUN_14016b850 entry=14016b850
+  XREF from=14016bfcc function=FUN_14016b850 entry=14016b850
+STRING 140dfbb80 Color 1
+  XREF from=14016bf0e function=FUN_14016b850 entry=14016b850
+  XREF from=14016bf1d function=FUN_14016b850 entry=14016b850
+STRING 140dfbb88 Color 2
+  XREF from=14016bfae function=FUN_14016b850 entry=14016b850
+STRING 140dfbc40 Cloud direct lighting colour shift when sun shining on the face
+  XREF from=14016c0dc function=FUN_14016b850 entry=14016b850
+  XREF from=14016c0f6 function=FUN_14016b850 entry=14016b850
+STRING 140dfbc80 Direct Lit
+  XREF from=14016c0e7 function=FUN_14016b850 entry=14016b850
+STRING 140dfbc90 Cloud direct lighting colour shift when shadowed by sun (backface)
+  XREF from=14016c144 function=FUN_14016b850 entry=14016b850
+  XREF from=14016c154 function=FUN_14016b850 entry=14016b850
+STRING 140dfbcd8 Direct Shadowed
+  XREF from=14016c165 function=FUN_14016b850 entry=14016b850
+STRING 140dfbcf0 Cloud indirect lighting colour shift when sun shining on the face
+  XREF from=14016c1ac function=FUN_14016b850 entry=14016b850
+  XREF from=14016c1c6 function=FUN_14016b850 entry=14016b850
+STRING 140dfbd38 Indirect Lit
+  XREF from=14016c1b7 function=FUN_14016b850 entry=14016b850
+STRING 140dfbd50 Cloud indirect lighting colour shift when shadowed by sun (backface)
+  XREF from=14016c214 function=FUN_14016b850 entry=14016b850
+  XREF from=14016c22e function=FUN_14016b850 entry=14016b850
+STRING 140dfbd98 Indirect Shadowed
+  XREF from=14016c21f function=FUN_14016b850 entry=14016b850
+STRING 140dfbdb0 How much the indirect light blends onto the direct to result in the total colour
+  XREF from=14016c27c function=FUN_14016b850 entry=14016b850
+  XREF from=14016c296 function=FUN_14016b850 entry=14016b850
+STRING 140dfbf50 SKYCOLOR
+  XREF from=14019a78a function=FUN_14019a670 entry=14019a670
+  XREF from=14019a796 function=FUN_14019a670 entry=14019a670
+STRING 140dfc1a0 AmbientMetalness map, red channel defines ambient occlusion which multiplies indirect lighting, green channel is metalness mask (_am usually)
+  XREF from=1401699b5 function=FUN_140169030 entry=140169030
+  XREF from=1401699d3 function=FUN_140169030 entry=140169030
+STRING 140dfc9e0 ps_color
+  XREF from=1401ae21f function=FUN_1401ae200 entry=1401ae200
+  XREF from=1401aeb12 function=FUN_1401ae200 entry=1401ae200
+STRING 140dfca40 ps_copycolor
+  XREF from=1401ae472 function=FUN_1401ae200 entry=1401ae200
+STRING 140dfca88 postprocess/vs_Screenspace2
+  XREF from=14025f1ba function=FUN_14025ede0 entry=14025ede0
+  XREF from=1401ae64a function=FUN_1401ae200 entry=1401ae200
+  XREF from=1401aec62 function=FUN_1401ae200 entry=1401ae200
+  XREF from=14025b796 function=FUN_14025b740 entry=14025b740
+  XREF from=140273300 function=FUN_1402732c0 entry=1402732c0
+  XREF from=1402736aa function=FUN_140273430 entry=140273430
+STRING 140dfcb38 postprocess/ps_Filter
+  XREF from=1401ae86f function=FUN_1401ae200 entry=1401ae200
+  XREF from=14025b526 function=FUN_14025b020 entry=14025b020
+  XREF from=14025b5c2 function=FUN_14025b020 entry=14025b020
+  XREF from=14039a41e function=FUN_14039a2b0 entry=14039a2b0
+STRING 140dfcc10 ps_copyColor
+  XREF from=1401aebb7 function=FUN_1401ae200 entry=1401ae200
+STRING 140dfcc50 PostProcessEffect
+  XREF from=1401adf73 function=FUN_1401adca0 entry=1401adca0
+  XREF from=1401adf7a function=FUN_1401adca0 entry=1401adca0
+  XREF from=14025b8c5 function=FUN_14025b840 entry=14025b840
+  XREF from=14025b8cc function=FUN_14025b840 entry=14025b840
+  XREF from=14023f950 function=FUN_14023f950 entry=14023f950
+  XREF from=14023f957 function=FUN_14023f950 entry=14023f950
+STRING 140dfd3d0 Color texture with possible alpha channel
+  XREF from=1401af159 function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1401af160 function=FUN_1401af0f0 entry=1401af0f0
+STRING 140dfd400 ColorMap
+  XREF from=1401af17a function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1401af181 function=FUN_1401af0f0 entry=1401af0f0
+STRING 140dfd410 Color modificator. White by default
+  XREF from=1401af225 function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1401af22c function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1401bcd8d function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=1401bcd98 function=FUN_1401bc9e0 entry=1401bc9e0
+STRING 140dfd434 Color
+  XREF from=1401af24a function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1401af251 function=FUN_1401af0f0 entry=1401af0f0
+  XREF from=1408be29b function=FUN_1408bd8f0 entry=1408bd8f0
+  XREF from=1408be302 function=FUN_1408bd8f0 entry=1408bd8f0
+  XREF from=1401bcdbd function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=1401bcdcb function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=1409089b9 function=FUN_140908410 entry=140908410
+  XREF from=1402a934c function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1409366a2 function=FUN_140936080 entry=140936080
+  XREF from=140936a82 function=FUN_140936080 entry=140936080
+  XREF from=140944d31 function=FUN_140944a40 entry=140944a40
+  XREF from=140043965 function=FUN_1400438f0 entry=1400438f0
+  XREF from=1408d374a function=FUN_1408d3350 entry=1408d3350
+  XREF from=1403e2636 function=FUN_1403e2490 entry=1403e2490
+  XREF from=1403c1f07 function=FUN_1403c1ce0 entry=1403c1ce0
+  XREF from=1403c1f0e function=FUN_1403c1ce0 entry=1403c1ce0
+STRING 140dfd440 Colormodulate
+STRING 140dfd9c0 Additional parameters for color
+  XREF from=1401b3c90 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfd9e0 World mapped texture with deep water color
+  XREF from=1401b3ca7 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b3cb2 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfda18 XY start world pos and ZW is size in meters
+  XREF from=1401b3da1 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b3da8 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfda60 Color used in place where alpha in DeepMap is one, alpha value of this color is a multiplier of alpha!
+  XREF from=1401b3e51 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b3e5c function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdad8 DeepMapAlphaColor
+  XREF from=1401b3e88 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b3e8f function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdaf0 Min distance where the DeepMap in alpha is visible
+  XREF from=1401b3f20 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b3f2f function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdb50 Min distance where the DeepMap in alpha starts is fully visible
+  XREF from=1401b3ff6 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b4001 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdba8 Scattering color of ocean water (e.g. when looking to waves)
+  XREF from=1401b40be function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b40c9 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdbf8 OceanScatteringColor
+  XREF from=1401b40f5 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b40fc function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdc10 Depth scattering, when looking down the refracted color is darker than when looking perpendicular, 0 = no influence
+  XREF from=1401b418d function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b419c function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfdd80 Sun influence to global reflect color.
+  XREF from=1401b44cf function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b44ed function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe0b0 Reflection color (halved) and lerp in alpha into environment reflection (0 = only environment reflection)
+  XREF from=1401b4ab6 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b4ac0 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe120 ReflectionColor
+  XREF from=1401b4ac5 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe170 Reflection color change to grey -> used for overcast simulation
+  XREF from=1401b4c00 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b4c1a function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe3b0 Object thickness simulation. Try to keep it as lowest as possible without introducing artifacts.
+  XREF from=1401b50ff function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b5106 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe598 Color of foam
+  XREF from=1401b55a9 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b55c5 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe5a8 FoamColor
+  XREF from=1401b55b4 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe7a0 Stream map - world space map with direction in RG (128 = no direction)
+  XREF from=1401b5983 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b599f function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfe800 Apply transformation of mesh (in XZ plane) to direction from stream map
+  XREF from=1401b5a19 function=FUN_1401b3c00 entry=1401b3c00
+  XREF from=1401b5a20 function=FUN_1401b3c00 entry=1401b3c00
+STRING 140dfeb20 Grid size - take care, bigger sizes are much more time consuming (especially on CPU side)!
+  XREF from=1401b3189 function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b3190 function=FUN_1401b3100 entry=1401b3100
+STRING 140dfeb80 OceanGridSize
+  XREF from=1401b312b function=FUN_1401b3100 entry=1401b3100
+STRING 140dfeb90 Patch size in meters in FFT computation
+  XREF from=1401b31da function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b31e8 function=FUN_1401b3100 entry=1401b3100
+STRING 140dfebc8 OceanPatchSize
+  XREF from=1401b321c function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b3223 function=FUN_1401b3100 entry=1401b3100
+STRING 140dfec50 Allow perpendicular waves in FFT computation - multiplicator of wave angle moving in oppositte direction than wind
+  XREF from=1401b3411 function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b341f function=FUN_1401b3100 entry=1401b3100
+STRING 140dfede8 Wind direction (degrees) in FFT computation
+  XREF from=1401b36fe function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b3709 function=FUN_1401b3100 entry=1401b3100
+STRING 140dfef80 Choppy wave parameter, the real physical smoothness of wave, negative means more sharper, positive more smoother.
+  XREF from=1401b3a38 function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b3a52 function=FUN_1401b3100 entry=1401b3100
+STRING 140dff038 OceanHeightCorrection
+  XREF from=1401b3ab9 function=FUN_1401b3100 entry=1401b3100
+STRING 140dff090 Scale of patch size according the FFT patch size.
+  XREF from=1401b3b85 function=FUN_1401b3100 entry=1401b3100
+  XREF from=1401b3b95 function=FUN_1401b3100 entry=1401b3100
+STRING 140dff118 ocean/cs_oceanUpdate
+  XREF from=1401b95bc function=FUN_1401b93e0 entry=1401b93e0
+STRING 140dff3a0 sRGB albedo (color reflectance) texture with possible alpha channel
+  XREF from=1401bca53 function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=1401bca5a function=FUN_1401bc9e0 entry=1401bc9e0
+STRING 140dff458 Color modificators
+  XREF from=1401bcd7d function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=14024b64a function=FUN_14024ab30 entry=14024ab30
+STRING 140dff4d8 Emissive color, absolute light value, zero by default
+  XREF from=1401bcfec function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=1401bcff7 function=FUN_1401bc9e0 entry=1401bc9e0
+STRING 140dff540 Z bias, negative values are usefull (-> closer to camera), positive are for special purposes
+  XREF from=1401bd26f function=FUN_1401bc9e0 entry=1401bc9e0
+  XREF from=1401bd289 function=FUN_1401bc9e0 entry=1401bc9e0
+STRING 140dff778 Visible only from one side. Default
+  XREF from=141122b38 function=<no-function> entry=<none>
+STRING 140dff7a0 Visible from both sides
+  XREF from=141122b50 function=<no-function> entry=<none>
+STRING 140e00838 Show bodies
+  XREF from=140020587 function=FUN_140020570 entry=140020570
+STRING 140e00858 Show layer
+  XREF from=140020697 function=FUN_140020680 entry=140020680
+STRING 140e00898 Show collider type
+  XREF from=140020617 function=FUN_140020600 entry=140020600
+STRING 140e008d8 Show simulation state
+  XREF from=1400206d7 function=FUN_1400206c0 entry=1400206c0
+STRING 140e00910 Show body type
+  XREF from=1400205d7 function=FUN_1400205c0 entry=1400205c0
+STRING 140e00978 Color by
+  XREF from=1400204c7 function=FUN_1400204b0 entry=1400204b0
+STRING 140e00998 Show COM
+  XREF from=140020657 function=FUN_140020640 entry=140020640
+STRING 140e00a38 Show stats
+  XREF from=140020767 function=FUN_140020750 entry=140020750
+STRING 140e00a48 Show Bullet
+  XREF from=1400207e7 function=FUN_1400207d0 entry=1400207d0
+STRING 140e027f8 SetPosition
+  XREF from=14050ce50 function=FUN_14050cda0 entry=14050cda0
+  XREF from=1403ac767 function=FUN_1403ac740 entry=1403ac740
+  XREF from=1403ac812 function=FUN_1403ac7d0 entry=1403ac7d0
+  XREF from=140808285 function=FUN_1408080d0 entry=1408080d0
+  XREF from=1407f86db function=FUN_1407f8470 entry=1407f8470
+  XREF from=140b073bf function=FUN_140b071d0 entry=140b071d0
+  XREF from=1401e540a function=FUN_1401e5220 entry=1401e5220
+  XREF from=140514fb9 function=FUN_140514f60 entry=140514f60
+STRING 140e02868 SetDirection
+  XREF from=140028a86 function=FUN_140028a80 entry=140028a80
+  XREF from=140b0748a function=FUN_140b071d0 entry=140b071d0
+  XREF from=1401e53ed function=FUN_1401e5220 entry=1401e5220
+STRING 140e029b0 VISIBLE
+  XREF from=1401ec307 function=FUN_1401ec140 entry=1401ec140
+  XREF from=140714f90 function=FUN_140714e50 entry=140714e50
+  XREF from=1402e3b88 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3b9e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3ba5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3e65 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3e56 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4bfa function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4beb function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e02a28 SetColor
+  XREF from=1401e53b3 function=FUN_1401e5220 entry=1401e5220
+  XREF from=1402e75ae function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e75c1 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e02d00 Update interval
+  XREF from=140023a87 function=FUN_140023a70 entry=140023a70
+STRING 140e02d60 post-render,pre-render
+  XREF from=14002260b function=FUN_140022600 entry=140022600
+  XREF from=14002262f function=FUN_140022600 entry=140022600
+STRING 140e02db8 Render debug mode
+  XREF from=140023407 function=FUN_1400233f0 entry=1400233f0
+STRING 140e02e38 Show active occluders
+  XREF from=140022bc7 function=FUN_140022bb0 entry=140022bb0
+STRING 140e02e50 Show occluded
+  XREF from=140022c47 function=FUN_140022c30 entry=140022c30
+STRING 140e02e60 Show occluder volumes
+  XREF from=140022c87 function=FUN_140022c70 entry=140022c70
+STRING 140e02eb8 Directional lighting
+  XREF from=140022657 function=FUN_140022640 entry=140022640
+STRING 140e02ed0 Bidirectional lighting
+  XREF from=140022557 function=FUN_140022540 entry=140022540
+STRING 140e02f20 on (slice),on (full),no update,disabled
+  XREF from=14002315b function=FUN_140023150 entry=140023150
+  XREF from=14002317f function=FUN_140023150 entry=140023150
+STRING 140e02f58 Widgets
+  XREF from=1408d84e2 function=FUN_1408d79d0 entry=1408d79d0
+  XREF from=1408c34ac function=FUN_1408c3490 entry=1408c3490
+  XREF from=1408c34c3 function=FUN_1408c3490 entry=1408c3490
+  XREF from=1400234f7 function=FUN_1400234e0 entry=1400234e0
+  XREF from=1408d22d9 function=FUN_1408d1890 entry=1408d1890
+STRING 140e02f60 Postprocess
+  XREF from=140022d57 function=FUN_140022d40 entry=140022d40
+STRING 140e02ff8 Height/blend layer mode switch
+  XREF from=1400240d7 function=FUN_1400240c0 entry=1400240c0
+STRING 140e03060 Diag layers color
+  XREF from=140023ce7 function=FUN_140023cd0 entry=140023cd0
+STRING 140e03480 Post Process
+  XREF from=140021734 function=FUN_140021730 entry=140021730
+  XREF from=14002177b function=FUN_140021770 entry=140021770
+  XREF from=1411230c8 function=<no-function> entry=<none>
+STRING 140e03538 diagnostic mode
+  XREF from=1400219e7 function=FUN_1400219d0 entry=1400219d0
+STRING 140e03928 Draw Position
+  XREF from=140024a17 function=FUN_140024a00 entry=140024a00
+STRING 140e03e08 Updaters State
+  XREF from=140025517 function=FUN_140025500 entry=140025500
+STRING 140e03e18 Idle Mode
+  XREF from=140024e77 function=FUN_140024e60 entry=140024e60
+STRING 140e03f68 Show NavMesh
+  XREF from=140025947 function=FUN_140025930 entry=140025930
+STRING 140e04230 MapWidget Background
+  XREF from=1400243d7 function=FUN_1400243c0 entry=1400243c0
+STRING 140e04248 MapWidget Sea
+  XREF from=140024417 function=FUN_140024400 entry=140024400
+STRING 140e04258 MapWidget Usermap
+  XREF from=140024457 function=FUN_140024440 entry=140024440
+STRING 140e04290 Show playing samples
+  XREF from=140023657 function=FUN_140023640 entry=140023640
+STRING 140e042a8 Show system info
+  XREF from=140023697 function=FUN_140023680 entry=140023680
+STRING 140e042fc Widget
+  XREF from=1403ef947 function=FUN_1403ef8e0 entry=1403ef8e0
+  XREF from=1403ef9d1 function=FUN_1403ef8e0 entry=1403ef8e0
+  XREF from=1400245b7 function=FUN_1400245a0 entry=1400245a0
+  XREF from=1402e705d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e77de function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e77e9 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403e0b06 function=FUN_1403e0ae0 entry=1403e0ae0
+  XREF from=1403e0c09 function=FUN_1403e0bf0 entry=1403e0bf0
+  XREF from=1403ddef0 function=FUN_1403ddef0 entry=1403ddef0
+  XREF from=1403ddef7 function=FUN_1403ddef0 entry=1403ddef0
+STRING 140e04e88 Sound: Next update: %d ms
+  XREF from=1401f6765 function=FUN_1401f5b50 entry=1401f5b50
+STRING 140e051c0 MakeScreenshot:: cannot create directory (%s)
+  XREF from=1401f4825 function=FUN_1401f43f0 entry=1401f43f0
+STRING 140e05340 Workbench mode
+  XREF from=1401f2262 function=FUN_1401f2120 entry=1401f2120
+STRING 140e05350 Runtime mode
+  XREF from=1401f225b function=FUN_1401f2120 entry=1401f2120
+  XREF from=1401f2269 function=FUN_1401f2120 entry=1401f2120
+STRING 140e05380 alwaysupdate
+  XREF from=1401f49d6 function=FUN_1401f49d0 entry=1401f49d0
+STRING 140e05390 forceupdate
+  XREF from=1401f49ea function=FUN_1401f49d0 entry=1401f49d0
+STRING 140e05ff8 MV_REL_EYE_POS
+  XREF from=1401faf3e function=FUN_1401fa6e0 entry=1401fa6e0
+STRING 140e06008 MV_EYE_POS
+  XREF from=1401faf57 function=FUN_1401fa6e0 entry=1401fa6e0
+STRING 140e06018 MV_PREV_EYE_POS
+  XREF from=1401faf70 function=FUN_1401fa6e0 entry=1401fa6e0
+STRING 140e06418 MV_DEF_COLORIZE_TEX
+  XREF from=1401fb63f function=FUN_1401fa6e0 entry=1401fa6e0
+STRING 140e06d50 Light multiplicator on opposite side of global light vector (when normal map is set)
+  XREF from=140207e0f function=FUN_1402075c0 entry=1402075c0
+  XREF from=140207e2a function=FUN_1402075c0 entry=1402075c0
+STRING 140e06de0 Particle material able to render streaks -> extended sprites to the direction of movement
+  XREF from=140207f43 function=FUN_140207f20 entry=140207f20
+  XREF from=140207f4a function=FUN_140207f20 entry=140207f20
+STRING 140e06ee8 noresize
+  XREF from=140028762 function=FUN_140028690 entry=140028690
+  XREF from=1411236a0 function=<no-function> entry=<none>
+STRING 140e08578 WorldEventPostSimulatePhysics
+  XREF from=140225dd0 function=FUN_140225dd0 entry=140225dd0
+  XREF from=140225dd7 function=FUN_140225dd0 entry=140225dd0
+STRING 140e08a50 Timestep/UpdateRate:      %20s
+  XREF from=140224854 function=FUN_1402247c0 entry=1402247c0
+STRING 140e08c28 PhysUpdates:                  %16d
+  XREF from=1402249dc function=FUN_1402247c0 entry=1402247c0
+STRING 140e08c50 AabbPhysUpdates:              %16d
+  XREF from=1402249f5 function=FUN_1402247c0 entry=1402247c0
+STRING 140e08cc8 UpdatesCall: %4u, UpdatesDone %4u,    %#5.1f%%
+  XREF from=140224a4e function=FUN_1402247c0 entry=1402247c0
+STRING 140e08d58 gridSize        x: %-10d    z: %-10d
+  XREF from=140224aec function=FUN_1402247c0 entry=1402247c0
+STRING 140e08d90 setsSize   grid   dynamic: %8d %-10s %8d %-10s
+  XREF from=140224b4f function=FUN_1402247c0 entry=1402247c0
+  XREF from=140224b63 function=FUN_1402247c0 entry=1402247c0
+STRING 140e08dc0 setsSize   grid    static: %8d %-10s %8d %-10s
+  XREF from=140224b8d function=FUN_1402247c0 entry=1402247c0
+STRING 140e08df0 setsSize   global dynamic: %8d %-10s %8d %-10s
+  XREF from=140224bb7 function=FUN_1402247c0 entry=1402247c0
+STRING 140e08e20 setsSize   global  static: %8d %-10s %8d %-10s
+  XREF from=140224be4 function=FUN_1402247c0 entry=1402247c0
+STRING 140e08e50 setsSize dynamic: leaves %8d depth %8d
+  XREF from=140224c18 function=FUN_1402247c0 entry=1402247c0
+STRING 140e08e78 setsSize  static: leaves %8d depth %8d
+  XREF from=140224c2b function=FUN_1402247c0 entry=1402247c0
+STRING 140e09170 enf::MyDiscreteDynamicsWorld::updateAabbs
+  XREF from=1402308fd function=FUN_1402308e0 entry=1402308e0
+STRING 140e091a0 updateAabbs
+  XREF from=140d3e4b4 function=FUN_140d3e490 entry=140d3e490
+  XREF from=140230904 function=FUN_1402308e0 entry=1402308e0
+STRING 140e09200 enf::MyDiscreteDynamicsWorld::updateActivationState
+  XREF from=1402309aa function=FUN_140230980 entry=140230980
+STRING 140e09238 updateActivationState
+  XREF from=140d792a1 function=FUN_140d79270 entry=140d79270
+  XREF from=1402309b1 function=FUN_140230980 entry=140230980
+STRING 140e0ad28 PostProcessEffectBase
+  XREF from=14023f960 function=FUN_14023f960 entry=14023f960
+  XREF from=14023f967 function=FUN_14023f960 entry=14023f960
+STRING 140e0ae18 Blur power in x direction
+  XREF from=14023f2d1 function=FUN_14023f260 entry=14023f260
+  XREF from=14023f2d8 function=FUN_14023f260 entry=14023f260
+  XREF from=14025c101 function=FUN_14025c090 entry=14025c090
+  XREF from=14025c108 function=FUN_14025c090 entry=14025c090
+STRING 140e0ae50 Blur power in y direction
+  XREF from=14023f363 function=FUN_14023f260 entry=14023f260
+  XREF from=14023f36e function=FUN_14023f260 entry=14023f260
+  XREF from=14025c193 function=FUN_14025c090 entry=14025c090
+  XREF from=14025c19e function=FUN_14025c090 entry=14025c090
+STRING 140e0ae78 postprocess/ps_ChromAber
+  XREF from=14023fb8a function=FUN_14023fb80 entry=14023fb80
+STRING 140e0afe8 MatColorGrading
+  XREF from=140240310 function=FUN_140240310 entry=140240310
+  XREF from=140240317 function=FUN_140240310 entry=140240310
+STRING 140e0b0a8 ColorGradingEffect
+  XREF from=140ac66a8 function=FUN_140ac63c0 entry=140ac63c0
+  XREF from=14024005a function=FUN_140240020 entry=140240020
+  XREF from=14024006c function=FUN_140240020 entry=140240020
+  XREF from=140240300 function=FUN_140240300 entry=140240300
+  XREF from=140240307 function=FUN_140240300 entry=140240300
+STRING 140e0b0c0 User color grading of image
+  XREF from=140240070 function=FUN_140240020 entry=140240020
+  XREF from=140240077 function=FUN_140240020 entry=140240020
+STRING 140e0b110 ColorTable
+  XREF from=14024009c function=FUN_140240020 entry=140240020
+  XREF from=1402400a3 function=FUN_140240020 entry=140240020
+STRING 140e0b120 postprocess/ps_ColorGrading
+  XREF from=14024043a function=FUN_140240430 entry=140240430
+STRING 140e0b290 MatColors
+  XREF from=140241890 function=FUN_140241890 entry=140241890
+  XREF from=140241897 function=FUN_140241890 entry=140241890
+STRING 140e0b350 ColorsEffect
+  XREF from=140241088 function=FUN_140241050 entry=140241050
+  XREF from=1402410ab function=FUN_140241050 entry=140241050
+  XREF from=140241880 function=FUN_140241880 entry=140241880
+  XREF from=140241887 function=FUN_140241880 entry=140241880
+STRING 140e0b360 Simple screen color effects
+  XREF from=1402410b3 function=FUN_140241050 entry=140241050
+  XREF from=1402410be function=FUN_140241050 entry=140241050
+STRING 140e0b380 Image brightness
+  XREF from=14024b65e function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b67c function=FUN_14024ab30 entry=14024ab30
+  XREF from=1402410c6 function=FUN_140241050 entry=140241050
+  XREF from=1402410cd function=FUN_140241050 entry=140241050
+STRING 140e0b3a8 Image contrast
+  XREF from=14024b6cd function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b6e7 function=FUN_14024ab30 entry=14024ab30
+  XREF from=140241158 function=FUN_140241050 entry=140241050
+  XREF from=140241163 function=FUN_140241050 entry=140241050
+STRING 140e0b3e8 Overlay color blend factor
+  XREF from=14024b7ab function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b7c9 function=FUN_14024ab30 entry=14024ab30
+  XREF from=1402412c6 function=FUN_140241050 entry=140241050
+  XREF from=1402412d1 function=FUN_140241050 entry=140241050
+STRING 140e0b428 Overlay color
+  XREF from=14024b81a function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b838 function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024137d function=FUN_140241050 entry=140241050
+  XREF from=140241388 function=FUN_140241050 entry=140241050
+STRING 140e0b440 OverlayColor
+  XREF from=14024b831 function=FUN_14024ab30 entry=14024ab30
+  XREF from=1402413a6 function=FUN_140241050 entry=140241050
+  XREF from=1402413b1 function=FUN_140241050 entry=140241050
+STRING 140e0b450 Image saturation
+  XREF from=14024b889 function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b8a3 function=FUN_14024ab30 entry=14024ab30
+  XREF from=140241434 function=FUN_140241050 entry=140241050
+  XREF from=14024143f function=FUN_140241050 entry=140241050
+STRING 140e0b468 Colorization color
+  XREF from=14024b8f8 function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b908 function=FUN_14024ab30 entry=14024ab30
+  XREF from=1402414e4 function=FUN_140241050 entry=140241050
+  XREF from=1402414ef function=FUN_140241050 entry=140241050
+STRING 140e0b480 ColorizationColor
+  XREF from=14024b90d function=FUN_14024ab30 entry=14024ab30
+  XREF from=140241506 function=FUN_140241050 entry=140241050
+  XREF from=14024150d function=FUN_140241050 entry=140241050
+STRING 140e0b4e0 postprocess/ps_Colors
+  XREF from=1402419ba function=FUN_1402419b0 entry=1402419b0
+STRING 140e0b970 Size of blured image
+  XREF from=1402422c9 function=FUN_140241d70 entry=140241d70
+  XREF from=1402422d7 function=FUN_140241d70 entry=140241d70
+STRING 140e0b988 SimpleDOFSize
+  XREF from=140242304 function=FUN_140241d70 entry=140241d70
+  XREF from=14024230b function=FUN_140241d70 entry=140241d70
+STRING 140e0b998 Number of gauss filters applied to image
+  XREF from=140242387 function=FUN_140241d70 entry=140241d70
+  XREF from=140242392 function=FUN_140241d70 entry=140241d70
+STRING 140e0b9f0 postprocess/ps_DOF
+  XREF from=1402427a4 function=FUN_140242770 entry=140242770
+STRING 140e0be30 Fixed param by choosen lenses (mm). It measures of how strongly the system converges or diverges light. Usually it has to uqual to FocalLength othewise it's not physically correct.
+  XREF from=1402438c1 function=FUN_1402434d0 entry=1402434d0
+  XREF from=1402438cc function=FUN_1402434d0 entry=1402434d0
+STRING 140e0c138 postprocess/ps_DOFBokeh
+  XREF from=140243ebe function=FUN_140243ea0 entry=140243ea0
+STRING 140e0c3c8 KERNEL_SIZE=6
+  XREF from=140246236 function=FUN_1402461c0 entry=1402461c0
+  XREF from=14024623d function=FUN_1402461c0 entry=1402461c0
+STRING 140e0c3d8 postprocess/ps_DynamicBlur
+  XREF from=14024622a function=FUN_1402461c0 entry=1402461c0
+STRING 140e0c610 Size of film grain
+  XREF from=140247105 function=FUN_140246f40 entry=140246f40
+  XREF from=140247110 function=FUN_140246f40 entry=140246f40
+STRING 140e0c638 GrainSize
+  XREF from=140247139 function=FUN_140246f40 entry=140246f40
+  XREF from=140247140 function=FUN_140246f40 entry=140246f40
+STRING 140e0c6c8 Use monochromatic noise or color noise
+  XREF from=140247320 function=FUN_140246f40 entry=140246f40
+  XREF from=14024732b function=FUN_140246f40 entry=140246f40
+STRING 140e0c830 postprocess/ps_Filmgrain
+  XREF from=140247a9e function=FUN_140247a40 entry=140247a40
+  XREF from=140247b09 function=FUN_140247a40 entry=140247a40
+STRING 140e0cad0 postprocess/ps_FXAA
+  XREF from=1402487ee function=FUN_1402487d0 entry=1402487d0
+STRING 140e0cd10 Kernel size for the effect. The number needs to be odd, but currently only 3x3 is supported
+  XREF from=140248cbc function=FUN_140248c70 entry=140248c70
+  XREF from=140248cc3 function=FUN_140248c70 entry=140248c70
+STRING 140e0ce40 postprocess/ps_Median
+  XREF from=140249099 function=FUN_140249060 entry=140249060
+STRING 140e0d088 Lens center in X direction (-1 = left, 0 = center, 1 = right)
+  XREF from=14024bb96 function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024bbb4 function=FUN_14024ab30 entry=14024ab30
+  XREF from=140249708 function=FUN_140249600 entry=140249600
+  XREF from=140249713 function=FUN_140249600 entry=140249600
+STRING 140e0d0d0 Lens center in Y direction (-1 = top, 0 = center, 1 = bottom)
+  XREF from=1402497bf function=FUN_140249600 entry=140249600
+  XREF from=1402497ca function=FUN_140249600 entry=140249600
+STRING 140e0d268 Color modulation (r,g,b,scale)
+  XREF from=140249b4b function=FUN_140249600 entry=140249600
+  XREF from=140249b56 function=FUN_140249600 entry=140249600
+STRING 140e0d288 ModulateColor
+  XREF from=140249b78 function=FUN_140249600 entry=140249600
+  XREF from=140249b7f function=FUN_140249600 entry=140249600
+STRING 140e0d300 postprocess/ps_Distort
+  XREF from=140249efc function=FUN_140249ee0 entry=140249ee0
+STRING 140e0d680 Percentage of the histogram -> I want to see VisiblePercent pixels
+  XREF from=14024abf9 function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024ac07 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0d6d8 VisiblePercent
+  XREF from=14024ac3b function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024ac42 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0da38 Filmic exposure bias
+  XREF from=14024b3fa function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b414 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0da58 FilmicExposureBias
+  XREF from=14024b405 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0db90 Vignette simulates the color change on screen borders due to imperfection of display device (usually darkening)
+  XREF from=14024b9cf function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024b9e9 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0dc10 Color of vignette
+  XREF from=14024ba37 function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024ba51 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0dc28 VignetteColor
+  XREF from=14024ba42 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0dc58 Lens center in Y direction (-1 = to, 0 = center, 1 = bottom)
+  XREF from=14024bc0e function=FUN_14024ab30 entry=14024ab30
+  XREF from=14024bc18 function=FUN_14024ab30 entry=14024ab30
+STRING 140e0dcc0 postprocess/ps_Glow
+  XREF from=14024caed function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024cb21 function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024cb57 function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024cc8f function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024cd1c function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024cda7 function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024ce6b function=FUN_14024caa0 entry=14024caa0
+STRING 140e0dd30 postprocess/ps_CopyColor
+  XREF from=14024cee5 function=FUN_14024caa0 entry=14024caa0
+  XREF from=14024cf8b function=FUN_14024caa0 entry=14024caa0
+  XREF from=14025651c function=FUN_140256500 entry=140256500
+  XREF from=1402565cc function=FUN_140256500 entry=140256500
+STRING 140e0e100 SunVisible
+  XREF from=14024f863 function=FUN_14024f710 entry=14024f710
+  XREF from=14024f86a function=FUN_14024f710 entry=14024f710
+  XREF from=14025d3ed function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025d3f4 function=FUN_14025cd20 entry=14025cd20
+  XREF from=140267054 function=FUN_140266ce0 entry=140266ce0
+  XREF from=14026705b function=FUN_140266ce0 entry=140266ce0
+STRING 140e0e1a8 postprocess/vs_Godrays
+  XREF from=14025018d function=FUN_140250140 entry=140250140
+STRING 140e0e1c0 postprocess/ps_Godrays
+  XREF from=14025021d function=FUN_140250140 entry=140250140
+STRING 140e0e680 Ghost color. RGB = per channel multiplication A = overall color curve (0=linear,1=exponential)
+  XREF from=14025130c function=FUN_140250aa0 entry=140250aa0
+  XREF from=140251326 function=FUN_140250aa0 entry=140250aa0
+STRING 140e0e6f0 GhostColorMod
+  XREF from=140251317 function=FUN_140250aa0 entry=140250aa0
+STRING 140e0e700 postprocess/ps_Ghost
+  XREF from=14025160c function=FUN_1402515f0 entry=1402515f0
+STRING 140e0ea08 Bias for cosine of angle between normal and direction
+  XREF from=1402524a2 function=FUN_140252200 entry=140252200
+  XREF from=1402524b0 function=FUN_140252200 entry=140252200
+STRING 140e0eab0 Number of directions for tracing AO rays
+  XREF from=1402526c7 function=FUN_140252200 entry=140252200
+  XREF from=1402526d5 function=FUN_140252200 entry=140252200
+STRING 140e0eae0 NumDirections
+  XREF from=140252702 function=FUN_140252200 entry=140252200
+  XREF from=140252709 function=FUN_140252200 entry=140252200
+STRING 140e0eaf0 Number of samples per direction (expensive!)
+  XREF from=140252785 function=FUN_140252200 entry=140252200
+  XREF from=140252790 function=FUN_140252200 entry=140252200
+STRING 140e0eb78 postprocess/hbaoplus/cs_bilateralblur
+  XREF from=140255139 function=FUN_140255110 entry=140255110
+STRING 140e0ebb0 postprocess/hbaoplus/cs_deinterleave
+  XREF from=1402551a4 function=FUN_140255110 entry=140255110
+STRING 140e0ebd8 postprocess/hbaoplus/cs_reinterleave
+  XREF from=1402551ee function=FUN_140255110 entry=140255110
+STRING 140e0ec20 postprocess/hbaoplus/cs_coarseao
+  XREF from=140255293 function=FUN_140255110 entry=140255110
+  XREF from=1402552f1 function=FUN_140255110 entry=140255110
+STRING 140e0ec48 postprocess/hbaoplus/ps_copytoshadowmask
+  XREF from=140255336 function=FUN_140255110 entry=140255110
+STRING 140e0fe48 MatGaussImageFilter
+  XREF from=1402563a0 function=FUN_1402563a0 entry=1402563a0
+  XREF from=1402563a7 function=FUN_1402563a0 entry=1402563a0
+STRING 140e0fe60 Image filtering by gauss filter
+  XREF from=140255f83 function=FUN_140255f30 entry=140255f30
+  XREF from=140255f8a function=FUN_140255f30 entry=140255f30
+STRING 140e0fe80 postprocess
+  XREF from=140489a39 function=FUN_1404899b0 entry=1404899b0
+  XREF from=140489a58 function=FUN_1404899b0 entry=1404899b0
+  XREF from=1402587b7 function=FUN_140258790 entry=140258790
+  XREF from=141123fd0 function=<no-function> entry=<none>
+STRING 140e0ff80 PostProcessManager
+  XREF from=1402584e0 function=FUN_1402584e0 entry=1402584e0
+  XREF from=1402584e7 function=FUN_1402584e0 entry=1402584e0
+STRING 140e106b0 MatPostprocess
+  XREF from=14025aa50 function=FUN_14025aa50 entry=14025aa50
+  XREF from=14025aa57 function=FUN_14025aa50 entry=14025aa50
+STRING 140e106c0 PostprocessEffect
+  XREF from=14025917d function=FUN_140258e50 entry=140258e50
+  XREF from=140259184 function=FUN_140258e50 entry=140258e50
+STRING 140e106f0 postprocess/ps_Downsize
+  XREF from=14025b226 function=FUN_14025b020 entry=14025b020
+  XREF from=14025b2c5 function=FUN_14025b020 entry=14025b020
+  XREF from=14025b378 function=FUN_14025b020 entry=14025b020
+  XREF from=14025b40d function=FUN_14025b020 entry=14025b020
+STRING 140e10988 Size of unblured center area in x direction
+  XREF from=14025c243 function=FUN_14025c090 entry=14025c090
+  XREF from=14025c24e function=FUN_14025c090 entry=14025c090
+STRING 140e109d0 Size of unblured center area in y direction
+  XREF from=14025c2fa function=FUN_14025c090 entry=14025c090
+  XREF from=14025c305 function=FUN_14025c090 entry=14025c090
+STRING 140e10a80 postprocess/ps_RadialBlur
+  XREF from=14025c73a function=FUN_14025c730 entry=14025c730
+STRING 140e10d80 Drops horizontal size
+  XREF from=14025ceaa function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025ceb8 function=FUN_14025cd20 entry=14025cd20
+STRING 140e10db0 DropSizeX
+  XREF from=14025ced9 function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025cee0 function=FUN_14025cd20 entry=14025cd20
+STRING 140e10dc0 Drops vertical size
+  XREF from=14025cf67 function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025cf72 function=FUN_14025cd20 entry=14025cd20
+STRING 140e10de0 DropSizeY
+  XREF from=14025cf94 function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025cf9b function=FUN_14025cd20 entry=14025cd20
+STRING 140e10e38 Fog Color Multiplier
+  XREF from=14025d190 function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025d19e function=FUN_14025cd20 entry=14025cd20
+STRING 140e10e50 FogColorMultiplier
+  XREF from=14025d1cb function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025d1d2 function=FUN_14025cd20 entry=14025cd20
+STRING 140e10e68 Background Color Multiplier
+  XREF from=14025d24d function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025d258 function=FUN_14025cd20 entry=14025cd20
+STRING 140e10e88 BackgroundColorMultiplier
+  XREF from=14025d276 function=FUN_14025cd20 entry=14025cd20
+  XREF from=14025d281 function=FUN_14025cd20 entry=14025cd20
+STRING 140e11310 postprocess/ps_RainMaskDownsample
+  XREF from=14025ee26 function=FUN_14025ede0 entry=14025ede0
+  XREF from=14025f23d function=FUN_14025ede0 entry=14025ede0
+STRING 140e11338 postprocess/vs_Rain
+  XREF from=14025ee67 function=FUN_14025ede0 entry=14025ede0
+STRING 140e11350 postprocess/ps_Rain
+  XREF from=14025eeea function=FUN_14025ede0 entry=14025ede0
+STRING 140e11368 postprocess/vs_RainDistant
+  XREF from=14025ef83 function=FUN_14025ede0 entry=14025ede0
+STRING 140e11388 postprocess/ps_RainDistant
+  XREF from=14025f00c function=FUN_14025ede0 entry=14025ede0
+STRING 140e113a8 postprocess/vs_RainRipples
+  XREF from=14025f0b5 function=FUN_14025ede0 entry=14025ede0
+STRING 140e113c8 postprocess/ps_RainRipples
+  XREF from=14025f14e function=FUN_14025ede0 entry=14025ede0
+STRING 140e113e8 postprocess/vs_RainRipplesLayer
+  XREF from=14025f2e6 function=FUN_14025ede0 entry=14025ede0
+STRING 140e11408 postprocess/ps_RainRipplesLayer
+  XREF from=14025f369 function=FUN_14025ede0 entry=14025ede0
+STRING 140e11428 postprocess/vs_RainScreenSpaceRainMask
+  XREF from=14025f412 function=FUN_14025ede0 entry=14025ede0
+STRING 140e11450 postprocess/ps_RainScreenSpaceRainMask
+  XREF from=14025f495 function=FUN_14025ede0 entry=14025ede0
+STRING 140e11478 postprocess/ps_RainBlurScreen
+  XREF from=14025f51c function=FUN_14025ede0 entry=14025ede0
+STRING 140e118f8 postprocess/vs_RotBlur
+  XREF from=140265446 function=FUN_140265410 entry=140265410
+STRING 140e11910 postprocess/ps_RotBlur
+  XREF from=1402654d6 function=FUN_140265410 entry=140265410
+STRING 140e11c60 postprocess/vs_SMAA
+  XREF from=140266384 function=FUN_140266350 entry=140266350
+STRING 140e11c88 postprocess/ps_SMAA
+  XREF from=1402663f1 function=FUN_140266350 entry=140266350
+STRING 140e12160 Distance (in meters) from camera, where particles will be completely clipped (not visible)
+  XREF from=1402675dd function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402675fb function=FUN_140266ce0 entry=140266ce0
+STRING 140e122c0 Number of images in particles texture in U direction (horizontal)
+  XREF from=140267752 function=FUN_140266ce0 entry=140266ce0
+  XREF from=140267762 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12310 ParticlesNumImagesU
+  XREF from=140267782 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12330 Number of images in particles texture in V direction (vertical)
+  XREF from=1402677cb function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402677e9 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12370 ParticlesNumImagesV
+  XREF from=1402677d6 function=FUN_140266ce0 entry=140266ce0
+STRING 140e123b0 ParticlesSize
+  XREF from=1402678da function=FUN_140266ce0 entry=140266ce0
+STRING 140e123c0 Particles horizontal size (in meters)
+  XREF from=1402678ee function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402678fe function=FUN_140266ce0 entry=140266ce0
+STRING 140e123f0 ParticlesSizeX
+  XREF from=140267923 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12400 Particles vertical size (in meters)
+  XREF from=140267968 function=FUN_140266ce0 entry=140266ce0
+  XREF from=140267986 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12428 ParticlesSizeY
+  XREF from=140267973 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12438 Particles horizontal size randomization (relative to size)
+  XREF from=1402679db function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402679f9 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12478 ParticlesSizeXRandomize
+  XREF from=1402679f2 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12490 Particles vertical size randomization (relative to size)
+  XREF from=140267a55 function=FUN_140266ce0 entry=140266ce0
+  XREF from=140267a73 function=FUN_140266ce0 entry=140266ce0
+STRING 140e124d0 ParticlesSizeYRandomize
+  XREF from=140267a60 function=FUN_140266ce0 entry=140266ce0
+STRING 140e125d0 Coefficient for squeezing of particles in the direction of movement (0 = disabled). This is a max value for squeezing (when speed is larger than ParticlesSqueezeMaxSpeed)
+  XREF from=140267c36 function=FUN_140266ce0 entry=140266ce0
+  XREF from=140267c46 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12860 How much wind direction affect main direction of particles movement (0 = wind direction does not influence snow direction, 1 = full influence)
+  XREF from=140267e4c function=FUN_140266ce0 entry=140266ce0
+  XREF from=140267e6a function=FUN_140266ce0 entry=140266ce0
+STRING 140e12908 Particles direction randomization
+  XREF from=140267ecd function=FUN_140266ce0 entry=140266ce0
+  XREF from=140267eeb function=FUN_140266ce0 entry=140266ce0
+STRING 140e12bf0 Particles color modificator.
+  XREF from=1402682a8 function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402682c6 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12c20 ParticlesColor
+  XREF from=1402682b3 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12c30 Particles color randomization.
+  XREF from=140268329 function=FUN_140266ce0 entry=140266ce0
+  XREF from=140268347 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12c60 ParticlesColorRandomize
+  XREF from=140268334 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12c78 Particles color luminance
+  XREF from=1402683aa function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402683c8 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12cb0 Particles color luminance randomization (relative to luminance)
+  XREF from=14026842b function=FUN_140266ce0 entry=140266ce0
+  XREF from=140268449 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12d10 Particles emissive color, absolute light value
+  XREF from=1402684a5 function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402684b5 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12d40 ParticlesEmissiveColor
+  XREF from=1402684dc function=FUN_140266ce0 entry=140266ce0
+STRING 140e12d88 ParticlesAmbientColor
+  XREF from=140268531 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12dd0 ParticlesDiffuseColor
+  XREF from=1402685b2 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12df0 Particles diffuse color min coefficient (for particles facing away from light
+  XREF from=140268628 function=FUN_140266ce0 entry=140266ce0
+  XREF from=140268646 function=FUN_140266ce0 entry=140266ce0
+STRING 140e12e60 Particles diffuse color max coefficient (for particles facing to the light
+  XREF from=1402686a2 function=FUN_140266ce0 entry=140266ce0
+  XREF from=1402686c0 function=FUN_140266ce0 entry=140266ce0
+STRING 140e13098 postprocess/vs_Snow
+  XREF from=14026a195 function=FUN_14026a150 entry=14026a150
+STRING 140e130b0 postprocess/ps_Snow
+  XREF from=14026a1f7 function=FUN_14026a150 entry=14026a150
+STRING 140e13350 SSAO with fake normal computations, it's rendered with normal geometry, not in postprocess pass.
+  XREF from=14026c321 function=FUN_14026c2a0 entry=14026c2a0
+  XREF from=14026c328 function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e13680 Blur size (separated kernel, 1 = 2x2, 2 = 4x4, 3 = 6x6, 4 = 8x8)
+  XREF from=14026cb5f function=FUN_14026c2a0 entry=14026c2a0
+  XREF from=14026cb7a function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e136c8 BlurSize
+  XREF from=14026cb6b function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e136d8 Amount of color in ssao colorization
+  XREF from=14026cbd0 function=FUN_14026c2a0 entry=14026c2a0
+  XREF from=14026cbef function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e13700 ColorAmount
+  XREF from=14026cbe8 function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e13710 Amount of SSAO in ssao colorization
+  XREF from=14026cc48 function=FUN_14026c2a0 entry=14026c2a0
+  XREF from=14026cc63 function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e13738 ColorSsaoAmount
+  XREF from=14026cc54 function=FUN_14026c2a0 entry=14026c2a0
+STRING 140e13748 postprocess/vs_SSAO
+  XREF from=14026d624 function=FUN_14026d5e0 entry=14026d5e0
+STRING 140e13790 postprocess/ps_SSAO
+  XREF from=14026d6dc function=FUN_14026d5e0 entry=14026d5e0
+STRING 140e137a8 postprocess/vs_SSAOBlur
+  XREF from=14026d7c3 function=FUN_14026d5e0 entry=14026d5e0
+STRING 140e137c0 postprocess/ps_SSAOBlur
+  XREF from=14026d876 function=FUN_14026d5e0 entry=14026d5e0
+STRING 140e137e0 postprocess/ps_SSAOFinal
+  XREF from=14026d92c function=FUN_14026d5e0 entry=14026d5e0
+STRING 140e13d08 Size of sun disc
+  XREF from=140272353 function=FUN_140272240 entry=140272240
+  XREF from=14027235e function=FUN_140272240 entry=140272240
+STRING 140e13d20 SunSize
+  XREF from=140272380 function=FUN_140272240 entry=140272240
+  XREF from=140272387 function=FUN_140272240 entry=140272240
+STRING 140e13df0 postprocess/vs_GodraysMask
+  XREF from=140273477 function=FUN_140273430 entry=140273430
+STRING 140e13e10 postprocess/ps_GodraysMask
+  XREF from=1402734fc function=FUN_140273430 entry=140273430
+STRING 140e13e30 postprocess/ps_GodraysBlur
+  XREF from=140273580 function=FUN_140273430 entry=140273430
+STRING 140e13e50 postprocess/ps_GodraysAccumulation
+  XREF from=140273604 function=FUN_140273430 entry=140273430
+STRING 140e13e78 postprocess/ps_ScreenMask
+  XREF from=140273390 function=FUN_1402732c0 entry=1402732c0
+STRING 140e14330 postprocess/ps_UnderWater
+  XREF from=1402752c1 function=FUN_140275280 entry=140275280
+STRING 140e14350 postprocess/vs_UnderWater
+  XREF from=140275312 function=FUN_140275280 entry=140275280
+STRING 140e14670 Downsize cofficient of blurred image (0 = none, 1 = half, 2 = quarter...
+  XREF from=14027844b function=FUN_140278110 entry=140278110
+  XREF from=140278459 function=FUN_140278110 entry=140278110
+STRING 140e146c0 BlurDownSize
+  XREF from=14027848d function=FUN_140278110 entry=140278110
+  XREF from=140278494 function=FUN_140278110 entry=140278110
+STRING 140e14700 Wave 1 speed in x direction
+  XREF from=1402785c0 function=FUN_140278110 entry=140278110
+  XREF from=1402785ce function=FUN_140278110 entry=140278110
+STRING 140e14740 Wave 2 speed in x direction
+  XREF from=14027867e function=FUN_140278110 entry=140278110
+  XREF from=140278689 function=FUN_140278110 entry=140278110
+STRING 140e14770 Wave 1 speed in y direction
+  XREF from=140278735 function=FUN_140278110 entry=140278110
+  XREF from=140278740 function=FUN_140278110 entry=140278110
+STRING 140e147a0 Wave 2 speed in y direction
+  XREF from=1402787ec function=FUN_140278110 entry=140278110
+  XREF from=1402787f7 function=FUN_140278110 entry=140278110
+STRING 140e147d8 Wave 1 amplitude in x direction
+  XREF from=1402788a8 function=FUN_140278110 entry=140278110
+  XREF from=1402788c7 function=FUN_140278110 entry=140278110
+STRING 140e14828 Wave 2 amplitude in x direction
+  XREF from=140278921 function=FUN_140278110 entry=140278110
+  XREF from=14027893d function=FUN_140278110 entry=140278110
+STRING 140e14860 Wave 1 amplitude in y direction
+  XREF from=140278993 function=FUN_140278110 entry=140278110
+  XREF from=1402789af function=FUN_140278110 entry=140278110
+STRING 140e14898 Wave 2 amplitude in y direction
+  XREF from=140278a05 function=FUN_140278110 entry=140278110
+  XREF from=140278a19 function=FUN_140278110 entry=140278110
+STRING 140e14950 Weight of vertex x position on x wave phases
+  XREF from=140278b5b function=FUN_140278110 entry=140278110
+  XREF from=140278b7a function=FUN_140278110 entry=140278110
+STRING 140e14980 PhasePosX
+  XREF from=140278b73 function=FUN_140278110 entry=140278110
+STRING 140e14990 Weight of vertex y position on y wave phases
+  XREF from=140278bd4 function=FUN_140278110 entry=140278110
+  XREF from=140278bf0 function=FUN_140278110 entry=140278110
+STRING 140e149c8 PhasePosY
+  XREF from=140278be0 function=FUN_140278110 entry=140278110
+STRING 140e149d8 postprocess/vs_WetDistort
+  XREF from=140279580 function=FUN_140279540 entry=140279540
+STRING 140e149f8 postprocess/ps_WetDistort
+  XREF from=140279610 function=FUN_140279540 entry=140279540
+STRING 140e14ce8 TextureImageData
+  XREF from=14027e180 function=FUN_14027e180 entry=14027e180
+  XREF from=14027e187 function=FUN_14027e180 entry=14027e180
+STRING 140e15480 model		      :
+  XREF from=1402811d9 function=FUN_140280d20 entry=140280d20
+STRING 140e15560 Incorrect call of AGS library (%s) functions for ATI vendor, system info not valid
+  XREF from=1402809db function=FUN_140280780 entry=140280780
+STRING 140e15660 Windows basic driver driver detected, rendering can be extremely slow (please ensure that your video card is Direct3D10/11 capable and has the appropriate driver installed)
+  XREF from=140280b79 function=FUN_140280780 entry=140280780
+STRING 140e15890 %s (%dx%d, pos %dx%d, %uHz)
+  XREF from=140281a4b function=FUN_140281640 entry=140281640
+STRING 140e15ee0 IRenderer::Reset: Cannot find selected mode (%dx%d)!
+  XREF from=14028513b function=FUN_140284e90 entry=140284e90
+STRING 140e17428 Using local source directory for shader sources (%s)
+  XREF from=14028e1ff function=FUN_14028e050 entry=14028e050
+STRING 140e17480 Cannot open file (%s), switching to relative source directory for shader sources (%s)
+  XREF from=14028e2cd function=FUN_14028e050 entry=14028e050
+STRING 140e174e0 Using relative source directory for shader sources (%s), please check compiler options (/FC)
+  XREF from=14028e379 function=FUN_14028e050 entry=14028e050
+STRING 140e17758 ResizeDeviceOutput:: ResizeTarget
+  XREF from=140296260 function=FUN_1402961a0 entry=1402961a0
+STRING 140e17780 SwapChain::ResizeDeviceOutput(%d, %d, %d)
+  XREF from=140297916 function=FUN_1402978e0 entry=1402978e0
+STRING 140e177b0 Cannot resize in fullscreen, mode not found (%dx%d)
+  XREF from=1402979f2 function=FUN_1402978e0 entry=1402978e0
+STRING 140e17810 Cannot continue with mode setting, DXGI state unsynchronized with engine
+  XREF from=140297a82 function=FUN_1402978e0 entry=1402978e0
+STRING 140e17860 SwapChain:: Resize error, cannot resize to %dx%d
+  XREF from=14029788f function=FUN_140297790 entry=140297790
+STRING 140e189de |BIRenderer::CreateTextureFromImage(%s) failed
+STRING 140e18a40 POSITION
+  XREF from=140998957 function=FUN_140998850 entry=140998850
+  XREF from=14099895e function=FUN_140998850 entry=140998850
+  XREF from=1411250e0 function=<no-function> entry=<none>
+STRING 140e18aa0 PSIZE
+  XREF from=141125120 function=<no-function> entry=<none>
+STRING 140e194b8 MemoryImageData
+  XREF from=1402a16d0 function=FUN_1402a16d0 entry=1402a16d0
+  XREF from=1402a16d7 function=FUN_1402a16d0 entry=1402a16d0
+STRING 140e1a130 Particles UpdatesSync
+  XREF from=1402a9bcd function=FUN_1402a9890 entry=1402a9890
+STRING 140e1a160 Particles EmitorUpdate
+  XREF from=1402b2cec function=FUN_1402b28d0 entry=1402b28d0
+STRING 140e1a260 Size of emitor shape
+  XREF from=1402a7ec5 function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a7ed3 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1a278 ShapeSize
+  XREF from=1402a7ede function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a7eeb function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1a4c8 Size in meters
+  XREF from=1402a877a function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a8798 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1a4e0 SizeMultiplier
+  XREF from=1402a879d function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1a4f0 Random factor of size
+  XREF from=1402a87f0 function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a880e function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1a508 SizeRND
+  XREF from=1402a8807 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1a9d0 Color graph
+  XREF from=1402a9328 function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a933b function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1aa20 Size graph
+  XREF from=1402a9462 function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a947d function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1aa90 Color master graph
+  XREF from=1402a95bc function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a95d7 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1aaa8 ColorMast
+  XREF from=1402a95c7 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1ab18 Size master graph
+  XREF from=1402a96e5 function=FUN_1402a7e00 entry=1402a7e00
+  XREF from=1402a9700 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1ab30 SizeMast
+  XREF from=1402a96f0 function=FUN_1402a7e00 entry=1402a7e00
+STRING 140e1d338 DirectXDDS
+STRING 140e1d428 ColorNoise
+STRING 140e1d4a8 ColorHQCompression
+STRING 140e1d770 MipMap downsize function
+  XREF from=1402c03d5 function=FUN_1402bfd70 entry=1402bfd70
+  XREF from=1402c03df function=FUN_1402bfd70 entry=1402bfd70
+STRING 140e1d810 Conversion from panoramic/spherical texture to a cubemap texture (source texture must be an equirectangular panorama)
+  XREF from=1402c0544 function=FUN_1402bfd70 entry=1402bfd70
+  XREF from=1402c054f function=FUN_1402bfd70 entry=1402bfd70
+STRING 140e1ea68 WidgetSource
+  XREF from=1402d7d12 function=FUN_1402d63b0 entry=1402d63b0
+  XREF from=1402d7d93 function=FUN_1402d63b0 entry=1402d63b0
+  XREF from=1403e2280 function=FUN_1403e2280 entry=1403e2280
+  XREF from=1403e2287 function=FUN_1403e2280 entry=1403e2280
+STRING 140e1ea78 ImageWidget
+  XREF from=1402e7e4a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8015 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8020 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403e5170 function=FUN_1403e5170 entry=1403e5170
+  XREF from=1403e5177 function=FUN_1403e5170 entry=1403e5170
+STRING 140e1ea88 VideoWidget
+  XREF from=1402e8ee8 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9142 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e914d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec940 function=FUN_1403ec940 entry=1403ec940
+  XREF from=1403ec947 function=FUN_1403ec940 entry=1403ec940
+STRING 140e1ea98 WorkspaceWidget
+  XREF from=1402e7812 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e789c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e78a7 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ddf30 function=FUN_1403ddf30 entry=1403ddf30
+  XREF from=1403ddf37 function=FUN_1403ddf30 entry=1403ddf30
+STRING 140e1eaa8 RenderTargetWidget
+  XREF from=1402e8527 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e85a5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e85b0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec8f0 function=FUN_1403ec8f0 entry=1403ec8f0
+  XREF from=1403ec8f7 function=FUN_1403ec8f0 entry=1403ec8f0
+STRING 140e1eac0 TextWidget
+  XREF from=14056d853 function=FUN_14056d7b0 entry=14056d7b0
+  XREF from=1402e78d7 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7bf4 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7bff function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec930 function=FUN_1403ec930 entry=1403ec930
+  XREF from=1403ec937 function=FUN_1403ec930 entry=1403ec930
+STRING 140e1ead0 MultilineTextWidget
+  XREF from=1402e7c24 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7c80 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7c8b function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec8d0 function=FUN_1403ec8d0 entry=1403ec8d0
+  XREF from=1403ec8d7 function=FUN_1403ec8d0 entry=1403ec8d0
+STRING 140e1eae8 MultilineEditBoxWidget
+  XREF from=1402e8b06 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8c1b function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8c26 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec8c0 function=FUN_1403ec8c0 entry=1403ec8c0
+  XREF from=1403ec8c7 function=FUN_1403ec8c0 entry=1403ec8c0
+STRING 140e1eb00 RichTextWidget
+  XREF from=1402e7cb4 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7e16 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7e21 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec900 function=FUN_1403ec900 entry=1403ec900
+  XREF from=1403ec907 function=FUN_1403ec900 entry=1403ec900
+STRING 140e1eb10 CanvasWidget
+  XREF from=1402e917e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e91fb function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9206 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec890 function=FUN_1403ec890 entry=1403ec890
+  XREF from=1403ec897 function=FUN_1403ec890 entry=1403ec890
+STRING 140e1eb20 UIWidget
+  XREF from=1402e8049 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8283 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e828e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403b27b0 function=FUN_1403b27b0 entry=1403b27b0
+  XREF from=1403b27b7 function=FUN_1403b27b0 entry=1403b27b0
+STRING 140e1eb30 ButtonWidget
+  XREF from=1402e8d22 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8ead function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8eb8 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbae0 function=FUN_1403cbae0 entry=1403cbae0
+  XREF from=1403cbae7 function=FUN_1403cbae0 entry=1403cbae0
+STRING 140e1eb40 XComboBoxWidget
+  XREF from=1402e85d9 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8719 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8724 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbbe0 function=FUN_1403cbbe0 entry=1403cbbe0
+  XREF from=1403cbbe7 function=FUN_1403cbbe0 entry=1403cbbe0
+STRING 140e1eb50 SimpleProgressBarWidget
+  XREF from=1402e88c4 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8998 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e89a3 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbb70 function=FUN_1403cbb70 entry=1403cbb70
+  XREF from=1403cbb77 function=FUN_1403cbb70 entry=1403cbb70
+STRING 140e1eb68 SliderWidget
+  XREF from=1402e874d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8890 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e889b function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbb80 function=FUN_1403cbb80 entry=1403cbb80
+  XREF from=1403cbb87 function=FUN_1403cbb80 entry=1403cbb80
+STRING 140e1eb78 EditBoxWidget
+  XREF from=1402e89cc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8a49 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8a54 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbb10 function=FUN_1403cbb10 entry=1403cbb10
+  XREF from=1403cbb17 function=FUN_1403cbb10 entry=1403cbb10
+STRING 140e1eb88 PasswordEditBoxWidget
+  XREF from=1402e8a79 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8ad2 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8add function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbb40 function=FUN_1403cbb40 entry=1403cbb40
+  XREF from=1403cbb47 function=FUN_1403cbb40 entry=1403cbb40
+STRING 140e1eba0 BaseListboxWidget
+  XREF from=1402e82b7 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e83cc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e83d7 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbbf0 function=FUN_1403cbbf0 entry=1403cbbf0
+  XREF from=1403cbbf7 function=FUN_1403cbbf0 entry=1403cbbf0
+STRING 140e1ebb8 TextListboxWidget
+  XREF from=1402e8400 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e84f3 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e84fe function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbb90 function=FUN_1403cbb90 entry=1403cbb90
+  XREF from=1403cbb97 function=FUN_1403cbb90 entry=1403cbb90
+STRING 140e1ebd0 CheckBoxWidget
+  XREF from=1402e8c4f function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8cee function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8cf9 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403cbaf0 function=FUN_1403cbaf0 entry=1403cbaf0
+  XREF from=1403cbaf7 function=FUN_1403cbaf0 entry=1403cbaf0
+STRING 140e1ebe0 SpacerBaseWidget
+  XREF from=1402e922b function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9283 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e928e function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1ebf8 SpacerWidget
+  XREF from=1403bbe30 function=FUN_1403bbe10 entry=1403bbe10
+  XREF from=1402e92b7 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e937e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9389 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec920 function=FUN_1403ec920 entry=1403ec920
+  XREF from=1403ec927 function=FUN_1403ec920 entry=1403ec920
+STRING 140e1ec08 GridSpacerWidget
+  XREF from=1402e93ae function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e93e1 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e93ec function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec8b0 function=FUN_1403ec8b0 entry=1403ec8b0
+  XREF from=1403ec8b7 function=FUN_1403ec8b0 entry=1403ec8b0
+STRING 140e1ec20 WrapSpacerWidget
+  XREF from=1402e9411 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9444 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e944f function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec950 function=FUN_1403ec950 entry=1403ec950
+  XREF from=1403ec957 function=FUN_1403ec950 entry=1403ec950
+STRING 140e1ec38 ScrollWidget
+  XREF from=1402e9478 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e96fe function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9709 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1403ec910 function=FUN_1403ec910 entry=1403ec910
+  XREF from=1403ec917 function=FUN_1403ec910 entry=1403ec910
+STRING 140e1ecc0 Widget::Initialize
+  XREF from=1402e9b70 function=FUN_1402e9b70 entry=1402e9b70
+STRING 140e1ecd8 [%s] :: [ERROR] :: Creating Widgets via new is not supported!
+  XREF from=1402e9b77 function=FUN_1402e9b70 entry=1402e9b70
+STRING 140e1eea8 NULL pointer to Widget
+  XREF from=1402d8959 function=FUN_1402d8940 entry=1402d8940
+STRING 140e1eec0 Failed to reset particle position. This entity has no ParticleEffectInstance object.
+  XREF from=1402ece72 function=FUN_1402ece00 entry=1402ece00
+STRING 140e1f078 PostProcessEffectType
+  XREF from=1402eda58 function=FUN_1402ed7a0 entry=1402ed7a0
+STRING 140e1f378 IsHierarchyPositionOnly
+  XREF from=1402e2cbc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e2ccf function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1f41c Update
+  XREF from=140613055 function=FUN_140613030 entry=140613030
+  XREF from=1402e2e1d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e2e2c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e2e29 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e76d6 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e76e2 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e76f0 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1f598 GetLocalPosition
+  XREF from=1402e3228 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e323b function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1f930 NOTVISIBLE
+  XREF from=1402e3e71 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3e87 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1f948 POSTFRAME
+  XREF from=1402e3eb5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3ecb function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1f988 POSTSIMULATE
+  XREF from=1402e3f3d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e3f53 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fc08 WidgetTypeID
+  XREF from=1402e4599 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e45a9 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fc18 TextWidgetTypeID
+  XREF from=1402e45c2 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e45cf function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fc30 MultilineTextWidgetTypeID
+  XREF from=1402e45e8 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e45f5 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fc50 RichTextWidgetTypeID
+  XREF from=1402e460e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e461b function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fc68 RenderTargetWidgetTypeID
+  XREF from=1402e4634 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4641 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fc88 ImageWidgetTypeID
+  XREF from=1402e465a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4667 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fca0 ConsoleWidgetTypeID
+  XREF from=1402e4680 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e468d function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fcb8 VideoWidgetTypeID
+  XREF from=1402e46a6 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e46b3 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fcd0 RTTextureWidgetTypeID
+  XREF from=1402e46cc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e46d9 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fce8 FrameWidgetTypeID
+  XREF from=1402e46f2 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e46ff function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd00 EmbededWidgetTypeID
+  XREF from=1402e4718 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4725 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd18 PanelWidgetTypeID
+  XREF from=1402e473e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e474b function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd30 ButtonWidgetTypeID
+  XREF from=1402e4764 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4771 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd48 CheckBoxWidgetTypeID
+  XREF from=1402e478a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4797 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd60 WindowWidgetTypeID
+  XREF from=1402e47b0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e47bd function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd78 SimpleProgressBarWidgetTypeID
+  XREF from=1402e47d6 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e47e3 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fd98 ProgressBarWidgetTypeID
+  XREF from=1402e47fc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4809 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fdb0 SliderWidgetTypeID
+  XREF from=1402e4822 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e482f function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fdc8 TextListboxWidgetTypeID
+  XREF from=1402e4848 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4855 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fde0 GenericListboxWidgetTypeID
+  XREF from=1402e486e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e487b function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fe00 UniversalListboxWidgetTypeID
+  XREF from=1402e4894 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e48a1 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fe20 XComboBoxWidgetTypeID
+  XREF from=1402e48ba function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e48c7 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fe38 EditBoxWidgetTypeID
+  XREF from=1402e48e0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e48ed function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fe50 PasswordEditBoxWidgetTypeID
+  XREF from=1402e4900 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4910 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fe70 MultilineEditBoxWidgetTypeID
+  XREF from=1402e492c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4939 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fe90 WorkspaceWidgetTypeID
+  XREF from=1402e4952 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e495f function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fea8 GridSpacerWidgetTypeID
+  XREF from=1402e4978 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4985 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fec0 WrapSpacerWidgetTypeID
+  XREF from=1402e499e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e49ab function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fed8 ScrollWidgetTypeID
+  XREF from=1402e49c4 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e49d1 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e1fef0 WidgetEventItemSelectedTypeID
+  XREF from=1402e49ea function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e49f7 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20040 WidgetFlags
+  XREF from=1402e4b63 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4b6d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4b6a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4f9c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4fa7 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20090 HEXACTPOS
+  XREF from=1402e4c68 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4c7e function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e200a0 VEXACTPOS
+  XREF from=1402e4c8a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4ca0 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e200b0 EXACTPOS
+  XREF from=1402e4cac function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4cc2 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e200c0 HEXACTSIZE
+  XREF from=1402e4cce function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4ce4 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e200d0 VEXACTSIZE
+  XREF from=1402e4cf0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4d03 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e200e0 EXACTSIZE
+  XREF from=1402e4d12 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4d28 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20128 IGNOREPOINTER
+  XREF from=1402e4e03 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4e19 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20140 CLIPCHILDREN
+  XREF from=1402e4e69 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4e7f function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e201c8 LinebreakOverrideMode
+  XREF from=1402e4fb3 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4fc0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e4fbd function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e5039 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e5040 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20450 KC_APOSTROPHE
+  XREF from=1402e57bc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e57d2 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e208b0 FileMode
+  XREF from=1402e6369 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e6376 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e6373 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e63ee function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e63f9 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e208e8 DIRECTORY
+  XREF from=1402e642a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e6437 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20928 DIRECTORIES
+  XREF from=1402e64e8 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e64f5 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e209a0 DIRECTIONAL
+  XREF from=1402e667c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e6692 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20a70 EP_SIZE
+  XREF from=1402e6861 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e6874 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e18 GetStyleName
+  XREF from=1402e72c1 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e72d4 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e44 GetPos
+  XREF from=1405edc1c function=FUN_1405edb80 entry=1405edb80
+  XREF from=1405a7497 function=FUN_1405a7390 entry=1405a7390
+  XREF from=1402e743c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e744f function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e50 GetSize
+  XREF from=1402e7461 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7474 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e58 GetScreenPos
+  XREF from=1402e7486 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7499 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=140601254 function=FUN_140600820 entry=140600820
+STRING 140e20e68 GetScreenSize
+  XREF from=1402d66db function=FUN_1402d63b0 entry=1402d63b0
+  XREF from=1402e74ab function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e74be function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e78 IsVisible
+  XREF from=14060ff03 function=FUN_14060fd60 entry=14060fd60
+  XREF from=1402e74d0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e74e3 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e88 IsVisibleHierarchy
+  XREF from=1402e74f5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7508 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20e9c SetPos
+  XREF from=1402e751a function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e752d function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20ea8 SetSize
+  XREF from=1402e753f function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7552 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20eb0 SetScreenPos
+  XREF from=1402e7564 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7577 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20ec0 SetScreenSize
+  XREF from=1402e7589 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e759c function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20ed0 GetColor
+  XREF from=1402e75d3 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e75e6 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20f40 FindWidget
+  XREF from=1402e7723 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7736 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20f50 FindAnyWidget
+  XREF from=1402e7748 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e775b function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20f60 FindAnyWidgetById
+  XREF from=1402e776d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7780 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20f88 CreateWidget
+  XREF from=1402e7846 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7859 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20f98 CreateWidgets
+  XREF from=1402e7870 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7883 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20fc8 SetTextExactSize
+  XREF from=1402e7956 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7969 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e20ff0 GetOutlineSize
+  XREF from=1402e79a0 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e79b3 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21000 GetOutlineColor
+  XREF from=1402e79c5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e79d8 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21020 GetShadowSize
+  XREF from=1402e7a0f function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7a22 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21030 GetShadowColor
+  XREF from=1402e7a34 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7a47 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e210b0 GetTextSize
+  XREF from=1402e7b7d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7b90 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21198 LoadImageFile
+  XREF from=1402e7e7c function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7e8f function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e211a8 SetImageTexture
+  XREF from=1402e7ea1 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7eb4 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e211b8 GetImageSize
+  XREF from=1402e7ec6 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7ed9 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e211c8 GetImage
+  XREF from=1402e7eeb function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7efe function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e211d8 SetImage
+  XREF from=1402e7f10 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e7f23 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21250 SetTextColor
+  XREF from=1403ac6ac function=FUN_1403ac5c0 entry=1403ac5c0
+  XREF from=1402e807b function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e808e function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21270 GetTextOutlineSize
+  XREF from=1402e80c5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e80d8 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21288 GetTextOutlineColor
+  XREF from=1402e80ea function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e80fd function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e212b0 GetTextShadowSize
+  XREF from=1402e8134 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8147 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e212c8 GetTextShadowColor
+  XREF from=1402e8159 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e816c function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e213b8 EnsureVisible
+  XREF from=1402e83a5 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e83b8 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e213f8 SetItemColor
+  XREF from=1402e84cc function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e84df function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21508 GetCarriagePos
+  XREF from=1402e8bf4 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e8c07 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e216d8 IsScrollbarVisible
+  XREF from=1402e94ce function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e94e1 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21700 GetHScrollPos
+  XREF from=1402e9540 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9553 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21710 GetHScrollPos01
+  XREF from=1402e9565 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9578 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21730 HScrollToPos
+  XREF from=1402e95af function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e95c2 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21740 HScrollToPos01
+  XREF from=1402e95d4 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e95e7 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21750 HScrollToWidget
+  XREF from=1402e95f9 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9605 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21760 GetVScrollPos
+  XREF from=1402e961e function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9631 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21770 GetVScrollPos01
+  XREF from=1402e9643 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e9656 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21790 VScrollToPos
+  XREF from=1402e968d function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e96a0 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e217a0 VScrollToPos01
+  XREF from=1402e96b2 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e96c5 function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e217b0 VScrollToWidget
+  XREF from=1402e96d7 function=FUN_1402e2a60 entry=1402e2a60
+  XREF from=1402e96ea function=FUN_1402e2a60 entry=1402e2a60
+STRING 140e21868 SetCursorWidget
+  XREF from=1402d6480 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21878 LoadWidgetImageSet
+  XREF from=1402d6499 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21890 LoadWidgetStyles
+  XREF from=1402d64b2 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e218a8 SetWidgetWorld
+  XREF from=1402d64cb function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e219a8 GetMousePos
+  XREF from=1402d6690 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e219e0 GetWidgetUnderCursor
+  XREF from=1402d66f4 function=FUN_1402d63b0 entry=1402d63b0
+  XREF from=140614aed function=FUN_140614a20 entry=140614a20
+STRING 140e219f8 CancelWidgetDragging
+  XREF from=1402d670d function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21a10 GetDragWidget
+  XREF from=1402d6726 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21ac0 MakeDirectory
+  XREF from=1402d6852 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21b88 ResetParticlePosition
+  XREF from=1402d6965 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21d68 SetCameraPostProcessEffect
+  XREF from=140ac9055 function=FUN_140ac8ea0 entry=140ac8ea0
+  XREF from=1402d6bef function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21d98 SetGUIWidget
+  XREF from=1402d6c21 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e21ea8 ShowCursorWidget
+  XREF from=1402d6d66 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e22170 DirectionAndUpMatrix
+  XREF from=1402d71b0 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e222b0 AngleFromPosition
+  XREF from=1402d7414 function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e22468 ColoredText
+  XREF from=1402d780d function=FUN_1402d63b0 entry=1402d63b0
+STRING 140e23458 GetDirectWorldTransform
+  XREF from=1402f8a69 function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e236f0 UpdateGeometries
+  XREF from=1402f8f97 function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e23748 GetGeomDirectTransform
+  XREF from=1402f901f function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e23760 GetGeomWorldPosition
+  XREF from=1402f9041 function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e23778 GetGeomPosition
+  XREF from=1402f9063 function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e23788 GetGeomDirectPosition
+  XREF from=1402f9085 function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e237b8 GetGeomDirectBounds
+  XREF from=1402f90c9 function=FUN_1402f89e0 entry=1402f89e0
+STRING 140e23950 GetUpdateRate
+  XREF from=1402f2f68 function=FUN_1402f2e90 entry=1402f2e90
+STRING 140e23960 SetUpdateRate
+  XREF from=1402f2f8a function=FUN_1402f2e90 entry=1402f2e90
+STRING 140e23d38 GetLinearPos
+  XREF from=1402f33d2 function=FUN_1402f3360 entry=1402f3360
+STRING 140e23d48 GetAngularPos
+  XREF from=1402f33f4 function=FUN_1402f3360 entry=1402f3360
+STRING 140e24470 dBodyGetDirectWorldTransform
+  XREF from=1402f844e function=FUN_1402f7e90 entry=1402f7e90
+STRING 140e247c0 dJointSliderGetLinearPos
+  XREF from=1402f8755 function=FUN_1402f7e90 entry=1402f7e90
+STRING 140e247e0 dJointSliderGetAngularPos
+  XREF from=1402f876e function=FUN_1402f7e90 entry=1402f7e90
+STRING 140e24890 enf::API::PhysicsAPI::UpdateGeometries
+  XREF from=1402fa3c4 function=FUN_1402fa3c0 entry=1402fa3c0
+STRING 140e29f68 Resize
+  XREF from=140306ead function=FUN_140306920 entry=140306920
+  XREF from=14030712c function=FUN_140306920 entry=140306920
+STRING 140e2a338 IsPointInRectangle
+  XREF from=1403043b7 function=FUN_140303be0 entry=140303be0
+STRING 140e2b8b0 Wrong array size
+  XREF from=140337814 function=FUN_1403377a0 entry=1403377a0
+STRING 140e2ba38 Possible variable name conflict '%s'
+  XREF from=14034202e function=FUN_140341df0 entry=140341df0
+STRING 140e2bfc0 Cannot call constructor or destructor '%s' method directly!
+  XREF from=14033d82c function=FUN_14033cec0 entry=14033cec0
+STRING 140e2d178 sizeof
+  XREF from=14034ff23 function=FUN_14034fa00 entry=14034fa00
+STRING 140e2e650 Suspicious instance size upon delete.\nProbably not valid pointer!
+  XREF from=14036ac5c function=FUN_140368790 entry=140368790
+STRING 140e2e698 Attempt to resize instanced array
+  XREF from=14036bba6 function=FUN_140368790 entry=140368790
+STRING 140e2e720 mode:Workbench
+  XREF from=140e2e710 function=<no-function> entry=<none>
+STRING 140e2e740 mode:Client
+  XREF from=140e2e730 function=<no-function> entry=<none>
+STRING 140e2e760 mode:Server
+  XREF from=140e2e750 function=<no-function> entry=<none>
+STRING 140e2e780 mode:<missing>
+  XREF from=140e2e770 function=<no-function> entry=<none>
+STRING 140e2e800 last-known-pos:
+  XREF from=14036e161 function=FUN_14036df90 entry=14036df90
+  XREF from=140e2e7f0 function=<no-function> entry=<none>
+STRING 140e2ef60 Global job queue size %u is too small, must be at least 2. Using default %zu.
+  XREF from=140371ba8 function=FUN_140371a90 entry=140371a90
+STRING 140e2efb0 Global job queue size %u is not power of 2. Increasing to next power of 2.
+  XREF from=140371bdd function=FUN_140371a90 entry=140371a90
+STRING 140e2f000 Per thread job queue size %u is too small, must be at least 2. Using default %zu.
+  XREF from=140371c2a function=FUN_140371a90 entry=140371a90
+STRING 140e2f060 Per thread job queue size %u is not power of 2. Increasing to next power of 2.
+  XREF from=140371c5c function=FUN_140371a90 entry=140371a90
+STRING 140e2fc98 Size: %u
+  XREF from=14037760c function=FUN_140377550 entry=140377550
+STRING 140e30338 relative directory
+  XREF from=14037a3ff function=FUN_14037a270 entry=14037a270
+STRING 140e30878 ... not shown %i lines
+  XREF from=14037eabb function=FUN_14037e6f0 entry=14037e6f0
+STRING 140e30b58 Invalid disposition
+  XREF from=14037dcef function=FUN_14037dad0 entry=14037dad0
+  XREF from=14037dd00 function=FUN_14037dad0 entry=14037dad0
+STRING 140e31ef8 MousePositionEvent
+  XREF from=140388ba0 function=FUN_140388ba0 entry=140388ba0
+  XREF from=140388ba7 function=FUN_140388ba0 entry=140388ba0
+STRING 140e326a0 number of plants per meter (slower update)
+  XREF from=14038e83a function=FUN_14038e200 entry=14038e200
+  XREF from=14038e84b function=FUN_14038e200 entry=14038e200
+STRING 140e326e0 number of blades per one plant (slower update)
+  XREF from=14038e921 function=FUN_14038e200 entry=14038e200
+  XREF from=14038e928 function=FUN_14038e200 entry=14038e200
+STRING 140e32750 Random difference of plant height in both directions
+  XREF from=14038eaff function=FUN_14038e200 entry=14038e200
+  XREF from=14038eb0d function=FUN_14038e200 entry=14038e200
+STRING 140e327c8 Random difference of plant width in both directions
+  XREF from=14038ec7b function=FUN_14038e200 entry=14038e200
+  XREF from=14038ec99 function=FUN_14038e200 entry=14038e200
+STRING 140e32840 Random difference of plant blade in both directions
+  XREF from=14038ed6e function=FUN_14038e200 entry=14038e200
+  XREF from=14038ed8c function=FUN_14038e200 entry=14038e200
+STRING 140e32ed8 Debug layers color
+  XREF from=140392903 function=FUN_140392160 entry=140392160
+  XREF from=14039290e function=FUN_140392160 entry=140392160
+STRING 140e32ef0 DebugColor
+  XREF from=140392924 function=FUN_140392160 entry=140392160
+  XREF from=140392933 function=FUN_140392160 entry=140392160
+STRING 140e32f00 emissive layers color, added to ambient
+  XREF from=1403929bd function=FUN_140392160 entry=140392160
+  XREF from=1403929d7 function=FUN_140392160 entry=140392160
+STRING 140e32f28 EmissiveColor
+  XREF from=1403929c8 function=FUN_140392160 entry=140392160
+STRING 140e340b8 &apos;
+  XREF from=1403a75bd function=FUN_1403a7010 entry=1403a7010
+  XREF from=141147820 function=<no-function> entry=<none>
+STRING 140e34640 GetPosition
+  XREF from=14050ce6d function=FUN_14050cda0 entry=14050cda0
+  XREF from=1403ac77f function=FUN_1403ac740 entry=1403ac740
+  XREF from=1403ac7f7 function=FUN_1403ac7d0 entry=1403ac7d0
+  XREF from=1407f86f8 function=FUN_1407f8470 entry=1407f8470
+  XREF from=140ae70db function=FUN_140ae7020 entry=140ae7020
+  XREF from=140b073a2 function=FUN_140b071d0 entry=140b071d0
+  XREF from=140514fd6 function=FUN_140514f60 entry=140514f60
+STRING 140e34808 GetFontSize
+  XREF from=1403ac602 function=FUN_1403ac5c0 entry=1403ac5c0
+STRING 140e34818 GetTextColor
+  XREF from=1403ac624 function=FUN_1403ac5c0 entry=1403ac5c0
+STRING 140e34828 GetBackgroundColor
+  XREF from=1403ac646 function=FUN_1403ac5c0 entry=1403ac5c0
+STRING 140e34850 SetFontSize
+  XREF from=1403ac6ce function=FUN_1403ac5c0 entry=1403ac5c0
+STRING 140e34860 SetBackgroundColor
+  XREF from=1403ac6f0 function=FUN_1403ac5c0 entry=1403ac5c0
+STRING 140e34ae8 DiagMenuWidget
+  XREF from=1403adbf0 function=FUN_1403adbf0 entry=1403adbf0
+  XREF from=1403adbf7 function=FUN_1403adbf0 entry=1403adbf0
+STRING 140e351d0 MenuStripWidget
+  XREF from=1403b27a0 function=FUN_1403b27a0 entry=1403b27a0
+  XREF from=1403b27a7 function=FUN_1403b27a0 entry=1403b27a0
+STRING 140e35678 MatWidgetCommon
+  XREF from=1403b96b0 function=FUN_1403b96b0 entry=1403b96b0
+  XREF from=1403b96b7 function=FUN_1403b96b0 entry=1403b96b0
+STRING 140e35688 __WidgetCommon__
+  XREF from=1403b6e76 function=FUN_1403b6970 entry=1403b6970
+  XREF from=1403b6f09 function=FUN_1403b6eb0 entry=1403b6eb0
+  XREF from=1403b6f10 function=FUN_1403b6eb0 entry=1403b6eb0
+STRING 140e3569c VCOLOR
+  XREF from=1403b977a function=FUN_1403b9730 entry=1403b9730
+  XREF from=1403b978c function=FUN_1403b9730 entry=1403b9730
+  XREF from=1403b98e4 function=FUN_1403b9730 entry=1403b9730
+STRING 140e356c0 ps_widget
+  XREF from=1403b97a0 function=FUN_1403b9730 entry=1403b9730
+  XREF from=1403b980f function=FUN_1403b9730 entry=1403b9730
+STRING 140e356f8 vs_widget
+  XREF from=1403b98d9 function=FUN_1403b9730 entry=1403b9730
+STRING 140e357d0 WidgetEventChange
+  XREF from=1403bcae0 function=FUN_1403bcae0 entry=1403bcae0
+  XREF from=1403bcae7 function=FUN_1403bcae0 entry=1403bcae0
+STRING 140e35820 WidgetEventUpdate
+  XREF from=1403bcaf0 function=FUN_1403bcaf0 entry=1403bcaf0
+  XREF from=1403bcaf7 function=FUN_1403bcaf0 entry=1403bcaf0
+STRING 140e358d8 SpacerBaseWidgetClass
+  XREF from=1403bcac0 function=FUN_1403bcac0 entry=1403bcac0
+  XREF from=1403bcac7 function=FUN_1403bcac0 entry=1403bcac0
+STRING 140e35990 SpacerWidgetClass
+  XREF from=1403bcad0 function=FUN_1403bcad0 entry=1403bcad0
+  XREF from=1403bcad7 function=FUN_1403bcad0 entry=1403bcad0
+STRING 140e35a48 GridSpacerWidgetClass
+  XREF from=1403bcaa0 function=FUN_1403bcaa0 entry=1403bcaa0
+  XREF from=1403bcaa7 function=FUN_1403bcaa0 entry=1403bcaa0
+STRING 140e35b00 ScrollWidgetClass
+  XREF from=1408bf5ed function=FUN_1408be400 entry=1408be400
+  XREF from=1403bcab0 function=FUN_1403bcab0 entry=1403bcab0
+  XREF from=1403bcab7 function=FUN_1403bcab0 entry=1403bcab0
+STRING 140e35b70 Resize horizontally the widget to the bounds defined by it's children
+  XREF from=1403bc0fc function=FUN_1403bbf20 entry=1403bbf20
+  XREF from=1403bc103 function=FUN_1403bbf20 entry=1403bbf20
+STRING 140e35bb8 Size To Content H
+  XREF from=1403bc11d function=FUN_1403bbf20 entry=1403bbf20
+  XREF from=1403bc12c function=FUN_1403bbf20 entry=1403bbf20
+STRING 140e35bd0 Resize vertically the widget to the bounds defined by it's children
+  XREF from=1403bc1b2 function=FUN_1403bbf20 entry=1403bbf20
+  XREF from=1403bc1bd function=FUN_1403bbf20 entry=1403bbf20
+STRING 140e35c18 Size To Content V
+  XREF from=1403bc1d4 function=FUN_1403bbf20 entry=1403bbf20
+  XREF from=1403bc1db function=FUN_1403bbf20 entry=1403bbf20
+STRING 140e35c50 content_halign
+  XREF from=1403bc288 function=FUN_1403bbf20 entry=1403bbf20
+STRING 140e35c80 content_valign
+  XREF from=1403bc2df function=FUN_1403bbf20 entry=1403bbf20
+STRING 140e35c90 Spacing ignores invisible widgets
+  XREF from=1403bbe43 function=FUN_1403bbe10 entry=1403bbe10
+  XREF from=1403bbe51 function=FUN_1403bbe10 entry=1403bbe10
+STRING 140e35cb8 Ignore invisible
+  XREF from=1403bbe79 function=FUN_1403bbe10 entry=1403bbe10
+  XREF from=1403bbe80 function=FUN_1403bbe10 entry=1403bbe10
+STRING 140e35d08 Shows horizontal scrollbar
+  XREF from=1403bbbda function=FUN_1403bbb70 entry=1403bbb70
+  XREF from=1403bbbe8 function=FUN_1403bbb70 entry=1403bbb70
+STRING 140e35d38 Shows vertical scrollbar
+  XREF from=1403bbc94 function=FUN_1403bbb70 entry=1403bbb70
+  XREF from=1403bbc9f function=FUN_1403bbb70 entry=1403bbb70
+STRING 140e35d68 Shows vertical scrollbar on left side
+  XREF from=1403bbd44 function=FUN_1403bbb70 entry=1403bbb70
+  XREF from=1403bbd4f function=FUN_1403bbb70 entry=1403bbb70
+STRING 140e35df8 WidgetEventSliderChange
+  XREF from=1403cbd80 function=FUN_1403cbd80 entry=1403cbd80
+  XREF from=1403cbd87 function=FUN_1403cbd80 entry=1403cbd80
+STRING 140e35e48 WidgetEventItemSelected
+  XREF from=1403cbd50 function=FUN_1403cbd50 entry=1403cbd50
+  XREF from=1403cbd57 function=FUN_1403cbd50 entry=1403cbd50
+STRING 140e35e98 WidgetEventClick
+  XREF from=1403cbd40 function=FUN_1403cbd40 entry=1403cbd40
+  XREF from=1403cbd47 function=FUN_1403cbd40 entry=1403cbd40
+STRING 140e35ee8 WidgetEventKeyDown
+  XREF from=1403cbd60 function=FUN_1403cbd60 entry=1403cbd60
+  XREF from=1403cbd67 function=FUN_1403cbd60 entry=1403cbd60
+STRING 140e35f38 WidgetEventKeyPress
+  XREF from=1403cbd70 function=FUN_1403cbd70 entry=1403cbd70
+  XREF from=1403cbd77 function=FUN_1403cbd70 entry=1403cbd70
+STRING 140e35fe8 WidgetClass
+  XREF from=1403cbd30 function=FUN_1403cbd30 entry=1403cbd30
+  XREF from=1403cbd37 function=FUN_1403cbd30 entry=1403cbd30
+DEFINED_STRING_HITS 700
+CANDIDATE_FUNCTIONS 330
+============================================================
+BYTE_NEEDLE_SCAN
+BYTE 140e7737e .layout
+BYTE 140e98f15 .layout
+BYTE 140e98fc1 .layout
+BYTE 140e9991a .layout
+BYTE 140e9a9b4 .layout
+BYTE 140e9a9e5 .layout
+BYTE 140e9aeaf .layout
+BYTE 140e9afb0 .layout
+BYTE_HITS .layout 8
+BYTE_HITS .imageset 0
+BYTE_HITS .styles 0
+BYTE 140e3b4b0 FrameWidgetClass
+BYTE 141177a2c FrameWidgetClass
+BYTE_HITS FrameWidgetClass 2
+BYTE 140e37e10 WindowWidgetClass
+BYTE 141176d74 WindowWidgetClass
+BYTE_HITS WindowWidgetClass 2
+BYTE 140e3d010 ImageWidgetClass
+BYTE 141177c84 ImageWidgetClass
+BYTE_HITS ImageWidgetClass 2
+BYTE 140e40600 TextWidgetClass
+BYTE 140e406b9 TextWidgetClass
+BYTE 140e40834 TextWidgetClass
+BYTE 141178514 TextWidgetClass
+BYTE 14117854d TextWidgetClass
+BYTE 1411785b8 TextWidgetClass
+BYTE_HITS TextWidgetClass 6
+BYTE 140e36178 ButtonWidgetClass
+BYTE 141176b64 ButtonWidgetClass
+BYTE_HITS ButtonWidgetClass 2
+BYTE 140e38128 PanelWidgetClass
+BYTE 140e97625 PanelWidgetClass
+BYTE 1411768e4 PanelWidgetClass
+BYTE 141189451 PanelWidgetClass
+BYTE_HITS PanelWidgetClass 4
+BYTE 140df2ab7 position
+BYTE 140df9608 position
+BYTE 140e14963 position
+BYTE 140e149a3 position
+BYTE 140e1eed9 position
+BYTE 140e30b63 position
+BYTE 140e3c750 position
+BYTE 140e654f0 position
+BYTE 140eaddb8 position
+BYTE 140eba4ad position
+BYTE 140eba4f1 position
+BYTE 140ecb4d8 position
+BYTE 140ecd234 position
+BYTE 140ed97e7 position
+BYTE 140edc0a8 position
+BYTE 140eeae30 position
+BYTE 140eeae40 position
+BYTE 140eeae50 position
+BYTE 140eef505 position
+BYTE 140eef555 position
+BYTE_HITS position 20
+BYTE 140de845a pos
+BYTE 140de847a pos
+BYTE 140de9576 pos
+BYTE 140deccba pos
+BYTE 140deccd2 pos
+BYTE 140deccea pos
+BYTE 140decd02 pos
+BYTE 140decd1a pos
+BYTE 140decd3a pos
+BYTE 140decd52 pos
+BYTE 140ded19e pos
+BYTE 140df2ab7 pos
+BYTE 140df92b6 pos
+BYTE 140df939a pos
+BYTE 140df9608 pos
+BYTE 140df9bdf pos
+BYTE 140dfb353 pos
+BYTE 140dfca88 pos
+BYTE 140dfcb38 pos
+BYTE 140dfd3e3 pos
+BYTE_HITS pos 20
+BYTE 140de2c27 size
+BYTE 140de2c42 size
+BYTE 140de356b size
+BYTE 140de7b68 size
+BYTE 140df1bd8 size
+BYTE 140df48c1 size
+BYTE 140df4a5a size
+BYTE 140df4a81 size
+BYTE 140df4abb size
+BYTE 140df9651 size
+BYTE 140df9736 size
+BYTE 140dfda35 size
+BYTE 140dfeb25 size
+BYTE 140dfeb3e size
+BYTE 140dfeb96 size
+BYTE 140dff09f size
+BYTE 140dff0bc size
+BYTE 140e06eec size
+BYTE 140e0cd17 size
+BYTE 140e10703 size
+BYTE_HITS size 20
+BYTE 140de594e rect
+BYTE 140de61f1 rect
+BYTE 140dea26b rect
+BYTE 140def951 rect
+BYTE 140df030a rect
+BYTE 140df0332 rect
+BYTE 140df03b0 rect
+BYTE 140df03d7 rect
+BYTE 140df3f57 rect
+BYTE 140df4072 rect
+BYTE 140df4082 rect
+BYTE 140df96e2 rect
+BYTE 140df970c rect
+BYTE 140df9a32 rect
+BYTE 140df9f86 rect
+BYTE 140dfa680 rect
+BYTE 140dfa6cd rect
+BYTE 140dfb4b6 rect
+BYTE 140dfbc48 rect
+BYTE 140dfbc82 rect
+BYTE_HITS rect 20
+BYTE 140e35c58 halign
+BYTE 140e3aa75 halign
+BYTE 140e3b0f5 halign
+BYTE 140e3c75c halign
+BYTE_HITS halign 4
+BYTE 140e35c88 valign
+BYTE 140e3aa9d valign
+BYTE 140e3b11d valign
+BYTE 140e3c764 valign
+BYTE_HITS valign 4
+BYTE 140e3c630 center_ref
+BYTE_HITS center_ref 1
+BYTE 140e3c610 left_ref
+BYTE_HITS left_ref 1
+BYTE 140e3c620 right_ref
+BYTE_HITS right_ref 1
+BYTE 140e3c640 top_ref
+BYTE_HITS top_ref 1
+BYTE 140e3c648 bottom_ref
+BYTE_HITS bottom_ref 1
+BYTE 140e3c799 exactpos
+BYTE 140e3c7d1 exactpos
+BYTE_HITS exactpos 2
+BYTE 140e3c798 hexactpos
+BYTE_HITS hexactpos 1
+BYTE 140e3c7d0 vexactpos
+BYTE_HITS vexactpos 1
+BYTE 140e3c809 exactsize
+BYTE 140e3c839 exactsize
+BYTE_HITS exactsize 2
+BYTE 140e3c808 hexactsize
+BYTE_HITS hexactsize 1
+BYTE 140e3c838 vexactsize
+BYTE_HITS vexactsize 1
+BYTE 140dfdb1b visible
+BYTE 140dfdb88 visible
+BYTE 140e121b2 visible
+BYTE 140e35ca2 visible
+BYTE 140e35cc1 visible
+BYTE 140e3a5f6 visible
+BYTE 140e3a9b3 visible
+BYTE 140e3a9c6 visible
+BYTE 140e3c678 visible
+BYTE 140e4f07d visible
+BYTE 140e5a533 visible
+BYTE 140e774e8 visible
+BYTE 140ed76dc visible
+BYTE 140ed9882 visible
+BYTE 140efe0d5 visible
+BYTE 140effa2b visible
+BYTE 140f036f2 visible
+BYTE 140f0375c visible
+BYTE 140f0f260 visible
+BYTE 140f1069e visible
+BYTE_HITS visible 20
+BYTE 140e3c690 clipchildren
+BYTE_HITS clipchildren 1
+BYTE 140e3c6e8 ignorepointer
+BYTE_HITS ignorepointer 1
+BYTE 140e3d340 image0
+BYTE_HITS image0 1
+BYTE_HITS image1 0
+BYTE 140df3e10 image
+BYTE 140e0b0d6 image
+BYTE 140e0b97f image
+BYTE 140e0b9bb image
+BYTE 140e122ca image
+BYTE 140e1233a image
+BYTE 140e1468f image
+BYTE 140e3d340 image
+BYTE 140e3d358 image
+BYTE 140e3d55d image
+BYTE 140e3df32 image
+BYTE 140e3f1a9 image
+BYTE 140e3f1c1 image
+BYTE 140e3f51d image
+BYTE 140e3f970 image
+BYTE 140e41a99 image
+BYTE 140e76fdd image
+BYTE 140e76ffd image
+BYTE 140e77025 image
+BYTE 140e7704d image
+BYTE_HITS image 20
+BYTE_HITS imageset 0
+BYTE 140e3d3f8 stretch mode
+BYTE_HITS stretch mode 1
+BYTE 140e3d298 stretch_w_h
+BYTE_HITS stretch_w_h 1
+BYTE 140000070 mode
+BYTE 140df4a9a mode
+BYTE 140df4ad4 mode
+BYTE 140df4e15 mode
+BYTE 140df4e5b mode
+BYTE 140df4eab mode
+BYTE 140df4ed5 mode
+BYTE 140df4f06 mode
+BYTE 140df4f55 mode
+BYTE 140e02dc5 mode
+BYTE 140e0300b mode
+BYTE 140e03545 mode
+BYTE 140e0534a mode
+BYTE 140e05358 mode
+BYTE 140e15480 mode
+BYTE 140e15f07 mode
+BYTE 140e177cd mode
+BYTE 140e17825 mode
+BYTE 140e2e720 mode
+BYTE 140e2e740 mode
+BYTE_HITS mode 20
+BYTE 140e3d398 src alpha
+BYTE_HITS src alpha 1
+BYTE 140de8c94 color
+BYTE 140df2b9a color
+BYTE 140df5080 color
+BYTE 140df90d1 color
+BYTE 140df95d6 color
+BYTE 140df96a4 color
+BYTE 140df97ae color
+BYTE 140df9909 color
+BYTE 140df995e color
+BYTE 140df9c50 color
+BYTE 140dfa0a5 color
+BYTE 140dfa0e5 color
+BYTE 140dfaf22 color
+BYTE 140dfb71f color
+BYTE 140dfb74c color
+BYTE 140dfb764 color
+BYTE 140dfb7d8 color
+BYTE 140dfb7f0 color
+BYTE 140dfbb54 color
+BYTE 140dfbb6c color
+BYTE_HITS color 20
+BYTE 140e3ca30 style
+BYTE 140e3ca3f style
+BYTE 140e3ca87 style
+BYTE 140e3cac7 style
+BYTE 140e3caff style
+BYTE 140e3cb3f style
+BYTE 140e3cb7f style
+BYTE 140e3cbc7 style
+BYTE 140e3cc17 style
+BYTE 140e3f5ed style
+BYTE 140e3f603 style
+BYTE 140f04422 style
+BYTE 140f0924d style
+BYTE 140f0a5b8 style
+BYTE 140f0a5d8 style
+BYTE 140f0a6c1 style
+BYTE 140f0a6fc style
+BYTE 140f0b93d style
+BYTE 140f0de33 style
+BYTE 140f0f340 style
+BYTE_HITS style 20
+BYTE 140e20e68 GetScreenSize
+BYTE_HITS GetScreenSize 1
+BYTE 140decaa4 Update
+BYTE 140decacb Update
+BYTE 140decb1b Update
+BYTE 140dff126 Update
+BYTE 140e02d00 Update
+BYTE 140e03e08 Update
+BYTE 140e08a59 Update
+BYTE 140e08c2c Update
+BYTE 140e08c58 Update
+BYTE 140e08cc8 Update
+BYTE 140e08cda Update
+BYTE 140e1a13a Update
+BYTE 140e1a170 Update
+BYTE 140e1f41c Update
+BYTE 140e236f0 Update
+BYTE 140e23953 Update
+BYTE 140e23963 Update
+BYTE 140e248a6 Update
+BYTE 140e3582b Update
+BYTE 140e404ca Update
+BYTE_HITS Update 20
+BYTE 140e00838 Show
+BYTE 140e00858 Show
+BYTE 140e00898 Show
+BYTE 140e008d8 Show
+BYTE 140e00910 Show
+BYTE 140e00998 Show
+BYTE 140e00a38 Show
+BYTE 140e00a48 Show
+BYTE 140e02e38 Show
+BYTE 140e02e50 Show
+BYTE 140e02e60 Show
+BYTE 140e03f68 Show
+BYTE 140e04290 Show
+BYTE 140e042a8 Show
+BYTE 140e20df4 Show
+BYTE 140e21ea8 Show
+BYTE 140e35d08 Show
+BYTE 140e35d38 Show
+BYTE 140e35d68 Show
+BYTE 140e3a9e8 Show
+BYTE_HITS Show 20
+BYTE 140e3c9e7 LoadLayout
+BYTE 140e99e13 LoadLayout
+BYTE_HITS LoadLayout 2
+BYTE 140e20f98 CreateWidgets
+BYTE_HITS CreateWidgets 1
+BYTE 140df3e20 Widget
+BYTE 140e02f58 Widget
+BYTE 140e04233 Widget
+BYTE 140e0424b Widget
+BYTE 140e0425b Widget
+BYTE 140e042fc Widget
+BYTE 140e1ea68 Widget
+BYTE 140e1ea7d Widget
+BYTE 140e1ea8d Widget
+BYTE 140e1eaa1 Widget
+BYTE 140e1eab4 Widget
+BYTE 140e1eac4 Widget
+BYTE 140e1eadd Widget
+BYTE 140e1eaf8 Widget
+BYTE 140e1eb08 Widget
+BYTE 140e1eb16 Widget
+BYTE 140e1eb22 Widget
+BYTE 140e1eb36 Widget
+BYTE 140e1eb49 Widget
+BYTE 140e1eb61 Widget
+BYTE_HITS Widget 20
+============================================================
+DECOMPILE_CANDIDATES
+------------------------------------------------------------
+FUNCTION FUN_1400204b0 @ 1400204b0
+  C[1] 
+  C[2] void FUN_1400204b0(void)
+  C[3] 
+  C[4] {
+  C[5]   FUN_14013d640(&DAT_141266e48,(char *)0x0,"Color by",PTR_s_Physics_1411230d0,
+  C[6]                 (byte *)
+  C[7]                 "collider type,activation state,body type,by entity,by component,interaction layer",
+  C[8]                 0xffffffff,'\0');
+------------------------------------------------------------
+FUNCTION FUN_14024f710 @ 14024f710
+  C[1] 
+  C[2] undefined8 * FUN_14024f710(undefined8 *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   char *local_res8 [2];
+  C[6]   undefined *local_res18;
+  C[7]   undefined *local_res20;
+  C[8]   char *local_98;
+  C[53]   local_res8[0] = "SunVisible";
+------------------------------------------------------------
+FUNCTION FUN_140303be0 @ 140303be0
+  C[1] 
+  C[2] void FUN_140303be0(longlong param_1)
+  C[3] 
+  C[4] {
+  C[5]   longlong *plVar1;
+  C[6]   
+  C[7]   FUN_14034b5b0(param_1,"Idle",&LAB_140306850,0);
+  C[8]   FUN_14034b5b0(param_1,"KillThread",FUN_1403087e0,0);
+  C[78]     FUN_14034b500(param_1,plVar1,"IsPointInRectangle",FUN_14032b020,0,'\x01');
+------------------------------------------------------------
+FUNCTION FUN_1403e5170 @ 1403e5170
+  C[1] 
+  C[2] undefined8 * FUN_1403e5170(undefined8 param_1,undefined8 *param_2)
+  C[3] 
+  C[4] {
+  C[5]   *param_2 = "ImageWidget";
+  C[6]   return param_2;
+  C[7] }
+------------------------------------------------------------
+FUNCTION FUN_140255f30 @ 140255f30
+  C[1] 
+  C[2] undefined8 * FUN_140255f30(undefined8 *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   char *local_res8 [2];
+  C[6]   undefined *local_res18;
+  C[7]   undefined *local_res20;
+  C[8]   char *local_88;
+  C[22]   *param_1 = enf::MatGaussImageFilter::vftable;
+  C[27]   param_1[5] = "Image filtering by gauss filter";
+------------------------------------------------------------
+FUNCTION FUN_14016f950 @ 14016f950
+  C[1] 
+  C[2] char * FUN_14016f950(char *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   int *piVar1;
+  C[6]   longlong *plVar2;
+  C[7]   int iVar3;
+  C[8]   longlong lVar4;
+  C[22]   ulonglong _Size;
+  C[24]   SIZE_T SVar19;
+------------------------------------------------------------
+FUNCTION FUN_140944a40 @ 140944a40
+  C[1] 
+  C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+  C[3] 
+  C[4] void FUN_140944a40(undefined8 param_1,longlong param_2,undefined8 param_3,int **param_4)
+  C[5] 
+  C[6] {
+  C[7]   undefined4 uVar1;
+  C[8]   float fVar2;
+  C[25]   FUN_140906960("You can implement legend context menus to inject per-item controls and widgets.",
+  C[96]       FUN_140908a40((byte *)"Color",(float *)&DAT_141158a78,0);
+------------------------------------------------------------
+FUNCTION FUN_14009e5f0 @ 14009e5f0
+  C[1] 
+  C[2] void FUN_14009e5f0(undefined8 param_1,longlong param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   longlong *plVar1;
+  C[6]   longlong lVar2;
+  C[7]   
+  C[8]   plVar1 = FUN_1403720d0(0xf0,param_2,param_3,param_4);
+  C[22]   FUN_14034b560(lVar2,plVar1,"AddNoisePos",FUN_14009fc10,0);
+------------------------------------------------------------
+FUNCTION FUN_1402a16d0 @ 1402a16d0
+  C[1] 
+  C[2] undefined8 * FUN_1402a16d0(undefined8 param_1,undefined8 *param_2)
+  C[3] 
+  C[4] {
+  C[5]   *param_2 = "MemoryImageData";
+  C[6]   return param_2;
+  C[7] }
+------------------------------------------------------------
+FUNCTION FUN_1401093e0 @ 1401093e0
+  C[1] 
+  C[2] /* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */
+  C[3] 
+  C[4] ulonglong FUN_1401093e0(longlong param_1,undefined8 *param_2,undefined8 param_3,int *param_4)
+  C[5] 
+  C[6] {
+  C[7]   uint uVar1;
+  C[8]   longlong lVar2;
+  C[25]   ulonglong _Size;
+  C[42]     _Size = (ulonglong)(uint)((int)pcVar13 - (int)pcVar9);
+  C[43]     uVar8 = _Size + 0xf;
+  C[44]     if (uVar8 <= _Size) {
+  C[51]     memcpy(_Dst,pcVar9,_Size);
+  C[211]             iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_chainoffset");
+  C[217]               iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_weaponoffset");
+  C[223]                 iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_secchainoffset");
+  C[229]                   iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_chainmiddledir");
+  C[235]                     iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_secchainmiddledir");
+  C[238]                       iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_chainmiddlediro");
+  C[252]                         iVar6 = FUN_140148620(pbVar14,(byte *)"ikpose_secchainmiddlediro");
+------------------------------------------------------------
+FUNCTION FUN_14047bcd0 @ 14047bcd0
+  C[1] 
+  C[2] void FUN_14047bcd0(undefined8 param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   int iVar1;
+  C[6]   uint uVar2;
+  C[7]   longlong *plVar3;
+  C[8]   undefined4 uVar4;
+  C[95]       lVar10 = FUN_1403a86b0(lVar6,(byte *)"imageSets");
+  C[96]       lVar6 = FUN_1403a86b0(lVar6,(byte *)"widgetStyles");
+------------------------------------------------------------
+FUNCTION FUN_14001eeb0 @ 14001eeb0
+  C[1] 
+  C[2] void FUN_14001eeb0(void)
+  C[3] 
+  C[4] {
+  C[5]   FUN_14013d640(&DAT_1411a4118,(char *)0x0,"Apply Pose","Animation",(byte *)"enabled,disabled",
+  C[6]                 0xffffffff,'\0');
+  C[7]   return;
+  C[8] }
+------------------------------------------------------------
+FUNCTION FUN_1402978e0 @ 1402978e0
+  C[1] 
+  C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+  C[3] 
+  C[4] undefined8 FUN_1402978e0(longlong param_1,uint *param_2,byte param_3)
+  C[5] 
+  C[6] {
+  C[7]   longlong lVar1;
+  C[8]   bool bVar2;
+  C[15]   IMAGE_DOS_HEADER *pIVar9;
+  C[33]   pIVar9 = (IMAGE_DOS_HEADER *)(ulonglong)local_res10[0];
+  C[38]   FUN_1400902d0(8,&local_78,"SwapChain::ResizeDeviceOutput(%d, %d, %d)",pIVar9);
+  C[57]     pIVar9 = (IMAGE_DOS_HEADER *)0xffffffff;
+  C[64]     FUN_1400902d0(0x20,&local_78,"Cannot resize in fullscreen, mode not found (%dx%d)",
+  C[80]                     "Cannot continue with mode setting, DXGI state unsynchronized with engine",
+------------------------------------------------------------
+FUNCTION FUN_1401b3c00 @ 1401b3c00
+  C[1] 
+  C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+  C[3] 
+  C[4] char * FUN_1401b3c00(char *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[5] 
+  C[6] {
+  C[7]   char cVar1;
+  C[8]   uint uVar2;
+  C[12]   SIZE_T SVar6;
+  C[133]   FUN_140131650((longlong *)(param_1 + 8),(byte *)"Additional parameters for color",param_3,param_4)
+  C[136]   local_4b8 = "World mapped texture with deep water color";
+  C[159]   local_4c0 = "XY start world pos and ZW is size in meters";
+  C[178]   "Color used in place where alpha in DeepMap is one, alpha value of this color is a multiplier of alpha!"
+  C[180]   local_res20 = PTR_s_colorPicker_1411227e8;
+  C[182]   local_res8 = "DeepMapAlphaColor";
+  C[199]   local_4c0 = "Min distance where the DeepMap in alpha is visible";
+  C[219]   local_4c0 = "Min distance where the DeepMap in alpha starts is fully visible";
+  C[239]   local_4c0 = "Scattering color of ocean water (e.g. when looking to waves)";
+  C[240]   local_res20 = PTR_s_colorPicker_1411227e8;
+  C[242]   local_res8 = "OceanScatteringColor";
+  C[260]   "Depth scattering, when looking down the refracted color is darker than when looking perpendicular, 0 = no influence"
+------------------------------------------------------------
+FUNCTION FUN_140241d70 @ 140241d70
+  C[1] 
+  C[2] undefined8 * FUN_140241d70(undefined8 *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   char *local_res8;
+  C[6]   char *local_res18;
+  C[7]   undefined *local_res20;
+  C[8]   char *local_98;
+  C[166]   local_98 = "Size of blured image";
+  C[170]   local_res8 = "SimpleDOFSize";
+  C[186]   local_98 = "Number of gauss filters applied to image";
+------------------------------------------------------------
+FUNCTION FUN_1402434d0 @ 1402434d0
+  C[1] 
+  C[2] undefined8 *
+  C[3] FUN_1402434d0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+  C[4] 
+  C[5] {
+  C[6]   undefined4 *puVar1;
+  C[7]   char *pcVar2;
+  C[8]   undefined1 uVar3;
+  C[136]   "Fixed param by choosen lenses (mm). It measures of how strongly the system converges or diverges light. Usually it has to uqual to FocalLength othewise it\'s not physically correct."
+------------------------------------------------------------
+FUNCTION FUN_1403bcaa0 @ 1403bcaa0
+  C[1] 
+  C[2] undefined8 * FUN_1403bcaa0(undefined8 param_1,undefined8 *param_2)
+  C[3] 
+  C[4] {
+  C[5]   *param_2 = "GridSpacerWidgetClass";
+  C[6]   return param_2;
+  C[7] }
+------------------------------------------------------------
+FUNCTION FUN_140024e60 @ 140024e60
+  C[1] 
+  C[2] void FUN_140024e60(void)
+  C[3] 
+  C[4] {
+  C[5]   FUN_14013d640(&DAT_141268978,(char *)0x0,"Idle Mode",PTR_s_Central_Economy_141123108,
+  C[6]                 (byte *)"false,true",0xffffffff,'\0');
+  C[7]   return;
+  C[8] }
+------------------------------------------------------------
+FUNCTION FUN_1403b6970 @ 1403b6970
+  C[1] 
+  C[2] undefined8 * FUN_1403b6970(undefined8 *param_1)
+  C[3] 
+  C[4] {
+  C[5]   int *piVar1;
+  C[6]   int iVar2;
+  C[7]   longlong lVar3;
+  C[8]   undefined8 *puVar4;
+  C[15]   *param_1 = enf::IWidgetRenderInterface::vftable;
+  C[159]   uVar5 = (**(code **)(*DAT_141269208 + 0x170))(DAT_141269208,"__WidgetCommon__");
+------------------------------------------------------------
+FUNCTION FUN_1403377a0 @ 1403377a0
+  C[1] 
+  C[2] ulonglong FUN_1403377a0(longlong *param_1,longlong param_2,char *param_3,int *param_4)
+  C[3] 
+  C[4] {
+  C[5]   int iVar1;
+  C[6]   uint *puVar2;
+  C[7]   undefined4 extraout_var;
+  C[8]   ulonglong uVar3;
+  C[36]     pcVar4 = "Wrong array size";
+------------------------------------------------------------
+FUNCTION FUN_1403ec900 @ 1403ec900
+  C[1] 
+  C[2] undefined8 * FUN_1403ec900(undefined8 param_1,undefined8 *param_2)
+  C[3] 
+  C[4] {
+  C[5]   *param_2 = "RichTextWidget";
+  C[6]   return param_2;
+  C[7] }
+------------------------------------------------------------
+FUNCTION FUN_140022600 @ 140022600
+  C[1] 
+  C[2] void FUN_140022600(void)
+  C[3] 
+  C[4] {
+  C[5]   FUN_14013d640(&DAT_141267750,(char *)0x0,"Diag render",PTR_s_Enfusion_Render_141123060,
+  C[6]                 (byte *)"post-render,pre-render",0xffffffff,'\0');
+  C[7]   return;
+  C[8] }
+------------------------------------------------------------
+FUNCTION FUN_1402ed7a0 @ 1402ed7a0
+  C[1] 
+  C[2] byte * FUN_1402ed7a0(byte param_1,uint param_2,uint param_3,byte *param_4)
+  C[3] 
+  C[4] {
+  C[5]   char cVar1;
+  C[6]   uint uVar2;
+  C[7]   ushort *puVar3;
+  C[8]   short *psVar4;
+  C[26]     DAT_14126c000 = FUN_140351f20(DAT_14126f240,(byte *)"PostProcessEffectType",0);
+------------------------------------------------------------
+FUNCTION FUN_1403e0ae0 @ 1403e0ae0
+  C[1] 
+  C[2] undefined8 * FUN_1403e0ae0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   undefined4 *puVar1;
+  C[6]   char *pcVar2;
+  C[7]   SIZE_T SVar3;
+  C[8]   undefined4 local_68 [18];
+  C[12]   *param_1 = enf::StyledWidgetClass::vftable;
+  C[21]   FUN_140131650(param_1 + 1,(byte *)"Widget",param_3,param_4);
+  C[22]   pcVar2 = "style";
+  C[24]   puVar1 = FUN_140111ad0(local_68,8,"style",0,"Default");
+------------------------------------------------------------
+FUNCTION FUN_1403bcab0 @ 1403bcab0
+  C[1] 
+  C[2] undefined8 * FUN_1403bcab0(undefined8 param_1,undefined8 *param_2)
+  C[3] 
+  C[4] {
+  C[5]   *param_2 = "ScrollWidgetClass";
+  C[6]   return param_2;
+  C[7] }
+------------------------------------------------------------
+FUNCTION FUN_1403b27a0 @ 1403b27a0
+  C[1] 
+  C[2] undefined8 * FUN_1403b27a0(undefined8 param_1,undefined8 *param_2)
+  C[3] 
+  C[4] {
+  C[5]   *param_2 = "MenuStripWidget";
+  C[6]   return param_2;
+  C[7] }
+------------------------------------------------------------
+FUNCTION FUN_14010cd70 @ 14010cd70
+  C[1] 
+  C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+  C[3] 
+  C[4] bool FUN_14010cd70(longlong *param_1,longlong *param_2)
+  C[5] 
+  C[6] {
+  C[7]   uint uVar1;
+  C[8]   LPCVOID _Src;
+  C[56]   FUN_1400cf570(local_78,param_2,plVar8,(SIZE_T)plVar18);
+  C[60]   bVar2 = FUN_1400cfbb0(puVar10,param_2,plVar8,(SIZE_T)plVar18);
+  C[63]                              (SIZE_T)plVar18), (char)uVar11 != '\0')) {
+  C[68]     uVar11 = FUN_1400cfc40((longlong)local_78,(undefined8 *)pcVar14,ppbVar17,(SIZE_T)plVar18);
+  C[136]             _Dst = FUN_1403720d0((longlong)plVar8 << 3,pcVar14,ppbVar17,(SIZE_T)plVar18);
+  C[202]               FUN_1400621e0(param_1 + 0xc,(ulonglong)uVar7,(ulonglong)uVar6,(SIZE_T)plVar18);
+  C[254]             if ((local_f0 == (byte *)"previewModel") ||
+  C[256]                 (iVar4 = FUN_140148620(local_f0,(byte *)"previewModel"), iVar4 == 0)))) {
+------------------------------------------------------------
+FUNCTION FUN_14015add0 @ 14015add0
+  C[1] 
+  C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+  C[3] 
+  C[4] undefined8 * FUN_14015add0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[5] 
+  C[6] {
+  C[7]   undefined8 uVar1;
+  C[8]   char *local_res8;
+  C[47]   local_88 = "Directory path";
+  C[49]   local_res8 = "Directory";
+------------------------------------------------------------
+FUNCTION FUN_14072f870 @ 14072f870
+  C[1] 
+  C[2] void FUN_14072f870(longlong param_1,int param_2,undefined8 param_3,undefined8 param_4)
+  C[3] 
+  C[4] {
+  C[5]   int iVar1;
+  C[6]   int iVar2;
+  C[7]   
+  C[8]   if (param_2 < 0) {
+  C[9]     FUN_140c5a4e0(&DAT_140de2c10,"Error: can\'t resize AutoArray to negative size!",param_3,param_4)
+------------------------------------------------------------
+FUNCTION FUN_140256500 @ 140256500
+  C[1] 
+  C[2] void FUN_140256500(longlong param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   int *piVar1;
+  C[6]   int iVar2;
+  C[7]   longlong lVar3;
+  C[8]   undefined8 uVar4;
+  C[18]                      (DAT_14126ac18,&local_res10,"postprocess/ps_CopyColor",4,0,0);
+  C[47]                      (DAT_14126ac18,&local_res18,"postprocess/ps_CopyColor",4,local_30,1);
+DECOMPILED_FUNCTIONS 30
+SCRIPT COMPLETED DayZGuiLayoutSemanticsScan
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

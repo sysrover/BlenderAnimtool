@@ -1,0 +1,5 @@
+{
+  "saved": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_ik_live_solver_v3_fixedlength.blend",
+  "mode": "NO_STRETCH fixed-length CCD viewport preview",
+  "note": "Viewport solver preserves deform arm-chain lengths and zeros arm/forearm/hand translations. It uses DayZ IK helper targets as CCD targets for visual editing; exact helper action remains active for DayZ/export data."
+}

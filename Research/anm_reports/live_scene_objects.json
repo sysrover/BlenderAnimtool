@@ -1,0 +1,329 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_dayz_weaponik_authoring_v3.blend",
+  "objects": [
+    {
+      "name": "1",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.235332,
+        0.314262,
+        1.311971
+      ],
+      "dims": [
+        0.699698,
+        0.07082,
+        0.194714
+      ]
+    },
+    {
+      "name": "1.001",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.235332,
+        0.314262,
+        1.311971
+      ],
+      "dims": [
+        0.126361,
+        0.03091,
+        0.201854
+      ]
+    },
+    {
+      "name": "_DayZ_Character",
+      "type": "ARMATURE",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        1.210427,
+        0.687605,
+        0.411262
+      ]
+    },
+    {
+      "name": "DAT_ControlRig_RefBakeV1",
+      "type": "ARMATURE",
+      "hidden": false,
+      "hide_render": true,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.986449,
+        0.640148,
+        0.377538
+      ]
+    },
+    {
+      "name": "DAT_DayZ_Arm_FK_Controls",
+      "type": "ARMATURE",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.57109,
+        0.688127,
+        0.30597
+      ]
+    },
+    {
+      "name": "EntityPosition",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.269955,
+        0.398188,
+        0.003387
+      ]
+    },
+    {
+      "name": "Female_body",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.630965,
+        0.802467,
+        1.722001
+      ]
+    },
+    {
+      "name": "WGT_DAT_FK_Hand_Ring",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": true,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.22,
+        0.22,
+        0.0
+      ]
+    },
+    {
+      "name": "WGT_DAT_FK_Joint_Ring",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": true,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.18,
+        0.18,
+        0.0
+      ]
+    },
+    {
+      "name": "WGT_DAT_FK_Roll_Ring",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": true,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.12,
+        0.12,
+        0.0
+      ]
+    },
+    {
+      "name": "zEntityPosition",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.269955,
+        0.398188,
+        0.003387
+      ]
+    },
+    {
+      "name": "zJD_Axis",
+      "type": "EMPTY",
+      "hidden": true,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "zJD_Axis_Small",
+      "type": "EMPTY",
+      "hidden": true,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "zJD_Circle",
+      "type": "EMPTY",
+      "hidden": true,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "zJD_Cube",
+      "type": "EMPTY",
+      "hidden": true,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "zJD_SingleArrow",
+      "type": "EMPTY",
+      "hidden": true,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "zJD_Sphere",
+      "type": "EMPTY",
+      "hidden": true,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "zMale_body",
+      "type": "MESH",
+      "hidden": false,
+      "hide_render": false,
+      "parent": null,
+      "parent_bone": "",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.631695,
+        0.814032,
+        1.715661
+      ]
+    }
+  ]
+}

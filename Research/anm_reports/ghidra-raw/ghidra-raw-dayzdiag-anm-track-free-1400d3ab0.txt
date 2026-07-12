@@ -1,0 +1,38 @@
+
+void FUN_1400d3ab0(longlong param_1)
+
+{
+  if (1 < *(uint *)(param_1 + 0x18)) {
+    if (*(void **)(param_1 + 0x10) != (void *)0x0) {
+      free(*(void **)(param_1 + 0x10));
+      *(undefined8 *)(param_1 + 0x10) = 0;
+    }
+    if (*(void **)(param_1 + 8) != (void *)0x0) {
+      free(*(void **)(param_1 + 8));
+      *(undefined8 *)(param_1 + 8) = 0;
+    }
+  }
+  if (1 < *(uint *)(param_1 + 0x58)) {
+    if (*(void **)(param_1 + 0x50) != (void *)0x0) {
+      free(*(void **)(param_1 + 0x50));
+      *(undefined8 *)(param_1 + 0x50) = 0;
+    }
+    if (*(void **)(param_1 + 0x48) != (void *)0x0) {
+      free(*(void **)(param_1 + 0x48));
+      *(undefined8 *)(param_1 + 0x48) = 0;
+    }
+  }
+  if (1 < *(uint *)(param_1 + 0x38)) {
+    if (*(void **)(param_1 + 0x30) != (void *)0x0) {
+      free(*(void **)(param_1 + 0x30));
+      *(undefined8 *)(param_1 + 0x30) = 0;
+    }
+    if (*(void **)(param_1 + 0x28) != (void *)0x0) {
+      free(*(void **)(param_1 + 0x28));
+      *(undefined8 *)(param_1 + 0x28) = 0;
+    }
+  }
+  return;
+}
+
+

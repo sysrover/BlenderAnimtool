@@ -1,0 +1,209 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+### Changed
+### Fixed
+### Security
+
+## [1.3.3] - 2025-12-17
+
+### Added
+- **CLI config**: Added `cli.timeout_sec` (default `300`) to control default CLI timeouts.
+
+### Changed
+- **CLI install**: `blender-remote-cli install` now uses `cli.timeout_sec` for the Blender subprocess timeout (default 5 minutes).
+
+## [1.3.2] - 2025-12-17
+
+### Fixed
+- **CLI**: `blender-remote-cli --version` now reports the installed package version (instead of a stale hardcoded value).
+
+## [1.3.1] - 2025-12-17
+
+### Fixed
+- **Versioning**: Synchronize `blender_remote.__version__` with the package version in `pyproject.toml`.
+
+### Documentation
+- **Changelog**: Backfilled missing release notes for `v1.3.0` and documented `v1.3.1`.
+
+## [1.3.0] - 2025-12-17
+
+### Added
+- **CLI**: New `blender-remote-cli pkg` command group for managing packages inside the remote Blender Python environment:
+  - `pkg info` (supports `--json` for machine-readable output)
+  - `pkg bootstrap` (ensure `pip` exists via `ensurepip` or `get-pip.py`)
+  - `pkg install` (simple online/offline install wrapper)
+  - `pkg pip -- ...` (escape hatch for arbitrary pip invocations)
+  - `pkg push` (upload wheels into a remote wheelhouse cache; supports `--chunk-size`)
+  - `pkg purge-cache` (clear the remote wheelhouse cache)
+- **Addon**: Per-command timeout override for MCP requests via `_timeout_seconds` (useful for long-running pip installs).
+
+### Changed
+- **CLI**: Refactored CLI implementation by splitting `src/blender_remote/cli.py` into a package with smaller command modules.
+- **Repo tooling**: Improved cross-platform line ending handling and workspace/development ergonomics.
+
+### Documentation
+- **CLI manual**: Added package-management usage and offline wheelhouse workflow examples.
+- Reorganized and restored documentation/hints as part of the repo restructuring.
+
+## [1.2.6] - 2025-12-02
+
+### Fixed
+- **CLI**: Add `--port` option to `status` subcommand to allow checking custom background Blender instances without changing global config.
+- **CLI**: Improve type safety and resource lookup in `blender_remote.cli` (OmegaConf usage, importlib resources, debug addon helpers) and ensure mypy/ruff clean under the project’s own configuration.
+
+## [1.2.5] - 2025-07-16
+
+### Fixed
+- **Documentation**: Fixed GitHub Pages site navigation after documentation reorganization
+  - Updated mkdocs.yml navigation to reflect new file structure
+  - Fixed broken links on GitHub Pages site (e.g., cli-tool.md now correctly points to manual/cli-tool.md)
+  - All documentation sections now properly accessible via https://igamenovoer.github.io/blender-remote/
+
+## [1.2.4] - 2025-07-16
+
+### Changed
+- **Documentation**: Reorganized documentation structure for better maintainability
+  - Created `docs/api/` directory for API reference documentation
+  - Created `docs/manual/` directory for user guides and tutorials
+  - Created `docs/devel/` directory for development documentation
+  - Created `docs/deprecated/` directory to preserve old documentation
+  - Fixed all internal documentation links to reflect new structure
+  - Updated architecture diagram paths to use `docs/figures/` directory
+
+## [1.2.3] - 2025-07-16
+
+### Fixed
+- **Critical**: Fixed missing `scipy` and `importlib_resources` dependencies for `uvx blender-remote` command
+- Added `scipy>=1.16.0` to main dependencies (required for rotation transformations in data_types.py)
+- Added `importlib_resources>=1.3.0` to main dependencies (fallback for resource access in CLI)
+- Resolved package installation issues where `uvx blender-remote` failed with "No module named 'scipy'"
+
+## [1.2.2] - 2025-07-16
+
+### Fixed
+- **Critical**: Fixed Blender addon GUI installation failure caused by non-literal values in bl_info dictionary
+- bl_info now uses literal values instead of config constants to satisfy ast.literal_eval requirements
+- Resolves `ValueError: malformed node or string` when installing addon through Blender's GUI
+
+## [1.2.1] - 2025-07-16
+
+### Fixed
+- **Critical**: Fixed addon packaging issue where `blender-remote-cli install` failed after pip installation
+- Moved Blender addon files from `blender_addon/` to `src/blender_remote/addon/` for proper packaging
+- Updated pyproject.toml to use `package-data` instead of `data-files` for addon inclusion
+- Modernized resource access in CLI with fallback chain: importlib.resources → importlib_resources → pkg_resources
+- Both `bld_remote_mcp` and `simple-tcp-executor` addons now properly included in pip packages
+
+## [1.2.0] - 2025-07-16
+
+### Added
+- **Cross-platform support**: Full Windows, Linux, and macOS compatibility
+- **Auto-detection**: Automatic Blender installation detection on Windows and macOS
+- **Base64 encoding**: Secure code transmission for complex scripts and cross-platform robustness
+- **Data persistence**: Stateful workflows with key-value data storage across sessions
+- **Background mode**: Robust background execution with proper signal handling and keep-alive loops
+- **CLI enhancements**: Comprehensive command-line interface with configuration management
+- **Debug tools**: Simple TCP executor addon for testing and development
+- **Process management**: Improved start/stop/status commands with proper cleanup
+- **Configuration system**: YAML-based configuration with OmegaConf integration
+- **Socket optimization**: Enhanced socket handling with proper timeouts and error recovery
+
+### Changed
+- **Architecture**: Dual-mode server implementation (GUI timer-based + background queue-based)
+- **Documentation**: Complete overhaul with cross-platform guides and API reference
+- **CLI interface**: Unified command structure with improved error handling
+- **Version consistency**: Synchronized version numbers across all components
+- **Resource handling**: Modernized package resource access for better compatibility
+
+### Fixed
+- **Background mode**: Proper signal handling and process termination
+- **Timer execution**: Resolved modal operator timer issues in background mode
+- **Port conflicts**: Better detection and handling of port conflicts
+- **Cross-platform paths**: Consistent path handling across operating systems
+- **Installation**: Robust addon installation with proper error reporting
+
+### Security
+- **Code transmission**: Base64 encoding prevents code injection and encoding issues
+- **Input validation**: Enhanced parameter validation for all MCP endpoints
+- **Process isolation**: Improved separation between GUI and background modes
+
+## [1.1.0] - 2025-07-09
+
+### Added
+- **Automation focus**: Enhanced automation capabilities for batch operations
+- **Scene management**: Improved scene manipulation and object handling
+- **Export features**: GLB/GLTF export functionality with proper error handling
+- **Asset management**: Basic asset loading and manipulation capabilities
+
+### Changed
+- **API structure**: Refined Python control API with better error handling
+- **Documentation**: Updated examples and usage guides
+- **Performance**: Optimized command execution and response handling
+
+### Fixed
+- **Connection stability**: Improved client-server connection reliability
+- **Error handling**: Better error messages and exception handling
+- **Memory management**: Reduced memory leaks in long-running sessions
+
+## [1.0.0] - 2025-07-09
+
+### Added
+- **Initial release**: Basic Blender remote control functionality
+- **MCP server**: Model Context Protocol server implementation
+- **Python API**: Direct Python client API for programmatic control
+- **CLI tools**: Basic command-line interface
+- **Scene operations**: Fundamental scene manipulation capabilities
+- **Screenshot capture**: Viewport screenshot functionality
+- **Code execution**: Remote Python code execution in Blender
+- **Multi-platform**: Initial Windows and Linux support
+
+### Security
+- **Local network**: Designed for local network use with basic authentication
+
+## Release Notes
+
+### Migration Guide: 1.2.0 to 1.2.1
+
+This is a bugfix release that resolves a critical packaging issue. No API changes or breaking changes.
+
+**If you experienced addon installation failures:**
+1. Update to 1.2.1: `pip install --upgrade blender-remote`
+2. Retry installation: `blender-remote-cli install`
+
+### Migration Guide: 1.1.0 to 1.2.0
+
+**Breaking Changes:**
+- CLI command structure has changed. Use `blender-remote-cli --help` for new commands.
+- Configuration now uses YAML format instead of JSON.
+- Some API endpoints have new parameter names for consistency.
+
+**New Features:**
+- Run `blender-remote-cli init` to set up auto-detection on Windows/macOS.
+- Use `--use-base64` and `--return-base64` flags for robust code transmission.
+- Background mode now supports proper signal handling and cleanup.
+
+### Migration Guide: 1.0.0 to 1.1.0
+
+**New Features:**
+- Enhanced scene management with better object manipulation.
+- GLB export functionality for 3D asset workflows.
+- Improved error handling and connection stability.
+
+## Support
+
+- **Documentation**: https://igamenovoer.github.io/blender-remote/
+- **Repository**: https://github.com/igamenovoer/blender-remote
+- **Issues**: https://github.com/igamenovoer/blender-remote/issues
+- **PyPI**: https://pypi.org/project/blender-remote/
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

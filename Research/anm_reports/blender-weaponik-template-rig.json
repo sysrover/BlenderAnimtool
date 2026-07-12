@@ -1,0 +1,153 @@
+{
+  "mode": "Imported Playback",
+  "helper_changes": [],
+  "removed_control_constraints": [
+    "LeftForeArmDirection:DayZ WIK Control Copy Location",
+    "LeftHandIKTarget:DayZ WIK Control Copy Location",
+    "LeftHandIKTarget:DayZ WIK Control Copy Rotation",
+    "RightHandOrigin:DayZ WIK Control Copy Location",
+    "RightHandOrigin:DayZ WIK Control Copy Rotation",
+    "RightForeArmDirection:DayZ WIK Control Copy Location"
+  ],
+  "removed_control_objects": [
+    "WIK_L_Elbow_Pole",
+    "WIK_L_Hand_Target",
+    "WIK_R_Elbow_Pole",
+    "WIK_R_Hand_Target"
+  ],
+  "manual_constraints": [
+    "LeftHandIKTarget:DayZ WIK Control Copy Location:muted",
+    "LeftHandIKTarget:DayZ WIK Control Copy Rotation:muted",
+    "LeftForeArmDirection:DayZ WIK Control Copy Location:muted",
+    "RightHandOrigin:DayZ WIK Control Copy Location:muted",
+    "RightHandOrigin:DayZ WIK Control Copy Rotation:muted",
+    "RightForeArmDirection:DayZ WIK Control Copy Location:muted"
+  ],
+  "controls": {
+    "WIK_L_Hand_Target": {
+      "helper": "LeftHandIKTarget",
+      "parent": null,
+      "matrix_world": [
+        [
+          0.5485950708389282,
+          0.6998530626296997,
+          -0.4574374854564667,
+          0.14025944471359253
+        ],
+        [
+          -0.3715563118457794,
+          0.6941919922828674,
+          0.6164765357971191,
+          0.49793145060539246
+        ],
+        [
+          0.7489928603172302,
+          -0.16823191940784454,
+          0.6408655047416687,
+          1.428221344947815
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "WIK_L_Elbow_Pole": {
+      "helper": "LeftForeArmDirection",
+      "parent": null,
+      "matrix_world": [
+        [
+          0.3081734776496887,
+          0.773044228553772,
+          0.55446457862854,
+          -0.10860158503055573
+        ],
+        [
+          -0.09233038872480392,
+          0.604383647441864,
+          -0.7913246154785156,
+          0.00214289128780365
+        ],
+        [
+          -0.9468393325805664,
+          0.19267131388187408,
+          0.2576304078102112,
+          0.8322710394859314
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "WIK_R_Hand_Target": {
+      "helper": "RightHandOrigin",
+      "parent": null,
+      "matrix_world": [
+        [
+          0.9750069975852966,
+          -0.09805545210838318,
+          0.19936639070510864,
+          0.21427154541015625
+        ],
+        [
+          -0.1329447627067566,
+          -0.9764495491981506,
+          0.16991746425628662,
+          0.11002010107040405
+        ],
+        [
+          0.17800989747047424,
+          -0.19217534363269806,
+          -0.9650811553001404,
+          1.3541133403778076
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "WIK_R_Elbow_Pole": {
+      "helper": "RightForeArmDirection",
+      "parent": null,
+      "matrix_world": [
+        [
+          0.6064431667327881,
+          0.7029962539672852,
+          0.37151530385017395,
+          0.41740313172340393
+        ],
+        [
+          0.09327501803636551,
+          -0.5269120335578918,
+          0.8447862863540649,
+          0.06275343894958496
+        ],
+        [
+          0.7896373867988586,
+          -0.477661669254303,
+          -0.3851139545440674,
+          1.2438219785690308
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "important": [
+    "Controls are world-space on purpose. Do not parent them to Weapon_Magazine/Weapon_Root; that creates an IK dependency cycle.",
+    "Imported Playback mode keeps imported ANM/TXA helper tracks active.",
+    "Manual Authoring mode is enabled by unmuting DayZ WIK Control constraints on helper bones."
+  ]
+}

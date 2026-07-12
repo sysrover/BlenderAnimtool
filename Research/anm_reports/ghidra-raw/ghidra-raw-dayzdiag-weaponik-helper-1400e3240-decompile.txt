@@ -1,0 +1,39 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+float * FUN_1400e3240(float *param_1,float *param_2,float *param_3)
+
+{
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  float local_68;
+  float local_64;
+  float local_60;
+  float local_58;
+  float local_54;
+  float local_50;
+  
+  if (_DAT_140de9e50 <= *param_3 * *param_2 + param_3[1] * param_2[1] + param_3[2] * param_2[2]) {
+    local_68 = *param_3 + *param_2;
+    local_64 = param_3[1] + param_2[1];
+    local_60 = param_3[2] + param_2[2];
+    FUN_140c2e4b0(&local_68,&local_58);
+    fVar1 = param_2[1];
+    fVar2 = param_2[2];
+    fVar3 = *param_2;
+    *param_1 = local_50 * fVar1 - local_54 * fVar2;
+    param_1[1] = local_58 * fVar2 - local_50 * fVar3;
+    param_1[2] = local_54 * fVar3 - local_58 * fVar1;
+    param_1[3] = fVar1 * local_54 + fVar3 * local_58 + fVar2 * local_50;
+  }
+  else {
+    *param_1 = -0.0;
+    param_1[1] = -0.0;
+    param_1[2] = -1.0;
+    param_1[3] = -4.371139e-08;
+  }
+  return param_1;
+}
+
+

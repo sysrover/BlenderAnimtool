@@ -1,0 +1,168 @@
+
+void FUN_140c55a90(uint *param_1,undefined1 *param_2,undefined1 *param_3)
+
+{
+  uint uVar1;
+  uint uVar2;
+  uint uVar3;
+  uint uVar4;
+  uint uVar5;
+  uint uVar6;
+  uint uVar7;
+  uint uVar8;
+  uint *puVar9;
+  uint *puVar10;
+  
+  uVar3 = CONCAT31(CONCAT21(CONCAT11(*param_2,param_2[1]),param_2[2]),param_2[3]) ^ *param_1;
+  uVar6 = CONCAT31(CONCAT21(CONCAT11(param_2[4],param_2[5]),param_2[6]),param_2[7]) ^ param_1[1];
+  uVar5 = CONCAT31(CONCAT21(CONCAT11(param_2[8],param_2[9]),param_2[10]),param_2[0xb]) ^ param_1[2];
+  uVar4 = CONCAT31(CONCAT21(CONCAT11(param_2[0xc],param_2[0xd]),param_2[0xe]),param_2[0xf]) ^
+          param_1[3];
+  uVar2 = (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar6 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[4];
+  uVar1 = (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar6 >> 0x18] ^ (&DAT_144820330)[uVar3 & 0xff] ^ param_1[5];
+  uVar7 = (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar5 >> 0x18] ^
+          (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^ (&DAT_144820330)[uVar6 & 0xff] ^ param_1[6];
+  uVar5 = (&DAT_14481f730)[uVar4 >> 0x18] ^ (&DAT_14481ff30)[uVar6 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar5 & 0xff] ^ param_1[7];
+  uVar3 = (&DAT_14481ff30)[uVar7 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_144820330)[uVar5 & 0xff] ^ param_1[8];
+  uVar4 = (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar7 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ param_1[9];
+  uVar6 = (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar7 >> 0x18] ^
+          (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[10];
+  uVar1 = (&DAT_14481f730)[uVar5 >> 0x18] ^ (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar7 & 0xff] ^ param_1[0xb];
+  uVar2 = (&DAT_14481ff30)[uVar6 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[0xc];
+  uVar8 = (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar6 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar4 >> 0x18] ^ (&DAT_144820330)[uVar3 & 0xff] ^ param_1[0xd];
+  uVar7 = (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar6 >> 0x18] ^
+          (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[0xe];
+  uVar3 = (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar6 & 0xff] ^ param_1[0xf];
+  uVar4 = (&DAT_14481ff30)[uVar7 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar8 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_144820330)[uVar3 & 0xff] ^ param_1[0x10];
+  uVar1 = (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar7 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar8 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ param_1[0x11];
+  uVar5 = (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar7 >> 0x18] ^
+          (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_144820330)[uVar8 & 0xff] ^ param_1[0x12];
+  uVar2 = (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_14481ff30)[uVar8 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar7 & 0xff] ^ param_1[0x13];
+  uVar3 = (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar4 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ param_1[0x14];
+  uVar7 = (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[0x15];
+  uVar6 = (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar5 >> 0x18] ^
+          (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[0x16];
+  uVar4 = (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar5 & 0xff] ^ param_1[0x17];
+  uVar2 = (&DAT_14481ff30)[uVar6 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar7 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[0x18];
+  uVar1 = (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar6 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar7 >> 0x18] ^ (&DAT_144820330)[uVar3 & 0xff] ^ param_1[0x19];
+  uVar5 = (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar6 >> 0x18] ^
+          (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^ (&DAT_144820330)[uVar7 & 0xff] ^ param_1[0x1a];
+  uVar4 = (&DAT_14481f730)[uVar4 >> 0x18] ^ (&DAT_14481ff30)[uVar7 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar6 & 0xff] ^ param_1[0x1b];
+  uVar3 = (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[0x1c];
+  uVar8 = (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ param_1[0x1d];
+  uVar7 = (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar5 >> 0x18] ^
+          (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[0x1e];
+  uVar2 = (&DAT_14481f730)[uVar4 >> 0x18] ^ (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar5 & 0xff] ^ param_1[0x1f];
+  uVar4 = (&DAT_14481ff30)[uVar7 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar8 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ param_1[0x20];
+  uVar1 = (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar7 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar8 >> 0x18] ^ (&DAT_144820330)[uVar3 & 0xff] ^ param_1[0x21];
+  uVar6 = (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar7 >> 0x18] ^
+          (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^ (&DAT_144820330)[uVar8 & 0xff] ^ param_1[0x22];
+  uVar5 = (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_14481ff30)[uVar8 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar7 & 0xff] ^ param_1[0x23];
+  puVar9 = param_1 + 0x24;
+  uVar2 = (&DAT_14481ff30)[uVar6 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar4 >> 0x18] ^ (&DAT_144820330)[uVar5 & 0xff] ^ *puVar9;
+  uVar3 = (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar6 >> 0x10 & 0xff] ^
+          (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[0x25];
+  uVar7 = (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar6 >> 0x18] ^
+          (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[0x26];
+  uVar1 = (&DAT_14481f730)[uVar5 >> 0x18] ^ (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^
+          (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar6 & 0xff] ^ param_1[0x27];
+  if (10 < (int)param_1[0x80]) {
+    uVar6 = (&DAT_14481ff30)[uVar7 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_144820330)[uVar1 & 0xff] ^ param_1[0x28];
+    uVar5 = (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar7 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ param_1[0x29];
+    uVar4 = (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar7 >> 0x18] ^
+            (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_144820330)[uVar3 & 0xff] ^ param_1[0x2a];
+    uVar1 = (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^
+            (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar7 & 0xff] ^ param_1[0x2b];
+    puVar9 = param_1 + 0x2c;
+    uVar2 = (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar6 >> 0x18] ^ (&DAT_144820330)[uVar1 & 0xff] ^ *puVar9;
+    uVar3 = (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar5 >> 0x18] ^ (&DAT_144820330)[uVar6 & 0xff] ^ param_1[0x2d];
+    uVar7 = (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar4 >> 0x18] ^
+            (&DAT_14481ff30)[uVar6 >> 8 & 0xff] ^ (&DAT_144820330)[uVar5 & 0xff] ^ param_1[0x2e];
+    uVar1 = (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^
+            (&DAT_14481fb30)[uVar6 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar4 & 0xff] ^ param_1[0x2f];
+  }
+  puVar10 = puVar9;
+  if (0xc < (int)param_1[0x80]) {
+    uVar6 = (&DAT_14481ff30)[uVar7 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar3 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar2 >> 0x18] ^ (&DAT_144820330)[uVar1 & 0xff] ^ puVar9[4];
+    uVar5 = (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar7 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar3 >> 0x18] ^ (&DAT_144820330)[uVar2 & 0xff] ^ puVar9[5];
+    uVar4 = (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar7 >> 0x18] ^
+            (&DAT_14481ff30)[uVar2 >> 8 & 0xff] ^ (&DAT_144820330)[uVar3 & 0xff] ^ puVar9[6];
+    uVar1 = (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_14481ff30)[uVar3 >> 8 & 0xff] ^
+            (&DAT_14481fb30)[uVar2 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar7 & 0xff] ^ puVar9[7];
+    puVar10 = puVar9 + 8;
+    uVar2 = (&DAT_14481ff30)[uVar4 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar5 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar6 >> 0x18] ^ (&DAT_144820330)[uVar1 & 0xff] ^ *puVar10;
+    uVar3 = (&DAT_14481ff30)[uVar1 >> 8 & 0xff] ^ (&DAT_14481fb30)[uVar4 >> 0x10 & 0xff] ^
+            (&DAT_14481f730)[uVar5 >> 0x18] ^ (&DAT_144820330)[uVar6 & 0xff] ^ puVar9[9];
+    uVar7 = (&DAT_14481fb30)[uVar1 >> 0x10 & 0xff] ^ (&DAT_14481f730)[uVar4 >> 0x18] ^
+            (&DAT_14481ff30)[uVar6 >> 8 & 0xff] ^ (&DAT_144820330)[uVar5 & 0xff] ^ puVar9[10];
+    uVar1 = (&DAT_14481f730)[uVar1 >> 0x18] ^ (&DAT_14481ff30)[uVar5 >> 8 & 0xff] ^
+            (&DAT_14481fb30)[uVar6 >> 0x10 & 0xff] ^ (&DAT_144820330)[uVar4 & 0xff] ^ puVar9[0xb];
+  }
+  uVar6 = CONCAT31(CONCAT21(CONCAT11((&DAT_14481f630)[uVar2 >> 0x18],
+                                     (&DAT_14481f630)[uVar3 >> 0x10 & 0xff]),
+                            (&DAT_14481f630)[uVar7 >> 8 & 0xff]),(&DAT_14481f630)[uVar1 & 0xff]) ^
+          puVar10[4];
+  uVar5 = CONCAT31(CONCAT21(CONCAT11((&DAT_14481f630)[uVar3 >> 0x18],
+                                     (&DAT_14481f630)[uVar7 >> 0x10 & 0xff]),
+                            (&DAT_14481f630)[uVar1 >> 8 & 0xff]),(&DAT_14481f630)[uVar2 & 0xff]) ^
+          puVar10[5];
+  uVar4 = CONCAT31(CONCAT21(CONCAT11((&DAT_14481f630)[uVar7 >> 0x18],
+                                     (&DAT_14481f630)[uVar1 >> 0x10 & 0xff]),
+                            (&DAT_14481f630)[uVar2 >> 8 & 0xff]),(&DAT_14481f630)[uVar3 & 0xff]) ^
+          puVar10[6];
+  uVar1 = CONCAT31(CONCAT21(CONCAT11((&DAT_14481f630)[uVar1 >> 0x18],
+                                     (&DAT_14481f630)[uVar2 >> 0x10 & 0xff]),
+                            (&DAT_14481f630)[uVar3 >> 8 & 0xff]),(&DAT_14481f630)[uVar7 & 0xff]) ^
+          puVar10[7];
+  *param_3 = (char)(uVar6 >> 0x18);
+  param_3[1] = (char)(uVar6 >> 0x10);
+  param_3[2] = (char)(uVar6 >> 8);
+  param_3[4] = (char)(uVar5 >> 0x18);
+  param_3[5] = (char)(uVar5 >> 0x10);
+  param_3[6] = (char)(uVar5 >> 8);
+  param_3[8] = (char)(uVar4 >> 0x18);
+  param_3[9] = (char)(uVar4 >> 0x10);
+  param_3[10] = (char)(uVar4 >> 8);
+  param_3[0xc] = (char)(uVar1 >> 0x18);
+  param_3[0xd] = (char)(uVar1 >> 0x10);
+  param_3[0xe] = (char)(uVar1 >> 8);
+  param_3[3] = (char)uVar6;
+  param_3[7] = (char)uVar5;
+  param_3[0xb] = (char)uVar4;
+  param_3[0xf] = (char)uVar1;
+  return;
+}
+
+

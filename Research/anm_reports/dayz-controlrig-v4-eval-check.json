@@ -1,0 +1,266 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_controlrig_v4_fullclone.blend",
+  "mode": "POSE",
+  "visible_ctrl": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "rows": [
+    {
+      "bone": "LeftArm",
+      "dayz_head": [
+        0.15999990701675415,
+        0.010294625535607338,
+        1.429969072341919
+      ],
+      "ctrl_head": [
+        0.15999990701675415,
+        0.010294625535607338,
+        1.429969072341919
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "LeftArmRoll",
+      "dayz_head": [
+        0.0023894459009170532,
+        0.13341575860977173,
+        1.4303367137908936
+      ],
+      "ctrl_head": [
+        0.0023894459009170532,
+        0.13341575860977173,
+        1.4303367137908936
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "LeftForeArm",
+      "dayz_head": [
+        -0.04703265428543091,
+        0.2082168161869049,
+        1.4224481582641602
+      ],
+      "ctrl_head": [
+        -0.04703265428543091,
+        0.2082168161869049,
+        1.4224481582641602
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "dayz_head": [
+        0.005888067185878754,
+        0.4050687551498413,
+        1.4304850101470947
+      ],
+      "ctrl_head": [
+        0.005888067185878754,
+        0.4050687551498413,
+        1.4304850101470947
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "LeftHand",
+      "dayz_head": [
+        0.05533507093787193,
+        0.4541376829147339,
+        1.416764736175537
+      ],
+      "ctrl_head": [
+        0.05533507093787193,
+        0.4541376829147339,
+        1.416764736175537
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": [
+        [
+          "DAT FullClone Arm IK",
+          "IK",
+          5,
+          -1.5707963705062866
+        ]
+      ]
+    },
+    {
+      "bone": "RightArm",
+      "dayz_head": [
+        -0.15992499887943268,
+        0.010279666632413864,
+        1.4302585124969482
+      ],
+      "ctrl_head": [
+        -0.15992499887943268,
+        0.010279666632413864,
+        1.4302585124969482
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "RightArmRoll",
+      "dayz_head": [
+        0.031012237071990967,
+        0.05818513035774231,
+        1.4655860662460327
+      ],
+      "ctrl_head": [
+        0.031012237071990967,
+        0.05818513035774231,
+        1.4655860662460327
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "RightForeArm",
+      "dayz_head": [
+        0.1103818342089653,
+        0.10060290992259979,
+        1.4666881561279297
+      ],
+      "ctrl_head": [
+        0.1103818342089653,
+        0.10060290992259979,
+        1.4666881561279297
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "dayz_head": [
+        0.22819173336029053,
+        0.23391754925251007,
+        1.3668689727783203
+      ],
+      "ctrl_head": [
+        0.22819173336029053,
+        0.23391754925251007,
+        1.3668689727783203
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": []
+    },
+    {
+      "bone": "RightHand",
+      "dayz_head": [
+        0.2419082224369049,
+        0.29922157526016235,
+        1.3426141738891602
+      ],
+      "ctrl_head": [
+        0.2419082224369049,
+        0.29922157526016235,
+        1.3426141738891602
+      ],
+      "head_delta": 0.0,
+      "matrix_delta_sum": 0.0,
+      "dayz_constraints": [
+        [
+          "DAT FullClone Follow",
+          "COPY_TRANSFORMS",
+          "POSE",
+          "POSE"
+        ]
+      ],
+      "ctrl_constraints": [
+        [
+          "DAT FullClone Arm IK",
+          "IK",
+          5,
+          -1.5707963705062866
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_action": "toy_ik",
+  "export": "C:\\temp\\dayz_ik1h_proxy_workflow\\toy_ik_live_position_verify.anm",
+  "tracks": 22,
+  "position_tracks": 22,
+  "missing_position_tracks": [],
+  "RightHand_posKeys": 1,
+  "position_names": [
+    "RightHand",
+    "RightHandRing",
+    "RightHandRing1",
+    "RightHandRing2",
+    "RightHandRing3",
+    "RightHandThumb1",
+    "RightHandThumb2",
+    "RightHandThumb3",
+    "RightHandMiddle1",
+    "RightHandMiddle2",
+    "RightHandMiddle3",
+    "RightHandIndex1",
+    "RightHandIndex2",
+    "RightHandIndex3",
+    "RightHandPinky",
+    "RightHandPinky1",
+    "RightHandPinky2",
+    "RightHandPinky3",
+    "RightHand_Dummy",
+    "RightForeArmDirectionOrigin",
+    "RightHandOrigin",
+    "RightForeArmDirection"
+  ]
+}

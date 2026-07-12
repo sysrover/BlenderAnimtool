@@ -1,0 +1,26 @@
+Constants decoded from DayZDiag_x64.exe memory:
+DAT_140de84d0 = 0.9800000190734863: reach limit multiplier for (upper_len + lower_len).
+DAT_140de84bc = 0.25: used with doubled cosine term; sqrt(a*a - doubled_x*doubled_x*0.25) == sqrt(a*a - x*x).
+DAT_140de2ec8 = 0.5: half scalar; also final r3 twist slerp blend.
+DAT_140de2ec4 = 1.1754943508222875e-38: tiny positive epsilon for root-target distance checks.
+DAT_140de2ed4 = 3.4028234663852886e+38: max float guard.
+DAT_140de5a84 = 9.999999747378752e-05: min length sum before re-normalizing final end vector length.
+_DAT_140de9234 = 0.9990000128746033: quaternion lerp-vs-slerp threshold.
+_DAT_14111d940 = (0,0,0,1): identity quaternion in engine x,y,z,w layout.
+DAT_140de7550 = 0x7fffffff mask: float absolute value mask.
+DAT_140de2b50 = 0x80000000 sign mask: float sign flip mask.
+
+Updated formula:
+reach = max(abs(a-b), min(targetDistance, (a+b)*0.98))
+doubledX = (a*a - b*b) / reach + reach
+x = doubledX * 0.5
+h = sqrt(a*a - doubledX*doubledX*0.25)
+
+Final twist phase from decompile lines 443-474:
+delta = targetQ * inverse(endQ)
+p = endPos - midPos
+proj = dot(p, delta.xyz)
+twist = normalize(quat(xyz = p * proj / dot(p,p), w = delta.w))
+if proj < 0: twist = -twist
+r3Target = r3Q * twist
+r3Q = slerp_dayz(r3Q, r3Target, 0.5)

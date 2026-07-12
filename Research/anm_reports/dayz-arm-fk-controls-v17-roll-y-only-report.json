@@ -1,0 +1,90 @@
+{
+  "source_file": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v16_shape_mirror_fix.blend",
+  "save_as": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v17_roll_y_only.blend",
+  "changed": [
+    {
+      "bone": "FK_RightForeArmRoll.R",
+      "before": {
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false
+      },
+      "after": {
+        "rotation_mode": "XYZ",
+        "lock_rotation": [
+          true,
+          false,
+          true
+        ],
+        "lock_rotation_w": false
+      }
+    },
+    {
+      "bone": "FK_LeftForeArmRoll.L",
+      "before": {
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false
+      },
+      "after": {
+        "rotation_mode": "XYZ",
+        "lock_rotation": [
+          true,
+          false,
+          true
+        ],
+        "lock_rotation_w": false
+      }
+    },
+    {
+      "bone": "FK_RightArmRoll.R",
+      "before": {
+        "rotation_mode": "XYZ",
+        "lock_rotation": [
+          true,
+          false,
+          true
+        ],
+        "lock_rotation_w": false
+      },
+      "after": {
+        "rotation_mode": "XYZ",
+        "lock_rotation": [
+          true,
+          false,
+          true
+        ],
+        "lock_rotation_w": false
+      }
+    },
+    {
+      "bone": "FK_LeftArmRoll.L",
+      "before": {
+        "rotation_mode": "XYZ",
+        "lock_rotation": [
+          true,
+          false,
+          true
+        ],
+        "lock_rotation_w": false
+      },
+      "after": {
+        "rotation_mode": "XYZ",
+        "lock_rotation": [
+          true,
+          false,
+          true
+        ],
+        "lock_rotation_w": false
+      }
+    }
+  ]
+}

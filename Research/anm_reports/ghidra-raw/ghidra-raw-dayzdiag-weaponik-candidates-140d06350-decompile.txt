@@ -1,0 +1,150 @@
+
+void FUN_140d06350(byte *param_1,int param_2,longlong param_3)
+
+{
+  byte bVar1;
+  byte bVar2;
+  int iVar3;
+  int iVar4;
+  byte *pbVar5;
+  byte bVar6;
+  
+  bVar6 = param_1[-1];
+  bVar2 = *param_1;
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)param_1[-2] + (((uint)bVar2 - (uint)bVar6) * 3 - (uint)param_1[1])) +
+                   4 >> 3) * 4);
+  bVar1 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar1 = 0xff;
+  }
+  param_1[-1] = bVar1 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = bVar2 - (char)iVar3;
+  if (0xff < (int)((uint)bVar2 - iVar3)) {
+    bVar6 = 0xff;
+  }
+  *param_1 = bVar6 & -(char)((int)((uint)bVar2 - iVar3) >> 0x1f) - 1U;
+  pbVar5 = param_1 + -2 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  iVar3 = (uint)pbVar5[2] - iVar3;
+  if (0xff < iVar3) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar3 >> 0x1f) - 1U;
+  pbVar5 = pbVar5 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  iVar3 = (uint)pbVar5[2] - iVar3;
+  if (0xff < iVar3) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar3 >> 0x1f) - 1U;
+  pbVar5 = pbVar5 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  iVar3 = (uint)pbVar5[2] - iVar3;
+  if (0xff < iVar3) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar3 >> 0x1f) - 1U;
+  pbVar5 = pbVar5 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  iVar4 = (uint)pbVar5[2] - iVar3;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  if (0xff < iVar4) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar4 >> 0x1f) - 1U;
+  pbVar5 = pbVar5 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  iVar3 = (uint)pbVar5[2] - iVar3;
+  if (0xff < iVar3) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar3 >> 0x1f) - 1U;
+  pbVar5 = pbVar5 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  iVar3 = (uint)pbVar5[2] - iVar3;
+  if (0xff < iVar3) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar3 >> 0x1f) - 1U;
+  pbVar5 = pbVar5 + param_2;
+  bVar6 = pbVar5[1];
+  iVar3 = *(int *)(param_3 +
+                  ((longlong)
+                   (int)((uint)*pbVar5 + (((uint)pbVar5[2] - (uint)bVar6) * 3 - (uint)pbVar5[3])) +
+                   4 >> 3) * 4);
+  bVar2 = bVar6 + (char)iVar3;
+  if (0xff < (int)((uint)bVar6 + iVar3)) {
+    bVar2 = 0xff;
+  }
+  pbVar5[1] = bVar2 & -(char)((int)((uint)bVar6 + iVar3) >> 0x1f) - 1U;
+  bVar6 = pbVar5[2] - (char)iVar3;
+  iVar3 = (uint)pbVar5[2] - iVar3;
+  if (0xff < iVar3) {
+    bVar6 = 0xff;
+  }
+  pbVar5[2] = bVar6 & -(char)(iVar3 >> 0x1f) - 1U;
+  return;
+}
+
+

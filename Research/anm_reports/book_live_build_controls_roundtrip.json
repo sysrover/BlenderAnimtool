@@ -1,0 +1,138 @@
+{
+  "source": "P:\\DZ\\anims\\anm\\player\\ik\\gear\\book.anm",
+  "output": "P:\\BlenderAnimtool\\Research\\anm_reports\\book_live_build_controls_roundtrip.anm",
+  "build_error": null,
+  "action": "book",
+  "frame0_visual_max_location": 0.06840847117094448,
+  "frame0_visual_max_rotation_deg": 14.987728275021807,
+  "frame0_visual_top10": [
+    {
+      "bone": "RightHand",
+      "location": 0.023075262087447323,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandIndex1",
+      "location": 0.03966372329894142,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandIndex2",
+      "location": 0.05069699491818563,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandMiddle2",
+      "location": 0.053607791850752706,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandMiddle3",
+      "location": 0.060055359808083665,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandPinky1",
+      "location": 0.042660350543040806,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandPinky2",
+      "location": 0.052174554710230955,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandPinky3",
+      "location": 0.056825472037283824,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandRing2",
+      "location": 0.05408405157369239,
+      "rotation_deg": 14.987728275021807
+    },
+    {
+      "bone": "RightHandIndex3",
+      "location": 0.056935975133234396,
+      "rotation_deg": 14.987677048603032
+    }
+  ],
+  "source_meta": [
+    "AnimSet6",
+    30,
+    2,
+    21
+  ],
+  "output_meta": [
+    "AnimSet6",
+    30,
+    2,
+    22
+  ],
+  "missing_tracks": [],
+  "extra_tracks": [
+    "RightForeArmDirectionOrigin"
+  ],
+  "frame0_max_channel_error": 1.97545746678518e-05,
+  "frame0_worst": {
+    "bone": "RightHandMiddle2",
+    "channel": "rotation"
+  },
+  "frame0_top10": [
+    {
+      "error": 1.97545746678518e-05,
+      "bone": "RightHandMiddle2",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.7633896638447055e-05,
+      "bone": "RightHandIndex1",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.748301172385669e-05,
+      "bone": "RightHandMiddle3",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.6438278763894476e-05,
+      "bone": "RightHandThumb2",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.6341362247873636e-05,
+      "bone": "RightHandIndex3",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.619621037916852e-05,
+      "bone": "RightHandPinky2",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.611586877053872e-05,
+      "bone": "RightHand_Dummy",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.579533958476209e-05,
+      "bone": "RightHandMiddle1",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.5723270727310834e-05,
+      "bone": "RightHandPinky1",
+      "channel": "rotation"
+    },
+    {
+      "error": 1.5457362137538677e-05,
+      "bone": "RightHandThumb3",
+      "channel": "rotation"
+    }
+  ],
+  "source_size": 1790,
+  "output_size": 1577,
+  "source_sha256": "b0929bc9b83c7f366d3ac067f1ac5b43c0c3a20160f7fd0d08a3c27fb3e2eea4",
+  "output_sha256": "c840893b7236918b72cd94874cc73cf07df11c4f7e3f1b59b37debf79ced1a42",
+  "byte_exact": false
+}

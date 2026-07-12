@@ -1,0 +1,22 @@
+
+void FUN_140737580(longlong param_1,undefined8 *param_2,undefined8 *param_3)
+
+{
+  undefined8 local_28;
+  undefined8 uStack_20;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+  EnterCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x348));
+  local_28 = *param_3;
+  uStack_20 = param_3[1];
+  local_18 = *param_2;
+  uStack_10 = param_2[1];
+  FUN_1407375f0((longlong *)(param_1 + 0x10),&local_18,&local_28);
+                    /* WARNING: Could not recover jumptable at 0x0001407375e8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  LeaveCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x348));
+  return;
+}
+
+

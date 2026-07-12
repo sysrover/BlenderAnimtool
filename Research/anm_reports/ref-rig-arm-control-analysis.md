@@ -1,0 +1,481 @@
+# Reference Rig Arm Control Analysis
+
+Source: `C:\Users\sysro\Downloads\BlenderPoses.blend`
+
+## Armature
+
+- bone count: `156`
+- interesting bones: `72`
+- interesting constraints: `140`
+
+### High-value bones
+
+- `LeftArm`
+- `LeftArmTwist`
+- `LeftArmVolume`
+- `LeftForeArm`
+- `LeftForeArmTwist`
+- `LeftForeArmVolume`
+- `LeftHand`
+- `LeftHandInbetween`
+- `LeftHandIndex1`
+- `LeftHandIndex2`
+- `LeftHandIndex3`
+- `LeftHandIndex4`
+- `LeftHandIndex5`
+- `LeftHandLowerVolume`
+- `LeftHandMiddle1`
+- `LeftHandMiddle2`
+- `LeftHandMiddle3`
+- `LeftHandMiddle4`
+- `LeftHandMiddle5`
+- `LeftHandPinky1`
+- `LeftHandPinky2`
+- `LeftHandPinky3`
+- `LeftHandPinky4`
+- `LeftHandPinky5`
+- `LeftHandProp`
+- `LeftHandRing1`
+- `LeftHandRing2`
+- `LeftHandRing3`
+- `LeftHandRing4`
+- `LeftHandRing5`
+- `LeftHandThumb1`
+- `LeftHandThumb2`
+- `LeftHandThumb3`
+- `LeftHandThumb4`
+- `LeftHandThumb5`
+- `LeftHandUpperVolume`
+- `RightArm`
+- `RightArmTwist`
+- `RightArmVolume`
+- `RightForeArm`
+- `RightForeArmTwist`
+- `RightForeArmVolume`
+- `RightHand`
+- `RightHandInbetween`
+- `RightHandIndex1`
+- `RightHandIndex2`
+- `RightHandIndex3`
+- `RightHandIndex4`
+- `RightHandIndex5`
+- `RightHandLowerVolume`
+- `RightHandMiddle1`
+- `RightHandMiddle2`
+- `RightHandMiddle3`
+- `RightHandMiddle4`
+- `RightHandMiddle5`
+- `RightHandPinky1`
+- `RightHandPinky2`
+- `RightHandPinky3`
+- `RightHandPinky4`
+- `RightHandPinky5`
+- `RightHandProp`
+- `RightHandRing1`
+- `RightHandRing2`
+- `RightHandRing3`
+- `RightHandRing4`
+- `RightHandRing5`
+- `RightHandThumb1`
+- `RightHandThumb2`
+- `RightHandThumb3`
+- `RightHandThumb4`
+- `RightHandThumb5`
+- `RightHandUpperVolume`
+
+### Constraints
+
+- `RightArm` | COPY_TRANSFORMS | target=`child_RightArm` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightArmTwist` | COPY_TRANSFORMS | target=`child_RightArmTwist` | sub=`` | infl=1.0
+- `RightForeArm` | COPY_TRANSFORMS | target=`child_RightForeArm` | sub=`` | infl=1.0
+- `RightForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightForeArmTwist` | COPY_TRANSFORMS | target=`child_RightForeArmTwist` | sub=`` | infl=1.0
+- `RightHand` | COPY_TRANSFORMS | target=`child_RightHand` | sub=`` | infl=1.0
+- `RightHandMiddle1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandMiddle1` | COPY_TRANSFORMS | target=`child_RightHandMiddle1` | sub=`` | infl=1.0
+- `RightHandMiddle2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandMiddle2` | COPY_TRANSFORMS | target=`child_RightHandMiddle2` | sub=`` | infl=1.0
+- `RightHandMiddle3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandMiddle3` | COPY_TRANSFORMS | target=`child_RightHandMiddle3` | sub=`` | infl=1.0
+- `RightHandMiddle4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandMiddle4` | COPY_TRANSFORMS | target=`child_RightHandMiddle4` | sub=`` | infl=1.0
+- `RightHandRing1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandRing1` | COPY_TRANSFORMS | target=`child_RightHandRing1` | sub=`` | infl=1.0
+- `RightHandRing2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandRing2` | COPY_TRANSFORMS | target=`child_RightHandRing2` | sub=`` | infl=1.0
+- `RightHandRing3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandRing3` | COPY_TRANSFORMS | target=`child_RightHandRing3` | sub=`` | infl=1.0
+- `RightHandRing4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandRing4` | COPY_TRANSFORMS | target=`child_RightHandRing4` | sub=`` | infl=1.0
+- `RightHandPinky1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandPinky1` | COPY_TRANSFORMS | target=`child_RightHandPinky1` | sub=`` | infl=1.0
+- `RightHandPinky2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandPinky2` | COPY_TRANSFORMS | target=`child_RightHandPinky2` | sub=`` | infl=1.0
+- `RightHandPinky3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandPinky3` | COPY_TRANSFORMS | target=`child_RightHandPinky3` | sub=`` | infl=1.0
+- `RightHandPinky4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandPinky4` | COPY_TRANSFORMS | target=`child_RightHandPinky4` | sub=`` | infl=1.0
+- `RightHandIndex1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandIndex1` | COPY_TRANSFORMS | target=`child_RightHandIndex1` | sub=`` | infl=1.0
+- `RightHandIndex2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandIndex2` | COPY_TRANSFORMS | target=`child_RightHandIndex2` | sub=`` | infl=1.0
+- `RightHandIndex3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandIndex3` | COPY_TRANSFORMS | target=`child_RightHandIndex3` | sub=`` | infl=1.0
+- `RightHandIndex4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandIndex4` | COPY_TRANSFORMS | target=`child_RightHandIndex4` | sub=`` | infl=1.0
+- `RightHandThumb2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandThumb2` | COPY_TRANSFORMS | target=`child_RightHandThumb2` | sub=`` | infl=1.0
+- `RightHandThumb3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandThumb3` | COPY_TRANSFORMS | target=`child_RightHandThumb3` | sub=`` | infl=1.0
+- `RightHandThumb4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `RightHandThumb4` | COPY_TRANSFORMS | target=`child_RightHandThumb4` | sub=`` | infl=1.0
+- `RightHandProp` | COPY_TRANSFORMS | target=`child_RightHandProp` | sub=`` | infl=1.0
+- `LeftArm` | COPY_TRANSFORMS | target=`child_LeftArm` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftArmTwist` | COPY_TRANSFORMS | target=`child_LeftArmTwist` | sub=`` | infl=1.0
+- `LeftForeArm` | COPY_TRANSFORMS | target=`child_LeftForeArm` | sub=`` | infl=1.0
+- `LeftForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftForeArmTwist` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftForeArmTwist` | COPY_TRANSFORMS | target=`child_LeftForeArmTwist` | sub=`` | infl=1.0
+- `LeftHand` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHand` | COPY_TRANSFORMS | target=`child_LeftHand` | sub=`` | infl=1.0
+- `LeftHandProp` | COPY_TRANSFORMS | target=`child_LeftHandProp` | sub=`` | infl=1.0
+- `LeftHandMiddle1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle1` | COPY_TRANSFORMS | target=`child_LeftHandMiddle1` | sub=`` | infl=1.0
+- `LeftHandMiddle2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle2` | COPY_TRANSFORMS | target=`child_LeftHandMiddle2` | sub=`` | infl=1.0
+- `LeftHandMiddle3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle3` | COPY_TRANSFORMS | target=`child_LeftHandMiddle3` | sub=`` | infl=1.0
+- `LeftHandMiddle4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandMiddle4` | COPY_TRANSFORMS | target=`child_LeftHandMiddle4` | sub=`` | infl=1.0
+- `LeftHandRing1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing1` | COPY_TRANSFORMS | target=`child_LeftHandRing1` | sub=`` | infl=1.0
+- `LeftHandRing2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing2` | COPY_TRANSFORMS | target=`child_LeftHandRing2` | sub=`` | infl=1.0
+- `LeftHandRing3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing3` | COPY_TRANSFORMS | target=`child_LeftHandRing3` | sub=`` | infl=1.0
+- `LeftHandRing4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandRing4` | COPY_TRANSFORMS | target=`child_LeftHandRing4` | sub=`` | infl=1.0
+- `LeftHandPinky1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky1` | COPY_TRANSFORMS | target=`child_LeftHandPinky1` | sub=`` | infl=1.0
+- `LeftHandPinky2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky2` | COPY_TRANSFORMS | target=`child_LeftHandPinky2` | sub=`` | infl=1.0
+- `LeftHandPinky3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky3` | COPY_TRANSFORMS | target=`child_LeftHandPinky3` | sub=`` | infl=1.0
+- `LeftHandPinky4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandPinky4` | COPY_TRANSFORMS | target=`child_LeftHandPinky4` | sub=`` | infl=1.0
+- `LeftHandIndex1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex1` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex1` | COPY_TRANSFORMS | target=`child_LeftHandIndex1` | sub=`` | infl=1.0
+- `LeftHandIndex2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex2` | COPY_TRANSFORMS | target=`child_LeftHandIndex2` | sub=`` | infl=1.0
+- `LeftHandIndex3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex3` | COPY_TRANSFORMS | target=`child_LeftHandIndex3` | sub=`` | infl=1.0
+- `LeftHandIndex4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandIndex4` | COPY_TRANSFORMS | target=`child_LeftHandIndex4` | sub=`` | infl=1.0
+- `LeftHandThumb2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandThumb2` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandThumb2` | COPY_TRANSFORMS | target=`child_LeftHandThumb2` | sub=`` | infl=1.0
+- `LeftHandThumb3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandThumb3` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandThumb3` | COPY_TRANSFORMS | target=`child_LeftHandThumb3` | sub=`` | infl=1.0
+- `LeftHandThumb4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandThumb4` | COPY_TRANSFORMS | target=`None` | sub=`` | infl=1.0
+- `LeftHandThumb4` | COPY_TRANSFORMS | target=`child_LeftHandThumb4` | sub=`` | infl=1.0
+
+## rig
+
+- bone count: `734`
+- interesting bones: `101`
+- interesting constraints: `141`
+
+### High-value bones
+
+- `DEF-forearm.L`
+- `DEF-forearm.L.001`
+- `DEF-forearm.R`
+- `DEF-forearm.R.001`
+- `DEF-hand.L`
+- `DEF-hand.R`
+- `DEF-upper_arm.L`
+- `DEF-upper_arm.L.001`
+- `DEF-upper_arm.R`
+- `DEF-upper_arm.R.001`
+- `LeftForeArmDirectionOriginPose`
+- `LeftHandOriginPose`
+- `MCH-foot_ik.parent.L`
+- `MCH-foot_ik.parent.R`
+- `MCH-forearm_ik.L`
+- `MCH-forearm_ik.R`
+- `MCH-forearm_tweak.L`
+- `MCH-forearm_tweak.L.001`
+- `MCH-forearm_tweak.R`
+- `MCH-forearm_tweak.R.001`
+- `MCH-hand_fk.L`
+- `MCH-hand_fk.R`
+- `MCH-hand_ik.parent.L`
+- `MCH-hand_ik.parent.R`
+- `MCH-hand_tweak.L`
+- `MCH-hand_tweak.R`
+- `MCH-shin_ik.L`
+- `MCH-shin_ik.R`
+- `MCH-spine_ik.006`
+- `MCH-spine_ik.007`
+- `MCH-spine_ik.008`
+- `MCH-thigh_ik_swing.L`
+- `MCH-thigh_ik_swing.R`
+- `MCH-thigh_ik_target.L`
+- `MCH-thigh_ik_target.R`
+- `MCH-thigh_ik_target.parent.L`
+- `MCH-thigh_ik_target.parent.R`
+- `MCH-upper_arm_ik_swing.L`
+- `MCH-upper_arm_ik_swing.R`
+- `MCH-upper_arm_ik_target.L`
+- `MCH-upper_arm_ik_target.R`
+- `MCH-upper_arm_ik_target.parent.L`
+- `MCH-upper_arm_ik_target.parent.R`
+- `MCH-upper_arm_parent.L`
+- `MCH-upper_arm_parent.R`
+- `MCH-upper_arm_parent_widget.L`
+- `MCH-upper_arm_parent_widget.R`
+- `MCH-upper_arm_tweak.L`
+- `MCH-upper_arm_tweak.L.001`
+- `MCH-upper_arm_tweak.R`
+- `MCH-upper_arm_tweak.R.001`
+- `ORG-LeftForeArmDirectionOriginPose`
+- `ORG-LeftHandOriginPose`
+- `ORG-RightForeArmDirectionOriginPose`
+- `ORG-RightHandOriginPose`
+- `ORG-forearm.L`
+- `ORG-forearm.R`
+- `ORG-hand.L`
+- `ORG-hand.R`
+- `ORG-upper_arm.L`
+- `ORG-upper_arm.R`
+- `RightForeArmDirectionOriginPose`
+- `RightHandOriginPose`
+- `VIS_thigh_ik_pole.L`
+- `VIS_thigh_ik_pole.R`
+- `VIS_upper_arm_ik_pole.L`
+- `VIS_upper_arm_ik_pole.R`
+- `foot_heel_ik.L`
+- `foot_heel_ik.R`
+- `foot_ik.L`
+- `foot_ik.R`
+- `foot_spin_ik.L`
+- `foot_spin_ik.R`
+- `forearm_fk.L`
+- `forearm_fk.R`
+- `forearm_tweak.L`
+- `forearm_tweak.L.001`
+- `forearm_tweak.R`
+- `forearm_tweak.R.001`
+- `hand_fk.L`
+- `hand_fk.R`
+- `hand_ik.L`
+- `hand_ik.R`
+- `hand_tweak.L`
+- `hand_tweak.R`
+- `thigh_ik.L`
+- `thigh_ik.R`
+- `thigh_ik_target.L`
+- `thigh_ik_target.R`
+- `upper_arm_fk.L`
+- `upper_arm_fk.R`
+- `upper_arm_ik.L`
+- `upper_arm_ik.R`
+- `upper_arm_ik_target.L`
+- `upper_arm_ik_target.R`
+- `upper_arm_parent.L`
+- `upper_arm_parent.R`
+- `upper_arm_tweak.L`
+- `upper_arm_tweak.L.001`
+- `upper_arm_tweak.R`
+- `upper_arm_tweak.R.001`
+
+### Constraints
+
+- `ORG-LeftForeArmDirectionOriginPose` | COPY_LOCATION | target=`rig` | sub=`LeftForeArmDirectionOriginPose` | infl=1.0
+- `ORG-LeftHandOriginPose` | COPY_LOCATION | target=`rig` | sub=`LeftHandOriginPose` | infl=1.0
+- `ORG-RightForeArmDirectionOriginPose` | COPY_LOCATION | target=`rig` | sub=`RightForeArmDirectionOriginPose` | infl=1.0
+- `ORG-RightHandOriginPose` | COPY_LOCATION | target=`rig` | sub=`RightHandOriginPose` | infl=1.0
+- `VIS_upper_arm_ik_pole.L` | COPY_LOCATION | target=`rig` | sub=`ORG-forearm.L` | infl=1.0
+- `VIS_upper_arm_ik_pole.L` | STRETCH_TO | target=`rig` | sub=`upper_arm_ik_target.L` | infl=1.0
+- `VIS_upper_arm_ik_pole.R` | COPY_LOCATION | target=`rig` | sub=`ORG-forearm.R` | infl=1.0
+- `VIS_upper_arm_ik_pole.R` | STRETCH_TO | target=`rig` | sub=`upper_arm_ik_target.R` | infl=1.0
+- `VIS_thigh_ik_pole.L` | COPY_LOCATION | target=`rig` | sub=`ORG-shin.L` | infl=1.0
+- `VIS_thigh_ik_pole.L` | STRETCH_TO | target=`rig` | sub=`thigh_ik_target.L` | infl=1.0
+- `VIS_thigh_ik_pole.R` | COPY_LOCATION | target=`rig` | sub=`ORG-shin.R` | infl=1.0
+- `VIS_thigh_ik_pole.R` | STRETCH_TO | target=`rig` | sub=`thigh_ik_target.R` | infl=1.0
+- `ORG-thigh.L` | COPY_TRANSFORMS | target=`rig` | sub=`thigh_fk.L` | infl=1.0
+- `ORG-thigh.L` | COPY_TRANSFORMS | target=`rig` | sub=`thigh_ik.L` | infl=0.0
+- `ORG-shin.L` | COPY_TRANSFORMS | target=`rig` | sub=`shin_fk.L` | infl=1.0
+- `ORG-shin.L` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-shin_ik.L` | infl=0.0
+- `ORG-foot.L` | COPY_TRANSFORMS | target=`rig` | sub=`foot_fk.L` | infl=1.0
+- `ORG-foot.L` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-thigh_ik_target.L` | infl=0.0
+- `ORG-thigh.R` | COPY_TRANSFORMS | target=`rig` | sub=`thigh_fk.R` | infl=1.0
+- `ORG-thigh.R` | COPY_TRANSFORMS | target=`rig` | sub=`thigh_ik.R` | infl=0.0
+- `ORG-shin.R` | COPY_TRANSFORMS | target=`rig` | sub=`shin_fk.R` | infl=1.0
+- `ORG-shin.R` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-shin_ik.R` | infl=0.0
+- `ORG-foot.R` | COPY_TRANSFORMS | target=`rig` | sub=`foot_fk.R` | infl=1.0
+- `ORG-foot.R` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-thigh_ik_target.R` | infl=0.0
+- `MCH-thigh_ik_swing.L` | DAMPED_TRACK | target=`rig` | sub=`MCH-thigh_ik_target.L` | infl=1.0
+- `MCH-shin_ik.L` | IK | target=`rig` | sub=`MCH-thigh_ik_target.L` | chain=2 | infl=1.0
+- `MCH-shin_ik.L` | IK | target=`rig` | sub=`MCH-thigh_ik_target.L` | pole=`thigh_ik_target.L` | chain=2 | infl=1.0
+- `MCH-thigh_ik_swing.R` | DAMPED_TRACK | target=`rig` | sub=`MCH-thigh_ik_target.R` | infl=1.0
+- `MCH-shin_ik.R` | IK | target=`rig` | sub=`MCH-thigh_ik_target.R` | chain=2 | infl=1.0
+- `MCH-shin_ik.R` | IK | target=`rig` | sub=`MCH-thigh_ik_target.R` | pole=`thigh_ik_target.R` | chain=2 | infl=1.0
+- `MCH-spine_ik.008` | IK | target=`rig` | sub=`head` | chain=3 | infl=1.0
+- `MCH-spine.007` | COPY_LOCATION | target=`rig` | sub=`MCH-spine_ik.007` | infl=1.0
+- `MCH-spine.007` | COPY_LOCATION | target=`rig` | sub=`neck_bend` | infl=0.8888888955116272
+- `MCH-spine.008` | COPY_LOCATION | target=`rig` | sub=`MCH-spine_ik.008` | infl=1.0
+- `MCH-spine.008` | COPY_LOCATION | target=`rig` | sub=`neck_bend` | infl=0.8888888955116272
+- `ORG-upper_arm.L` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_fk.L` | infl=1.0
+- `ORG-upper_arm.L` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_ik.L` | infl=0.0
+- `ORG-forearm.L` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_fk.L` | infl=1.0
+- `ORG-forearm.L` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-forearm_ik.L` | infl=0.0
+- `ORG-hand.L` | COPY_TRANSFORMS | target=`rig` | sub=`hand_fk.L` | infl=1.0
+- `ORG-hand.L` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-upper_arm_ik_target.L` | infl=0.0
+- `MCH-forearm_tweak.L` | COPY_SCALE | target=`rig` | sub=`MCH-upper_arm_parent.L` | infl=1.0
+- `MCH-forearm_tweak.L.001` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.L` | infl=1.0
+- `MCH-forearm_tweak.L.001` | COPY_TRANSFORMS | target=`rig` | sub=`hand_tweak.L` | infl=0.5
+- `MCH-forearm_tweak.L.001` | DAMPED_TRACK | target=`rig` | sub=`hand_tweak.L` | infl=1.0
+- `MCH-upper_arm_parent_widget.L` | COPY_SCALE | target=`rig` | sub=`root` | infl=1.0
+- `MCH-upper_arm_tweak.L.001` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_tweak.L` | infl=1.0
+- `MCH-upper_arm_tweak.L.001` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.L` | infl=0.5
+- `MCH-upper_arm_tweak.L.001` | DAMPED_TRACK | target=`rig` | sub=`forearm_tweak.L` | infl=1.0
+- `MCH-upper_arm_parent.L` | COPY_SCALE | target=`rig` | sub=`root` | infl=1.0
+- `MCH-upper_arm_parent.L` | COPY_ROTATION | target=`rig` | sub=`root` | infl=0.0
+- `MCH-hand_fk.L` | COPY_SCALE | target=`rig` | sub=`MCH-upper_arm_parent.L` | infl=1.0
+- `MCH-upper_arm_ik_swing.L` | DAMPED_TRACK | target=`rig` | sub=`MCH-upper_arm_ik_target.L` | infl=1.0
+- `MCH-forearm_ik.L` | IK | target=`rig` | sub=`MCH-upper_arm_ik_target.L` | chain=2 | infl=1.0
+- `MCH-forearm_ik.L` | IK | target=`rig` | sub=`MCH-upper_arm_ik_target.L` | pole=`upper_arm_ik_target.L` | chain=2 | infl=1.0
+- `MCH-upper_arm_tweak.L` | COPY_SCALE | target=`rig` | sub=`MCH-upper_arm_parent.L` | infl=1.0
+- `MCH-upper_arm_tweak.L` | COPY_LOCATION | target=`rig` | sub=`ORG-upper_arm.L` | infl=1.0
+- `MCH-upper_arm_tweak.L` | DAMPED_TRACK | target=`rig` | sub=`ORG-upper_arm.L` | infl=1.0
+- `DEF-upper_arm.L` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_tweak.L` | infl=1.0
+- `DEF-upper_arm.L` | STRETCH_TO | target=`rig` | sub=`upper_arm_tweak.L.001` | infl=1.0
+- `DEF-upper_arm.L.001` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_tweak.L.001` | infl=1.0
+- `DEF-upper_arm.L.001` | STRETCH_TO | target=`rig` | sub=`forearm_tweak.L` | infl=1.0
+- `DEF-forearm.L` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.L` | infl=1.0
+- `DEF-forearm.L` | STRETCH_TO | target=`rig` | sub=`forearm_tweak.L.001` | infl=1.0
+- `DEF-forearm.L.001` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.L.001` | infl=1.0
+- `DEF-forearm.L.001` | STRETCH_TO | target=`rig` | sub=`hand_tweak.L` | infl=1.0
+- `DEF-hand.L` | COPY_TRANSFORMS | target=`rig` | sub=`hand_tweak.L` | infl=1.0
+- `ORG-palm.01.L` | COPY_SCALE | target=`rig` | sub=`DEF-hand.L` | infl=1.0
+- `ORG-palm.02.L` | COPY_TRANSFORMS | target=`rig` | sub=`palm.L` | infl=0.3333333432674408
+- `ORG-palm.02.L` | COPY_SCALE | target=`rig` | sub=`DEF-hand.L` | infl=1.0
+- `ORG-palm.02.L` | COPY_ROTATION | target=`rig` | sub=`palm.L` | infl=0.26581165194511414
+- `ORG-palm.03.L` | COPY_TRANSFORMS | target=`rig` | sub=`palm.L` | infl=0.6666666865348816
+- `ORG-palm.03.L` | COPY_SCALE | target=`rig` | sub=`DEF-hand.L` | infl=1.0
+- `ORG-palm.03.L` | COPY_ROTATION | target=`rig` | sub=`palm.L` | infl=0.2777777910232544
+- `ORG-palm.04.L` | COPY_TRANSFORMS | target=`rig` | sub=`palm.L` | infl=1.0
+- `ORG-palm.04.L` | COPY_SCALE | target=`rig` | sub=`DEF-hand.L` | infl=1.0
+- `ORG-upper_arm.R` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_fk.R` | infl=1.0
+- `ORG-upper_arm.R` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_ik.R` | infl=0.0
+- `ORG-forearm.R` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_fk.R` | infl=1.0
+- `ORG-forearm.R` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-forearm_ik.R` | infl=0.0
+- `ORG-hand.R` | COPY_TRANSFORMS | target=`rig` | sub=`hand_fk.R` | infl=1.0
+- `ORG-hand.R` | COPY_TRANSFORMS | target=`rig` | sub=`MCH-upper_arm_ik_target.R` | infl=0.0
+- `MCH-forearm_tweak.R` | COPY_SCALE | target=`rig` | sub=`MCH-upper_arm_parent.R` | infl=1.0
+- `MCH-forearm_tweak.R.001` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.R` | infl=1.0
+- `MCH-forearm_tweak.R.001` | COPY_TRANSFORMS | target=`rig` | sub=`hand_tweak.R` | infl=0.5
+- `MCH-forearm_tweak.R.001` | DAMPED_TRACK | target=`rig` | sub=`hand_tweak.R` | infl=1.0
+- `MCH-upper_arm_parent_widget.R` | COPY_SCALE | target=`rig` | sub=`root` | infl=1.0
+- `MCH-upper_arm_tweak.R.001` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_tweak.R` | infl=1.0
+- `MCH-upper_arm_tweak.R.001` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.R` | infl=0.5
+- `MCH-upper_arm_tweak.R.001` | DAMPED_TRACK | target=`rig` | sub=`forearm_tweak.R` | infl=1.0
+- `MCH-upper_arm_parent.R` | COPY_SCALE | target=`rig` | sub=`root` | infl=1.0
+- `MCH-upper_arm_parent.R` | COPY_ROTATION | target=`rig` | sub=`root` | infl=0.0
+- `MCH-hand_fk.R` | COPY_SCALE | target=`rig` | sub=`MCH-upper_arm_parent.R` | infl=1.0
+- `MCH-upper_arm_ik_swing.R` | DAMPED_TRACK | target=`rig` | sub=`MCH-upper_arm_ik_target.R` | infl=1.0
+- `MCH-forearm_ik.R` | IK | target=`rig` | sub=`MCH-upper_arm_ik_target.R` | chain=2 | infl=1.0
+- `MCH-forearm_ik.R` | IK | target=`rig` | sub=`MCH-upper_arm_ik_target.R` | pole=`upper_arm_ik_target.R` | chain=2 | infl=1.0
+- `MCH-upper_arm_tweak.R` | COPY_SCALE | target=`rig` | sub=`MCH-upper_arm_parent.R` | infl=1.0
+- `MCH-upper_arm_tweak.R` | COPY_LOCATION | target=`rig` | sub=`ORG-upper_arm.R` | infl=1.0
+- `MCH-upper_arm_tweak.R` | DAMPED_TRACK | target=`rig` | sub=`ORG-upper_arm.R` | infl=1.0
+- `DEF-upper_arm.R` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_tweak.R` | infl=1.0
+- `DEF-upper_arm.R` | STRETCH_TO | target=`rig` | sub=`upper_arm_tweak.R.001` | infl=1.0
+- `DEF-upper_arm.R.001` | COPY_TRANSFORMS | target=`rig` | sub=`upper_arm_tweak.R.001` | infl=1.0
+- `DEF-upper_arm.R.001` | STRETCH_TO | target=`rig` | sub=`forearm_tweak.R` | infl=1.0
+- `DEF-forearm.R` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.R` | infl=1.0
+- `DEF-forearm.R` | STRETCH_TO | target=`rig` | sub=`forearm_tweak.R.001` | infl=1.0
+- `DEF-forearm.R.001` | COPY_TRANSFORMS | target=`rig` | sub=`forearm_tweak.R.001` | infl=1.0
+- `DEF-forearm.R.001` | STRETCH_TO | target=`rig` | sub=`hand_tweak.R` | infl=1.0
+- `DEF-hand.R` | COPY_TRANSFORMS | target=`rig` | sub=`hand_tweak.R` | infl=1.0
+- `ORG-palm.01.R` | COPY_SCALE | target=`rig` | sub=`DEF-hand.R` | infl=1.0
+- `ORG-palm.02.R` | COPY_TRANSFORMS | target=`rig` | sub=`palm.R` | infl=0.3333333432674408
+- `ORG-palm.02.R` | COPY_SCALE | target=`rig` | sub=`DEF-hand.R` | infl=1.0
+- `ORG-palm.02.R` | COPY_ROTATION | target=`rig` | sub=`palm.R` | infl=0.26581165194511414
+- `ORG-palm.03.R` | COPY_TRANSFORMS | target=`rig` | sub=`palm.R` | infl=0.6666666865348816
+- `ORG-palm.03.R` | COPY_SCALE | target=`rig` | sub=`DEF-hand.R` | infl=1.0
+- `ORG-palm.03.R` | COPY_ROTATION | target=`rig` | sub=`palm.R` | infl=0.2777777910232544
+- `ORG-palm.04.R` | COPY_TRANSFORMS | target=`rig` | sub=`palm.R` | infl=1.0
+- `ORG-palm.04.R` | COPY_SCALE | target=`rig` | sub=`DEF-hand.R` | infl=1.0
+- `MCH-hand_ik.parent.L` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-upper_arm_ik_target.L` | COPY_LOCATION | target=`rig` | sub=`hand_ik.L` | infl=1.0
+- `MCH-upper_arm_ik_target.L` | LIMIT_DISTANCE | target=`rig` | sub=`MCH-upper_arm_parent.L` | infl=0.0
+- `MCH-upper_arm_ik_target.parent.L` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-hand_ik.parent.R` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-upper_arm_ik_target.R` | COPY_LOCATION | target=`rig` | sub=`hand_ik.R` | infl=1.0
+- `MCH-upper_arm_ik_target.R` | LIMIT_DISTANCE | target=`rig` | sub=`MCH-upper_arm_parent.R` | infl=0.0
+- `MCH-upper_arm_ik_target.parent.R` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-foot_ik.parent.L` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-heel.02_rock2.L` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.L` | infl=1.0
+- `MCH-heel.02_rock1.L` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.L` | infl=1.0
+- `MCH-heel.02_roll2.L` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.L` | infl=1.0
+- `MCH-heel.02_roll1.L` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.L` | infl=1.0
+- `MCH-thigh_ik_target.L` | COPY_LOCATION | target=`rig` | sub=`MCH-foot_roll.L` | infl=1.0
+- `MCH-thigh_ik_target.L` | LIMIT_DISTANCE | target=`rig` | sub=`MCH-thigh_parent.L` | infl=0.0
+- `MCH-thigh_ik_target.parent.L` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-foot_ik.parent.R` | ARMATURE | target=`None` | sub=`` | infl=1.0
+- `MCH-heel.02_rock2.R` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.R` | infl=1.0
+- `MCH-heel.02_rock1.R` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.R` | infl=1.0
+- `MCH-heel.02_roll2.R` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.R` | infl=1.0
+- `MCH-heel.02_roll1.R` | COPY_ROTATION | target=`rig` | sub=`foot_heel_ik.R` | infl=1.0
+- `MCH-thigh_ik_target.R` | COPY_LOCATION | target=`rig` | sub=`MCH-foot_roll.R` | infl=1.0
+- `MCH-thigh_ik_target.R` | LIMIT_DISTANCE | target=`rig` | sub=`MCH-thigh_parent.R` | infl=0.0
+- `MCH-thigh_ik_target.parent.R` | ARMATURE | target=`None` | sub=`` | infl=1.0

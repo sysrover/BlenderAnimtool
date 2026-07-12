@@ -1,0 +1,1070 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DataExporterAnmResearch.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:06:39 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DataExporterAnmResearch.java
+Size: 6576 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+CURRENT_PROGRAM workbenchApp.exe
+TARGET_PROGRAM dataExporter_v141_x64_RetailDX11.dll
+TARGET_PATH /dataExporter_v141_x64_RetailDX11.dll
+IMAGE_BASE 180000000
+LANGUAGE x86:LE:64:default
+COMPILER windows
+============================================================
+DEFINED_STRING_SCAN
+STRING 1808f98a0 AnimExportDialog
+  XREF from=1800ab3fe function=FUN_1800ab3f0 entry=1800ab3f0
+STRING 1808f98b1 OnButtonExport
+STRING 1808f992d OnExportAllSelection
+STRING 1808f9942 OnExportNoneSelection
+STRING 1808f9958 OnExportCurrentSelection
+STRING 1808f9bd8 AnimExportDialogProfileCBD
+  XREF from=1800ab5be function=FUN_1800ab5b0 entry=1800ab5b0
+STRING 1808f9c50 AnimExportDialogProfileChBD
+  XREF from=1800ab62e function=FUN_1800ab620 entry=1800ab620
+STRING 1808f9d10 AnimExportDialogProfileDiffTgD
+  XREF from=1800ab71e function=FUN_1800ab710 entry=1800ab710
+STRING 1808f9df8 AnimExportDialogProfileFBD
+  XREF from=1800abb4e function=FUN_1800abb40 entry=1800abb40
+STRING 1808f9eb8 Anm files (*.anm *.txa);;All files (*.*)
+  XREF from=1800ab917 function=FUN_1800ab7a0 entry=1800ab7a0
+STRING 1808f9f60 ExportDialog
+  XREF from=1800abc4e function=FUN_1800abc40 entry=1800abc40
+STRING 1808fbc18 TXAExportDialog
+STRING 1808fbd08 exportLine
+STRING 1808fbd38 exportLabel
+STRING 1808fbd68 exportAll
+STRING 1808fbd98 exportNone
+STRING 1808fbdc8 exportCurrent
+STRING 1808fc2c0 /*\n\n	Default Enfusion Editor dark skin.\n\n*/\n\n\n\nQWidget\n{\n    color: #dddddd;\n    background-color: #303030;\n}\n\nQWidget:item:hover\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #404040, stop: 1 #303030);\n    color: #dddddd;\n}\n\nQWidget:item:selected\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffaa00, stop: 1 #b66c16);\n    color: #000000;\n}\n\nQWidget:disabled\n{\n    color: #808080;\n    background-color: #303030;\n}\n\n\n/* opacity doesn't work well: when popping up, the tooltip is colored correctly, but then it changes its opacity to 50 or so */\nQToolTip\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffffff, stop: 1 #909090);\n    border: 1px solid black;\n    color: #000000;\n    border-radius: 0px;\n}\n\n\nQMenuBar::item\n{\n    background: transparent;\n}\n\nQMenuBar::item:selected\n{\n    /*background: transparent;*/\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #505050 );\n    border: 1px solid #707070;\n    color: #dddddd;\n/*    color: #000000;*/\n}\n\nQMenuBar::item:pressed\n{\n    border: 1px solid #505050;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #404040, stop:0.4 #606060 );\n    margin-bottom: -1px;\n    padding-bottom: 1px;\n    border: 1px solid #707070;\n    color: #ffffffff;\n}\n\n\nQMenu\n{\n    border: 1px solid #202020;\n}\n\nQMenu::item\n{\n    padding: 4px 30px 4px 30px;\n    margin-left: 2px;\n}\n\n/* orange\nQMenu::item:selected\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #606060, stop:0.4 #909090 );\n    color: #000000;\n    border: 1px solid #505050;\n}*/\n\nQMenu::item:selected\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #505050 );\n    border: 1px solid #707070;\n    border-left-width: 1px;\n    margin-left: 1px;\n    color: #dddddd;\n}\n\n/* not tested as we don't have a separator anywhere yet */\nQMenu::separator\n{\n    height: 2px;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #101010, stop: 0.3 #202020, stop:1 #404040);\n    padding-left: 4px;\n    margin-left: 4px;\n    margin-right: 4px;\n}\n\n\n/* color gradient for listview, tables, etc */ \nQAbstractItemView\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #303030, stop: 0.1 #353535, stop: 1 #404040);\n    alternate-background-color: yellow;\n}\n\n\nQLineEdit\n{\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #404040, stop: 1 #505050);\n    padding: 1px;\n    border-style: solid;\n    border: 1px solid #202020;\n    border-radius: 0;\n}\n\nQTextEdit\n{\n    border: 1px solid #808080;\n    border-radius: 0;\n    background-color: #252525; /*QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #202020, stop: 1 #202020);*/\n}\n\nQTextEdit:focus\n{\n    border: 1px solid #aaaaaa;\n    background-color: #303030; /*QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #303030, stop: 1 #404040);*/\n}\n\nQPlainTextEdit\n{\n    background-color: #252525;\n}\n\n\n\nQPushButton\n{\n    color: #dddddd;\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #606060, stop: 0.3 #505050, stop: 0.5 #404040, stop: 0.9 #404040, stop: 1 #454545);\n    border-width: 1px;\n    border-color: #202020;\n    border-style: solid;\n    border-radius: 0;\n    padding: 3px;\n/*    font-size: 12px;*/\n    padding-left: 5px;\n    padding-right: 5px;\n}\n\nQPushButton:pressed\n{\n/*  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);*/\n     background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #454545, stop: 0.1 #404040, stop: 0.5 #404040, stop: 0.9 #505050, stop: 1 #606060);\n     border-width: 1px;\n     margin-left: 2px;\n     margin-bottom: -2px;\n}\n\n/*\nQPushButton:hover\n{\n    border: 1px solid #ffaa00;\n}\n*/\n\n\nQComboBox\n{\n    selection-background-color: #ffaa00;\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #404040, stop: 1 #505050);\n/*    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #606060, stop: 1 #505050);*/\n/*    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #505050, stop: 0.1 #606060, stop: 0.5 #404040, stop: 0.9 #505050, stop: 1 #454545);*/\n    border-style: solid;\n    border: 1px solid #202020;\n    border-radius: 0;\n}\n\nQComboBox:editable\n{\n    width: 16px;\n    border: 1px solid #202020;\n    border-radius: 0;\n/*    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #404040, stop: 1 #505050);*/\n}\n\n\n/*\nQComboBox:hover\n{\n    border: 1px solid #ffaa00\n}\n*/\n/*\nQComboBox:on\n{\n    padding-top: 3px;\n    padding-left: 4px;\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);\n    selection-background-color: #ffaa00;\n}\n*/\n\nQComboBox QAbstractItemView\n{\n    border: 1px solid #606060;\n    selection-background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffaa00, stop: 1 #d7801a);\n    selection-color: #000000;\n}\n\nQComboBox::drop-down\n{\n    width: 11px;\n    background-color: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 0, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535);\n    border-radius: 0;\n    border: 1px solid #303030;\n }\n\n/* unfortunately it's not easy to set the default arrow when we override combo-box props :( */\nQComboBox::down-arrow\n{\n    background-color: #dddddd; \n    border: 1px solid #303030;\n    width: 3px;\n    height: 4px;\n/*    image: url(:/down_arrow.png);*/\n}\n\n/* shift the arrow when popup is open */\nQComboBox::down-arrow:on\n{\n    top: 1px;\n    left: 1px;\n}\n\n\nQCheckBox\n{\n    color: #dddddd;\n}\n\nQCheckBox:disabled\n{\n    color: #808080;\n}\n\n/*  simple orange radiobutton: commented out because the default one looks better and is consistent with checkbox (which would need custom images to look good)\nQRadioButton::indicator\n{\n    border-radius: 6px;\n}\n\nQRadioButton::indicator:unchecked\n{\n    border: 1px solid #ffaa00;\n}\n\nQRadioButton::indicator:hover\n{\n    border: 1px solid #ffaa00;\n}\n\nQRadioButton::indicator:checked\n{\n    border: 1px solid #ffaa00;\n    \n    background-color: QRadialGradient( cx: 0.5, cy: 0.5,\n						    fx: 0.5, fy: 0.5,\n						    radius: 1.0, stop: 0.25 #ffaa00, stop: 0.3 #303030 );\n}\n*/\n\nQScrollBar:horizontal\n{\n    margin: 16px 0 16px 0;\n    border: 1px solid #202020;\n    background: #303030;\n    height: 11px;\n}\n\nQScrollBar::handle:horizontal\n{\n    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535);\n    min-height: 20px;\n    border-radius: 4px;\n}\n\nQScrollBar::add-line:horizontal\n{\n    border: 1px solid #202020;\n    border-radius: 2px;\n    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535);\n    width: 14px;\n    subcontrol-position: right;\n    subcontrol-origin: margin;\n}\n\nQScrollBar::sub-line:horizontal\n{\n    border: 1px solid #202020;\n    border-radius: 2px;\n    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535);\n    width: 14px;\n    subcontrol-position: left;\n    subcontrol-origin: margin;\n}\n\nQScrollBar::right-arrow:horizontal, QScrollBar::left-arrow:horizontal\n{\n    border: 1px solid black;\n    width: 3x;\n    height: 2x;\n    background: #dddddd;\n}\n\nQScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal\n{\n    background: none;\n}\n\nQScrollBar:vertical\n{\n    background: #303030;\n    width: 11px;\n    margin: 16px 0 16px 0;\n    border: 1px solid #202020;\n}\n\nQScrollBar::handle:vertical\n{\n    background: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 0, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535); /*QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 0.5 #d7801a, stop: 1 #ffa02f);*/\n    min-height: 20px;\n    border-radius: 4px;\n}\n\nQScrollBar::add-line:vertical\n{\n    border: 1px solid #202020;\n    border-radius: 2px;\n    background: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 0, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535); /*QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);*/\n    height: 14px;\n    subcontrol-position: bottom;\n    subcontrol-origin: margin;\n}\n\nQScrollBar::sub-line:vertical\n{\n    border: 1px solid #1b1b19;\n    border-radius: 2px;\n    background: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 0, stop: 0.0 #606060, stop: 0.4 #505050, stop: 1 #353535); /*QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);*/\n    height: 14px;\n    subcontrol-position: top;\n    subcontrol-origin: margin;\n}\n\nQScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical\n{\n    border: 1px solid black;\n    width: 2px;\n    height: 3px;\n    background: #dddddd; /*white;*/\n}\n\nQScrollBar::add-page:vertical, QScrollBar::sub-page:vertical\n{\n    background: none;\n}\n\n\nQHeaderView::section\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #505050, stop: 0.5 #303030, stop: 0.6 #404040, stop:1 #505050);\n    color: white;\n    padding-left: 4px;\n    border: 1px solid #606060;\n}\n\nQHeaderView::down-arrow\n{\n/*\n    subcontrol-position: right top;\n    subcontrol-origin: content;\n*/    \n}\n\nQHeaderView::up-arrow\n{\n/*    \n    subcontrol-position: right top;\n    subcontrol-origin: content;\n*/    \n}\n\n\nQDockWidget::title\n{\n    text-align: center;\n    spacing: 3px; /* spacing between items in the tool bar */\n/*    background-color: #252525;*/\n    border: 1px solid #202020;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #505050, stop: 0.5 #303030, stop: 0.6 #404040, stop:1 #505050);\n/*    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #323232, stop: 0.5 #242424, stop:1 #323232);*/\n}\n\nQDockWidget::close-button, QDockWidget::float-button\n{\n}\n\nQDockWidget::close-button:hover, QDockWidget::float-button:hover\n{\n    background-color: #303030; /* has no effect :( */ \n}\n\nQDockWidget::close-button:pressed, QDockWidget::float-button:pressed\n{\n    padding: 1px -1px -1px 1px;\n}\n\n\nQProgressBar\n{\n    border: 1px solid grey;\n    border-radius: 5px;\n    border-color: #505050;\n    text-align: center;\n    color: #ffffff;\n}\n\nQProgressBar::chunk\n{\n    background-color: #d7801a;\n    width: 2.15px;\n    margin: 0.5px;\n}\n\n\nQMainWindow::separator\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #202020, stop: 0.5 #151515, stop: 0.6 #202020, stop:1 #303030);\n    color: white;\n    padding-left: 4px;\n    border: 1px solid #404040;\n    spacing: 3px; /* spacing between items in the tool bar */\n}\n\nQMainWindow::separator:hover\n{\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d7801a, stop:0.5 #b56c17 stop:1 #ffaa00);\n    color: white;\n    padding-left: 4px;\n    border: 1px solid #606060;\n    spacing: 3px; /* spacing between items in the tool bar */\n}\n\n\n/* can't set icon appearance form qss, so toolbar background is not enough\nQToolBar\n{\n    border: 1px transparent #404040;\n    background: 1px solid QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #202020, stop:0.3 #404040 stop:1 #202020);\n    font-weight: bold;\n}\n*/\n\n\nQTabBar::tab\n{\n    color: #ffffff;\n    border: 1px solid #404040;\n    border-bottom-style: none;\n    background-color: /*#303030;*/ QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #505050 );\n    padding-left: 10px;\n    padding-right: 10px;\n    padding-top: 3px;\n    padding-bottom: 2px;\n    margin-right: -1px;\n    top: 2px;\n}\n\nQTabWidget::pane\n{\n    border: 1px solid #404040;\n    top: 1px;\n}\n\nQTabBar::tab:last\n{\n    margin-right: 0; /* the last selected tab has nothing to overlap with on the right */\n    border-top-right-radius: 4px;\n}\n\nQTabBar::tab:first\n{\n    border-top-left-radius: 4px;\n}\n\nQTabBar::tab:first:!selected\n{\n    margin-left: 0px; /* the last selected tab has nothing to overlap with on the right */\n    border-top-left-radius: 4px;\n}\n\n\nQTabBar::tab:!selected\n{\n    color: #c0c0c0;\n    border-bottom-style: solid;\n    margin-top: 4px;\n}\n\nQTabBar::tab:selected\n{\n    border-top-left-radius: 4px;\n    border-top-right-radius: 4px;\n    margin-bottom: 0px;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:0 #404040, stop:0.4 #606060, stop:1 #303030 );\n}\n\nQTabBar::tab:!selected:hover\n{\n    border-top-left-radius: 4px;\n    border-top-right-radius: 4px;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #606060 );\n}\n\n\nQGroupBox\n{\n    border: 1px solid #606060;\n    border-radius: 6px;\n    margin-top: 1.5ex; /* leave space at the top for the title */\n    padding: 6 0px;\n}\n\nQGroupBox::title\n{\n    subcontrol-origin: margin;\n    subcontrol-position: top center;\n    padding: 0 8px;\n    border-radius: 4px;\n    background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop:1 #303030, stop:0.4 #606060 );\n}\n\nQTreeView\n{\n    alternate-background-color: #303030;\n    show-decoration-selected: 1;\n}\n\nQTreeView::item\n{\n    border: 0px transparent;\n    border-top-color: transparent;\n    border-bottom-color: transparent;\n    color: #dddddd;\n}\n\nQTreeView::item:selected:active\n{\n    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffaa00, stop: 1 #d7801a);\n    color: #000000;\n}\n\nQTreeView::item:selected:!active\n{\n    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #505050, stop: 1 #404040);\n    color: #ffffff;\n}\n\nPropertyGrid\n{\n    alternate-background-color: #303030;\n		show-decoration-selected: 0;\n		qproperty-groupBackgroundColor: #404060;\n		qproperty-textColor: #dddddd;\n		qproperty-modifiedValueColor: #ff0000;\n}\n\nPropertyGrid::item\n{\n		height: 18px;\n		color: none;	/*very important!!! Never change this, because it removes inherited color definition from QTreeView and allow coloring item color from code*/\n}\n\nPropertyGrid::branch\n{\n	background: palette(base);\n}\n\nPropertyGrid::branch:has-siblings:!adjoins-item\n{\n	border-image: url(:/Workbench/QtExtensions/PropertyGrid/branch-vline.png);\n	background: transparent;\n}\n\nPropertyGrid::branch:has-siblings:adjoins-item\n{\n	border-image: url(:/Workbench/QtExtensions/PropertyGrid/branch-more.png);\n	background: transparent;\n}\n\nPropertyGrid::branch:!has-children:!has-siblings:adjoins-item\n{\n	border-image: url(:/Workbench/QtExtensions/PropertyGrid/branch-end.png);\n	background: transparent;\n}\n\nPropertyGrid::branch:closed:has-children:has-siblings\n{\n	border-image: none;\n	image: url(:/Workbench/QtExtensions/PropertyGrid/branch-closed-siblings.png);\n	background: transparent;\n}\n\nPropertyGrid::branch:has-children:!has-siblings:closed\n{\n	border-image: none;\n	image: url(:/Workbench/QtExtensions/PropertyGrid/branch-closed.png);\n	background: transparent;\n}\n\nPropertyGrid::branch:open:has-children:has-siblings\n{\n	border-image: none;\n	image: url(:/Workbench/QtExtensions/PropertyGrid/branch-opened-siblings.png);\n	background: transparent;\n}\n\nPropertyGrid::branch:open:has-children:!has-siblings\n{\n	border-image: none;\n	image: url(:/Workbench/QtExtensions/PropertyGrid/branch-opened.png);\n	background: transparent;\n}\n\nSplineCanvas\n{\n	qproperty-graphBackgroundColor: #808080;\n}\n\nDebugTextEdit\n{\n	qproperty-colorType: #3987D6;\n	qproperty-colorModificator: #a8a8a8;\n	qproperty-colorPreprocessor: #a8a8a8;\n	qproperty-colorClass: #FFD700;\n	qproperty-colorSingleComment: #57A64A;\n	qproperty-colorMultiComment: #57A64A;\n	qproperty-colorQuatation: #D69D5D;\n	qproperty-colorFunction : #FF8000;\n	color: #B4B484;\n}
+  XREF from=1800b54ef function=FUN_1800b4bb0 entry=1800b4bb0
+  XREF from=1800b54f6 function=FUN_1800b4bb0 entry=1800b4bb0
+STRING 1808fff00 TXA Export Dialog
+  XREF from=1800b3d4c function=FUN_1800b3d20 entry=1800b3d20
+STRING 1808fff18 TXAExportDialog
+  XREF from=1800b3d53 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3d8e function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3dca function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3e06 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3e42 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3e7e function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3eba function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3ef6 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3f32 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3f6e function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3fad function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3fec function=FUN_1800b3d20 entry=1800b3d20
+STRING 1808fff28 Export Select:
+  XREF from=1800b3d87 function=FUN_1800b3d20 entry=1800b3d20
+STRING 1808fff98 Selects base path for all exports / profiles
+  XREF from=1800b3f67 function=FUN_1800b3d20 entry=1800b3d20
+STRING 1808fffd0 Creates export profile based on selection (pelvis + EntityPos)
+  XREF from=1800b4024 function=FUN_1800b3d20 entry=1800b3d20
+STRING 180900058 Plot takes when exporting ?
+  XREF from=1800b4120 function=FUN_1800b3d20 entry=1800b3d20
+STRING 180900088 Plots all takes for export
+  XREF from=1800b419e function=FUN_1800b3d20 entry=1800b3d20
+STRING 180900170 Export all valid and selected takes
+  XREF from=1800b4396 function=FUN_1800b3d20 entry=1800b3d20
+STRING 180900194 Export
+  XREF from=1800b43d5 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1803804bb function=FUN_180380170 entry=180380170
+STRING 180900888 TXAExportDialog_DiffTg
+STRING 180900980 TXAExportDialog_DiffTg
+  XREF from=1800b7af1 function=FUN_1800b76e0 entry=1800b76e0
+STRING 180900ad0 /exportFn.c
+  XREF from=1800afdfe function=FUN_1800afd70 entry=1800afd70
+STRING 180900ae0 cannot load script /cfg/profiles/exportFn.c
+  XREF from=1800afe65 function=FUN_1800afd70 entry=1800afd70
+STRING 180900b60 Load of export profiles failed:
+  XREF from=1800b01c6 function=FUN_1800afd70 entry=1800afd70
+STRING 180900b80 Load of export profiles
+  XREF from=1800b01b0 function=FUN_1800afd70 entry=1800afd70
+STRING 180900b98 Take %s not exported: error exporting keys
+  XREF from=1800af23a function=FUN_1800af0c0 entry=1800af0c0
+  XREF from=1800adca4 function=FUN_1800adb60 entry=1800adb60
+STRING 180900bc8 Take %s not exported: error allocating track
+  XREF from=1800af300 function=FUN_1800af0c0 entry=1800af0c0
+  XREF from=1800add57 function=FUN_1800adb60 entry=1800adb60
+STRING 180900c88 Export Takes
+  XREF from=1800abdb3 function=FUN_1800abcb0 entry=1800abcb0
+  XREF from=1800abe0f function=FUN_1800abcb0 entry=1800abcb0
+STRING 180900c98 All exports ok
+  XREF from=1800abdf8 function=FUN_1800abcb0 entry=1800abcb0
+STRING 180900ce0 Take %s not exported: error creating file %s
+  XREF from=1800b18be function=FUN_1800b1820 entry=1800b1820
+  XREF from=1800b19fa function=FUN_1800b1820 entry=1800b1820
+STRING 180900d10 Take %s not exported: profile %s missing
+  XREF from=1800ae9f3 function=FUN_1800ae930 entry=1800ae930
+STRING 180900d40 Take %s not exported: no diff target specified
+  XREF from=1800aee6a function=FUN_1800ae930 entry=1800ae930
+STRING 180900d70 Take %s not exported: error getting pose for differential animation - diff target %s, frame %d \nBone %s in profile - not found in scene
+  XREF from=1800aed50 function=FUN_1800ae930 entry=1800ae930
+STRING 180900df8 Take %s not exported: error preparing export
+  XREF from=1800aef12 function=FUN_1800ae930 entry=1800ae930
+STRING 180900e38 1OnButtonExport()
+  XREF from=1800ac055 function=FUN_1800abcb0 entry=1800abcb0
+  XREF from=1800ac05c function=FUN_1800abcb0 entry=1800abcb0
+STRING 180900f20 1OnExportAllSelection()
+  XREF from=1800ac258 function=FUN_1800abcb0 entry=1800abcb0
+  XREF from=1800ac25f function=FUN_1800abcb0 entry=1800abcb0
+STRING 180900f38 1OnExportNoneSelection()
+  XREF from=1800ac28a function=FUN_1800abcb0 entry=1800abcb0
+  XREF from=1800ac291 function=FUN_1800abcb0 entry=1800abcb0
+STRING 180900f58 1OnExportCurrentSelection()
+  XREF from=1800ac2bc function=FUN_1800abcb0 entry=1800abcb0
+  XREF from=1800ac2c3 function=FUN_1800abcb0 entry=1800abcb0
+STRING 180900fd8 /DataExporter.qss
+  XREF from=1800ac448 function=FUN_1800abcb0 entry=1800abcb0
+STRING 180901088 Select Base Path for export
+  XREF from=1800b02e0 function=FUN_1800b02c0 entry=1800b02c0
+  XREF from=1800ac7b2 function=FUN_1800abcb0 entry=1800abcb0
+STRING 1809010a8 Select Profiles Path for export
+  XREF from=1800b0497 function=FUN_1800b0480 entry=1800b0480
+STRING 180901130 There are no bones in selection
+  XREF from=1800b0a1a function=FUN_1800b0920 entry=1800b0920
+STRING 180901310 animExportProfile
+  XREF from=1800b8eb1 function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b8ec0 function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b8664 function=FUN_1800b85c0 entry=1800b85c0
+STRING 180901378 boneFnLocal
+  XREF from=1800b980c function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b9816 function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b88ef function=FUN_1800b85c0 entry=1800b85c0
+  XREF from=1800b8aea function=FUN_1800b85c0 entry=1800b85c0
+STRING 180901878 BIExporterMB
+  XREF from=1800ba77c function=ShowExportDialog entry=1800ba700
+  XREF from=1800b9c8a function=FUN_1800b9c30 entry=1800b9c30
+STRING 1809018e8 ExportDialog
+  XREF from=1800ba36e function=FUN_1800ba340 entry=1800ba340
+  XREF from=1800ba3fe function=FUN_1800ba3d0 entry=1800ba3d0
+  XREF from=1800ba57b function=FUN_1800ba470 entry=1800ba470
+STRING 180901928 system/wbdata/P3DExport/skeleton_human.txo
+  XREF from=1800bab98 function=FUN_1800baa50 entry=1800baa50
+STRING 180901960 d:/skeleton_human.txo
+  XREF from=1800bac1c function=FUN_1800baa50 entry=1800baa50
+STRING 180901978 d:/skeleton_human.xob
+  XREF from=1800bac4d function=FUN_1800baa50 entry=1800baa50
+STRING 1809019a8 _skeleton.xml
+  XREF from=1800ba60f function=FUN_1800ba470 entry=1800ba470
+STRING 1809019b8 ShowExportDialogThreadRT Started
+  XREF from=1800baa24 function=FUN_1800baa20 entry=1800baa20
+STRING 1809019e0 ShowExportDialogThreadRT Ended
+  XREF from=1800baa38 function=FUN_1800baa20 entry=1800baa20
+STRING 1809052e0 OnAnimationEvent
+  XREF from=18035aed5 function=FUN_18035aeb0 entry=18035aeb0
+  XREF from=18035aef3 function=FUN_18035aeb0 entry=18035aeb0
+  XREF from=1800dffbe function=FUN_1800dffa0 entry=1800dffa0
+  XREF from=1802fc061 function=FUN_1802fc010 entry=1802fc010
+STRING 180905a48 HeadLookBoneName
+  XREF from=1800e6614 function=FUN_1800e6470 entry=1800e6470
+STRING 180905a60 LegBoneNames
+  XREF from=1800e66e0 function=FUN_1800e6470 entry=1800e6470
+STRING 180906790 startAnimationMaxSpeed
+  XREF from=1800ee597 function=FUN_1800ee020 entry=1800ee020
+STRING 1809067a8 useStartAnimation
+  XREF from=1800ee5ed function=FUN_1800ee020 entry=1800ee020
+STRING 180906808 ZoneExport
+STRING 180906818 ZoneExport/layers
+STRING 180906834 export
+  XREF from=180643b24 function=FUN_180643ae0 entry=180643ae0
+  XREF from=1806388a9 function=FUN_180638710 entry=180638710
+STRING 180908098 Invalid animation source
+  XREF from=18011bbfb function=FUN_18011bbd0 entry=18011bbd0
+STRING 180908300 parse error - expecting bone name
+  XREF from=18011af9a function=FUN_18011ae20 entry=18011ae20
+STRING 180908390 Prediction Bone doesn't exist:
+  XREF from=18011bb2c function=FUN_18011bad0 entry=18011bad0
+STRING 1809083c0 more than 16 prediction bones
+  XREF from=18011b4b5 function=FUN_18011afd0 entry=18011afd0
+STRING 180908a20 GetEventTime() invalid animation name - %s
+  XREF from=180127fd7 function=FUN_180127f70 entry=180127f70
+STRING 180908a50 GetEventTime() animation is missing name - %s
+  XREF from=180128035 function=FUN_180127f70 entry=180127f70
+STRING 180909388 config:: %s - bone doesn't exist
+  XREF from=180139a1a function=FUN_1801399f0 entry=1801399f0
+  XREF from=180139b5c function=FUN_180139a50 entry=180139a50
+  XREF from=18013a1c1 function=FUN_180139cc0 entry=180139cc0
+  XREF from=18012ee23 function=FUN_18012eab0 entry=18012eab0
+  XREF from=18012e3d0 function=FUN_18012df20 entry=18012df20
+STRING 1809093b0 config:: max chain bone count is 5
+  XREF from=180139b74 function=FUN_180139a50 entry=180139a50
+  XREF from=18012ee44 function=FUN_18012eab0 entry=18012eab0
+  XREF from=18012e3ea function=FUN_18012df20 entry=18012df20
+STRING 180909530 chain spec needs to be in form: chain = boneStart, boneStartRot, boneMiddle, boneMiddleRot, boneTarget
+  XREF from=18012e427 function=FUN_18012df20 entry=18012df20
+STRING 1809096c0 line in config needs to be in form: targetName = boneStart, boneStartRot, boneMiddle, boneMiddleRot, boneTarget
+  XREF from=18012ec61 function=FUN_18012eab0 entry=18012eab0
+STRING 180909ca8 Anim Node Rot - bone doesn't exist:
+  XREF from=1801320b2 function=FUN_180131fd0 entry=180131fd0
+STRING 180909da0 Animation missing %s
+  XREF from=180132749 function=FUN_1801325f0 entry=1801325f0
+STRING 18090a9c0 animations
+  XREF from=1806b23fe function=FUN_1806b2370 entry=1806b2370
+  XREF from=180031c89 function=FUN_180031ad0 entry=180031ad0
+  XREF from=1802c062c function=FUN_1802c01b0 entry=1802c01b0
+  XREF from=1802c0640 function=FUN_1802c01b0 entry=1802c01b0
+  XREF from=1802c0672 function=FUN_1802c01b0 entry=1802c01b0
+  XREF from=1802b61d9 function=FUN_1802b5a90 entry=1802b5a90
+  XREF from=1802b65dc function=FUN_1802b5a90 entry=1802b5a90
+  XREF from=1802bfc2c function=FUN_1802bf5f0 entry=1802bf5f0
+  XREF from=1802bfc40 function=FUN_1802bf5f0 entry=1802bf5f0
+  XREF from=1802bfc72 function=FUN_1802bf5f0 entry=1802bf5f0
+STRING 18090d7d8 ANIMATION
+STRING 18090eae8 anims/cfg/skeletons.anim.xml
+  XREF from=180b5a270 function=<none> entry=<none>
+STRING 1809129d0 BulletSkeletonComponent
+  XREF from=18018dad0 function=FUN_18018dad0 entry=18018dad0
+  XREF from=18018dad7 function=FUN_18018dad0 entry=18018dad0
+STRING 180912ec8 BulletBoneComponent
+  XREF from=1801939b0 function=FUN_1801939b0 entry=1801939b0
+  XREF from=1801939b7 function=FUN_1801939b0 entry=1801939b0
+STRING 180912ee0 Bone Name: %s Index: %d
+  XREF from=180193edd function=FUN_180193e00 entry=180193e00
+STRING 180912f18 Skeleton Bone Name: %s Index: %d
+  XREF from=180192f29 function=FUN_180192d60 entry=180192d60
+STRING 180917da0 SetBone
+  XREF from=1801a62f4 function=FUN_1801a5870 entry=1801a5870
+STRING 180917da8 SetBoneMatrix
+  XREF from=1801a630d function=FUN_1801a5870 entry=1801a5870
+STRING 180917db8 SetBoneGlobal
+  XREF from=1801a6326 function=FUN_1801a5870 entry=1801a5870
+STRING 180917dc8 GetBoneMatrix
+  XREF from=1801a633f function=FUN_1801a5870 entry=1801a5870
+STRING 180917dd8 GetBoneLocalMatrix
+  XREF from=1801a6358 function=FUN_1801a5870 entry=1801a5870
+STRING 180918660 GetNumBones
+  XREF from=1801b43e3 function=FUN_1801b43a0 entry=1801b43a0
+STRING 180918670 GetBone
+  XREF from=1801b4409 function=FUN_1801b43a0 entry=1801b43a0
+STRING 180921e08 Animations     %8d Kbytes
+  XREF from=180223f01 function=FUN_180223e30 entry=180223e30
+STRING 1809293e8 PluginClearAnimationType
+  XREF from=180250e89 function=FUN_180250b10 entry=180250b10
+  XREF from=180250eae function=FUN_180250b10 entry=180250b10
+STRING 180929418 PluginCloseAnimation
+  XREF from=180250eeb function=FUN_180250b10 entry=180250b10
+  XREF from=180250f10 function=FUN_180250b10 entry=180250b10
+STRING 180929430 PluginCloseAnimationName
+  XREF from=180250f1c function=FUN_180250b10 entry=180250b10
+  XREF from=180250f41 function=FUN_180250b10 entry=180250b10
+STRING 180929468 PluginCopyAnimation
+  XREF from=180250f7e function=FUN_180250b10 entry=180250b10
+  XREF from=180250fa3 function=FUN_180250b10 entry=180250b10
+STRING 180929480 PluginCopyAnimationName
+  XREF from=180250faf function=FUN_180250b10 entry=180250b10
+  XREF from=180250fd4 function=FUN_180250b10 entry=180250b10
+STRING 1809297c0 PluginCreateAnimation
+  XREF from=1802513d2 function=FUN_180250b10 entry=180250b10
+  XREF from=1802513f7 function=FUN_180250b10 entry=180250b10
+STRING 1809297d8 PluginCreateAnimationInMemory
+  XREF from=180251403 function=FUN_180250b10 entry=180250b10
+  XREF from=180251428 function=FUN_180250b10 entry=180250b10
+STRING 180929e30 PluginGetAnimation
+  XREF from=180251cd1 function=FUN_180250b10 entry=180250b10
+  XREF from=180251cf6 function=FUN_180250b10 entry=180250b10
+STRING 180929e48 PluginGetAnimationCount
+  XREF from=180251d02 function=FUN_180250b10 entry=180250b10
+  XREF from=180251d27 function=FUN_180250b10 entry=180250b10
+STRING 180929e60 PluginGetAnimationId
+  XREF from=180251d33 function=FUN_180250b10 entry=180250b10
+  XREF from=180251d58 function=FUN_180250b10 entry=180250b10
+STRING 180929e78 PluginGetAnimationName
+  XREF from=180251d64 function=FUN_180250b10 entry=180250b10
+  XREF from=180251d89 function=FUN_180250b10 entry=180250b10
+STRING 180929ee0 PluginGetPlayingAnimationCount
+  XREF from=180251e59 function=FUN_180250b10 entry=180250b10
+  XREF from=180251e7e function=FUN_180250b10 entry=180250b10
+STRING 180929f00 PluginGetPlayingAnimationId
+  XREF from=180251e8a function=FUN_180250b10 entry=180250b10
+  XREF from=180251eaf function=FUN_180250b10 entry=180250b10
+STRING 18092a070 PluginLoadAnimationName
+  XREF from=180252169 function=FUN_180250b10 entry=180250b10
+  XREF from=18025218e function=FUN_180250b10 entry=180250b10
+STRING 18092a570 PluginOpenAnimation
+  XREF from=1802527ba function=FUN_180250b10 entry=180250b10
+  XREF from=1802527df function=FUN_180250b10 entry=180250b10
+STRING 18092a600 PluginPlayAnimation
+  XREF from=1802528af function=FUN_180250b10 entry=180250b10
+  XREF from=1802528d4 function=FUN_180250b10 entry=180250b10
+STRING 18092a618 PluginPlayAnimationLoop
+  XREF from=1802528e0 function=FUN_180250b10 entry=180250b10
+  XREF from=180252905 function=FUN_180250b10 entry=180250b10
+STRING 18092a630 PluginPlayAnimationName
+  XREF from=180252911 function=FUN_180250b10 entry=180250b10
+  XREF from=180252936 function=FUN_180250b10 entry=180250b10
+STRING 18092a6c8 PluginSaveAnimation
+  XREF from=180252a37 function=FUN_180250b10 entry=180250b10
+  XREF from=180252a5c function=FUN_180250b10 entry=180250b10
+STRING 18092a6e0 PluginSaveAnimationName
+  XREF from=180252a68 function=FUN_180250b10 entry=180250b10
+  XREF from=180252a8d function=FUN_180250b10 entry=180250b10
+STRING 18092ab48 PluginStopAnimationName
+  XREF from=18025314c function=FUN_180250b10 entry=180250b10
+  XREF from=180253171 function=FUN_180250b10 entry=180250b10
+STRING 18092ab60 PluginStopAnimationType
+  XREF from=18025317d function=FUN_180250b10 entry=180250b10
+  XREF from=1802531a2 function=FUN_180250b10 entry=180250b10
+STRING 18092ae68 PluginUnloadAnimationName
+  XREF from=180253582 function=FUN_180250b10 entry=180250b10
+  XREF from=1802535a7 function=FUN_180250b10 entry=180250b10
+STRING 18092b620 animalBonePairs
+  XREF from=180258ea0 function=FUN_180258970 entry=180258970
+STRING 18092b630 humanBonePairs
+  XREF from=180258eb6 function=FUN_180258970 entry=180258970
+STRING 180932ba0 GetAnimationPhase
+  XREF from=1802af8e7 function=FUN_1802af7f0 entry=1802af7f0
+STRING 180932bb8 SetAnimationPhase
+  XREF from=1802af904 function=FUN_1802af7f0 entry=1802af7f0
+STRING 180932bd0 ResetAnimationPhase
+  XREF from=1802af921 function=FUN_1802af7f0 entry=1802af7f0
+STRING 180932be8 GetNumUserAnimationSourceNames
+  XREF from=1802af93e function=FUN_1802af7f0 entry=1802af7f0
+STRING 180932c08 GetUserAnimationSourceName
+  XREF from=1802af95b function=FUN_1802af7f0 entry=1802af7f0
+STRING 180932c28 GetBoneIndex
+  XREF from=1802af978 function=FUN_1802af7f0 entry=1802af7f0
+STRING 180932c38 GetBoneObject
+  XREF from=1802af995 function=FUN_1802af7f0 entry=1802af7f0
+STRING 180933cf8 OnAnimationPhaseStarted
+  XREF from=1802ba80d function=FUN_1802ba740 entry=1802ba740
+STRING 180933d10 No skeleton for this shape
+  XREF from=1802baf5a function=FUN_1802baf30 entry=1802baf30
+STRING 180935a50 d:\jenkins\cpu\workspace\_continuous_branches_stable_0128\codesvn\lib\animation.hpp
+  XREF from=1802d1241 function=FUN_1802d1230 entry=1802d1230
+  XREF from=18069cd01 function=FUN_18069ccf0 entry=18069ccf0
+  XREF from=18069cd31 function=FUN_18069cd20 entry=18069cd20
+STRING 18093c057 ?Error registering bone remap
+STRING 180940220 GetBoneIndexByName
+  XREF from=180353664 function=FUN_180353540 entry=180353540
+  XREF from=1802f7792 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1802fbae7 function=FUN_1802fb9f0 entry=1802fb9f0
+STRING 1809404e0 GetBonePositionLS
+  XREF from=1802f77e9 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c8671 function=FUN_1806c8190 entry=1806c8190
+STRING 1809404f8 GetBonePositionMS
+  XREF from=1802f77cc function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c868e function=FUN_1806c8190 entry=1806c8190
+STRING 180940510 GetBonePositionWS
+  XREF from=1802f7806 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c86ab function=FUN_1806c8190 entry=1806c8190
+STRING 180940528 GetBoneRotationLS
+  XREF from=1802f7840 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c86c8 function=FUN_1806c8190 entry=1806c8190
+STRING 180940540 GetBoneRotationMS
+  XREF from=1802f7823 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c86e5 function=FUN_1806c8190 entry=1806c8190
+STRING 180940558 GetBoneRotationWS
+  XREF from=1802f785d function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c8702 function=FUN_1806c8190 entry=1806c8190
+STRING 180940570 GetBoneTransformLS
+  XREF from=1802f7897 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c871f function=FUN_1806c8190 entry=1806c8190
+STRING 180940588 GetBoneTransformMS
+  XREF from=1802f787a function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c873c function=FUN_1806c8190 entry=1806c8190
+STRING 1809405a0 GetBoneTransformWS
+  XREF from=1802f78b4 function=FUN_1802f75c0 entry=1802f75c0
+  XREF from=1806c8759 function=FUN_1806c8190 entry=1806c8190
+STRING 180942dd8 %s - Incorrect look bone - "%s"
+  XREF from=1802fa512 function=FUN_1802f9e90 entry=1802f9e90
+STRING 180942e40 RegisterAnimationEvent
+  XREF from=1803442c9 function=FUN_180344160 entry=180344160
+  XREF from=1802fba76 function=FUN_1802fb9f0 entry=1802fb9f0
+STRING 180942e58 SetAnimationInstanceByName
+  XREF from=1802fba90 function=FUN_1802fb9f0 entry=1802fb9f0
+STRING 180942e78 GetCurrentAnimationInstanceUUID
+  XREF from=1802fbaad function=FUN_1802fb9f0 entry=1802fb9f0
+STRING 1809430e8 skeletonName
+  XREF from=1803472f3 function=FUN_180346e30 entry=180346e30
+  XREF from=18070a15e function=FUN_1807096b0 entry=1807096b0
+  XREF from=18070a1f1 function=FUN_1807096b0 entry=1807096b0
+  XREF from=1802fe1d4 function=FUN_1802fdea0 entry=1802fdea0
+  XREF from=180b80968 function=<none> entry=<none>
+STRING 180944420 BoneNames
+  XREF from=1803477b2 function=FUN_180346e30 entry=180346e30
+  XREF from=1802fdbac function=FUN_1802fdb30 entry=1802fdb30
+STRING 180944430 DayZCreature cfg error: P3D Bone Attachments (P3DAttachments[], P3DProxies[] fields missing/not a same size
+  XREF from=1802fdd9f function=FUN_1802fdb30 entry=1802fdb30
+STRING 1809445a8 RegisterAnimationEvent failed, fn %s doesn't exist
+  XREF from=18035aefa function=FUN_18035aeb0 entry=18035aeb0
+  XREF from=1802ff593 function=FUN_1802ff560 entry=1802ff560
+STRING 1809445e0 OnAnimationEventsStart
+  XREF from=1802fc02c function=FUN_1802fc010 entry=1802fc010
+STRING 1809445f8 OnAnimationPrediction
+  XREF from=1802fc074 function=FUN_1802fc010 entry=1802fc010
+STRING 180944610 OnAnimationTag
+  XREF from=1802fc087 function=FUN_1802fc010 entry=1802fc010
+STRING 180949410 AnimPhysAgentType: default animation instance %s doesn't exist
+  XREF from=180317229 function=FUN_180317080 entry=180317080
+STRING 180949450 AnimPhysAgentType: Skeleton %s for LODS is defined but not found doesn't exist
+  XREF from=18031728a function=FUN_180317080 entry=180317080
+STRING 180949670 ---------- Animation Variable Change Log -------------------------------
+  XREF from=18031f48f function=FUN_18031f3e0 entry=18031f3e0
+STRING 180949790 AnimPhysAgent::SetAnimationInstanceByName - instance %s doesn't exist
+  XREF from=18031bc2d function=FUN_18031bb60 entry=18031bb60
+STRING 180949fa0 CombatComboNext
+  XREF from=180323480 function=FUN_1803233b0 entry=1803233b0
+  XREF from=180323835 function=FUN_180323760 entry=180323760
+STRING 18094b880 m_iDirectBone
+  XREF from=18032a8ca function=FUN_18032a810 entry=18032a810
+STRING 18094b890 m_iDirectBoneMode
+  XREF from=18032a8dd function=FUN_18032a810 entry=18032a810
+STRING 18094ba20 AddItemBoneRemap
+  XREF from=180337389 function=FUN_180337330 entry=180337330
+STRING 18094ba38 DebugPreloadAnimationInstances
+  XREF from=1803373a6 function=FUN_180337330 entry=180337330
+STRING 18094bb50 GetHeadBoneIdx
+  XREF from=1803374cb function=FUN_180337330 entry=180337330
+STRING 18094e338 GetMemoryPointPositionBoneRelative
+  XREF from=1803415f8 function=FUN_180341440 entry=180341440
+STRING 18094e360 DebugOverrideAnimationTranslation
+  XREF from=18034161a function=FUN_180341440 entry=180341440
+STRING 18094e388 DebugOverrideAnimationRotation
+  XREF from=18034163c function=FUN_180341440 entry=180341440
+STRING 18094e3a8 DebugOverrideAnimationSpeed
+  XREF from=18034165e function=FUN_180341440 entry=180341440
+  XREF from=180341680 function=FUN_180341440 entry=180341440
+STRING 18094e458 Error: InitComponentCollisions - bone with name=%s not found
+  XREF from=180340d4c function=FUN_180340bb0 entry=180340bb0
+  XREF from=180340d95 function=FUN_180340bb0 entry=180340bb0
+  XREF from=18034101d function=FUN_180340bb0 entry=180340bb0
+  XREF from=180341065 function=FUN_180340bb0 entry=180340bb0
+STRING 18094e4f0 m_BoneName0
+  XREF from=180340ccb function=FUN_180340bb0 entry=180340bb0
+  XREF from=180340f9b function=FUN_180340bb0 entry=180340bb0
+STRING 18094e500 m_BoneName1
+  XREF from=180340ceb function=FUN_180340bb0 entry=180340bb0
+  XREF from=180340fbb function=FUN_180340bb0 entry=180340bb0
+STRING 180952210 DayZPlayer cfg error: P3D Bone Attachments (P3DAttachments[], P3DProxies[] fields missing/not a same size
+  XREF from=1803479b8 function=FUN_180346e30 entry=180346e30
+STRING 1809531a8 RegisterAnimationEvent failed, %s event doesn't exist
+  XREF from=18035af58 function=FUN_18035aeb0 entry=18035aeb0
+STRING 180954458 WeaponGetCameraPointBoneRelative
+  XREF from=180361afa function=FUN_1803619b0 entry=1803619b0
+STRING 180954818 Animations/Blank/
+  XREF from=180365099 function=FUN_180365060 entry=180365060
+  XREF from=1803650b4 function=FUN_180365060 entry=180365060
+STRING 180954898 Animations/
+  XREF from=180364a61 function=FUN_1803649f0 entry=1803649f0
+  XREF from=180364a70 function=FUN_1803649f0 entry=1803649f0
+STRING 180957720 [Inputs] Exporting inputs cfg "%s"
+  XREF from=1803772cf function=FUN_180377000 entry=180377000
+STRING 180957e18 Backlit_Animation
+  XREF from=180380634 function=FUN_180380170 entry=180380170
+STRING 1809661f8 importance
+  XREF from=1803b470c function=FUN_1803b4530 entry=1803b4530
+  XREF from=18056dad5 function=FUN_18056d6f0 entry=18056d6f0
+STRING 1809665c0 [ERROR] :: Weapon '%s' has no skeleton!!!
+  XREF from=1803b6da5 function=FUN_1803b6c70 entry=1803b6c70
+STRING 18096b1b8 Animations
+  XREF from=1803d31ea function=FUN_1803d3040 entry=1803d3040
+  XREF from=1805ba42c function=FUN_1805ba120 entry=1805ba120
+  XREF from=18070b9a3 function=FUN_1807096b0 entry=1807096b0
+STRING 18096b1c8 Obsolete class Animations defined in %s
+  XREF from=1803d324d function=FUN_1803d3040 entry=1803d3040
+  XREF from=1805ba4cf function=FUN_1805ba120 entry=1805ba120
+STRING 18096b210 boneRemap
+  XREF from=1803d3790 function=FUN_1803d35c0 entry=1803d35c0
+  XREF from=1803d37af function=FUN_1803d35c0 entry=1803d35c0
+STRING 18096c448 GetBoneNameForSlotId
+  XREF from=1803d73b0 function=FUN_1803d6ec0 entry=1803d6ec0
+STRING 1809739b8 SurfaceUnderObjectByBone
+  XREF from=1803f8cb5 function=FUN_1803f7ab0 entry=1803f7ab0
+STRING 1809a8730 animation
+  XREF from=180034204 function=FUN_180031ad0 entry=180031ad0
+  XREF from=1807e62e3 function=FUN_1807e62c0 entry=1807e62c0
+  XREF from=1807e4ac4 function=FUN_1807e4a50 entry=1807e4a50
+  XREF from=1807e4ad0 function=FUN_1807e4a50 entry=1807e4a50
+STRING 1809a96a0 Consumable_Bones
+  XREF from=1800359fd function=FUN_180031ad0 entry=180031ad0
+STRING 1809aa548 Arrows_Boned
+  XREF from=180036759 function=FUN_180031ad0 entry=180031ad0
+STRING 1809ad820 multithreadedAnimations
+  XREF from=18055ae19 function=FUN_18055ab40 entry=18055ab40
+STRING 1809bad78 Animation: name("%s") stateIndex(%d) sourceIndex(%d)
+STRING 1809c24b8 AnimationSources
+  XREF from=1805b920b function=FUN_1805b8e60 entry=1805b8e60
+  XREF from=1805b8fea function=FUN_1805b8e60 entry=1805b8e60
+STRING 1809c24d0 Animation source %s not found in %s
+  XREF from=1805b92fc function=FUN_1805b8e60 entry=1805b8e60
+STRING 1809c2538 %s: %s - unknown animation source %s
+  XREF from=1805b93c4 function=FUN_1805b8e60 entry=1805b8e60
+STRING 1809c8e80 No jpg import library found
+  XREF from=1805db30b function=FUN_1805db2c0 entry=1805db2c0
+STRING 1809d5340 [ERROR][%s] :: Proxy bone selection name ('proxyPos') was not defined when parsing class Crew::%s
+  XREF from=1805fe1d8 function=FUN_1805fd9a0 entry=1805fd9a0
+STRING 1809d55e0 [ERROR][%s] :: Proxy with bone name '%s' was not found in view geometry level of model
+  XREF from=1805fd6fe function=FUN_1805fd560 entry=1805fd560
+STRING 1809e08a0 ExportSpawnData
+  XREF from=18063921b function=FUN_180639200 entry=180639200
+STRING 1809e08b0 ExportProxyData
+  XREF from=18063923c function=FUN_180639200 entry=180639200
+STRING 1809e08c0 ExportClusterData
+  XREF from=180639259 function=FUN_180639200 entry=180639200
+STRING 1809e08d8 ExportProxyProto
+  XREF from=180639276 function=FUN_180639200 entry=180639200
+STRING 1809e0b30 LootExportGroup
+  XREF from=1806395f9 function=FUN_180639200 entry=180639200
+STRING 1809e0b40 LootExportAllGroups
+  XREF from=180639616 function=FUN_180639200 entry=180639200
+STRING 1809e0b58 LootExportMap
+  XREF from=180639633 function=FUN_180639200 entry=180639200
+STRING 1809e0b68 LootExportClusters
+  XREF from=180639650 function=FUN_180639200 entry=180639200
+STRING 1809e0d28 DynamicEventExport
+  XREF from=18063983d function=FUN_180639200 entry=180639200
+STRING 1809e0e50 ExportSpawnData "%s", cannot create player spawn data
+  XREF from=180638b94 function=FUN_180638b70 entry=180638b70
+STRING 1809e0e88 ExportSpawnData "%s", exported in %0.2f seconds...
+  XREF from=180638bb6 function=FUN_180638b70 entry=180638b70
+STRING 1809e1238 CEApi::LootExportGroup
+  XREF from=1806390c0 function=<none> entry=<none>
+STRING 1809e1250 CEApi::LootExportAllGroups
+  XREF from=180639080 function=<none> entry=<none>
+STRING 1809e1270 CEApi::LootExportMap
+  XREF from=1806390e0 function=<none> entry=<none>
+STRING 1809e1288 CEApi::LootExportClusters
+  XREF from=1806390a0 function=<none> entry=<none>
+STRING 1809e14c8 CEApi::DynamicEventExport
+  XREF from=1806367a0 function=<none> entry=<none>
+STRING 1809e1b98 !!! Export skipped. Invalid world size...
+  XREF from=180642ba9 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1bc8 !!! Export skipped. Range for export is zero...
+  XREF from=180642c15 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1bf8 [&] Exporting group types (%d):
+  XREF from=180642ef7 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1c18 !!! Zero types, nothing to export...
+  XREF from=180642f0e function=<none> entry=<none>
+STRING 1809e1c40 [&] Exporting cluster types (%d):
+  XREF from=180642ed7 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1c68 [&] Exporting missing types
+  XREF from=180642ec3 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1c88 [&] Exporting all types
+  XREF from=180642c7c function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1d10 Exporting %0.1f %%
+  XREF from=1806438d5 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e1d30 [CE][MapExport] :: entity found:%d, entity valid:%d, types total:%d... took %d sec
+  XREF from=180643930 function=FUN_180642ac0 entry=180642ac0
+STRING 1809e33d8 (non-binarized object)
+  XREF from=18066635f function=FUN_180664a30 entry=180664a30
+  XREF from=180666369 function=FUN_180664a30 entry=180664a30
+STRING 1809e33f0 (binarized object)
+  XREF from=18066634f function=FUN_180664a30 entry=180664a30
+STRING 1809e3bc0 Error: Binarize missed persistence for '%s'. Check model properties for '%s', simulation '%s'
+  XREF from=1806671ff function=FUN_180666bf0 entry=180666bf0
+STRING 1809e3e70 Warning: %s: Binarized guessed persistence wrong, class %s
+  XREF from=18066dfcc function=FUN_18066c100 entry=18066c100
+STRING 1809e3eb0 Late no persistence detection, binarize reasons %d -%s
+  XREF from=18066e05d function=FUN_18066c100 entry=18066c100
+STRING 1809e9cb0 Forest %s requires CPU animation
+  XREF from=18067501e function=FUN_180674f10 entry=180674f10
+STRING 1809ed380 UpdatePathgraphDoorByAnimationSourceName
+  XREF from=1806905a8 function=FUN_180690070 entry=180690070
+STRING 1809ed8b0 drawimportance
+  XREF from=180718465 function=FUN_1807183d0 entry=1807183d0
+STRING 1809ed9e8 World::UpdatePathgraphDoorByAnimationSourceName
+  XREF from=180695844 function=FUN_1806957f0 entry=1806957f0
+STRING 1809eda18 [%s] :: [WARNING] :: Invalid animation source %s
+  XREF from=18069584b function=FUN_1806957f0 entry=1806957f0
+STRING 1809ef0b8 No center for generic matrix animation
+  XREF from=18069cc44 function=FUN_18069cc40 entry=18069cc40
+  XREF from=18069cc14 function=FUN_18069cc10 entry=18069cc10
+STRING 1809ef0e0 d:\jenkins\cpu\workspace\_continuous_branches_stable_0128\codesvn\lib\animation.cpp
+  XREF from=18069cc51 function=FUN_18069cc40 entry=18069cc40
+  XREF from=18069cc21 function=FUN_18069cc10 entry=18069cc10
+STRING 1809ef238 Unknown animation type %s
+  XREF from=18069b441 function=FUN_18069b000 entry=18069b000
+STRING 1809ef258 Unknown animation type %d
+  XREF from=18069afbb function=FUN_18069ad90 entry=18069ad90
+STRING 1809efa68 ToBonePivot
+  XREF from=1806c85fd function=FUN_1806c8190 entry=1806c8190
+STRING 1809efa78 FromBonePivot
+  XREF from=1806c861a function=FUN_1806c8190 entry=1806c8190
+STRING 1809efa88 GetBonePivotsForAnimationSource
+  XREF from=1806c863a function=FUN_1806c8190 entry=1806c8190
+STRING 1809efaa8 GetBonePivot
+  XREF from=1806c8654 function=FUN_1806c8190 entry=1806c8190
+STRING 1809f3578 Error: Skeletons of this and the parent object not matching
+  XREF from=1806bc3ae function=FUN_1806bc2a0 entry=1806bc2a0
+STRING 1809f38f8 No skeleton given for %s destruction
+  XREF from=1806b23ea function=FUN_1806b2370 entry=1806b2370
+STRING 1809f3920 Bad animation in %s
+  XREF from=1806b249c function=FUN_1806b2370 entry=1806b2370
+STRING 1809f3ca8 RTM_0100
+  XREF from=1806d3b41 function=FUN_1806d3aa0 entry=1806d3aa0
+STRING 1809f3cb8 RTM_0101
+  XREF from=1806d3bb4 function=FUN_1806d3aa0 entry=1806d3aa0
+STRING 1809f3e30 d:\jenkins\cpu\workspace\_continuous_branches_stable_0128\codesvn\lib\rtanimation.cpp
+  XREF from=1806d286f function=FUN_1806d27e0 entry=1806d27e0
+  XREF from=1806d05d4 function=FUN_1806d0510 entry=1806d0510
+  XREF from=1806d5cdb function=FUN_1806d5ba0 entry=1806d5ba0
+STRING 1809f3e88 skeletonInherit
+  XREF from=1806d4733 function=FUN_1806d4720 entry=1806d4720
+STRING 1809f3ec8 skeletonBones
+  XREF from=1806d48d3 function=FUN_1806d4720 entry=1806d4720
+STRING 1809f3ed8 Error: Bad entry count in %s skeleton
+  XREF from=1806d4933 function=FUN_1806d4720 entry=1806d4720
+STRING 1809f3f00 Warning: bone %s already listed in %s skeleton
+  XREF from=1806d4bb8 function=FUN_1806d4720 entry=1806d4720
+STRING 1809f3f30 Error: bone %s is parent of itself
+  XREF from=1806d4c77 function=FUN_1806d4720 entry=1806d4720
+STRING 1809f3f58 %s: Invalid parent bone '%s' for '%s'
+  XREF from=1806d6c6c function=FUN_1806d6b60 entry=1806d6b60
+STRING 1809f3f80 Skeleton %s contains bones unaccessible by hierarchy chain (cycles?)
+  XREF from=1806d5d55 function=FUN_1806d5d00 entry=1806d5d00
+STRING 1809f3fd8 Obsolete CfgSkeletons for %s, move to model.cfg
+  XREF from=1806cf93f function=FUN_1806cf770 entry=1806cf770
+STRING 1809f4008 CfgSkeletons
+  XREF from=1806f477e function=FUN_1806f4510 entry=1806f4510
+STRING 1809f4018 Missing Memory level in skeleton pivots file %s.
+  XREF from=1806d5364 function=FUN_1806d4f30 entry=1806d4f30
+STRING 1809f4050 Broken animation file
+  XREF from=1806d4170 function=FUN_1806d4120 entry=1806d4120
+STRING 1809f4070 Animation %s not found or empty
+  XREF from=1806d4048 function=FUN_1806d3fd0 entry=1806d3fd0
+STRING 1809f4090 Old format used in animation %s
+  XREF from=1806d3b84 function=FUN_1806d3aa0 entry=1806d3aa0
+STRING 1809f40b0 Bad animation file format in file '%s'.
+  XREF from=1806d3fac function=FUN_1806d3aa0 entry=1806d3aa0
+STRING 1809f40d8 Error: Accessing undefined vertex bone references
+  XREF from=1806d05c7 function=FUN_1806d0510 entry=1806d0510
+STRING 1809f59c0 binarize
+  XREF from=1806ea4d5 function=FUN_1806ea280 entry=1806ea280
+STRING 1809f7500 SubSkeletonIndex: %d
+  XREF from=180700dc4 function=FUN_180700b60 entry=180700b60
+  XREF from=180707586 function=FUN_180707420 entry=180707420
+  XREF from=180700847 function=FUN_1806ff5c0 entry=1806ff5c0
+STRING 1809f7518 Error: SubSkeletonIndex out of bounds
+STRING 1809f7540 d:\jenkins\cpu\workspace\_continuous_branches_stable_0128\codesvn\lib\rtanimation.hpp
+STRING 1809f7850 #Animation#
+  XREF from=18070f804 function=FUN_18070cda0 entry=18070cda0
+STRING 1809f79d8 keyframe
+  XREF from=18004a394 function=FUN_18004a390 entry=18004a390
+  XREF from=18070fa78 function=FUN_18070cda0 entry=18070cda0
+STRING 1809f79e8 Key frame animation, no 'keyframe' property
+  XREF from=18070faa7 function=FUN_18070cda0 entry=18070cda0
+STRING 1809f7bd0 Warning: %s:%s, too many bones (more than 4) on vertex %d, removed %s
+  XREF from=180700f30 function=FUN_180700b60 entry=180700b60
+  XREF from=180700ec5 function=FUN_180700b60 entry=180700b60
+STRING 1809f7c20 Warning: %s:%s, vertices of bone %s are shared with parent bone %s
+  XREF from=180700d13 function=FUN_180700b60 entry=180700b60
+STRING 1809f7c68 Error: %s:%s, vertices of bone %s are shared with bone %s
+  XREF from=180700d5b function=FUN_180700b60 entry=180700b60
+STRING 1809f7d30 Bone in range %d ... %d not found in subskeleton:
+  XREF from=1807074e4 function=FUN_180707420 entry=180707420
+STRING 1809f7d70 BoneGroups
+  XREF from=1806ff65f function=FUN_1806ff5c0 entry=1806ff5c0
+STRING 1809f7e70 %s: Cannot remove selections when animations exists
+  XREF from=180712081 function=FUN_180712060 entry=180712060
+STRING 1809f8458 SW animation used for %s - Not all levels have Keep Height set
+  XREF from=18070b0d3 function=FUN_1807096b0 entry=1807096b0
+STRING 1809fa6a0 bimpas no longer expected on terrain - reexport %s
+  XREF from=1807452c9 function=FUN_180744f60 entry=180744f60
+STRING 1809fed58 Config %s uses old binary format %d - rebinarize
+  XREF from=18075e2a6 function=FUN_18075e140 entry=18075e140
+STRING 180a08b28 Invalid file type of binarized XML.
+  XREF from=1807a281e function=FUN_1807a27f0 entry=1807a27f0
+STRING 180a08b50 Error in binarized stringtable: mismatch of number of languages and offsets.
+  XREF from=1807a29a3 function=FUN_1807a27f0 entry=1807a27f0
+STRING 180a08ba0 Cannot find requested language "%s" in binarized stringtable.
+  XREF from=1807a2a0f function=FUN_1807a27f0 entry=1807a27f0
+STRING 180a08be0 Error in binarized stringtable: mismatch of number of keys and translations.
+  XREF from=1807a2aaf function=FUN_1807a27f0 entry=1807a27f0
+STRING 180a0b088 %s %d: CryptImportKey failed, err=(%X) %s
+  XREF from=1807ccac3 function=FUN_1807cca10 entry=1807cca10
+STRING 180a0cdb0 Bad bone->node index. Bone %d LOD %d
+  XREF from=1807ef115 function=FUN_1807eece0 entry=1807eece0
+STRING 180a0cfb0 Bad weights->bones index. Face %d. Vertex %d. Weight %d. Mesh %s LOD %d
+  XREF from=1807efc78 function=FUN_1807eece0 entry=1807eece0
+STRING 180a0d86c bones
+  XREF from=1807f4349 function=FUN_1807f4300 entry=1807f4300
+  XREF from=1807ed3a8 function=FUN_1807e9b90 entry=1807e9b90
+STRING 180a0dae0 Skeleton has too much nodes
+  XREF from=1807f6db9 function=FUN_1807f68b0 entry=1807f68b0
+STRING 180a0dc20 <skeleton name="%s">
+  XREF from=180807507 function=FUN_1808074a0 entry=1808074a0
+STRING 180a0dc38 <bone name="%s"/>
+  XREF from=180807686 function=FUN_1808074a0 entry=1808074a0
+STRING 180a0dc50 </skeleton>
+  XREF from=180807704 function=FUN_1808074a0 entry=1808074a0
+  XREF from=180807720 function=FUN_1808074a0 entry=1808074a0
+STRING 180b49064 dataExporter_v141_x64_RetailDX11.dll
+  XREF from=180b4900c function=<none> entry=<none>
+STRING 180b4911f ?ShowExportDialog@@YAHPEAUHWND__@@@Z
+  XREF from=180b4904c function=<none> entry=<none>
+STRING 180b49144 ?ShowExportDialogThread@@YAHPEAUHWND__@@@Z
+  XREF from=180b49050 function=<none> entry=<none>
+STRING 180b4916f ShowAnimExportDialogThread2
+  XREF from=180b49054 function=<none> entry=<none>
+STRING 180b4c428 CryptImportKey
+STRING 180b53bb2 BCryptExportKey
+STRING 180b53bc4 BCryptImportKeyPair
+STRING 180b5b380 Cannot find bone '%s'
+  XREF from=1801932c0 function=FUN_180192d60 entry=180192d60
+STRING 180ba5798 .?AUS_TransformModifier@IAnimExporterAcc@@
+STRING 180ba57d8 .?AUS_TransformGenerator@IAnimExporterAcc@@
+STRING 180ba5818 .?AVAnimExportDialogProfileCBD@@
+STRING 180ba58b0 .?AVAnimExportDialogProfileFBD@@
+STRING 180ba58e8 .?AVAnimExportDialogProfileChBD@@
+STRING 180ba5920 .?AVAnimExportDialogProfileDiffTgD@@
+DEFINED_STRING_HITS 300
+============================================================
+BYTE_NEEDLE_SCAN
+BYTE_NEEDLE .anm at=1808f9ec4 block=.rdata
+BYTE_NEEDLE .anm at=180900aa0 block=.rdata
+  XREF from=1800afa59 function=FUN_1800af8c0 entry=1800af8c0
+BYTE_NEEDLE_HITS .anm 2
+BYTE_NEEDLE .txa at=1808f9eca block=.rdata
+BYTE_NEEDLE .txa at=180900a98 block=.rdata
+  XREF from=1800af9ef function=FUN_1800af8c0 entry=1800af8c0
+BYTE_NEEDLE_HITS .txa 2
+BYTE_NEEDLE_HITS .fbx 0
+BYTE_NEEDLE RTM_0100 at=1809f3ca8 block=.rdata
+  XREF from=1806d3b41 function=FUN_1806d3aa0 entry=1806d3aa0
+BYTE_NEEDLE_HITS RTM_0100 1
+BYTE_NEEDLE RTM_0101 at=1809f3cb8 block=.rdata
+  XREF from=1806d3bb4 function=FUN_1806d3aa0 entry=1806d3aa0
+BYTE_NEEDLE_HITS RTM_0101 1
+BYTE_NEEDLE TXA at=1808fff00 block=.rdata
+  XREF from=1800b3d4c function=FUN_1800b3d20 entry=1800b3d20
+BYTE_NEEDLE TXA at=1808fff18 block=.rdata
+  XREF from=1800b3d53 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3d8e function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3dca function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3e06 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3e42 function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3e7e function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3eba function=FUN_1800b3d20 entry=1800b3d20
+  XREF from=1800b3ef6 function=FUN_1800b3d20 entry=1800b3d20
+BYTE_NEEDLE TXA at=180900980 block=.rdata
+  XREF from=1800b7af1 function=FUN_1800b76e0 entry=1800b76e0
+BYTE_NEEDLE TXA at=180ba5966 block=.data
+BYTE_NEEDLE TXA at=180ba5aef block=.data
+BYTE_NEEDLE TXA at=180ba5c28 block=.data
+BYTE_NEEDLE TXA at=180bd969f block=.data
+BYTE_NEEDLE TXA at=180bd96c6 block=.data
+BYTE_NEEDLE TXA at=180bd96f0 block=.data
+BYTE_NEEDLE TXA at=180bd9722 block=.data
+BYTE_NEEDLE TXA at=180bd9746 block=.data
+BYTE_NEEDLE TXA at=180bd9773 block=.data
+BYTE_NEEDLE_HITS TXA 12
+BYTE_NEEDLE_HITS FBX 0
+BYTE_NEEDLE_HITS Autodesk_Cache_File 0
+BYTE_NEEDLE_HITS Alias_Cache_File 0
+BYTE_NEEDLE animation at=180900daa block=.rdata
+BYTE_NEEDLE animation at=1809080a0 block=.rdata
+BYTE_NEEDLE animation at=180908a37 block=.rdata
+BYTE_NEEDLE animation at=180908a5f block=.rdata
+BYTE_NEEDLE animation at=18090a9c0 block=.rdata
+  XREF from=1806b23fe function=FUN_1806b2370 entry=1806b2370
+  XREF from=180031c89 function=FUN_180031ad0 entry=180031ad0
+  XREF from=1802c062c function=FUN_1802c01b0 entry=1802c01b0
+  XREF from=1802c0640 function=FUN_1802c01b0 entry=1802c01b0
+  XREF from=1802c0672 function=FUN_1802c01b0 entry=1802c01b0
+  XREF from=1802b61d9 function=FUN_1802b5a90 entry=1802b5a90
+  XREF from=1802b65dc function=FUN_1802b5a90 entry=1802b5a90
+  XREF from=1802bfc2c function=FUN_1802bf5f0 entry=1802bf5f0
+BYTE_NEEDLE animation at=180935a96 block=.rdata
+BYTE_NEEDLE animation at=18094942b block=.rdata
+BYTE_NEEDLE animation at=1809a8730 block=.rdata
+  XREF from=180034204 function=FUN_180031ad0 entry=180031ad0
+  XREF from=1807e62e3 function=FUN_1807e62c0 entry=1807e62c0
+  XREF from=1807e4ac4 function=FUN_1807e4a50 entry=1807e4a50
+  XREF from=1807e4ad0 function=FUN_1807e4a50 entry=1807e4a50
+BYTE_NEEDLE animation at=1809c2549 block=.rdata
+BYTE_NEEDLE animation at=1809e9cc7 block=.rdata
+BYTE_NEEDLE animation at=1809eda35 block=.rdata
+BYTE_NEEDLE animation at=1809ef0d5 block=.rdata
+BYTE_NEEDLE animation at=1809ef126 block=.rdata
+BYTE_NEEDLE animation at=1809ef240 block=.rdata
+BYTE_NEEDLE animation at=1809ef260 block=.rdata
+BYTE_NEEDLE animation at=1809f3924 block=.rdata
+BYTE_NEEDLE animation at=1809f3e78 block=.rdata
+BYTE_NEEDLE animation at=1809f4057 block=.rdata
+BYTE_NEEDLE animation at=1809f40a3 block=.rdata
+BYTE_NEEDLE animation at=1809f40b4 block=.rdata
+BYTE_NEEDLE_HITS animation 20
+BYTE_NEEDLE skeleton at=180901940 block=.rdata
+BYTE_NEEDLE skeleton at=180901963 block=.rdata
+BYTE_NEEDLE skeleton at=18090197b block=.rdata
+BYTE_NEEDLE skeleton at=1809019a9 block=.rdata
+BYTE_NEEDLE skeleton at=18090eaf2 block=.rdata
+BYTE_NEEDLE skeleton at=180933d13 block=.rdata
+BYTE_NEEDLE skeleton at=1809430e8 block=.rdata
+  XREF from=1803472f3 function=FUN_180346e30 entry=180346e30
+  XREF from=18070a15e function=FUN_1807096b0 entry=1807096b0
+  XREF from=18070a1f1 function=FUN_1807096b0 entry=1807096b0
+  XREF from=1802fe1d4 function=FUN_1802fdea0 entry=1802fdea0
+  XREF from=180b80968 function=<none> entry=<none>
+BYTE_NEEDLE skeleton at=1809665de block=.rdata
+BYTE_NEEDLE skeleton at=1809f38fb block=.rdata
+BYTE_NEEDLE skeleton at=1809f3e88 block=.rdata
+  XREF from=1806d4733 function=FUN_1806d4720 entry=1806d4720
+BYTE_NEEDLE skeleton at=1809f3ec8 block=.rdata
+  XREF from=1806d48d3 function=FUN_1806d4720 entry=1806d4720
+BYTE_NEEDLE skeleton at=1809f3ef5 block=.rdata
+BYTE_NEEDLE skeleton at=1809f3f26 block=.rdata
+BYTE_NEEDLE skeleton at=1809f4030 block=.rdata
+BYTE_NEEDLE skeleton at=1809f7d58 block=.rdata
+BYTE_NEEDLE skeleton at=180a0dc22 block=.rdata
+BYTE_NEEDLE skeleton at=180a0dc53 block=.rdata
+BYTE_NEEDLE_HITS skeleton 17
+BYTE_NEEDLE bone at=18090113d block=.rdata
+BYTE_NEEDLE bone at=180901370 block=.rdata
+  XREF from=1800b96e3 function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b96f0 function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b88e8 function=FUN_1800b85c0 entry=1800b85c0
+  XREF from=1800b8ac5 function=FUN_1800b85c0 entry=1800b85c0
+BYTE_NEEDLE bone at=180901378 block=.rdata
+  XREF from=1800b980c function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b9816 function=FUN_1800b8e00 entry=1800b8e00
+  XREF from=1800b88ef function=FUN_1800b85c0 entry=1800b85c0
+  XREF from=1800b8aea function=FUN_1800b85c0 entry=1800b85c0
+BYTE_NEEDLE bone at=180908318 block=.rdata
+BYTE_NEEDLE bone at=1809083d8 block=.rdata
+BYTE_NEEDLE bone at=180909396 block=.rdata
+BYTE_NEEDLE bone at=1809093c3 block=.rdata
+BYTE_NEEDLE bone at=180909558 block=.rdata
+BYTE_NEEDLE bone at=180909563 block=.rdata
+BYTE_NEEDLE bone at=180909571 block=.rdata
+BYTE_NEEDLE bone at=18090957d block=.rdata
+BYTE_NEEDLE bone at=18090958c block=.rdata
+BYTE_NEEDLE bone at=1809096f1 block=.rdata
+BYTE_NEEDLE bone at=1809096fc block=.rdata
+BYTE_NEEDLE bone at=18090970a block=.rdata
+BYTE_NEEDLE bone at=180909716 block=.rdata
+BYTE_NEEDLE bone at=180909725 block=.rdata
+BYTE_NEEDLE bone at=180909cb8 block=.rdata
+BYTE_NEEDLE bone at=18093c06a block=.rdata
+BYTE_NEEDLE bone at=180942dec block=.rdata
+BYTE_NEEDLE_HITS bone 20
+BYTE_NEEDLE keyframe at=1809f79d8 block=.rdata
+  XREF from=18004a394 function=FUN_18004a390 entry=18004a390
+  XREF from=18070fa78 function=FUN_18070cda0 entry=18070cda0
+BYTE_NEEDLE keyframe at=1809f7a01 block=.rdata
+BYTE_NEEDLE_HITS keyframe 2
+BYTE_NEEDLE export at=1808fffb2 block=.rdata
+BYTE_NEEDLE export at=1808fffd8 block=.rdata
+BYTE_NEEDLE export at=180900068 block=.rdata
+BYTE_NEEDLE export at=18090009c block=.rdata
+BYTE_NEEDLE export at=180900ad1 block=.rdata
+BYTE_NEEDLE export at=180900b01 block=.rdata
+BYTE_NEEDLE export at=180900b68 block=.rdata
+BYTE_NEEDLE export at=180900b88 block=.rdata
+BYTE_NEEDLE export at=180900ba4 block=.rdata
+BYTE_NEEDLE export at=180900bb4 block=.rdata
+BYTE_NEEDLE export at=180900bd4 block=.rdata
+BYTE_NEEDLE export at=180900c9c block=.rdata
+BYTE_NEEDLE export at=180900cec block=.rdata
+BYTE_NEEDLE export at=180900d1c block=.rdata
+BYTE_NEEDLE export at=180900d4c block=.rdata
+BYTE_NEEDLE export at=180900d7c block=.rdata
+BYTE_NEEDLE export at=180900e04 block=.rdata
+BYTE_NEEDLE export at=180900e1e block=.rdata
+BYTE_NEEDLE export at=18090109d block=.rdata
+BYTE_NEEDLE export at=1809010c1 block=.rdata
+BYTE_NEEDLE_HITS export 20
+BYTE_NEEDLE import at=1808ff813 block=.rdata
+BYTE_NEEDLE import at=1809661f8 block=.rdata
+  XREF from=1803b470c function=FUN_1803b4530 entry=1803b4530
+  XREF from=18056dad5 function=FUN_18056d6f0 entry=18056d6f0
+BYTE_NEEDLE import at=1809c8e87 block=.rdata
+BYTE_NEEDLE import at=1809ed8b4 block=.rdata
+BYTE_NEEDLE_HITS import 4
+BYTE_NEEDLE binarize at=1809e33dd block=.rdata
+BYTE_NEEDLE binarize at=1809e33f1 block=.rdata
+BYTE_NEEDLE binarize at=1809e3ecf block=.rdata
+BYTE_NEEDLE binarize at=1809f59c0 block=.rdata
+  XREF from=1806ea4d5 function=FUN_1806ea280 entry=1806ea280
+BYTE_NEEDLE binarize at=1809fed80 block=.rdata
+BYTE_NEEDLE binarize at=180a08b3d block=.rdata
+BYTE_NEEDLE binarize at=180a08b59 block=.rdata
+BYTE_NEEDLE binarize at=180a08bc7 block=.rdata
+BYTE_NEEDLE binarize at=180a08be9 block=.rdata
+BYTE_NEEDLE_HITS binarize 9
+SCRIPT COMPLETED DataExporterAnmResearch
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

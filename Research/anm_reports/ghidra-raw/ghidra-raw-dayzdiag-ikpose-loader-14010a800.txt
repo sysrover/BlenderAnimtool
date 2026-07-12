@@ -1,0 +1,475 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_14010a800(longlong *param_1,longlong *param_2)
+
+{
+  TypeDescriptor *pTVar1;
+  void **ppvVar2;
+  longlong *plVar3;
+  byte *pbVar4;
+  byte *_Str;
+  longlong *plVar5;
+  longlong lVar6;
+  longlong lVar7;
+  bool bVar8;
+  char cVar9;
+  undefined4 uVar10;
+  int iVar11;
+  long lVar12;
+  uint uVar13;
+  longlong *plVar14;
+  longlong lVar15;
+  undefined8 *puVar16;
+  ulonglong uVar17;
+  int *piVar18;
+  TypeDescriptor *pTVar19;
+  char *_EndPtr;
+  TypeDescriptor *pTVar20;
+  TypeDescriptor *pTVar21;
+  undefined8 uVar22;
+  char *pcVar23;
+  TypeDescriptor *pTVar24;
+  longlong lVar25;
+  longlong lVar26;
+  long lVar27;
+  undefined1 local_100 [16];
+  TypeDescriptor *local_f0;
+  TypeDescriptor *local_e8;
+  TypeDescriptor local_e0;
+  longlong *local_d0;
+  longlong *local_c8;
+  longlong *local_c0;
+  byte *local_b8;
+  TypeDescriptor *local_b0;
+  TypeDescriptor local_a8;
+  longlong local_98 [7];
+  LPCVOID local_60;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  undefined4 uStack_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined4 uStack_2c;
+  
+  local_48 = _DAT_141121028;
+  uStack_44 = uRam000000014112102c;
+  uStack_40 = uRam0000000141121030;
+  uStack_3c = uRam0000000141121034;
+  plVar14 = (longlong *)(**(code **)(param_1[4] + 0x20))(param_1 + 4);
+  pTVar24 = (TypeDescriptor *)0x0;
+  lVar15 = FUN_14037ebd0((undefined8 *)&local_48,"AnimSetInstance load",plVar14,0);
+  uVar10 = thunk_FUN_140c5a480();
+  if ((char)uVar10 != '\0') {
+    _guard_check_icall();
+  }
+  (**(code **)(*param_1 + 0x48))(param_1);
+  FUN_1400cf570(local_98,param_2,plVar14,(SIZE_T)pTVar24);
+  puVar16 = (undefined8 *)FUN_140060370(local_98);
+  bVar8 = FUN_1400cfbb0(puVar16,param_2,plVar14,(SIZE_T)pTVar24);
+  if (bVar8) {
+    pcVar23 = (char *)0x0;
+    _EndPtr = "animsetinstance";
+    uVar17 = FUN_1400cfcb0((longlong)local_98,(byte *)"animsetinstance",(undefined8 *)0x0,
+                           (SIZE_T)pTVar24);
+    if ((char)uVar17 != '\0') {
+      lVar26 = 0;
+      *(undefined4 *)(param_1 + 0x1d) = 0;
+      *(undefined4 *)(param_1 + 0x14) = 0;
+      iVar11 = FUN_1400d0540((longlong)local_98,_EndPtr,pcVar23,(SIZE_T)pTVar24);
+      while (iVar11 != 0) {
+        pTVar21 = (TypeDescriptor *)0x0;
+        if (iVar11 == 1) {
+          iVar11 = FUN_1400d01e0((longlong)local_98);
+          if (iVar11 != 2) goto LAB_14010afe2;
+          puVar16 = (undefined8 *)FUN_1400d01f0((longlong)local_98,0);
+          _EndPtr = (char *)0x1;
+          pbVar4 = (byte *)*puVar16;
+          puVar16 = (undefined8 *)FUN_1400d01f0((longlong)local_98,1);
+          _Str = (byte *)*puVar16;
+          lVar27 = 0;
+          if (pbVar4 == (byte *)"template") {
+LAB_14010ac1d:
+            FUN_1402beb90((longlong *)&local_c8,_Str);
+            pcVar23 = (char *)&local_c8;
+            pTVar24 = pTVar21;
+            (**(code **)(*DAT_14126be20 + 0x1e0))(DAT_14126be20,&local_f0,pcVar23,0,0);
+            pTVar20 = local_f0;
+            if (local_f0 != (TypeDescriptor *)0x0) {
+              pTVar1 = local_f0 + 1;
+              pTVar19 = pTVar21;
+              if (((pTVar1 != (TypeDescriptor *)0x0) &&
+                  (cVar9 = (**(code **)pTVar1->pVFTable)
+                                     (pTVar1,&enf::IAnimSetTemplate::RTTI_Type_Descriptor),
+                  cVar9 != '\0')) && (pTVar19 = pTVar20, pTVar20 != (TypeDescriptor *)0x0)) {
+                local_f0 = pTVar21;
+              }
+              pTVar21 = pTVar19;
+              if (local_f0 != (TypeDescriptor *)0x0) {
+                LOCK();
+                ppvVar2 = &local_f0->spare;
+                iVar11 = *(int *)ppvVar2;
+                *(int *)ppvVar2 = *(int *)ppvVar2 + -1;
+                UNLOCK();
+                if (iVar11 == 1) {
+                  (**(code **)((longlong)local_f0->pVFTable + 8))();
+                }
+                local_f0 = (TypeDescriptor *)0x0;
+              }
+            }
+            if (local_c8 != (longlong *)0x0) {
+              LOCK();
+              plVar14 = local_c8 + 1;
+              lVar25 = *plVar14;
+              *(int *)plVar14 = (int)*plVar14 + -1;
+              UNLOCK();
+              if ((int)lVar25 == 1) {
+                (**(code **)(*local_c8 + 8))();
+              }
+              local_c8 = (longlong *)0x0;
+            }
+            if (pTVar21 == (TypeDescriptor *)0x0) goto LAB_14010afe2;
+            _EndPtr = (char *)pTVar21;
+            FUN_14010a760((longlong)param_1,(longlong *)pTVar21);
+            LOCK();
+            ppvVar2 = &pTVar21->spare;
+            iVar11 = *(int *)ppvVar2;
+            *(int *)ppvVar2 = *(int *)ppvVar2 + -1;
+            UNLOCK();
+            if (iVar11 == 1) {
+              (**(code **)((longlong)pTVar21->pVFTable + 8))(pTVar21);
+            }
+          }
+          else {
+            if (pbVar4 != (byte *)0x0) {
+              _EndPtr = "template";
+              iVar11 = FUN_140148620(pbVar4,(byte *)"template");
+              if (iVar11 == 0) goto LAB_14010ac1d;
+            }
+            if (pbVar4 == (byte *)"nparents") {
+LAB_14010abcb:
+              lVar12 = lVar27;
+              if ((_Str != (byte *)0x0) && (*_Str != 0)) {
+                piVar18 = _errno();
+                pcVar23 = (char *)0xa;
+                _EndPtr = (char *)&local_a8;
+                *piVar18 = 0;
+                lVar12 = strtol((char *)_Str,(char **)_EndPtr,10);
+                piVar18 = _errno();
+                if ((*piVar18 != 0) || (local_a8.pVFTable == _Str)) {
+                  piVar18 = _errno();
+                  *piVar18 = 0;
+                  lVar12 = lVar27;
+                }
+              }
+              *(long *)(param_1 + 0x1d) = lVar12;
+            }
+            else {
+              if (pbVar4 != (byte *)0x0) {
+                _EndPtr = "nparents";
+                iVar11 = FUN_140148620(pbVar4,(byte *)"nparents");
+                if (iVar11 == 0) goto LAB_14010abcb;
+              }
+              if (pbVar4 == (byte *)"parent") {
+LAB_14010aaed:
+                FUN_1402beb90((longlong *)&local_d0,_Str);
+                pcVar23 = (char *)&local_d0;
+                pTVar20 = (TypeDescriptor *)(local_100 + 8);
+                pTVar24 = pTVar21;
+                (**(code **)(*DAT_14126be20 + 0x1e0))();
+                uVar22 = local_100._8_8_;
+                if ((TypeDescriptor *)local_100._8_8_ != (TypeDescriptor *)0x0) {
+                  pTVar1 = (TypeDescriptor *)(local_100._8_8_ + 0x10);
+                  pTVar19 = pTVar21;
+                  if (pTVar1 != (TypeDescriptor *)0x0) {
+                    pTVar20 = &enf::IAnimSetInstance::RTTI_Type_Descriptor;
+                    cVar9 = (**(code **)pTVar1->pVFTable)(pTVar1);
+                    if ((cVar9 != '\0') &&
+                       (pTVar19 = (TypeDescriptor *)uVar22,
+                       (TypeDescriptor *)uVar22 != (TypeDescriptor *)0x0)) {
+                      local_100._8_8_ = pTVar21;
+                    }
+                  }
+                  pTVar21 = pTVar19;
+                  if ((TypeDescriptor *)local_100._8_8_ != (TypeDescriptor *)0x0) {
+                    LOCK();
+                    ppvVar2 = (void **)(local_100._8_8_ + 8);
+                    iVar11 = *(int *)ppvVar2;
+                    *(int *)ppvVar2 = *(int *)ppvVar2 + -1;
+                    UNLOCK();
+                    if (iVar11 == 1) {
+                      (**(code **)((longlong)*(void **)local_100._8_8_ + 8))();
+                    }
+                    local_100._8_8_ = (TypeDescriptor *)0x0;
+                  }
+                }
+                if (local_d0 != (longlong *)0x0) {
+                  LOCK();
+                  plVar14 = local_d0 + 1;
+                  lVar25 = *plVar14;
+                  *(int *)plVar14 = (int)*plVar14 + -1;
+                  UNLOCK();
+                  if ((int)lVar25 == 1) {
+                    (**(code **)(*local_d0 + 8))();
+                  }
+                  local_d0 = (longlong *)0x0;
+                }
+                if (pTVar21 == (TypeDescriptor *)0x0) goto LAB_14010afe2;
+                plVar14 = (longlong *)param_1[lVar26 + 0x15];
+                lVar25 = lVar26 + 1;
+                param_1[lVar26 + 0x15] = (longlong)pTVar21;
+LAB_14010aac6:
+                _EndPtr = (char *)pTVar20;
+                lVar26 = lVar25;
+                if (plVar14 != (longlong *)0x0) {
+                  LOCK();
+                  plVar5 = plVar14 + 1;
+                  lVar25 = *plVar5;
+                  *(int *)plVar5 = (int)*plVar5 + -1;
+                  UNLOCK();
+                  if ((int)lVar25 == 1) {
+                    (**(code **)(*plVar14 + 8))();
+                    _EndPtr = (char *)pTVar20;
+                  }
+                }
+              }
+              else {
+                if (pbVar4 != (byte *)0x0) {
+                  _EndPtr = "parent";
+                  iVar11 = FUN_140148620(pbVar4,(byte *)"parent");
+                  if (iVar11 == 0) goto LAB_14010aaed;
+                }
+                if (pbVar4 != (byte *)"nsources") {
+                  if (pbVar4 != (byte *)0x0) {
+                    _EndPtr = "nsources";
+                    iVar11 = FUN_140148620(pbVar4,(byte *)"nsources");
+                    if (iVar11 == 0) goto LAB_14010afc5;
+                  }
+                  if (pbVar4 == (byte *)"ikpose") {
+LAB_14010a9ff:
+                    FUN_1402beb90((longlong *)&local_e0.spare,_Str);
+                    pcVar23 = (char *)&local_e0.spare;
+                    pTVar20 = (TypeDescriptor *)local_100;
+                    pTVar24 = pTVar21;
+                    (**(code **)(*DAT_14126be20 + 0x1e0))();
+                    uVar22 = local_100._0_8_;
+                    if ((TypeDescriptor *)local_100._0_8_ != (TypeDescriptor *)0x0) {
+                      pTVar1 = (TypeDescriptor *)(local_100._0_8_ + 0x10);
+                      pTVar19 = pTVar21;
+                      if (pTVar1 != (TypeDescriptor *)0x0) {
+                        pTVar20 = &enf::Animation::RTTI_Type_Descriptor;
+                        cVar9 = (**(code **)pTVar1->pVFTable)(pTVar1);
+                        if ((cVar9 != '\0') &&
+                           (pTVar19 = (TypeDescriptor *)uVar22,
+                           (TypeDescriptor *)uVar22 != (TypeDescriptor *)0x0)) {
+                          local_100._0_8_ = pTVar21;
+                        }
+                      }
+                      pTVar21 = pTVar19;
+                      if ((TypeDescriptor *)local_100._0_8_ != (TypeDescriptor *)0x0) {
+                        LOCK();
+                        ppvVar2 = (void **)(local_100._0_8_ + 8);
+                        iVar11 = *(int *)ppvVar2;
+                        *(int *)ppvVar2 = *(int *)ppvVar2 + -1;
+                        UNLOCK();
+                        if (iVar11 == 1) {
+                          (**(code **)((longlong)*(void **)local_100._0_8_ + 8))();
+                        }
+                        local_100._0_8_ = (TypeDescriptor *)0x0;
+                      }
+                    }
+                    if (local_e0.spare != (longlong *)0x0) {
+                      LOCK();
+                      plVar14 = (longlong *)((longlong)local_e0.spare + 8);
+                      lVar25 = *plVar14;
+                      *(int *)plVar14 = (int)*plVar14 + -1;
+                      UNLOCK();
+                      if ((int)lVar25 == 1) {
+                        (**(code **)(*(longlong *)local_e0.spare + 8))();
+                      }
+                      local_e0.spare = (longlong *)0x0;
+                    }
+                    if (pTVar21 != (TypeDescriptor *)0x0) {
+                      plVar14 = (longlong *)param_1[0xc];
+                      param_1[0xc] = (longlong)pTVar21;
+                      lVar25 = lVar26;
+                      goto LAB_14010aac6;
+                    }
+                    goto LAB_14010afe2;
+                  }
+                  if (pbVar4 != (byte *)0x0) {
+                    _EndPtr = "ikpose";
+                    iVar11 = FUN_140148620(pbVar4,(byte *)"ikpose");
+                    if (iVar11 == 0) goto LAB_14010a9ff;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else if (iVar11 == 2) {
+          iVar11 = FUN_1400d01e0((longlong)local_98);
+          if (iVar11 == 0) goto LAB_14010afe2;
+          _EndPtr = (char *)0x0;
+          puVar16 = (undefined8 *)FUN_1400d01f0((longlong)local_98,0);
+          pbVar4 = (byte *)*puVar16;
+          if (pbVar4 == (byte *)"animations") {
+LAB_14010ad4d:
+            _EndPtr = (char *)&local_e0;
+            local_e0.pVFTable = (TypeDescriptor *)0x0;
+            local_b8 = (byte *)0x0;
+            cVar9 = FUN_1400d0210((longlong)local_98,(undefined8 *)_EndPtr,pcVar23,(SIZE_T)pTVar24);
+            while (cVar9 != '\0') {
+              pTVar21 = (TypeDescriptor *)0x0;
+              cVar9 = FUN_1400d0210((longlong)local_98,&local_b8,pcVar23,(SIZE_T)pTVar24);
+              if (cVar9 == '\0') goto LAB_14010afe2;
+              FUN_1402beb90((longlong *)&local_c0,local_b8);
+              uVar13 = FUN_14010b8c0(param_1[0xb],local_e0.pVFTable);
+              lVar25 = param_1[0xb];
+              if (uVar13 == 0xffffffff) {
+                local_38 = _DAT_141121028;
+                uStack_34 = uRam000000014112102c;
+                uStack_30 = uRam0000000141121030;
+                uStack_2c = uRam0000000141121034;
+                plVar14 = (longlong *)
+                          (**(code **)(*(longlong *)(lVar25 + 0x20) + 0x20))(lVar25 + 0x20);
+                FUN_1402bf390(plVar14);
+                pcVar23 = "Unable to find source id %s in template %s";
+                pTVar24 = local_e0.pVFTable;
+                FUN_1400902d0(0x20,(undefined8 *)&local_38,
+                              "Unable to find source id %s in template %s",local_e0.pVFTable);
+              }
+              else {
+                uVar13 = FUN_14010ba30(lVar25,uVar13);
+                pcVar23 = (char *)&local_c0;
+                pTVar24 = pTVar21;
+                (**(code **)(*DAT_14126be20 + 0x1e0))(DAT_14126be20,&local_e8,pcVar23,0,0);
+                pTVar20 = local_e8;
+                if (local_e8 == (TypeDescriptor *)0x0) {
+                  local_b0 = (TypeDescriptor *)0x0;
+                }
+                else {
+                  pTVar1 = local_e8 + 1;
+                  pTVar19 = pTVar21;
+                  if (((pTVar1 != (TypeDescriptor *)0x0) &&
+                      (cVar9 = (**(code **)pTVar1->pVFTable)
+                                         (pTVar1,&enf::Animation::RTTI_Type_Descriptor),
+                      cVar9 != '\0')) && (pTVar19 = pTVar20, pTVar20 != (TypeDescriptor *)0x0)) {
+                    local_e8 = pTVar21;
+                  }
+                  local_b0 = pTVar19;
+                  if (local_e8 != (TypeDescriptor *)0x0) {
+                    LOCK();
+                    ppvVar2 = &local_e8->spare;
+                    iVar11 = *(int *)ppvVar2;
+                    *(int *)ppvVar2 = *(int *)ppvVar2 + -1;
+                    UNLOCK();
+                    if (iVar11 == 1) {
+                      (**(code **)((longlong)local_e8->pVFTable + 8))(local_e8);
+                    }
+                    local_e8 = (TypeDescriptor *)0x0;
+                  }
+                }
+                lVar25 = (ulonglong)uVar13 * 8;
+                plVar14 = *(longlong **)(lVar25 + param_1[0xf]);
+                *(TypeDescriptor **)(lVar25 + param_1[0xf]) = local_b0;
+                if (plVar14 != (longlong *)0x0) {
+                  LOCK();
+                  plVar5 = plVar14 + 1;
+                  lVar6 = *plVar5;
+                  *(int *)plVar5 = (int)*plVar5 + -1;
+                  UNLOCK();
+                  if ((int)lVar6 == 1) {
+                    (**(code **)(*plVar14 + 8))(plVar14);
+                  }
+                }
+                if (*(int *)((longlong)param_1 + 0x9c) != 0) {
+                  lVar6 = param_1[0x12];
+                  plVar14 = *(longlong **)(lVar25 + param_1[0xf]);
+                  plVar5 = *(longlong **)(lVar6 + lVar25);
+                  if (plVar14 != (longlong *)0x0) {
+                    LOCK();
+                    plVar3 = plVar14 + 1;
+                    lVar7 = *plVar3;
+                    *(int *)plVar3 = (int)*plVar3 + 1;
+                    UNLOCK();
+                    if ((int)lVar7 == 0) {
+                      (**(code **)(*plVar14 + 0x10))(plVar14);
+                    }
+                  }
+                  *(longlong **)(lVar6 + lVar25) = plVar14;
+                  if (plVar5 != (longlong *)0x0) {
+                    LOCK();
+                    plVar14 = plVar5 + 1;
+                    lVar6 = *plVar14;
+                    *(int *)plVar14 = (int)*plVar14 + -1;
+                    UNLOCK();
+                    if ((int)lVar6 == 1) {
+                      (**(code **)(*plVar5 + 8))(plVar5);
+                    }
+                  }
+                }
+                lVar6 = param_1[0xf];
+                if (*(longlong *)(lVar6 + lVar25) == 0) {
+                  plVar14 = *(longlong **)(DAT_1411a36f8 + 0x178);
+                  if (plVar14 != (longlong *)0x0) {
+                    LOCK();
+                    plVar5 = plVar14 + 1;
+                    lVar7 = *plVar5;
+                    *(int *)plVar5 = (int)*plVar5 + 1;
+                    UNLOCK();
+                    if ((int)lVar7 == 0) {
+                      (**(code **)(*plVar14 + 0x10))(plVar14);
+                    }
+                  }
+                  *(longlong **)(lVar6 + lVar25) = plVar14;
+                }
+              }
+              if (local_c0 != (longlong *)0x0) {
+                LOCK();
+                plVar14 = local_c0 + 1;
+                lVar25 = *plVar14;
+                *(int *)plVar14 = (int)*plVar14 + -1;
+                UNLOCK();
+                if ((int)lVar25 == 1) {
+                  (**(code **)(*local_c0 + 8))();
+                }
+                local_c0 = (longlong *)0x0;
+              }
+              _EndPtr = (char *)&local_e0;
+              local_e0.pVFTable = (TypeDescriptor *)0x0;
+              local_b8 = (byte *)0x0;
+              cVar9 = FUN_1400d0210((longlong)local_98,(undefined8 *)_EndPtr,pcVar23,(SIZE_T)pTVar24
+                                   );
+            }
+            iVar11 = FUN_1400d01d0((longlong)local_98);
+            if (iVar11 != 4) goto LAB_14010afe2;
+          }
+          else if (pbVar4 != (byte *)0x0) {
+            _EndPtr = "animations";
+            iVar11 = FUN_140148620(pbVar4,(byte *)"animations");
+            if (iVar11 == 0) goto LAB_14010ad4d;
+          }
+        }
+LAB_14010afc5:
+        iVar11 = FUN_1400d0540((longlong)local_98,_EndPtr,pcVar23,(SIZE_T)pTVar24);
+      }
+      FUN_14010a650((longlong)param_1);
+      uVar22 = 1;
+      goto LAB_14010afe4;
+    }
+  }
+LAB_14010afe2:
+  uVar22 = 0;
+LAB_14010afe4:
+  FUN_1403726a0(local_60);
+  FUN_1400cf5d0(local_98);
+  if (lVar15 != 0) {
+    FUN_14037e610();
+  }
+  return uVar22;
+}
+
+

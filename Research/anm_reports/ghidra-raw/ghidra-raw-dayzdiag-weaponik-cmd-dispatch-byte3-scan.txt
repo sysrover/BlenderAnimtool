@@ -1,0 +1,1255 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_CmdByte3Dispatch.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 20:29:33 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_CmdByte3Dispatch.java
+Size: 1901 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 15 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+McpInline_WeaponIK_Vtable_Offsets.java:55: error: cannot find symbol
+                FlowType ft = r.getReferenceType().getFlowType();
+                                                  ^
+  symbol:   method getFlowType()
+  location: class ghidra.program.model.symbol.RefType
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+CMD_BYTE3_DISPATCH_SCAN functions=758
+CANDIDATE 14007f770 FUN_14007f770 byte3=106 imm0c=755 total=861
+  14007f7a1 MOV R9D,dword ptr [RCX + 0xc]
+  14007f7c6 MOV dword ptr [RCX + 0xc],EDX
+  14007f7e6 MOV R9D,dword ptr [RBX + 0xc]
+  14007f81b MOV dword ptr [RBX + 0xc],EDX
+  14007f881 MOV dword ptr [RBX + 0xc],EDX
+  14007f8f6 MOV dword ptr [RBX + 0xc],ECX
+  14007f92a CMP EDX,dword ptr [RBX + 0xc]
+  14007f94f MOV dword ptr [RBX + 0xc],R15D
+  14007f96e MOV dword ptr [RBX + 0xc],EDX
+  14007f9c4 CMP EDX,dword ptr [RBX + 0xc]
+  14007f9e6 MOV dword ptr [RBX + 0xc],EDX
+  14007fa47 CMP EDX,dword ptr [RBX + 0xc]
+  14007fa6c MOV dword ptr [RBX + 0xc],EDX
+  14007faf4 CMP EDX,dword ptr [RBX + 0xc]
+  14007fb17 MOV dword ptr [RBX + 0xc],EDX
+  14007fc3a MOV R8D,0xc
+  14007fd05 CMP EDX,dword ptr [RBX + 0xc]
+  14007fd2b MOV dword ptr [RBX + 0xc],EDX
+  14007fd8e CMP EDX,dword ptr [RBX + 0xc]
+  14007fdb4 MOV dword ptr [RBX + 0xc],EDX
+  14007fe0a CMP EDX,dword ptr [RBX + 0xc]
+  14007fe30 MOV dword ptr [RBX + 0xc],EDX
+  14007fe86 CMP EDX,dword ptr [RBX + 0xc]
+  14007feac MOV dword ptr [RBX + 0xc],EDX
+  14007ff02 CMP EDX,dword ptr [RBX + 0xc]
+  14007ff28 MOV dword ptr [RBX + 0xc],EDX
+  14007ff8b CMP EDX,dword ptr [RBX + 0xc]
+  14007ffb1 MOV dword ptr [RBX + 0xc],EDX
+  140080007 CMP EDX,dword ptr [RBX + 0xc]
+  14008002d MOV dword ptr [RBX + 0xc],EDX
+  140080083 CMP EDX,dword ptr [RBX + 0xc]
+  1400800a9 MOV dword ptr [RBX + 0xc],EDX
+  1400800ff CMP EDX,dword ptr [RBX + 0xc]
+  140080125 MOV dword ptr [RBX + 0xc],EDX
+  140080188 CMP EDX,dword ptr [RBX + 0xc]
+  1400801ae MOV dword ptr [RBX + 0xc],EDX
+  140080204 CMP EDX,dword ptr [RBX + 0xc]
+  14008022a MOV dword ptr [RBX + 0xc],EDX
+  140080280 CMP EDX,dword ptr [RBX + 0xc]
+  1400802a6 MOV dword ptr [RBX + 0xc],EDX
+  1400802fc CMP EDX,dword ptr [RBX + 0xc]
+  140080322 MOV dword ptr [RBX + 0xc],EDX
+  140080385 CMP EDX,dword ptr [RBX + 0xc]
+  1400803ab MOV dword ptr [RBX + 0xc],EDX
+  140080401 CMP EDX,dword ptr [RBX + 0xc]
+  140080427 MOV dword ptr [RBX + 0xc],EDX
+  14008047d CMP EDX,dword ptr [RBX + 0xc]
+  1400804a3 MOV dword ptr [RBX + 0xc],EDX
+  1400804f9 CMP EDX,dword ptr [RBX + 0xc]
+  14008051f MOV dword ptr [RBX + 0xc],EDX
+  14008059d CMP EDX,dword ptr [RBX + 0xc]
+  1400805c3 MOV dword ptr [RBX + 0xc],EDX
+  14008062e CMP EDX,dword ptr [RBX + 0xc]
+  140080654 MOV dword ptr [RBX + 0xc],EDX
+  1400806bf CMP EDX,dword ptr [RBX + 0xc]
+  1400806e5 MOV dword ptr [RBX + 0xc],EDX
+  140080750 CMP EDX,dword ptr [RBX + 0xc]
+  140080776 MOV dword ptr [RBX + 0xc],EDX
+  1400807cc CMP EDX,dword ptr [RBX + 0xc]
+  1400807f2 MOV dword ptr [RBX + 0xc],EDX
+  14008083b CMP EDX,dword ptr [RBX + 0xc]
+  140080861 MOV dword ptr [RBX + 0xc],EDX
+  1400808aa CMP EDX,dword ptr [RBX + 0xc]
+  1400808d0 MOV dword ptr [RBX + 0xc],EDX
+  140080919 CMP EDX,dword ptr [RBX + 0xc]
+  14008093f MOV dword ptr [RBX + 0xc],EDX
+  140080995 CMP EDX,dword ptr [RBX + 0xc]
+  1400809bb MOV dword ptr [RBX + 0xc],EDX
+  140080a04 CMP EDX,dword ptr [RBX + 0xc]
+  140080a2a MOV dword ptr [RBX + 0xc],EDX
+  140080a73 CMP EDX,dword ptr [RBX + 0xc]
+  140080a99 MOV dword ptr [RBX + 0xc],EDX
+  140080ae2 CMP EDX,dword ptr [RBX + 0xc]
+  140080b08 MOV dword ptr [RBX + 0xc],EDX
+  140080b5e CMP EDX,dword ptr [RBX + 0xc]
+  140080b84 MOV dword ptr [RBX + 0xc],EDX
+  140080bcd CMP EDX,dword ptr [RBX + 0xc]
+  140080bf3 MOV dword ptr [RBX + 0xc],EDX
+  140080c3c CMP EDX,dword ptr [RBX + 0xc]
+  140080c62 MOV dword ptr [RBX + 0xc],EDX
+CANDIDATE 140d27d10 FUN_140d27d10 byte3=137 imm0c=95 total=232
+  140d27fb6 MOV byte ptr [RAX + 0xc],CL
+  140d27fdd MOV word ptr [RAX + 0xc],CX
+  140d28005 MOV word ptr [RAX + 0xc],CX
+  140d28830 LEA R10,[R9 + 0x3]
+  140d28894 LEA R10,[R9 + 0x3]
+  140d288b4 LEA R10,[R9 + 0x3]
+  140d288e0 LEA R10,[R9 + 0x3]
+  140d28910 LEA R10,[R9 + 0x3]
+  140d2894b LEA R10,[R9 + 0x3]
+  140d28970 LEA R10,[R9 + 0x3]
+  140d289a0 LEA R10,[R9 + 0x3]
+  140d289ca LEA R10,[R9 + 0x3]
+  140d289ed LEA R10,[R9 + 0x3]
+  140d28a1c LEA R10,[R9 + 0x3]
+  140d28a4c LEA R10,[R9 + 0x3]
+  140d28a87 LEA R10,[R9 + 0x3]
+  140d28aac LEA R10,[R9 + 0x3]
+  140d28b36 MOV ECX,dword ptr [RDX + 0xc]
+  140d28b39 MOV dword ptr [RAX + 0xc],ECX
+  140d28bba MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28bbe MOV byte ptr [RAX + 0x3],CL
+  140d28bf9 MOVZX ECX,byte ptr [RDX + 0xc]
+  140d28bfd MOV byte ptr [RAX + 0xc],CL
+  140d28cc2 LEA R10,[R9 + 0x3]
+  140d28d08 LEA R10,[R9 + 0x3]
+  140d28d3f MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28d43 MOV byte ptr [RAX + 0x3],CL
+  140d28d5a LEA R10,[R9 + 0x3]
+  140d28d98 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28d9c MOV byte ptr [RAX + 0x3],CL
+  140d28dba LEA R10,[R9 + 0x3]
+  140d28df9 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28dfd MOV byte ptr [RAX + 0x3],CL
+  140d28e22 LEA R10,[R9 + 0x3]
+  140d28e68 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28e6c MOV byte ptr [RAX + 0x3],CL
+  140d28ed8 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28edc MOV byte ptr [RAX + 0x3],CL
+  140d28f56 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28f5a MOV byte ptr [RAX + 0x3],CL
+  140d28fdc MOVZX ECX,byte ptr [RDX + 0x3]
+  140d28fe0 MOV byte ptr [RAX + 0x3],CL
+  140d29070 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d29074 MOV byte ptr [RAX + 0x3],CL
+  140d29102 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d29106 MOV byte ptr [RAX + 0x3],CL
+  140d2917f MOVZX ECX,byte ptr [RDX + 0xc]
+  140d29183 MOV byte ptr [RAX + 0xc],CL
+  140d291a2 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d291a6 MOV byte ptr [RAX + 0x3],CL
+  140d291e1 MOVZX ECX,byte ptr [RDX + 0xc]
+  140d291e5 MOV byte ptr [RAX + 0xc],CL
+  140d29226 MOVZX ECX,word ptr [RDX + 0xc]
+  140d2922a MOV word ptr [RAX + 0xc],CX
+  140d2924a MOVZX ECX,byte ptr [RDX + 0x3]
+  140d2924e MOV byte ptr [RAX + 0x3],CL
+  140d29289 MOVZX ECX,byte ptr [RDX + 0xc]
+  140d2928d MOV byte ptr [RAX + 0xc],CL
+  140d292d5 MOVZX ECX,word ptr [RDX + 0xc]
+  140d292d9 MOV word ptr [RAX + 0xc],CX
+  140d29300 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d29304 MOV byte ptr [RAX + 0x3],CL
+  140d2933f MOVZX ECX,byte ptr [RDX + 0xc]
+  140d29343 MOV byte ptr [RAX + 0xc],CL
+  140d29392 MOV ECX,dword ptr [RDX + 0xc]
+  140d29395 MOV dword ptr [RAX + 0xc],ECX
+  140d293b4 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d293b8 MOV byte ptr [RAX + 0x3],CL
+  140d293f3 MOVZX ECX,byte ptr [RDX + 0xc]
+  140d293f7 MOV byte ptr [RAX + 0xc],CL
+  140d2944d MOV ECX,dword ptr [RDX + 0xc]
+  140d29450 MOV dword ptr [RAX + 0xc],ECX
+  140d29476 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d2947a MOV byte ptr [RAX + 0x3],CL
+  140d294b5 MOVZX ECX,byte ptr [RDX + 0xc]
+  140d294b9 MOV byte ptr [RAX + 0xc],CL
+  140d29516 MOV ECX,dword ptr [RDX + 0xc]
+  140d29519 MOV dword ptr [RAX + 0xc],ECX
+  140d29540 MOVZX ECX,byte ptr [RDX + 0x3]
+  140d29544 MOV byte ptr [RAX + 0x3],CL
+CANDIDATE 140075b00 FUN_140075b00 byte3=106 imm0c=92 total=198
+  140075f53 MOV R8D,0xc
+  140077754 MOV EAX,dword ptr [RCX + 0xc]
+  140077757 MOV dword ptr [RDI + 0xc],EAX
+  1400777d9 MOVZX EAX,byte ptr [RCX + 0x3]
+  1400777dd MOV byte ptr [RDI + 0x3],AL
+  140077818 MOVZX EAX,byte ptr [RCX + 0xc]
+  14007781c MOV byte ptr [RDI + 0xc],AL
+  140077a2f MOVZX EAX,byte ptr [RCX + 0x3]
+  140077a33 MOV byte ptr [RDI + 0x3],AL
+  140077af0 MOVZX EAX,byte ptr [RCX + 0x3]
+  140077af4 MOV byte ptr [RDI + 0x3],AL
+  140077bb9 MOVZX EAX,byte ptr [RCX + 0x3]
+  140077bbd MOV byte ptr [RDI + 0x3],AL
+  140077c90 MOVZX EAX,byte ptr [RCX + 0x3]
+  140077c94 MOV byte ptr [RDI + 0x3],AL
+  140077d65 MOVZX EAX,byte ptr [RCX + 0x3]
+  140077d69 MOV byte ptr [RDI + 0x3],AL
+  140077e48 MOVZX EAX,byte ptr [RCX + 0x3]
+  140077e4c MOV byte ptr [RDI + 0x3],AL
+  140077f33 MOVZX EAX,byte ptr [RCX + 0x3]
+  140077f37 MOV byte ptr [RDI + 0x3],AL
+  14007802c MOVZX EAX,byte ptr [RCX + 0x3]
+  140078030 MOV byte ptr [RDI + 0x3],AL
+  140078123 MOVZX EAX,byte ptr [RCX + 0x3]
+  140078127 MOV byte ptr [RDI + 0x3],AL
+  140078206 MOVZX EAX,byte ptr [RCX + 0xc]
+  14007820a MOV byte ptr [RDI + 0xc],AL
+  140078228 MOVZX EAX,byte ptr [RCX + 0x3]
+  14007822c MOV byte ptr [RDI + 0x3],AL
+  140078267 MOVZX EAX,byte ptr [RCX + 0xc]
+  14007826b MOV byte ptr [RDI + 0xc],AL
+  140078312 MOVZX EAX,word ptr [RCX + 0xc]
+  140078316 MOV word ptr [RDI + 0xc],AX
+  140078335 MOVZX EAX,byte ptr [RCX + 0x3]
+  140078339 MOV byte ptr [RDI + 0x3],AL
+  140078374 MOVZX EAX,byte ptr [RCX + 0xc]
+  140078378 MOV byte ptr [RDI + 0xc],AL
+  140078426 MOVZX EAX,word ptr [RCX + 0xc]
+  14007842a MOV word ptr [RDI + 0xc],AX
+  140078450 MOVZX EAX,byte ptr [RCX + 0x3]
+  140078454 MOV byte ptr [RDI + 0x3],AL
+  14007848f MOVZX EAX,byte ptr [RCX + 0xc]
+  140078493 MOV byte ptr [RDI + 0xc],AL
+  140078548 MOV EAX,dword ptr [RCX + 0xc]
+  14007854b MOV dword ptr [RDI + 0xc],EAX
+  140078569 MOVZX EAX,byte ptr [RCX + 0x3]
+  14007856d MOV byte ptr [RDI + 0x3],AL
+  1400785a8 MOVZX EAX,byte ptr [RCX + 0xc]
+  1400785ac MOV byte ptr [RDI + 0xc],AL
+  140078668 MOV EAX,dword ptr [RCX + 0xc]
+  14007866b MOV dword ptr [RDI + 0xc],EAX
+  140078690 MOVZX EAX,byte ptr [RCX + 0x3]
+  140078694 MOV byte ptr [RDI + 0x3],AL
+  1400786cf MOVZX EAX,byte ptr [RCX + 0xc]
+  1400786d3 MOV byte ptr [RDI + 0xc],AL
+  140078796 MOV EAX,dword ptr [RCX + 0xc]
+  140078799 MOV dword ptr [RDI + 0xc],EAX
+  1400787bf MOVZX EAX,byte ptr [RCX + 0x3]
+  1400787c3 MOV byte ptr [RDI + 0x3],AL
+  1400787fe MOVZX EAX,byte ptr [RCX + 0xc]
+  140078802 MOV byte ptr [RDI + 0xc],AL
+  1400788cc MOV EAX,dword ptr [RCX + 0xc]
+  1400788cf MOV dword ptr [RDI + 0xc],EAX
+  1400788fc MOVZX EAX,byte ptr [RCX + 0x3]
+  140078900 MOV byte ptr [RDI + 0x3],AL
+  14007893b MOVZX EAX,byte ptr [RCX + 0xc]
+  14007893f MOV byte ptr [RDI + 0xc],AL
+  140078a10 MOV EAX,dword ptr [RCX + 0xc]
+  140078a13 MOV dword ptr [RDI + 0xc],EAX
+  140078a37 MOVZX EAX,byte ptr [RCX + 0x3]
+  140078a3b MOV byte ptr [RDI + 0x3],AL
+  140078a76 MOVZX EAX,byte ptr [RCX + 0xc]
+  140078a7a MOV byte ptr [RDI + 0xc],AL
+  140078b52 MOV EAX,dword ptr [RCX + 0xc]
+  140078b55 MOV dword ptr [RDI + 0xc],EAX
+  140078b80 MOVZX EAX,byte ptr [RCX + 0x3]
+  140078b84 MOV byte ptr [RDI + 0x3],AL
+  140078bbf MOVZX EAX,byte ptr [RCX + 0xc]
+  140078bc3 MOV byte ptr [RDI + 0xc],AL
+  140078ca2 MOV EAX,dword ptr [RCX + 0xc]
+CANDIDATE 1406b4c60 FUN_1406b4c60 byte3=8 imm0c=87 total=95
+  1406b4e12 MOV EAX,dword ptr [RAX + 0xc]
+  1406b4ea8 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b508d MOV EAX,dword ptr [RBX + 0xc]
+  1406b50cd MOV dword ptr [RDX + 0xc],EAX
+  1406b50d4 MOVSXD RAX,dword ptr [RBX + 0xc]
+  1406b514b MOV EDI,dword ptr [RBX + 0xc]
+  1406b515d MOV dword ptr [RAX + 0xc],R15D
+  1406b524e MOV ESI,dword ptr [RCX + 0xc]
+  1406b52b6 MOV ESI,dword ptr [RCX + 0xc]
+  1406b537f MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b542a MOV R14D,dword ptr [RDI + 0xc]
+  1406b5473 MOVSXD R8,dword ptr [RDI + 0xc]
+  1406b5484 MOVSXD RCX,dword ptr [RDI + 0xc]
+  1406b548c MOVSXD R8,dword ptr [RSI + 0xc]
+  1406b54c4 MOV dword ptr [RBX + 0xc],R14D
+  1406b550e MOVSXD RAX,dword ptr [RBX + 0xc]
+  1406b5753 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b595a MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b5bf7 MOVSXD R12,dword ptr [R12 + 0xc]
+  1406b5d19 MOV EAX,dword ptr [RAX + 0xc]
+  1406b5db5 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b5f69 MOV EAX,dword ptr [RAX + 0xc]
+  1406b6011 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b605f MOVSXD RAX,dword ptr [RBX + 0xc]
+  1406b60a2 MOV EAX,dword ptr [RCX + RSI*0x1 + 0xc]
+  1406b6303 MOV EAX,dword ptr [R9 + 0xc]
+  1406b63c8 CMP EDI,0xc
+  1406b63fd MOV dword ptr [R15 + 0xc],EBX
+  1406b64c7 CMP EDI,0xc
+  1406b65f4 MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b67e4 MOV dword ptr [R12 + 0xc],R15D
+  1406b6cae CMP EBX,dword ptr [RDI + 0xc]
+  1406b6ce3 MOV EDX,dword ptr [RBX + 0xc]
+  1406b6d17 MOV R8D,dword ptr [RAX + 0xc]
+  1406b6d4c MOV EAX,dword ptr [RAX + 0xc]
+  1406b6d66 MOVZX EAX,byte ptr [RAX + 0xc]
+  1406b6dd5 MOVSXD R12,dword ptr [RCX + 0xc]
+  1406b6f83 LEA R8D,[RDX + 0x3]
+  1406b710e MOV EDX,dword ptr [RDX + 0xc]
+  1406b7174 MOV R8D,dword ptr [RAX + 0xc]
+  1406b7209 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b72aa MOV byte ptr [RSI + 0x3],0x0
+  1406b732e MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b742e MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b749c MOV EDX,dword ptr [RBX + 0xc]
+  1406b7539 MOV byte ptr [RSI + 0x3],DIL
+  1406b759b MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b75e3 MOVSXD RAX,dword ptr [RBX + 0xc]
+  1406b771e MOVSXD RDX,dword ptr [RDI + 0xc]
+  1406b780c MOV byte ptr [RSI + 0x3],0x0
+  1406b7857 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b786a MOVSXD RBX,dword ptr [RAX + 0xc]
+  1406b78ee MOV EAX,dword ptr [RDX + 0xc]
+  1406b7943 MOV byte ptr [RDI + 0x3],0x0
+  1406b7ac1 MOVSXD RAX,dword ptr [RBX + 0xc]
+  1406b7b3c MOVSXD RCX,dword ptr [RAX + 0xc]
+  1406b7bb7 CMP dword ptr [RDI + 0xc],EAX
+  1406b7c2d CMP byte ptr [RBX + 0x3],0x0
+  1406b7d4c MOV byte ptr [RDI + 0x3],0x0
+  1406b7dfe CMP ECX,dword ptr [RDI + 0xc]
+  1406b7e4b MOV byte ptr [RBX + 0x3],0x0
+  1406b7ee8 MOV EDX,dword ptr [RAX + 0xc]
+  1406b8020 MOVSXD RAX,dword ptr [RBX + 0xc]
+  1406b8036 MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b80cb MOVZX EAX,word ptr [RCX + 0xc]
+  1406b818e MOVSXD RCX,dword ptr [RAX + 0xc]
+  1406b823c MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b82dc MOVSXD RDI,dword ptr [RAX + 0xc]
+  1406b8354 CMP dword ptr [RAX + 0xc],0x0
+  1406b837d CMP dword ptr [RDI + 0xc],0x0
+  1406b838b MOVSXD RAX,dword ptr [RDI + 0xc]
+  1406b8404 MOV R8D,dword ptr [RAX + 0xc]
+  1406b8598 MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b86a7 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b86d6 MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b873f MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b87aa MOV ECX,dword ptr [R14 + 0xc]
+  1406b8b38 MOVSXD RAX,dword ptr [RAX + 0xc]
+  1406b8b58 MOVSXD RAX,dword ptr [RCX + 0xc]
+  1406b8c94 MOVSXD RAX,dword ptr [RAX + 0xc]
+CANDIDATE 1401fa6e0 FUN_1401fa6e0 byte3=10 imm0c=1 total=11
+  1401fa7e8 MOV qword ptr [RAX + 0xc],0x3f800000
+  1401faf48 LEA R8D,[R9 + 0x3]
+  1401faf61 LEA R8D,[R9 + 0x3]
+  1401faf7a LEA R8D,[R9 + 0x3]
+  1401faf93 LEA R8D,[R9 + 0x3]
+  1401fafac LEA R8D,[R9 + 0x3]
+  1401fafc5 LEA R8D,[R9 + 0x3]
+  1401fb1a9 LEA R8D,[R9 + 0x3]
+  1401fb2df LEA R8D,[R9 + 0x3]
+  1401fb2f8 LEA R8D,[R9 + 0x3]
+  1401fb328 LEA R8D,[R9 + 0x3]
+CANDIDATE 14066cb30 FUN_14066cb30 byte3=9 imm0c=0 total=9
+  14066cbed ADD AL,byte ptr [R8 + R14*0x1 + 0x3]
+  14066cc07 MOVZX ECX,byte ptr [RDX + R14*0x1 + 0x3]
+  14066cc0d MOV byte ptr [RDX + R14*0x1 + 0x3],AL
+  14066cc4d MOVZX R8D,byte ptr [RDX + R14*0x1 + 0x3]
+  14066cc5f MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x3]
+  14066cc65 MOV byte ptr [RDX + R14*0x1 + 0x3],AL
+  14066cc71 MOV byte ptr [RAX + R14*0x1 + 0x3],R8B
+  14066cc7d MOVZX EAX,byte ptr [RAX + R14*0x1 + 0x3]
+  14066cc89 MOVZX EAX,byte ptr [RCX + R14*0x1 + 0x3]
+CANDIDATE 140334470 FUN_140334470 byte3=8 imm0c=4 total=12
+  1403344ab CMP dword ptr [R8 + 0xc],EDX
+  140334573 MOV R8D,dword ptr [RBP + 0x3]
+  1403345bf MOV EAX,dword ptr [RSI + 0xc]
+  140334627 MOV EAX,dword ptr [RSI + 0xc]
+  14033470e MOV EAX,dword ptr [RBP + 0x3]
+  140334756 MOV R8D,dword ptr [RBP + 0x3]
+  140334778 MOV EAX,dword ptr [RBP + 0x3]
+  140334789 INC dword ptr [RBP + 0x3]
+  140334917 MOV EAX,dword ptr [RBP + 0x3]
+  140334bab MOV EAX,dword ptr [RBP + 0x3]
+  140334f4f CMP dword ptr [RAX + 0xc],0x0
+  140335066 MOV EAX,dword ptr [RBP + 0x3]
+CANDIDATE 140db5240 FUN_140db5240 byte3=7 imm0c=13 total=20
+  140db529c LEA EDX,[RAX + 0x3]
+  140db52ef LEA EDX,[RAX + 0x3]
+  140db551b LEA ECX,[RDX + 0x3]
+  140db55dd LEA ECX,[RDX + 0x3]
+  140db57a9 LEA ECX,[RDX + 0x3]
+  140db5867 LEA ECX,[RDX + 0x3]
+  140db5bb5 LEA EDX,[RAX + 0x3]
+  140db5f8b MOVSS dword ptr [RDX + 0xc],XMM0
+  140db605c MOVSS dword ptr [RDX + 0xc],XMM0
+  140db6130 MOVSS dword ptr [RDX + 0xc],XMM0
+  140db6204 MOVSS dword ptr [RDX + 0xc],XMM0
+CANDIDATE 140d06350 FUN_140d06350 byte3=8 imm0c=0 total=8
+  140d06377 MOVZX EAX,byte ptr [RDI + 0x3]
+  140d063e0 MOVZX EAX,byte ptr [RDI + 0x3]
+  140d06444 MOVZX EAX,byte ptr [RDI + 0x3]
+  140d064a8 MOVZX EAX,byte ptr [RDI + 0x3]
+  140d0650c MOVZX EAX,byte ptr [RDI + 0x3]
+  140d06570 MOVZX EAX,byte ptr [RDI + 0x3]
+  140d065d4 MOVZX EAX,byte ptr [RDI + 0x3]
+  140d06638 MOVZX EAX,byte ptr [RDI + 0x3]
+CANDIDATE 140dad7a0 FUN_140dad7a0 byte3=7 imm0c=9 total=16
+  140dad7e8 MOV EAX,dword ptr [RBX + 0xc]
+  140dada4f LEA EDX,[RAX + 0x3]
+  140dadaaa LEA EDX,[RAX + 0x3]
+  140dadb00 LEA EDX,[RAX + 0x3]
+  140dadb9c LEA EDX,[RAX + 0x3]
+  140dadbe5 LEA EDX,[RAX + 0x3]
+  140dadc23 LEA EDX,[RAX + 0x3]
+  140dadc68 LEA EDX,[RAX + 0x3]
+  140dadf0a MOV ECX,dword ptr [RAX + RDX*0x4 + 0xc]
+  140dae026 MOV ECX,dword ptr [RAX + RCX*0x4 + 0xc]
+  140dae56a MOV EAX,dword ptr [RCX + RDX*0x4 + 0xc]
+  140dae56e MOV dword ptr [R9 + 0xc],EAX
+CANDIDATE 140d27900 FUN_140d27900 byte3=7 imm0c=0 total=7
+  140d27931 LEA R10,[RCX + 0x3]
+  140d279da MOVZX EAX,byte ptr [R10 + 0x3]
+  140d279e3 CMP byte ptr [R8 + 0x3],AL
+  140d27a36 MOVZX EAX,byte ptr [R10 + 0x3]
+  140d27a3b CMP byte ptr [R8 + 0x3],AL
+  140d27add MOVZX EAX,byte ptr [R10 + 0x3]
+  140d27ae6 CMP byte ptr [R8 + 0x3],AL
+CANDIDATE 140da59c0 FUN_140da59c0 byte3=6 imm0c=2 total=8
+  140da5a19 LEA EDX,[RAX + 0x3]
+  140da5a5b LEA EDX,[RDI + 0x3]
+  140da5c23 LEA ECX,[RDX + 0x3]
+  140da5cc6 LEA ECX,[RDX + 0x3]
+  140da5e9a LEA ECX,[RDX + 0x3]
+  140da5f39 LEA ECX,[RDX + 0x3]
+CANDIDATE 14010bb90 FUN_14010bb90 byte3=6 imm0c=0 total=6
+  14010bf32 LEA RDI,[RAX + 0x3]
+  14010bfb3 LEA RDI,[R8 + 0x3]
+  14010bffa LEA RDI,[R8 + 0x3]
+  14010c063 LEA RDI,[R8 + 0x3]
+  14010c0b1 LEA RDI,[R8 + 0x3]
+  14010c133 LEA RDI,[R8 + 0x3]
+CANDIDATE 140193070 FUN_140193070 byte3=6 imm0c=0 total=6
+  1401935c4 LEA R8D,[R9 + 0x3]
+  1401937f2 LEA R8D,[R9 + 0x3]
+  140193a47 LEA R8D,[R9 + 0x3]
+  140193ca3 LEA R8D,[R9 + 0x3]
+  140193f02 LEA R8D,[R9 + 0x3]
+  14019411a LEA R8D,[R9 + 0x3]
+CANDIDATE 1406ca240 FUN_1406ca240 byte3=6 imm0c=0 total=6
+  1406ca30c LEA EDX,[RSI + 0x3]
+  1406ca341 LEA EDX,[RSI + 0x3]
+  1406ca3b1 LEA EDX,[RSI + 0x3]
+  1406ca3dc LEA EDX,[RSI + 0x3]
+  1406ca40f LEA EDX,[R14 + 0x3]
+  1406ca46e LEA EDX,[R14 + 0x3]
+CANDIDATE 140d47bf0 FUN_140d47bf0 byte3=6 imm0c=0 total=6
+  140d47cf1 MOV dword ptr [RBP + 0x3],0x0
+  140d47df1 MOV dword ptr [RBP + 0x3],0x0
+  140d47ef0 MOV dword ptr [RBP + 0x3],0x0
+  140d48010 MOV dword ptr [RBP + 0x3],0x0
+  140d480f0 MOV dword ptr [RBP + 0x3],0x0
+  140d481cf MOV dword ptr [RBP + 0x3],0x0
+CANDIDATE 1408be400 FUN_1408be400 byte3=5 imm0c=5 total=10
+  1408be66a LEA EDX,[R8 + 0x3]
+  1408be6e5 LEA EDX,[R8 + 0x3]
+  1408be76a LEA EDX,[R8 + 0x3]
+  1408c009e LEA EDX,[R8 + 0x3]
+  1408c1b34 CMP ESI,0xc
+  1408c2109 CMP byte ptr [RAX + 0xc],R13B
+  1408c2146 MOV byte ptr [RBX + 0xc],R13B
+  1408c236b LEA R8D,[R14 + 0x3]
+  1408c2cf8 CMP byte ptr [RAX + 0xc],R13B
+  1408c2d47 MOV byte ptr [RBX + 0xc],R13B
+CANDIDATE 1406046f0 FUN_1406046f0 byte3=5 imm0c=3 total=8
+  140604774 LEA ECX,[R9 + 0x3]
+  140604967 LEA EAX,[RDX + 0x3]
+  140604989 MOV dword ptr [RAX + RDX*0x4 + 0xc],EBP
+  1406049a2 LEA EAX,[RDX + 0x3]
+  140604a86 LEA EAX,[RDX + 0x3]
+  140604aeb CMP dword ptr [RCX + RAX*0x4 + 0xc],EDX
+  140604af1 MOV dword ptr [RCX + RAX*0x4 + 0xc],EDI
+  140604b2e LEA EAX,[RDX + 0x3]
+CANDIDATE 140855f80 FUN_140855f80 byte3=4 imm0c=12 total=16
+  140855faf CMP R9D,dword ptr [RDI + 0xc]
+  14085600b MOV EAX,dword ptr [RBX + 0xc]
+  140856053 MOV EAX,dword ptr [RBX + 0xc]
+  140856068 LEA EDX,[R8 + 0x3]
+  14085608e MOV dword ptr [RBX + 0xc],EDX
+  1408560e6 MOV EAX,dword ptr [RBX + 0xc]
+  1408560f4 LEA EDX,[R8 + 0x3]
+  140856109 CMP dword ptr [RBX + 0xc],0x0
+  140856130 MOV dword ptr [RBX + 0xc],ECX
+  140856191 MOV EAX,dword ptr [RBX + 0xc]
+  1408561c0 MOV EAX,dword ptr [RBX + 0xc]
+  1408561ce LEA EDX,[R8 + 0x3]
+  140856203 MOV EAX,dword ptr [RBX + 0xc]
+  140856245 MOV EAX,dword ptr [RBX + 0xc]
+  140856256 LEA EDX,[R8 + 0x3]
+CANDIDATE 1406827c0 FUN_1406827c0 byte3=5 imm0c=1 total=6
+  1406828a9 LEA EAX,[R10 + 0x3]
+  1406828d4 MOVZX EAX,byte ptr [RDX + RDI*0x1 + 0x3]
+  140682929 MOVZX EDX,byte ptr [RAX + RDI*0x1 + 0x3]
+  140682936 LEA EAX,[RCX + 0x3]
+  140682a32 MOV byte ptr [RDI + R14*0x1 + 0x3],BPL
+CANDIDATE 14019b990 FUN_14019b990 byte3=5 imm0c=0 total=5
+  14019c330 LEA EAX,[R15 + 0x3]
+  14019c613 LEA EAX,[R15 + 0x3]
+  14019c8ff LEA EAX,[R15 + 0x3]
+  14019c9c6 LEA R8D,[R12 + 0x3]
+  14019cb9c LEA EAX,[R15 + 0x3]
+CANDIDATE 1408ea420 FUN_1408ea420 byte3=5 imm0c=0 total=5
+  1408ea4d1 MOVZX EDX,byte ptr [RCX + 0x3]
+  1408ea516 MOVZX ECX,byte ptr [RCX + 0x3]
+  1408ea5ba LEA RCX,[RBX + 0x3]
+  1408ea605 MOVZX EAX,byte ptr [RBX + 0x3]
+  1408ea654 MOVZX EAX,byte ptr [RBX + 0x3]
+CANDIDATE 1408ed710 FUN_1408ed710 byte3=5 imm0c=0 total=5
+  1408ed723 CMP byte ptr [RCX + 0x3],0x0
+  1408ed739 CMP byte ptr [RCX + 0x3],0x31
+  1408ed74f CMP byte ptr [RCX + 0x3],AL
+  1408ed763 CMP byte ptr [RCX + 0x3],AL
+  1408ed778 CMP byte ptr [RCX + 0x3],0x65
+CANDIDATE 140d0d920 FUN_140d0d920 byte3=5 imm0c=0 total=5
+  140d0d93d LEA RBX,[RDX + 0x3]
+  140d0d94b LEA R11,[R8 + 0x3]
+  140d0da81 MOV byte ptr [R9 + 0x3],AL
+  140d0da8a MOVZX EAX,byte ptr [R11 + 0x3]
+  140d0da8f MOVZX EDX,byte ptr [RBX + 0x3]
+CANDIDATE 140cba0f0 FUN_140cba0f0 byte3=4 imm0c=9 total=13
+  140cba588 LEA R13D,[R8 + 0x3]
+  140cba623 MOVSS XMM0,dword ptr [RDX + 0xc]
+  140cbaaf3 MOVSS XMM1,dword ptr [RCX + 0xc]
+  140cbae9a MOVSS XMM1,dword ptr [RSI + RAX*0x4 + 0xc]
+  140cbaeb0 LEA R12,[R9 + 0x3]
+  140cbaec3 MOVSS dword ptr [R8 + R9*0x4 + 0xc],XMM8
+  140cbaee0 LEA R13D,[R10 + 0x3]
+  140cbb085 MOVSS XMM2,dword ptr [RDX + 0xc]
+  140cbbc54 CMP RCX,0xc
+  140cbbc81 CMP RDX,0xc
+  140cbbcbb LEA RDX,[RCX + 0x3]
+  140cbbcd3 CMP RDX,0xc
+  140cbbd14 CMP RCX,0xc
+CANDIDATE 1401b0870 FUN_1401b0870 byte3=2 imm0c=27 total=29
+  1401b09c0 MOV R8D,dword ptr [RBX + 0xc]
+  1401b09db MOV EAX,dword ptr [RBX + 0xc]
+  1401b09fa MOV EAX,dword ptr [RBX + 0xc]
+  1401b09fd MOV dword ptr [R15 + 0xc],EAX
+  1401b0a78 MOV R8D,dword ptr [R14 + 0xc]
+  1401b0a9a LEA R11D,[RAX + 0x3]
+  1401b0ebd MOV R8D,dword ptr [R14 + 0xc]
+  1401b1182 MOV R8D,dword ptr [R14 + 0xc]
+  1401b118f MOV EBX,dword ptr [R14 + 0xc]
+  1401b11b1 MOV R8D,dword ptr [R14 + 0xc]
+  1401b1265 MOV R8D,dword ptr [R15 + 0xc]
+  1401b1441 MOVSS dword ptr [R14 + 0xc],XMM1
+  1401b1595 MOVSS dword ptr [R14 + 0xc],XMM1
+  1401b16e0 MOVZX EAX,byte ptr [R15 + 0xc]
+  1401b16f1 MOV byte ptr [R14 + 0x3],BPL
+  1401b1786 MOV R8D,dword ptr [R15 + 0xc]
+  1401b17bd MOV R8D,dword ptr [R15 + 0xc]
+  1401b17cf MOV dword ptr [R15 + 0xc],EAX
+CANDIDATE 140daaf20 FUN_140daaf20 byte3=4 imm0c=5 total=9
+  140daaf76 MOV dword ptr [R12 + 0xc],EAX
+  140daafcb MOVSS dword ptr [R12 + 0xc],XMM0
+  140dab09e LEA EDX,[RAX + 0x3]
+  140dab4e4 MOV EAX,dword ptr [RCX + R8*0x1 + 0xc]
+  140dab7a2 LEA EDX,[RSI + 0x3]
+  140dab8dd LEA EDX,[RAX + 0x3]
+  140dab935 LEA EDX,[RDI + 0x3]
+CANDIDATE 140daf150 FUN_140daf150 byte3=4 imm0c=5 total=9
+  140daf6dd MOV EAX,dword ptr [R15 + 0xc]
+  140daf73d MOV R10D,dword ptr [RDX + 0xc]
+  140daf87c MOV dword ptr [RDX + 0xc],EAX
+  140daf87f MOV EAX,dword ptr [RCX + 0xc]
+  140dafaa4 LEA EDX,[RAX + 0x3]
+  140dafaed LEA EDX,[RAX + 0x3]
+  140dafb2b LEA EDX,[RAX + 0x3]
+  140dafb6d LEA EDX,[RAX + 0x3]
+CANDIDATE 14049ff90 FUN_14049ff90 byte3=4 imm0c=4 total=8
+  1404a015e MOVSS dword ptr [RAX + 0xc],XMM1
+  1404a0386 MOV R9D,0xc
+  1404a0437 MOVSS dword ptr [RAX + 0xc],XMM1
+  1404a0763 LEA R8D,[RSI + 0x3]
+  1404a07b3 LEA R8D,[RSI + 0x3]
+  1404a086c LEA R8D,[RSI + 0x3]
+  1404a08bc LEA R9D,[RSI + 0x3]
+CANDIDATE 140d0b880 FUN_140d0b880 byte3=4 imm0c=3 total=7
+  140d0b9f3 MOVZX ECX,byte ptr [R14 + 0x3]
+  140d0b9fb MOVZX EAX,byte ptr [R9 + 0x3]
+  140d0babd MOV dword ptr [R10 + 0xc],EAX
+  140d0bd4a MOV dword ptr [R14 + 0xc],EAX
+  140d0bffd MOVZX ECX,byte ptr [R12 + RSI*0x1 + 0x3]
+  140d0c03a LEA RSI,[RSI + 0x3]
+CANDIDATE 140da6da0 FUN_140da6da0 byte3=4 imm0c=3 total=7
+  140da70cf LEA ECX,[RDX + 0x3]
+  140da7169 LEA ECX,[RDX + 0x3]
+  140da72e1 LEA ECX,[RDX + 0x3]
+  140da7377 LEA ECX,[RDX + 0x3]
+CANDIDATE 1400fe480 FUN_1400fe480 byte3=4 imm0c=1 total=5
+  1400fe567 MOV byte ptr [RAX + 0x3],0x2
+  1400fe5a0 MOV EDX,0xc
+  1400fe5aa MOV byte ptr [RAX + 0x3],0x2
+  1400fe5dd MOV byte ptr [RAX + 0x3],0x3
+  1400fe60e MOV byte ptr [RAX + 0x3],0x1
+CANDIDATE 140102760 FUN_140102760 byte3=4 imm0c=0 total=4
+  1401028d5 LEA EDX,[R14 + 0x3]
+  140102ea9 MOV byte ptr [RAX + 0x3],0x8
+  140102ebb MOV byte ptr [RAX + 0x3],CL
+  140102f3e MOV byte ptr [RAX + 0x3],0x1
+CANDIDATE 140153000 FUN_140153000 byte3=4 imm0c=0 total=4
+  140153248 MOVZX EAX,byte ptr [R11 + 0x3]
+  140153255 MOV byte ptr [R15 + 0x3],AL
+  140153558 MOVZX EAX,byte ptr [R11 + 0x3]
+  140153565 MOV byte ptr [R12 + 0x3],AL
+CANDIDATE 1405886e0 FUN_1405886e0 byte3=4 imm0c=0 total=4
+  1405887d8 MOVZX EAX,byte ptr [RCX + 0x3]
+  140588815 MOVZX EAX,byte ptr [R12 + 0x3]
+  140588924 MOVZX EAX,byte ptr [RCX + 0x3]
+  140588961 MOVZX EAX,byte ptr [R12 + 0x3]
+CANDIDATE 140636cb0 FUN_140636cb0 byte3=4 imm0c=0 total=4
+  140636ccc MOVZX EAX,byte ptr [RCX + 0x3]
+  140636ce9 MOVZX EAX,byte ptr [RCX + 0x3]
+  140636cfe MOVZX EAX,byte ptr [RDX + 0x3]
+  140636d1c MOVZX R9D,byte ptr [RDX + 0x3]
+CANDIDATE 140a6aa70 FUN_140a6aa70 byte3=4 imm0c=0 total=4
+  140a6aba9 LEA R8D,[RDX + 0x3]
+  140a6ae3b LEA R8D,[RDX + 0x3]
+  140a6ae91 LEA R8D,[RDX + 0x3]
+  140a6afcb LEA R8D,[RDX + 0x3]
+CANDIDATE 140c9ddd0 FUN_140c9ddd0 byte3=4 imm0c=0 total=4
+  140c9df34 MOV byte ptr [RAX + 0x3],DL
+  140c9dfc1 MOV byte ptr [RAX + 0x3],DL
+  140c9e00e MOVZX EAX,byte ptr [RAX + 0x3]
+  140c9e087 MOV byte ptr [RAX + 0x3],DL
+CANDIDATE 140d073c0 FUN_140d073c0 byte3=4 imm0c=0 total=4
+  140d0740a LEA R15D,[RSI + 0x3]
+  140d0741a LEA R14D,[RDI + 0x3]
+  140d07428 LEA EAX,[RDX + 0x3]
+  140d07432 LEA EDX,[R9 + 0x3]
+CANDIDATE 1401ecd50 FUN_1401ecd50 byte3=3 imm0c=6 total=9
+  1401ecd82 MOV R9D,0xc
+  1401ed0bd CMP dword ptr [RDI + RCX*0x1 + 0xa84],0xc
+  1401ed0d3 MOV EAX,0xc
+  1401ed1a3 LEA R8D,[R9 + 0x3]
+  1401ed206 LEA R8D,[R9 + 0x3]
+  1401ed2db LEA R8D,[R9 + 0x3]
+  1401ed44e MOV dword ptr [R9 + 0xc],EAX
+  1401ed5c8 MOV dword ptr [RSP + 0x28],0xc
+CANDIDATE 140413f10 FUN_140413f10 byte3=1 imm0c=26 total=27
+  140413f72 MOV dword ptr [R12],0xc
+  140413f7a MOV EAX,0xc
+  140413fe8 MOV dword ptr [R12],0xc
+  14041404f MOV dword ptr [RDI + 0xc],EDX
+  1404141bf MOV dword ptr [RDI + 0xc],EDX
+  140414226 CMP dword ptr [R12 + 0xc],0x0
+  1404142cf MOV dword ptr [RDI + 0xc],EDX
+  140414485 MOV dword ptr [RDI + 0xc],EDX
+  140414578 MOV dword ptr [RDI + 0xc],R14D
+  1404145e0 MOV dword ptr [RDI + 0xc],EAX
+  14041463c MOV dword ptr [RDI + 0xc],R8D
+  1404146b4 MOV dword ptr [RDI + 0xc],EDX
+  1404147d7 MOV dword ptr [RDI + 0xc],EDX
+  1404149c4 MOV dword ptr [RDI + 0xc],EDX
+  140414a90 MOV dword ptr [RDI + 0xc],EDX
+  140414b5f MOV dword ptr [RDI + 0xc],EDX
+  140414bda LEA EBX,[RAX + 0x3]
+  140414c34 MOV dword ptr [RDI + 0xc],EDX
+  140414cef MOV dword ptr [RDI + 0xc],EDX
+  140414fbf MOV dword ptr [RDI + 0xc],EDX
+  1404150d3 MOV dword ptr [RDI + 0xc],EDX
+  14041522f MOV dword ptr [RDI + 0xc],EDX
+  14041531f MOV dword ptr [RDI + 0xc],EDX
+  14041542f MOV dword ptr [RDI + 0xc],EDX
+  140415563 MOV dword ptr [RDI + 0xc],EDX
+  14041575f MOV dword ptr [RDI + 0xc],EDX
+CANDIDATE 140675b80 FUN_140675b80 byte3=2 imm0c=16 total=18
+  140675bf4 MOVZX R8D,byte ptr [R9 + 0xc]
+  140675cfc MOVZX ECX,byte ptr [RAX + 0xc]
+  140675d22 MOVZX EDX,byte ptr [R8 + 0xc]
+  140675d66 MOV byte ptr [RAX + 0xc],SIL
+  140675e1e MOVZX EAX,byte ptr [RCX + 0xc]
+  140675ec5 LEA EBX,[R15 + 0x3]
+  140675f26 MOVZX EAX,byte ptr [RAX + 0x3]
+  140675f89 MOVZX EAX,byte ptr [R15 + 0xc]
+  140675fa7 MOVZX EAX,byte ptr [R15 + 0xc]
+  140675fe9 MOVZX EAX,byte ptr [R15 + 0xc]
+  140676013 MOVZX EAX,byte ptr [R15 + 0xc]
+  1406761c5 CMP byte ptr [RBX + 0xc],R12B
+  1406761e8 MOVZX EAX,byte ptr [RBX + 0xc]
+  14067624d CMP R14,0xc
+  140676261 MOV dword ptr [RBP + R14*0x1 + 0xc],ESI
+  140676789 MOVZX EAX,byte ptr [RBX + 0xc]
+  1406767ef MOVZX EAX,byte ptr [RDX + 0xc]
+CANDIDATE 1402d9d40 FUN_1402d9d40 byte3=1 imm0c=24 total=25
+  1402d9f72 MOVSS XMM0,dword ptr [R8 + RCX*0x1 + 0xc]
+  1402da068 MOVSS dword ptr [R12 + 0xc],XMM2
+  1402da09e LEA EAX,[R14 + 0x3]
+  1402da243 MOV qword ptr [RDX + R8*0x4 + 0xc],RAX
+  1402da251 MOV dword ptr [RCX + 0xc],EAX
+  1402da2f1 MOVSS dword ptr [RDX + R8*0x1 + 0xc],XMM2
+  1402da3a8 MOVSS XMM0,dword ptr [R9 + 0xc]
+  1402da4d1 MOVSS dword ptr [RDX + R8*0x1 + 0xc],XMM2
+  1402da559 MOVSS XMM0,dword ptr [RAX + R10*0x1 + 0xc]
+  1402da56c MOVSS dword ptr [RAX + R10*0x1 + 0xc],XMM0
+  1402da5a5 MOVSS XMM0,dword ptr [R8 + R10*0x1 + 0xc]
+  1402da634 MOVSS XMM2,dword ptr [RAX + R9*0x4 + 0xc]
+CANDIDATE 1405d7ba0 FUN_1405d7ba0 byte3=3 imm0c=4 total=7
+  1405d7c8f MOVSS XMM1,dword ptr [RAX + 0xc]
+  1405d7cbc MOVSS dword ptr [RBP + 0x3],XMM1
+  1405d7dbf MOVSS dword ptr [RDX + 0xc],XMM1
+  1405d7de2 MOVSS XMM1,dword ptr [RBP + 0x3]
+  1405d7e69 MOV EAX,dword ptr [RDI + 0xc]
+  1405d7f0a MOVSS dword ptr [RAX + 0xc],XMM0
+  1405d7f37 MOVSS XMM1,dword ptr [RBP + 0x3]
+CANDIDATE 1408d3350 FUN_1408d3350 byte3=3 imm0c=4 total=7
+  1408d3689 LEA R8D,[R15 + 0x3]
+  1408d36ce LEA R8D,[R15 + 0x3]
+  1408d371e LEA R8D,[R15 + 0x3]
+  1408d3c69 MOVSS dword ptr [RBP + 0xc],XMM0
+CANDIDATE 1405109b0 FUN_1405109b0 byte3=3 imm0c=3 total=6
+  140510a96 MOV EAX,dword ptr [R12 + 0xc]
+  140510af0 LEA RDX,[RBP + 0x3]
+  140510b11 MOVSS XMM1,dword ptr [RAX + 0xc]
+  140510b52 MOVSS dword ptr [RBP + 0x3],XMM1
+  140510bc6 MOVSS XMM0,dword ptr [RBP + 0x3]
+CANDIDATE 14040d950 FUN_14040d950 byte3=3 imm0c=2 total=5
+  14040dbf1 LEA RDX,[R15 + 0x3]
+  14040dfa1 CMP word ptr [R8 + -0x4],0xc
+  14040dfe1 CMP word ptr [RAX + -0x4],0xc
+  14040e024 MOVSX EAX,byte ptr [R8 + 0x3]
+  14040e0b5 MOVSX ECX,byte ptr [RAX + 0x3]
+CANDIDATE 1401c53e0 FUN_1401c53e0 byte3=3 imm0c=1 total=4
+  1401c53f7 MOVSS XMM5,dword ptr [R8 + 0xc]
+  1401c54bb LEA RDX,[RBP + 0x3]
+  1401c5520 LEA RCX,[RBP + 0x3]
+  1401c55b1 MOVSS dword ptr [RBP + 0x3],XMM4
+CANDIDATE 14038cf60 FUN_14038cf60 byte3=3 imm0c=1 total=4
+  14038cf90 MOV R8D,dword ptr [R9 + 0xc]
+  14038d1bd LEA EDX,[R11 + 0x3]
+  14038d1c6 LEA EAX,[R10 + 0x3]
+  14038d244 LEA EAX,[R8 + 0x3]
+CANDIDATE 14046f040 FUN_14046f040 byte3=2 imm0c=11 total=13
+  14046f184 MOV dword ptr [R14 + 0xc],EAX
+  14046f35d MOV dword ptr [RDI + 0xc],EAX
+  14046f48e MOV dword ptr [RDI + 0xc],EAX
+  14046f4cd MOV byte ptr [RDX + 0x3],CL
+  14046f4d7 MOVZX ECX,byte ptr [RAX + R8*0x1 + 0x3]
+  14046f651 MOV dword ptr [RDI + 0xc],EAX
+CANDIDATE 14056a8b0 FUN_14056a8b0 byte3=3 imm0c=1 total=4
+  14056a9df MOV byte ptr [R8 + 0x3],AL
+  14056abab MOV byte ptr [R8 + 0x3],AL
+  14056ad66 MOV byte ptr [R14 + 0x3],AL
+  14056adbf MOV byte ptr [R14 + 0xc],AL
+CANDIDATE 140677ac0 FUN_140677ac0 byte3=3 imm0c=1 total=4
+  140677b13 MOV byte ptr [RBX + 0xc],0x0
+  140677b5c MOVZX EAX,byte ptr [RDI + R15*0x1 + 0x3]
+  140677ccb MOVZX ECX,byte ptr [RDI + RDX*0x1 + 0x3]
+  140677cda LEA ECX,[RDX + 0x3]
+CANDIDATE 140a3ee70 FUN_140a3ee70 byte3=3 imm0c=1 total=4
+  140a3eeb3 MOV dword ptr [RBP + 0x3],R12D
+  140a3ef50 LEA RAX,[RBP + 0x3]
+  140a3f034 MOVSS XMM3,dword ptr [RAX + 0xc]
+  140a3f09e MOV R9D,dword ptr [RBP + 0x3]
+CANDIDATE 14019e8e0 FUN_14019e8e0 byte3=3 imm0c=0 total=3
+  14019eac6 LEA R9D,[RSI + 0x3]
+  14019f05d LEA EAX,[R13 + 0x3]
+  14019f5f9 LEA EAX,[R13 + 0x3]
+CANDIDATE 1401a05b0 FUN_1401a05b0 byte3=3 imm0c=0 total=3
+  1401a0769 MOVSS XMM1,dword ptr [RBP + 0x3]
+  1401a07cb LEA R9D,[RDI + 0x3]
+  1401a087e MOVSS XMM1,dword ptr [RBP + 0x3]
+CANDIDATE 1401c4a50 FUN_1401c4a50 byte3=3 imm0c=0 total=3
+  1401c4b8b MOV qword ptr [RBP + 0x3],RDI
+  1401c4bb3 CMP dword ptr [RBP + 0x3],EDI
+  1401c4c97 CMP R15D,dword ptr [RBP + 0x3]
+CANDIDATE 140249060 FUN_140249060 byte3=3 imm0c=0 total=3
+  1402490ee LEA EDX,[R9 + 0x3]
+  140249112 LEA EDX,[R9 + 0x3]
+  14024913a LEA EDX,[R9 + 0x3]
+CANDIDATE 140294ad0 FUN_140294ad0 byte3=3 imm0c=0 total=3
+  140294be2 LEA R9D,[RDI + 0x3]
+  140294c05 LEA EDX,[RDI + 0x3]
+  140294c2e LEA R8D,[RDI + 0x3]
+CANDIDATE 140417700 send_tree byte3=3 imm0c=0 total=3
+  140417af5 LEA ECX,[RDX + 0x3]
+  140417c0c LEA ECX,[RSI + 0x3]
+  140417c20 LEA R8D,[RCX + 0x3]
+CANDIDATE 140588ac0 FUN_140588ac0 byte3=3 imm0c=0 total=3
+  140588c8a MOVZX EAX,byte ptr [RCX + 0x3]
+  140588cc1 MOVZX EAX,byte ptr [RBX + 0x3]
+  140588fb7 MOV byte ptr [RSI + 0x3],AL
+CANDIDATE 1406b2ff0 FUN_1406b2ff0 byte3=3 imm0c=0 total=3
+  1406b3370 MOVZX R9D,byte ptr [R11 + RAX*0x2 + 0x3]
+  1406b378f LEA EBX,[RSI + 0x3]
+  1406b3d51 LEA EAX,[RBX + 0x3]
+CANDIDATE 1406c6d70 FUN_1406c6d70 byte3=3 imm0c=0 total=3
+  1406c6e05 MOVZX EAX,byte ptr [R9 + 0x3]
+  1406c6e14 MOVZX EAX,byte ptr [R9 + 0x3]
+  1406c6e74 MOVZX EAX,byte ptr [R9 + 0x3]
+CANDIDATE 1406c7030 FUN_1406c7030 byte3=3 imm0c=0 total=3
+  1406c70a3 MOVZX EAX,byte ptr [R9 + 0x3]
+  1406c70b2 MOVZX EAX,byte ptr [R9 + 0x3]
+  1406c7111 MOVZX EAX,byte ptr [R9 + 0x3]
+CANDIDATE 14074d8a0 FUN_14074d8a0 byte3=3 imm0c=0 total=3
+  14074d9cf LEA R8D,[R9 + 0x3]
+  14074da97 LEA R8D,[R9 + 0x3]
+  14074dbe0 MOVSS XMM1,dword ptr [RBP + 0x3]
+CANDIDATE 140750420 FUN_140750420 byte3=3 imm0c=0 total=3
+  14075054f LEA R8D,[R9 + 0x3]
+  140750617 LEA R8D,[R9 + 0x3]
+  1407508da MOVSS XMM1,dword ptr [RBP + 0x3]
+CANDIDATE 1407d4e80 FUN_1407d4e80 byte3=3 imm0c=0 total=3
+  1407d51d6 LEA RAX,[RCX + 0x3]
+  1407d5203 MOV byte ptr [RBX + 0x3],SIL
+  1407d5220 LEA EDX,[R8 + 0x3]
+CANDIDATE 140bb4150 FUN_140bb4150 byte3=3 imm0c=0 total=3
+  140bb45de LEA R8D,[RSI + 0x3]
+  140bb45ff LEA R8D,[RSI + 0x3]
+  140bb461d LEA R8D,[RSI + 0x3]
+CANDIDATE 140c9a520 FUN_140c9a520 byte3=3 imm0c=0 total=3
+  140c9a644 LEA EDX,[R9 + 0x3]
+  140c9a65f LEA EDX,[RAX + 0x3]
+  140c9a72e LEA EDX,[R9 + 0x3]
+CANDIDATE 140c9e950 FUN_140c9e950 byte3=3 imm0c=0 total=3
+  140c9eaaf MOV byte ptr [RAX + 0x3],DL
+  140c9eb04 MOVZX EAX,byte ptr [RAX + 0x3]
+  140c9ec30 MOV byte ptr [RAX + 0x3],DL
+CANDIDATE 140ca8020 FUN_140ca8020 byte3=3 imm0c=0 total=3
+  140ca8060 MOVZX EAX,byte ptr [RDX + 0x3]
+  140ca8064 MOV byte ptr [R8 + RCX*0x1 + 0x3],AL
+  140ca8069 MOVZX EAX,byte ptr [RDX + 0x3]
+CANDIDATE 140cc8460 FUN_140cc8460 byte3=3 imm0c=0 total=3
+  140cc881c LEA EBX,[R10 + 0x3]
+  140cc8a12 LEA EAX,[R8 + 0x3]
+  140cc8b71 LEA EAX,[R12 + 0x3]
+CANDIDATE 140cdd090 FUN_140cdd090 byte3=3 imm0c=0 total=3
+  140cdd1d7 MOV byte ptr [R10 + 0x3],R11B
+  140cdd1ec MOVSX R8D,byte ptr [R10 + 0x3]
+  140cdd21d MOV byte ptr [R10 + 0x3],R8B
+CANDIDATE 140933c20 FUN_140933c20 byte3=2 imm0c=9 total=11
+  140933e1a MOVSS XMM1,dword ptr [RAX + 0xc]
+  140933e9b MOVSS XMM1,dword ptr [RAX + 0xc]
+  1409340b5 MOVSS XMM1,dword ptr [RAX + 0xc]
+  140934136 MOVSS XMM1,dword ptr [RAX + 0xc]
+  1409341ad LEA R8D,[R9 + 0x3]
+  14093428f LEA R8D,[R9 + 0x3]
+  140934323 MOVSS XMM1,dword ptr [RAX + 0xc]
+  1409343a4 MOVSS XMM1,dword ptr [RAX + 0xc]
+  14093448b MOVSS XMM1,dword ptr [RAX + 0xc]
+  14093450c MOVSS XMM1,dword ptr [RAX + 0xc]
+  140934659 MOVSS XMM1,dword ptr [RAX + 0xc]
+CANDIDATE 140cc5700 FUN_140cc5700 byte3=2 imm0c=9 total=11
+  140cc572f MOV EDI,dword ptr [RCX + 0xc]
+  140cc58ba MOV EAX,dword ptr [RSI + 0xc]
+  140cc5aea LEA EAX,[RDI + 0x3]
+  140cc5b2e LEA EAX,[RDI + 0x3]
+  140cc5bfd MOV dword ptr [RBP + 0xc],EAX
+  140cc5c70 CMP dword ptr [RBP + 0xc],EDI
+  140cc5d05 MOV dword ptr [RBP + 0xc],EAX
+  140cc5f06 MOV dword ptr [RBP + 0xc],EAX
+  140cc6016 MOV EAX,dword ptr [RBP + 0xc]
+  140cc6040 MOV dword ptr [RBP + 0xc],EAX
+  140cc613c MOV EAX,dword ptr [RBP + 0xc]
+CANDIDATE 140934a40 FUN_140934a40 byte3=2 imm0c=8 total=10
+  140934b3a MOV EAX,dword ptr [RBX + 0xc]
+  140934ba3 MOV EAX,dword ptr [RBX + 0xc]
+  140934d48 MOVSS XMM1,dword ptr [RAX + 0xc]
+  140934dd7 MOVSS XMM1,dword ptr [RAX + 0xc]
+  140934df4 LEA EDX,[R9 + 0x3]
+  140935140 MOVSS XMM1,dword ptr [RAX + 0xc]
+  1409351f6 MOVSS XMM1,dword ptr [RAX + 0xc]
+  14093544c MOVSS XMM1,dword ptr [RAX + 0xc]
+  1409354e2 MOVSS XMM1,dword ptr [RAX + 0xc]
+  1409354ff LEA EDX,[R9 + 0x3]
+CANDIDATE 140b1df50 FUN_140b1df50 byte3=1 imm0c=18 total=19
+  140b1e063 MOVSS XMM14,dword ptr [RAX + 0xc]
+  140b1e3f9 MOV dword ptr [RDI + 0xc],R9D
+  140b1e472 MOV dword ptr [RBP + 0xc],EDX
+  140b1e4d6 MOV EAX,dword ptr [RDI + 0xc]
+  140b1e60d CMP dword ptr [RDI + 0xc],EAX
+  140b1e612 MOV dword ptr [RDI + 0xc],EAX
+  140b1e63f MOV R8D,dword ptr [RDI + 0xc]
+  140b1e7f2 MOVSS XMM8,dword ptr [RAX + 0xc]
+  140b1e9e9 MOV dword ptr [RDI + 0xc],EAX
+  140b1efcb MOVSS XMM1,dword ptr [RBP + 0xc]
+  140b1f205 MOVSS XMM0,dword ptr [RDX + 0xc]
+  140b1f45f LEA EBX,[RDX + 0x3]
+  140b1f502 MOV R9D,dword ptr [RCX + 0xc]
+  140b1f55b MOV R9D,dword ptr [RCX + 0xc]
+  140b2018d MOV R8D,dword ptr [R8 + 0xc]
+CANDIDATE 140b32f80 FUN_140b32f80 byte3=1 imm0c=18 total=19
+  140b330ad MOV EAX,dword ptr [RSI + 0xc]
+  140b330b0 MOV dword ptr [RBX + 0xc],EAX
+  140b334cb MOV R13D,dword ptr [RAX + 0xc]
+  140b3352e MOV byte ptr [RBX + 0x3],AL
+  140b33703 MOV dword ptr [RCX + 0xc],EAX
+  140b33aca MOVSS XMM1,dword ptr [R12 + 0xc]
+  140b33f24 MOV R8D,dword ptr [RDI + RCX*0x8 + 0xc]
+  140b33f60 MOV R8D,dword ptr [RBX + 0xc]
+  140b33f79 MOV dword ptr [RBX + 0xc],EAX
+  140b3402c MOV R8D,dword ptr [RDI + RCX*0x8 + 0xc]
+  140b34068 MOV R8D,dword ptr [RBX + 0xc]
+  140b34081 MOV dword ptr [RBX + 0xc],EAX
+  140b340fc MOV R8D,dword ptr [RDI + RCX*0x8 + 0xc]
+  140b34138 MOV R8D,dword ptr [RBX + 0xc]
+  140b34151 MOV dword ptr [RBX + 0xc],EAX
+  140b343ab MOV R8D,dword ptr [RBX + 0xc]
+  140b343e2 MOV R8D,dword ptr [RBX + 0xc]
+  140b343fc MOV dword ptr [RBX + 0xc],EAX
+CANDIDATE 140c55a90 FUN_140c55a90 byte3=2 imm0c=8 total=10
+  140c55ace MOVZX R8D,byte ptr [RDX + 0xc]
+  140c55aed MOVZX EAX,byte ptr [RDX + 0x3]
+  140c56654 CMP EDI,0xc
+  140c56a1a MOV byte ptr [R13 + 0xc],AL
+  140c56a30 MOV byte ptr [R13 + 0x3],R9B
+CANDIDATE 140baaa20 FUN_140baaa20 byte3=1 imm0c=17 total=18
+  140baaae9 MOV EAX,dword ptr [RBX + 0xc]
+  140baabfc MOV ECX,dword ptr [RBX + 0xc]
+  140baadab MOV R9D,dword ptr [RBX + 0xc]
+  140bab7d7 MOVD XMM1,dword ptr [R13 + 0xc]
+  140babacc CMP R15D,dword ptr [R13 + 0xc]
+  140babf63 MOVSS XMM1,dword ptr [RAX + 0xc]
+  140bac0ca MOVSS XMM1,dword ptr [RCX + 0xc]
+  140bac3a8 MOVSS XMM1,dword ptr [RAX + 0xc]
+  140bac522 MOVSS XMM1,dword ptr [RCX + 0xc]
+  140bac7af MOVSS XMM1,dword ptr [RAX + 0xc]
+  140bac92b MOVSS XMM1,dword ptr [RCX + 0xc]
+  140bacb54 MOV EAX,dword ptr [RAX + 0xc]
+  140bacbbd MOVSS XMM1,dword ptr [RAX + 0xc]
+  140bacd24 MOVSS XMM1,dword ptr [RCX + 0xc]
+  140bacf50 LEA R11D,[RBX + 0x3]
+  140bad001 CMP R15D,dword ptr [R13 + 0xc]
+  140bad911 MOV R8D,dword ptr [R13 + 0xc]
+CANDIDATE 140c3e710 FUN_140c3e710 byte3=2 imm0c=7 total=9
+  140c3e79f MOVZX EAX,byte ptr [RDI + 0x3]
+  140c3e83d MOV EAX,dword ptr [RDI + 0xc]
+  140c3e840 MOV dword ptr [RBX + 0xc],EAX
+  140c3e899 MOVZX EAX,byte ptr [RDI + 0x3]
+  140c3e8f2 MOV EAX,dword ptr [RSI + 0xc]
+  140c3e994 MOV byte ptr [RBX + 0xc],AL
+  140c3e9a4 MOV EAX,dword ptr [RDI + 0xc]
+  140c3e9bc MOV EAX,dword ptr [RDI + 0xc]
+CANDIDATE 140c54ad0 FUN_140c54ad0 byte3=2 imm0c=7 total=9
+  140c54b11 MOVZX R8D,byte ptr [RDX + 0xc]
+  140c54b30 MOVZX EAX,byte ptr [RDX + 0x3]
+  140c556a8 CMP EDI,0xc
+  140c55a5c MOV byte ptr [R13 + 0xc],AL
+  140c55a72 MOV byte ptr [R13 + 0x3],R9B
+CANDIDATE 140275480 FUN_140275480 byte3=2 imm0c=6 total=8
+  1402757cf MOV dword ptr [RBP + 0xc],ESI
+  140275843 MOV EDX,dword ptr [RBP + 0xc]
+  140275c12 LEA R9D,[RAX + 0x3]
+  140276396 LEA R9D,[RAX + 0x3]
+  1402763bd MOV dword ptr [RAX + 0xc],ECX
+  140276e72 MOVSS dword ptr [RAX + 0xc],XMM1
+  14027744e MOV EAX,dword ptr [RAX + 0xc]
+CANDIDATE 14046ede0 FUN_14046ede0 byte3=2 imm0c=6 total=8
+  14046eeb4 MOV dword ptr [RSI + 0xc],EAX
+  14046eeed MOV byte ptr [RDX + 0x3],CL
+  14046eef7 MOVZX ECX,byte ptr [R8 + RAX*0x1 + 0x3]
+  14046f007 MOV dword ptr [RDI + 0xc],EAX
+CANDIDATE 1406fe9d0 FUN_1406fe9d0 byte3=2 imm0c=6 total=8
+  1406fed93 MOV word ptr [RBP + 0xc],AX
+  1406fedeb CMP word ptr [RBX + R12*0x1 + 0xc],AX
+  1406ff2c0 MOV R8D,dword ptr [RBX + 0xc]
+  1406ff2ea MOV EAX,dword ptr [RBX + 0xc]
+  1406ff312 MOV EAX,dword ptr [RBX + 0xc]
+  1406ff339 MOV dword ptr [RBX + 0xc],EAX
+  1406ff6a9 LEA RCX,[RDI + 0x3]
+  1406ff6e8 LEA RCX,[RDI + 0x3]
+CANDIDATE 140c2ed60 FUN_140c2ed60 byte3=2 imm0c=6 total=8
+  140c2ed9b MOVSS XMM8,dword ptr [RDX + 0xc]
+  140c2ef49 LEA EDI,[RSI + 0x3]
+  140c2efcd LEA R10,[R9 + 0x3]
+  140c2f0aa MOV EAX,dword ptr [RBX + R10*0x4 + 0xc]
+  140c2f0c0 MOVSS dword ptr [RBX + R10*0x4 + 0xc],XMM1
+  140c2f1ad MOVSS XMM0,dword ptr [RBX + 0xc]
+  140c2f1bc MOVSS dword ptr [RBX + 0xc],XMM0
+CANDIDATE 1403915a0 FUN_1403915a0 byte3=2 imm0c=5 total=7
+  1403915d2 MOVZX EBX,byte ptr [R14 + 0x3]
+  140391615 MOV ECX,dword ptr [R12 + 0xc]
+  14039162a MOV dword ptr [RAX + 0xc],ECX
+  1403916b5 MOV EAX,dword ptr [RCX + 0xc]
+  140391753 LEA R9D,[RBP + 0x3]
+  140391794 MOV ECX,dword ptr [RDX + 0xc]
+  1403917a2 MOV dword ptr [RAX + 0xc],ECX
+CANDIDATE 140db2710 FUN_140db2710 byte3=2 imm0c=5 total=7
+  140db27d3 MOV EAX,dword ptr [R8 + RDX*0x1 + 0xc]
+  140db27db MOV dword ptr [RCX + R10*0x1 + 0xc],EAX
+  140db29dc MOV dword ptr [RCX + R9*0x4 + 0xc],EAX
+  140db29ea MOV dword ptr [RCX + R9*0x4 + 0xc],EAX
+  140db29f9 MOV byte ptr [RCX + R9*0x1 + 0x3],AL
+  140db2a08 MOV byte ptr [R9 + RCX*0x1 + 0x3],AL
+  140db2a26 MOV dword ptr [RCX + R9*0x4 + 0xc],EAX
+CANDIDATE 1400ed580 FUN_1400ed580 byte3=2 imm0c=4 total=6
+  1400ed6de MOV dword ptr [R14 + R15*0x1 + 0xc],R12D
+  1400ed737 MOV dword ptr [RDX + RCX*0x1 + 0xc],EAX
+  1400ed7a7 MOVSXD R15,dword ptr [RCX + RAX*0x8 + 0xc]
+  1400ed9ef MOV byte ptr [R11 + R14*0x4 + 0x3],R9B
+  1400edbcf MOV byte ptr [R11 + RBX*0x4 + 0x3],R9B
+  1400edf6f MOVSXD RDX,dword ptr [R9 + RDX*0x8 + 0xc]
+CANDIDATE 1401ed620 FUN_1401ed620 byte3=2 imm0c=4 total=6
+  1401edab4 MOVSS XMM0,dword ptr [RAX + 0xc]
+  1401edaca MOV dword ptr [R15 + RBX*0x8 + 0xc],EAX
+  1401edacf MOV dword ptr [R15 + RDI*0x8 + 0xc],EAX
+  1401edb01 LEA R9D,[RDX + 0x3]
+  1401edd29 LEA R9D,[RDX + 0x3]
+  1401ee0ae MOV EAX,dword ptr [RDX + 0xc]
+CANDIDATE 14027a030 FUN_14027a030 byte3=2 imm0c=4 total=6
+  14027a150 MOV R15D,dword ptr [RBX + 0xc]
+  14027a1a5 MOVZX ECX,word ptr [RBX + 0xc]
+  14027a217 LEA R9D,[R14 + 0x3]
+  14027a2c1 MOV EAX,dword ptr [RBP + 0x3]
+  14027a2ca MOV dword ptr [RBX + 0xc],EAX
+  14027a2f2 MOV dword ptr [RBX + 0xc],EAX
+CANDIDATE 14027a330 FUN_14027a330 byte3=2 imm0c=4 total=6
+  14027a452 MOV ESI,dword ptr [RBX + 0xc]
+  14027a4a4 MOVZX ECX,word ptr [RBX + 0xc]
+  14027a516 LEA R9D,[R14 + 0x3]
+  14027a5c9 MOV EAX,dword ptr [RBP + 0x3]
+  14027a5d2 MOV dword ptr [RBX + 0xc],EAX
+  14027a5fa MOV dword ptr [RBX + 0xc],EAX
+CANDIDATE 1402cb310 FUN_1402cb310 byte3=1 imm0c=14 total=15
+  1402cb959 MOV dword ptr [RDI + 0xc],EAX
+  1402cbae9 MOV R13D,0xc
+  1402cbd24 MOVSXD R11,dword ptr [R15 + R10*0x8 + 0xc]
+  1402cbd4f MOVSS XMM0,dword ptr [RCX + RAX*0x8 + 0xc]
+  1402cbdb6 MOVZX ECX,byte ptr [R11 + 0x3]
+  1402cc1e1 MOVSS XMM0,dword ptr [RAX + 0xc]
+  1402cc289 MOV R8D,dword ptr [R15 + RCX*0x8 + 0xc]
+  1402cc2c5 MOV R8D,dword ptr [RDI + 0xc]
+  1402cc2d4 MOV dword ptr [RDI + 0xc],EAX
+CANDIDATE 1406cc0d0 FUN_1406cc0d0 byte3=2 imm0c=4 total=6
+  1406cc150 MOVSXD RDX,dword ptr [RDI + 0x3]
+  1406cc2a8 MOVSXD RAX,dword ptr [R8 + 0x3]
+CANDIDATE 1408dc010 FUN_1408dc010 byte3=1 imm0c=14 total=15
+  1408dc130 LEA EAX,[RBP + 0x3]
+  1408dc154 MOV EAX,0xc
+  1408dc2df MOVSS dword ptr [R11 + 0xc],XMM0
+  1408dc398 MOVSS dword ptr [R11 + RCX*0x8 + 0xc],XMM0
+  1408dc551 MOVSS dword ptr [RAX + 0xc],XMM1
+  1408dc5ca MOV word ptr [RAX + 0xc],R9W
+  1408dc6be MOVSS dword ptr [RAX + 0xc],XMM7
+  1408dc7b8 MOVSS dword ptr [R11 + 0xc],XMM0
+  1408dc92b MOVSS dword ptr [RCX + 0xc],XMM1
+  1408dc996 MOV word ptr [RAX + 0xc],R13W
+  1408dca6d MOVSS dword ptr [RAX + 0xc],XMM3
+  1408dcaf0 MOVSS dword ptr [RAX + 0xc],XMM7
+  1408dcc38 MOVSS dword ptr [RAX + 0xc],XMM7
+CANDIDATE 1401d9d30 FUN_1401d9d30 byte3=2 imm0c=3 total=5
+  1401da7f9 LEA EAX,[RDX + 0x3]
+  1401dab99 LEA EAX,[RDI + 0x3]
+  1401dae2b MOVSS dword ptr [RSI + 0xc],XMM0
+CANDIDATE 140675890 FUN_140675890 byte3=2 imm0c=3 total=5
+  1406758e5 MOVZX EAX,byte ptr [RBX + 0xc]
+  140675965 CMP byte ptr [RBX + 0x3],AL
+  14067596a CMP byte ptr [RBX + 0xc],0x1
+  1406759a9 MOVZX R8D,byte ptr [RDI + 0x3]
+  1406759e8 MOV byte ptr [RBX + 0xc],0x0
+CANDIDATE 1407375f0 FUN_1407375f0 byte3=2 imm0c=3 total=5
+  14073769b MOVZX EAX,byte ptr [R11 + 0x3]
+  140737714 MOV EAX,dword ptr [RDX + 0xc]
+  1407377f0 MOVZX EAX,byte ptr [R8 + 0x3]
+  14073788a MOV R8D,0xc
+CANDIDATE 1408ceb10 FUN_1408ceb10 byte3=2 imm0c=3 total=5
+  1408ced2b LEA RDX,[R14 + 0x3]
+  1408cee88 CMP byte ptr [RAX + 0xc],R12B
+  1408ceec9 MOV byte ptr [RBX + 0xc],R12B
+  1408cefdf CMP byte ptr [R14 + 0x3],R12B
+CANDIDATE 140908a50 FUN_140908a50 byte3=2 imm0c=3 total=5
+  140908c2b LEA EDI,[RSI + 0x3]
+  140908c99 MOVSS XMM0,dword ptr [R13 + 0xc]
+  140908ed1 LEA EAX,[RSI + 0x3]
+  140909251 MOVSS XMM10,dword ptr [R13 + 0xc]
+  140909571 MOVSS dword ptr [R13 + 0xc],XMM0
+CANDIDATE 140c45ad0 FUN_140c45ad0 byte3=2 imm0c=3 total=5
+  140c45b54 MOVZX EAX,byte ptr [RBX + 0x3]
+  140c45b6c MOV byte ptr [RDI + 0x3],AL
+  140c45baf MOV byte ptr [RDI + 0xc],AL
+  140c45bb9 MOV EAX,dword ptr [RBX + 0xc]
+  140c45bc2 MOVZX EAX,byte ptr [RBX + 0xc]
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

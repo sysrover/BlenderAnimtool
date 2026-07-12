@@ -1,0 +1,122 @@
+PROGRAM DayZDiag_x64.exe
+VTABLE_BASE 0x140decb30
+OFFSET_SCAN_RANGE 0x1b8..0x218
+KNOWN ctor=0x140108d00 load=0x140108540 remap=0x1401093e0 remap_offsets=0x1b8..0x218
+=== VTABLE_ENTRIES ===
+ENTRY index=0 slot=140decb30 slot_off=0x0 target=1401083a0 function=thunk_FUN_1401092a0@1401083a0
+ ENTRY_SLOT_XREF index=0 from=140108ca6 type=DATA func=FUN_140108ca0@140108ca0
+ ENTRY_SLOT_XREF index=0 from=140108cb0 type=DATA func=FUN_140108ca0@140108ca0
+ ENTRY_SLOT_XREF index=0 from=140108d3c type=DATA func=FUN_140108d00@140108d00
+ ENTRY_SLOT_XREF index=0 from=140108d43 type=DATA func=FUN_140108d00@140108d00
+ENTRY index=1 slot=140decb38 slot_off=0x8 target=140108bb0 function=FUN_140108bb0@140108bb0
+ ENTRY_SLOT_XREF index=1 none
+ENTRY index=2 slot=140decb40 slot_off=0x10 target=140108750 function=FUN_140108750@140108750
+ ENTRY_SLOT_XREF index=2 none
+ENTRY index=3 slot=140decb48 slot_off=0x18 target=140108c10 function=FUN_140108c10@140108c10
+ ENTRY_SLOT_XREF index=3 none
+ENTRY index=4 slot=140decb50 slot_off=0x20 target=1401083b0 function=FUN_1401083b0@1401083b0
+ ENTRY_SLOT_XREF index=4 none
+ENTRY index=5 slot=140decb58 slot_off=0x28 target=140108540 function=FUN_140108540@140108540
+ ENTRY_SLOT_XREF index=5 none
+ENTRY index=6 slot=140decb60 slot_off=0x30 target=140108620 function=FUN_140108620@140108620
+ ENTRY_SLOT_XREF index=6 none
+ENTRY_STOP index=7 slot=140decb68 qword=0x140fa4e28 reason=not_executable_code_pointer
+=== VTABLE_TARGET_CALLERS_CALLEES ===
+FUNCTION thunk_FUN_1401092a0@1401083a0 body_size=5
+ CALLERS count=0
+ CALLEES count=0
+FUNCTION FUN_1401083b0@1401083b0 body_size=387
+ CALLERS count=0
+ CALLEES count=8
+  CALLEE FUN_140060370@140060370
+  CALLEE FUN_1400d00c0@1400d00c0
+  CALLEE FUN_1400d0210@1400d0210
+  CALLEE FUN_1400d6f90@1400d6f90
+  CALLEE FUN_1400e5550@1400e5550
+  CALLEE FUN_1400e5a80@1400e5a80
+  CALLEE FUN_1400e5be0@1400e5be0
+  CALLEE FUN_1401092b0@1401092b0
+FUNCTION FUN_140108540@140108540 body_size=220
+ CALLERS count=0
+ CALLEES count=5
+  CALLEE FUN_14006c180@14006c180
+  CALLEE FUN_1400e5680@1400e5680
+  CALLEE FUN_1400e66a0@1400e66a0
+  CALLEE FUN_1400e6800@1400e6800
+  CALLEE FUN_1401093e0@1401093e0
+FUNCTION FUN_140108620@140108620 body_size=302
+ CALLERS count=0
+ CALLEES count=5
+  CALLEE FUN_1400cf5e0@1400cf5e0
+  CALLEE FUN_1400cf860@1400cf860
+  CALLEE FUN_1400e55e0@1400e55e0
+  CALLEE FUN_1400e6dc0@1400e6dc0
+  CALLEE FUN_1400e6e00@1400e6e00
+FUNCTION FUN_140108750@140108750 body_size=1117
+ CALLERS count=0
+ CALLEES count=6
+  CALLEE FUN_1400da470@1400da470
+  CALLEE FUN_1400e54b0@1400e54b0
+  CALLEE FUN_1400e54c0@1400e54c0
+  CALLEE FUN_1400e5980@1400e5980
+  CALLEE FUN_1400e59a0@1400e59a0
+  CALLEE FUN_140dc01e0@140dc01e0
+FUNCTION FUN_140108bb0@140108bb0 body_size=83
+ CALLERS count=0
+ CALLEES count=1
+  CALLEE operator_new@140dbfb10
+FUNCTION FUN_140108c10@140108c10 body_size=52
+ CALLERS count=0
+ CALLEES count=2
+  CALLEE FUN_140108ca0@140108ca0
+  CALLEE free@140dbfb4c
+SCANNED_FUNCTIONS 51436 OFFSET_HIT_FUNCTIONS 3768
+OFFSET_HIT_FUNC role=call_neighborhood func=FUN_1401093e0@1401093e0 hit_count=22
+  OFFSET_HIT ins=1401095c8 off=0x1b8 mnemonic=LEA R9,[R13 + 0x1b8]
+  OFFSET_HIT ins=1401095e7 off=0x1bc mnemonic=LEA R9,[R13 + 0x1bc]
+  OFFSET_HIT ins=140109606 off=0x1c0 mnemonic=LEA R9,[R13 + 0x1c0]
+  OFFSET_HIT ins=140109625 off=0x1f0 mnemonic=LEA RAX,[R13 + 0x1f0]
+  OFFSET_HIT ins=14010962c off=0x1c8 mnemonic=LEA R9,[R13 + 0x1c8]
+  OFFSET_HIT ins=140109648 off=0x1f1 mnemonic=LEA RAX,[R13 + 0x1f1]
+  OFFSET_HIT ins=14010964f off=0x1dc mnemonic=LEA R9,[R13 + 0x1dc]
+  OFFSET_HIT ins=140109686 off=0x1f2 mnemonic=LEA RDX,[R13 + 0x1f2]
+  OFFSET_HIT ins=1401096b0 off=0x1f3 mnemonic=LEA RDX,[R13 + 0x1f3]
+  OFFSET_HIT ins=1401096da off=0x1c4 mnemonic=LEA RDX,[R13 + 0x1c4]
+  OFFSET_HIT ins=140109704 off=0x1f4 mnemonic=LEA R9,[R13 + 0x1f4]
+  OFFSET_HIT ins=140109720 off=0x1fc mnemonic=LEA R9,[R13 + 0x1fc]
+  OFFSET_HIT ins=14010973c off=0x1f8 mnemonic=LEA R9,[R13 + 0x1f8]
+  OFFSET_HIT ins=140109758 off=0x200 mnemonic=LEA R9,[R13 + 0x200]
+  OFFSET_HIT ins=140109774 off=0x20c mnemonic=LEA R9,[R13 + 0x20c]
+  OFFSET_HIT ins=1401097bc off=0x204 mnemonic=LEA R9,[R13 + 0x204]
+  OFFSET_HIT ins=140109801 off=0x210 mnemonic=LEA R9,[R13 + 0x210]
+  OFFSET_HIT ins=14010984b off=0x218 mnemonic=MOV byte ptr [R13 + 0x218],0x1
+  OFFSET_HIT ins=14010986e off=0x1b8 mnemonic=CMP dword ptr [R13 + 0x1b8],0xff
+  OFFSET_HIT ins=14010987f off=0x1bc mnemonic=CMP dword ptr [R13 + 0x1bc],0xff
+DECOMP_FUNC func=thunk_FUN_1401092a0@1401083a0 offset_text=false chars=76
+DECOMP_FUNC func=FUN_1401083b0@1401083b0 offset_text=false chars=2635
+DECOMP_FUNC func=FUN_140108540@140108540 offset_text=false chars=1862
+DECOMP_FUNC func=FUN_140108620@140108620 offset_text=false chars=1670
+DECOMP_FUNC func=FUN_140108750@140108750 offset_text=false chars=5185
+DECOMP_FUNC func=FUN_140108bb0@140108bb0 offset_text=false chars=555
+DECOMP_FUNC func=FUN_140108c10@140108c10 offset_text=false chars=174
+DECOMP_FUNC func=FUN_140108ca0@140108ca0 offset_text=false chars=341
+DECOMP_FUNC func=FUN_1401092b0@1401092b0 offset_text=false chars=718
+DECOMP_FUNC func=FUN_1401093e0@1401093e0 offset_text=true chars=11372
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1b8 line=101 :: if ((((*(int *)(param_1 + 0x1b8) != 0xff) && (*(int *)(param_1 + 0x1bc) != 0xff)) &&
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1f0 line=102 :: (*(int *)(param_1 + 0x1fc) != 0xff)) && (3 < *(byte *)(param_1 + 0x1f0))) {
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1b8 line=153 :: param_4 = (int *)(param_1 + 0x1b8);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1bc line=162 :: param_4 = (int *)(param_1 + 0x1bc);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1c0 line=168 :: param_4 = (int *)(param_1 + 0x1c0);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1f0 line=174 :: lVar11 = param_1 + 0x1f0;
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1c8 line=175 :: param_4 = (int *)(param_1 + 0x1c8);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1dc line=188 :: param_4 = (int *)(param_1 + 0x1dc);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1fc line=219 :: param_4 = (int *)(param_1 + 0x1fc);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1f8 line=225 :: param_4 = (int *)(param_1 + 0x1f8);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x200 line=231 :: param_4 = (int *)(param_1 + 0x200);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x204 line=241 :: param_4 = (int *)(param_1 + 0x204);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x218 line=257 :: *(undefined1 *)(param_1 + 0x218) = 1;
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x210 line=262 :: param_4 = (int *)(param_1 + 0x210);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x20c line=274 :: param_4 = (int *)(param_1 + 0x20c);
+ DECOMP_OFFSET_LINE func=FUN_1401093e0@1401093e0 off=0x1c4 line=282 :: uVar7 = FUN_1401098c0(pbVar15,(undefined1 *)(param_1 + 0x1c4),param_2,param_4);
+SCRIPT COMPLETED SUCCESSFULLY
+=== SCRIPT COMPLETED SUCCESSFULLY ===

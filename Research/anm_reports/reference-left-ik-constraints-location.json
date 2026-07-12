@@ -1,0 +1,3981 @@
+{
+  "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses_arms_ik_enabled.blend",
+  "matches": [
+    {
+      "object": "Armature",
+      "bone": "LeftPectoral",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftPectoral",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftPectoral' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftShoulder",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftShoulder",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftShoulder' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArm",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftArm",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArm' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.003",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.003'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.004",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.004'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.005",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.005'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.006",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.006'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.007",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.007'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.008",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.008'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.009",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.009'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.010",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.010'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.011",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.011'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints.012",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints.012'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftArmTwist",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftArmTwist",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftArmTwist' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftForeArm",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftForeArm",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftForeArm' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftForeArmTwist",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftForeArmTwist' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftForeArmTwist",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftForeArmTwist' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftForeArmTwist",
+      "constraint": {
+        "name": "Constraints.003",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftForeArmTwist' > Bone Constraint 'Constraints.003'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftForeArmTwist",
+      "constraint": {
+        "name": "Constraints.004",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftForeArmTwist' > Bone Constraint 'Constraints.004'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftForeArmTwist",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftForeArmTwist",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftForeArmTwist' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHand",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHand' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHand",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHand",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHand' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandProp",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandProp",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandProp' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle1",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle1' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle1",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle1' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle1",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandMiddle1",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle1' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle2",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle2' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle2",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle2' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle2",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandMiddle2",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle2' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle3",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle3' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle3",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle3' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle3",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandMiddle3",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle3' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle4",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle4' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle4",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle4' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandMiddle4",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandMiddle4",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandMiddle4' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing1",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing1' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing1",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing1' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing1",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandRing1",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing1' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing2",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing2' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing2",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing2' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing2",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandRing2",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing2' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing3",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing3' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing3",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing3' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing3",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandRing3",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing3' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing4",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing4' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing4",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing4' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandRing4",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandRing4",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandRing4' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky1",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky1' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky1",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky1' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky1",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandPinky1",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky1' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky2",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky2' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky2",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky2' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky2",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandPinky2",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky2' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky3",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky3' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky3",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky3' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky3",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandPinky3",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky3' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky4",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky4' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky4",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky4' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandPinky4",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandPinky4",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandPinky4' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex1",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex1' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex1",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex1' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex1",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandIndex1",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex1' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex2",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex2' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex2",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex2' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex2",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandIndex2",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex2' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex3",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex3' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex3",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex3' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex3",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandIndex3",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex3' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex4",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex4' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex4",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex4' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandIndex4",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandIndex4",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandIndex4' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb2",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb2' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb2",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb2' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb2",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandThumb2",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb2' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb3",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb3' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb3",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb3' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb3",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandThumb3",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb3' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb4",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb4' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb4",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb4' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftHandThumb4",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftHandThumb4",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftHandThumb4' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftLeg",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftLeg",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftLeg' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftLegTwist",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftLegTwist' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftLegTwist",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftLegTwist' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftLegTwist",
+      "constraint": {
+        "name": "Constraints.003",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftLegTwist' > Bone Constraint 'Constraints.003'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftLegTwist",
+      "constraint": {
+        "name": "Constraints.004",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftLegTwist' > Bone Constraint 'Constraints.004'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftLegTwist",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftLegTwist",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftLegTwist' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints.003",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints.003'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints.004",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints.004'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints.005",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints.005'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints.006",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints.006'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKnee",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftKnee",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKnee' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKneeTwist",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKneeTwist' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKneeTwist",
+      "constraint": {
+        "name": "Constraints.002",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKneeTwist' > Bone Constraint 'Constraints.002'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKneeTwist",
+      "constraint": {
+        "name": "Constraints.003",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKneeTwist' > Bone Constraint 'Constraints.003'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKneeTwist",
+      "constraint": {
+        "name": "Constraints.004",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKneeTwist' > Bone Constraint 'Constraints.004'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftKneeTwist",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftKneeTwist",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftKneeTwist' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftFoot",
+      "constraint": {
+        "name": "Constraints.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": null,
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftFoot' > Bone Constraint 'Constraints.001'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftFoot",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftFoot",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftFoot' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "Armature",
+      "bone": "LeftToe",
+      "constraint": {
+        "name": "Constraints",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "child_LeftToe",
+        "subtarget": "",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'Armature' > Pose Mode > Bone 'LeftToe' > Bone Constraint 'Constraints'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-prop.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "prop.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-prop.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-LeftForeArmDirectionOriginPose",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "LeftForeArmDirectionOriginPose",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-LeftForeArmDirectionOriginPose' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-LeftHandOriginPose",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "LeftHandOriginPose",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-LeftHandOriginPose' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "VIS_upper_arm_ik_pole.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-forearm.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'VIS_upper_arm_ik_pole.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "VIS_thigh_ik_pole.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-shin.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'VIS_thigh_ik_pole.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-thigh.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thigh_fk.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-thigh.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-thigh.L",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "thigh_ik.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-thigh.L' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-shin.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "shin_fk.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-shin.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-shin.L",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "MCH-shin_ik.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-shin.L' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-foot.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "foot_fk.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-foot.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-foot.L",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "MCH-thigh_ik_target.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-foot.L' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-toe.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "toe.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-toe.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-toe.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "MCH-heel.02_roll2.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-toe.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-shin_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "shin_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-shin_tweak.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-shin_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "foot_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-shin_tweak.L.001' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thigh_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thigh_tweak.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "shin_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thigh_tweak.L.001' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_parent.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "root",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thigh_parent.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-shin_ik.L",
+      "constraint": {
+        "name": "IK",
+        "type": "IK",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-thigh_ik_target.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": 2,
+        "pole_angle": 0.0,
+        "use_rotation": false,
+        "use_stretch": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-shin_ik.L' > Bone Constraint 'IK'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-shin_ik.L",
+      "constraint": {
+        "name": "IK.001",
+        "type": "IK",
+        "mute": true,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-thigh_ik_target.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "pole_target": "rig",
+        "pole_subtarget": "thigh_ik_target.L",
+        "chain_count": 2,
+        "pole_angle": -1.5707963705062866,
+        "use_rotation": false,
+        "use_stretch": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-shin_ik.L' > Bone Constraint 'IK.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_tweak.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-thigh.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thigh_tweak.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-thigh.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thigh_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-thigh.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-thigh.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thigh_tweak.L.001",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-thigh.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-shin.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "shin_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-shin.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-shin.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "shin_tweak.L.001",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-shin.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-foot.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "foot_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-foot.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-toe.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-toe.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-toe.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-breast.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "breast.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-breast.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "brow.B.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.6000000238418579,
+        "target": "rig",
+        "subtarget": "brow.B.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'brow.B.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "brow.B.L.002",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.25,
+        "target": "rig",
+        "subtarget": "brow.T.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'brow.B.L.002' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "brow.B.L.003",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.6000000238418579,
+        "target": "rig",
+        "subtarget": "brow.B.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'brow.B.L.003' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.B.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.6000000238418579,
+        "target": "rig",
+        "subtarget": "lid.B.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.B.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.B.L.002",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "MCH-eye.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.B.L.002' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.B.L.002",
+      "constraint": {
+        "name": "Copy Location.001",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.10000000149011612,
+        "target": "rig",
+        "subtarget": "cheek.T.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.B.L.002' > Bone Constraint 'Copy Location.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.B.L.003",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.6000000238418579,
+        "target": "rig",
+        "subtarget": "lid.B.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.B.L.003' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.T.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.6000000238418579,
+        "target": "rig",
+        "subtarget": "lid.T.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.T.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.T.L.002",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "MCH-eye.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.T.L.002' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lid.T.L.003",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.6000000238418579,
+        "target": "rig",
+        "subtarget": "lid.T.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lid.T.L.003' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-eye.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-eye.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 1.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-eye.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ear.L.003",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "ear.L.004",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ear.L.003' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ear.L.003",
+      "constraint": {
+        "name": "Copy Location.001",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "ear.L.002",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ear.L.003' > Bone Constraint 'Copy Location.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "brow.T.L.002",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "brow.T.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'brow.T.L.002' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "brow.T.L.002",
+      "constraint": {
+        "name": "Copy Location.001",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "brow.T.L.003",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'brow.T.L.002' > Bone Constraint 'Copy Location.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "nose.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.25,
+        "target": "rig",
+        "subtarget": "nose.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'nose.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lip.B.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.25,
+        "target": "rig",
+        "subtarget": "lips.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lip.B.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lip.B.L.001",
+      "constraint": {
+        "name": "Copy Location.001",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "lip.B",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lip.B.L.001' > Bone Constraint 'Copy Location.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "lip.B.L.001",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "lip.B",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "OFFSET",
+        "use_offset": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lip.B.L.001' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "cheek.B.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "lips.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'cheek.B.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lip.T.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.25,
+        "target": "rig",
+        "subtarget": "lips.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lip.T.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "lip.T.L.001",
+      "constraint": {
+        "name": "Copy Location.001",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "lip.T",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lip.T.L.001' > Bone Constraint 'Copy Location.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "lip.T.L.001",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "lip.T",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "OFFSET",
+        "use_offset": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'lip.T.L.001' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "nose.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.20000000298023224,
+        "target": "rig",
+        "subtarget": "lip.T.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'nose.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "cheek.T.L.001",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "cheek.B.L.001",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "use_offset": true,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'cheek.T.L.001' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-shoulder.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "shoulder.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-shoulder.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-upper_arm.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "upper_arm_fk.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-upper_arm.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-forearm.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "forearm_fk.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-forearm.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-hand.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "hand_fk.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-hand.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-hand.L",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-upper_arm_ik_target.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-hand.L' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-forearm_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "forearm_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-forearm_tweak.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-forearm_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "hand_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-forearm_tweak.L.001' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "upper_arm_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-upper_arm_tweak.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_tweak.L.001",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.5,
+        "target": "rig",
+        "subtarget": "forearm_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-upper_arm_tweak.L.001' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_parent.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 0.0,
+        "target": "rig",
+        "subtarget": "root",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-upper_arm_parent.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_tweak.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-upper_arm.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-upper_arm_tweak.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-upper_arm.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "upper_arm_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-upper_arm.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-upper_arm.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "upper_arm_tweak.L.001",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-upper_arm.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-forearm.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "forearm_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-forearm.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-forearm.L.001",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "forearm_tweak.L.001",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-forearm.L.001' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-hand.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "hand_tweak.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-hand.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_index.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_index.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_index.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_index.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_index.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_index.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_index.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_index.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_index.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-thumb.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-thumb.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-thumb.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-thumb.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-thumb.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-thumb.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-thumb.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-thumb.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-thumb.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_index.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_index.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_index.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_index.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_index.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_index.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_index.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_index.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_index.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-thumb.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-thumb.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-thumb.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-thumb.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-thumb.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-thumb.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-thumb.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-thumb.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-thumb.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_index.01_drv.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_index.01_master.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_index.01_drv.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_index.01_drv.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_index.01_master.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_index.01_drv.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_index.01.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_index.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_index.01.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thumb.01_drv.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thumb.01_master.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thumb.01_drv.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thumb.01_drv.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thumb.01_master.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thumb.01_drv.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thumb.01.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "thumb.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thumb.01.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-palm.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.3333333432674408,
+        "target": "rig",
+        "subtarget": "palm.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-palm.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-palm.02.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 0.26581165194511414,
+        "target": "rig",
+        "subtarget": "palm.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "ADD",
+        "use_offset": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-palm.02.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_middle.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_middle.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_middle.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_middle.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_middle.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_middle.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_middle.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_middle.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_middle.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_middle.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_middle.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_middle.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_middle.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_middle.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_middle.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_middle.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_middle.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_middle.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_middle.01_drv.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_middle.01_master.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_middle.01_drv.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_middle.01_drv.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_middle.01_master.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_middle.01_drv.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_middle.01.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_middle.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_middle.01.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-palm.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 0.6666666865348816,
+        "target": "rig",
+        "subtarget": "palm.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-palm.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-palm.03.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 0.2777777910232544,
+        "target": "rig",
+        "subtarget": "palm.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "ADD",
+        "use_offset": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-palm.03.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_ring.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_ring.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_ring.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_ring.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_ring.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_ring.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_ring.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_ring.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_ring.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_ring.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_ring.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_ring.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_ring.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_ring.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_ring.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_ring.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_ring.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_ring.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_ring.01_drv.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_ring.01_master.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_ring.01_drv.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_ring.01_drv.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_ring.01_master.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_ring.01_drv.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_ring.01.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_ring.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_ring.01.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-palm.04.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "palm.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-palm.04.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_pinky.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_pinky.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_pinky.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_pinky.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_pinky.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_pinky.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-f_pinky.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-f_pinky.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-f_pinky.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_pinky.01.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_pinky.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_pinky.01.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_pinky.02.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_pinky.02.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_pinky.02.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "DEF-f_pinky.03.L",
+      "constraint": {
+        "name": "Copy Transforms",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "ORG-f_pinky.03.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'DEF-f_pinky.03.L' > Bone Constraint 'Copy Transforms'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_pinky.01_drv.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_pinky.01_master.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_pinky.01_drv.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_pinky.01_drv.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_pinky.01_master.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_pinky.01_drv.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-f_pinky.01.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "f_pinky.01.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-f_pinky.01.L' > Bone Constraint 'Copy Location'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-heel.02_rock2.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "foot_heel_ik.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-heel.02_rock2.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-heel.02_rock1.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "foot_heel_ik.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-heel.02_rock1.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-heel.02_roll2.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "foot_heel_ik.L",
+        "owner_space": "LOCAL",
+        "target_space": "LOCAL",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-heel.02_roll2.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-heel.02_roll1.L",
+      "constraint": {
+        "name": "Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "foot_heel_ik.L",
+        "owner_space": "POSE",
+        "target_space": "POSE",
+        "mix_mode": "REPLACE",
+        "use_offset": false
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-heel.02_roll1.L' > Bone Constraint 'Copy Rotation'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-thigh_ik_target.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-foot_roll.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-thigh_ik_target.L' > Bone Constraint 'Copy Location'"
+    }
+  ],
+  "control_bones": [
+    {
+      "object": "rig",
+      "bone": "upper_arm_ik.L",
+      "custom_props": {},
+      "constraints": []
+    },
+    {
+      "object": "rig",
+      "bone": "hand_ik.L",
+      "custom_props": {},
+      "constraints": []
+    }
+  ],
+  "all_constraints_touching_hand_ik_L": [
+    {
+      "object": "rig",
+      "bone": "ORG-upper_arm.L",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "upper_arm_ik.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-upper_arm.L' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "ORG-forearm.L",
+      "constraint": {
+        "name": "Copy Transforms.001",
+        "type": "COPY_TRANSFORMS",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-forearm_ik.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "mix_mode": "REPLACE",
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'ORG-forearm.L' > Bone Constraint 'Copy Transforms.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-forearm_ik.L",
+      "constraint": {
+        "name": "IK",
+        "type": "IK",
+        "mute": true,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-upper_arm_ik_target.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": 2,
+        "pole_angle": 0.0,
+        "use_rotation": false,
+        "use_stretch": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-forearm_ik.L' > Bone Constraint 'IK'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-forearm_ik.L",
+      "constraint": {
+        "name": "IK.001",
+        "type": "IK",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "MCH-upper_arm_ik_target.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "pole_target": "rig",
+        "pole_subtarget": "upper_arm_ik_target.L",
+        "chain_count": 2,
+        "pole_angle": -1.5707963705062866,
+        "use_rotation": false,
+        "use_stretch": true
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-forearm_ik.L' > Bone Constraint 'IK.001'"
+    },
+    {
+      "object": "rig",
+      "bone": "MCH-upper_arm_ik_target.L",
+      "constraint": {
+        "name": "Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "rig",
+        "subtarget": "hand_ik.L",
+        "owner_space": "WORLD",
+        "target_space": "WORLD",
+        "use_offset": false,
+        "head_tail": 0.0
+      },
+      "ui_path": "Object 'rig' > Pose Mode > Bone 'MCH-upper_arm_ik_target.L' > Bone Constraint 'Copy Location'"
+    }
+  ]
+}

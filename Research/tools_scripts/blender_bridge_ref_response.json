@@ -1,0 +1,438 @@
+{
+  "id": "58465ad8-67b5-405a-9684-3a3739db88cc",
+  "ok": true,
+  "instance": "ref",
+  "generation": 1779123413.9898496,
+  "result": {
+    "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses (2).blend",
+    "bones": [
+      {
+        "object": "rig",
+        "bone": "upper_arm_fk.L",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": []
+      },
+      {
+        "object": "rig",
+        "bone": "forearm_fk.L",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": []
+      },
+      {
+        "object": "rig",
+        "bone": "hand_fk.L",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": []
+      },
+      {
+        "object": "rig",
+        "bone": "upper_arm_fk.R",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": []
+      },
+      {
+        "object": "rig",
+        "bone": "forearm_fk.R",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": []
+      },
+      {
+        "object": "rig",
+        "bone": "hand_fk.R",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": []
+      },
+      {
+        "object": "rig",
+        "bone": "ORG-upper_arm.L",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          true,
+          true,
+          true
+        ],
+        "lock_rotation_w": true,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": [
+          {
+            "name": "Copy Transforms",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 0.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "upper_arm_fk.L",
+            "mix_mode": "REPLACE"
+          },
+          {
+            "name": "Copy Transforms.001",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 1.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "upper_arm_ik.L",
+            "mix_mode": "REPLACE"
+          }
+        ]
+      },
+      {
+        "object": "rig",
+        "bone": "ORG-forearm.L",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          true,
+          true,
+          true
+        ],
+        "lock_rotation_w": true,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": [
+          {
+            "name": "Copy Transforms",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 0.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "forearm_fk.L",
+            "mix_mode": "REPLACE"
+          },
+          {
+            "name": "Copy Transforms.001",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 1.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "MCH-forearm_ik.L",
+            "mix_mode": "REPLACE"
+          }
+        ]
+      },
+      {
+        "object": "rig",
+        "bone": "ORG-hand.L",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          true,
+          true,
+          true
+        ],
+        "lock_rotation_w": true,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": [
+          {
+            "name": "Copy Transforms",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 0.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "hand_fk.L",
+            "mix_mode": "REPLACE"
+          },
+          {
+            "name": "Copy Transforms.001",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 1.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "MCH-upper_arm_ik_target.L",
+            "mix_mode": "REPLACE"
+          }
+        ]
+      },
+      {
+        "object": "rig",
+        "bone": "ORG-upper_arm.R",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          true,
+          true,
+          true
+        ],
+        "lock_rotation_w": true,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": [
+          {
+            "name": "Copy Transforms",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 0.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "upper_arm_fk.R",
+            "mix_mode": "REPLACE"
+          },
+          {
+            "name": "Copy Transforms.001",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 1.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "upper_arm_ik.R",
+            "mix_mode": "REPLACE"
+          }
+        ]
+      },
+      {
+        "object": "rig",
+        "bone": "ORG-forearm.R",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          true,
+          true,
+          true
+        ],
+        "lock_rotation_w": true,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": [
+          {
+            "name": "Copy Transforms",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 0.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "forearm_fk.R",
+            "mix_mode": "REPLACE"
+          },
+          {
+            "name": "Copy Transforms.001",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 1.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "MCH-forearm_ik.R",
+            "mix_mode": "REPLACE"
+          }
+        ]
+      },
+      {
+        "object": "rig",
+        "bone": "ORG-hand.R",
+        "rotation_mode": "QUATERNION",
+        "lock_rotation": [
+          true,
+          true,
+          true
+        ],
+        "lock_rotation_w": true,
+        "lock_ik_x": false,
+        "lock_ik_y": false,
+        "lock_ik_z": false,
+        "use_ik_limit_x": false,
+        "use_ik_limit_y": false,
+        "use_ik_limit_z": false,
+        "ik_min_x": -3.1415927410125732,
+        "ik_max_x": 3.1415927410125732,
+        "ik_min_y": -3.1415927410125732,
+        "ik_max_y": 3.1415927410125732,
+        "ik_min_z": -3.1415927410125732,
+        "ik_max_z": 3.1415927410125732,
+        "constraints": [
+          {
+            "name": "Copy Transforms",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 0.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "hand_fk.R",
+            "mix_mode": "REPLACE"
+          },
+          {
+            "name": "Copy Transforms.001",
+            "type": "COPY_TRANSFORMS",
+            "mute": false,
+            "influence": 1.0,
+            "owner_space": "WORLD",
+            "target_space": "WORLD",
+            "target": "rig",
+            "subtarget": "MCH-upper_arm_ik_target.R",
+            "mix_mode": "REPLACE"
+          }
+        ]
+      }
+    ],
+    "report": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\reference-fk-arm-limits-scan.json"
+  }
+}

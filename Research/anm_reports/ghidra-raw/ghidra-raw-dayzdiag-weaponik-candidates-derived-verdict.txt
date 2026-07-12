@@ -1,0 +1,52 @@
+PROGRAM DayZDiag_x64.exe
+SCOPE candidates only: FUN_140d06350, FUN_1407375f0, FUN_140c54ad0, FUN_140c55a90, FUN_1402cb310, FUN_1408dc010
+RAW SOURCE: direct HTTP decompile/disasm/callers/callees/xrefs plus inline instruction scan.
+
+FINDINGS
+
+0x140d06350 FUN_140d06350
+- Reads byte +0x3 repeatedly from pixel/byte neighborhood: 0x140d06377, 0x140d063e0, 0x140d06444, 0x140d064a8, 0x140d0650c, 0x140d06570, 0x140d065d4, 0x140d06638.
+- No CMP/TEST against 0x0c, no calls, no opcode branch.
+- Xrefs: called only from FUN_140d07b10 at 0x140d07bff and 0x140d07c38; data xref 0x1448f999c.
+- Caller FUN_140d07b10 walks byte buffers/strides and calls FUN_140d06350/FUN_140d066a0 around neighbor positions. This is not animation pose/IK command consumer.
+- Verdict: negative for WeaponIK solver/consumer.
+
+0x1407375f0 FUN_1407375f0
+- Reads +0x3 as part of 4-byte hash/key construction: 0x14073769b, 0x1407377f0.
+- No CMP/TEST against 0x0c; immediate 0x0c appears as record size/memmove size at 0x14073788a.
+- Calls callback through R13, callback through R14+8, FUN_1403726a0, FUN_140dc6852.
+- Caller FUN_140737580 only wraps/forwards to this function.
+- Verdict: hash/container cleanup or table maintenance, not WeaponIK solver/consumer.
+
+0x140c54ad0 FUN_140c54ad0
+- Reads input byte +0x3 at 0x140c54b30.
+- CMP EDI,0x0c at 0x140c556a8 is AES/round-count style gating, not command opcode branch; EDI is built from first 4 input bytes and table/key XORs.
+- No calls; heavy table lookups DAT_144820730/DAT_144820830/DAT_144820c30/DAT_144821030/DAT_144821430.
+- Xrefs: data 0x1448f2f04 and call from FUN_140c54150 at 0x140c5434e.
+- Verdict: crypto/block transform false positive, not animation/IK.
+
+0x140c55a90 FUN_140c55a90
+- Same pattern as 0x140c54ad0: reads input byte +0x3 at 0x140c55aed.
+- CMP EDI,0x0c at 0x140c56654 is round/key schedule gating, not command opcode branch.
+- No calls; heavy table lookups DAT_14481f630/DAT_14481f730/DAT_14481fb30/DAT_14481ff30/DAT_144820330.
+- Xrefs: data 0x1448f2f10 and call from FUN_140c54440 at 0x140c546de.
+- Verdict: crypto/block transform false positive, not animation/IK.
+
+0x1402cb310 FUN_1402cb310
+- Strong animation/pose relation confirmed by decompile: uses skeleton/pose tables, bone/track loops, calls FUN_1402c46b0, FUN_1402c5130, FUN_1402c8050, FUN_1402d1550, etc.; caller FUN_1402c9f30 calls it at 0x1402caf18/0x1402cb158/0x1402cb2eb.
+- Reads +0x3 once at 0x1402cbdb6 while packing/copying 4 bytes from R11; no CMP/TEST against 0x0c and no branch on command opcode 0x0c.
+- Immediate 0x0c appears as stride/record-size arithmetic and bit operations, e.g. BTR EAX,0x0c at 0x1402cb603, MOV R13D,0x0c at 0x1402cbae9, ADD R11,0x0c at 0x1402cbdd9.
+- Verdict: likely animation pose/decompression/output path, but not the command-byte +0x3 opcode consumer for AnimNodeWeaponIK.
+
+0x1408dc010 FUN_1408dc010
+- Geometry/polyline/mesh-like builder: writes vertex-ish blocks, triangle/indices, calls FUN_1408e54d0/FUN_1408e9ef0, many callers from 0x14088..0x14095 render/debug-looking region.
+- Does not read command byte +0x3. Inline scan's +0x3 hits are LEA/offset/math or +0x30/+0x34 fields, not byte [command+3].
+- No CMP/TEST against 0x0c. Immediate 0x0c is geometry/index stride, e.g. MOV EAX,0x0c at 0x1408dc154 and ADD pointer by 0x0c at 0x1408dc968/0x1408dcd48.
+- Xrefs include many drawing/shape callers such as FUN_1408dce30, which calls FUN_1408e4d00 then FUN_1408dc010 and resets count field param_1[0x14].
+- Verdict: negative for WeaponIK solver/consumer.
+
+OVERALL
+- Among the six checked candidates, none is confirmed as the AnimNodeWeaponIK command consumer for opcode 0x0c.
+- Only 0x1402cb310 is confirmed animation/pose-related, but it is not a command opcode dispatch branch.
+- 0x140c54ad0 and 0x140c55a90 are strong false positives from byte +0x3 / 0x0c scans because they are crypto/block transforms.
+- Next Ghidra-only search should target functions that consume command buffers emitted by FUN_1400da470 and specifically dispatch on byte at command+0x3; current candidate list did not include that dispatcher.

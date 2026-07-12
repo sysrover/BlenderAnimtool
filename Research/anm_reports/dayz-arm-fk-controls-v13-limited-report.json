@@ -1,0 +1,425 @@
+{
+  "base": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "out": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v13_limited.blend",
+  "addon_module": "C:\\Users\\sysro\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\scripts\\addons\\DayzAnimationTools\\Tools\\AddSurvivorIK.py",
+  "neutral_ok": true,
+  "neutral": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 2.2351741790771484e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 2.2351741790771484e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 2.2351741790771484e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 1.2867090135194766e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 1.301187962038292e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 2.653076323086747e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 2.6066386229598374e-07,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "fk_ok": true,
+  "fk_moved": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 24.999967683107393
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 0.08830718560420088,
+      "rot_delta_deg": 24.999967683107393
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 0.11904156389103777,
+      "rot_delta_deg": 24.999967683107393
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "limits": {
+    "FK_LeftArm.L": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -2.96705961227417,
+        "max_x": 2.96705961227417,
+        "min_y": -2.96705961227417,
+        "max_y": 2.96705961227417,
+        "min_z": -2.96705961227417,
+        "max_z": 2.96705961227417
+      }
+    ],
+    "FK_LeftArmRoll.L": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -3.1415927410125732,
+        "max_x": 3.1415927410125732,
+        "min_y": -3.1415927410125732,
+        "max_y": 3.1415927410125732,
+        "min_z": -3.1415927410125732,
+        "max_z": 3.1415927410125732
+      }
+    ],
+    "FK_LeftForeArm.L": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -0.1745329201221466,
+        "max_x": 2.879793167114258,
+        "min_y": -0.7853981852531433,
+        "max_y": 0.7853981852531433,
+        "min_z": -0.7853981852531433,
+        "max_z": 0.7853981852531433
+      }
+    ],
+    "FK_LeftForeArmRoll.L": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -3.1415927410125732,
+        "max_x": 3.1415927410125732,
+        "min_y": -3.1415927410125732,
+        "max_y": 3.1415927410125732,
+        "min_z": -3.1415927410125732,
+        "max_z": 3.1415927410125732
+      }
+    ],
+    "FK_LeftHand.L": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -1.5707963705062866,
+        "max_x": 1.5707963705062866,
+        "min_y": -1.5707963705062866,
+        "max_y": 1.5707963705062866,
+        "min_z": -2.094395160675049,
+        "max_z": 2.094395160675049
+      }
+    ],
+    "FK_RightArm.R": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -2.96705961227417,
+        "max_x": 2.96705961227417,
+        "min_y": -2.96705961227417,
+        "max_y": 2.96705961227417,
+        "min_z": -2.96705961227417,
+        "max_z": 2.96705961227417
+      }
+    ],
+    "FK_RightArmRoll.R": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -3.1415927410125732,
+        "max_x": 3.1415927410125732,
+        "min_y": -3.1415927410125732,
+        "max_y": 3.1415927410125732,
+        "min_z": -3.1415927410125732,
+        "max_z": 3.1415927410125732
+      }
+    ],
+    "FK_RightForeArm.R": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -0.1745329201221466,
+        "max_x": 2.879793167114258,
+        "min_y": -0.7853981852531433,
+        "max_y": 0.7853981852531433,
+        "min_z": -0.7853981852531433,
+        "max_z": 0.7853981852531433
+      }
+    ],
+    "FK_RightForeArmRoll.R": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -3.1415927410125732,
+        "max_x": 3.1415927410125732,
+        "min_y": -3.1415927410125732,
+        "max_y": 3.1415927410125732,
+        "min_z": -3.1415927410125732,
+        "max_z": 3.1415927410125732
+      }
+    ],
+    "FK_RightHand.R": [
+      {
+        "name": "DAT FK Soft Joint Limit",
+        "type": "LIMIT_ROTATION",
+        "owner_space": "LOCAL",
+        "min_x": -1.5707963705062866,
+        "max_x": 1.5707963705062866,
+        "min_y": -1.5707963705062866,
+        "max_y": 1.5707963705062866,
+        "min_z": -2.094395160675049,
+        "max_z": 2.094395160675049
+      }
+    ]
+  },
+  "export_locks": {
+    "LeftArm": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "LeftArmRoll": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "LeftForeArm": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "LeftForeArmRoll": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "LeftHand": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "RightArm": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "RightArmRoll": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "RightForeArm": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "RightForeArmRoll": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    },
+    "RightHand": {
+      "lock_location": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation": [
+        true,
+        true,
+        true
+      ],
+      "lock_rotation_w": true,
+      "lock_scale": [
+        true,
+        true,
+        true
+      ]
+    }
+  }
+}

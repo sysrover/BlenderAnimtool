@@ -1,0 +1,83 @@
+FBX resource/mode HTTP pass, 2026-05-17
+
+Endpoint note:
+- Ghidra MCP active program reported DayZDiag_x64.exe, so every Workbench query used
+  program=workbenchApp.exe explicitly.
+
+Resource properties:
+- /get_xrefs_to?program=workbenchApp.exe&address=0x142321adc&limit=100
+  From 1404556b6 in FUN_1404555f0 [WRITE]
+  From 140fca054 in FUN_140fc9fc0 [READ]
+- /get_xrefs_to?program=workbenchApp.exe&address=0x142321ae0&limit=100
+  From 140455773 in FUN_1404555f0 [WRITE]
+  From 140fca093 in FUN_140fc9fc0 [READ]
+- /batch_decompile raw in ghidra-raw-fbx-mode-signs-related-decompile-http.txt:
+  FUN_1404555f0 registers property AnimationName with default Take 001 and
+  tooltip "Name of the animation take to import"; it registers property FPS with
+  default 30 and tooltip "Play speed".
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140fc9fc0:
+  FUN_140fc9fc0 reads DAT_142321adc and DAT_142321ae0, defaults to "Take 001"
+  and 0x1e, then calls FUN_140e75c10(local_b8, takeName, targetPath, fps, flag, error).
+
+Conversion path:
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140e75c10:
+  callers: FUN_140fc9fc0
+  callees include FUN_141056750, FUN_141067c00, FUN_141068360,
+  FUN_140e75770, FUN_140e78260, FUN_1410db3a0, FUN_1410bea70,
+  FUN_1410884c0.
+  The decompile allocates TXA::Animation, stores FPS at +0x80, stores
+  numFrames at +0x84, samples EntityPosition, recursively converts nodes, writes
+  TXA text through FUN_141056750, and optionally writes .anm after zeroing
+  DAT_142373be8, DAT_142373bec, DAT_142373bf0.
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140e75770:
+  callers: FUN_140e75770, FUN_140e75c10
+  callees include FUN_141055e40, FUN_1410c3840, FUN_140e7e780,
+  FUN_140e7e9c0, FUN_1402badd0, FUN_14108d8b0, FUN_14108dce0.
+  The decompile creates tracks with FUN_141055e40(..., frameCount, 1, 1, 1),
+  skips node-attribute type 4, sanitizes spaces/dashes to underscores, writes
+  per-frame q/t/s keys, and recurses children. No event/custom-property helper is
+  called from this function.
+
+TXA text writer:
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_141056750:
+  callers: FUN_140d5cf10, FUN_140e75c10
+  callees: FUN_1410574b0, FUN_141058910, FUN_141056690, snprintf.
+  The decompile writes animation "<name>", version 1.0, optional fps, numFrames,
+  tags/tracks, optional events when count +0x6c is nonzero, and optional
+  custProps when count +0x7c is nonzero.
+- /get_xrefs_to?program=workbenchApp.exe&address=0x141055b40&limit=100
+  From 14caa8a70 [DATA]
+  From 141057c58 in FUN_141057bb0 [UNCONDITIONAL_CALL]
+- /get_xrefs_to?program=workbenchApp.exe&address=0x141055a40&limit=100
+  From 14caa8a64 [DATA]
+  From 141057b90 in FUN_141057b30 [UNCONDITIONAL_CALL]
+  These event/custom-property store helpers are reached from TXA parser callbacks,
+  not from FUN_140e75c10/FUN_140e75770 in this pass.
+
+Mode-string scan:
+- /batch_string_anchor_report?program=workbenchApp.exe&pattern=BaseAnimation
+  Anchors:
+  141c51cf0 ":/Workbench/AnimEditor/baseAnimation.png" -> FUN_140e8fe40
+  141c51d20 "1OnSetBaseAnimation()" -> FUN_140e8fe40
+- /batch_string_anchor_report?program=workbenchApp.exe&pattern=AnimationType
+  Anchors:
+  141adabe8 "PluginClearAnimationType" -> FUN_1405d5610
+  141adc360 "PluginStopAnimationType" -> FUN_1405d5610
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140e8fe40:
+  FUN_140e8fe40 is AnimEditor UI action setup. It creates actions "Show IK
+  targets", "Show bone hierarchy", "Set base animation", LOD0..LOD3. It sets
+  tooltip "Set base animation for partial or additive animations". This function
+  has no caller/callee connection to FUN_140fc9fc0 or FUN_140e75c10 in the
+  analyzed output.
+- /search_strings?program=workbenchApp.exe&search_term=FullBody&limit=50:
+  Hits are runtime/command strings such as TagFullBodyActions,
+  CMD_FullBodyAction, HumanCommandFullBodyDamage, and RTTI names. No hit in this
+  scan anchored to FUN_140fc9fc0/FUN_140e75c10.
+
+Conclusion for this pass:
+- confirmed: FBXAnimResourceClass conversion parameters found in Workbench are
+  AnimationName and FPS.
+- confirmed: the in-process FBX->TXA path builds TXA tracks from sampled FBX node
+  transforms and writes TXA text through FUN_141056750.
+- likely: additive, partial, IK, and full-body signs are AnimEditor/runtime graph
+  concerns, not FBX->TXA conversion modes.

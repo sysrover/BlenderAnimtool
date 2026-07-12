@@ -1,0 +1,45 @@
+===== search_strings AnimNodeWeaponIK =====
+{"matches":[{"address":"140decd90","value":"AnimNodeWeaponIK","encoding":"ascii"},{"address":"141161610","value":".?AVAnimNodeWeaponIK@enf@@","encoding":"ascii"},{"address":"141161640","value":".?AVAnimNodeFactoryImplement_AnimNodeWeaponIK@enf@@","encoding":"ascii"}],"total":3,"offset":0,"limit":100}
+===== anchor_report AnimNodeWeaponIK =====
+{"pattern":"AnimNodeWeaponIK","anchors":[{"string":"AnimNodeWeaponIK","address":"140decd90","undocumented":[{"name":"FUN_1401092a0","address":"1401092a0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings WeaponIK =====
+{"matches":[{"address":"140decbe0","value":"WeaponIK","encoding":"ascii"},{"address":"140decd90","value":"AnimNodeWeaponIK","encoding":"ascii"},{"address":"141161610","value":".?AVAnimNodeWeaponIK@enf@@","encoding":"ascii"},{"address":"141161640","value":".?AVAnimNodeFactoryImplement_AnimNodeWeaponIK@enf@@","encoding":"ascii"},{"address":"141161688","value":".?AVAnimNodeEditorAccWeaponIK@enf@@","encoding":"ascii"}],"total":5,"offset":0,"limit":100}
+===== anchor_report WeaponIK =====
+{"pattern":"WeaponIK","anchors":[{"string":"AnimNodeWeaponIK","address":"140decd90","undocumented":[{"name":"FUN_1401092a0","address":"1401092a0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings Weapon IK =====
+{"matches":[{"address":"140decbd0","value":"Weapon IK","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report Weapon IK =====
+{"pattern":"Weapon IK","anchors":[{"string":"Weapon IK","address":"140decbd0","undocumented":[{"name":"FUN_140109290","address":"140109290"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings ikpose_weaponoffset =====
+{"matches":[{"address":"140deccd0","value":"ikpose_weaponoffset","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report ikpose_weaponoffset =====
+{"pattern":"ikpose_weaponoffset","anchors":[{"string":"ikpose_weaponoffset","address":"140deccd0","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings ikpose_secchainoffset =====
+{"matches":[{"address":"140decce8","value":"ikpose_secchainoffset","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report ikpose_secchainoffset =====
+{"pattern":"ikpose_secchainoffset","anchors":[{"string":"ikpose_secchainoffset","address":"140decce8","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings ikpose_chainmiddledir =====
+{"matches":[{"address":"140decd00","value":"ikpose_chainmiddledir","encoding":"ascii"},{"address":"140decd38","value":"ikpose_chainmiddlediro","encoding":"ascii"}],"total":2,"offset":0,"limit":100}
+===== anchor_report ikpose_chainmiddledir =====
+{"pattern":"ikpose_chainmiddledir","anchors":[{"string":"ikpose_chainmiddledir","address":"140decd00","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0},{"string":"ikpose_chainmiddlediro","address":"140decd38","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":2,"total_undocumented_functions":2}
+===== search_strings outputweaponoffsettobuffer =====
+{"matches":[{"address":"140decd70","value":"outputweaponoffsettobuffer","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report outputweaponoffsettobuffer =====
+{"pattern":"outputweaponoffsettobuffer","anchors":[{"string":"outputweaponoffsettobuffer","address":"140decd70","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings RightHand_Dummy =====
+{"matches":[{"address":"140e68330","value":"RightHand_Dummy","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report RightHand_Dummy =====
+{"pattern":"RightHand_Dummy","anchors":[{"string":"RightHand_Dummy","address":"140e68330","undocumented":[{"name":"FUN_14050d890","address":"14050d890"},{"name":"FUN_140528b10","address":"140528b10"},{"name":"FUN_140548480","address":"140548480"}],"documented":[],"undocumented_count":3,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":3}
+===== search_strings LeftHandIKTarget =====
+{"matches":[],"total":0,"offset":0,"limit":100}
+===== anchor_report LeftHandIKTarget =====
+{"pattern":"LeftHandIKTarget","anchors":[],"total_anchors":0,"total_undocumented_functions":0}
+===== search_strings weaponrotator =====
+{"matches":[{"address":"140decc78","value":"weaponrotator","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report weaponrotator =====
+{"pattern":"weaponrotator","anchors":[{"string":"weaponrotator","address":"140decc78","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+===== search_strings weaponaxis =====
+{"matches":[{"address":"140decca8","value":"weaponaxis","encoding":"ascii"}],"total":1,"offset":0,"limit":100}
+===== anchor_report weaponaxis =====
+{"pattern":"weaponaxis","anchors":[{"string":"weaponaxis","address":"140decca8","undocumented":[{"name":"FUN_1401093e0","address":"1401093e0"}],"documented":[],"undocumented_count":1,"documented_count":0}],"total_anchors":1,"total_undocumented_functions":1}
+

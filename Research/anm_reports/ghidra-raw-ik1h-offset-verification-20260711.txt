@@ -1,0 +1,57 @@
+Program: DayZ_x64.exe
+Ghidra MCP: http://127.0.0.1:8089
+
+check_connection:
+Connected: GhidraMCP plugin running with program 'DayZ_x64.exe'
+
+AnimNodeWeaponIK string:
+140bbf410 "AnimNodeWeaponIK"
+xref: 1400f6130 in FUN_1400f6130
+
+ikpose_chainoffset string:
+140bbf380 "ikpose_chainoffset"
+xref: 1400f5989 in FUN_1400f5650
+
+FUN_1400f5650 parser excerpt:
+
+    iVar5 = FUN_140134ca0(pcVar13,"weaponaxis");
+    if (iVar5 != 0) {
+      iVar5 = FUN_140134ca0(pcVar13,"ikpose_chainoffset");
+      if (iVar5 == 0) {
+        lVar8 = param_1 + 0x1ca;
+      }
+
+Runtime evaluator: FUN_1400ca870
+
+Primary chain-end / chain-offset excerpt:
+
+    FUN_1400c8130(&local_3e8,local_258 + uVar18 * 0x20);
+    uVar3 = FUN_14012cc10(&local_3e8,&local_358,param_3 + 0x20);
+    FUN_14009f810(&local_3d8,uVar3);
+
+The current primary-chain end transform is loaded from the final compact-chain
+record into local_3e8. The cached transform at param_3+0x20 is composed through
+that current end; it is not consumed as a world-space target.
+
+Position composition excerpt:
+
+    pfVar4 = (float *)FUN_14012cc10(&local_3e8,&local_378,&local_2d8);
+    local_2a4 = pfVar4[1] + local_3d4;
+    local_2a0 = pfVar4[2] + local_3d0;
+    local_2a8 = local_3d8 + *pfVar4;
+
+Middle-direction helper excerpt:
+
+    pfVar4 = (float *)FUN_14012cc10(&local_3e8,local_348,param_3 + 0x7c);
+    local_358 = local_3d8 + *pfVar4;
+    local_354 = pfVar4[1] + local_3d4;
+    local_350 = pfVar4[2] + local_3d0;
+
+Conclusion:
+- confirmed: ikpose_chainoffset is composed with the current primary-chain end;
+- confirmed: middle-direction points are rotated by and added to the current
+  target/end basis;
+- contradicted: treating RightHandOrigin or RightForeArmDirection as direct
+  Blender world-space controls;
+- supported authoring model: visible animator controls apply deltas to separate
+  hidden export-helper controls.

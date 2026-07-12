@@ -1,0 +1,99 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.20 LTS (hash 6df22026265d built 2026-04-21 01:34:26)
+Warning: 'ARMATOOLBOX_P3D_FH' does not contain '_FH_' with prefix and suffix
+ArmaToolbox registering
+Internal classes...
+register_class(...):
+Warning: 'ARMATOOLBOX_P3D_FH' does not contain '_FH_' with prefix and suffix
+properties
+registering properties
+operators
+menus
+panels
+lists
+BatchMDLExport register
+Register done
+UniV: Skipping registration in background mode
+Load Hook: P:\Animation_Weapon\Weapon_template_clean_no_blender_ik.blend
+Info: Saved "Weapon_template_separate_controlrig.blend"
+{
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_separate_controlrig.blend",
+  "dayz_armature": "_DayZ_Character",
+  "control_rig": "DAT_ControlRig",
+  "removed_old_preview_constraints": [],
+  "ik_constraints": [
+    {
+      "bone": "LeftHand",
+      "target": "CTRL_Hand.L",
+      "pole": "CTRL_Elbow.L"
+    },
+    {
+      "bone": "RightHand",
+      "target": "CTRL_Hand.R",
+      "pole": "CTRL_Elbow.R"
+    }
+  ],
+  "helper_follow_constraints": [
+    {
+      "bone": "LeftHandIKTarget",
+      "target": "CTRL_Hand.L"
+    },
+    {
+      "bone": "LeftHandOrigin",
+      "target": "CTRL_Hand.L"
+    },
+    {
+      "bone": "LeftHandIK",
+      "target": "CTRL_Hand.L"
+    },
+    {
+      "bone": "LeftForeArmDirection",
+      "target": "CTRL_Elbow.L"
+    },
+    {
+      "bone": "LeftForeArmDirectionOrigin",
+      "target": "CTRL_Elbow.L"
+    },
+    {
+      "bone": "RightHandOrigin",
+      "target": "CTRL_Hand.R"
+    },
+    {
+      "bone": "RightHandIK",
+      "target": "CTRL_Hand.R"
+    },
+    {
+      "bone": "RightForeArmDirection",
+      "target": "CTRL_Elbow.R"
+    },
+    {
+      "bone": "RightForeArmDirectionOrigin",
+      "target": "CTRL_Elbow.R"
+    }
+  ],
+  "visible_dayz_bones": [
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightHand",
+    "RightShoulder",
+    "Weapon_Bolt",
+    "Weapon_Magazine",
+    "Weapon_Root",
+    "Weapon_Trigger"
+  ],
+  "control_bones": [
+    "CTRL_Elbow.L",
+    "CTRL_Elbow.R",
+    "CTRL_Hand.L",
+    "CTRL_Hand.R"
+  ],
+  "note": "Separate non-export control rig. Animator moves DAT_ControlRig CTRL_Hand.* and CTRL_Elbow.*. DayZ skeleton contains preview constraints only; bake before final export."
+}
+BatchMDLExport unregister
+Read blend: "P:\Animation_Weapon\Weapon_template_clean_no_blender_ik.blend"
+
+Blender quit

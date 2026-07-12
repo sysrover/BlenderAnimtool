@@ -1,0 +1,97 @@
+{
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_clean_no_blender_ik.blend",
+  "removed_objects": [
+    "DAT_ControlRigV7"
+  ],
+  "removed_constraints": [
+    {
+      "armature": "_DayZ_Character",
+      "bone": "LeftArm",
+      "constraint": "DAT TrueJoint Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "LeftArmRoll",
+      "constraint": "DAT TrueJoint Roll Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "LeftForeArm",
+      "constraint": "DAT TrueJoint Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "LeftForeArmRoll",
+      "constraint": "DAT TrueJoint Roll Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "LeftHand",
+      "constraint": "DAT TrueJoint Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "RightArm",
+      "constraint": "DAT TrueJoint Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "RightArmRoll",
+      "constraint": "DAT TrueJoint Roll Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "RightForeArm",
+      "constraint": "DAT TrueJoint Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "RightForeArmRoll",
+      "constraint": "DAT TrueJoint Roll Follow Rotation",
+      "type": "COPY_ROTATION"
+    },
+    {
+      "armature": "_DayZ_Character",
+      "bone": "RightHand",
+      "constraint": "DAT TrueJoint Follow Rotation",
+      "type": "COPY_ROTATION"
+    }
+  ],
+  "visible_bones": [
+    "LeftArm",
+    "LeftArmRoll",
+    "LeftForeArm",
+    "LeftForeArmDirection",
+    "LeftForeArmDirectionOrigin",
+    "LeftForeArmRoll",
+    "LeftHand",
+    "LeftHandIK",
+    "LeftHandIKTarget",
+    "LeftHandOrigin",
+    "LeftHand_Dummy",
+    "LeftShoulder",
+    "RightArm",
+    "RightArmRoll",
+    "RightForeArm",
+    "RightForeArmDirection",
+    "RightForeArmDirectionOrigin",
+    "RightForeArmRoll",
+    "RightHand",
+    "RightHandIK",
+    "RightHandOrigin",
+    "RightHand_Dummy",
+    "RightShoulder",
+    "Weapon_Bolt",
+    "Weapon_Magazine",
+    "Weapon_Root",
+    "Weapon_Trigger"
+  ]
+}

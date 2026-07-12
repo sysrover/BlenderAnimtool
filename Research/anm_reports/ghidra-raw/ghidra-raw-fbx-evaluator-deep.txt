@@ -1,0 +1,3822 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\FbxEvaluatorDeepTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 13:30:28 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\FbxEvaluatorDeepTrace.java
+Size: 3545 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 14 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+IMAGE_BASE 140000000
+=== WINDOWS ===
+WINDOW 140e75de0 fn=FUN_140e75c10@140e75c10
+  INS 140e75d77 CALL 0x14109da90
+  INS 140e75d7c NOP
+  INS 140e75d7d LEA RCX,[RSI + 0x10]
+  INS 140e75d81 MOV RDX,RAX
+  INS 140e75d84 CALL 0x1410a1e90
+  INS 140e75d89 MOV ESI,EAX
+  INS 140e75d8b LEA RCX,[RBP + 0x108]
+  INS 140e75d92 CALL 0x14109dd40
+  INS 140e75d97 TEST ESI,ESI
+  INS 140e75d99 JLE 0x140e761b3
+  INS 140e75d9f MOV RSI,qword ptr [R14 + 0x8]
+  INS 140e75da3 LEA RDX,[0x1458566f8]
+  INS 140e75daa LEA RCX,[RBP + 0x108]
+  INS 140e75db1 CALL 0x14109da90
+  INS 140e75db6 NOP
+  INS 140e75db7 LEA RCX,[RSI + 0x10]
+  INS 140e75dbb XOR R8D,R8D
+  INS 140e75dbe MOV RDX,RAX
+  INS 140e75dc1 CALL 0x1410a1fe0
+  INS 140e75dc6 MOV RSI,RAX
+  INS 140e75dc9 LEA RCX,[RBP + 0x108]
+  INS 140e75dd0 CALL 0x14109dd40
+  INS 140e75dd5 TEST RSI,RSI
+  INS 140e75dd8 JZ 0x140e761b3
+  INS 140e75dde MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75de2 CALL 0x1410da940
+  INS 140e75de7 MOV R15,RAX
+  INS 140e75dea TEST RAX,RAX
+  INS 140e75ded JZ 0x140e761b3
+  INS 140e75df3 MOVZX EAX,byte ptr [RBP + 0x120]
+  INS 140e75dfa MOV byte ptr [R14 + 0x60],AL
+  INS 140e75dfe MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e02 CALL 0x1410db540
+  INS 140e75e07 MOV RDX,RSI
+  INS 140e75e0a MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e0e CALL 0x1410db3a0
+  INS 140e75e13 XORPS XMM0,XMM0
+  INS 140e75e16 MOVDQU xmmword ptr [RSP + 0x20],XMM0
+  INS 140e75e1c MOV RDX,RBX
+  INS 140e75e1f LEA RCX,[RBP + 0x100]
+  INS 140e75e26 CALL 0x141084a60
+  INS 140e75e2b NOP
+  INS 140e75e2c LEA RDX,[RBP + 0x100]
+  INS 140e75e33 MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e37 CALL 0x1410bea70
+  INS 140e75e3c MOV RBX,RAX
+  INS 140e75e3f LEA RCX,[RBP + 0x100]
+  INS 140e75e46 CALL 0x141084cd0
+  INS 140e75e4b TEST RBX,RBX
+  INS 140e75e4e JZ 0x140e75e64
+  INS 140e75e50 MOV RCX,qword ptr [RBX + 0x28]
+  INS 140e75e54 MOV qword ptr [RSP + 0x20],RCX
+  INS 140e75e59 MOV RAX,qword ptr [RBX + 0x30]
+  INS 140e75e5d MOV qword ptr [RSP + 0x28],RAX
+  INS 140e75e62 JMP 0x140e75e84
+  INS 140e75e64 MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e68 CALL 0x1410db300
+  INS 140e75e6d MOV RCX,RAX
+  INS 140e75e70 LEA RDX,[RSP + 0x20]
+  INS 140e75e75 CALL 0x1410d7940
+  INS 140e75e7a MOV RAX,qword ptr [RSP + 0x28]
+  INS 140e75e7f MOV RCX,qword ptr [RSP + 0x20]
+  INS 140e75e84 LEA R8,[R14 + 0x40]
+  INS 140e75e88 MOV qword ptr [R8],RCX
+  INS 140e75e8b LEA RCX,[R14 + 0x48]
+  INS 140e75e8f MOV qword ptr [RCX],RAX
+  INS 140e75e92 LEA RDX,[RBP + 0x100]
+  INS 140e75e99 CALL 0x141089460
+  INS 140e75e9e MOV RAX,qword ptr [RAX]
+  INS 140e75ea1 MOV qword ptr [R14 + 0x50],RAX
+  INS 140e75ea5 MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75ea9 CALL 0x1410db300
+  INS 140e75eae MOV RCX,RAX
+  INS 140e75eb1 CALL 0x1410d7760
+  INS 140e75eb6 MOV EDX,EAX
+  INS 140e75eb8 LEA RCX,[R14 + 0x50]
+  INS 140e75ebc CALL 0x1410884c0
+  INS 140e75ec1 LEA RBX,[RAX + 0x1]
+  INS 140e75ec5 MOV ECX,0x88
+  INS 140e75eca CALL 0x14050dc90
+  INS 140e75ecf MOV qword ptr [RBP + 0x100],RAX
+  INS 140e75ed6 XOR ESI,ESI
+  INS 140e75ed8 TEST RAX,RAX
+  INS 140e75edb JZ 0x140e75f30
+  INS 140e75edd LEA RCX,[RAX + 0x8]
+  INS 140e75ee1 MOV qword ptr [RBP + 0x100],RCX
+  INS 140e75ee8 MOV qword ptr [RCX],RSI
+  INS 140e75eeb MOV qword ptr [RCX + 0x8],RSI
+  INS 140e75eef MOV qword ptr [RCX + 0x18],RSI
+  INS 140e75ef3 MOV qword ptr [RCX + 0x20],RSI
+  INS 140e75ef7 MOV dword ptr [RCX + 0x28],ESI
+  INS 140e75efa MOV dword ptr [RAX + 0x38],ESI
+  INS 140e75efd MOV qword ptr [RAX + 0x40],RSI
+  INS 140e75f01 MOV byte ptr [RAX + 0x48],SIL
+  INS 140e75f05 LEA RCX,[0x141c14580]
+WINDOW 140e75e60 fn=FUN_140e75c10@140e75c10
+  INS 140e75df3 MOVZX EAX,byte ptr [RBP + 0x120]
+  INS 140e75dfa MOV byte ptr [R14 + 0x60],AL
+  INS 140e75dfe MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e02 CALL 0x1410db540
+  INS 140e75e07 MOV RDX,RSI
+  INS 140e75e0a MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e0e CALL 0x1410db3a0
+  INS 140e75e13 XORPS XMM0,XMM0
+  INS 140e75e16 MOVDQU xmmword ptr [RSP + 0x20],XMM0
+  INS 140e75e1c MOV RDX,RBX
+  INS 140e75e1f LEA RCX,[RBP + 0x100]
+  INS 140e75e26 CALL 0x141084a60
+  INS 140e75e2b NOP
+  INS 140e75e2c LEA RDX,[RBP + 0x100]
+  INS 140e75e33 MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e37 CALL 0x1410bea70
+  INS 140e75e3c MOV RBX,RAX
+  INS 140e75e3f LEA RCX,[RBP + 0x100]
+  INS 140e75e46 CALL 0x141084cd0
+  INS 140e75e4b TEST RBX,RBX
+  INS 140e75e4e JZ 0x140e75e64
+  INS 140e75e50 MOV RCX,qword ptr [RBX + 0x28]
+  INS 140e75e54 MOV qword ptr [RSP + 0x20],RCX
+  INS 140e75e59 MOV RAX,qword ptr [RBX + 0x30]
+  INS 140e75e5d MOV qword ptr [RSP + 0x28],RAX
+  INS 140e75e62 JMP 0x140e75e84
+  INS 140e75e64 MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75e68 CALL 0x1410db300
+  INS 140e75e6d MOV RCX,RAX
+  INS 140e75e70 LEA RDX,[RSP + 0x20]
+  INS 140e75e75 CALL 0x1410d7940
+  INS 140e75e7a MOV RAX,qword ptr [RSP + 0x28]
+  INS 140e75e7f MOV RCX,qword ptr [RSP + 0x20]
+  INS 140e75e84 LEA R8,[R14 + 0x40]
+  INS 140e75e88 MOV qword ptr [R8],RCX
+  INS 140e75e8b LEA RCX,[R14 + 0x48]
+  INS 140e75e8f MOV qword ptr [RCX],RAX
+  INS 140e75e92 LEA RDX,[RBP + 0x100]
+  INS 140e75e99 CALL 0x141089460
+  INS 140e75e9e MOV RAX,qword ptr [RAX]
+  INS 140e75ea1 MOV qword ptr [R14 + 0x50],RAX
+  INS 140e75ea5 MOV RCX,qword ptr [R14 + 0x8]
+  INS 140e75ea9 CALL 0x1410db300
+  INS 140e75eae MOV RCX,RAX
+  INS 140e75eb1 CALL 0x1410d7760
+  INS 140e75eb6 MOV EDX,EAX
+  INS 140e75eb8 LEA RCX,[R14 + 0x50]
+  INS 140e75ebc CALL 0x1410884c0
+  INS 140e75ec1 LEA RBX,[RAX + 0x1]
+  INS 140e75ec5 MOV ECX,0x88
+  INS 140e75eca CALL 0x14050dc90
+  INS 140e75ecf MOV qword ptr [RBP + 0x100],RAX
+  INS 140e75ed6 XOR ESI,ESI
+  INS 140e75ed8 TEST RAX,RAX
+  INS 140e75edb JZ 0x140e75f30
+  INS 140e75edd LEA RCX,[RAX + 0x8]
+  INS 140e75ee1 MOV qword ptr [RBP + 0x100],RCX
+  INS 140e75ee8 MOV qword ptr [RCX],RSI
+  INS 140e75eeb MOV qword ptr [RCX + 0x8],RSI
+  INS 140e75eef MOV qword ptr [RCX + 0x18],RSI
+  INS 140e75ef3 MOV qword ptr [RCX + 0x20],RSI
+  INS 140e75ef7 MOV dword ptr [RCX + 0x28],ESI
+  INS 140e75efa MOV dword ptr [RAX + 0x38],ESI
+  INS 140e75efd MOV qword ptr [RAX + 0x40],RSI
+  INS 140e75f01 MOV byte ptr [RAX + 0x48],SIL
+  INS 140e75f05 LEA RCX,[0x141c14580]
+  INS 140e75f0c MOV qword ptr [RAX],RCX
+  INS 140e75f0f MOV qword ptr [RAX + 0x50],RSI
+  INS 140e75f13 MOV qword ptr [RAX + 0x58],RSI
+  INS 140e75f17 MOV qword ptr [RAX + 0x60],RSI
+  INS 140e75f1b MOV qword ptr [RAX + 0x68],RSI
+  INS 140e75f1f MOV qword ptr [RAX + 0x70],RSI
+  INS 140e75f23 MOV qword ptr [RAX + 0x78],RSI
+  INS 140e75f27 MOV qword ptr [RAX + 0x80],RSI
+  INS 140e75f2e JMP 0x140e75f33
+  INS 140e75f30 MOV RAX,RSI
+  INS 140e75f33 MOV qword ptr [R14 + 0x38],RAX
+  INS 140e75f37 MOV dword ptr [RAX + 0x80],R13D
+  INS 140e75f3e MOV RAX,qword ptr [R14 + 0x38]
+  INS 140e75f42 MOV dword ptr [RAX + 0x84],EBX
+  INS 140e75f48 MOV RBX,RSI
+  INS 140e75f4b MOV qword ptr [RBP + 0x100],RBX
+  INS 140e75f52 LEA R8,[0x141c4cf48]
+  INS 140e75f59 MOV RDX,R15
+  INS 140e75f5c MOV RCX,R14
+  INS 140e75f5f CALL 0x140e7bf50
+  INS 140e75f64 TEST RAX,RAX
+  INS 140e75f67 JZ 0x140e75f82
+  INS 140e75f69 LEA R8,[RBP + 0x100]
+  INS 140e75f70 MOV RDX,RAX
+  INS 140e75f73 MOV RCX,R14
+  INS 140e75f76 CALL 0x140e78260
+  INS 140e75f7b MOV RBX,qword ptr [RBP + 0x100]
+  INS 140e75f82 MOV R9,RBX
+  INS 140e75f85 MOV EBX,0xffffffff
+WINDOW 140e78380 fn=FUN_140e78260@140e78260
+  INS 140e7831c MOV qword ptr [RSP + 0x40],RAX
+  INS 140e78321 MOV EBX,EDI
+  INS 140e78323 MOV qword ptr [RBP + 0x360],RBX
+  INS 140e7832a MOV EAX,0x80
+  INS 140e7832f MUL RDI
+  INS 140e78332 CMOVO RAX,RSI
+  INS 140e78336 ADD RAX,0x8
+  INS 140e7833a CMOVC RAX,RSI
+  INS 140e7833e MOV RCX,RAX
+  INS 140e78341 CALL 0x14180c474
+  INS 140e78346 MOV qword ptr [RBP + 0x378],RAX
+  INS 140e7834d TEST RAX,RAX
+  INS 140e78350 JZ 0x140e7837e
+  INS 140e78352 MOV qword ptr [RAX],RBX
+  INS 140e78355 LEA RSI,[RAX + 0x8]
+  INS 140e78359 LEA RAX,[0x14108bb50]
+  INS 140e78360 MOV qword ptr [RSP + 0x20],RAX
+  INS 140e78365 LEA R9,[0x14108b9a0]
+  INS 140e7836c MOV R8D,EBX
+  INS 140e7836f MOV EDX,0x80
+  INS 140e78374 MOV RCX,RSI
+  INS 140e78377 CALL 0x14180c7d4
+  INS 140e7837c JMP 0x140e78380
+  INS 140e7837e XOR ESI,ESI
+  INS 140e78380 MOV qword ptr [R12],RSI
+  INS 140e78384 LEA RCX,[R15 + 0x50]
+  INS 140e78388 CALL 0x141087b80
+  INS 140e7838d MOVAPS XMM7,XMM0
+  INS 140e78390 LEA RBX,[R15 + 0x40]
+  INS 140e78394 MOV byte ptr [RSP + 0x20],0x0
+  INS 140e78399 XOR R9D,R9D
+  INS 140e7839c XOR R8D,R8D
+  INS 140e7839f MOV RDX,qword ptr [RBX]
+  INS 140e783a2 MOV RCX,R14
+  INS 140e783a5 CALL 0x1410c3840
+  INS 140e783aa MOV RDX,RAX
+  INS 140e783ad LEA RCX,[RBP]
+  INS 140e783b1 CALL 0x14108b9d0
+  INS 140e783b6 NOP
+  INS 140e783b7 MOV DL,0x1
+  INS 140e783b9 LEA RCX,[RBP]
+  INS 140e783bd CALL 0x140e7e780
+  INS 140e783c2 LEA RDX,[RBP + 0x100]
+  INS 140e783c9 LEA RCX,[RBP]
+  INS 140e783cd CALL 0x14108dce0
+  INS 140e783d2 NOP
+  INS 140e783d3 XOR ESI,ESI
+  INS 140e783d5 TEST EDI,EDI
+  INS 140e783d7 JZ 0x140e7853b
+  INS 140e783dd MOV EAX,R13D
+  INS 140e783e0 XORPS XMM6,XMM6
+  INS 140e783e3 CVTSI2SD XMM6,RAX
+  INS 140e783e8 XOR R12D,R12D
+  INS 140e783eb XOR R13D,R13D
+  INS 140e783ee NOP
+  INS 140e783f0 MOV EAX,ESI
+  INS 140e783f2 XORPS XMM1,XMM1
+  INS 140e783f5 CVTSI2SD XMM1,RAX
+  INS 140e783fa DIVSD XMM1,XMM6
+  INS 140e783fe MULSD XMM1,XMM7
+  INS 140e78402 MOV qword ptr [RBP + 0x360],0x0
+  INS 140e7840d LEA RCX,[RBP + 0x360]
+  INS 140e78414 CALL 0x141087b40
+  INS 140e78419 LEA R8,[RBP + 0x360]
+  INS 140e78420 LEA RDX,[RBP + 0x378]
+  INS 140e78427 MOV RCX,RBX
+  INS 140e7842a CALL 0x141089440
+  INS 140e7842f MOV byte ptr [RSP + 0x20],0x0
+  INS 140e78434 XOR R9D,R9D
+  INS 140e78437 XOR R8D,R8D
+  INS 140e7843a MOV RDX,qword ptr [RBP + 0x378]
+  INS 140e78441 MOV RCX,R14
+  INS 140e78444 CALL 0x1410c3840
+  INS 140e78449 MOV RDX,RAX
+  INS 140e7844c LEA RCX,[RBP + -0x80]
+  INS 140e78450 CALL 0x14108b9d0
+  INS 140e78455 NOP
+  INS 140e78456 MOV DL,0x1
+  INS 140e78458 LEA RCX,[RBP + -0x80]
+  INS 140e7845c CALL 0x140e7e780
+  INS 140e78461 LEA RDX,[RBP + 0x180]
+  INS 140e78468 LEA RCX,[RBP + -0x80]
+  INS 140e7846c CALL 0x14108dce0
+  INS 140e78471 NOP
+  INS 140e78472 MOV RCX,qword ptr [RBP + 0x370]
+  INS 140e78479 MOV RCX,qword ptr [RCX]
+  INS 140e7847c ADD RCX,R13
+  INS 140e7847f MOV RDX,RAX
+  INS 140e78482 CALL 0x14108cf60
+  INS 140e78487 NOP
+  INS 140e78488 LEA RCX,[RBP + 0x180]
+  INS 140e7848f CALL 0x14108bb50
+  INS 140e78494 LEA R8,[RBP + -0x80]
+  INS 140e78498 LEA RDX,[RBP + 0x80]
+  INS 140e7849f LEA RCX,[RBP + 0x100]
+WINDOW 140e78420 fn=FUN_140e78260@140e78260
+  INS 140e783b9 LEA RCX,[RBP]
+  INS 140e783bd CALL 0x140e7e780
+  INS 140e783c2 LEA RDX,[RBP + 0x100]
+  INS 140e783c9 LEA RCX,[RBP]
+  INS 140e783cd CALL 0x14108dce0
+  INS 140e783d2 NOP
+  INS 140e783d3 XOR ESI,ESI
+  INS 140e783d5 TEST EDI,EDI
+  INS 140e783d7 JZ 0x140e7853b
+  INS 140e783dd MOV EAX,R13D
+  INS 140e783e0 XORPS XMM6,XMM6
+  INS 140e783e3 CVTSI2SD XMM6,RAX
+  INS 140e783e8 XOR R12D,R12D
+  INS 140e783eb XOR R13D,R13D
+  INS 140e783ee NOP
+  INS 140e783f0 MOV EAX,ESI
+  INS 140e783f2 XORPS XMM1,XMM1
+  INS 140e783f5 CVTSI2SD XMM1,RAX
+  INS 140e783fa DIVSD XMM1,XMM6
+  INS 140e783fe MULSD XMM1,XMM7
+  INS 140e78402 MOV qword ptr [RBP + 0x360],0x0
+  INS 140e7840d LEA RCX,[RBP + 0x360]
+  INS 140e78414 CALL 0x141087b40
+  INS 140e78419 LEA R8,[RBP + 0x360]
+  INS 140e78420 LEA RDX,[RBP + 0x378]
+  INS 140e78427 MOV RCX,RBX
+  INS 140e7842a CALL 0x141089440
+  INS 140e7842f MOV byte ptr [RSP + 0x20],0x0
+  INS 140e78434 XOR R9D,R9D
+  INS 140e78437 XOR R8D,R8D
+  INS 140e7843a MOV RDX,qword ptr [RBP + 0x378]
+  INS 140e78441 MOV RCX,R14
+  INS 140e78444 CALL 0x1410c3840
+  INS 140e78449 MOV RDX,RAX
+  INS 140e7844c LEA RCX,[RBP + -0x80]
+  INS 140e78450 CALL 0x14108b9d0
+  INS 140e78455 NOP
+  INS 140e78456 MOV DL,0x1
+  INS 140e78458 LEA RCX,[RBP + -0x80]
+  INS 140e7845c CALL 0x140e7e780
+  INS 140e78461 LEA RDX,[RBP + 0x180]
+  INS 140e78468 LEA RCX,[RBP + -0x80]
+  INS 140e7846c CALL 0x14108dce0
+  INS 140e78471 NOP
+  INS 140e78472 MOV RCX,qword ptr [RBP + 0x370]
+  INS 140e78479 MOV RCX,qword ptr [RCX]
+  INS 140e7847c ADD RCX,R13
+  INS 140e7847f MOV RDX,RAX
+  INS 140e78482 CALL 0x14108cf60
+  INS 140e78487 NOP
+  INS 140e78488 LEA RCX,[RBP + 0x180]
+  INS 140e7848f CALL 0x14108bb50
+  INS 140e78494 LEA R8,[RBP + -0x80]
+  INS 140e78498 LEA RDX,[RBP + 0x80]
+  INS 140e7849f LEA RCX,[RBP + 0x100]
+  INS 140e784a6 CALL 0x14108d8b0
+  INS 140e784ab NOP
+  INS 140e784ac LEA R8,[RSP + 0x50]
+  INS 140e784b1 LEA RDX,[RBP + 0x80]
+  INS 140e784b8 MOV RCX,R15
+  INS 140e784bb CALL 0x140e7e9c0
+  INS 140e784c0 MOV RCX,qword ptr [RSP + 0x40]
+  INS 140e784c5 MOV RBX,qword ptr [RCX + 0x18]
+  INS 140e784c9 ADD RBX,R12
+  INS 140e784cc LEA RDX,[RSP + 0x50]
+  INS 140e784d1 MOV RCX,RBX
+  INS 140e784d4 CALL 0x1402badd0
+  INS 140e784d9 MOVSS XMM0,dword ptr [RSP + 0x74]
+  INS 140e784df MOVSS dword ptr [RBX + 0x10],XMM0
+  INS 140e784e4 MOVSS XMM1,dword ptr [RSP + 0x78]
+  INS 140e784ea MOVSS dword ptr [RBX + 0x14],XMM1
+  INS 140e784ef MOVSS XMM0,dword ptr [RSP + 0x7c]
+  INS 140e784f5 MOVSS dword ptr [RBX + 0x18],XMM0
+  INS 140e784fa MOV dword ptr [RBX + 0x1c],0x3f800000
+  INS 140e78501 MOV dword ptr [RBX + 0x20],0x3f800000
+  INS 140e78508 MOV dword ptr [RBX + 0x24],0x3f800000
+  INS 140e7850f LEA RCX,[RBP + 0x80]
+  INS 140e78516 CALL 0x14108bb50
+  INS 140e7851b NOP
+  INS 140e7851c LEA RCX,[RBP + -0x80]
+  INS 140e78520 CALL 0x14108bb50
+  INS 140e78525 INC ESI
+  INS 140e78527 SUB R13,-0x80
+  INS 140e7852b ADD R12,0x28
+  INS 140e7852f CMP ESI,EDI
+  INS 140e78531 LEA RBX,[R15 + 0x40]
+  INS 140e78535 JC 0x140e783f0
+  INS 140e7853b LEA RCX,[RBP + 0x100]
+  INS 140e78542 CALL 0x14108bb50
+  INS 140e78547 NOP
+  INS 140e78548 LEA RCX,[RBP]
+  INS 140e7854c CALL 0x14108bb50
+  INS 140e78551 LEA R11,[RSP + 0x420]
+  INS 140e78559 MOV RBX,qword ptr [R11 + 0x48]
+  INS 140e7855d MOVAPS XMM6,xmmword ptr [R11 + -0x10]
+WINDOW 140e758e0 fn=FUN_140e75770@140e75770
+  INS 140e75866 MOV RCX,qword ptr [RSI + 0x38]
+  INS 140e7586a MOV R12D,dword ptr [RCX + 0x84]
+  INS 140e75871 MOV dword ptr [RBP + 0x360],R12D
+  INS 140e75878 MOV byte ptr [RSP + 0x30],0x1
+  INS 140e7587d MOV byte ptr [RSP + 0x28],0x1
+  INS 140e75882 MOV byte ptr [RSP + 0x20],0x1
+  INS 140e75887 MOV R9D,R12D
+  INS 140e7588a MOV R8D,dword ptr [RBP + 0x370]
+  INS 140e75891 LEA RDX,[RBP + 0x1c0]
+  INS 140e75898 CALL 0x141055e40
+  INS 140e7589d MOV qword ptr [RSP + 0x58],RAX
+  INS 140e758a2 LEA RDX,[0x141c4cf48]
+  INS 140e758a9 LEA RCX,[RBP + 0x1c0]
+  INS 140e758b0 CALL 0x1402c4a30
+  INS 140e758b5 TEST EAX,EAX
+  INS 140e758b7 JZ 0x140e75bd6
+  INS 140e758bd LEA RCX,[RSI + 0x50]
+  INS 140e758c1 CALL 0x141087b80
+  INS 140e758c6 MOVAPS XMM10,XMM0
+  INS 140e758ca MOV R14D,EDI
+  INS 140e758cd TEST R12D,R12D
+  INS 140e758d0 JZ 0x140e75b9b
+  INS 140e758d6 LEA EAX,[R12 + -0x1]
+  INS 140e758db XORPS XMM11,XMM11
+  INS 140e758df CVTSI2SD XMM11,RAX
+  INS 140e758e4 MOV R12,RDI
+  INS 140e758e7 MOVSS XMM9,dword ptr [0x141f858d8]
+  INS 140e758f0 MOV EAX,R14D
+  INS 140e758f3 XORPS XMM1,XMM1
+  INS 140e758f6 CVTSI2SD XMM1,RAX
+  INS 140e758fb DIVSD XMM1,XMM11
+  INS 140e75900 MULSD XMM1,XMM10
+  INS 140e75905 MOV qword ptr [RSP + 0x48],RDI
+  INS 140e7590a LEA RCX,[RSP + 0x48]
+  INS 140e7590f CALL 0x141087b40
+  INS 140e75914 LEA R8,[RSP + 0x48]
+  INS 140e75919 LEA RDX,[RSP + 0x40]
+  INS 140e7591e LEA RCX,[RSI + 0x40]
+  INS 140e75922 CALL 0x141089440
+  INS 140e75927 CMP R15,RBX
+  INS 140e7592a JNZ 0x140e75947
+  INS 140e7592c LEA RCX,[RSP + 0x68]
+  INS 140e75931 CALL 0x140cb6e40
+  INS 140e75936 MOVAPS XMM6,XMM9
+  INS 140e7593a MOVAPS XMM7,XMM9
+  INS 140e7593e MOVAPS XMM8,XMM9
+  INS 140e75942 JMP 0x140e75b3b
+  INS 140e75947 MOV RAX,qword ptr [RSP + 0x50]
+  INS 140e7594c MOV byte ptr [RSP + 0x20],0x0
+  INS 140e75951 XOR R9D,R9D
+  INS 140e75954 XOR R8D,R8D
+  INS 140e75957 MOV RDX,qword ptr [RSP + 0x40]
+  INS 140e7595c CMP RAX,RBX
+  INS 140e7595f JNZ 0x140e75a40
+  INS 140e75965 MOV RCX,R15
+  INS 140e75968 CALL 0x1410c3840
+  INS 140e7596d MOV RDX,RAX
+  INS 140e75970 LEA RCX,[RBP + -0x60]
+  INS 140e75974 CALL 0x14108b9d0
+  INS 140e75979 NOP
+  INS 140e7597a LEA RDX,[RBP + 0x20]
+  INS 140e7597e LEA RCX,[RBP + -0x60]
+  INS 140e75982 CALL 0x14108c0a0
+  INS 140e75987 MOVSD XMM0,qword ptr [RAX + 0x8]
+  INS 140e7598c CVTPD2PS XMM0,XMM0
+  INS 140e75990 MOVSD XMM1,qword ptr [RAX + 0x10]
+  INS 140e75995 CVTPD2PS XMM1,XMM1
+  INS 140e75999 MOVSD XMM2,qword ptr [RAX]
+  INS 140e7599d CVTPD2PS XMM2,XMM2
+  INS 140e759a1 MOVSS XMM6,dword ptr [RSI + 0x58]
+  INS 140e759a6 MOVAPS XMM8,XMM6
+  INS 140e759aa MULSS XMM8,XMM0
+  INS 140e759af MOVAPS XMM7,XMM6
+  INS 140e759b2 MULSS XMM7,XMM1
+  INS 140e759b6 MULSS XMM6,XMM2
+  INS 140e759ba MOV DL,0x1
+  INS 140e759bc LEA RCX,[RBP + -0x60]
+  INS 140e759c0 CALL 0x140e7e780
+  INS 140e759c5 TEST R13,R13
+  INS 140e759c8 JZ 0x140e75a25
+  INS 140e759ca LEA RCX,[RBP + 0x40]
+  INS 140e759ce CALL 0x14108b9a0
+  INS 140e759d3 NOP
+  INS 140e759d4 MOV ECX,R14D
+  INS 140e759d7 SHL RCX,0x7
+  INS 140e759db ADD RCX,R13
+  INS 140e759de LEA R8,[RBP + -0x60]
+  INS 140e759e2 LEA RDX,[RBP + 0xc0]
+  INS 140e759e9 CALL 0x14108d8b0
+  INS 140e759ee NOP
+  INS 140e759ef MOV RDX,RAX
+  INS 140e759f2 LEA RCX,[RBP + 0x40]
+  INS 140e759f6 CALL 0x14108cf60
+  INS 140e759fb NOP
+  INS 140e759fc LEA RCX,[RBP + 0xc0]
+WINDOW 140e75970 fn=FUN_140e75770@140e75770
+  INS 140e7590a LEA RCX,[RSP + 0x48]
+  INS 140e7590f CALL 0x141087b40
+  INS 140e75914 LEA R8,[RSP + 0x48]
+  INS 140e75919 LEA RDX,[RSP + 0x40]
+  INS 140e7591e LEA RCX,[RSI + 0x40]
+  INS 140e75922 CALL 0x141089440
+  INS 140e75927 CMP R15,RBX
+  INS 140e7592a JNZ 0x140e75947
+  INS 140e7592c LEA RCX,[RSP + 0x68]
+  INS 140e75931 CALL 0x140cb6e40
+  INS 140e75936 MOVAPS XMM6,XMM9
+  INS 140e7593a MOVAPS XMM7,XMM9
+  INS 140e7593e MOVAPS XMM8,XMM9
+  INS 140e75942 JMP 0x140e75b3b
+  INS 140e75947 MOV RAX,qword ptr [RSP + 0x50]
+  INS 140e7594c MOV byte ptr [RSP + 0x20],0x0
+  INS 140e75951 XOR R9D,R9D
+  INS 140e75954 XOR R8D,R8D
+  INS 140e75957 MOV RDX,qword ptr [RSP + 0x40]
+  INS 140e7595c CMP RAX,RBX
+  INS 140e7595f JNZ 0x140e75a40
+  INS 140e75965 MOV RCX,R15
+  INS 140e75968 CALL 0x1410c3840
+  INS 140e7596d MOV RDX,RAX
+  INS 140e75970 LEA RCX,[RBP + -0x60]
+  INS 140e75974 CALL 0x14108b9d0
+  INS 140e75979 NOP
+  INS 140e7597a LEA RDX,[RBP + 0x20]
+  INS 140e7597e LEA RCX,[RBP + -0x60]
+  INS 140e75982 CALL 0x14108c0a0
+  INS 140e75987 MOVSD XMM0,qword ptr [RAX + 0x8]
+  INS 140e7598c CVTPD2PS XMM0,XMM0
+  INS 140e75990 MOVSD XMM1,qword ptr [RAX + 0x10]
+  INS 140e75995 CVTPD2PS XMM1,XMM1
+  INS 140e75999 MOVSD XMM2,qword ptr [RAX]
+  INS 140e7599d CVTPD2PS XMM2,XMM2
+  INS 140e759a1 MOVSS XMM6,dword ptr [RSI + 0x58]
+  INS 140e759a6 MOVAPS XMM8,XMM6
+  INS 140e759aa MULSS XMM8,XMM0
+  INS 140e759af MOVAPS XMM7,XMM6
+  INS 140e759b2 MULSS XMM7,XMM1
+  INS 140e759b6 MULSS XMM6,XMM2
+  INS 140e759ba MOV DL,0x1
+  INS 140e759bc LEA RCX,[RBP + -0x60]
+  INS 140e759c0 CALL 0x140e7e780
+  INS 140e759c5 TEST R13,R13
+  INS 140e759c8 JZ 0x140e75a25
+  INS 140e759ca LEA RCX,[RBP + 0x40]
+  INS 140e759ce CALL 0x14108b9a0
+  INS 140e759d3 NOP
+  INS 140e759d4 MOV ECX,R14D
+  INS 140e759d7 SHL RCX,0x7
+  INS 140e759db ADD RCX,R13
+  INS 140e759de LEA R8,[RBP + -0x60]
+  INS 140e759e2 LEA RDX,[RBP + 0xc0]
+  INS 140e759e9 CALL 0x14108d8b0
+  INS 140e759ee NOP
+  INS 140e759ef MOV RDX,RAX
+  INS 140e759f2 LEA RCX,[RBP + 0x40]
+  INS 140e759f6 CALL 0x14108cf60
+  INS 140e759fb NOP
+  INS 140e759fc LEA RCX,[RBP + 0xc0]
+  INS 140e75a03 CALL 0x14108bb50
+  INS 140e75a08 LEA R8,[RSP + 0x68]
+  INS 140e75a0d LEA RDX,[RBP + 0x40]
+  INS 140e75a11 MOV RCX,RSI
+  INS 140e75a14 CALL 0x140e7e9c0
+  INS 140e75a19 NOP
+  INS 140e75a1a LEA RCX,[RBP + 0x40]
+  INS 140e75a1e CALL 0x14108bb50
+  INS 140e75a23 JMP 0x140e75a37
+  INS 140e75a25 LEA R8,[RSP + 0x68]
+  INS 140e75a2a LEA RDX,[RBP + -0x60]
+  INS 140e75a2e MOV RCX,RSI
+  INS 140e75a31 CALL 0x140e7e9c0
+  INS 140e75a36 NOP
+  INS 140e75a37 LEA RCX,[RBP + -0x60]
+  INS 140e75a3b JMP 0x140e75b36
+  INS 140e75a40 MOV RCX,RAX
+  INS 140e75a43 CALL 0x1410c3840
+  INS 140e75a48 MOV RDX,RAX
+  INS 140e75a4b LEA RCX,[RBP + 0x40]
+  INS 140e75a4f CALL 0x14108b9d0
+  INS 140e75a54 NOP
+  INS 140e75a55 MOV DL,0x1
+  INS 140e75a57 LEA RCX,[RBP + 0x40]
+  INS 140e75a5b CALL 0x140e7e780
+  INS 140e75a60 LEA RDX,[RBP + 0xc0]
+  INS 140e75a67 LEA RCX,[RBP + 0x40]
+  INS 140e75a6b CALL 0x14108dce0
+  INS 140e75a70 NOP
+  INS 140e75a71 MOV byte ptr [RSP + 0x20],0x0
+  INS 140e75a76 XOR R9D,R9D
+  INS 140e75a79 XOR R8D,R8D
+  INS 140e75a7c MOV RDX,qword ptr [RSP + 0x40]
+WINDOW 140e75a00 fn=FUN_140e75770@140e75770
+  INS 140e759a6 MOVAPS XMM8,XMM6
+  INS 140e759aa MULSS XMM8,XMM0
+  INS 140e759af MOVAPS XMM7,XMM6
+  INS 140e759b2 MULSS XMM7,XMM1
+  INS 140e759b6 MULSS XMM6,XMM2
+  INS 140e759ba MOV DL,0x1
+  INS 140e759bc LEA RCX,[RBP + -0x60]
+  INS 140e759c0 CALL 0x140e7e780
+  INS 140e759c5 TEST R13,R13
+  INS 140e759c8 JZ 0x140e75a25
+  INS 140e759ca LEA RCX,[RBP + 0x40]
+  INS 140e759ce CALL 0x14108b9a0
+  INS 140e759d3 NOP
+  INS 140e759d4 MOV ECX,R14D
+  INS 140e759d7 SHL RCX,0x7
+  INS 140e759db ADD RCX,R13
+  INS 140e759de LEA R8,[RBP + -0x60]
+  INS 140e759e2 LEA RDX,[RBP + 0xc0]
+  INS 140e759e9 CALL 0x14108d8b0
+  INS 140e759ee NOP
+  INS 140e759ef MOV RDX,RAX
+  INS 140e759f2 LEA RCX,[RBP + 0x40]
+  INS 140e759f6 CALL 0x14108cf60
+  INS 140e759fb NOP
+  INS 140e759fc LEA RCX,[RBP + 0xc0]
+  INS 140e75a03 CALL 0x14108bb50
+  INS 140e75a08 LEA R8,[RSP + 0x68]
+  INS 140e75a0d LEA RDX,[RBP + 0x40]
+  INS 140e75a11 MOV RCX,RSI
+  INS 140e75a14 CALL 0x140e7e9c0
+  INS 140e75a19 NOP
+  INS 140e75a1a LEA RCX,[RBP + 0x40]
+  INS 140e75a1e CALL 0x14108bb50
+  INS 140e75a23 JMP 0x140e75a37
+  INS 140e75a25 LEA R8,[RSP + 0x68]
+  INS 140e75a2a LEA RDX,[RBP + -0x60]
+  INS 140e75a2e MOV RCX,RSI
+  INS 140e75a31 CALL 0x140e7e9c0
+  INS 140e75a36 NOP
+  INS 140e75a37 LEA RCX,[RBP + -0x60]
+  INS 140e75a3b JMP 0x140e75b36
+  INS 140e75a40 MOV RCX,RAX
+  INS 140e75a43 CALL 0x1410c3840
+  INS 140e75a48 MOV RDX,RAX
+  INS 140e75a4b LEA RCX,[RBP + 0x40]
+  INS 140e75a4f CALL 0x14108b9d0
+  INS 140e75a54 NOP
+  INS 140e75a55 MOV DL,0x1
+  INS 140e75a57 LEA RCX,[RBP + 0x40]
+  INS 140e75a5b CALL 0x140e7e780
+  INS 140e75a60 LEA RDX,[RBP + 0xc0]
+  INS 140e75a67 LEA RCX,[RBP + 0x40]
+  INS 140e75a6b CALL 0x14108dce0
+  INS 140e75a70 NOP
+  INS 140e75a71 MOV byte ptr [RSP + 0x20],0x0
+  INS 140e75a76 XOR R9D,R9D
+  INS 140e75a79 XOR R8D,R8D
+  INS 140e75a7c MOV RDX,qword ptr [RSP + 0x40]
+  INS 140e75a81 MOV RCX,R15
+  INS 140e75a84 CALL 0x1410c3840
+  INS 140e75a89 MOV RDX,RAX
+  INS 140e75a8c LEA RCX,[RBP + -0x60]
+  INS 140e75a90 CALL 0x14108b9d0
+  INS 140e75a95 NOP
+  INS 140e75a96 LEA RDX,[RBP + 0x20]
+  INS 140e75a9a LEA RCX,[RBP + -0x60]
+  INS 140e75a9e CALL 0x14108c0a0
+  INS 140e75aa3 MOVSD XMM0,qword ptr [RAX + 0x8]
+  INS 140e75aa8 CVTPD2PS XMM0,XMM0
+  INS 140e75aac MOVSD XMM1,qword ptr [RAX + 0x10]
+  INS 140e75ab1 CVTPD2PS XMM1,XMM1
+  INS 140e75ab5 MOVSD XMM2,qword ptr [RAX]
+  INS 140e75ab9 CVTPD2PS XMM2,XMM2
+  INS 140e75abd MOVSS XMM6,dword ptr [RSI + 0x58]
+  INS 140e75ac2 MOVAPS XMM8,XMM6
+  INS 140e75ac6 MULSS XMM8,XMM0
+  INS 140e75acb MOVAPS XMM7,XMM6
+  INS 140e75ace MULSS XMM7,XMM1
+  INS 140e75ad2 MULSS XMM6,XMM2
+  INS 140e75ad6 MOV DL,0x1
+  INS 140e75ad8 LEA RCX,[RBP + -0x60]
+  INS 140e75adc CALL 0x140e7e780
+  INS 140e75ae1 LEA R8,[RBP + -0x60]
+  INS 140e75ae5 LEA RDX,[RBP + 0x140]
+  INS 140e75aec LEA RCX,[RBP + 0xc0]
+  INS 140e75af3 CALL 0x14108d8b0
+  INS 140e75af8 NOP
+  INS 140e75af9 LEA R8,[RSP + 0x68]
+  INS 140e75afe LEA RDX,[RBP + 0x140]
+  INS 140e75b05 MOV RCX,RSI
+  INS 140e75b08 CALL 0x140e7e9c0
+  INS 140e75b0d NOP
+  INS 140e75b0e LEA RCX,[RBP + 0x140]
+  INS 140e75b15 CALL 0x14108bb50
+  INS 140e75b1a NOP
+WINDOW 140e75a90 fn=FUN_140e75770@140e75770
+  INS 140e75a36 NOP
+  INS 140e75a37 LEA RCX,[RBP + -0x60]
+  INS 140e75a3b JMP 0x140e75b36
+  INS 140e75a40 MOV RCX,RAX
+  INS 140e75a43 CALL 0x1410c3840
+  INS 140e75a48 MOV RDX,RAX
+  INS 140e75a4b LEA RCX,[RBP + 0x40]
+  INS 140e75a4f CALL 0x14108b9d0
+  INS 140e75a54 NOP
+  INS 140e75a55 MOV DL,0x1
+  INS 140e75a57 LEA RCX,[RBP + 0x40]
+  INS 140e75a5b CALL 0x140e7e780
+  INS 140e75a60 LEA RDX,[RBP + 0xc0]
+  INS 140e75a67 LEA RCX,[RBP + 0x40]
+  INS 140e75a6b CALL 0x14108dce0
+  INS 140e75a70 NOP
+  INS 140e75a71 MOV byte ptr [RSP + 0x20],0x0
+  INS 140e75a76 XOR R9D,R9D
+  INS 140e75a79 XOR R8D,R8D
+  INS 140e75a7c MOV RDX,qword ptr [RSP + 0x40]
+  INS 140e75a81 MOV RCX,R15
+  INS 140e75a84 CALL 0x1410c3840
+  INS 140e75a89 MOV RDX,RAX
+  INS 140e75a8c LEA RCX,[RBP + -0x60]
+  INS 140e75a90 CALL 0x14108b9d0
+  INS 140e75a95 NOP
+  INS 140e75a96 LEA RDX,[RBP + 0x20]
+  INS 140e75a9a LEA RCX,[RBP + -0x60]
+  INS 140e75a9e CALL 0x14108c0a0
+  INS 140e75aa3 MOVSD XMM0,qword ptr [RAX + 0x8]
+  INS 140e75aa8 CVTPD2PS XMM0,XMM0
+  INS 140e75aac MOVSD XMM1,qword ptr [RAX + 0x10]
+  INS 140e75ab1 CVTPD2PS XMM1,XMM1
+  INS 140e75ab5 MOVSD XMM2,qword ptr [RAX]
+  INS 140e75ab9 CVTPD2PS XMM2,XMM2
+  INS 140e75abd MOVSS XMM6,dword ptr [RSI + 0x58]
+  INS 140e75ac2 MOVAPS XMM8,XMM6
+  INS 140e75ac6 MULSS XMM8,XMM0
+  INS 140e75acb MOVAPS XMM7,XMM6
+  INS 140e75ace MULSS XMM7,XMM1
+  INS 140e75ad2 MULSS XMM6,XMM2
+  INS 140e75ad6 MOV DL,0x1
+  INS 140e75ad8 LEA RCX,[RBP + -0x60]
+  INS 140e75adc CALL 0x140e7e780
+  INS 140e75ae1 LEA R8,[RBP + -0x60]
+  INS 140e75ae5 LEA RDX,[RBP + 0x140]
+  INS 140e75aec LEA RCX,[RBP + 0xc0]
+  INS 140e75af3 CALL 0x14108d8b0
+  INS 140e75af8 NOP
+  INS 140e75af9 LEA R8,[RSP + 0x68]
+  INS 140e75afe LEA RDX,[RBP + 0x140]
+  INS 140e75b05 MOV RCX,RSI
+  INS 140e75b08 CALL 0x140e7e9c0
+  INS 140e75b0d NOP
+  INS 140e75b0e LEA RCX,[RBP + 0x140]
+  INS 140e75b15 CALL 0x14108bb50
+  INS 140e75b1a NOP
+  INS 140e75b1b LEA RCX,[RBP + -0x60]
+  INS 140e75b1f CALL 0x14108bb50
+  INS 140e75b24 NOP
+  INS 140e75b25 LEA RCX,[RBP + 0xc0]
+  INS 140e75b2c CALL 0x14108bb50
+  INS 140e75b31 NOP
+  INS 140e75b32 LEA RCX,[RBP + 0x40]
+  INS 140e75b36 CALL 0x14108bb50
+  INS 140e75b3b MOV RAX,qword ptr [RSP + 0x58]
+  INS 140e75b40 MOV RBX,qword ptr [RAX + 0x18]
+  INS 140e75b44 ADD RBX,R12
+  INS 140e75b47 LEA RDX,[RSP + 0x68]
+  INS 140e75b4c MOV RCX,RBX
+  INS 140e75b4f CALL 0x1402badd0
+  INS 140e75b54 MOVSS XMM0,dword ptr [RBP + -0x74]
+  INS 140e75b59 MOVSS dword ptr [RBX + 0x10],XMM0
+  INS 140e75b5e MOVSS XMM1,dword ptr [RBP + -0x70]
+  INS 140e75b63 MOVSS dword ptr [RBX + 0x14],XMM1
+  INS 140e75b68 MOVSS XMM0,dword ptr [RBP + -0x6c]
+  INS 140e75b6d MOVSS dword ptr [RBX + 0x18],XMM0
+  INS 140e75b72 MOVSS dword ptr [RBX + 0x1c],XMM6
+  INS 140e75b77 MOVSS dword ptr [RBX + 0x20],XMM7
+  INS 140e75b7c MOVSS dword ptr [RBX + 0x24],XMM8
+  INS 140e75b82 INC R14D
+  INS 140e75b85 ADD R12,0x28
+  INS 140e75b89 CMP R14D,dword ptr [RBP + 0x360]
+  INS 140e75b90 MOV RBX,qword ptr [RSP + 0x60]
+  INS 140e75b95 JC 0x140e758f0
+  INS 140e75b9b MOV RAX,qword ptr [RSI + 0x38]
+  INS 140e75b9f MOV EBX,dword ptr [RAX + 0x5c]
+  INS 140e75ba2 XOR EDX,EDX
+  INS 140e75ba4 MOV RCX,R15
+  INS 140e75ba7 CALL 0x1410bfd40
+  INS 140e75bac MOV R14D,EAX
+  INS 140e75baf TEST EAX,EAX
+  INS 140e75bb1 JLE 0x140e75bd6
+  INS 140e75bb3 MOV EDX,EDI
+  INS 140e75bb5 MOV RCX,R15
+WINDOW 140e7daa0 fn=FUN_140e7daa0@140e7daa0
+  INS 140e7da4e MOV RAX,qword ptr [R8 + 0x18]
+  INS 140e7da52 MOV qword ptr [RDX + 0x20],RAX
+  INS 140e7da56 TEST RAX,RAX
+  INS 140e7da59 JZ 0x140e7da5f
+  INS 140e7da5b MOV qword ptr [RAX + 0x10],RDX
+  INS 140e7da5f MOV RAX,qword ptr [RDX + 0x10]
+  INS 140e7da63 MOV qword ptr [R8 + 0x10],RAX
+  INS 140e7da67 MOV RAX,qword ptr [RDX + 0x10]
+  INS 140e7da6b TEST RAX,RAX
+  INS 140e7da6e JNZ 0x140e7da7c
+  INS 140e7da70 MOV qword ptr [RCX],R8
+  INS 140e7da73 MOV qword ptr [RDX + 0x10],R8
+  INS 140e7da77 MOV qword ptr [R8 + 0x18],RDX
+  INS 140e7da7b RET
+  INS 140e7da7c CMP RDX,qword ptr [RAX + 0x18]
+  INS 140e7da80 JNZ 0x140e7da8f
+  INS 140e7da82 MOV qword ptr [RAX + 0x18],R8
+  INS 140e7da86 MOV qword ptr [RDX + 0x10],R8
+  INS 140e7da8a MOV qword ptr [R8 + 0x18],RDX
+  INS 140e7da8e RET
+  INS 140e7da8f MOV qword ptr [RAX + 0x20],R8
+  INS 140e7da93 MOV qword ptr [RDX + 0x10],R8
+  INS 140e7da97 MOV qword ptr [R8 + 0x18],RDX
+  INS 140e7da9b RET
+  INS 140e7daa0 MOV RAX,RSP
+  INS 140e7daa3 PUSH RDI
+  INS 140e7daa4 PUSH R14
+  INS 140e7daa6 PUSH R15
+  INS 140e7daa8 SUB RSP,0x80
+  INS 140e7daaf MOV qword ptr [RAX + -0x78],-0x2
+  INS 140e7dab7 MOV qword ptr [RAX + 0x10],RBX
+  INS 140e7dabb MOV qword ptr [RAX + 0x18],RSI
+  INS 140e7dabf MOV RBX,RDX
+  INS 140e7dac2 MOV RSI,RCX
+  INS 140e7dac5 MOV RCX,qword ptr [RCX + 0x70]
+  INS 140e7dac9 TEST RCX,RCX
+  INS 140e7dacc JZ 0x140e7daf6
+  INS 140e7dace MOV RAX,qword ptr [RCX]
+  INS 140e7dad1 MOVSS XMM1,dword ptr [0x141f85818]
+  INS 140e7dad9 CALL qword ptr [RAX]
+  INS 140e7dadb MOV RCX,qword ptr [RSI + 0x70]
+  INS 140e7dadf MOV RAX,qword ptr [RCX]
+  INS 140e7dae2 LEA RDX,[0x141c4ce28]
+  INS 140e7dae9 CALL qword ptr [RAX + 0x10]
+  INS 140e7daec MOV RCX,qword ptr [RSI + 0x70]
+  INS 140e7daf0 MOV RAX,qword ptr [RCX]
+  INS 140e7daf3 CALL qword ptr [RAX + 0x18]
+  INS 140e7daf6 MOV RCX,qword ptr [RSI + 0x8]
+  INS 140e7dafa TEST RCX,RCX
+  INS 140e7dafd JZ 0x140e7db0e
+  INS 140e7daff MOV DL,0x1
+  INS 140e7db01 CALL 0x1410a57e0
+  INS 140e7db06 MOV qword ptr [RSI + 0x8],0x0
+  INS 140e7db0e MOV RAX,qword ptr [RSI + 0x68]
+  INS 140e7db12 TEST RAX,RAX
+  INS 140e7db15 JZ 0x140e7db37
+  INS 140e7db17 MOV ECX,0xffff
+  INS 140e7db1c ADD word ptr [RAX + -0x2],CX
+  INS 140e7db20 JNZ 0x140e7db2f
+  INS 140e7db22 MOV RCX,qword ptr [RSI + 0x68]
+  INS 140e7db26 ADD RCX,-0x6
+  INS 140e7db2a CALL 0x14050e300
+  INS 140e7db2f MOV qword ptr [RSI + 0x68],0x0
+  INS 140e7db37 LEA RDX,[0x141f68c1a]
+  INS 140e7db3e MOV RCX,qword ptr [RSI]
+  INS 140e7db41 CALL 0x1410da670
+  INS 140e7db46 MOV qword ptr [RSI + 0x8],RAX
+  INS 140e7db4a LEA RDX,[0x141f68c1a]
+  INS 140e7db51 MOV RCX,qword ptr [RSI]
+  INS 140e7db54 CALL 0x1410bb3d0
+  INS 140e7db59 MOV R15,RAX
+  INS 140e7db5c MOV RDI,qword ptr [RAX]
+  INS 140e7db5f MOV RCX,qword ptr [RSI]
+  INS 140e7db62 MOV RDX,qword ptr [RCX]
+  INS 140e7db65 CALL qword ptr [RDX + 0x8]
+  INS 140e7db68 MOV R9,RAX
+  INS 140e7db6b MOV R8D,0xffffffff
+  INS 140e7db71 MOV RDX,RBX
+  INS 140e7db74 MOV RCX,R15
+  INS 140e7db77 CALL qword ptr [RDI + 0xb8]
+  INS 140e7db7d TEST AL,AL
+  INS 140e7db7f JNZ 0x140e7db88
+  INS 140e7db81 XOR AL,AL
+  INS 140e7db83 JMP 0x140e7dc99
+  INS 140e7db88 XOR R8D,R8D
+  INS 140e7db8b MOV RDX,qword ptr [RSI + 0x8]
+  INS 140e7db8f MOV RCX,R15
+  INS 140e7db92 CALL 0x1410bb980
+  INS 140e7db97 TEST AL,AL
+  INS 140e7db99 JZ 0x140e7db81
+  INS 140e7db9b MOV RCX,qword ptr [RSI + 0x8]
+  INS 140e7db9f CALL 0x1410db300
+  INS 140e7dba4 MOV RCX,RAX
+  INS 140e7dba7 LEA RDX,[RSP + 0x58]
+  INS 140e7dbac CALL 0x1410d7340
+WINDOW 1410c3840 fn=FUN_1410c3840@1410c3840
+  INS 1410c37dc CALL 0x14180cf90
+  INS 1410c37e1 MOV RBX,qword ptr [RSP + 0x360]
+  INS 1410c37e9 ADD RSP,0x330
+  INS 1410c37f0 POP RDI
+  INS 1410c37f1 POP RSI
+  INS 1410c37f2 POP RBP
+  INS 1410c37f3 RET
+  INS 1410c3800 PUSH RBX
+  INS 1410c3802 SUB RSP,0x20
+  INS 1410c3806 MOV RBX,RCX
+  INS 1410c3809 CALL 0x1410a5790
+  INS 1410c380e MOV RCX,RBX
+  INS 1410c3811 TEST RAX,RAX
+  INS 1410c3814 JZ 0x1410c3828
+  INS 1410c3816 CALL 0x1410a5790
+  INS 1410c381b MOV RCX,RAX
+  INS 1410c381e ADD RSP,0x20
+  INS 1410c3822 POP RBX
+  INS 1410c3823 JMP 0x1410db540
+  INS 1410c3828 CALL 0x1410a5660
+  INS 1410c382d MOV RCX,RAX
+  INS 1410c3830 ADD RSP,0x20
+  INS 1410c3834 POP RBX
+  INS 1410c3835 JMP 0x1410b2c60
+  INS 1410c3840 MOV qword ptr [RSP + 0x8],RBX
+  INS 1410c3845 MOV qword ptr [RSP + 0x18],RSI
+  INS 1410c384a MOV qword ptr [RSP + 0x10],RDX
+  INS 1410c384f PUSH RDI
+  INS 1410c3850 SUB RSP,0x30
+  INS 1410c3854 MOVZX EDI,R9B
+  INS 1410c3858 MOV ESI,R8D
+  INS 1410c385b MOV RBX,RCX
+  INS 1410c385e CALL 0x1410a5790
+  INS 1410c3863 MOV RCX,RBX
+  INS 1410c3866 TEST RAX,RAX
+  INS 1410c3869 JZ 0x1410c387a
+  INS 1410c386b CALL 0x1410a5790
+  INS 1410c3870 MOV RCX,RAX
+  INS 1410c3873 CALL 0x1410db540
+  INS 1410c3878 JMP 0x1410c3887
+  INS 1410c387a CALL 0x1410a5660
+  INS 1410c387f MOV RCX,RAX
+  INS 1410c3882 CALL 0x1410b2c60
+  INS 1410c3887 MOV RCX,RAX
+  INS 1410c388a LEA R8,[RSP + 0x48]
+  INS 1410c388f MOVZX EAX,byte ptr [RSP + 0x60]
+  INS 1410c3894 MOV R9D,ESI
+  INS 1410c3897 MOV byte ptr [RSP + 0x28],AL
+  INS 1410c389b MOV RDX,RBX
+  INS 1410c389e MOV byte ptr [RSP + 0x20],DIL
+  INS 1410c38a3 CALL 0x1411235b0
+  INS 1410c38a8 MOV RBX,qword ptr [RSP + 0x40]
+  INS 1410c38ad MOV RSI,qword ptr [RSP + 0x50]
+  INS 1410c38b2 ADD RSP,0x30
+  INS 1410c38b6 POP RDI
+  INS 1410c38b7 RET
+  INS 1410c38c0 MOV qword ptr [RSP + 0x8],RBX
+  INS 1410c38c5 MOV qword ptr [RSP + 0x18],RSI
+  INS 1410c38ca MOV qword ptr [RSP + 0x10],RDX
+  INS 1410c38cf PUSH RDI
+  INS 1410c38d0 SUB RSP,0x30
+  INS 1410c38d4 MOVZX EDI,R9B
+  INS 1410c38d8 MOV ESI,R8D
+  INS 1410c38db MOV RBX,RCX
+  INS 1410c38de CALL 0x1410a5790
+  INS 1410c38e3 MOV RCX,RBX
+  INS 1410c38e6 TEST RAX,RAX
+  INS 1410c38e9 JZ 0x1410c38fa
+  INS 1410c38eb CALL 0x1410a5790
+  INS 1410c38f0 MOV RCX,RAX
+  INS 1410c38f3 CALL 0x1410db540
+  INS 1410c38f8 JMP 0x1410c3907
+  INS 1410c38fa CALL 0x1410a5660
+  INS 1410c38ff MOV RCX,RAX
+  INS 1410c3902 CALL 0x1410b2c60
+  INS 1410c3907 MOV RCX,RAX
+  INS 1410c390a LEA R8,[RSP + 0x48]
+  INS 1410c390f MOVZX EAX,byte ptr [RSP + 0x60]
+  INS 1410c3914 MOV R9D,ESI
+  INS 1410c3917 MOV byte ptr [RSP + 0x28],AL
+  INS 1410c391b MOV RDX,RBX
+  INS 1410c391e MOV byte ptr [RSP + 0x20],DIL
+  INS 1410c3923 CALL 0x1411235e0
+  INS 1410c3928 MOV RBX,qword ptr [RSP + 0x40]
+  INS 1410c392d MOV RSI,qword ptr [RSP + 0x50]
+  INS 1410c3932 ADD RSP,0x30
+  INS 1410c3936 POP RDI
+  INS 1410c3937 RET
+  INS 1410c3940 MOV qword ptr [RSP + 0x8],RBX
+  INS 1410c3945 MOV qword ptr [RSP + 0x18],RSI
+  INS 1410c394a MOV qword ptr [RSP + 0x10],RDX
+  INS 1410c394f PUSH RDI
+  INS 1410c3950 SUB RSP,0x30
+  INS 1410c3954 MOVZX EDI,R9B
+  INS 1410c3958 MOV ESI,R8D
+WINDOW 14108b9d0 fn=FUN_14108b9d0@14108b9d0
+  INS 14108b96f MOVSD XMM0,qword ptr [RCX + 0x8]
+  INS 14108b974 SUBSD XMM0,qword ptr [RDX + 0x8]
+  INS 14108b979 ANDPS XMM0,XMM1
+  INS 14108b97c COMISD XMM0,XMM2
+  INS 14108b980 JA 0x14108b998
+  INS 14108b982 MOVSD XMM0,qword ptr [RCX + 0x10]
+  INS 14108b987 SUBSD XMM0,qword ptr [RDX + 0x10]
+  INS 14108b98c ANDPS XMM0,XMM1
+  INS 14108b98f COMISD XMM0,XMM2
+  INS 14108b993 JA 0x14108b998
+  INS 14108b995 XOR EAX,EAX
+  INS 14108b997 RET
+  INS 14108b998 MOV EAX,0x1
+  INS 14108b99d RET
+  INS 14108b9a0 PUSH RBX
+  INS 14108b9a2 SUB RSP,0x20
+  INS 14108b9a6 MOV RBX,RCX
+  INS 14108b9a9 CALL 0x14108f900
+  INS 14108b9ae MOV RCX,RBX
+  INS 14108b9b1 CALL 0x14108c250
+  INS 14108b9b6 MOV RAX,RBX
+  INS 14108b9b9 ADD RSP,0x20
+  INS 14108b9bd POP RBX
+  INS 14108b9be RET
+  INS 14108b9d0 MOV qword ptr [RSP + 0x8],RBX
+  INS 14108b9d5 PUSH RDI
+  INS 14108b9d6 SUB RSP,0x20
+  INS 14108b9da MOV RBX,RDX
+  INS 14108b9dd MOV RDI,RCX
+  INS 14108b9e0 CALL 0x14108f900
+  INS 14108b9e5 MOV RAX,qword ptr [RBX]
+  INS 14108b9e8 MOV qword ptr [RDI],RAX
+  INS 14108b9eb MOV RAX,qword ptr [RBX + 0x8]
+  INS 14108b9ef MOV qword ptr [RDI + 0x8],RAX
+  INS 14108b9f3 MOV RAX,qword ptr [RBX + 0x10]
+  INS 14108b9f7 MOV qword ptr [RDI + 0x10],RAX
+  INS 14108b9fb MOV RAX,qword ptr [RBX + 0x18]
+  INS 14108b9ff MOV qword ptr [RDI + 0x18],RAX
+  INS 14108ba03 MOV RAX,qword ptr [RBX + 0x20]
+  INS 14108ba07 MOV qword ptr [RDI + 0x20],RAX
+  INS 14108ba0b MOV RAX,qword ptr [RBX + 0x28]
+  INS 14108ba0f MOV qword ptr [RDI + 0x28],RAX
+  INS 14108ba13 MOV RAX,qword ptr [RBX + 0x30]
+  INS 14108ba17 MOV qword ptr [RDI + 0x30],RAX
+  INS 14108ba1b MOV RAX,qword ptr [RBX + 0x38]
+  INS 14108ba1f MOV qword ptr [RDI + 0x38],RAX
+  INS 14108ba23 MOV RAX,qword ptr [RBX + 0x40]
+  INS 14108ba27 MOV qword ptr [RDI + 0x40],RAX
+  INS 14108ba2b MOV RAX,qword ptr [RBX + 0x48]
+  INS 14108ba2f MOV qword ptr [RDI + 0x48],RAX
+  INS 14108ba33 MOV RAX,qword ptr [RBX + 0x50]
+  INS 14108ba37 MOV qword ptr [RDI + 0x50],RAX
+  INS 14108ba3b MOV RAX,qword ptr [RBX + 0x58]
+  INS 14108ba3f MOV qword ptr [RDI + 0x58],RAX
+  INS 14108ba43 MOV RAX,qword ptr [RBX + 0x60]
+  INS 14108ba47 MOV qword ptr [RDI + 0x60],RAX
+  INS 14108ba4b MOV RAX,qword ptr [RBX + 0x68]
+  INS 14108ba4f MOV qword ptr [RDI + 0x68],RAX
+  INS 14108ba53 MOV RAX,qword ptr [RBX + 0x70]
+  INS 14108ba57 MOV qword ptr [RDI + 0x70],RAX
+  INS 14108ba5b MOV RAX,qword ptr [RBX + 0x78]
+  INS 14108ba5f MOV RBX,qword ptr [RSP + 0x30]
+  INS 14108ba64 MOV qword ptr [RDI + 0x78],RAX
+  INS 14108ba68 MOV RAX,RDI
+  INS 14108ba6b ADD RSP,0x20
+  INS 14108ba6f POP RDI
+  INS 14108ba70 RET
+  INS 14108ba80 MOV qword ptr [RSP + 0x8],RBX
+  INS 14108ba85 MOV qword ptr [RSP + 0x10],RBP
+  INS 14108ba8a MOV qword ptr [RSP + 0x18],RSI
+  INS 14108ba8f PUSH RDI
+  INS 14108ba90 SUB RSP,0x20
+  INS 14108ba94 MOV RDI,R9
+  INS 14108ba97 MOV RBX,R8
+  INS 14108ba9a MOV RSI,RDX
+  INS 14108ba9d MOV RBP,RCX
+  INS 14108baa0 CALL 0x14108f900
+  INS 14108baa5 MOV RCX,RBP
+  INS 14108baa8 CALL 0x14108c250
+  INS 14108baad MOV RDX,RBX
+  INS 14108bab0 MOV RCX,RBP
+  INS 14108bab3 CALL 0x14108e640
+  INS 14108bab8 MOVUPS XMM0,xmmword ptr [RBP]
+  INS 14108babc MOV RBX,qword ptr [RSP + 0x30]
+  INS 14108bac1 MOVSD XMM2,qword ptr [RDI]
+  INS 14108bac5 UNPCKLPD XMM2,XMM2
+  INS 14108bac9 MULPD XMM0,XMM2
+  INS 14108bacd MOVUPS xmmword ptr [RBP],XMM0
+  INS 14108bad1 MULSD XMM2,qword ptr [RBP + 0x10]
+  INS 14108bad6 MOVSD qword ptr [RBP + 0x10],XMM2
+  INS 14108badb MOVUPS XMM0,xmmword ptr [RBP + 0x20]
+  INS 14108badf MOVSD XMM3,qword ptr [RDI + 0x8]
+  INS 14108bae4 UNPCKLPD XMM3,XMM3
+  INS 14108bae8 MULPD XMM0,XMM3
+  INS 14108baec MOVUPS xmmword ptr [RBP + 0x20],XMM0
+WINDOW 14108bb50 fn=FUN_14108bb50@14108bb50
+  INS 14108bae4 UNPCKLPD XMM3,XMM3
+  INS 14108bae8 MULPD XMM0,XMM3
+  INS 14108baec MOVUPS xmmword ptr [RBP + 0x20],XMM0
+  INS 14108baf0 MULSD XMM3,qword ptr [RBP + 0x30]
+  INS 14108baf5 MOVSD qword ptr [RBP + 0x30],XMM3
+  INS 14108bafa MOVUPS XMM0,xmmword ptr [RBP + 0x40]
+  INS 14108bafe MOVSD XMM2,qword ptr [RDI + 0x10]
+  INS 14108bb03 UNPCKLPD XMM2,XMM2
+  INS 14108bb07 MULPD XMM0,XMM2
+  INS 14108bb0b MOVUPS xmmword ptr [RBP + 0x40],XMM0
+  INS 14108bb0f MULSD XMM2,qword ptr [RBP + 0x50]
+  INS 14108bb14 MOVSD qword ptr [RBP + 0x50],XMM2
+  INS 14108bb19 MOV RAX,qword ptr [RSI]
+  INS 14108bb1c MOV qword ptr [RBP + 0x60],RAX
+  INS 14108bb20 MOV RAX,qword ptr [RSI + 0x8]
+  INS 14108bb24 MOV qword ptr [RBP + 0x68],RAX
+  INS 14108bb28 MOV RAX,qword ptr [RSI + 0x10]
+  INS 14108bb2c MOV RSI,qword ptr [RSP + 0x40]
+  INS 14108bb31 MOV qword ptr [RBP + 0x70],RAX
+  INS 14108bb35 MOV RAX,RBP
+  INS 14108bb38 MOV RBP,qword ptr [RSP + 0x38]
+  INS 14108bb3d ADD RSP,0x20
+  INS 14108bb41 POP RDI
+  INS 14108bb42 RET
+  INS 14108bb50 SUB RSP,0x38
+  INS 14108bb54 MOV qword ptr [RSP + 0x20],-0x2
+  INS 14108bb5d LEA R9,[0x1410877d0]
+  INS 14108bb64 MOV EDX,0x20
+  INS 14108bb69 LEA R8D,[RDX + -0x1c]
+  INS 14108bb6d CALL 0x14180c844
+  INS 14108bb72 NOP
+  INS 14108bb73 ADD RSP,0x38
+  INS 14108bb77 RET
+  INS 14108bba0 MOV qword ptr [RSP + 0x8],RBX
+  INS 14108bba5 PUSH RDI
+  INS 14108bba6 SUB RSP,0x20
+  INS 14108bbaa MOV RBX,RCX
+  INS 14108bbad MOV RDI,RDX
+  INS 14108bbb0 MOV RCX,RDX
+  INS 14108bbb3 CALL 0x14108ab90
+  INS 14108bbb8 MOV RAX,qword ptr [RBX + 0x60]
+  INS 14108bbbc MOV qword ptr [RDI],RAX
+  INS 14108bbbf MOV RAX,qword ptr [RBX + 0x68]
+  INS 14108bbc3 MOV qword ptr [RDI + 0x8],RAX
+  INS 14108bbc7 MOV RAX,qword ptr [RBX + 0x70]
+  INS 14108bbcb MOV RBX,qword ptr [RSP + 0x30]
+  INS 14108bbd0 MOV qword ptr [RDI + 0x10],RAX
+  INS 14108bbd4 MOV RAX,RDI
+  INS 14108bbd7 ADD RSP,0x20
+  INS 14108bbdb POP RDI
+  INS 14108bbdc RET
+  INS 14108bbf0 MOV RAX,RSP
+  INS 14108bbf3 PUSH RBP
+  INS 14108bbf4 LEA RBP,[RSP + -0x80]
+  INS 14108bbf9 SUB RSP,0x180
+  INS 14108bc00 MOV qword ptr [RSP + 0x30],-0x2
+  INS 14108bc09 MOV qword ptr [RAX + 0x8],RBX
+  INS 14108bc0d MOV qword ptr [RAX + 0x18],RSI
+  INS 14108bc11 MOV qword ptr [RAX + 0x20],RDI
+  INS 14108bc15 MOVAPS xmmword ptr [RAX + -0x18],XMM7
+  INS 14108bc19 MOVAPS xmmword ptr [RAX + -0x28],XMM8
+  INS 14108bc1e MOVAPS xmmword ptr [RAX + -0x38],XMM9
+  INS 14108bc23 MOV RAX,qword ptr [0x14249f8a8]
+  INS 14108bc2a XOR RAX,RSP
+  INS 14108bc2d MOV qword ptr [RBP + 0x40],RAX
+  INS 14108bc31 MOV RDI,RDX
+  INS 14108bc34 MOV RBX,RCX
+  INS 14108bc37 MOV RCX,RDX
+  INS 14108bc3a CALL 0x14108ab90
+  INS 14108bc3f LEA RSI,[0x1410877d0]
+  INS 14108bc46 MOV qword ptr [RSP + 0x20],RSI
+  INS 14108bc4b LEA R9,[0x14108f8e0]
+  INS 14108bc52 MOV EDX,0x20
+  INS 14108bc57 LEA R8D,[RDX + -0x1c]
+  INS 14108bc5b LEA RCX,[RSP + 0x60]
+  INS 14108bc60 CALL 0x14180c7d4
+  INS 14108bc65 MOVUPS XMM0,xmmword ptr [RBX]
+  INS 14108bc68 MOVAPS xmmword ptr [RSP + 0x60],XMM0
+  INS 14108bc6d MOVUPS XMM0,xmmword ptr [RBX + 0x10]
+  INS 14108bc71 MOVAPS xmmword ptr [RSP + 0x70],XMM0
+  INS 14108bc76 MOVUPS XMM0,xmmword ptr [RBX + 0x20]
+  INS 14108bc7a MOVAPS xmmword ptr [RBP + -0x80],XMM0
+  INS 14108bc7e MOVUPS XMM0,xmmword ptr [RBX + 0x30]
+  INS 14108bc82 MOVAPS xmmword ptr [RBP + -0x70],XMM0
+  INS 14108bc86 MOVUPS XMM0,xmmword ptr [RBX + 0x40]
+  INS 14108bc8a MOVAPS xmmword ptr [RBP + -0x60],XMM0
+  INS 14108bc8e MOVUPS XMM0,xmmword ptr [RBX + 0x50]
+  INS 14108bc92 MOVAPS xmmword ptr [RBP + -0x50],XMM0
+  INS 14108bc96 MOVUPS XMM0,xmmword ptr [RBX + 0x60]
+  INS 14108bc9a MOVAPS xmmword ptr [RBP + -0x40],XMM0
+  INS 14108bc9e MOVUPS XMM0,xmmword ptr [RBX + 0x70]
+  INS 14108bca2 MOVAPS xmmword ptr [RBP + -0x30],XMM0
+  INS 14108bca6 MOV R8D,0x1
+  INS 14108bcac LEA RDX,[RBP + 0x20]
+  INS 14108bcb0 LEA RCX,[RSP + 0x60]
+=== FUNCTIONS ===
+------------------------------------------------------------
+FUNCTION_REQUEST 140e7daa0 -> FUN_140e7daa0@140e7daa0
+CALLERS
+  CALLER from=14ca998fc fn=<none>
+  CALLER from=140fca03f fn=FUN_140fc9fc0@140fc9fc0
+  CALLER from=140fca3c5 fn=FUN_140fca340@140fca340
+DECOMPILE_BEGIN FUN_140e7daa0 140e7daa0
+
+undefined8 FUN_140e7daa0(undefined8 *param_1,char *param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  short *psVar1;
+  undefined8 *puVar2;
+  longlong lVar3;
+  char cVar4;
+  undefined8 uVar5;
+  longlong *plVar6;
+  int iVar7;
+  char *pcVar8;
+  double dVar9;
+  undefined4 local_res8;
+  undefined2 local_resc;
+  undefined1 local_70 [16];
+  undefined1 local_60 [32];
+  undefined1 local_40 [40];
+  
+  puVar2 = (undefined8 *)param_1[0xe];
+  if (puVar2 != (undefined8 *)0x0) {
+    (**(code **)*puVar2)(puVar2,DAT_141f85818,param_3,param_4,0xfffffffffffffffe);
+    (**(code **)(*(longlong *)param_1[0xe] + 0x10))((longlong *)param_1[0xe],"Opening FBX scene...")
+    ;
+    (**(code **)(*(longlong *)param_1[0xe] + 0x18))();
+  }
+  if (param_1[1] != 0) {
+    FUN_1410a57e0(param_1[1],1);
+    param_1[1] = 0;
+  }
+  if (param_1[0xd] != 0) {
+    psVar1 = (short *)(param_1[0xd] + -2);
+    *psVar1 = *psVar1 + -1;
+    if (*psVar1 == 0) {
+      FUN_14050e300(param_1[0xd] + -6);
+    }
+    param_1[0xd] = 0;
+  }
+  uVar5 = FUN_1410da670(*param_1,&DAT_141f68c1a);
+  param_1[1] = uVar5;
+  plVar6 = (longlong *)FUN_1410bb3d0(*param_1,&DAT_141f68c1a);
+  lVar3 = *plVar6;
+  uVar5 = (**(code **)(*(longlong *)*param_1 + 8))();
+  cVar4 = (**(code **)(lVar3 + 0xb8))(plVar6,param_2,0xffffffff,uVar5);
+  if ((cVar4 == '\0') || (cVar4 = FUN_1410bb980(plVar6,param_1[1],0), cVar4 == '\0')) {
+    uVar5 = 0;
+  }
+  else {
+    uVar5 = FUN_1410db300(param_1[1]);
+    FUN_1410d7340(uVar5,local_40);
+    FUN_1410b9300(local_60,3,0xfffffffe);
+    cVar4 = FUN_1410b9690(local_40,local_60);
+    if (cVar4 != '\0') {
+      FUN_1410b9710(local_60,param_1[1]);
+    }
+    local_res8 = 0x1010100;
+    local_resc = 0x101;
+    FUN_141090230(&DAT_142373c80,param_1[1],&local_res8);
+    uVar5 = FUN_1410db300(param_1[1]);
+    FUN_1410d74a0(uVar5,local_70);
+    dVar9 = (double)FUN_1410904e0(local_70);
+    *(float *)(param_1 + 0xb) = (float)dVar9;
+    FUN_1410a57e0(plVar6,0);
+    pcVar8 = param_2;
+    if (param_2 == (char *)0x0) {
+      iVar7 = 0;
+    }
+    else {
+      do {
+        cVar4 = *pcVar8;
+        pcVar8 = pcVar8 + 1;
+      } while (cVar4 != '\0');
+      iVar7 = ((int)pcVar8 - (int)param_2) + -1;
+    }
+    FUN_14006e870(param_1 + 0xd,param_2,iVar7);
+    FUN_141090220(local_70);
+    FUN_1410b9630(local_60);
+    FUN_1410b9630(local_40);
+    uVar5 = 1;
+  }
+  return uVar5;
+}
+
+
+DECOMPILE_END FUN_140e7daa0 140e7daa0
+------------------------------------------------------------
+FUNCTION_REQUEST 140e7d5a0 -> FUN_140e7d5a0@140e7d5a0
+CALLERS
+  CALLER from=14ca9986c fn=<none>
+  CALLER from=140fca030 fn=FUN_140fc9fc0@140fc9fc0
+  CALLER from=140fca3b6 fn=FUN_140fca340@140fca340
+DECOMPILE_BEGIN FUN_140e7d5a0 140e7d5a0
+
+undefined1 FUN_140e7d5a0(longlong *param_1)
+
+{
+  undefined8 uVar1;
+  longlong lVar2;
+  
+  if (*param_1 == 0) {
+    lVar2 = FUN_1410a7d80();
+    *param_1 = lVar2;
+    uVar1 = FUN_1410b5180(lVar2,"IOSRoot");
+    (**(code **)(*(longlong *)*param_1 + 0x10))((longlong *)*param_1,uVar1);
+  }
+  return 1;
+}
+
+
+DECOMPILE_END FUN_140e7d5a0 140e7d5a0
+------------------------------------------------------------
+FUNCTION_REQUEST 140e75c10 -> FUN_140e75c10@140e75c10
+CALLERS
+  CALLER from=14ca99734 fn=<none>
+  CALLER from=140fca123 fn=FUN_140fc9fc0@140fc9fc0
+DECOMPILE_BEGIN FUN_140e75c10 140e75c10
+
+ulonglong FUN_140e75c10(longlong param_1,char *param_2,char *param_3,undefined4 param_4,
+                       undefined1 param_5,undefined8 param_6)
+
+{
+  short *psVar1;
+  char cVar2;
+  int iVar3;
+  int iVar4;
+  undefined4 uVar5;
+  undefined8 uVar6;
+  longlong lVar7;
+  char *pcVar8;
+  ulonglong uVar9;
+  longlong lVar10;
+  undefined8 *puVar11;
+  undefined8 *puVar12;
+  char *pcVar13;
+  longlong lVar14;
+  undefined8 *puVar15;
+  int iVar16;
+  undefined8 *local_res8;
+  undefined1 local_res10 [8];
+  undefined8 local_1d8;
+  undefined8 uStack_1d0;
+  undefined **local_1c8;
+  longlong local_1c0;
+  undefined4 local_1b8;
+  undefined4 local_1b0 [2];
+  undefined8 local_1a8;
+  undefined8 local_1a0;
+  undefined8 local_198;
+  undefined8 local_190;
+  undefined8 local_188;
+  undefined8 local_180;
+  undefined1 local_178 [8];
+  longlong local_170;
+  undefined1 local_160 [8];
+  longlong local_158;
+  undefined8 local_148;
+  char local_138 [256];
+  
+  local_148 = 0xfffffffffffffffe;
+  lVar7 = *(longlong *)(param_1 + 8);
+  uVar6 = FUN_14109da90(&local_res8,&DAT_1458566f8);
+  iVar3 = FUN_1410a1e90(lVar7 + 0x10,uVar6);
+  FUN_14109dd40(&local_res8);
+  iVar16 = 0;
+  if (0 < iVar3) {
+    do {
+      lVar7 = *(longlong *)(param_1 + 8);
+      uVar6 = FUN_14109da90(&local_res8,&DAT_1458566f8);
+      lVar7 = FUN_1410a1fe0(lVar7 + 0x10,uVar6,iVar16);
+      FUN_14109dd40(&local_res8);
+      pcVar8 = (char *)FUN_1410a5b20(lVar7);
+      if ((pcVar8 == param_2) ||
+         (((pcVar8 != (char *)0x0 && (param_2 != (char *)0x0)) &&
+          (iVar4 = FUN_1402c4a30(pcVar8,param_2), iVar4 == 0)))) {
+        if (lVar7 != 0) goto LAB_140e75dde;
+        break;
+      }
+      iVar16 = iVar16 + 1;
+    } while (iVar16 < iVar3);
+  }
+  pcVar8 = "Can\'t find anim take \"";
+  do {
+    cVar2 = *pcVar8;
+    pcVar8 = pcVar8 + 1;
+  } while (cVar2 != '\0');
+  FUN_14006e870(param_6,"Can\'t find anim take \"",(int)pcVar8 + -0x41c4cf59);
+  pcVar8 = param_2;
+  if (param_2 == (char *)0x0) {
+    iVar3 = 0;
+  }
+  else {
+    do {
+      cVar2 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar2 != '\0');
+    iVar3 = ((int)pcVar8 - (int)param_2) + -1;
+  }
+  FUN_14008afa0(param_6,param_2,iVar3);
+  FUN_14008afa0(param_6,&DAT_141f81c1c,0xffffffff);
+  lVar7 = *(longlong *)(param_1 + 8);
+  uVar6 = FUN_14109da90(local_res10,&DAT_1458566f8);
+  iVar3 = FUN_1410a1e90(lVar7 + 0x10,uVar6);
+  uVar9 = FUN_14109dd40(local_res10);
+  if (iVar3 < 1) {
+LAB_140e761b3:
+    return uVar9 & 0xffffffffffffff00;
+  }
+  lVar7 = *(longlong *)(param_1 + 8);
+  uVar6 = FUN_14109da90(local_res10,&DAT_1458566f8);
+  lVar7 = FUN_1410a1fe0(lVar7 + 0x10,uVar6,0);
+  uVar9 = FUN_14109dd40(local_res10);
+  if (lVar7 == 0) goto LAB_140e761b3;
+LAB_140e75dde:
+  lVar10 = FUN_1410da940(*(undefined8 *)(param_1 + 8));
+  uVar9 = 0;
+  if (lVar10 == 0) goto LAB_140e761b3;
+  *(undefined1 *)(param_1 + 0x60) = param_5;
+  FUN_1410db540(*(undefined8 *)(param_1 + 8));
+  FUN_1410db3a0(*(undefined8 *)(param_1 + 8),lVar7);
+  local_1d8 = 0;
+  uStack_1d0 = 0;
+  FUN_141084a60(&local_res8,param_2);
+  lVar7 = FUN_1410bea70(*(undefined8 *)(param_1 + 8),&local_res8);
+  FUN_141084cd0(&local_res8);
+  if (lVar7 == 0) {
+    uVar6 = FUN_1410db300(*(undefined8 *)(param_1 + 8));
+    FUN_1410d7940(uVar6,&local_1d8);
+  }
+  else {
+    local_1d8 = *(undefined8 *)(lVar7 + 0x28);
+    uStack_1d0 = *(undefined8 *)(lVar7 + 0x30);
+  }
+  *(undefined8 *)(param_1 + 0x40) = local_1d8;
+  *(undefined8 *)(param_1 + 0x48) = uStack_1d0;
+  puVar11 = (undefined8 *)FUN_141089460((undefined8 *)(param_1 + 0x48),&local_res8);
+  *(undefined8 *)(param_1 + 0x50) = *puVar11;
+  uVar6 = FUN_1410db300(*(undefined8 *)(param_1 + 8));
+  uVar5 = FUN_1410d7760(uVar6);
+  iVar3 = FUN_1410884c0(param_1 + 0x50,uVar5);
+  puVar12 = (undefined8 *)FUN_14050dc90(0x88);
+  puVar15 = (undefined8 *)0x0;
+  puVar11 = puVar15;
+  if (puVar12 != (undefined8 *)0x0) {
+    puVar12[1] = 0;
+    puVar12[2] = 0;
+    puVar12[4] = 0;
+    puVar12[5] = 0;
+    *(undefined4 *)(puVar12 + 6) = 0;
+    *(undefined4 *)(puVar12 + 7) = 0;
+    puVar12[8] = 0;
+    *(undefined1 *)(puVar12 + 9) = 0;
+    *puVar12 = TXA::Animation::vftable;
+    puVar12[10] = 0;
+    puVar12[0xb] = 0;
+    puVar12[0xc] = 0;
+    puVar12[0xd] = 0;
+    puVar12[0xe] = 0;
+    puVar12[0xf] = 0;
+    puVar12[0x10] = 0;
+    puVar11 = puVar12;
+  }
+  *(undefined8 **)(param_1 + 0x38) = puVar11;
+  *(undefined4 *)(puVar11 + 0x10) = param_4;
+  *(int *)(*(longlong *)(param_1 + 0x38) + 0x84) = iVar3 + 1;
+  local_res8 = (undefined8 *)0x0;
+  lVar7 = FUN_140e7bf50(param_1,lVar10,"EntityPosition");
+  puVar11 = puVar15;
+  if (lVar7 != 0) {
+    FUN_140e78260(param_1,lVar7,&local_res8);
+    puVar11 = local_res8;
+  }
+  lVar14 = 0xffffffff;
+  FUN_140e75770(param_1,lVar10,0xffffffff,puVar11);
+  FUN_1402c4060(local_160,param_3);
+  lVar7 = *(longlong *)(param_1 + 0x38);
+  if (local_158 != 0) {
+    cVar2 = FUN_141056750(lVar7,local_160);
+    if (cVar2 != '\0') {
+      if (*(char *)(param_1 + 0x60) != '\0') {
+        local_1a8 = 0;
+        local_1a0 = 0;
+        local_198 = 0;
+        local_190 = 0;
+        local_188 = 0;
+        local_180 = 0;
+        local_1c8 = FBXExpErrorHandler::vftable;
+        local_1c0 = 0;
+        local_1b8 = 0;
+        FUN_141067c00(local_1b0,*(undefined8 *)(param_1 + 0x38),0,&local_1c8);
+        local_1b0[0] = *(undefined4 *)(*(longlong *)(param_1 + 0x38) + 0x80);
+        DAT_142373be8 = 0;
+        DAT_142373bec = 0;
+        DAT_142373bf0 = 0;
+        local_138[0] = '\0';
+        pcVar8 = param_3;
+        if (param_3 != (char *)0x0) {
+          do {
+            cVar2 = *pcVar8;
+            pcVar8 = pcVar8 + 1;
+          } while (cVar2 != '\0');
+          memcpy(local_138,param_3,((ulonglong)(pcVar8 + (-1 - (longlong)param_3)) & 0xffffffff) + 1
+                );
+          if (local_138[0] != '\0') {
+            pcVar8 = local_138;
+            cVar2 = local_138[0];
+            do {
+              iVar3 = (int)puVar15;
+              if (cVar2 != '.') {
+                iVar3 = (int)lVar14;
+              }
+              lVar14 = (longlong)iVar3;
+              puVar15 = (undefined8 *)(ulonglong)((int)puVar15 + 1);
+              pcVar8 = pcVar8 + 1;
+              cVar2 = *pcVar8;
+            } while (cVar2 != '\0');
+            if (iVar3 != -1) {
+              local_138[lVar14] = '\0';
+            }
+          }
+        }
+        pcVar8 = ".anm";
+        do {
+          pcVar13 = pcVar8;
+          pcVar8 = pcVar13 + 1;
+        } while (*pcVar13 != '\0');
+        pcVar8 = local_138;
+        do {
+          cVar2 = *pcVar8;
+          pcVar8 = pcVar8 + 1;
+        } while (cVar2 != '\0');
+        memcpy(local_138 + (((int)pcVar8 - (int)local_138) - 1),&DAT_141c4cf70,
+               ((ulonglong)(pcVar13 + -0x141c4cf70) & 0xffffffff) + 1);
+        FUN_1402c4060(local_178,local_138);
+        if (local_170 != 0) {
+          FUN_141068360(local_1b0,local_178,0,0);
+        }
+        FUN_1402c4120(local_178);
+        if (local_1c0 != 0) {
+          psVar1 = (short *)(local_1c0 + -2);
+          *psVar1 = *psVar1 + -1;
+          if (*psVar1 == 0) {
+            FUN_14050e300(local_1c0 + -6);
+          }
+          local_1c0 = 0;
+        }
+        local_1c8 = TXO::ValidateHandler::vftable;
+        FUN_141067800(local_1b0);
+      }
+      if (*(longlong *)(param_1 + 0x38) != 0) {
+        FUN_140e75110(*(longlong *)(param_1 + 0x38),1);
+      }
+      uVar9 = 1;
+      goto LAB_140e761a1;
+    }
+    lVar7 = *(longlong *)(param_1 + 0x38);
+  }
+  if (lVar7 != 0) {
+    FUN_140e75110(lVar7,1);
+  }
+  uVar9 = 0;
+LAB_140e761a1:
+  *(undefined8 *)(param_1 + 0x38) = 0;
+  FUN_1402c4120(local_160);
+  return uVar9;
+}
+
+
+DECOMPILE_END FUN_140e75c10 140e75c10
+------------------------------------------------------------
+FUNCTION_REQUEST 140e75770 -> FUN_140e75770@140e75770
+CALLERS
+  CALLER from=14ca99728 fn=<none>
+  CALLER from=140e75bca fn=FUN_140e75770@140e75770
+  CALLER from=140e75f93 fn=FUN_140e75c10@140e75c10
+DECOMPILE_BEGIN FUN_140e75770 140e75770
+
+void FUN_140e75770(longlong param_1,longlong param_2,undefined4 param_3,longlong param_4)
+
+{
+  float fVar1;
+  int iVar2;
+  int iVar3;
+  longlong lVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  double *pdVar7;
+  char *pcVar8;
+  undefined1 *puVar9;
+  uint uVar10;
+  ulonglong uVar11;
+  ulonglong uVar12;
+  uint uVar13;
+  double dVar15;
+  float fVar16;
+  float fVar17;
+  float fVar18;
+  undefined8 local_418;
+  undefined8 local_410;
+  longlong local_408;
+  longlong local_400;
+  longlong local_3f8;
+  undefined1 local_3f0 [36];
+  undefined4 local_3cc;
+  undefined4 local_3c8;
+  undefined4 local_3c4;
+  undefined8 local_3c0;
+  undefined1 local_3b8 [128];
+  undefined1 local_338 [32];
+  undefined1 local_318 [128];
+  undefined1 local_298 [128];
+  undefined1 local_218 [128];
+  char local_198 [352];
+  ulonglong uVar14;
+  
+  local_3c0 = 0xfffffffffffffffe;
+  lVar4 = FUN_1410da940(*(undefined8 *)(param_1 + 8));
+  local_3f8 = lVar4;
+  local_408 = FUN_1410bfba0(param_2);
+  plVar5 = (longlong *)FUN_1410c05d0(param_2);
+  uVar11 = 0;
+  if (plVar5 == (longlong *)0x0) {
+    iVar2 = 0;
+  }
+  else {
+    iVar2 = (**(code **)(*plVar5 + 0xb8))(plVar5);
+  }
+  uVar6 = FUN_1410a5b20(param_2);
+  if (iVar2 != 4) {
+    if (param_2 == lVar4) {
+      FUN_1402c4ac0(local_198,"Scene_Root");
+    }
+    else {
+      FUN_1402c4ac0(local_198,uVar6);
+      if (local_198[0] != '\0') {
+        pcVar8 = local_198;
+        do {
+          if ((local_198[0] == ' ') || (local_198[0] == '-')) {
+            local_198[0] = '_';
+          }
+          *pcVar8 = local_198[0];
+          pcVar8 = pcVar8 + 1;
+          local_198[0] = *pcVar8;
+        } while (local_198[0] != '\0');
+      }
+    }
+    uVar10 = *(uint *)(*(longlong *)(param_1 + 0x38) + 0x84);
+    local_400 = FUN_141055e40(*(longlong *)(param_1 + 0x38),local_198,param_3,uVar10,1,1,1);
+    iVar2 = FUN_1402c4a30(local_198,"EntityPosition");
+    if (iVar2 != 0) {
+      dVar15 = (double)FUN_141087b80(param_1 + 0x50);
+      fVar1 = DAT_141f858d8;
+      if (uVar10 != 0) {
+        uVar12 = uVar11;
+        uVar14 = uVar11;
+        do {
+          local_410 = 0;
+          FUN_141087b40(&local_410,((double)uVar14 / (double)(uVar10 - 1)) * dVar15);
+          FUN_141089440(param_1 + 0x40,&local_418,&local_410);
+          if (param_2 == lVar4) {
+            FUN_140cb6e40(local_3f0);
+            fVar16 = fVar1;
+            fVar17 = fVar1;
+            fVar18 = fVar1;
+          }
+          else {
+            if (local_408 == lVar4) {
+              uVar6 = FUN_1410c3840(param_2,local_418,0,0,0);
+              FUN_14108b9d0(local_3b8,uVar6);
+              pdVar7 = (double *)FUN_14108c0a0(local_3b8,local_338);
+              fVar16 = *(float *)(param_1 + 0x58);
+              fVar18 = fVar16 * (float)pdVar7[1];
+              fVar17 = fVar16 * (float)pdVar7[2];
+              fVar16 = fVar16 * (float)*pdVar7;
+              FUN_140e7e780(local_3b8,1);
+              if (param_4 == 0) {
+                FUN_140e7e9c0(param_1,local_3b8,local_3f0);
+              }
+              else {
+                FUN_14108b9a0(local_318);
+                uVar6 = FUN_14108d8b0(uVar14 * 0x80 + param_4,local_298,local_3b8);
+                FUN_14108cf60(local_318,uVar6);
+                FUN_14108bb50(local_298);
+                FUN_140e7e9c0(param_1,local_318,local_3f0);
+                FUN_14108bb50(local_318);
+              }
+              puVar9 = local_3b8;
+            }
+            else {
+              uVar6 = FUN_1410c3840(local_408,local_418,0,0,0);
+              FUN_14108b9d0(local_318,uVar6);
+              FUN_140e7e780(local_318,1);
+              FUN_14108dce0(local_318,local_298);
+              uVar6 = FUN_1410c3840(param_2,local_418,0,0,0);
+              FUN_14108b9d0(local_3b8,uVar6);
+              pdVar7 = (double *)FUN_14108c0a0(local_3b8,local_338);
+              fVar16 = *(float *)(param_1 + 0x58);
+              fVar18 = fVar16 * (float)pdVar7[1];
+              fVar17 = fVar16 * (float)pdVar7[2];
+              fVar16 = fVar16 * (float)*pdVar7;
+              FUN_140e7e780(local_3b8,1);
+              FUN_14108d8b0(local_298,local_218,local_3b8);
+              FUN_140e7e9c0(param_1,local_218,local_3f0);
+              FUN_14108bb50(local_218);
+              FUN_14108bb50(local_3b8);
+              FUN_14108bb50(local_298);
+              puVar9 = local_318;
+            }
+            FUN_14108bb50(puVar9);
+          }
+          lVar4 = *(longlong *)(local_400 + 0x18) + uVar12;
+          FUN_1402badd0(lVar4,local_3f0);
+          *(undefined4 *)(lVar4 + 0x10) = local_3cc;
+          *(undefined4 *)(lVar4 + 0x14) = local_3c8;
+          *(undefined4 *)(lVar4 + 0x18) = local_3c4;
+          *(float *)(lVar4 + 0x1c) = fVar16;
+          *(float *)(lVar4 + 0x20) = fVar17;
+          *(float *)(lVar4 + 0x24) = fVar18;
+          uVar13 = (int)uVar14 + 1;
+          uVar14 = (ulonglong)uVar13;
+          uVar12 = uVar12 + 0x28;
+          lVar4 = local_3f8;
+        } while (uVar13 < uVar10);
+      }
+      iVar2 = *(int *)(*(longlong *)(param_1 + 0x38) + 0x5c);
+      iVar3 = FUN_1410bfd40(param_2,0);
+      if (0 < iVar3) {
+        do {
+          uVar6 = FUN_1410bfe00(param_2,uVar11);
+          FUN_140e75770(param_1,uVar6,iVar2 + -1,param_4);
+          uVar10 = (int)uVar11 + 1;
+          uVar11 = (ulonglong)uVar10;
+        } while ((int)uVar10 < iVar3);
+      }
+    }
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_140e75770 140e75770
+------------------------------------------------------------
+FUNCTION_REQUEST 140e78260 -> FUN_140e78260@140e78260
+CALLERS
+  CALLER from=14ca99788 fn=<none>
+  CALLER from=140e75f76 fn=FUN_140e75c10@140e75c10
+DECOMPILE_BEGIN FUN_140e78260 140e78260
+
+void FUN_140e78260(longlong param_1,undefined8 param_2,longlong *param_3)
+
+{
+  uint uVar1;
+  double dVar2;
+  undefined8 uVar3;
+  longlong lVar4;
+  ulonglong uVar5;
+  __uint64 _Var6;
+  char *pcVar7;
+  longlong lVar8;
+  uint uVar9;
+  ulonglong *puVar10;
+  longlong lVar11;
+  longlong lVar12;
+  ulonglong local_res8;
+  ulonglong *local_res20;
+  undefined8 in_stack_fffffffffffffbc8;
+  code *pcVar13;
+  undefined1 local_408 [36];
+  undefined4 local_3e4;
+  undefined4 local_3e0;
+  undefined4 local_3dc;
+  undefined1 local_3d8 [128];
+  undefined1 local_358 [128];
+  undefined1 local_2d8 [128];
+  undefined1 local_258 [128];
+  undefined1 local_1d8 [128];
+  char local_158 [288];
+  
+  FUN_1410c05d0(param_2);
+  uVar3 = FUN_1410a5b20(param_2);
+  FUN_1402c4ac0(local_158,uVar3);
+  if (local_158[0] != '\0') {
+    pcVar7 = local_158;
+    do {
+      if ((local_158[0] == ' ') || (local_158[0] == '-')) {
+        local_158[0] = '_';
+      }
+      *pcVar7 = local_158[0];
+      pcVar7 = pcVar7 + 1;
+      local_158[0] = *pcVar7;
+    } while (local_158[0] != '\0');
+  }
+  uVar1 = *(uint *)(*(longlong *)(param_1 + 0x38) + 0x84);
+  pcVar13 = (code *)CONCAT71((int7)((ulonglong)in_stack_fffffffffffffbc8 >> 8),1);
+  lVar4 = FUN_141055e40(*(longlong *)(param_1 + 0x38),local_158,0xffffffff,uVar1,pcVar13,1,1);
+  uVar5 = SUB168(ZEXT816(0x80) * ZEXT416(uVar1),0);
+  if (SUB168(ZEXT816(0x80) * ZEXT416(uVar1),8) != 0) {
+    uVar5 = 0xffffffffffffffff;
+  }
+  _Var6 = uVar5 + 8;
+  if (0xfffffffffffffff7 < uVar5) {
+    _Var6 = 0xffffffffffffffff;
+  }
+  local_res8 = (ulonglong)uVar1;
+  local_res20 = operator_new(_Var6);
+  if (local_res20 == (ulonglong *)0x0) {
+    puVar10 = (ulonglong *)0x0;
+  }
+  else {
+    *local_res20 = (ulonglong)uVar1;
+    puVar10 = local_res20 + 1;
+    pcVar13 = FUN_14108bb50;
+    _eh_vector_constructor_iterator_(puVar10,0x80,(ulonglong)uVar1,FUN_14108b9a0,FUN_14108bb50);
+  }
+  *param_3 = (longlong)puVar10;
+  dVar2 = (double)FUN_141087b80(param_1 + 0x50);
+  uVar5 = (ulonglong)pcVar13 & 0xffffffffffffff00;
+  uVar3 = FUN_1410c3840(param_2,*(undefined8 *)(param_1 + 0x40),0,0,uVar5);
+  FUN_14108b9d0(local_358,uVar3);
+  FUN_140e7e780(local_358,1);
+  FUN_14108dce0(local_358,local_258);
+  uVar9 = 0;
+  if (uVar1 != 0) {
+    lVar11 = 0;
+    lVar12 = 0;
+    do {
+      local_res8 = 0;
+      FUN_141087b40(&local_res8,((double)uVar9 / (double)(uVar1 - 1)) * dVar2);
+      FUN_141089440(param_1 + 0x40,&local_res20,&local_res8);
+      uVar5 = uVar5 & 0xffffffffffffff00;
+      uVar3 = FUN_1410c3840(param_2,local_res20,0,0,uVar5);
+      FUN_14108b9d0(local_3d8,uVar3);
+      FUN_140e7e780(local_3d8,1);
+      uVar3 = FUN_14108dce0(local_3d8,local_1d8);
+      FUN_14108cf60(*param_3 + lVar12,uVar3);
+      FUN_14108bb50(local_1d8);
+      FUN_14108d8b0(local_258,local_2d8,local_3d8);
+      FUN_140e7e9c0(param_1,local_2d8,local_408);
+      lVar8 = *(longlong *)(lVar4 + 0x18) + lVar11;
+      FUN_1402badd0(lVar8,local_408);
+      *(undefined4 *)(lVar8 + 0x10) = local_3e4;
+      *(undefined4 *)(lVar8 + 0x14) = local_3e0;
+      *(undefined4 *)(lVar8 + 0x18) = local_3dc;
+      *(undefined4 *)(lVar8 + 0x1c) = 0x3f800000;
+      *(undefined4 *)(lVar8 + 0x20) = 0x3f800000;
+      *(undefined4 *)(lVar8 + 0x24) = 0x3f800000;
+      FUN_14108bb50(local_2d8);
+      FUN_14108bb50(local_3d8);
+      uVar9 = uVar9 + 1;
+      lVar12 = lVar12 + 0x80;
+      lVar11 = lVar11 + 0x28;
+    } while (uVar9 < uVar1);
+  }
+  FUN_14108bb50(local_258);
+  FUN_14108bb50(local_358);
+  return;
+}
+
+
+DECOMPILE_END FUN_140e78260 140e78260
+------------------------------------------------------------
+FUNCTION_REQUEST 1410c3840 -> FUN_1410c3840@1410c3840
+CALLERS
+  CALLER from=14caad5f4 fn=<none>
+  CALLER from=140e75968 fn=FUN_140e75770@140e75770
+  CALLER from=140e75a43 fn=FUN_140e75770@140e75770
+  CALLER from=140e75a84 fn=FUN_140e75770@140e75770
+  CALLER from=140e783a5 fn=FUN_140e78260@140e78260
+  CALLER from=140e78444 fn=FUN_140e78260@140e78260
+  CALLER from=140e76a45 fn=FUN_140e76990@140e76990
+  CALLER from=140e76d69 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e77694 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e77e19 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7af29 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7b3fa fn=FUN_140e7b350@140e7b350
+  CALLER from=140e79c4e fn=FUN_140e79a60@140e79a60
+  CALLER from=140e7975a fn=FUN_140e79510@140e79510
+  CALLER from=140e798fe fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7aa1d fn=FUN_140e7a720@140e7a720
+  CALLER from=141117685 fn=FUN_1411175a0@1411175a0
+  CALLER from=1410a9c34 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9d2f fn=FUN_1410a9730@1410a9730
+  CALLER from=141208a22 fn=FUN_141208870@141208870
+  CALLER from=1410cd2b7 fn=FUN_1410cd180@1410cd180
+  CALLER from=1411089a2 fn=FUN_141108880@141108880
+  CALLER from=14111636b fn=FUN_141116020@141116020
+  CALLER from=14111b55c fn=FUN_14111b470@14111b470
+  CALLER from=14111b575 fn=FUN_14111b470@14111b470
+  CALLER from=14111c457 fn=FUN_14111c240@14111c240
+  CALLER from=141172821 fn=FUN_1411727a0@1411727a0
+  CALLER from=141182c8b fn=FUN_141182c40@141182c40
+  CALLER from=141182d46 fn=FUN_141182cf0@141182cf0
+  CALLER from=141182d9d fn=FUN_141182cf0@141182cf0
+  CALLER from=141182fc4 fn=FUN_141182e00@141182e00
+  CALLER from=14118ab00 fn=FUN_14118aa90@14118aa90
+  CALLER from=14118ae00 fn=FUN_14118ad90@14118ad90
+  CALLER from=14119b80d fn=FUN_14119b690@14119b690
+  CALLER from=14119ba5d fn=FUN_14119b8e0@14119b8e0
+  CALLER from=141350916 fn=FUN_141350650@141350650
+  CALLER from=141351ca1 fn=FUN_141351bf0@141351bf0
+  CALLER from=141351cd0 fn=FUN_141351bf0@141351bf0
+  CALLER from=141352023 fn=FUN_141351f80@141351f80
+  CALLER from=141356085 fn=FUN_141355870@141355870
+  CALLER from=141362fb8 fn=FUN_141362ea0@141362ea0
+  CALLER from=141362fdf fn=FUN_141362ea0@141362ea0
+  CALLER from=141366284 fn=FUN_141366160@141366160
+  CALLER from=14136e0ed fn=FUN_14136df10@14136df10
+  CALLER from=14136e10e fn=FUN_14136df10@14136df10
+  CALLER from=14137851f fn=FUN_1413783c0@1413783c0
+  CALLER from=1413ee667 fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413f5447 fn=FUN_1413f5180@1413f5180
+  CALLER from=1413f7978 fn=FUN_1413f7760@1413f7760
+  CALLER from=1413f79ca fn=FUN_1413f7760@1413f7760
+  CALLER from=1414b5da7 fn=FUN_1414b5bf0@1414b5bf0
+  CALLER from=1414b64f7 fn=FUN_1414b6420@1414b6420
+  CALLER from=1414b63c6 fn=FUN_1414b6370@1414b6370
+DECOMPILE_BEGIN FUN_1410c3840 1410c3840
+
+void FUN_1410c3840(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined1 param_4,
+                  undefined1 param_5)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  undefined8 local_res10;
+  
+  local_res10 = param_2;
+  lVar1 = FUN_1410a5790();
+  if (lVar1 == 0) {
+    uVar2 = FUN_1410a5660(param_1);
+    uVar2 = FUN_1410b2c60(uVar2);
+  }
+  else {
+    uVar2 = FUN_1410a5790();
+    uVar2 = FUN_1410db540(uVar2);
+  }
+  FUN_1411235b0(uVar2,param_1,&local_res10,param_3,param_4,param_5);
+  return;
+}
+
+
+DECOMPILE_END FUN_1410c3840 1410c3840
+------------------------------------------------------------
+FUNCTION_REQUEST 14108b9d0 -> FUN_14108b9d0@14108b9d0
+CALLERS
+  CALLER from=14caaa7bc fn=<none>
+  CALLER from=140e75974 fn=FUN_140e75770@140e75770
+  CALLER from=140e75a4f fn=FUN_140e75770@140e75770
+  CALLER from=140e75a90 fn=FUN_140e75770@140e75770
+  CALLER from=140e783b1 fn=FUN_140e78260@140e78260
+  CALLER from=140e78450 fn=FUN_140e78260@140e78260
+  CALLER from=140e76a51 fn=FUN_140e76990@140e76990
+  CALLER from=140e76a5f fn=FUN_140e76990@140e76990
+  CALLER from=140e76d75 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e76d83 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e776a3 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e776b4 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e77e25 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e77e33 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7af35 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7af43 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7b409 fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7b41a fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7a1fc fn=FUN_140e79a60@140e79a60
+  CALLER from=14108e1d1 fn=FUN_14108e1c0@14108e1c0
+  CALLER from=140e79766 fn=FUN_140e79510@140e79510
+  CALLER from=140e79826 fn=FUN_140e79510@140e79510
+  CALLER from=140e7990e fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7aa29 fn=FUN_140e7a720@140e7a720
+  CALLER from=140e7aa57 fn=FUN_140e7a720@140e7a720
+  CALLER from=141117695 fn=FUN_1411175a0@1411175a0
+  CALLER from=14108d837 fn=FUN_14108d820@14108d820
+  CALLER from=14108e191 fn=FUN_14108e180@14108e180
+  CALLER from=14108e243 fn=FUN_14108e220@14108e220
+  CALLER from=1410a9b53 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9b7f fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9c43 fn=FUN_1410a9730@1410a9730
+  CALLER from=1412274e6 fn=FUN_141226fd0@141226fd0
+  CALLER from=141207e13 fn=FUN_141207c00@141207c00
+  CALLER from=1410cd2c7 fn=FUN_1410cd180@1410cd180
+  CALLER from=141112bb1 fn=FUN_141112ba0@141112ba0
+  CALLER from=141112c31 fn=FUN_141112c20@141112c20
+  CALLER from=14111b6a1 fn=FUN_14111b470@14111b470
+  CALLER from=14111b7bc fn=FUN_14111b470@14111b470
+  CALLER from=14111c463 fn=FUN_14111c240@14111c240
+  CALLER from=1411e7ada fn=FUN_1411e7aa0@1411e7aa0
+  CALLER from=1411e734a fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411e735a fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411e7367 fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411a9ed7 fn=FUN_1411a9ea0@1411a9ea0
+  CALLER from=141229f4c fn=FUN_141229890@141229890
+  CALLER from=14134dcda fn=FUN_14134d920@14134d920
+  CALLER from=141356094 fn=FUN_141355870@141355870
+  CALLER from=141366290 fn=FUN_141366160@141366160
+  CALLER from=141371c0e fn=FUN_141371bb0@141371bb0
+  CALLER from=141371ca2 fn=FUN_141371bb0@141371bb0
+  CALLER from=1414bbb13 fn=FUN_1414bba30@1414bba30
+  CALLER from=14137852b fn=FUN_1413783c0@1413783c0
+  CALLER from=14137a0ba fn=FUN_141379d00@141379d00
+  CALLER from=1413e2b19 fn=FUN_1413e2a00@1413e2a00
+  CALLER from=1414c5e08 fn=FUN_1414c5bd0@1414c5bd0
+  CALLER from=1414c5e1b fn=FUN_1414c5bd0@1414c5bd0
+  CALLER from=1414c78a7 fn=FUN_1414c7390@1414c7390
+  CALLER from=1414c78ba fn=FUN_1414c7390@1414c7390
+  CALLER from=1413ee673 fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413f5456 fn=FUN_1413f5180@1413f5180
+  CALLER from=1413f7b16 fn=FUN_1413f7760@1413f7760
+DECOMPILE_BEGIN FUN_14108b9d0 14108b9d0
+
+undefined8 * FUN_14108b9d0(undefined8 *param_1,undefined8 *param_2)
+
+{
+  FUN_14108f900();
+  *param_1 = *param_2;
+  param_1[1] = param_2[1];
+  param_1[2] = param_2[2];
+  param_1[3] = param_2[3];
+  param_1[4] = param_2[4];
+  param_1[5] = param_2[5];
+  param_1[6] = param_2[6];
+  param_1[7] = param_2[7];
+  param_1[8] = param_2[8];
+  param_1[9] = param_2[9];
+  param_1[10] = param_2[10];
+  param_1[0xb] = param_2[0xb];
+  param_1[0xc] = param_2[0xc];
+  param_1[0xd] = param_2[0xd];
+  param_1[0xe] = param_2[0xe];
+  param_1[0xf] = param_2[0xf];
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_14108b9d0 14108b9d0
+------------------------------------------------------------
+FUNCTION_REQUEST 14108bb50 -> FUN_14108bb50@14108bb50
+CALLERS
+  CALLER from=14caaa7d4 fn=<none>
+  CALLER from=1421e3ad0 fn=<none>
+  CALLER from=1418c017e fn=Unwind@1418c0163@1418c0163
+  CALLER from=1418c01fa fn=Unwind@1418c01df@1418c01df
+  CALLER from=14120860a fn=FUN_141208580@141208580
+  CALLER from=1410ce140 fn=FUN_1410ce130@1410ce130
+  CALLER from=1418c7637 fn=Unwind@1418c761c@1418c761c
+  CALLER from=1418cf987 fn=Unwind@1418cf96c@1418cf96c
+  CALLER from=1418cf9c5 fn=Unwind@1418cf9aa@1418cf9aa
+  CALLER from=1418d211e fn=Unwind@1418d2103@1418d2103
+  CALLER from=1418d6b1b fn=Unwind@1418d6b00@1418d6b00
+  CALLER from=1418d6aab fn=Unwind@1418d6a90@1418d6a90
+  CALLER from=1418df427 fn=Unwind@1418df40c@1418df40c
+  CALLER from=1418e3bea fn=Unwind@1418e3bcf@1418e3bcf
+  CALLER from=1418e3c1c fn=Unwind@1418e3c01@1418e3c01
+  CALLER from=1418e879b fn=Unwind@1418e8780@1418e8780
+  CALLER from=1418e8c17 fn=Unwind@1418e8bfc@1418e8bfc
+  CALLER from=1418e8c49 fn=Unwind@1418e8c2e@1418e8c2e
+  CALLER from=140e75a03 fn=FUN_140e75770@140e75770
+  CALLER from=140e75a1e fn=FUN_140e75770@140e75770
+  CALLER from=140e75b15 fn=FUN_140e75770@140e75770
+  CALLER from=140e75b1f fn=FUN_140e75770@140e75770
+  CALLER from=140e75b2c fn=FUN_140e75770@140e75770
+  CALLER from=140e75b36 fn=FUN_140e75770@140e75770
+  CALLER from=140e7848f fn=FUN_140e78260@140e78260
+  CALLER from=140e78516 fn=FUN_140e78260@140e78260
+  CALLER from=140e78520 fn=FUN_140e78260@140e78260
+  CALLER from=140e78542 fn=FUN_140e78260@140e78260
+  CALLER from=140e7854c fn=FUN_140e78260@140e78260
+  CALLER from=1412330d0 fn=FUN_141233080@141233080
+  CALLER from=1412330d9 fn=FUN_141233080@141233080
+  CALLER from=140e76c34 fn=FUN_140e76990@140e76990
+  CALLER from=140e76c3e fn=FUN_140e76990@140e76990
+  CALLER from=140e77153 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e7715d fn=FUN_140e76c80@140e76c80
+  CALLER from=140e77ce1 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e77cee fn=FUN_140e775f0@140e775f0
+  CALLER from=140e781f5 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e781ff fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7b2e6 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7b2f0 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7bcd0 fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7bcdd fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7a6d2 fn=FUN_140e79a60@140e79a60
+  CALLER from=140e7a6f4 fn=FUN_140e79a60@140e79a60
+  CALLER from=1410e7379 fn=FUN_1410e7290@1410e7290
+  CALLER from=1410e7384 fn=FUN_1410e7290@1410e7290
+  CALLER from=141102612 fn=FUN_1411022b0@1411022b0
+  CALLER from=14110261c fn=FUN_1411022b0@1411022b0
+  CALLER from=141102629 fn=FUN_1411022b0@1411022b0
+  CALLER from=140e797bd fn=FUN_140e79510@140e79510
+  CALLER from=140e797e9 fn=FUN_140e79510@140e79510
+  CALLER from=140e7985e fn=FUN_140e79510@140e79510
+  CALLER from=140e7988e fn=FUN_140e79510@140e79510
+  CALLER from=140e79a33 fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7aa78 fn=FUN_140e7a720@140e7a720
+  CALLER from=140e7aa82 fn=FUN_140e7a720@140e7a720
+  CALLER from=141092192 fn=FUN_141092000@141092000
+  CALLER from=141091888 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091968 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091975 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091982 fn=FUN_1410915e0@1410915e0
+  CALLER from=14109198f fn=FUN_1410915e0@1410915e0
+  CALLER from=141091999 fn=FUN_1410915e0@1410915e0
+  CALLER from=1410919ff fn=FUN_1410915e0@1410915e0
+  CALLER from=141091a0c fn=FUN_1410915e0@1410915e0
+  CALLER from=141091a19 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091a4d fn=FUN_1410915e0@1410915e0
+  CALLER from=141091ad1 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091b4b fn=FUN_1410915e0@1410915e0
+  CALLER from=141091b58 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091b65 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c18 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c25 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c32 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c84 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091cf6 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d00 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d0d fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d4b fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d58 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d65 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d72 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d7f fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d8c fn=FUN_1410915e0@1410915e0
+  CALLER from=141091d99 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091da6 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091db3 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091dc0 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091dcd fn=FUN_1410915e0@1410915e0
+  CALLER from=141091dda fn=FUN_1410915e0@1410915e0
+  CALLER from=141091de7 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091df4 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e01 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e0e fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e1b fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e28 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e35 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e42 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091e4f fn=FUN_1410915e0@1410915e0
+DECOMPILE_BEGIN FUN_14108bb50 14108bb50
+
+void FUN_14108bb50(void *param_1)
+
+{
+  _eh_vector_destructor_iterator_(param_1,0x20,4,FUN_1410877d0);
+  return;
+}
+
+
+DECOMPILE_END FUN_14108bb50 14108bb50
+------------------------------------------------------------
+FUNCTION_REQUEST 141089440 -> FUN_141089440@141089440
+CALLERS
+  CALLER from=140e75922 fn=FUN_140e75770@140e75770
+  CALLER from=140e7842a fn=FUN_140e78260@140e78260
+  CALLER from=1411f0957 fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f0977 fn=FUN_1411f0670@1411f0670
+  CALLER from=1412d374d fn=FUN_1412d3070@1412d3070
+  CALLER from=1412d3b3f fn=FUN_1412d3070@1412d3070
+  CALLER from=1411c34e1 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c34f9 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c3638 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c36d6 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c3942 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c157d fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c10ef fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c10ff fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1314 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1332 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1367 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=141224633 fn=FUN_1412244c0@1412244c0
+  CALLER from=14122464a fn=FUN_1412244c0@1412244c0
+  CALLER from=141224824 fn=FUN_1412244c0@1412244c0
+  CALLER from=14122483b fn=FUN_1412244c0@1412244c0
+  CALLER from=1411c435d fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c437a fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c44f1 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4602 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4734 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4a29 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4fc6 fn=FUN_1411c4250@1411c4250
+  CALLER from=141226714 fn=FUN_1412263b0@1412263b0
+  CALLER from=141227209 fn=FUN_141226fd0@141226fd0
+  CALLER from=141229126 fn=FUN_141228f70@141228f70
+  CALLER from=1411c3bd2 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c3bec fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c3d33 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c3e30 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c40b9 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1412d6907 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6a1e fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6a98 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6b02 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6b35 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6d08 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d7031 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d70b0 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d71cc fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d71fe fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d760b fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d78cc fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1412d78f4 fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1412d7a9b fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1415d2898 fn=FUN_1415d24e0@1415d24e0
+  CALLER from=14110c9b8 fn=FUN_14110c8e0@14110c8e0
+  CALLER from=14110cedc fn=FUN_14110c8e0@14110c8e0
+  CALLER from=1411bb400 fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb5ff fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb921 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bb98a fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bb9d0 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbcb2 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbd1b fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbd60 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411c5294 fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411c5342 fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411c563e fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411ca810 fn=FUN_1411ca710@1411ca710
+  CALLER from=1412e2343 fn=FUN_1412e1fa0@1412e1fa0
+  CALLER from=141229c1a fn=FUN_141229890@141229890
+  CALLER from=1414b28d7 fn=FUN_1414b2740@1414b2740
+  CALLER from=14136e02f fn=FUN_14136df10@14136df10
+  CALLER from=14136e1b5 fn=FUN_14136df10@14136df10
+  CALLER from=141381b9f fn=FUN_1413819f0@1413819f0
+  CALLER from=141381bbf fn=FUN_1413819f0@1413819f0
+  CALLER from=14139ec8d fn=FUN_14139ea90@14139ea90
+  CALLER from=14139ecad fn=FUN_14139ea90@14139ea90
+  CALLER from=1414c9edc fn=FUN_1414c9db0@1414c9db0
+DECOMPILE_BEGIN FUN_141089440 141089440
+
+longlong * FUN_141089440(longlong *param_1,longlong *param_2,longlong *param_3)
+
+{
+  *param_2 = *param_3 + *param_1;
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_141089440 141089440
+------------------------------------------------------------
+FUNCTION_REQUEST 141089460 -> FUN_141089460@141089460
+CALLERS
+  CALLER from=140e75e99 fn=FUN_140e75c10@140e75c10
+  CALLER from=1411f084d fn=FUN_1411f0670@1411f0670
+  CALLER from=1411c75ae fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c7986 fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c79e4 fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c7a5f fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411bdfcd fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be033 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be178 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be1f2 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be26f fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be3db fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be604 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411bf345 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf3fc fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf4b1 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf5f9 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf68e fn=FUN_1411bf170@1411bf170
+  CALLER from=1412d5932 fn=FUN_1412d5850@1412d5850
+  CALLER from=1412d5a06 fn=FUN_1412d5850@1412d5850
+  CALLER from=1412d5bef fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d5c97 fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d5d42 fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d371a fn=FUN_1412d3070@1412d3070
+  CALLER from=1412d373a fn=FUN_1412d3070@1412d3070
+  CALLER from=1412d3aff fn=FUN_1412d3070@1412d3070
+  CALLER from=1411c364c fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c38cf fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411bd535 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd560 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd66f fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd6bc fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411c142a fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c144b fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c1481 fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c14af fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c155c fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c165d fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c100b fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1110 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c11dd fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c12a3 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c12d3 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c12e3 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1324 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c18c6 fn=FUN_1411c16d0@1411c16d0
+  CALLER from=1411c1a50 fn=FUN_1411c16d0@1411c16d0
+  CALLER from=1411c1d20 fn=FUN_1411c1bb0@1411c1bb0
+  CALLER from=1411c21e4 fn=FUN_1411c1bb0@1411c1bb0
+  CALLER from=1411c4507 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4f4f fn=FUN_1411c4250@1411c4250
+  CALLER from=14122668f fn=FUN_1412263b0@1412263b0
+  CALLER from=14122669f fn=FUN_1412263b0@1412263b0
+  CALLER from=141226704 fn=FUN_1412263b0@1412263b0
+  CALLER from=14122717a fn=FUN_141226fd0@141226fd0
+  CALLER from=14122718b fn=FUN_141226fd0@141226fd0
+  CALLER from=1412271f7 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227222 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227235 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227247 fn=FUN_141226fd0@141226fd0
+  CALLER from=1411c002e fn=FUN_1411bff10@1411bff10
+  CALLER from=1411c02a7 fn=FUN_1411c01b0@1411c01b0
+  CALLER from=14122909c fn=FUN_141228f70@141228f70
+  CALLER from=1412290ad fn=FUN_141228f70@141228f70
+  CALLER from=141229115 fn=FUN_141228f70@141228f70
+  CALLER from=141229140 fn=FUN_141228f70@141228f70
+  CALLER from=141229153 fn=FUN_141228f70@141228f70
+  CALLER from=141229165 fn=FUN_141228f70@141228f70
+  CALLER from=1411c3c2a fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c4041 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1412d604e fn=FUN_1412d5f40@1412d5f40
+  CALLER from=1412d614b fn=FUN_1412d5f40@1412d5f40
+  CALLER from=1412d6770 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d7566 fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d759f fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d7641 fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d780c fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1415d26b2 fn=FUN_1415d24e0@1415d24e0
+  CALLER from=141204dd2 fn=FUN_141204510@141204510
+  CALLER from=1412059b8 fn=FUN_141204510@141204510
+  CALLER from=1412e4d5c fn=FUN_1412e4cf0@1412e4cf0
+  CALLER from=1411bb30a fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb38b fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb586 fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb932 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbcc3 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411c015d fn=FUN_1411c00b0@1411c00b0
+  CALLER from=1411c03f7 fn=FUN_1411c0350@1411c0350
+  CALLER from=1411c2ea4 fn=FUN_1411c2e10@1411c2e10
+  CALLER from=1411c523c fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411ca7b0 fn=FUN_1411ca710@1411ca710
+  CALLER from=1411ca7eb fn=FUN_1411ca710@1411ca710
+  CALLER from=1412e219b fn=FUN_1412e1fa0@1412e1fa0
+  CALLER from=141229b96 fn=FUN_141229890@141229890
+  CALLER from=141229ba7 fn=FUN_141229890@141229890
+  CALLER from=141229c09 fn=FUN_141229890@141229890
+  CALLER from=141229c33 fn=FUN_141229890@141229890
+  CALLER from=141229c47 fn=FUN_141229890@141229890
+  CALLER from=141229c59 fn=FUN_141229890@141229890
+  CALLER from=1412dcc13 fn=FUN_1412dcbb0@1412dcbb0
+DECOMPILE_BEGIN FUN_141089460 141089460
+
+longlong * FUN_141089460(longlong *param_1,longlong *param_2,longlong *param_3)
+
+{
+  *param_2 = *param_1 - *param_3;
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_141089460 141089460
+------------------------------------------------------------
+FUNCTION_REQUEST 1410db300 -> FUN_1410db300@1410db300
+CALLERS
+  CALLER from=14caae86c fn=<none>
+  CALLER from=1421f3764 fn=<none>
+  CALLER from=140e75e68 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75ea9 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e7db9f fn=FUN_140e7daa0@140e7daa0
+  CALLER from=140e7dc1a fn=FUN_140e7daa0@140e7daa0
+  CALLER from=141090254 fn=FUN_141090230@141090230
+  CALLER from=141090319 fn=FUN_141090230@141090230
+  CALLER from=14109032e fn=FUN_141090230@141090230
+  CALLER from=1410b974d fn=FUN_1410b9710@1410b9710
+  CALLER from=1410b97e1 fn=FUN_1410b9710@1410b9710
+  CALLER from=1410903cb fn=FUN_141090380@141090380
+  CALLER from=1410904a8 fn=FUN_141090380@141090380
+  CALLER from=1410b9883 fn=FUN_1410b9830@1410b9830
+  CALLER from=1410b9967 fn=FUN_1410b9830@1410b9830
+  CALLER from=1411f4c65 fn=FUN_1411f4b70@1411f4b70
+  CALLER from=1411f5235 fn=FUN_1411f4ea0@1411f4ea0
+  CALLER from=1411f5477 fn=FUN_1411f5460@1411f5460
+  CALLER from=1411f570b fn=FUN_1411f56c0@1411f56c0
+  CALLER from=1411f57c1 fn=FUN_1411f56c0@1411f56c0
+  CALLER from=14111c3c6 fn=FUN_14111c240@14111c240
+  CALLER from=14111c3dc fn=FUN_14111c240@14111c240
+  CALLER from=14111c6fa fn=FUN_14111c6b0@14111c6b0
+  CALLER from=14111c72b fn=FUN_14111c6b0@14111c6b0
+  CALLER from=14127e93c fn=FUN_14127e8e0@14127e8e0
+  CALLER from=14127eb87 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f4af fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f4d9 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f503 fn=FUN_14127eb40@14127eb40
+  CALLER from=141165c73 fn=FUN_1411657d0@1411657d0
+  CALLER from=14119de36 fn=FUN_14119dde0@14119dde0
+  CALLER from=14133b029 fn=FUN_14133af90@14133af90
+  CALLER from=14134214d fn=FUN_141342020@141342020
+  CALLER from=1413530c3 fn=FUN_141352fe0@141352fe0
+  CALLER from=1413530f9 fn=FUN_141352fe0@141352fe0
+  CALLER from=141353128 fn=FUN_141352fe0@141352fe0
+  CALLER from=141353827 fn=FUN_141353750@141353750
+  CALLER from=141353840 fn=FUN_141353750@141353750
+  CALLER from=1413539cf fn=FUN_141353910@141353910
+  CALLER from=1413539eb fn=FUN_141353910@141353910
+  CALLER from=141353a64 fn=FUN_141353910@141353910
+  CALLER from=141353a80 fn=FUN_141353910@141353910
+  CALLER from=1413575b4 fn=FUN_1413571e0@1413571e0
+  CALLER from=141357604 fn=FUN_1413571e0@1413571e0
+  CALLER from=1413617bd fn=FUN_141361450@141361450
+  CALLER from=141361911 fn=FUN_141361450@141361450
+  CALLER from=141361fad fn=FUN_141361f90@141361f90
+  CALLER from=141361fc2 fn=FUN_141361f90@141361f90
+  CALLER from=141362109 fn=FUN_1413620e0@1413620e0
+  CALLER from=14136c495 fn=FUN_14136bf70@14136bf70
+  CALLER from=14136c623 fn=FUN_14136c600@14136c600
+  CALLER from=14137f306 fn=FUN_14137e460@14137e460
+  CALLER from=14138232a fn=FUN_141382310@141382310
+  CALLER from=141382398 fn=FUN_141382310@141382310
+  CALLER from=14138260b fn=FUN_1413825c0@1413825c0
+  CALLER from=1413826c1 fn=FUN_1413825c0@1413825c0
+  CALLER from=141382a45 fn=FUN_141382950@141382950
+  CALLER from=141399070 fn=FUN_141398e10@141398e10
+  CALLER from=14139d40d fn=FUN_14139c870@14139c870
+  CALLER from=1413ce581 fn=FUN_1413ce120@1413ce120
+  CALLER from=1413ce61a fn=FUN_1413ce120@1413ce120
+  CALLER from=1413bb2ba fn=FUN_1413bb080@1413bb080
+  CALLER from=1413cc35c fn=FUN_1413cc300@1413cc300
+  CALLER from=1413cc5a2 fn=FUN_1413cc560@1413cc560
+  CALLER from=1413cc64a fn=FUN_1413cc620@1413cc620
+  CALLER from=1413cc66e fn=FUN_1413cc620@1413cc620
+  CALLER from=1413cc7be fn=FUN_1413cc620@1413cc620
+  CALLER from=1413d30a0 fn=FUN_1413d2fb0@1413d2fb0
+  CALLER from=1413d4e29 fn=FUN_1413d4df0@1413d4df0
+  CALLER from=1413d5ae2 fn=FUN_1413d5a60@1413d5a60
+  CALLER from=1414b430c fn=FUN_1414b3c00@1414b3c00
+DECOMPILE_BEGIN FUN_1410db300 1410db300
+
+undefined8 FUN_1410db300(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined8 uVar1;
+  undefined1 local_res8 [32];
+  
+  uVar1 = FUN_14109da90(local_res8,&DAT_1458566b8,param_3,param_4,0xfffffffffffffffe);
+  uVar1 = FUN_1410a1fe0(param_1 + 0x10,uVar1,0);
+  FUN_14109dd40(local_res8);
+  return uVar1;
+}
+
+
+DECOMPILE_END FUN_1410db300 1410db300
+------------------------------------------------------------
+FUNCTION_REQUEST 1410db3a0 -> FUN_1410db3a0@1410db3a0
+CALLERS
+  CALLER from=140e75e0e fn=FUN_140e75c10@140e75c10
+  CALLER from=14110c98e fn=FUN_14110c8e0@14110c8e0
+  CALLER from=14110d51c fn=FUN_14110c8e0@14110c8e0
+  CALLER from=14110d99c fn=FUN_14110d960@14110d960
+DECOMPILE_BEGIN FUN_1410db3a0 1410db3a0
+
+void FUN_1410db3a0(longlong param_1,longlong param_2)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  bool bVar3;
+  
+  if (param_2 != *(longlong *)(param_1 + 0xd8)) {
+    *(longlong *)(param_1 + 0xd8) = param_2;
+    lVar2 = *(longlong *)(param_1 + 0xd0);
+    if (*(longlong *)(param_1 + 0xd0) != 0) {
+      while( true ) {
+        FUN_141232950(*(undefined8 *)(lVar2 + 0x78));
+        lVar1 = FUN_1410a5660(lVar2);
+        if (lVar1 == 0) {
+          return;
+        }
+        lVar1 = *(longlong *)(lVar1 + 0x68);
+        if (lVar1 == 0) break;
+        bVar3 = lVar1 == lVar2;
+        lVar2 = lVar1;
+        if (bVar3) {
+          return;
+        }
+      }
+      return;
+    }
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_1410db3a0 1410db3a0
+------------------------------------------------------------
+FUNCTION_REQUEST 1410db540 -> FUN_1410db540@1410db540
+CALLERS
+  CALLER from=1410c3873 fn=FUN_1410c3840@1410c3840
+  CALLER from=140e75e02 fn=FUN_140e75c10@140e75c10
+  CALLER from=1410c38f3 fn=FUN_1410c38c0@1410c38c0
+  CALLER from=1410a18eb fn=FUN_1410a18b0@1410a18b0
+  CALLER from=1410c3973 fn=FUN_1410c3940@1410c3940
+  CALLER from=1410c39f3 fn=FUN_1410c39c0@1410c39c0
+  CALLER from=1410c3a73 fn=FUN_1410c3a40@1410c3a40
+  CALLER from=1410c3d0b fn=FUN_1410c3ac0@1410c3ac0
+  CALLER from=1410c7381 fn=FUN_1410c7350@1410c7350
+  CALLER from=1410c7396 fn=FUN_1410c7350@1410c7350
+  CALLER from=141119639 fn=FUN_141119610@141119610
+  CALLER from=1411196c9 fn=FUN_141119610@141119610
+  CALLER from=141123aea fn=FUN_141123ac0@141123ac0
+  CALLER from=1412c1601 fn=FUN_1412c10c0@1412c10c0
+  CALLER from=1412c1681 fn=FUN_1412c10c0@1412c10c0
+  CALLER from=1412c1701 fn=FUN_1412c10c0@1412c10c0
+  CALLER from=1410a180e fn=FUN_1410a17e0@1410a17e0
+  CALLER from=1410c3823 fn=FUN_1410c3800@1410c3800
+DECOMPILE_BEGIN FUN_1410db540 1410db540
+
+undefined8 FUN_1410db540(longlong param_1)
+
+{
+  return *(undefined8 *)(param_1 + 0xd0);
+}
+
+
+DECOMPILE_END FUN_1410db540 1410db540
+------------------------------------------------------------
+FUNCTION_REQUEST 1410da940 -> FUN_1410da940@1410da940
+CALLERS
+  CALLER from=140e757cb fn=FUN_140e75770@140e75770
+  CALLER from=140e75de2 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e7636e fn=FUN_140e761d0@140e761d0
+  CALLER from=140e785d8 fn=FUN_140e78580@140e78580
+  CALLER from=140e790e9 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e79566 fn=FUN_140e79510@140e79510
+  CALLER from=140e7957f fn=FUN_140e79510@140e79510
+  CALLER from=140e795cc fn=FUN_140e79510@140e79510
+  CALLER from=140e7977b fn=FUN_140e79510@140e79510
+  CALLER from=140e7a75d fn=FUN_140e7a720@140e7a720
+  CALLER from=140e7aa8b fn=FUN_140e7a720@140e7a720
+  CALLER from=1410902a0 fn=FUN_141090230@141090230
+  CALLER from=1410902b6 fn=FUN_141090230@141090230
+  CALLER from=1410920e6 fn=FUN_141092000@141092000
+  CALLER from=1410b9799 fn=FUN_1410b9710@1410b9710
+  CALLER from=141117663 fn=FUN_1411175a0@1411175a0
+  CALLER from=1411ec89f fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ec924 fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ec969 fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ecedb fn=FUN_1411ec680@1411ec680
+  CALLER from=1411f215e fn=FUN_1411f1f80@1411f1f80
+  CALLER from=14120cd10 fn=FUN_14120c8f0@14120c8f0
+  CALLER from=1410fc0b3 fn=FUN_1410fc060@1410fc060
+  CALLER from=1410fc605 fn=FUN_1410fc5d0@1410fc5d0
+  CALLER from=14111617e fn=FUN_141116020@141116020
+  CALLER from=1411170eb fn=FUN_1411170d0@1411170d0
+  CALLER from=14111c2aa fn=FUN_14111c240@14111c240
+  CALLER from=14111c2bb fn=FUN_14111c240@14111c240
+  CALLER from=14111c2e8 fn=FUN_14111c240@14111c240
+  CALLER from=14111c342 fn=FUN_14111c240@14111c240
+  CALLER from=14111c5a6 fn=FUN_14111c240@14111c240
+  CALLER from=14111c5c0 fn=FUN_14111c240@14111c240
+  CALLER from=14111c7a9 fn=FUN_14111c6b0@14111c6b0
+  CALLER from=141279b43 fn=FUN_141279ac0@141279ac0
+  CALLER from=141279bed fn=FUN_141279ac0@141279ac0
+  CALLER from=141279dd4 fn=FUN_141279ac0@141279ac0
+  CALLER from=14127a37d fn=FUN_14127a070@14127a070
+  CALLER from=14127a579 fn=FUN_14127a070@14127a070
+  CALLER from=14127b2f5 fn=FUN_14127b090@14127b090
+  CALLER from=1411a8608 fn=FUN_1411a84d0@1411a84d0
+  CALLER from=1411ada79 fn=FUN_1411ada20@1411ada20
+  CALLER from=14122205e fn=FUN_141221b00@141221b00
+  CALLER from=141222084 fn=FUN_141221b00@141221b00
+  CALLER from=14127905c fn=FUN_141279050@141279050
+  CALLER from=14127907b fn=FUN_141279050@141279050
+  CALLER from=141279e63 fn=FUN_141279e10@141279e10
+  CALLER from=141279e76 fn=FUN_141279e10@141279e10
+  CALLER from=141279e89 fn=FUN_141279e10@141279e10
+  CALLER from=14133b2e2 fn=FUN_14133af90@14133af90
+  CALLER from=14133b446 fn=FUN_14133af90@14133af90
+  CALLER from=14133ed55 fn=FUN_14133ed20@14133ed20
+  CALLER from=14133ef05 fn=FUN_14133eed0@14133eed0
+  CALLER from=14133f06e fn=FUN_14133eff0@14133eff0
+  CALLER from=14133f383 fn=FUN_14133f350@14133f350
+  CALLER from=141342127 fn=FUN_141342020@141342020
+  CALLER from=1413423dc fn=FUN_1413423b0@1413423b0
+  CALLER from=141342788 fn=FUN_1413423b0@1413423b0
+  CALLER from=14134f1ef fn=FUN_14134eee0@14134eee0
+  CALLER from=14134f212 fn=FUN_14134eee0@14134eee0
+  CALLER from=14134f8c8 fn=FUN_14134f610@14134f610
+  CALLER from=14134f900 fn=FUN_14134f610@14134f610
+  CALLER from=14134f956 fn=FUN_14134f610@14134f610
+  CALLER from=1413513ed fn=FUN_141351330@141351330
+  CALLER from=14135142d fn=FUN_141351330@141351330
+  CALLER from=141353277 fn=FUN_1413531b0@1413531b0
+  CALLER from=1413536dc fn=FUN_1413531b0@1413531b0
+  CALLER from=141361080 fn=FUN_141360e80@141360e80
+  CALLER from=141361bbc fn=FUN_141361ac0@141361ac0
+  CALLER from=14136118c fn=FUN_141361150@141361150
+  CALLER from=1413722e7 fn=FUN_141372190@141372190
+  CALLER from=14137234e fn=FUN_141372190@141372190
+  CALLER from=1413779b0 fn=FUN_1413778e0@1413778e0
+  CALLER from=14137c0a9 fn=FUN_14137bbc0@14137bbc0
+  CALLER from=14137c137 fn=FUN_14137bbc0@14137bbc0
+  CALLER from=14137c608 fn=FUN_14137bbc0@14137bbc0
+  CALLER from=1413996ce fn=FUN_141398e10@141398e10
+  CALLER from=14139c639 fn=FUN_14139c450@14139c450
+  CALLER from=14139c70d fn=FUN_14139c450@14139c450
+  CALLER from=14139daa9 fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139db03 fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139db83 fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139dbdd fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139dc6b fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139dd2f fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139ddbc fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139de16 fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139df0b fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139dfac fn=FUN_14139d9b0@14139d9b0
+  CALLER from=14139e08a fn=FUN_14139d9b0@14139d9b0
+  CALLER from=1413a03f1 fn=FUN_14139ff90@14139ff90
+  CALLER from=1413af261 fn=FUN_1413af220@1413af220
+  CALLER from=1413af82c fn=FUN_1413af7b0@1413af7b0
+  CALLER from=1413b973d fn=FUN_1413b96e0@1413b96e0
+  CALLER from=1413bb14a fn=FUN_1413bb080@1413bb080
+  CALLER from=1413bbc3d fn=FUN_1413bbb80@1413bbb80
+  CALLER from=1413bbc51 fn=FUN_1413bbb80@1413bbb80
+  CALLER from=1413bbfe2 fn=FUN_1413bbb80@1413bbb80
+  CALLER from=1413bdb15 fn=FUN_1413bdac0@1413bdac0
+  CALLER from=1413c9e71 fn=FUN_1413c9df0@1413c9df0
+  CALLER from=1413ca275 fn=FUN_1413c9df0@1413c9df0
+DECOMPILE_BEGIN FUN_1410da940 1410da940
+
+undefined8 FUN_1410da940(longlong param_1)
+
+{
+  return *(undefined8 *)(param_1 + 0xb8);
+}
+
+
+DECOMPILE_END FUN_1410da940 1410da940
+------------------------------------------------------------
+FUNCTION_REQUEST 1410d7940 -> FUN_1410d7940@1410d7940
+CALLERS
+  CALLER from=14caae614 fn=<none>
+  CALLER from=140e75e75 fn=FUN_140e75c10@140e75c10
+  CALLER from=1413539db fn=FUN_141353910@141353910
+  CALLER from=141353a70 fn=FUN_141353910@141353910
+  CALLER from=141362115 fn=FUN_1413620e0@1413620e0
+  CALLER from=1413cc7cb fn=FUN_1413cc620@1413cc620
+  CALLER from=1413d5aee fn=FUN_1413d5a60@1413d5a60
+DECOMPILE_BEGIN FUN_1410d7940 1410d7940
+
+void FUN_1410d7940(longlong param_1,undefined8 *param_2)
+
+{
+  undefined4 local_res8 [2];
+  undefined8 local_res10;
+  
+  local_res10 = 0;
+  local_res8[0] = 0x13;
+  FUN_1410a2cd0(param_1 + 0x168,&local_res10,local_res8);
+  *param_2 = local_res10;
+  local_res10 = 0;
+  local_res8[0] = 0x13;
+  FUN_1410a2cd0(param_1 + 0x178,&local_res10,local_res8);
+  param_2[1] = local_res10;
+  return;
+}
+
+
+DECOMPILE_END FUN_1410d7940 1410d7940
+------------------------------------------------------------
+FUNCTION_REQUEST 1410d7760 -> FUN_1410d7760@1410d7760
+CALLERS
+  CALLER from=14caae5cc fn=<none>
+  CALLER from=140e75eb1 fn=FUN_140e75c10@140e75c10
+  CALLER from=1411f5278 fn=FUN_1411f4ea0@1411f4ea0
+  CALLER from=1411f54e5 fn=FUN_1411f5460@1411f5460
+  CALLER from=14127f4b7 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f4e1 fn=FUN_14127eb40@14127eb40
+  CALLER from=141361fb5 fn=FUN_141361f90@141361f90
+  CALLER from=141392955 fn=FUN_141392870@141392870
+  CALLER from=1413823a0 fn=FUN_141382310@141382310
+  CALLER from=141398a84 fn=FUN_141398a70@141398a70
+  CALLER from=1413cc676 fn=FUN_1413cc620@1413cc620
+DECOMPILE_BEGIN FUN_1410d7760 1410d7760
+
+ulonglong FUN_1410d7760(longlong param_1)
+
+{
+  int iVar1;
+  ulonglong uVar2;
+  undefined4 local_res8 [2];
+  uint local_res10 [6];
+  
+  local_res8[0] = 10;
+  FUN_1410a2cd0(param_1 + 0x138,local_res10,local_res8);
+  uVar2 = (ulonglong)local_res10[0];
+  if (local_res10[0] == 0) {
+    iVar1 = FUN_1410879b0();
+    if (iVar1 != 0) {
+      uVar2 = FUN_1410879b0();
+      return uVar2;
+    }
+    uVar2 = 6;
+  }
+  return uVar2;
+}
+
+
+DECOMPILE_END FUN_1410d7760 1410d7760
+------------------------------------------------------------
+FUNCTION_REQUEST 1410c05d0 -> FUN_1410c05d0@1410c05d0
+CALLERS
+  CALLER from=14caad2e8 fn=<none>
+  CALLER from=140e7563c fn=FUN_140e755f0@140e755f0
+  CALLER from=140e757e8 fn=FUN_140e75770@140e75770
+  CALLER from=140e782a1 fn=FUN_140e78260@140e78260
+  CALLER from=140e769f2 fn=FUN_140e76990@140e76990
+  CALLER from=140e76d16 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e77dc6 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7aed6 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e79176 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e7954f fn=FUN_140e79510@140e79510
+  CALLER from=140e7bec3 fn=FUN_140e7beb0@140e7beb0
+  CALLER from=141117185 fn=FUN_141117120@141117120
+  CALLER from=1411172c7 fn=FUN_1411172a0@1411172a0
+  CALLER from=1411f7501 fn=FUN_1411f6dd0@1411f6dd0
+  CALLER from=1410dc416 fn=FUN_1410dc320@1410dc320
+  CALLER from=1410fe904 fn=FUN_1410fe8d0@1410fe8d0
+  CALLER from=1410dc5a3 fn=FUN_1410dc4c0@1410dc4c0
+  CALLER from=1410dc773 fn=FUN_1410dc690@1410dc690
+  CALLER from=1410dccab fn=FUN_1410dcbc0@1410dcbc0
+  CALLER from=14111bf6b fn=FUN_14111be10@14111be10
+  CALLER from=14111c06e fn=FUN_14111be10@14111be10
+  CALLER from=14127ed1f fn=FUN_14127eb40@14127eb40
+  CALLER from=14127ee5b fn=FUN_14127eb40@14127eb40
+  CALLER from=14127ef97 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f0d3 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f20f fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f34b fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f487 fn=FUN_14127eb40@14127eb40
+  CALLER from=1412816e3 fn=FUN_1412816d0@1412816d0
+  CALLER from=141281717 fn=FUN_1412816d0@1412816d0
+  CALLER from=1412817c8 fn=FUN_1412816d0@1412816d0
+  CALLER from=141281bc1 fn=FUN_141281930@141281930
+  CALLER from=141281bd2 fn=FUN_141281930@141281930
+  CALLER from=1411afde3 fn=FUN_1411afc40@1411afc40
+  CALLER from=1412dfe14 fn=FUN_1412dfdc0@1412dfdc0
+  CALLER from=141342c64 fn=FUN_141342850@141342850
+  CALLER from=141342c75 fn=FUN_141342850@141342850
+  CALLER from=141342c8e fn=FUN_141342850@141342850
+  CALLER from=141342ca7 fn=FUN_141342850@141342850
+  CALLER from=141342cdb fn=FUN_141342850@141342850
+  CALLER from=141342d07 fn=FUN_141342850@141342850
+  CALLER from=141342d89 fn=FUN_141342850@141342850
+  CALLER from=141342e15 fn=FUN_141342850@141342850
+  CALLER from=141342e26 fn=FUN_141342850@141342850
+  CALLER from=141342e52 fn=FUN_141342850@141342850
+  CALLER from=141342ff3 fn=FUN_141342850@141342850
+  CALLER from=141343004 fn=FUN_141342850@141342850
+  CALLER from=141343030 fn=FUN_141342850@141342850
+  CALLER from=1413481c8 fn=FUN_141347470@141347470
+  CALLER from=1413481e1 fn=FUN_141347470@141347470
+  CALLER from=141348206 fn=FUN_141347470@141347470
+  CALLER from=141348227 fn=FUN_141347470@141347470
+  CALLER from=141348248 fn=FUN_141347470@141347470
+  CALLER from=141348269 fn=FUN_141347470@141347470
+  CALLER from=141348d44 fn=FUN_141348570@141348570
+  CALLER from=141348d5d fn=FUN_141348570@141348570
+  CALLER from=141348d82 fn=FUN_141348570@141348570
+  CALLER from=141348da3 fn=FUN_141348570@141348570
+  CALLER from=141348dc4 fn=FUN_141348570@141348570
+  CALLER from=141348de5 fn=FUN_141348570@141348570
+  CALLER from=14134a20b fn=FUN_141349020@141349020
+  CALLER from=14134a224 fn=FUN_141349020@141349020
+  CALLER from=14134a249 fn=FUN_141349020@141349020
+  CALLER from=14134a26a fn=FUN_141349020@141349020
+  CALLER from=14134a28b fn=FUN_141349020@141349020
+  CALLER from=14134a2ac fn=FUN_141349020@141349020
+  CALLER from=14134a3be fn=FUN_141349020@141349020
+  CALLER from=14134a3cf fn=FUN_141349020@141349020
+  CALLER from=14134a3e8 fn=FUN_141349020@141349020
+  CALLER from=14134a401 fn=FUN_141349020@141349020
+  CALLER from=14134a41a fn=FUN_141349020@141349020
+  CALLER from=14134a433 fn=FUN_141349020@141349020
+  CALLER from=14134ab4e fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ab63 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ab8f fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134aba3 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134abcf fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134abe4 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ac09 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ac23 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ac48 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ac5b fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134ac6e fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b31a fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b336 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b349 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b439 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b467 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b47b fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b4a9 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b4be fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b4e4 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b4ff fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b525 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b538 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b54b fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134be97 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134beb0 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134bed5 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134bef6 fn=FUN_14134a7e0@14134a7e0
+DECOMPILE_BEGIN FUN_1410c05d0 1410c05d0
+
+void FUN_1410c05d0(longlong param_1)
+
+{
+  undefined4 local_res8 [2];
+  undefined4 local_res10 [6];
+  
+  local_res8[0] = 10;
+  FUN_1410a2cd0(param_1 + 0x4b8,local_res10,local_res8);
+  FUN_1410c07a0(param_1,local_res10[0]);
+  return;
+}
+
+
+DECOMPILE_END FUN_1410c05d0 1410c05d0
+------------------------------------------------------------
+FUNCTION_REQUEST 1410bfd40 -> FUN_1410bfd40@1410bfd40
+CALLERS
+  CALLER from=14caad24c fn=<none>
+  CALLER from=1421edf00 fn=<none>
+  CALLER from=140e756a0 fn=FUN_140e755f0@140e755f0
+  CALLER from=1410bfdd5 fn=FUN_1410bfd40@1410bfd40
+  CALLER from=140e75ba7 fn=FUN_140e75770@140e75770
+  CALLER from=140e7bf9e fn=FUN_140e7bf50@140e7bf50
+  CALLER from=140e7bfd4 fn=FUN_140e7bf50@140e7bf50
+  CALLER from=140e7e5d6 fn=FUN_140e7e580@140e7e580
+  CALLER from=140e79112 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e79120 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e79145 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e791be fn=FUN_140e790b0@140e790b0
+  CALLER from=140e7936f fn=FUN_140e790b0@140e790b0
+  CALLER from=140e797f3 fn=FUN_140e79510@140e79510
+  CALLER from=140e79844 fn=FUN_140e79510@140e79510
+  CALLER from=140e799d5 fn=FUN_140e798b0@140e798b0
+  CALLER from=140e799fc fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7bf09 fn=FUN_140e7beb0@140e7beb0
+  CALLER from=140e7bf33 fn=FUN_140e7beb0@140e7beb0
+  CALLER from=141117148 fn=FUN_141117120@141117120
+  CALLER from=1411171f9 fn=FUN_141117120@141117120
+  CALLER from=14111722e fn=FUN_141117120@141117120
+  CALLER from=141117365 fn=FUN_1411172a0@1411172a0
+  CALLER from=1410dcb0c fn=FUN_1410dcaf0@1410dcaf0
+  CALLER from=1410dcb96 fn=FUN_1410dcaf0@1410dcaf0
+  CALLER from=1411f0cd2 fn=FUN_1411f0b60@1411f0b60
+  CALLER from=1411f0cff fn=FUN_1411f0b60@1411f0b60
+  CALLER from=1410dcc33 fn=FUN_1410dcbc0@1410dcbc0
+  CALLER from=1410dcc62 fn=FUN_1410dcbc0@1410dcbc0
+  CALLER from=14110b828 fn=FUN_14110b770@14110b770
+  CALLER from=14110b84d fn=FUN_14110b770@14110b770
+  CALLER from=14111be72 fn=FUN_14111be10@14111be10
+  CALLER from=14111c2c5 fn=FUN_14111c240@14111c240
+  CALLER from=14111c581 fn=FUN_14111c240@14111c240
+  CALLER from=14111c7b6 fn=FUN_14111c6b0@14111c6b0
+  CALLER from=14127a78d fn=FUN_14127a750@14127a750
+  CALLER from=14127aa43 fn=FUN_14127a750@14127a750
+  CALLER from=14127b2ff fn=FUN_14127b090@14127b090
+  CALLER from=14127b63b fn=FUN_14127b610@14127b610
+  CALLER from=14127b6e8 fn=FUN_14127b610@14127b610
+  CALLER from=141281dd4 fn=FUN_141281db0@141281db0
+  CALLER from=141281df4 fn=FUN_141281db0@141281db0
+  CALLER from=141281e3e fn=FUN_141281db0@141281db0
+  CALLER from=141287465 fn=FUN_141287440@141287440
+  CALLER from=14128748c fn=FUN_141287440@141287440
+  CALLER from=1412875a5 fn=FUN_141287580@141287580
+  CALLER from=1412875cc fn=FUN_141287580@141287580
+  CALLER from=14122026e fn=FUN_14121fe60@14121fe60
+  CALLER from=1412202d6 fn=FUN_14121fe60@14121fe60
+  CALLER from=141220422 fn=FUN_14121fe60@14121fe60
+  CALLER from=141220451 fn=FUN_14121fe60@14121fe60
+  CALLER from=1412206e6 fn=FUN_1412205a0@1412205a0
+  CALLER from=14122070d fn=FUN_1412205a0@1412205a0
+  CALLER from=141220c10 fn=FUN_141220b50@141220b50
+  CALLER from=141220c77 fn=FUN_141220b50@141220b50
+  CALLER from=141279066 fn=FUN_141279050@141279050
+  CALLER from=1412790a5 fn=FUN_141279050@141279050
+  CALLER from=141279165 fn=FUN_1412790e0@1412790e0
+  CALLER from=141287d0c fn=FUN_141287cc0@141287cc0
+  CALLER from=141287d31 fn=FUN_141287cc0@141287cc0
+  CALLER from=141287d8d fn=FUN_141287d50@141287d50
+  CALLER from=141287db2 fn=FUN_141287d50@141287d50
+  CALLER from=141342598 fn=FUN_1413423b0@1413423b0
+  CALLER from=1413432fa fn=FUN_141342850@141342850
+  CALLER from=14134331f fn=FUN_141342850@141342850
+  CALLER from=1413502d9 fn=FUN_141350250@141350250
+  CALLER from=1414ae962 fn=FUN_1414ae910@1414ae910
+  CALLER from=141350a6c fn=FUN_1413509c0@1413509c0
+  CALLER from=141350b57 fn=FUN_141350ab0@141350ab0
+  CALLER from=141351c4e fn=FUN_141351bf0@141351bf0
+  CALLER from=141351fcb fn=FUN_141351f80@141351f80
+  CALLER from=1413521d1 fn=FUN_1413521b0@1413521b0
+  CALLER from=1413521f8 fn=FUN_1413521b0@1413521b0
+  CALLER from=141354e20 fn=FUN_141354180@141354180
+  CALLER from=141361bc9 fn=FUN_141361ac0@141361ac0
+  CALLER from=141361f38 fn=FUN_141361ea0@141361ea0
+  CALLER from=141361f60 fn=FUN_141361ea0@141361ea0
+  CALLER from=14136deb1 fn=FUN_14136dda0@14136dda0
+  CALLER from=14136dee3 fn=FUN_14136dda0@14136dda0
+  CALLER from=141370eec fn=FUN_141370d90@141370d90
+  CALLER from=141370f11 fn=FUN_141370d90@141370d90
+  CALLER from=1413779bd fn=FUN_1413778e0@1413778e0
+  CALLER from=1413779c9 fn=FUN_1413778e0@1413778e0
+  CALLER from=14137835f fn=FUN_1413780b0@1413780b0
+  CALLER from=14137933e fn=FUN_1413783c0@1413783c0
+  CALLER from=1413c9e7b fn=FUN_1413c9df0@1413c9df0
+  CALLER from=1413cbcaf fn=FUN_1413cba40@1413cba40
+  CALLER from=1413d6fc8 fn=FUN_1413d6c60@1413d6c60
+  CALLER from=1413d6ff2 fn=FUN_1413d6c60@1413d6c60
+  CALLER from=1413d70e6 fn=FUN_1413d7030@1413d7030
+  CALLER from=1413d710f fn=FUN_1413d7030@1413d7030
+  CALLER from=1414c581a fn=FUN_1414c51d0@1414c51d0
+  CALLER from=1414c73f8 fn=FUN_1414c7390@1414c7390
+  CALLER from=1414c7873 fn=FUN_1414c7390@1414c7390
+  CALLER from=1413ee01c fn=FUN_1413edfd0@1413edfd0
+  CALLER from=1413ee0c5 fn=FUN_1413ee080@1413ee080
+  CALLER from=1413ee34a fn=FUN_1413ee080@1413ee080
+  CALLER from=1413ee422 fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413eecd7 fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413eedb5 fn=FUN_1413eed70@1413eed70
+DECOMPILE_BEGIN FUN_1410bfd40 1410bfd40
+
+int FUN_1410bfd40(longlong param_1,char param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined8 uVar3;
+  int iVar4;
+  int iVar5;
+  undefined1 local_res8 [8];
+  char local_res10;
+  longlong local_res18;
+  
+  local_res10 = param_2;
+  uVar3 = FUN_14109da90(local_res8,&DAT_145856518,param_3,param_4,0xfffffffffffffffe);
+  param_1 = param_1 + 0x10;
+  local_res18 = param_1;
+  iVar1 = FUN_1410a1e90(param_1,uVar3);
+  FUN_14109dd40(local_res8);
+  iVar5 = iVar1;
+  if ((param_2 != '\0') && (iVar4 = 0, 0 < iVar1)) {
+    do {
+      uVar3 = FUN_14109da90(local_res8,&DAT_145856518);
+      uVar3 = FUN_1410a1fe0(param_1,uVar3,iVar4);
+      FUN_14109dd40(local_res8);
+      iVar2 = FUN_1410bfd40(uVar3,local_res10);
+      iVar5 = iVar5 + iVar2;
+      iVar4 = iVar4 + 1;
+      param_1 = local_res18;
+    } while (iVar4 < iVar1);
+  }
+  return iVar5;
+}
+
+
+DECOMPILE_END FUN_1410bfd40 1410bfd40
+------------------------------------------------------------
+FUNCTION_REQUEST 1410bfe00 -> FUN_1410bfe00@1410bfe00
+CALLERS
+  CALLER from=14caad258 fn=<none>
+  CALLER from=1421edf44 fn=<none>
+  CALLER from=140e756b5 fn=FUN_140e755f0@140e755f0
+  CALLER from=140e75bb8 fn=FUN_140e75770@140e75770
+  CALLER from=140e7bfb5 fn=FUN_140e7bf50@140e7bf50
+  CALLER from=140e7e5e8 fn=FUN_140e7e580@140e7e580
+  CALLER from=140e79166 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e79816 fn=FUN_140e79510@140e79510
+  CALLER from=140e799e5 fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7bf17 fn=FUN_140e7beb0@140e7beb0
+  CALLER from=14111716b fn=FUN_141117120@141117120
+  CALLER from=14111720b fn=FUN_141117120@141117120
+  CALLER from=141117245 fn=FUN_141117120@141117120
+  CALLER from=141117375 fn=FUN_1411172a0@1411172a0
+  CALLER from=1410dcb25 fn=FUN_1410dcaf0@1410dcaf0
+  CALLER from=1411f0ce5 fn=FUN_1411f0b60@1411f0b60
+  CALLER from=1410dcc46 fn=FUN_1410dcbc0@1410dcbc0
+  CALLER from=14110b836 fn=FUN_14110b770@14110b770
+  CALLER from=14111bf16 fn=FUN_14111be10@14111be10
+  CALLER from=14111c2f2 fn=FUN_14111c240@14111c240
+  CALLER from=14111c34c fn=FUN_14111c240@14111c240
+  CALLER from=14111c59b fn=FUN_14111c240@14111c240
+  CALLER from=14111c7c6 fn=FUN_14111c6b0@14111c6b0
+  CALLER from=14127a7a8 fn=FUN_14127a750@14127a750
+  CALLER from=14127b655 fn=FUN_14127b610@14127b610
+  CALLER from=141281e05 fn=FUN_141281db0@141281db0
+  CALLER from=141287475 fn=FUN_141287440@141287440
+  CALLER from=1412875b5 fn=FUN_141287580@141287580
+  CALLER from=1412202ba fn=FUN_14121fe60@14121fe60
+  CALLER from=141220439 fn=FUN_14121fe60@14121fe60
+  CALLER from=1412206f8 fn=FUN_1412205a0@1412205a0
+  CALLER from=141220c5c fn=FUN_141220b50@141220b50
+  CALLER from=141279085 fn=FUN_141279050@141279050
+  CALLER from=1412790b4 fn=FUN_141279050@141279050
+  CALLER from=141279189 fn=FUN_1412790e0@1412790e0
+  CALLER from=141287d1a fn=FUN_141287cc0@141287cc0
+  CALLER from=141287d9b fn=FUN_141287d50@141287d50
+  CALLER from=141343308 fn=FUN_141342850@141342850
+  CALLER from=141350304 fn=FUN_141350250@141350250
+  CALLER from=141350313 fn=FUN_141350250@141350250
+  CALLER from=1414ae98b fn=FUN_1414ae910@1414ae910
+  CALLER from=1414ae9a2 fn=FUN_1414ae910@1414ae910
+  CALLER from=141350a85 fn=FUN_1413509c0@1413509c0
+  CALLER from=141350b69 fn=FUN_141350ab0@141350ab0
+  CALLER from=141351e17 fn=FUN_141351bf0@141351bf0
+  CALLER from=141352158 fn=FUN_141351f80@141351f80
+  CALLER from=14136dec5 fn=FUN_14136dda0@14136dda0
+  CALLER from=141370efa fn=FUN_141370d90@141370d90
+  CALLER from=141377eb5 fn=FUN_1413778e0@1413778e0
+  CALLER from=141377fca fn=FUN_1413778e0@1413778e0
+  CALLER from=141378375 fn=FUN_1413780b0@1413780b0
+  CALLER from=141379357 fn=FUN_1413783c0@1413783c0
+  CALLER from=1413d6fd6 fn=FUN_1413d6c60@1413d6c60
+  CALLER from=1413d70f5 fn=FUN_1413d7030@1413d7030
+  CALLER from=1414c5e28 fn=FUN_1414c5bd0@1414c5bd0
+  CALLER from=1414c6edf fn=FUN_1414c6ea0@1414c6ea0
+  CALLER from=1414c78c9 fn=FUN_1414c7390@1414c7390
+  CALLER from=1413ee035 fn=FUN_1413edfd0@1413edfd0
+  CALLER from=1413ee366 fn=FUN_1413ee080@1413ee080
+  CALLER from=1413ee374 fn=FUN_1413ee080@1413ee080
+  CALLER from=1413eecea fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413eecf8 fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413eeff8 fn=FUN_1413eed70@1413eed70
+  CALLER from=1413ef005 fn=FUN_1413eed70@1413eed70
+  CALLER from=1413ef185 fn=FUN_1413ef050@1413ef050
+  CALLER from=1413ef367 fn=FUN_1413ef1d0@1413ef1d0
+  CALLER from=1413ef374 fn=FUN_1413ef1d0@1413ef1d0
+  CALLER from=1413ef7e7 fn=FUN_1413ef3d0@1413ef3d0
+  CALLER from=1413ef7f6 fn=FUN_1413ef3d0@1413ef3d0
+  CALLER from=1413ef965 fn=FUN_1413ef8d0@1413ef8d0
+  CALLER from=1413efa45 fn=FUN_1413ef9a0@1413ef9a0
+  CALLER from=1413efb25 fn=FUN_1413efa80@1413efa80
+  CALLER from=1413f4e55 fn=FUN_1413f4d90@1413f4d90
+  CALLER from=1413f6656 fn=FUN_1413f5180@1413f5180
+  CALLER from=1414880e8 fn=FUN_141488090@141488090
+  CALLER from=141488605 fn=FUN_1414885b0@1414885b0
+  CALLER from=1414b6185 fn=FUN_1414b6120@1414b6120
+DECOMPILE_BEGIN FUN_1410bfe00 1410bfe00
+
+undefined8 FUN_1410bfe00(longlong param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined8 uVar1;
+  undefined1 local_res8 [8];
+  
+  uVar1 = FUN_14109da90(local_res8,&DAT_145856518,param_3,param_4,0xfffffffffffffffe);
+  uVar1 = FUN_1410a1fe0(param_1 + 0x10,uVar1,param_2);
+  FUN_14109dd40(local_res8);
+  return uVar1;
+}
+
+
+DECOMPILE_END FUN_1410bfe00 1410bfe00
+------------------------------------------------------------
+FUNCTION_REQUEST 1410a5b20 -> FUN_1410a5b20@1410a5b20
+CALLERS
+  CALLER from=140e75617 fn=FUN_140e755f0@140e755f0
+  CALLER from=140e7580b fn=FUN_140e75770@140e75770
+  CALLER from=140e75cbb fn=FUN_140e75c10@140e75c10
+  CALLER from=140e782a9 fn=FUN_140e78260@140e78260
+  CALLER from=140e7bf6b fn=FUN_140e7bf50@140e7bf50
+  CALLER from=140e76237 fn=FUN_140e761d0@140e761d0
+  CALLER from=140e76362 fn=FUN_140e761d0@140e761d0
+  CALLER from=140e769dc fn=FUN_140e76990@140e76990
+  CALLER from=140e76a1c fn=FUN_140e76990@140e76990
+  CALLER from=140e76cfe fn=FUN_140e76c80@140e76c80
+  CALLER from=140e76d40 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e771fa fn=FUN_140e771c0@140e771c0
+  CALLER from=140e7763a fn=FUN_140e775f0@140e775f0
+  CALLER from=140e7766b fn=FUN_140e775f0@140e775f0
+  CALLER from=140e77dae fn=FUN_140e77d30@140e77d30
+  CALLER from=140e77df0 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7aebe fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7af00 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7b3a0 fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7b3d1 fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7bb5e fn=FUN_140e7b350@140e7b350
+  CALLER from=1410a07c5 fn=FUN_1410a07a0@1410a07a0
+  CALLER from=140e78636 fn=FUN_140e78580@140e78580
+  CALLER from=140e7877c fn=FUN_140e78580@140e78580
+  CALLER from=140e79aff fn=FUN_140e79a60@140e79a60
+  CALLER from=140e79db4 fn=FUN_140e79a60@140e79a60
+  CALLER from=140e7a2ea fn=FUN_140e79a60@140e79a60
+  CALLER from=1410f7df8 fn=FUN_1410f7de0@1410f7de0
+  CALLER from=1410f83e4 fn=FUN_1410f83a0@1410f83a0
+  CALLER from=1411018fa fn=FUN_141101860@141101860
+  CALLER from=141101955 fn=FUN_141101860@141101860
+  CALLER from=1410e0844 fn=FUN_1410e0820@1410e0820
+  CALLER from=1410e09f9 fn=FUN_1410e0990@1410e0990
+  CALLER from=141103a67 fn=FUN_1411038e0@1411038e0
+  CALLER from=141103ac2 fn=FUN_1411038e0@1411038e0
+  CALLER from=141117d2e fn=FUN_141117cf0@141117cf0
+  CALLER from=141119730 fn=FUN_141119700@141119700
+  CALLER from=140e79388 fn=FUN_140e790b0@140e790b0
+  CALLER from=140e7955a fn=FUN_140e79510@140e79510
+  CALLER from=140e798e1 fn=FUN_140e798b0@140e798b0
+  CALLER from=1410be842 fn=FUN_1410be7b0@1410be7b0
+  CALLER from=14111c848 fn=FUN_14111c830@14111c830
+  CALLER from=1410db485 fn=FUN_1410db3d0@1410db3d0
+  CALLER from=1411ecb56 fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ef0e8 fn=FUN_1411ef050@1411ef050
+  CALLER from=1411ef8b3 fn=FUN_1411ef800@1411ef800
+  CALLER from=1411ef8f0 fn=FUN_1411ef800@1411ef800
+  CALLER from=1410e60e2 fn=FUN_1410e5f60@1410e5f60
+  CALLER from=14111a720 fn=FUN_14111a540@14111a540
+  CALLER from=14111a810 fn=FUN_14111a540@14111a540
+  CALLER from=1410bffdf fn=FUN_1410bfec0@1410bfec0
+  CALLER from=1411f0f39 fn=FUN_1411f0e80@1411f0e80
+  CALLER from=1411605fa fn=FUN_1411605c0@1411605c0
+  CALLER from=141160610 fn=FUN_1411605c0@1411605c0
+  CALLER from=1411f1b97 fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1411f1beb fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1411f26c5 fn=FUN_1411f2450@1411f2450
+  CALLER from=141200f2a fn=FUN_141200e00@141200e00
+  CALLER from=141200ffa fn=FUN_141200e00@141200e00
+  CALLER from=141118f73 fn=FUN_141118f00@141118f00
+  CALLER from=1410de01a fn=FUN_1410ddc60@1410ddc60
+  CALLER from=1412ddab9 fn=FUN_1412dd9a0@1412dd9a0
+  CALLER from=141203acb fn=FUN_141203a00@141203a00
+  CALLER from=1410c47c8 fn=FUN_1410c4740@1410c4740
+  CALLER from=1410dbae3 fn=FUN_1410dba60@1410dba60
+  CALLER from=1410dd129 fn=FUN_1410dcbc0@1410dcbc0
+  CALLER from=1410dd612 fn=FUN_1410dd5e0@1410dd5e0
+  CALLER from=1410e1009 fn=FUN_1410e0fa0@1410e0fa0
+  CALLER from=1410e5cf0 fn=FUN_1410e5ca0@1410e5ca0
+  CALLER from=1410e6687 fn=FUN_1410e64b0@1410e64b0
+  CALLER from=1410e6c25 fn=FUN_1410e6b10@1410e6b10
+  CALLER from=1410f7010 fn=FUN_1410f6fc0@1410f6fc0
+  CALLER from=1410f7d78 fn=FUN_1410f7d60@1410f7d60
+  CALLER from=141101cb6 fn=FUN_141101c20@141101c20
+  CALLER from=141101d04 fn=FUN_141101c20@141101c20
+  CALLER from=1410fa83b fn=FUN_1410fa400@1410fa400
+  CALLER from=14110cf4a fn=FUN_14110c8e0@14110c8e0
+  CALLER from=141114921 fn=FUN_141114880@141114880
+  CALLER from=141114c01 fn=FUN_141114ad0@141114ad0
+  CALLER from=141115503 fn=FUN_141115430@141115430
+  CALLER from=141115566 fn=FUN_141115430@141115430
+  CALLER from=1411155ba fn=FUN_141115430@141115430
+  CALLER from=141115618 fn=FUN_141115430@141115430
+  CALLER from=141115678 fn=FUN_141115430@141115430
+  CALLER from=141118c51 fn=FUN_141118ba0@141118ba0
+  CALLER from=14111a0f0 fn=FUN_141119f10@141119f10
+  CALLER from=14111a1e3 fn=FUN_141119f10@141119f10
+  CALLER from=14111a211 fn=FUN_141119f10@141119f10
+  CALLER from=14111c303 fn=FUN_14111c240@14111c240
+  CALLER from=141143ced fn=FUN_141143bf0@141143bf0
+  CALLER from=141287538 fn=FUN_141287440@141287440
+  CALLER from=141287675 fn=FUN_141287580@141287580
+  CALLER from=14115c895 fn=FUN_14115c880@14115c880
+  CALLER from=1411649b6 fn=FUN_141164920@141164920
+  CALLER from=141168f02 fn=FUN_141168e50@141168e50
+  CALLER from=1411729e5 fn=FUN_141172940@141172940
+  CALLER from=1411794b0 fn=FUN_141179460@141179460
+  CALLER from=14117a0e4 fn=FUN_14117a090@14117a090
+  CALLER from=14118d375 fn=FUN_14118d2c0@14118d2c0
+  CALLER from=14118e33c fn=FUN_14118e2f0@14118e2f0
+DECOMPILE_BEGIN FUN_1410a5b20 1410a5b20
+
+void FUN_1410a5b20(longlong param_1)
+
+{
+  FUN_1411243d0(param_1 + 0x20);
+  return;
+}
+
+
+DECOMPILE_END FUN_1410a5b20 1410a5b20
+------------------------------------------------------------
+FUNCTION_REQUEST 14109da90 -> FUN_14109da90@14109da90
+CALLERS
+  CALLER from=14caab704 fn=<none>
+  CALLER from=1410bfd6b fn=FUN_1410bfd40@1410bfd40
+  CALLER from=1410bfdac fn=FUN_1410bfd40@1410bfd40
+  CALLER from=1410a1eb6 fn=FUN_1410a1e90@1410a1e90
+  CALLER from=1410a200e fn=FUN_1410a1fe0@1410a1fe0
+  CALLER from=1410bfe25 fn=FUN_1410bfe00@1410bfe00
+  CALLER from=1410c07ca fn=FUN_1410c07a0@1410c07a0
+  CALLER from=1410c07f8 fn=FUN_1410c07a0@1410c07a0
+  CALLER from=1410bfbbe fn=FUN_1410bfba0@1410bfba0
+  CALLER from=1410a260e fn=FUN_1410a25e0@1410a25e0
+  CALLER from=1410a57ae fn=FUN_1410a5790@1410a5790
+  CALLER from=140e75c59 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75c94 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75d77 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75db1 fn=FUN_140e75c10@140e75c10
+  CALLER from=1410db31e fn=FUN_1410db300@1410db300
+  CALLER from=1410c1026 fn=FUN_1410c0fb0@1410c0fb0
+  CALLER from=1410e0893 fn=FUN_1410e0870@1410e0870
+  CALLER from=1410e08c6 fn=FUN_1410e0870@1410e0870
+  CALLER from=1410e4aef fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b14 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b4c fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b7d fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4c2e fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4c6c fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4c9d fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4a2f fn=FUN_1410e49f0@1410e49f0
+  CALLER from=1410e4a64 fn=FUN_1410e49f0@1410e49f0
+  CALLER from=1410f6c4e fn=FUN_1410f6c30@1410f6c30
+  CALLER from=1410f6ca5 fn=FUN_1410f6c80@1410f6c80
+  CALLER from=1410c465e fn=FUN_1410c4640@1410c4640
+  CALLER from=1410c46b5 fn=FUN_1410c4690@1410c4690
+  CALLER from=1410a1e4e fn=FUN_1410a1e30@1410a1e30
+  CALLER from=1410a1f85 fn=FUN_1410a1f60@1410a1f60
+  CALLER from=1410f77b1 fn=FUN_1410f75f0@1410f75f0
+  CALLER from=1410f782b fn=FUN_1410f75f0@1410f75f0
+  CALLER from=1410f786d fn=FUN_1410f75f0@1410f75f0
+  CALLER from=1410f7910 fn=FUN_1410f75f0@1410f75f0
+  CALLER from=1410a24b6 fn=FUN_1410a2490@1410a2490
+  CALLER from=1410c09ed fn=FUN_1410c09b0@1410c09b0
+  CALLER from=1410c071b fn=FUN_1410c06e0@1410c06e0
+  CALLER from=1410c086a fn=FUN_1410c0840@1410c0840
+  CALLER from=1410c0898 fn=FUN_1410c0840@1410c0840
+  CALLER from=1410c0ac0 fn=FUN_1410c0a90@1410c0a90
+  CALLER from=1410c0ba0 fn=FUN_1410c0b30@1410c0b30
+  CALLER from=1410c1356 fn=FUN_1410c12e0@1410c12e0
+  CALLER from=1410e4885 fn=FUN_1410e4850@1410e4850
+  CALLER from=1410e4ea9 fn=FUN_1410e4e40@1410e4e40
+  CALLER from=1410e4eda fn=FUN_1410e4e40@1410e4e40
+  CALLER from=1410a1d2e fn=FUN_1410a1d10@1410a1d10
+  CALLER from=14110391e fn=FUN_1411038e0@1411038e0
+  CALLER from=14110396c fn=FUN_1411038e0@1411038e0
+  CALLER from=141103999 fn=FUN_1411038e0@1411038e0
+  CALLER from=1411039ec fn=FUN_1411038e0@1411038e0
+  CALLER from=141103ccc fn=FUN_141103c40@141103c40
+  CALLER from=141103d0b fn=FUN_141103c40@141103c40
+  CALLER from=141103e9a fn=FUN_141103c40@141103c40
+  CALLER from=1410a244e fn=FUN_1410a2430@1410a2430
+  CALLER from=1410e70a6 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e70dc fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e7137 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e7168 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e719f fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e71d0 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e723c fn=FUN_1410e7080@1410e7080
+  CALLER from=141118967 fn=FUN_141118910@141118910
+  CALLER from=1411199f5 fn=FUN_1411199a0@1411199a0
+  CALLER from=141119a24 fn=FUN_1411199a0@1411199a0
+  CALLER from=14111978c fn=FUN_141119700@141119700
+  CALLER from=1411197b9 fn=FUN_141119700@141119700
+  CALLER from=141161faa fn=FUN_141161f80@141161f80
+  CALLER from=141161fd8 fn=FUN_141161f80@141161f80
+  CALLER from=1411791ae fn=FUN_141179190@141179190
+  CALLER from=141179205 fn=FUN_1411791e0@1411791e0
+  CALLER from=141179b9e fn=FUN_141179b80@141179b80
+  CALLER from=141179bf5 fn=FUN_141179bd0@141179bd0
+  CALLER from=1411940b5 fn=FUN_141194090@141194090
+  CALLER from=14119416e fn=FUN_141194150@141194150
+  CALLER from=141233570 fn=FUN_141233540@141233540
+  CALLER from=14123359d fn=FUN_141233540@141233540
+  CALLER from=1410924bc fn=FUN_1410923f0@1410923f0
+  CALLER from=1410924fb fn=FUN_1410923f0@1410923f0
+  CALLER from=141092528 fn=FUN_1410923f0@1410923f0
+  CALLER from=14109255b fn=FUN_1410923f0@1410923f0
+  CALLER from=1410926d1 fn=FUN_1410923f0@1410923f0
+  CALLER from=141092707 fn=FUN_1410923f0@1410923f0
+  CALLER from=1410db1ce fn=FUN_1410db1b0@1410db1b0
+  CALLER from=1410db225 fn=FUN_1410db200@1410db200
+  CALLER from=141115fbb fn=FUN_141115f70@141115f70
+  CALLER from=1411173e4 fn=FUN_1411173b0@1411173b0
+  CALLER from=14111746c fn=FUN_1411173b0@1411173b0
+  CALLER from=1410a21b3 fn=FUN_1410a2180@1410a2180
+  CALLER from=1410a4795 fn=FUN_1410a4770@1410a4770
+  CALLER from=1410a47f5 fn=FUN_1410a47d0@1410a47d0
+  CALLER from=1410be7e2 fn=FUN_1410be7b0@1410be7b0
+  CALLER from=1410be81c fn=FUN_1410be7b0@1410be7b0
+  CALLER from=1411175dd fn=FUN_1411175a0@1411175a0
+  CALLER from=14111760f fn=FUN_1411175a0@1411175a0
+  CALLER from=1411178cb fn=FUN_141117870@141117870
+  CALLER from=141117902 fn=FUN_141117870@141117870
+DECOMPILE_BEGIN FUN_14109da90 14109da90
+
+undefined8
+FUN_14109da90(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined4 uVar1;
+  
+  uVar1 = 0;
+  if (DAT_145856260 == 0) {
+    DAT_145856260 = FUN_14109f200();
+  }
+  FUN_14109e710(DAT_145856260,param_1,param_2,param_4,uVar1);
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_14109da90 14109da90
+------------------------------------------------------------
+FUNCTION_REQUEST 14109dd40 -> FUN_14109dd40@14109dd40
+CALLERS
+  CALLER from=14caab74c fn=<none>
+  CALLER from=1421e6790 fn=<none>
+  CALLER from=1418c0ff4 fn=Unwind@1418c0fd6@1418c0fd6
+  CALLER from=1418c103f fn=Unwind@1418c1021@1418c1021
+  CALLER from=1418c19c3 fn=Unwind@1418c19a2@1418c19a2
+  CALLER from=1418c19ef fn=Unwind@1418c19ce@1418c19ce
+  CALLER from=1418c1a57 fn=Unwind@1418c1a36@1418c1a36
+  CALLER from=1418c1a83 fn=Unwind@1418c1a62@1418c1a62
+  CALLER from=1418c1f77 fn=Unwind@1418c1f59@1418c1f59
+  CALLER from=1418c1fa0 fn=Unwind@1418c1f82@1418c1f82
+  CALLER from=1418c3a55 fn=Unwind@1418c3a34@1418c3a34
+  CALLER from=1418c3a81 fn=Unwind@1418c3a60@1418c3a60
+  CALLER from=1418c4601 fn=Unwind@1418c45e3@1418c45e3
+  CALLER from=1418c4684 fn=Unwind@1418c4669@1418c4669
+  CALLER from=1418c5d52 fn=Unwind@1418c5d2e@1418c5d2e
+  CALLER from=1418c5d7e fn=Unwind@1418c5d5d@1418c5d5d
+  CALLER from=1418c5dd7 fn=Unwind@1418c5db9@1418c5db9
+  CALLER from=1418c5dfd fn=Unwind@1418c5de2@1418c5de2
+  CALLER from=1418c5e56 fn=Unwind@1418c5e38@1418c5e38
+  CALLER from=1418c5e7c fn=Unwind@1418c5e61@1418c5e61
+  CALLER from=1418c92c8 fn=Unwind@1418c92a7@1418c92a7
+  CALLER from=1418c92f4 fn=Unwind@1418c92d3@1418c92d3
+  CALLER from=1418c9350 fn=Unwind@1418c932f@1418c932f
+  CALLER from=1418c937c fn=Unwind@1418c935b@1418c935b
+  CALLER from=1418ca68d fn=Unwind@1418ca66c@1418ca66c
+  CALLER from=1418ca6b9 fn=Unwind@1418ca698@1418ca698
+  CALLER from=1418d15ed fn=Unwind@1418d15cc@1418d15cc
+  CALLER from=1418d1619 fn=Unwind@1418d15f8@1418d15f8
+  CALLER from=1418d5b25 fn=Unwind@1418d5b04@1418d5b04
+  CALLER from=1418d5b51 fn=Unwind@1418d5b30@1418d5b30
+  CALLER from=1418d5bc5 fn=Unwind@1418d5ba4@1418d5ba4
+  CALLER from=1418d5bf1 fn=Unwind@1418d5bd0@1418d5bd0
+  CALLER from=1418d87cc fn=Unwind@1418d87ab@1418d87ab
+  CALLER from=1418d87f8 fn=Unwind@1418d87d7@1418d87d7
+  CALLER from=1418d89a8 fn=Unwind@1418d8987@1418d8987
+  CALLER from=1418d89d4 fn=Unwind@1418d89b3@1418d89b3
+  CALLER from=1418d8a5d fn=Unwind@1418d8a3f@1418d8a3f
+  CALLER from=1418d8a86 fn=Unwind@1418d8a68@1418d8a68
+  CALLER from=1418d8d2a fn=Unwind@1418d8d0c@1418d8d0c
+  CALLER from=1418d8d53 fn=Unwind@1418d8d35@1418d8d35
+  CALLER from=1418e98f7 fn=Unwind@1418e98d6@1418e98d6
+  CALLER from=1418e9923 fn=Unwind@1418e9902@1418e9902
+  CALLER from=1418e9997 fn=Unwind@1418e9976@1418e9976
+  CALLER from=1418e99c6 fn=Unwind@1418e99a2@1418e99a2
+  CALLER from=1418ea52b fn=Unwind@1418ea50a@1418ea50a
+  CALLER from=1418ea557 fn=Unwind@1418ea536@1418ea536
+  CALLER from=1418eb1ac fn=Unwind@1418eb18b@1418eb18b
+  CALLER from=1418eb1d8 fn=Unwind@1418eb1b7@1418eb1b7
+  CALLER from=1418eb24c fn=Unwind@1418eb22b@1418eb22b
+  CALLER from=1418eb278 fn=Unwind@1418eb257@1418eb257
+  CALLER from=1418ebd73 fn=Unwind@1418ebd52@1418ebd52
+  CALLER from=1418ebd9f fn=Unwind@1418ebd7e@1418ebd7e
+  CALLER from=1418ecd49 fn=Unwind@1418ecd28@1418ecd28
+  CALLER from=1418ecd75 fn=Unwind@1418ecd54@1418ecd54
+  CALLER from=1418ed3ee fn=Unwind@1418ed3d0@1418ed3d0
+  CALLER from=1418ed414 fn=Unwind@1418ed3f9@1418ed3f9
+  CALLER from=1418ee52e fn=Unwind@1418ee50a@1418ee50a
+  CALLER from=1418ee55d fn=Unwind@1418ee539@1418ee539
+  CALLER from=1418ee5a2 fn=Unwind@1418ee57e@1418ee57e
+  CALLER from=1418ee5d1 fn=Unwind@1418ee5ad@1418ee5ad
+  CALLER from=1418eec88 fn=Unwind@1418eec64@1418eec64
+  CALLER from=1418eecb4 fn=Unwind@1418eec93@1418eec93
+  CALLER from=1410bfd8c fn=FUN_1410bfd40@1410bfd40
+  CALLER from=1410bfdc8 fn=FUN_1410bfd40@1410bfd40
+  CALLER from=1410a1ee8 fn=FUN_1410a1e90@1410a1e90
+  CALLER from=1410a1ef3 fn=FUN_1410a1e90@1410a1e90
+  CALLER from=1410a2054 fn=FUN_1410a1fe0@1410a1fe0
+  CALLER from=1410a205f fn=FUN_1410a1fe0@1410a1fe0
+  CALLER from=1410bfe42 fn=FUN_1410bfe00@1410bfe00
+  CALLER from=1410c07e3 fn=FUN_1410c07a0@1410c07a0
+  CALLER from=1410c0815 fn=FUN_1410c07a0@1410c07a0
+  CALLER from=1410bfbdb fn=FUN_1410bfba0@1410bfba0
+  CALLER from=1410a2654 fn=FUN_1410a25e0@1410a25e0
+  CALLER from=1410a265f fn=FUN_1410a25e0@1410a25e0
+  CALLER from=1410a57cb fn=FUN_1410a5790@1410a5790
+  CALLER from=140e75c75 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75cb3 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75d92 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75dd0 fn=FUN_140e75c10@140e75c10
+  CALLER from=1410db33b fn=FUN_1410db300@1410db300
+  CALLER from=1410c1040 fn=FUN_1410c0fb0@1410c0fb0
+  CALLER from=1410e08ac fn=FUN_1410e0870@1410e0870
+  CALLER from=1410e08e3 fn=FUN_1410e0870@1410e0870
+  CALLER from=1410e4b08 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b31 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b64 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b99 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4c4b fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4c84 fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4cb9 fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4a4b fn=FUN_1410e49f0@1410e49f0
+  CALLER from=1410e4a80 fn=FUN_1410e49f0@1410e49f0
+  CALLER from=1410f6c67 fn=FUN_1410f6c30@1410f6c30
+  CALLER from=1410f6cc2 fn=FUN_1410f6c80@1410f6c80
+  CALLER from=1410c4677 fn=FUN_1410c4640@1410c4640
+  CALLER from=1410c46d2 fn=FUN_1410c4690@1410c4690
+  CALLER from=1410a1e6f fn=FUN_1410a1e30@1410a1e30
+  CALLER from=1410a1fba fn=FUN_1410a1f60@1410a1f60
+  CALLER from=1410f77d3 fn=FUN_1410f75f0@1410f75f0
+  CALLER from=1410f7844 fn=FUN_1410f75f0@1410f75f0
+DECOMPILE_BEGIN FUN_14109dd40 14109dd40
+
+void FUN_14109dd40(longlong *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong *plVar1;
+  
+  param_1 = (longlong *)*param_1;
+  if (param_1 != (longlong *)0x0) {
+    plVar1 = param_1 + 3;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    if ((int)*plVar1 == 0) {
+      (**(code **)(*param_1 + 0x18))(param_1,0,param_3,param_4,0xfffffffffffffffe);
+      FUN_141084380(param_1);
+      return;
+    }
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_14109dd40 14109dd40
+------------------------------------------------------------
+FUNCTION_REQUEST 1410a1e90 -> FUN_1410a1e90@1410a1e90
+CALLERS
+  CALLER from=14caabbe4 fn=<none>
+  CALLER from=1421e79a0 fn=<none>
+  CALLER from=1410bfd80 fn=FUN_1410bfd40@1410bfd40
+  CALLER from=1410c07d7 fn=FUN_1410c07a0@1410c07a0
+  CALLER from=140e75c66 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75d84 fn=FUN_140e75c10@140e75c10
+  CALLER from=1410c1033 fn=FUN_1410c0fb0@1410c0fb0
+  CALLER from=1410e08a0 fn=FUN_1410e0870@1410e0870
+  CALLER from=1410e4afc fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b24 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4b58 fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4c3e fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4c78 fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4a3f fn=FUN_1410e49f0@1410e49f0
+  CALLER from=1410f6c5b fn=FUN_1410f6c30@1410f6c30
+  CALLER from=1410c466b fn=FUN_1410c4640@1410c4640
+  CALLER from=1410f791d fn=FUN_1410f75f0@1410f75f0
+  CALLER from=1410c09fa fn=FUN_1410c09b0@1410c09b0
+  CALLER from=1410c0728 fn=FUN_1410c06e0@1410c06e0
+  CALLER from=1410c0877 fn=FUN_1410c0840@1410c0840
+  CALLER from=1410c0acd fn=FUN_1410c0a90@1410c0a90
+  CALLER from=1410c0bad fn=FUN_1410c0b30@1410c0b30
+  CALLER from=1410c1363 fn=FUN_1410c12e0@1410c12e0
+  CALLER from=1410e4892 fn=FUN_1410e4850@1410e4850
+  CALLER from=1410e4eb9 fn=FUN_1410e4e40@1410e4e40
+  CALLER from=14110392e fn=FUN_1411038e0@1411038e0
+  CALLER from=1411039ae fn=FUN_1411038e0@1411038e0
+  CALLER from=141103ce0 fn=FUN_141103c40@141103c40
+  CALLER from=141103ea6 fn=FUN_141103c40@141103c40
+  CALLER from=1410e70b6 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e70e8 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e7143 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e7178 fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e71ab fn=FUN_1410e7080@1410e7080
+  CALLER from=1410e7248 fn=FUN_1410e7080@1410e7080
+  CALLER from=141118975 fn=FUN_141118910@141118910
+  CALLER from=141119a03 fn=FUN_1411199a0@1411199a0
+  CALLER from=141119798 fn=FUN_141119700@141119700
+  CALLER from=1411791bb fn=FUN_141179190@141179190
+  CALLER from=141179bab fn=FUN_141179b80@141179b80
+  CALLER from=14119417b fn=FUN_141194150@141194150
+  CALLER from=14123357c fn=FUN_141233540@141233540
+  CALLER from=1410924d0 fn=FUN_1410923f0@1410923f0
+  CALLER from=141092538 fn=FUN_1410923f0@1410923f0
+  CALLER from=1410926dd fn=FUN_1410923f0@1410923f0
+  CALLER from=141092713 fn=FUN_1410923f0@1410923f0
+  CALLER from=1410db1db fn=FUN_1410db1b0@1410db1b0
+  CALLER from=1410be7f0 fn=FUN_1410be7b0@1410be7b0
+  CALLER from=1411178db fn=FUN_141117870@141117870
+  CALLER from=1410db41a fn=FUN_1410db3d0@1410db3d0
+  CALLER from=141117c50 fn=FUN_141117c10@141117c10
+  CALLER from=141117c7e fn=FUN_141117c10@141117c10
+  CALLER from=1410a97b4 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9f57 fn=FUN_1410a9730@1410a9730
+  CALLER from=1411ecf4a fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ed049 fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ed0ca fn=FUN_1411ec680@1411ec680
+  CALLER from=1410dca4e fn=FUN_1410dca10@1410dca10
+  CALLER from=1410de353 fn=FUN_1410de310@1410de310
+  CALLER from=1410de48c fn=FUN_1410de310@1410de310
+  CALLER from=1410de55b fn=FUN_1410de310@1410de310
+  CALLER from=1410de5e4 fn=FUN_1410de310@1410de310
+  CALLER from=1410df62d fn=FUN_1410df480@1410df480
+  CALLER from=1410df6bf fn=FUN_1410df480@1410df480
+  CALLER from=14116fa5a fn=FUN_14116f930@14116f930
+  CALLER from=14116fae5 fn=FUN_14116f930@14116f930
+  CALLER from=14116fd81 fn=FUN_14116f930@14116f930
+  CALLER from=14116fdbf fn=FUN_14116f930@14116f930
+  CALLER from=1410dadf2 fn=FUN_1410dada0@1410dada0
+  CALLER from=1410daf92 fn=FUN_1410daf40@1410daf40
+  CALLER from=1410db11f fn=FUN_1410db0e0@1410db0e0
+  CALLER from=1410e51a8 fn=FUN_1410e5150@1410e5150
+  CALLER from=1410e51eb fn=FUN_1410e5150@1410e5150
+  CALLER from=1410e5fe7 fn=FUN_1410e5f60@1410e5f60
+  CALLER from=1410e6027 fn=FUN_1410e5f60@1410e5f60
+  CALLER from=1411f0722 fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f0788 fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f07f0 fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f081d fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f08a0 fn=FUN_1411f0670@1411f0670
+  CALLER from=141117a5d fn=FUN_141117a20@141117a20
+  CALLER from=141117af5 fn=FUN_141117a20@141117a20
+  CALLER from=14111a5da fn=FUN_14111a540@14111a540
+  CALLER from=14111a7b0 fn=FUN_14111a540@14111a540
+  CALLER from=14111a9b1 fn=FUN_14111a540@14111a540
+  CALLER from=1410bff27 fn=FUN_1410bfec0@1410bfec0
+  CALLER from=1410bff6c fn=FUN_1410bfec0@1410bfec0
+  CALLER from=1410db7bb fn=FUN_1410db790@1410db790
+  CALLER from=1410dbb4b fn=FUN_1410dbb20@1410dbb20
+  CALLER from=1410db67b fn=FUN_1410db650@1410db650
+  CALLER from=1411f1b36 fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1411f1d45 fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1410dad1b fn=FUN_1410dacf0@1410dacf0
+  CALLER from=1411f5dbd fn=FUN_1411f5840@1411f5840
+  CALLER from=1411f5dea fn=FUN_1411f5840@1411f5840
+  CALLER from=1411f5f86 fn=FUN_1411f5840@1411f5840
+  CALLER from=1411f5fb3 fn=FUN_1411f5840@1411f5840
+  CALLER from=14119fd38 fn=FUN_14119fd00@14119fd00
+  CALLER from=14119fe28 fn=FUN_14119fdf0@14119fdf0
+  CALLER from=1410c5ac7 fn=FUN_1410c4940@1410c4940
+DECOMPILE_BEGIN FUN_1410a1e90 1410a1e90
+
+undefined4
+FUN_1410a1e90(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined4 uVar1;
+  undefined8 uVar2;
+  longlong lVar3;
+  undefined1 local_res8 [8];
+  undefined1 local_res18 [16];
+  
+  uVar2 = FUN_14109da90(local_res18,&DAT_145856270,param_3,param_4,0xfffffffffffffffe);
+  uVar2 = FUN_14109dba0(uVar2,local_res8,param_2);
+  lVar3 = FUN_14109dce0(uVar2);
+  uVar1 = FUN_141094130(param_1,lVar3 + 8);
+  FUN_14109dd40(local_res8);
+  FUN_14109dd40(local_res18);
+  return uVar1;
+}
+
+
+DECOMPILE_END FUN_1410a1e90 1410a1e90
+------------------------------------------------------------
+FUNCTION_REQUEST 1410a1fe0 -> FUN_1410a1fe0@1410a1fe0
+CALLERS
+  CALLER from=14caabc08 fn=<none>
+  CALLER from=1421e7a74 fn=<none>
+  CALLER from=1410bfdbb fn=FUN_1410bfd40@1410bfd40
+  CALLER from=1410bfe35 fn=FUN_1410bfe00@1410bfe00
+  CALLER from=1410c0808 fn=FUN_1410c07a0@1410c07a0
+  CALLER from=140e75ca4 fn=FUN_140e75c10@140e75c10
+  CALLER from=140e75dc1 fn=FUN_140e75c10@140e75c10
+  CALLER from=1410db32e fn=FUN_1410db300@1410db300
+  CALLER from=1410e08d6 fn=FUN_1410e0870@1410e0870
+  CALLER from=1410e4b8c fn=FUN_1410e4ac0@1410e4ac0
+  CALLER from=1410e4cac fn=FUN_1410e4be0@1410e4be0
+  CALLER from=1410e4a73 fn=FUN_1410e49f0@1410e49f0
+  CALLER from=1410f6cb5 fn=FUN_1410f6c80@1410f6c80
+  CALLER from=1410c46c5 fn=FUN_1410c4690@1410c4690
+  CALLER from=1410c08a8 fn=FUN_1410c0840@1410c0840
+  CALLER from=1410e4ee9 fn=FUN_1410e4e40@1410e4e40
+  CALLER from=14110397b fn=FUN_1411038e0@1411038e0
+  CALLER from=1411039fb fn=FUN_1411038e0@1411038e0
+  CALLER from=141103d1a fn=FUN_141103c40@141103c40
+  CALLER from=1410e71df fn=FUN_1410e7080@1410e7080
+  CALLER from=141119a35 fn=FUN_1411199a0@1411199a0
+  CALLER from=1411197c8 fn=FUN_141119700@141119700
+  CALLER from=141179215 fn=FUN_1411791e0@1411791e0
+  CALLER from=141179c05 fn=FUN_141179bd0@141179bd0
+  CALLER from=1411940c5 fn=FUN_141194090@141194090
+  CALLER from=1412335ac fn=FUN_141233540@141233540
+  CALLER from=14109250a fn=FUN_1410923f0@1410923f0
+  CALLER from=14109256a fn=FUN_1410923f0@1410923f0
+  CALLER from=1410db235 fn=FUN_1410db200@1410db200
+  CALLER from=141115fce fn=FUN_141115f70@141115f70
+  CALLER from=1410a47a5 fn=FUN_1410a4770@1410a4770
+  CALLER from=1410a4805 fn=FUN_1410a47d0@1410a47d0
+  CALLER from=1410be82d fn=FUN_1410be7b0@1410be7b0
+  CALLER from=141117911 fn=FUN_141117870@141117870
+  CALLER from=141117992 fn=FUN_141117870@141117870
+  CALLER from=1410db45c fn=FUN_1410db3d0@1410db3d0
+  CALLER from=1410db4dc fn=FUN_1410db3d0@1410db3d0
+  CALLER from=1410a97fa fn=FUN_1410a9730@1410a9730
+  CALLER from=1411ecf8a fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ed07a fn=FUN_1411ec680@1411ec680
+  CALLER from=1411ed10a fn=FUN_1411ec680@1411ec680
+  CALLER from=1410dca8c fn=FUN_1410dca10@1410dca10
+  CALLER from=1410de39a fn=FUN_1410de310@1410de310
+  CALLER from=1410de4bf fn=FUN_1410de310@1410de310
+  CALLER from=1410de5a5 fn=FUN_1410de310@1410de310
+  CALLER from=1410df56e fn=FUN_1410df480@1410df480
+  CALLER from=1410df677 fn=FUN_1410df480@1410df480
+  CALLER from=14116faab fn=FUN_14116f930@14116f930
+  CALLER from=14116fb1a fn=FUN_14116f930@14116f930
+  CALLER from=1410dad75 fn=FUN_1410dad40@1410dad40
+  CALLER from=1410daf15 fn=FUN_1410daee0@1410daee0
+  CALLER from=1410db0b5 fn=FUN_1410db080@1410db080
+  CALLER from=1410db175 fn=FUN_1410db140@1410db140
+  CALLER from=1411f0067 fn=FUN_1411efef0@1411efef0
+  CALLER from=1410e5225 fn=FUN_1410e5150@1410e5150
+  CALLER from=1410e6059 fn=FUN_1410e5f60@1410e5f60
+  CALLER from=1411f075a fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f07ba fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f08ea fn=FUN_1411f0670@1411f0670
+  CALLER from=141117aa7 fn=FUN_141117a20@141117a20
+  CALLER from=141117b60 fn=FUN_141117a20@141117a20
+  CALLER from=14111a61a fn=FUN_14111a540@14111a540
+  CALLER from=1410bffa6 fn=FUN_1410bfec0@1410bfec0
+  CALLER from=1410c0054 fn=FUN_1410bfec0@1410bfec0
+  CALLER from=1410db815 fn=FUN_1410db7e0@1410db7e0
+  CALLER from=1410dbba5 fn=FUN_1410dbb70@1410dbb70
+  CALLER from=1410db6d5 fn=FUN_1410db6a0@1410db6a0
+  CALLER from=1411f1b7a fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1411f1d8a fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1411f1dbf fn=FUN_1411f1a80@1411f1a80
+  CALLER from=1411f5e29 fn=FUN_1411f5840@1411f5840
+  CALLER from=1411f5f23 fn=FUN_1411f5840@1411f5840
+  CALLER from=1411f5ff0 fn=FUN_1411f5840@1411f5840
+  CALLER from=1411f6119 fn=FUN_1411f5840@1411f5840
+  CALLER from=14119fd6d fn=FUN_14119fd00@14119fd00
+  CALLER from=14119fe59 fn=FUN_14119fdf0@14119fdf0
+  CALLER from=1410c5afe fn=FUN_1410c4940@1410c4940
+  CALLER from=1412017f5 fn=FUN_1412017c0@1412017c0
+  CALLER from=1412dd7ea fn=FUN_1412dd740@1412dd740
+  CALLER from=1410ddd0a fn=FUN_1410ddc60@1410ddc60
+  CALLER from=1411a01db fn=FUN_1411a0120@1411a0120
+  CALLER from=1411a0209 fn=FUN_1411a0120@1411a0120
+  CALLER from=1412e1003 fn=FUN_1412e0f00@1412e0f00
+  CALLER from=1412e186a fn=FUN_1412e1760@1412e1760
+  CALLER from=1410bd62f fn=FUN_1410bd610@1410bd610
+  CALLER from=1410bed6a fn=FUN_1410becc0@1410becc0
+  CALLER from=1410bee9a fn=FUN_1410becc0@1410becc0
+  CALLER from=1410bf0aa fn=FUN_1410becc0@1410becc0
+  CALLER from=1410bfe95 fn=FUN_1410bfe60@1410bfe60
+  CALLER from=1410c2f5f fn=FUN_1410c2be0@1410c2be0
+  CALLER from=1410cb3fb fn=FUN_1410cb360@1410cb360
+  CALLER from=1410cb790 fn=FUN_1410cb470@1410cb470
+  CALLER from=1410cbc59 fn=FUN_1410cb470@1410cb470
+  CALLER from=1410e583d fn=FUN_1410e56d0@1410e56d0
+  CALLER from=1411193d0 fn=FUN_1411192d0@1411192d0
+  CALLER from=1410c37a7 fn=FUN_1410c3130@1410c3130
+  CALLER from=1410cb30a fn=FUN_1410caed0@1410caed0
+  CALLER from=1410cd13d fn=FUN_1410cd0a0@1410cd0a0
+  CALLER from=1410c3c31 fn=FUN_1410c3ac0@1410c3ac0
+  CALLER from=1410c40c9 fn=FUN_1410c3fd0@1410c3fd0
+DECOMPILE_BEGIN FUN_1410a1fe0 1410a1fe0
+
+undefined8 FUN_1410a1fe0(undefined8 param_1,undefined8 param_2,undefined4 param_3)
+
+{
+  undefined8 uVar1;
+  undefined1 local_res20 [8];
+  undefined1 local_28 [8];
+  undefined8 local_20;
+  undefined1 local_18 [16];
+  
+  local_20 = 0xfffffffffffffffe;
+  uVar1 = FUN_14109da90(local_28,&DAT_145856270);
+  uVar1 = FUN_14109dba0(uVar1,local_res20,param_2);
+  uVar1 = FUN_1410a3430(param_1,local_18,uVar1,param_3);
+  uVar1 = FUN_141094710(uVar1);
+  FUN_141093770(local_18);
+  FUN_14109dd40(local_res20);
+  FUN_14109dd40(local_28);
+  return uVar1;
+}
+
+
+DECOMPILE_END FUN_1410a1fe0 1410a1fe0
+SCRIPT COMPLETED FbxEvaluatorDeepTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

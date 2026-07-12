@@ -1,0 +1,928 @@
+{
+  "export_result": [
+    "FINISHED"
+  ],
+  "source_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_anm_safe_authoring.blend",
+  "source_action": "aks74u",
+  "out_anm": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\blender_roundtrip\\aks74u_roundtrip_export.anm",
+  "original_anm": "P:\\DZ\\anims\\anm\\player\\ik\\weapons\\aks74u.anm",
+  "original_bone_count": 43,
+  "exported_bone_count": 43,
+  "original_finger_count": 34,
+  "exported_finger_count": 34,
+  "missing_fingers": [],
+  "missing_helpers": [],
+  "extra_exported": [],
+  "missing_exported": [],
+  "key_count_mismatches": {
+    "LeftForeArmDirection": {
+      "orig": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      }
+    },
+    "LeftHandIndex1": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandIndex2": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandIndex3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandMiddle1": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandMiddle2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandMiddle3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandPinky": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandPinky2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandPinky3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      }
+    },
+    "LeftHandRing": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandRing1": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandRing2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandRing3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandThumb1": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandThumb2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "LeftHandThumb3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      }
+    },
+    "LeftHand_Dummy": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandIndex1": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandIndex2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandIndex3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandMiddle2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandMiddle3": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandPinky": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandPinky1": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandPinky2": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandPinky3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandRing": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandRing1": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandRing2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandRing3": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandThumb1": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandThumb2": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHandThumb3": {
+      "orig": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      },
+      "exported": {
+        "pos": 1,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    },
+    "RightHand_Dummy": {
+      "orig": {
+        "pos": 2,
+        "rot": 2,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0,
+          1
+        ]
+      },
+      "exported": {
+        "pos": 2,
+        "rot": 1,
+        "scale": 0,
+        "pos_frames": [
+          0,
+          1
+        ],
+        "rot_frames": [
+          0
+        ]
+      }
+    }
+  },
+  "note": "Round-trip structural test for IK2H export. Numeric parity is a separate tolerance test."
+}

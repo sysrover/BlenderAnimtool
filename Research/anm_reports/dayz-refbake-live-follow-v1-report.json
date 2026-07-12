@@ -1,0 +1,10 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "removed_old_handlers": 0,
+  "live_follow_enabled": true,
+  "applied_once": true,
+  "text_block": "DAT_REFBAKE_LIVE_FOLLOW",
+  "depsgraph_handlers": [
+    "dat_refbake_live_follow_v1"
+  ]
+}

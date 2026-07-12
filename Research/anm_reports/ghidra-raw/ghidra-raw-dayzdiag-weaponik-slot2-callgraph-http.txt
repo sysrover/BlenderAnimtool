@@ -1,0 +1,29 @@
+===== check =====
+Connected: GhidraMCP plugin running with program 'DayZDiag_x64.exe'
+===== programs =====
+{"programs":[{"name":"DayZDiag_x64.exe","path":"/DayZDiag_x64.exe","is_current":true,"executable_path":"/C:/Program Files (x86)/Steam/steamapps/common/DayZ/DayZDiag_x64.exe","language":"x86:LE:64:default","compiler":"windows","image_base":"140000000","memory_size":77477832,"function_count":52153,"has_multiple_address_spaces":false},{"name":"dataExporter_v141_x64_RetailDX11.dll","path":"/dataExporter_v141_x64_RetailDX11.dll","is_current":false,"executable_path":"/C:/Program Files (x86)/Steam/steamapps/common/DayZ Tools/Bin/Workbench/dataExporter_v141_x64_RetailDX11.dll","language":"x86:LE:64:default","compiler":"windows","image_base":"180000000","memory_size":66735232,"function_count":37611,"has_multiple_address_spaces":false},{"name":"workbenchApp.exe","path":"/workbenchApp.exe","is_current":false,"executable_path":"/C:/Program Files (x86)/Steam/steamapps/common/DayZ Tools/Bin/Workbench/workbenchApp.exe","language":"x86:LE:64:default","compiler":"windows","image_base":"140000000","memory_size":213434068,"function_count":111756,"has_multiple_address_spaces":false},{"name":"libfbxsdk.dll","path":"/libfbxsdk.dll","is_current":false,"executable_path":"/C:/Users/sysro/diag/CsharpModVScode/tools/fbx-sdk-cache/fbx20161_vs2015/lib/vs2015/x64/release/libfbxsdk.dll","language":"x86:LE:64:default","compiler":"windows","image_base":"180000000","memory_size":8074196,"function_count":30716,"has_multiple_address_spaces":false}],"count":4,"current_program":"DayZDiag_x64.exe"}
+===== slot2_complete =====
+{"error":"Function not found: null"}
+===== slot2_callees =====
+FUN_1400da470 @ 1400da470
+FUN_1400e54b0 @ 1400e54b0
+FUN_1400e54c0 @ 1400e54c0
+FUN_1400e5980 @ 1400e5980
+FUN_1400e59a0 @ 1400e59a0
+FUN_140dc01e0 @ 140dc01e0
+===== slot2_callers =====
+No callers found for function: null
+===== callgraph =====
+FUN_1400e59a0 -> FUN_1400f73e0
+FUN_140dc01e0 -> FUN_140dc0ed0
+FUN_1400da470 -> FUN_1400da440
+FUN_140108750 -> FUN_1400e59a0
+FUN_140108750 -> FUN_140dc01e0
+FUN_140108750 -> FUN_1400da470
+FUN_140108750 -> FUN_1400e54b0
+FUN_140108750 -> FUN_1400e54c0
+FUN_140108750 -> FUN_1400e5980
+FUN_1400e54b0 -> FUN_1400e3fa0
+FUN_1400e54c0 -> FUN_1400e4610
+FUN_1400e5980 -> FUN_1400f73b0
+

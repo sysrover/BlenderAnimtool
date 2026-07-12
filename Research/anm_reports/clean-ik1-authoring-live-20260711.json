@@ -1,0 +1,31 @@
+{
+  "mode": "Clean IK1 Authoring",
+  "base_action": "p_1hd_erc_idle_low.001",
+  "action": "DAT_Clean_IK1H",
+  "frames": [0, 1],
+  "track_count": 22,
+  "all_tracks_have_position": true,
+  "proxy_sync_enabled": true,
+  "controls_visible": [
+    "CTRL_RightHand",
+    "CTRL_RightElbow",
+    "IK_RightHandDummy.R"
+  ],
+  "build_no_jump": {
+    "max_location_m": 0.00001590018139268062,
+    "max_rotation_deg": 0.0
+  },
+  "bake_no_jump": {
+    "right_hand_location_m": 0.0,
+    "right_hand_rotation_deg": 0.0,
+    "right_hand_dummy_location_m": 0.0,
+    "right_hand_dummy_rotation_deg": 0.0
+  },
+  "ghidra_formula_checks_pre_quantization": {
+    "primary_target_location_error_m": 1.50678667546486e-7,
+    "primary_target_rotation_error_deg": 0.0,
+    "dummy_runtime_reconstruct_location_error_m": 2.1073424255447017e-8,
+    "dummy_runtime_reconstruct_rotation_error_deg": 0.0
+  },
+  "export_artifact": "P:\\BlenderAnimtool\\Research\\anm_reports\\clean_ik1_live_edit_test.anm"
+}

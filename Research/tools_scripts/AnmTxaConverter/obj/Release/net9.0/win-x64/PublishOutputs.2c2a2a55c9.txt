@@ -1,0 +1,5 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Release\net9.0\win-x64\publish\AnmTxaConverter.exe
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Release\net9.0\win-x64\publish\AnmTxaConverter.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Release\net9.0\win-x64\publish\AnmTxaConverter.deps.json
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Release\net9.0\win-x64\publish\AnmTxaConverter.runtimeconfig.json
+C:\Users\sysro\diag\CsharpModVScode\tools\AnmTxaConverter\bin\Release\net9.0\win-x64\publish\AnmTxaConverter.pdb

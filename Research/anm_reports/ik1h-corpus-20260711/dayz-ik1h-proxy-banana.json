@@ -1,0 +1,99 @@
+{
+  "base_action": "p_1hd_erc_idle_low",
+  "ik_action": "banana",
+  "remembered_base": "p_1hd_erc_idle_low",
+  "preview_backend": "BLENDER_PROXY_2BONE_PY_SYNC",
+  "control_rig": "DAT_DayZ_Arm_FK_Controls",
+  "missing_controls": [],
+  "default_pose_error": 3.4203216028036406e-05,
+  "hand_move": {
+    "control_delta": 0.029999984584085097,
+    "proxy_wrist_delta": 0.03000004144263754,
+    "dayz_hand_delta": 0.030000067908885125,
+    "target_error": 1.4901161193847656e-08,
+    "upper_length_error": 4.2953229473230436e-08,
+    "lower_length_error": 8.699388737154479e-08,
+    "arm_roll_angle": 0.09988508373498917,
+    "forearm_roll_angle": 0.09269431233406067,
+    "arm_roll_scale_error": 1.1920928955078125e-07,
+    "forearm_roll_scale_error": 2.9200193199910854e-07
+  },
+  "elbow_move": {
+    "proxy_elbow_delta": 0.0016440774721250171,
+    "proxy_wrist_delta": 6.828569911354542e-08,
+    "control_target_delta": 0.0,
+    "target_error": 3.725290298461914e-08
+  },
+  "wrist_rotation": {
+    "proxy_hand_angle": 0.26179811358451843,
+    "dayz_hand_angle": 0.26179900765419006,
+    "proxy_to_dayz_angle_error": 0.0,
+    "proxy_wrist_delta": 0.0
+  },
+  "baked_action": "banana",
+  "helper_constraints": {
+    "RightHandOrigin": [],
+    "RightForeArmDirection": [],
+    "RightForeArmDirectionOrigin": [],
+    "RightHand_Dummy": []
+  },
+  "export": {
+    "format": "AnimSet6",
+    "frames": 2,
+    "fps": 30,
+    "tracks": [
+      "RightHand",
+      "RightHandRing",
+      "RightHandRing1",
+      "RightHandRing2",
+      "RightHandRing3",
+      "RightHandThumb1",
+      "RightHandThumb2",
+      "RightHandThumb3",
+      "RightHandMiddle1",
+      "RightHandMiddle2",
+      "RightHandMiddle3",
+      "RightHandIndex1",
+      "RightHandIndex2",
+      "RightHandIndex3",
+      "RightHandPinky",
+      "RightHandPinky1",
+      "RightHandPinky2",
+      "RightHandPinky3",
+      "RightHand_Dummy",
+      "RightForeArmDirectionOrigin",
+      "RightHandOrigin",
+      "RightForeArmDirection"
+    ]
+  },
+  "roundtrip": {
+    "max_error": 0.0003028961512660244,
+    "worst": {
+      "track": "RightForeArmDirection",
+      "channel": "rotation",
+      "frame": 1,
+      "error": 0.0003028961512660244
+    },
+    "missing": []
+  },
+  "cycle_debug": {
+    "import_object_rotation_error": 0.0,
+    "raw_to_export_rotation_error": 6.2831854820251465,
+    "setter_to_keyed_basis_error": 0.0,
+    "imported_raw_quaternion_wxyz": [
+      -0.9554915428161621,
+      0.17440186440944672,
+      -0.02833583950996399,
+      0.23625609278678894
+    ],
+    "sampled_quaternion_wxyz": [
+      0.9554927349090576,
+      -0.17439964413642883,
+      0.028335552662611008,
+      -0.2362530678510666
+    ]
+  },
+  "left_tracks": [],
+  "output_anm": "C:\\temp\\dayz_ik1h_proxy_workflow\\banana_proxy_edited.anm",
+  "pass": true
+}

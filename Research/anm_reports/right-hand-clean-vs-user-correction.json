@@ -1,0 +1,428 @@
+{
+  "clean": "P:\\Animation_Weapon\\Weapon_template_dayz_diag_restored.blend",
+  "user_reference_json": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\right-hand-loaded-pose-delta.json",
+  "changed_bones": [
+    "RightHand"
+  ],
+  "diff": {
+    "RightArm": {
+      "bone": "RightArm",
+      "rotation_delta_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        54.76760548236961,
+        -11.97356579429518,
+        -20.366189765252322
+      ],
+      "user_basis_euler_xyz_deg": [
+        54.76760548236961,
+        -11.97356579429518,
+        -20.366189765252322
+      ],
+      "clean_direction_world": [
+        -0.7738157510757446,
+        -0.21282453835010529,
+        0.5965859293937683
+      ],
+      "user_direction_world": [
+        -0.7738157510757446,
+        -0.21282453835010529,
+        0.5965859293937683
+      ]
+    },
+    "RightArmRoll": {
+      "bone": "RightArmRoll",
+      "rotation_delta_quat": [
+        1.0,
+        0.0,
+        0.0,
+        -2.2737367544323206e-13
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        0.0,
+        -2.605510395054913e-11
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        -0.0008775695642487988,
+        31.01800979476519,
+        0.0008346148072146761
+      ],
+      "user_basis_euler_xyz_deg": [
+        -0.0008775695642487988,
+        31.01800979476519,
+        0.0008346148072146761
+      ],
+      "clean_direction_world": [
+        -0.7738288044929504,
+        -0.21280397474765778,
+        0.5965765714645386
+      ],
+      "user_direction_world": [
+        -0.7738288044929504,
+        -0.21280397474765778,
+        0.5965765714645386
+      ]
+    },
+    "RightForeArm": {
+      "bone": "RightForeArm",
+      "rotation_delta_quat": [
+        0.9999999403953552,
+        0.0,
+        1.862645149230957e-09,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        2.1344343700733593e-07,
+        0.0
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        115.52366128181795,
+        1.8764536018093718,
+        -3.9219787181254775
+      ],
+      "user_basis_euler_xyz_deg": [
+        115.52366128181795,
+        1.8764536018093718,
+        -3.9219787181254775
+      ],
+      "clean_direction_world": [
+        0.6803600192070007,
+        -0.6036958694458008,
+        -0.41552552580833435
+      ],
+      "user_direction_world": [
+        0.6803600192070007,
+        -0.6036958694458008,
+        -0.41552552580833435
+      ]
+    },
+    "RightForeArmRoll": {
+      "bone": "RightForeArmRoll",
+      "rotation_delta_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        0.00010121994260013122,
+        -27.424135008233733,
+        -4.1432549466683754e-05
+      ],
+      "user_basis_euler_xyz_deg": [
+        0.00010121994260013122,
+        -27.424135008233733,
+        -4.1432549466683754e-05
+      ],
+      "clean_direction_world": [
+        0.6803609132766724,
+        -0.6036943793296814,
+        -0.4155263602733612
+      ],
+      "user_direction_world": [
+        0.6803609132766724,
+        -0.6036943793296814,
+        -0.4155263602733612
+      ]
+    },
+    "RightHand": {
+      "bone": "RightHand",
+      "rotation_delta_quat": [
+        0.9951756596565247,
+        0.095771923661232,
+        -0.008479103446006775,
+        0.019525796175003052
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        10.971994538367326,
+        -1.181318996437552,
+        2.1345895024326023
+      ],
+      "rotation_delta_angle_deg": 11.260455625131767,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        -40.104012372147224,
+        8.404122594424857,
+        39.41035202041907
+      ],
+      "user_basis_euler_xyz_deg": [
+        -28.746196669265156,
+        8.867675580562574,
+        41.83291425109046
+      ],
+      "clean_direction_world": [
+        -0.08642474561929703,
+        -0.995891809463501,
+        0.027023538947105408
+      ],
+      "user_direction_world": [
+        -0.08642489463090897,
+        -0.9819968938827515,
+        -0.16796699166297913
+      ]
+    },
+    "RightHand_Dummy": {
+      "bone": "RightHand_Dummy",
+      "rotation_delta_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        43.5137315982768,
+        -14.169895937956467,
+        88.20689343224223
+      ],
+      "user_basis_euler_xyz_deg": [
+        43.5137315982768,
+        -14.169895937956467,
+        88.20689343224223
+      ],
+      "clean_direction_world": [
+        0.008612985722720623,
+        -0.9788151979446411,
+        0.20456470549106598
+      ],
+      "user_direction_world": [
+        0.0086129829287529,
+        -0.9999178647994995,
+        0.00949140265583992
+      ]
+    },
+    "RightHandIK": {
+      "bone": "RightHandIK",
+      "rotation_delta_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "user_basis_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "clean_direction_world": [
+        -0.7670579552650452,
+        0.11626878380775452,
+        0.6309545636177063
+      ],
+      "user_direction_world": [
+        -0.7670581340789795,
+        -0.009177015163004398,
+        0.6415119171142578
+      ]
+    },
+    "RightHandOrigin": {
+      "bone": "RightHandOrigin",
+      "rotation_delta_quat": [
+        0.9999998807907104,
+        2.9802322387695312e-08,
+        1.4901161193847656e-08,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        3.415094992117375e-06,
+        1.7075474960586874e-06,
+        5.088888703626952e-14
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        116.87837466217661,
+        12.059118182517821,
+        -42.89721823322394
+      ],
+      "user_basis_euler_xyz_deg": [
+        116.87837466217661,
+        12.059118182517821,
+        -42.89721823322394
+      ],
+      "clean_direction_world": [
+        -0.09506475180387497,
+        -0.9796337485313416,
+        -0.17686240375041962
+      ],
+      "user_direction_world": [
+        -0.09506475180387497,
+        -0.9796337485313416,
+        -0.17686240375041962
+      ]
+    },
+    "RightForeArmDirection": {
+      "bone": "RightForeArmDirection",
+      "rotation_delta_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        167.99053803283627,
+        17.021821789101427,
+        4.899486790720553
+      ],
+      "user_basis_euler_xyz_deg": [
+        167.99053803283627,
+        17.021821789101427,
+        4.899486790720553
+      ],
+      "clean_direction_world": [
+        0.7098538875579834,
+        -0.6107058525085449,
+        -0.3509212136268616
+      ],
+      "user_direction_world": [
+        0.7098538875579834,
+        -0.6107058525085449,
+        -0.3509212136268616
+      ]
+    },
+    "RightForeArmDirectionOrigin": {
+      "bone": "RightForeArmDirectionOrigin",
+      "rotation_delta_quat": [
+        0.9999999403953552,
+        0.0,
+        -1.4901161193847656e-08,
+        2.2351741790771484e-08
+      ],
+      "rotation_delta_euler_xyz_deg": [
+        -3.816666831041545e-14,
+        -1.7075474960586874e-06,
+        2.561321345865781e-06
+      ],
+      "rotation_delta_angle_deg": 0.0,
+      "location_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location_delta_len": 0.0,
+      "clean_basis_euler_xyz_deg": [
+        47.36489619574805,
+        39.48674427119108,
+        -15.219654178478761
+      ],
+      "user_basis_euler_xyz_deg": [
+        47.36489619574805,
+        39.48674427119108,
+        -15.219654178478761
+      ],
+      "clean_direction_world": [
+        0.681361973285675,
+        -0.6033231616020203,
+        -0.4144238233566284
+      ],
+      "user_direction_world": [
+        0.6813621520996094,
+        -0.5107834339141846,
+        -0.5242574214935303
+      ]
+    }
+  },
+  "recommended_loaded_pose_apply_bones": [
+    "RightHand"
+  ],
+  "addon_suspicion": {
+    "file": "%APPDATA%\\Blender Foundation\\Blender\\4.2\\scripts\\addons\\DayzAnimationToolsBinary\\Import\\ImportAnm.py",
+    "right_hand_origin_rotation_uses_inverted_rot": true,
+    "right_hand_origin_translation_uses_negative_trans": true,
+    "reason": "Right side helper decode is asymmetric; user-corrected pose changes RightHandOrigin/RightForeArmDirection helpers in the same area."
+  }
+}

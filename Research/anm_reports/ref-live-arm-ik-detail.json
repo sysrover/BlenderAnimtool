@@ -1,0 +1,7192 @@
+{
+  "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses_arms_ik_enabled.blend",
+  "armature": "rig",
+  "object_props": {
+    "rig_ui": "<bpy_struct, Text(\"rig_ui.py.056\") at 0x000001EB98CEA4B0>",
+    "als": [],
+    "armaObjProps": [],
+    "xray": [
+      "version"
+    ]
+  },
+  "bones": {
+    "upper_arm_parent.L": {
+      "parent": "ORG-shoulder.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.21934999525547028,
+        0.0832500010728836,
+        1.370650053024292
+      ],
+      "matrix_local": [
+        [
+          0.5715417265892029,
+          0.6683939695358276,
+          0.47601398825645447,
+          0.17159999907016754
+        ],
+        [
+          -0.6683939695358276,
+          0.04269322752952576,
+          0.7425810694694519,
+          0.08020002394914627
+        ],
+        [
+          0.47601422667503357,
+          -0.7425810694694519,
+          0.4711514413356781,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5392241477966309,
+          0.43200522661209106,
+          0.7229165434837341,
+          0.024676406756043434
+        ],
+        [
+          -0.7425985932350159,
+          -0.6487876772880554,
+          -0.1661984622478485,
+          -0.03164578974246979
+        ],
+        [
+          0.3972209393978119,
+          -0.6264552474021912,
+          0.6706486940383911,
+          1.3996403217315674
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "FK_limb_follow": 0.0,
+        "IK_FK": 1.0,
+        "IK_Stretch": 1.0,
+        "pole_vector": 1,
+        "IK_parent": 1,
+        "pole_parent": 6
+      },
+      "custom_shape": "WGT-rig_upper_arm_parent.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-upper_arm_parent.L": {
+      "parent": "ORG-shoulder.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.17159999907016754,
+        0.1516399085521698,
+        1.423699975013733
+      ],
+      "matrix_local": [
+        [
+          0.9999998807907104,
+          1.30385160446167e-08,
+          1.1362135410308838e-07,
+          0.17159999907016754
+        ],
+        [
+          -7.078051567077637e-08,
+          1.0,
+          -1.1920928955078125e-07,
+          0.08020002394914627
+        ],
+        [
+          -1.4156103134155273e-07,
+          2.9802322387695312e-08,
+          1.0,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.3246791660785675,
+          0.915682315826416,
+          -0.23687396943569183,
+          0.024676406756043434
+        ],
+        [
+          -0.9371846914291382,
+          0.34523382782936096,
+          0.04998493567109108,
+          -0.03164578974246979
+        ],
+        [
+          0.1275475025177002,
+          0.20576557517051697,
+          0.9702536463737488,
+          1.3996403217315674
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Scale",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "root",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true
+        },
+        {
+          "name": "Copy Rotation",
+          "type": "COPY_ROTATION",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "root",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "invert_x": false,
+          "invert_y": false,
+          "invert_z": false
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-upper_arm_parent.L\"].constraints[\"Copy Rotation\"].influence",
+          "array_index": 0,
+          "mute": false,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"FK_limb_follow\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "upper_arm_ik.L": {
+      "parent": "MCH-upper_arm_ik_swing.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.7436769604682922,
+          0.6683937311172485,
+          -0.013945713639259338,
+          0.17160001397132874
+        ],
+        [
+          0.05707603320479393,
+          0.042693257331848145,
+          -0.9974566102027893,
+          0.08020003139972687
+        ],
+        [
+          -0.6660981178283691,
+          -0.7425816059112549,
+          -0.06989914178848267,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.20775194466114044,
+          0.11458062380552292,
+          -0.9675105214118958,
+          0.024665456265211105
+        ],
+        [
+          0.10704522579908371,
+          -0.9805887937545776,
+          -0.13911500573158264,
+          -0.03167406842112541
+        ],
+        [
+          -0.9683730602264404,
+          -0.13297724723815918,
+          0.19218887388706207,
+          1.3996403217315674
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9567115902900696,
+          0.0,
+          -0.2910376787185669,
+          -8.344650268554688e-07
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.8520822525024414e-05
+        ],
+        [
+          0.2910376787185669,
+          0.0,
+          0.9567115902900696,
+          1.0251998901367188e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_ik.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-forearm_ik.L": {
+      "parent": "upper_arm_ik.L",
+      "hide": false,
+      "head_local": [
+        0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436776757240295,
+          0.5025990605354309,
+          -0.4408375322818756,
+          0.36260002851486206
+        ],
+        [
+          0.057074423879384995,
+          -0.6092672348022461,
+          -0.7909084558486938,
+          0.09240004420280457
+        ],
+        [
+          -0.6660974025726318,
+          -0.6133415102958679,
+          0.4244130849838257,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.20765681564807892,
+          -0.7643904685974121,
+          -0.6033467054367065,
+          0.05740801990032196
+        ],
+        [
+          0.10699620097875595,
+          -0.6310858130455017,
+          0.7627080678939819,
+          -0.31188690662384033
+        ],
+        [
+          -0.9679214358329773,
+          0.0942298024892807,
+          0.21375267207622528,
+          1.3616409301757812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "IK",
+          "type": "IK",
+          "mute": true,
+          "enabled": false,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": 2,
+          "pole_angle": 0.0,
+          "use_rotation": false,
+          "use_stretch": true,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "distance": 1.0,
+          "limit_mode": "LIMITDIST_INSIDE"
+        },
+        {
+          "name": "IK.001",
+          "type": "IK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": "rig",
+          "pole_subtarget": "upper_arm_ik_target.L",
+          "chain_count": 2,
+          "pole_angle": -1.5707963705062866,
+          "use_rotation": false,
+          "use_stretch": true,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "distance": 1.0,
+          "limit_mode": "LIMITDIST_INSIDE"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-forearm_ik.L\"].constraints[\"IK\"].mute",
+          "array_index": 0,
+          "mute": false,
+          "expression": "False",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_vector\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-forearm_ik.L\"].constraints[\"IK.001\"].mute",
+          "array_index": 0,
+          "mute": false,
+          "expression": "False",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_vector\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MCH-upper_arm_ik_swing.L": {
+      "parent": "MCH-upper_arm_parent.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.2252364456653595,
+        0.05519592761993408,
+        1.3616740703582764
+      ],
+      "matrix_local": [
+        [
+          -0.7487720251083374,
+          0.6256587505340576,
+          -0.21884140372276306,
+          0.17159999907016754
+        ],
+        [
+          0.0356534942984581,
+          -0.29166752099990845,
+          -0.9558550715446472,
+          0.08020002394914627
+        ],
+        [
+          -0.6618679165840149,
+          -0.7235201001167297,
+          0.19608569145202637,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.14464764297008514,
+          -0.3594547212123871,
+          -0.9218837022781372,
+          0.024676406756043434
+        ],
+        [
+          0.0832163393497467,
+          -0.9328004121780396,
+          0.35065439343452454,
+          -0.03164578974246979
+        ],
+        [
+          -0.9859778881072998,
+          -0.02599439024925232,
+          0.16483978927135468,
+          1.3996403217315674
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "MCH-upper_arm_ik_target.L": {
+      "parent": "hand_ik.L",
+      "hide": false,
+      "head_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264299154281616,
+          0.5485387444496155,
+          -0.5537962913513184,
+          0.4982999861240387
+        ],
+        [
+          -0.14218932390213013,
+          -0.7789657115936279,
+          -0.6107324957847595,
+          -0.07210000604391098
+        ],
+        [
+          -0.7663987278938293,
+          -0.3038376271724701,
+          0.5659638047218323,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5389053821563721,
+          -0.7949529886245728,
+          0.278622567653656,
+          -0.14897456765174866
+        ],
+        [
+          0.48154810070991516,
+          -0.5621179938316345,
+          -0.6724094748497009,
+          -0.48227745294570923
+        ],
+        [
+          0.6911531090736389,
+          -0.22819487750530243,
+          0.6857361197471619,
+          1.387082576751709
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Location",
+          "type": "COPY_LOCATION",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_ik.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "invert_x": false,
+          "invert_y": false,
+          "invert_z": false
+        },
+        {
+          "name": "Limit Distance",
+          "type": "LIMIT_DISTANCE",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "CUSTOM",
+          "owner_space": "CUSTOM",
+          "head_tail": 0.0,
+          "distance": 0.5752077698707581,
+          "limit_mode": "LIMITDIST_INSIDE"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.L\"].constraints[\"Limit Distance\"].influence",
+          "array_index": 0,
+          "mute": false,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"IK_Stretch\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MCH-upper_arm_ik_target.parent.L": {
+      "parent": null,
+      "hide": false,
+      "head_local": [
+        0.4856099486351013,
+        0.5909754633903503,
+        1.1168845891952515
+      ],
+      "tail_local": [
+        0.4856099486351013,
+        0.6127325296401978,
+        1.1168845891952515
+      ],
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.4856099486351013
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5909754633903503
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1168845891952515
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.32467907667160034,
+          0.9156824350357056,
+          -0.23687416315078735,
+          0.6670135855674744
+        ],
+        [
+          -0.9371846318244934,
+          0.34523385763168335,
+          0.04998503625392914,
+          -0.1649303287267685
+        ],
+        [
+          0.12754763662815094,
+          0.20576560497283936,
+          0.9702543020248413,
+          1.2471027374267578
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "SWITCH_PARENT",
+          "type": "ARMATURE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": null,
+          "subtarget": "",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[0].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 1",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[1].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 2",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[2].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 3",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[3].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 4",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[4].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 5",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[5].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 6",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.L\"].constraints[\"SWITCH_PARENT\"].targets[6].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 7",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hand_ik.L": {
+      "parent": "MCH-hand_ik.parent.L",
+      "hide": false,
+      "head_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264301538467407,
+          0.5485387444496155,
+          -0.5537960529327393,
+          0.4982999861240387
+        ],
+        [
+          -0.14218956232070923,
+          -0.7789657711982727,
+          -0.61073237657547,
+          -0.07210000604391098
+        ],
+        [
+          -0.7663984894752502,
+          -0.3038376271724701,
+          0.5659641623497009,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5389052629470825,
+          -0.7949529886245728,
+          0.2786228358745575,
+          -0.14897456765174866
+        ],
+        [
+          0.48154783248901367,
+          -0.5621180534362793,
+          -0.6724096536636353,
+          -0.48227745294570923
+        ],
+        [
+          0.6911534070968628,
+          -0.22819483280181885,
+          0.685735821723938,
+          1.387082576751709
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          -0.2605835199356079,
+          0.7527984380722046,
+          -0.6044757962226868,
+          0.20231348276138306
+        ],
+        [
+          -0.8807181715965271,
+          0.0711422860622406,
+          0.468267560005188,
+          -0.13920502364635468
+        ],
+        [
+          0.3955148756504059,
+          0.6543955206871033,
+          0.6444645524024963,
+          0.8020641207695007
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_hand_ik.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "upper_arm_ik_target.L": {
+      "parent": "MCH-upper_arm_ik_target.parent.L",
+      "hide": false,
+      "head_local": [
+        0.4856099486351013,
+        0.5909754633903503,
+        1.1168845891952515
+      ],
+      "tail_local": [
+        0.4702337086200714,
+        0.5286535024642944,
+        1.128711462020874
+      ],
+      "matrix_local": [
+        [
+          -0.2281956672668457,
+          -0.2355746179819107,
+          0.9446857571601868,
+          0.4856099486351013
+        ],
+        [
+          0.2355746179819107,
+          -0.9548155069351196,
+          -0.18119587004184723,
+          0.5909754633903503
+        ],
+        [
+          0.9446857571601868,
+          0.18119587004184723,
+          0.2733802795410156,
+          1.1168845891952515
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.08215038478374481,
+          -0.9937146902084351,
+          0.07604523748159409,
+          0.6670135855674744
+        ],
+        [
+          0.34241005778312683,
+          -0.09980062395334244,
+          -0.9342353940010071,
+          -0.1649303287267685
+        ],
+        [
+          0.9359524250030518,
+          -0.05070920288562775,
+          0.3484569191932678,
+          1.2471027374267578
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_ik_target.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "ORG-upper_arm.L": {
+      "parent": "ORG-shoulder.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.743677020072937,
+          0.6683936715126038,
+          -0.0139455646276474,
+          0.17159999907016754
+        ],
+        [
+          0.05707600712776184,
+          0.04269319772720337,
+          -0.9974566698074341,
+          0.08020002394914627
+        ],
+        [
+          -0.6660982370376587,
+          -0.7425815463066101,
+          -0.06989914178848267,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.20775194466114044,
+          0.11458062380552292,
+          -0.9675105214118958,
+          0.024665456265211105
+        ],
+        [
+          0.10704522579908371,
+          -0.9805887937545776,
+          -0.13911500573158264,
+          -0.03167406842112541
+        ],
+        [
+          -0.9683730602264404,
+          -0.13297724723815918,
+          0.19218887388706207,
+          1.3996403217315674
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9830469489097595,
+          -0.15804609656333923,
+          0.09295601397752762,
+          5.7220458984375e-06
+        ],
+        [
+          0.1633635014295578,
+          0.5247554779052734,
+          -0.8354304432868958,
+          -1.8805265426635742e-05
+        ],
+        [
+          0.08325739204883575,
+          0.8364524841308594,
+          0.5416781306266785,
+          -2.5928020477294922e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rigify_type": "limbs.super_limb",
+        "rigify_parameters": [
+          "tweak_layers",
+          "fk_layers"
+        ]
+      },
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "upper_arm_fk.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_ik.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"ORG-upper_arm.L\"].constraints[\"Copy Transforms.001\"].influence",
+          "array_index": 0,
+          "mute": true,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"IK_FK\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ORG-forearm.L": {
+      "parent": "ORG-upper_arm.L",
+      "hide": false,
+      "head_local": [
+        0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436777353286743,
+          0.5025991201400757,
+          -0.4408375024795532,
+          0.3625999987125397
+        ],
+        [
+          0.05707453563809395,
+          -0.6092672348022461,
+          -0.7909083962440491,
+          0.09240002185106277
+        ],
+        [
+          -0.6660975813865662,
+          -0.6133415699005127,
+          0.42441296577453613,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.20765681564807892,
+          -0.7643904685974121,
+          -0.6033467054367065,
+          0.057407986372709274
+        ],
+        [
+          0.10699620097875595,
+          -0.6310858130455017,
+          0.7627080678939819,
+          -0.31188687682151794
+        ],
+        [
+          -0.9679214358329773,
+          0.0942298024892807,
+          0.21375267207622528,
+          1.3616408109664917
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.7889432311058044,
+          -0.5736578702926636,
+          -0.22019393742084503,
+          0.0
+        ],
+        [
+          0.279331773519516,
+          0.6540109515190125,
+          -0.7030244469642639,
+          0.0
+        ],
+        [
+          0.5473048686981201,
+          0.4931390881538391,
+          0.6762183308601379,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rigify_type": ""
+      },
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "forearm_fk.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-forearm_ik.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"ORG-forearm.L\"].constraints[\"Copy Transforms.001\"].influence",
+          "array_index": 0,
+          "mute": true,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"IK_FK\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ORG-hand.L": {
+      "parent": "ORG-forearm.L",
+      "hide": false,
+      "head_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.626430094242096,
+          0.5485389232635498,
+          -0.5537964105606079,
+          0.4982999861240387
+        ],
+        [
+          -0.1421889066696167,
+          -0.7789660096168518,
+          -0.6107327342033386,
+          -0.07209997624158859
+        ],
+        [
+          -0.7663991451263428,
+          -0.30383774638175964,
+          0.5659639835357666,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5389053821563721,
+          -0.7949529886245728,
+          0.278622567653656,
+          -0.1489747315645218
+        ],
+        [
+          0.48154810070991516,
+          -0.5621179938316345,
+          -0.6724094748497009,
+          -0.4822778105735779
+        ],
+        [
+          0.6911531090736389,
+          -0.22819487750530243,
+          0.6857361197471619,
+          1.387082576751709
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.1122119277715683,
+          0.19725488126277924,
+          -0.9739090800285339,
+          0.0
+        ],
+        [
+          0.841096043586731,
+          0.5030291080474854,
+          0.19879268109798431,
+          0.0
+        ],
+        [
+          0.529117226600647,
+          -0.8414583802223206,
+          -0.10946447402238846,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rigify_type": ""
+      },
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "hand_fk.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"ORG-hand.L\"].constraints[\"Copy Transforms.001\"].influence",
+          "array_index": 0,
+          "mute": true,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.L\"][\"IK_FK\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "upper_arm_fk.L": {
+      "parent": "MCH-upper_arm_parent.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.7436767816543579,
+          0.6683933734893799,
+          -0.013945807702839375,
+          0.17159999907016754
+        ],
+        [
+          0.057076018303632736,
+          0.04269314929842949,
+          -0.9974565505981445,
+          0.08020002394914627
+        ],
+        [
+          -0.6660982370376587,
+          -0.7425812482833862,
+          -0.06989908218383789,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.3830023407936096,
+          0.09706613421440125,
+          -0.9186334609985352,
+          0.02470075711607933
+        ],
+        [
+          0.24276858568191528,
+          -0.9700831174850464,
+          -0.001286149024963379,
+          -0.03164859116077423
+        ],
+        [
+          -0.8912758231163025,
+          -0.22252237796783447,
+          -0.39510899782180786,
+          1.3996224403381348
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.8039618730545044,
+          -0.5036702752113342,
+          0.3161669373512268,
+          1.0371208190917969e-05
+        ],
+        [
+          0.5662986636161804,
+          0.8107114434242249,
+          -0.1485016644001007,
+          2.3543834686279297e-05
+        ],
+        [
+          -0.18152429163455963,
+          0.29843461513519287,
+          0.9370089173316956,
+          -1.609325408935547e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_fk.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "forearm_fk.L": {
+      "parent": "upper_arm_fk.L",
+      "hide": false,
+      "head_local": [
+        0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436774373054504,
+          0.5025989413261414,
+          -0.44083723425865173,
+          0.3625999689102173
+        ],
+        [
+          0.05707434192299843,
+          -0.609266996383667,
+          -0.7909084558486938,
+          0.09240000694990158
+        ],
+        [
+          -0.6660976409912109,
+          -0.6133412718772888,
+          0.42441266775131226,
+          1.2115001678466797
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.29631176590919495,
+          -0.7427920699119568,
+          -0.6003822684288025,
+          0.05243835598230362
+        ],
+        [
+          0.060438018292188644,
+          -0.6419349908828735,
+          0.7643733024597168,
+          -0.30885934829711914
+        ],
+        [
+          -0.9531770348548889,
+          0.19020690023899078,
+          0.23510591685771942,
+          1.3360345363616943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.750728964805603,
+          -0.6098591089248657,
+          -0.2539248764514923,
+          0.0
+        ],
+        [
+          0.512963056564331,
+          0.7803604602813721,
+          -0.35764002799987793,
+          0.0
+        ],
+        [
+          0.4162629544734955,
+          0.1382366269826889,
+          0.8986744284629822,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_forearm_fk.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "hand_fk.L": {
+      "parent": "MCH-hand_fk.L",
+      "hide": false,
+      "head_local": [
+        0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264299750328064,
+          0.5485386848449707,
+          -0.5537960529327393,
+          0.4982999563217163
+        ],
+        [
+          -0.14218904078006744,
+          -0.7789657711982727,
+          -0.6107328534126282,
+          -0.07210001349449158
+        ],
+        [
+          -0.766399085521698,
+          -0.3038375973701477,
+          0.5659637451171875,
+          1.0459001064300537
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.538905680179596,
+          -0.7949528694152832,
+          0.27862274646759033,
+          -0.1489741951227188
+        ],
+        [
+          0.4815480709075928,
+          -0.5621183514595032,
+          -0.6724094748497009,
+          -0.48227715492248535
+        ],
+        [
+          0.6911528706550598,
+          -0.22819511592388153,
+          0.6857367753982544,
+          1.3870832920074463
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          -0.34713006019592285,
+          0.6249827146530151,
+          -0.6992120146751404,
+          0.0007034540176391602
+        ],
+        [
+          0.5355712175369263,
+          0.7441477179527283,
+          0.39925891160964966,
+          0.0005587935447692871
+        ],
+        [
+          0.7698469161987305,
+          -0.23588305711746216,
+          -0.5930387377738953,
+          0.00019516050815582275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_hand_fk.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "upper_arm_tweak.L": {
+      "parent": "MCH-upper_arm_tweak.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000904798508,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.21934999525547028,
+        0.0832500085234642,
+        1.370650053024292
+      ],
+      "matrix_local": [
+        [
+          -0.7436765432357788,
+          0.6683940291404724,
+          -0.01394605077803135,
+          0.17159999907016754
+        ],
+        [
+          0.057076551020145416,
+          0.04269322007894516,
+          -0.9974565505981445,
+          0.08020003139972687
+        ],
+        [
+          -0.6660986542701721,
+          -0.7425811290740967,
+          -0.06989946961402893,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.4116549491882324,
+          0.11502086371183395,
+          -0.9040522575378418,
+          0.024665486067533493
+        ],
+        [
+          0.16953013837337494,
+          -0.9843538999557495,
+          -0.04804282262921333,
+          -0.03167401999235153
+        ],
+        [
+          -0.8954327702522278,
+          -0.13348712027072906,
+          -0.4247133433818817,
+          1.3996402025222778
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9614842534065247,
+          4.686873751325038e-07,
+          0.2748599648475647,
+          1.1920928955078125e-07
+        ],
+        [
+          -5.215405280978302e-07,
+          1.0000004768371582,
+          1.1920926112907182e-07,
+          -2.9802322387695312e-08
+        ],
+        [
+          -0.2748599648475647,
+          -2.579685656201036e-07,
+          0.9614842534065247,
+          -1.4901161193847656e-08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_tweak.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-upper_arm_tweak.L": {
+      "parent": "ORG-shoulder.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000904798508,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.1954749971628189,
+        0.08172500878572464,
+        1.3971749544143677
+      ],
+      "matrix_local": [
+        [
+          -0.7436773180961609,
+          0.6683931946754456,
+          -0.01394524984061718,
+          0.17159999907016754
+        ],
+        [
+          0.05707535147666931,
+          0.04269319772720337,
+          -0.9974566102027893,
+          0.08020003139972687
+        ],
+        [
+          -0.66609787940979,
+          -0.7425819039344788,
+          -0.06989863514900208,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.14731073379516602,
+          0.11502057313919067,
+          -0.9823797345161438,
+          0.024665456265211105
+        ],
+        [
+          0.14979606866836548,
+          -0.9843533039093018,
+          -0.09278930723667145,
+          -0.03167406842112541
+        ],
+        [
+          -0.9776812791824341,
+          -0.1334877610206604,
+          -0.16223537921905518,
+          1.3996403217315674
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Scale",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true
+        },
+        {
+          "name": "Copy Location",
+          "type": "COPY_LOCATION",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "ORG-upper_arm.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "invert_x": false,
+          "invert_y": false,
+          "invert_z": false
+        },
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "ORG-upper_arm.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 1.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "MCH-upper_arm_tweak.L.001": {
+      "parent": "ORG-upper_arm.L",
+      "hide": false,
+      "head_local": [
+        0.2671000063419342,
+        0.08630001544952393,
+        1.3176000118255615
+      ],
+      "tail_local": [
+        0.29097500443458557,
+        0.08782501518726349,
+        1.2910749912261963
+      ],
+      "matrix_local": [
+        [
+          -0.7436773180961609,
+          0.6683933734893799,
+          -0.013945043087005615,
+          0.2671000063419342
+        ],
+        [
+          0.057075243443250656,
+          0.04269316792488098,
+          -0.9974567294120789,
+          0.08630003780126572
+        ],
+        [
+          -0.6660979986190796,
+          -0.742581844329834,
+          -0.06989860534667969,
+          1.3176000118255615
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.12881243228912354,
+          0.11208979785442352,
+          -0.9853137135505676,
+          0.04061725735664368
+        ],
+        [
+          0.1487484723329544,
+          -0.9845344424247742,
+          -0.09255483001470566,
+          -0.17178566753864288
+        ],
+        [
+          -0.980449378490448,
+          -0.13464181125164032,
+          -0.14349350333213806,
+          1.3804789781570435
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.5,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "forearm_tweak.L": {
+      "parent": "MCH-forearm_tweak.L",
+      "hide": false,
+      "head_local": [
+        0.3625999987125397,
+        0.09240001440048218,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        0.39652499556541443,
+        0.051275014877319336,
+        1.1700999736785889
+      ],
+      "matrix_local": [
+        [
+          -0.743678629398346,
+          0.5025988817214966,
+          -0.4408363997936249,
+          0.3625999987125397
+        ],
+        [
+          0.05707390233874321,
+          -0.6092669367790222,
+          -0.790908694267273,
+          0.09240003675222397
+        ],
+        [
+          -0.6660966873168945,
+          -0.6133421063423157,
+          0.42441365122795105,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.20855149626731873,
+          -0.7676833271980286,
+          -0.6059452295303345,
+          0.05656903237104416
+        ],
+        [
+          0.10745834559202194,
+          -0.6338043808937073,
+          0.7659929394721985,
+          -0.31189730763435364
+        ],
+        [
+          -0.972089946269989,
+          0.09463515877723694,
+          0.21467456221580505,
+          1.361317753791809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          -5.960467319710006e-08,
+          1.4901154088420299e-08,
+          0.00048792362213134766
+        ],
+        [
+          5.960463766996327e-08,
+          1.0000007152557373,
+          -2.2351730422087712e-07,
+          0.0006201267242431641
+        ],
+        [
+          -1.4901140765744003e-08,
+          2.23517460540279e-07,
+          1.0,
+          0.0004309937357902527
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rubber_tweak": 0.0
+      },
+      "custom_shape": "WGT-rig_forearm_tweak.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-forearm_tweak.L": {
+      "parent": "ORG-forearm.L",
+      "hide": false,
+      "head_local": [
+        0.3625999987125397,
+        0.09240001440048218,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        0.37956249713897705,
+        0.07183751463890076,
+        1.1908000707626343
+      ],
+      "matrix_local": [
+        [
+          -0.743677020072937,
+          0.5025993585586548,
+          -0.440838485956192,
+          0.3625999987125397
+        ],
+        [
+          0.0570751391351223,
+          -0.6092674732208252,
+          -0.79090815782547,
+          0.09240004420280457
+        ],
+        [
+          -0.6660983562469482,
+          -0.6133411526679993,
+          0.42441242933273315,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.2085508406162262,
+          -0.7676827907562256,
+          -0.6059454083442688,
+          0.05740801617503166
+        ],
+        [
+          0.10745590180158615,
+          -0.6338037252426147,
+          0.7659934759140015,
+          -0.31188684701919556
+        ],
+        [
+          -0.9720903635025024,
+          0.09463615715503693,
+          0.21467222273349762,
+          1.3616408109664917
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Scale",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true
+        }
+      ],
+      "drivers": []
+    },
+    "MCH-forearm_tweak.L.001": {
+      "parent": "ORG-forearm.L",
+      "hide": false,
+      "head_local": [
+        0.4304499924182892,
+        0.010150022804737091,
+        1.1287000179290771
+      ],
+      "tail_local": [
+        0.44741249084472656,
+        -0.01041247695684433,
+        1.1080000400543213
+      ],
+      "matrix_local": [
+        [
+          -0.7507325410842896,
+          0.50259929895401,
+          -0.4287128150463104,
+          0.4304499924182892
+        ],
+        [
+          0.0442335307598114,
+          -0.6092675924301147,
+          -0.7917301058769226,
+          0.010150052607059479
+        ],
+        [
+          -0.6591236591339111,
+          -0.6133410930633545,
+          0.4351654052734375,
+          1.1287000179290771
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.6307700276374817,
+          -0.7675551772117615,
+          -0.11396865546703339,
+          -0.04663359001278877
+        ],
+        [
+          0.7207798361778259,
+          -0.6339536905288696,
+          0.2803197503089905,
+          -0.3971363604068756
+        ],
+        [
+          -0.28741174936294556,
+          0.09467107057571411,
+          0.9531166553497314,
+          1.3740469217300415
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.5,
+          "target": "rig",
+          "subtarget": "hand_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "hand_tweak.L": {
+      "parent": "MCH-hand_tweak.L",
+      "hide": false,
+      "head_local": [
+        0.4982999563217163,
+        -0.07209998369216919,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        0.5184749364852905,
+        -0.10074998438358307,
+        1.0347249507904053
+      ],
+      "matrix_local": [
+        [
+          -0.6264322996139526,
+          0.5485384464263916,
+          -0.5537944436073303,
+          0.4982999563217163
+        ],
+        [
+          -0.14218994975090027,
+          -0.7789661288261414,
+          -0.6107324361801147,
+          -0.072099968791008
+        ],
+        [
+          -0.7663971781730652,
+          -0.3038385808467865,
+          0.5659661889076233,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5389037132263184,
+          -0.7949540019035339,
+          0.2786242961883545,
+          -0.1498362123966217
+        ],
+        [
+          0.4815465807914734,
+          -0.5621178150177002,
+          -0.6724109649658203,
+          -0.4823754131793976
+        ],
+        [
+          0.6911555528640747,
+          -0.2281942367553711,
+          0.6857339143753052,
+          1.386776089668274
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          1.043081283569336e-07,
+          -2.3841852225814364e-07,
+          0.0002053976058959961
+        ],
+        [
+          -1.0430811414607888e-07,
+          1.0000005960464478,
+          -2.0861619987044833e-07,
+          0.0008096843957901001
+        ],
+        [
+          2.384184938364342e-07,
+          2.086163561898502e-07,
+          1.0,
+          -0.0003845691680908203
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_hand_tweak.L",
+      "constraints": [],
+      "drivers": []
+    },
+    "DEF-upper_arm.L": {
+      "parent": "ORG-shoulder.L",
+      "hide": false,
+      "head_local": [
+        0.17159999907016754,
+        0.08020000904798508,
+        1.423699975013733
+      ],
+      "tail_local": [
+        0.2671000063419342,
+        0.08630000799894333,
+        1.3176000118255615
+      ],
+      "matrix_local": [
+        [
+          -0.743677020072937,
+          0.6683935523033142,
+          -0.013945657759904861,
+          0.17159999907016754
+        ],
+        [
+          0.057076066732406616,
+          0.04269322752952576,
+          -0.9974566102027893,
+          0.08020003139972687
+        ],
+        [
+          -0.6660982966423035,
+          -0.7425815463066101,
+          -0.06989920139312744,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.4124608635902405,
+          0.11449034512042999,
+          -0.9058864712715149,
+          0.024665486067533493
+        ],
+        [
+          0.17004938423633575,
+          -0.9803888201713562,
+          -0.04798133298754692,
+          -0.03167401999235153
+        ],
+        [
+          -0.8972069621086121,
+          -0.13318189978599548,
+          -0.42554494738578796,
+          1.3996402025222778
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.L.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-upper_arm.L.001": {
+      "parent": "DEF-upper_arm.L",
+      "hide": false,
+      "head_local": [
+        0.2671000063419342,
+        0.08630000799894333,
+        1.3176000118255615
+      ],
+      "tail_local": [
+        0.36260002851486206,
+        0.09240001440048218,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.7436769604682922,
+          0.6683935523033142,
+          -0.01394570991396904,
+          0.2671000063419342
+        ],
+        [
+          0.057076167315244675,
+          0.04269324615597725,
+          -0.9974566102027893,
+          0.08630003780126572
+        ],
+        [
+          -0.6660983562469482,
+          -0.7425814270973206,
+          -0.0698992908000946,
+          1.3176000118255615
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.1817793846130371,
+          0.10879889875650406,
+          -0.9792454838752747,
+          0.0410238541662693
+        ],
+        [
+          0.15414249897003174,
+          -0.9808616638183594,
+          -0.08165885508060455,
+          -0.17175185680389404
+        ],
+        [
+          -0.973210871219635,
+          -0.13503248989582062,
+          -0.19584020972251892,
+          1.3806111812591553
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.L.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-forearm.L": {
+      "parent": "DEF-upper_arm.L.001",
+      "hide": false,
+      "head_local": [
+        0.36260002851486206,
+        0.09240001440048218,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        0.4304499924182892,
+        0.010150015354156494,
+        1.1287000179290771
+      ],
+      "matrix_local": [
+        [
+          -0.7436778545379639,
+          0.5025988221168518,
+          -0.44083720445632935,
+          0.36260002851486206
+        ],
+        [
+          0.057074397802352905,
+          -0.6092672348022461,
+          -0.7909084558486938,
+          0.09240004420280457
+        ],
+        [
+          -0.6660974621772766,
+          -0.6133415699005127,
+          0.4244130253791809,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.20935574173927307,
+          -0.7645314931869507,
+          -0.6070664525032043,
+          0.05656903237104416
+        ],
+        [
+          0.10736961662769318,
+          -0.631132960319519,
+          0.767672061920166,
+          -0.31189727783203125
+        ],
+        [
+          -0.9740431904792786,
+          0.09475404769182205,
+          0.21510067582130432,
+          1.361317753791809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-forearm.L.001": {
+      "parent": "DEF-forearm.L",
+      "hide": false,
+      "head_local": [
+        0.4304499924182892,
+        0.010150015354156494,
+        1.1287000179290771
+      ],
+      "tail_local": [
+        0.4982999861240387,
+        -0.07209997624158859,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436776757240295,
+          0.5025990009307861,
+          -0.44083720445632935,
+          0.4304499626159668
+        ],
+        [
+          0.057074371725320816,
+          -0.6092670559883118,
+          -0.7909085750579834,
+          0.010150045156478882
+        ],
+        [
+          -0.6660976409912109,
+          -0.6133415102958679,
+          0.4244128167629242,
+          1.1287000179290771
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.6337363719940186,
+          -0.7644161581993103,
+          -0.10511834919452667,
+          -0.04664136469364166
+        ],
+        [
+          0.7262547612190247,
+          -0.6316842436790466,
+          0.26969045400619507,
+          -0.397099107503891
+        ],
+        [
+          -0.27363213896751404,
+          0.09382867813110352,
+          0.9592493176460266,
+          1.3741093873977661
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.L.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-hand.L": {
+      "parent": "DEF-forearm.L.001",
+      "hide": false,
+      "head_local": [
+        0.4982999861240387,
+        -0.07209997624158859,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264301538467407,
+          0.5485387444496155,
+          -0.5537960529327393,
+          0.4982999563217163
+        ],
+        [
+          -0.1421891301870346,
+          -0.778965950012207,
+          -0.6107327938079834,
+          -0.0720999464392662
+        ],
+        [
+          -0.766399085521698,
+          -0.3038375973701477,
+          0.5659640431404114,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5389037132263184,
+          -0.7949540019035339,
+          0.2786242961883545,
+          -0.1498362123966217
+        ],
+        [
+          0.4815465807914734,
+          -0.5621178150177002,
+          -0.6724109649658203,
+          -0.4823753833770752
+        ],
+        [
+          0.6911555528640747,
+          -0.2281942367553711,
+          0.6857339143753052,
+          1.386776089668274
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_tweak.L",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "upper_arm_parent.R": {
+      "parent": "ORG-shoulder.R",
+      "hide": false,
+      "head_local": [
+        -0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.21934999525547028,
+        0.0832500010728836,
+        1.370650053024292
+      ],
+      "matrix_local": [
+        [
+          0.5715418457984924,
+          -0.6683938503265381,
+          -0.47601398825645447,
+          -0.17159999907016754
+        ],
+        [
+          0.6683939695358276,
+          0.042693182826042175,
+          0.7425811290740967,
+          0.08020002394914627
+        ],
+        [
+          -0.4760141968727112,
+          -0.7425811290740967,
+          0.47115153074264526,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.6902117729187012,
+          -0.6990054845809937,
+          0.18708066642284393,
+          -0.17562103271484375
+        ],
+        [
+          0.3609824776649475,
+          0.5566861629486084,
+          0.7481924295425415,
+          0.2285415381193161
+        ],
+        [
+          -0.6271358132362366,
+          -0.4488784670829773,
+          0.6365602016448975,
+          1.4224179983139038
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "FK_limb_follow": 0.0,
+        "IK_FK": 1.0,
+        "IK_Stretch": 1.0,
+        "pole_vector": 1,
+        "IK_parent": 1,
+        "pole_parent": 6
+      },
+      "custom_shape": "WGT-rig_upper_arm_parent.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-upper_arm_parent.R": {
+      "parent": "ORG-shoulder.R",
+      "hide": false,
+      "head_local": [
+        -0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.17159999907016754,
+        0.1516399085521698,
+        1.423699975013733
+      ],
+      "matrix_local": [
+        [
+          0.9999999403953552,
+          -7.683411240577698e-09,
+          -1.7695128917694092e-08,
+          -0.17159999907016754
+        ],
+        [
+          8.917413651943207e-08,
+          1.0000001192092896,
+          1.4901161193847656e-08,
+          0.08020002394914627
+        ],
+        [
+          4.470348358154297e-08,
+          0.0,
+          1.0,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.7726427912712097,
+          0.5704132914543152,
+          0.2786605656147003,
+          -0.17562103271484375
+        ],
+        [
+          -0.5219196081161499,
+          0.8206389546394348,
+          -0.2327052354812622,
+          0.2285415381193161
+        ],
+        [
+          -0.3614182770252228,
+          0.03435960412025452,
+          0.9317707419395447,
+          1.4224179983139038
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Scale",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "root",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true
+        },
+        {
+          "name": "Copy Rotation",
+          "type": "COPY_ROTATION",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "root",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "invert_x": false,
+          "invert_y": false,
+          "invert_z": false
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-upper_arm_parent.R\"].constraints[\"Copy Rotation\"].influence",
+          "array_index": 0,
+          "mute": false,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"FK_limb_follow\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "upper_arm_ik.R": {
+      "parent": "MCH-upper_arm_ik_swing.R",
+      "hide": false,
+      "head_local": [
+        -0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.7436769008636475,
+          -0.6683935523033142,
+          0.013945460319519043,
+          -0.17159999907016754
+        ],
+        [
+          -0.05707590654492378,
+          0.04269322752952576,
+          -0.9974566698074341,
+          0.08020003139972687
+        ],
+        [
+          0.6660980582237244,
+          -0.7425814270973206,
+          -0.06989912688732147,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9079423546791077,
+          -0.3737403452396393,
+          0.10022781044244766,
+          -0.17561253905296326
+        ],
+        [
+          0.04003949463367462,
+          -0.34501561522483826,
+          -0.9238219857215881,
+          0.22861261665821075
+        ],
+        [
+          0.3848693072795868,
+          -0.8457947969436646,
+          0.3325556218624115,
+          1.4223992824554443
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9948780536651611,
+          0.0,
+          -0.1010822057723999,
+          -2.2292137145996094e-05
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.8995018005371094e-05
+        ],
+        [
+          0.1010822057723999,
+          0.0,
+          0.9948780536651611,
+          -5.078315734863281e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_ik.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-forearm_ik.R": {
+      "parent": "upper_arm_ik.R",
+      "hide": false,
+      "head_local": [
+        -0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436777949333191,
+          -0.5025990605354309,
+          0.44083696603775024,
+          -0.3625999987125397
+        ],
+        [
+          -0.0570741705596447,
+          -0.6092671155929565,
+          -0.7909085154533386,
+          0.09240003675222397
+        ],
+        [
+          0.6660971641540527,
+          -0.6133415102958679,
+          0.4244130253791809,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9056509733200073,
+          0.19338908791542053,
+          0.33402371406555176,
+          -0.28241246938705444
+        ],
+        [
+          0.03993957117199898,
+          -0.8004457950592041,
+          0.5717214345932007,
+          0.13002106547355652
+        ],
+        [
+          0.3838959038257599,
+          0.5395011901855469,
+          0.7285167574882507,
+          1.1807050704956055
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "IK",
+          "type": "IK",
+          "mute": true,
+          "enabled": false,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": 2,
+          "pole_angle": 0.0,
+          "use_rotation": false,
+          "use_stretch": true,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "distance": 1.0,
+          "limit_mode": "LIMITDIST_INSIDE"
+        },
+        {
+          "name": "IK.001",
+          "type": "IK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": "rig",
+          "pole_subtarget": "upper_arm_ik_target.R",
+          "chain_count": 2,
+          "pole_angle": -1.5707963705062866,
+          "use_rotation": false,
+          "use_stretch": true,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "distance": 1.0,
+          "limit_mode": "LIMITDIST_INSIDE"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-forearm_ik.R\"].constraints[\"IK\"].mute",
+          "array_index": 0,
+          "mute": false,
+          "expression": "False",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_vector\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-forearm_ik.R\"].constraints[\"IK.001\"].mute",
+          "array_index": 0,
+          "mute": false,
+          "expression": "False",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_vector\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MCH-upper_arm_ik_swing.R": {
+      "parent": "MCH-upper_arm_parent.R",
+      "hide": false,
+      "head_local": [
+        -0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.2252364456653595,
+        0.05519592761993408,
+        1.3616740703582764
+      ],
+      "matrix_local": [
+        [
+          -0.7487720251083374,
+          -0.6256586909294128,
+          0.21884116530418396,
+          -0.17159999907016754
+        ],
+        [
+          -0.03565336763858795,
+          -0.2916676104068756,
+          -0.9558551907539368,
+          0.08020003139972687
+        ],
+        [
+          0.6618677973747253,
+          -0.723520040512085,
+          0.19608572125434875,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.7920213937759399,
+          -0.1636648178100586,
+          0.588146448135376,
+          -0.17562103271484375
+        ],
+        [
+          -0.04839533567428589,
+          -0.9435310959815979,
+          -0.32772988080978394,
+          0.2285415381193161
+        ],
+        [
+          0.6085724234580994,
+          -0.2880323827266693,
+          0.7393761277198792,
+          1.4224179983139038
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "MCH-upper_arm_ik_target.R": {
+      "parent": "hand_ik.R",
+      "hide": false,
+      "head_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        -0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264299154281616,
+          -0.5485387444496155,
+          0.5537962913513184,
+          -0.4982999861240387
+        ],
+        [
+          0.14218932390213013,
+          -0.7789657115936279,
+          -0.6107324957847595,
+          -0.07210000604391098
+        ],
+        [
+          0.7663987278938293,
+          -0.3038376271724701,
+          0.5659638047218323,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.857772707939148,
+          -0.1333862692117691,
+          0.49642086029052734,
+          -0.2301979959011078
+        ],
+        [
+          0.1987520307302475,
+          -0.9766973853111267,
+          0.08099164068698883,
+          -0.08609578758478165
+        ],
+        [
+          0.4740495979785919,
+          0.16813671588897705,
+          0.8642953038215637,
+          1.3263684511184692
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Location",
+          "type": "COPY_LOCATION",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_ik.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "invert_x": false,
+          "invert_y": false,
+          "invert_z": false
+        },
+        {
+          "name": "Limit Distance",
+          "type": "LIMIT_DISTANCE",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "CUSTOM",
+          "owner_space": "CUSTOM",
+          "head_tail": 0.0,
+          "distance": 0.5752077698707581,
+          "limit_mode": "LIMITDIST_INSIDE"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.R\"].constraints[\"Limit Distance\"].influence",
+          "array_index": 0,
+          "mute": false,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"IK_Stretch\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MCH-upper_arm_ik_target.parent.R": {
+      "parent": null,
+      "hide": false,
+      "head_local": [
+        -0.4856099486351013,
+        0.5909754633903503,
+        1.1168845891952515
+      ],
+      "tail_local": [
+        -0.4856099486351013,
+        0.6127325296401978,
+        1.1168845891952515
+      ],
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.4856099486351013
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5909754633903503
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1168845891952515
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          0.7726430296897888,
+          0.5704132914543152,
+          0.2786606550216675,
+          -0.21238288283348083
+        ],
+        [
+          -0.5219195485115051,
+          0.82063889503479,
+          -0.2327054888010025,
+          0.8829892873764038
+        ],
+        [
+          -0.36141839623451233,
+          0.03435958921909332,
+          0.9317712187767029,
+          1.2675751447677612
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "SWITCH_PARENT",
+          "type": "ARMATURE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": null,
+          "subtarget": "",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[0].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 1",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[1].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 2",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[2].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 3",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[3].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 4",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[4].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 5",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[5].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 6",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "pose.bones[\"MCH-upper_arm_ik_target.parent.R\"].constraints[\"SWITCH_PARENT\"].targets[6].weight",
+          "array_index": 0,
+          "mute": false,
+          "expression": "var == 7",
+          "type": "SCRIPTED",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"pole_parent\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hand_ik.R": {
+      "parent": "MCH-hand_ik.parent.R",
+      "hide": false,
+      "head_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        -0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264301538467407,
+          -0.5485387444496155,
+          0.5537960529327393,
+          -0.4982999861240387
+        ],
+        [
+          0.14218956232070923,
+          -0.7789657711982727,
+          -0.61073237657547,
+          -0.07210000604391098
+        ],
+        [
+          0.7663984894752502,
+          -0.3038376271724701,
+          0.5659641623497009,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.8577728867530823,
+          -0.13338622450828552,
+          0.4964205026626587,
+          -0.2301979959011078
+        ],
+        [
+          0.19875197112560272,
+          -0.9766973853111267,
+          0.08099177479743958,
+          -0.08609578758478165
+        ],
+        [
+          0.47404924035072327,
+          0.16813674569129944,
+          0.864295482635498,
+          1.3263684511184692
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9289065599441528,
+          0.07354117184877396,
+          0.36293843388557434,
+          0.045013427734375
+        ],
+        [
+          0.1716669499874115,
+          0.7828953266143799,
+          -0.5980011224746704,
+          -0.22137896716594696
+        ],
+        [
+          -0.32812049984931946,
+          0.6177917122840881,
+          0.7146120071411133,
+          0.31575673818588257
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_hand_ik.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "upper_arm_ik_target.R": {
+      "parent": "MCH-upper_arm_ik_target.parent.R",
+      "hide": false,
+      "head_local": [
+        -0.4856099486351013,
+        0.5909754633903503,
+        1.1168845891952515
+      ],
+      "tail_local": [
+        -0.4702337086200714,
+        0.5286535024642944,
+        1.128711462020874
+      ],
+      "matrix_local": [
+        [
+          -0.2281956672668457,
+          0.2355746179819107,
+          -0.9446857571601868,
+          -0.4856099486351013
+        ],
+        [
+          -0.2355746179819107,
+          -0.9548155069351196,
+          -0.18119587004184723,
+          0.5909754633903503
+        ],
+        [
+          -0.9446857571601868,
+          0.18119587004184723,
+          0.2733802795410156,
+          1.1168845891952515
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5739355087280273,
+          -0.3121323883533478,
+          -0.7570810914039612,
+          -0.21238288283348083
+        ],
+        [
+          0.1456114649772644,
+          -0.948675274848938,
+          0.28073668479919434,
+          0.8829892873764038
+        ],
+        [
+          -0.8058509826660156,
+          0.050884976983070374,
+          0.5899288654327393,
+          1.2675751447677612
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_ik_target.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "ORG-upper_arm.R": {
+      "parent": "ORG-shoulder.R",
+      "hide": false,
+      "head_local": [
+        -0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.7436769604682922,
+          -0.6683935523033142,
+          0.013945493847131729,
+          -0.17159999907016754
+        ],
+        [
+          -0.05707578361034393,
+          0.04269321262836456,
+          -0.9974565505981445,
+          0.08020002394914627
+        ],
+        [
+          0.6660982966423035,
+          -0.7425815463066101,
+          -0.0698990672826767,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9079423546791077,
+          -0.3737403452396393,
+          0.10022781044244766,
+          -0.17561253905296326
+        ],
+        [
+          0.04003949463367462,
+          -0.34501561522483826,
+          -0.9238219857215881,
+          0.22861261665821075
+        ],
+        [
+          0.3848693072795868,
+          -0.8457947969436646,
+          0.3325556218624115,
+          1.4223992824554443
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9327569007873535,
+          -0.1719358265399933,
+          0.3168642818927765,
+          2.193450927734375e-05
+        ],
+        [
+          0.3438835144042969,
+          0.6881656050682068,
+          -0.6388838887214661,
+          -3.7610530853271484e-05
+        ],
+        [
+          -0.10820803791284561,
+          0.7048872709274292,
+          0.7010173797607422,
+          -1.850724220275879e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rigify_type": "limbs.super_limb",
+        "rigify_parameters": [
+          "tweak_layers",
+          "fk_layers"
+        ]
+      },
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "upper_arm_fk.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_ik.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"ORG-upper_arm.R\"].constraints[\"Copy Transforms.001\"].influence",
+          "array_index": 0,
+          "mute": true,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"IK_FK\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ORG-forearm.R": {
+      "parent": "ORG-upper_arm.R",
+      "hide": false,
+      "head_local": [
+        -0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436777949333191,
+          -0.5025991201400757,
+          0.4408371150493622,
+          -0.3625999987125397
+        ],
+        [
+          -0.05707404389977455,
+          -0.6092671751976013,
+          -0.7909083962440491,
+          0.09240002930164337
+        ],
+        [
+          0.6660975217819214,
+          -0.6133414506912231,
+          0.42441320419311523,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9056509733200073,
+          0.19338908791542053,
+          0.33402371406555176,
+          -0.28241249918937683
+        ],
+        [
+          0.03993957117199898,
+          -0.8004457950592041,
+          0.5717214345932007,
+          0.13002103567123413
+        ],
+        [
+          0.3838959038257599,
+          0.5395011901855469,
+          0.7285167574882507,
+          1.180705189704895
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9432615637779236,
+          0.2623867988586426,
+          0.2034958004951477,
+          0.0
+        ],
+        [
+          0.1855262815952301,
+          0.09180521965026855,
+          -0.9783414602279663,
+          0.0
+        ],
+        [
+          -0.27538585662841797,
+          0.9605855345726013,
+          0.037916701287031174,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rigify_type": ""
+      },
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "forearm_fk.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-forearm_ik.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"ORG-forearm.R\"].constraints[\"Copy Transforms.001\"].influence",
+          "array_index": 0,
+          "mute": true,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"IK_FK\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ORG-hand.R": {
+      "parent": "ORG-forearm.R",
+      "hide": false,
+      "head_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        -0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.626430094242096,
+          -0.5485389232635498,
+          0.5537962913513184,
+          -0.4982999861240387
+        ],
+        [
+          0.14218896627426147,
+          -0.7789658904075623,
+          -0.6107327342033386,
+          -0.0720999538898468
+        ],
+        [
+          0.7663992047309875,
+          -0.3038376569747925,
+          0.5659639239311218,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.857772707939148,
+          -0.1333862692117691,
+          0.49642086029052734,
+          -0.23019813001155853
+        ],
+        [
+          0.1987520307302475,
+          -0.9766973853111267,
+          0.08099164068698883,
+          -0.08609649538993835
+        ],
+        [
+          0.4740495979785919,
+          0.16813671588897705,
+          0.8642953038215637,
+          1.3263685703277588
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9217592477798462,
+          -0.05432100594043732,
+          -0.38393905758857727,
+          0.0
+        ],
+        [
+          0.06559428572654724,
+          0.9977129101753235,
+          0.01631866581737995,
+          0.0
+        ],
+        [
+          0.38217443227767944,
+          -0.040226083248853683,
+          0.9232143759727478,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rigify_type": ""
+      },
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.0,
+          "target": "rig",
+          "subtarget": "hand_fk.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": [
+        {
+          "path": "pose.bones[\"ORG-hand.R\"].constraints[\"Copy Transforms.001\"].influence",
+          "array_index": 0,
+          "mute": true,
+          "expression": "1.0",
+          "type": "SUM",
+          "vars": [
+            {
+              "name": "var",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": "rig",
+                  "bone_target": "",
+                  "data_path": "pose.bones[\"upper_arm_parent.R\"][\"IK_FK\"]",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "upper_arm_fk.R": {
+      "parent": "MCH-upper_arm_parent.R",
+      "hide": false,
+      "head_local": [
+        -0.17159999907016754,
+        0.08020000159740448,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.7436769008636475,
+          -0.6683936715126038,
+          0.013945527374744415,
+          -0.17159999907016754
+        ],
+        [
+          -0.057075921446084976,
+          0.04269322007894516,
+          -0.9974566698074341,
+          0.08020003139972687
+        ],
+        [
+          0.6660982370376587,
+          -0.7425815463066101,
+          -0.06989914178848267,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.40790635347366333,
+          -0.6291192770004272,
+          0.661681056022644,
+          -0.17557542026042938
+        ],
+        [
+          -0.6158620715141296,
+          -0.34542980790138245,
+          -0.7080910205841064,
+          0.2285984456539154
+        ],
+        [
+          0.6740379333496094,
+          -0.6963388323783875,
+          -0.24654792249202728,
+          1.4224307537078857
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.6554020047187805,
+          -0.41713276505470276,
+          -0.6296416521072388,
+          2.7418136596679688e-06
+        ],
+        [
+          -0.3602747321128845,
+          0.5600335001945496,
+          -0.74603271484375,
+          -5.9604644775390625e-06
+        ],
+        [
+          0.6638150811195374,
+          0.7157953381538391,
+          0.2167646735906601,
+          -7.37607479095459e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_fk.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "forearm_fk.R": {
+      "parent": "upper_arm_fk.R",
+      "hide": false,
+      "head_local": [
+        -0.3625999987125397,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "matrix_local": [
+        [
+          -0.7436777949333191,
+          -0.5025991201400757,
+          0.44083714485168457,
+          -0.36260002851486206
+        ],
+        [
+          -0.05707412585616112,
+          -0.6092672348022461,
+          -0.7909084558486938,
+          0.09240003675222397
+        ],
+        [
+          0.6660973429679871,
+          -0.6133415699005127,
+          0.4244132339954376,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.8571541905403137,
+          0.46349501609802246,
+          0.22463321685791016,
+          -0.35535240173339844
+        ],
+        [
+          -0.2955818474292755,
+          -0.7998185753822327,
+          0.5224194526672363,
+          0.12988850474357605
+        ],
+        [
+          0.4218045771121979,
+          0.3813961446285248,
+          0.8225682377815247,
+          1.223445177078247
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.815989077091217,
+          0.5605888962745667,
+          0.1410740166902542,
+          0.0
+        ],
+        [
+          -0.031170086935162544,
+          0.2863580286502838,
+          -0.9576154947280884,
+          0.0
+        ],
+        [
+          -0.5772263407707214,
+          0.7770065069198608,
+          0.2511386275291443,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_forearm_fk.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "hand_fk.R": {
+      "parent": "MCH-hand_fk.R",
+      "hide": false,
+      "head_local": [
+        -0.4982999861240387,
+        -0.07209999859333038,
+        1.0458999872207642
+      ],
+      "tail_local": [
+        -0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264300346374512,
+          -0.5485389828681946,
+          0.5537963509559631,
+          -0.4983000159263611
+        ],
+        [
+          0.14218901097774506,
+          -0.7789660096168518,
+          -0.6107327938079834,
+          -0.072099968791008
+        ],
+        [
+          0.7663991451263428,
+          -0.30383768677711487,
+          0.5659639835357666,
+          1.0458999872207642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.8577731847763062,
+          -0.1333857774734497,
+          0.4964209198951721,
+          -0.23019792139530182
+        ],
+        [
+          0.19875170290470123,
+          -0.9766978025436401,
+          0.08099216222763062,
+          -0.08609583228826523
+        ],
+        [
+          0.4740499258041382,
+          0.16813719272613525,
+          0.8642956018447876,
+          1.326369285583496
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.9204207062721252,
+          0.2948664426803589,
+          -0.25667014718055725,
+          -2.09808349609375e-05
+        ],
+        [
+          -0.05895049870014191,
+          0.7537454962730408,
+          0.6545170545578003,
+          -5.7220458984375e-06
+        ],
+        [
+          0.386459082365036,
+          -0.587300181388855,
+          0.7111454606056213,
+          -6.03795051574707e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_hand_fk.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "upper_arm_tweak.R": {
+      "parent": "MCH-upper_arm_tweak.R",
+      "hide": false,
+      "head_local": [
+        -0.17159998416900635,
+        0.08020000904798508,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.21934998035430908,
+        0.0832500085234642,
+        1.370650053024292
+      ],
+      "matrix_local": [
+        [
+          -0.7436767816543579,
+          -0.6683940291404724,
+          0.013945776969194412,
+          -0.17159998416900635
+        ],
+        [
+          -0.057076312601566315,
+          0.042693231254816055,
+          -0.9974565505981445,
+          0.08020003139972687
+        ],
+        [
+          0.6660986542701721,
+          -0.7425812482833862,
+          -0.06989950686693192,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.6273093819618225,
+          -0.3786790668964386,
+          0.6805035471916199,
+          -0.17561262845993042
+        ],
+        [
+          -0.5838545560836792,
+          -0.349574476480484,
+          -0.732742428779602,
+          0.22861267626285553
+        ],
+        [
+          0.515360951423645,
+          -0.8569715023040771,
+          -0.001802206039428711,
+          1.4223994016647339
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          0.5590693354606628,
+          -1.021361867969972e-06,
+          -0.8291208744049072,
+          1.1920928955078125e-07
+        ],
+        [
+          6.556506946253648e-07,
+          1.0,
+          -7.897614295870881e-07,
+          -5.960464477539063e-08
+        ],
+        [
+          0.8291208744049072,
+          -1.0208227507746415e-07,
+          0.5590693354606628,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_upper_arm_tweak.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-upper_arm_tweak.R": {
+      "parent": "ORG-shoulder.R",
+      "hide": false,
+      "head_local": [
+        -0.17159998416900635,
+        0.08020000904798508,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.19547498226165771,
+        0.08172500878572464,
+        1.3971749544143677
+      ],
+      "matrix_local": [
+        [
+          -0.7436774969100952,
+          -0.6683932542800903,
+          0.0139449592679739,
+          -0.17159998416900635
+        ],
+        [
+          -0.05707506090402603,
+          0.04269316792488098,
+          -0.9974566102027893,
+          0.08020003139972687
+        ],
+        [
+          0.6660979390144348,
+          -0.7425819635391235,
+          -0.06989860534667969,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9149290323257446,
+          -0.3786790668964386,
+          -0.13966765999794006,
+          -0.17561253905296326
+        ],
+        [
+          0.2811179459095001,
+          -0.3495746850967407,
+          -0.8937394618988037,
+          0.22861261665821075
+        ],
+        [
+          0.2896162271499634,
+          -0.8569713830947876,
+          0.42628952860832214,
+          1.4223992824554443
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Scale",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true
+        },
+        {
+          "name": "Copy Location",
+          "type": "COPY_LOCATION",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "ORG-upper_arm.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "invert_x": false,
+          "invert_y": false,
+          "invert_z": false
+        },
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "ORG-upper_arm.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 1.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "MCH-upper_arm_tweak.R.001": {
+      "parent": "ORG-upper_arm.R",
+      "hide": false,
+      "head_local": [
+        -0.2670999765396118,
+        0.08630000054836273,
+        1.3176000118255615
+      ],
+      "tail_local": [
+        -0.2909749746322632,
+        0.0878250002861023,
+        1.2910749912261963
+      ],
+      "matrix_local": [
+        [
+          -0.7436774373054504,
+          -0.6683930158615112,
+          0.013944676145911217,
+          -0.2670999765396118
+        ],
+        [
+          -0.05707458779215813,
+          0.04269317537546158,
+          -0.9974566102027893,
+          0.08630002290010452
+        ],
+        [
+          0.6660978198051453,
+          -0.7425820231437683,
+          -0.06989823281764984,
+          1.3176000118255615
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.7861109375953674,
+          -0.3785000145435333,
+          0.4886389672756195,
+          -0.22898977994918823
+        ],
+        [
+          -0.36743050813674927,
+          -0.34954124689102173,
+          -0.8618677854537964,
+          0.179319366812706
+        ],
+        [
+          0.497016578912735,
+          -0.8570646047592163,
+          0.13570547103881836,
+          1.3015336990356445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.5,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "forearm_tweak.R": {
+      "parent": "MCH-forearm_tweak.R",
+      "hide": false,
+      "head_local": [
+        -0.3625999689102173,
+        0.09239999949932098,
+        1.2115001678466797
+      ],
+      "tail_local": [
+        -0.39652496576309204,
+        0.05127499997615814,
+        1.1701000928878784
+      ],
+      "matrix_local": [
+        [
+          -0.7436786890029907,
+          -0.502598762512207,
+          0.4408358633518219,
+          -0.3625999391078949
+        ],
+        [
+          -0.05707337334752083,
+          -0.6092668175697327,
+          -0.790908694267273,
+          0.09240005165338516
+        ],
+        [
+          0.666096568107605,
+          -0.6133421063423157,
+          0.42441385984420776,
+          1.2115001678466797
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9199410676956177,
+          0.19644086062908173,
+          0.33929309248924255,
+          -0.28236693143844604
+        ],
+        [
+          0.0405685231089592,
+          -0.8130760192871094,
+          0.5807422995567322,
+          0.13002605736255646
+        ],
+        [
+          0.38995251059532166,
+          0.5480131506919861,
+          0.7400127053260803,
+          1.1806679964065552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          1.1920923981278975e-07,
+          -2.9802308176840597e-08,
+          -5.626678466796875e-05
+        ],
+        [
+          -1.192092469182171e-07,
+          0.9999999403953552,
+          2.9802308176840597e-08,
+          -1.5348196029663086e-05
+        ],
+        [
+          2.9802311729554276e-08,
+          -2.980230284777008e-08,
+          1.0,
+          -9.179115295410156e-06
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {
+        "rubber_tweak": 0.0
+      },
+      "custom_shape": "WGT-rig_forearm_tweak.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "MCH-forearm_tweak.R": {
+      "parent": "ORG-forearm.R",
+      "hide": false,
+      "head_local": [
+        -0.3625999689102173,
+        0.09239999949932098,
+        1.2115001678466797
+      ],
+      "tail_local": [
+        -0.37956246733665466,
+        0.07183749973773956,
+        1.1908001899719238
+      ],
+      "matrix_local": [
+        [
+          -0.7436769604682922,
+          -0.5025994181632996,
+          0.44083812832832336,
+          -0.3625999391078949
+        ],
+        [
+          -0.05707449093461037,
+          -0.6092675924301147,
+          -0.7909080386161804,
+          0.09240006655454636
+        ],
+        [
+          0.666098415851593,
+          -0.6133408546447754,
+          0.4244127571582794,
+          1.2115001678466797
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9199404716491699,
+          0.19644005596637726,
+          0.3392951488494873,
+          -0.2824125587940216
+        ],
+        [
+          0.04057091474533081,
+          -0.8130755424499512,
+          0.5807428956031799,
+          0.13002119958400726
+        ],
+        [
+          0.38995361328125,
+          0.5480143427848816,
+          0.7400112748146057,
+          1.180705189704895
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Scale",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "use_offset": false,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true
+        }
+      ],
+      "drivers": []
+    },
+    "MCH-forearm_tweak.R.001": {
+      "parent": "ORG-forearm.R",
+      "hide": false,
+      "head_local": [
+        -0.4304499626159668,
+        0.010149993002414703,
+        1.1287001371383667
+      ],
+      "tail_local": [
+        -0.4474124610424042,
+        -0.010412506759166718,
+        1.1080001592636108
+      ],
+      "matrix_local": [
+        [
+          -0.750732421875,
+          -0.5025994181632996,
+          0.4287126064300537,
+          -0.4304499626159668
+        ],
+        [
+          -0.04423309490084648,
+          -0.6092675924301147,
+          -0.7917300462722778,
+          0.010150045156478882
+        ],
+        [
+          0.6591238379478455,
+          -0.6133408546447754,
+          0.43516549468040466,
+          1.1287001371383667
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.8910194039344788,
+          0.19630135595798492,
+          0.4093298614025116,
+          -0.25627633929252625
+        ],
+        [
+          0.08533848077058792,
+          -0.8131722211837769,
+          0.5757333040237427,
+          0.02194676175713539
+        ],
+        [
+          0.4458724856376648,
+          0.5479207038879395,
+          0.7077996134757996,
+          1.2534925937652588
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 0.5,
+          "target": "rig",
+          "subtarget": "hand_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Damped Track",
+          "type": "DAMPED_TRACK",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0,
+          "track_axis": "TRACK_Y"
+        }
+      ],
+      "drivers": []
+    },
+    "hand_tweak.R": {
+      "parent": "MCH-hand_tweak.R",
+      "hide": false,
+      "head_local": [
+        -0.4982999563217163,
+        -0.07210000604391098,
+        1.0459001064300537
+      ],
+      "tail_local": [
+        -0.5184749364852905,
+        -0.10075000673532486,
+        1.0347250699996948
+      ],
+      "matrix_local": [
+        [
+          -0.6264322996139526,
+          -0.548538327217102,
+          0.5537944436073303,
+          -0.4982999563217163
+        ],
+        [
+          0.1421899050474167,
+          -0.778965950012207,
+          -0.61073237657547,
+          -0.07209997624158859
+        ],
+        [
+          0.7663971781730652,
+          -0.30383849143981934,
+          0.5659660696983337,
+          1.0459001064300537
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.8577742576599121,
+          -0.13338536024093628,
+          0.4964183270931244,
+          -0.23018574714660645
+        ],
+        [
+          0.19875076413154602,
+          -0.9766974449157715,
+          0.08099212497472763,
+          -0.08613253384828568
+        ],
+        [
+          0.4740472435951233,
+          0.1681361049413681,
+          0.8642967343330383,
+          1.3263171911239624
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          7.450578376477779e-09,
+          5.960465898624534e-08,
+          -4.220008850097656e-05
+        ],
+        [
+          -7.450580596923828e-09,
+          0.9999998211860657,
+          1.4901164746561335e-08,
+          2.4944543838500977e-05
+        ],
+        [
+          -5.960465898624534e-08,
+          -1.4901161193847656e-08,
+          1.0,
+          -4.124641418457031e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": "WGT-rig_hand_tweak.R",
+      "constraints": [],
+      "drivers": []
+    },
+    "DEF-upper_arm.R": {
+      "parent": "ORG-shoulder.R",
+      "hide": false,
+      "head_local": [
+        -0.17159998416900635,
+        0.08020000904798508,
+        1.423699975013733
+      ],
+      "tail_local": [
+        -0.2670999765396118,
+        0.08630000799894333,
+        1.3176000118255615
+      ],
+      "matrix_local": [
+        [
+          -0.743677020072937,
+          -0.6683935523033142,
+          0.013945456594228745,
+          -0.17159998416900635
+        ],
+        [
+          -0.05707576870918274,
+          0.042693205177783966,
+          -0.9974566102027893,
+          0.08020003139972687
+        ],
+        [
+          0.6660982370376587,
+          -0.7425815463066101,
+          -0.0698990672826767,
+          1.423699975013733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.6314190030097961,
+          -0.3737318515777588,
+          0.6849892139434814,
+          -0.17561262845993042
+        ],
+        [
+          -0.5876796245574951,
+          -0.3450809419155121,
+          -0.7375307679176331,
+          0.22861267626285553
+        ],
+        [
+          0.5187563300132751,
+          -0.8458275198936462,
+          -0.0017669009976089,
+          1.4223994016647339
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.R.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-upper_arm.R.001": {
+      "parent": "DEF-upper_arm.R",
+      "hide": false,
+      "head_local": [
+        -0.2670999765396118,
+        0.08630000799894333,
+        1.3176000118255615
+      ],
+      "tail_local": [
+        -0.3625999689102173,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "matrix_local": [
+        [
+          -0.743677020072937,
+          -0.6683935523033142,
+          0.01394551433622837,
+          -0.2670999765396118
+        ],
+        [
+          -0.05707578733563423,
+          0.04269314184784889,
+          -0.9974566102027893,
+          0.08630003035068512
+        ],
+        [
+          0.6660982370376587,
+          -0.7425815463066101,
+          -0.06989903002977371,
+          1.3176000118255615
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.5597865581512451,
+          -0.3734298348426819,
+          0.7448336482048035,
+          -0.2290113866329193
+        ],
+        [
+          -0.6587271094322205,
+          -0.3449159860610962,
+          -0.6749213933944702,
+          0.17930755019187927
+        ],
+        [
+          0.5156431198120117,
+          -0.8460240364074707,
+          -0.053605929017066956,
+          1.301547646522522
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "upper_arm_tweak.R.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-forearm.R": {
+      "parent": "DEF-upper_arm.R.001",
+      "hide": false,
+      "head_local": [
+        -0.3625999689102173,
+        0.09239999949932098,
+        1.2115000486373901
+      ],
+      "tail_local": [
+        -0.4304499626159668,
+        0.0101500004529953,
+        1.1287001371383667
+      ],
+      "matrix_local": [
+        [
+          -0.7436770796775818,
+          -0.5025993585586548,
+          0.4408380389213562,
+          -0.3625999689102173
+        ],
+        [
+          -0.05707457661628723,
+          -0.60926753282547,
+          -0.79090815782547,
+          0.09240002185106277
+        ],
+        [
+          0.6660982370376587,
+          -0.6133409738540649,
+          0.42441263794898987,
+          1.2115000486373901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9271780848503113,
+          0.19343458116054535,
+          0.3419645130634308,
+          -0.2823669910430908
+        ],
+        [
+          0.040842846035957336,
+          -0.8004106879234314,
+          0.5853254795074463,
+          0.13002599775791168
+        ],
+        [
+          0.39305540919303894,
+          0.5394643545150757,
+          0.7458379864692688,
+          1.1806678771972656
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-forearm.R.001": {
+      "parent": "DEF-forearm.R",
+      "hide": false,
+      "head_local": [
+        -0.4304499626159668,
+        0.0101500004529953,
+        1.1287001371383667
+      ],
+      "tail_local": [
+        -0.4982999563217163,
+        -0.07210000604391098,
+        1.0459001064300537
+      ],
+      "matrix_local": [
+        [
+          -0.7436778545379639,
+          -0.5025991201400757,
+          0.4408370554447174,
+          -0.4304499626159668
+        ],
+        [
+          -0.057074081152677536,
+          -0.6092671751976013,
+          -0.7909084558486938,
+          0.010150015354156494
+        ],
+        [
+          0.6660974025726318,
+          -0.6133415102958679,
+          0.42441314458847046,
+          1.1287001371383667
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.9042438864707947,
+          0.19309771060943604,
+          0.3985942006111145,
+          -0.2562536895275116
+        ],
+        [
+          0.07711565494537354,
+          -0.800784707069397,
+          0.5813117027282715,
+          0.021972015500068665
+        ],
+        [
+          0.4381650686264038,
+          0.5394325256347656,
+          0.7202715873718262,
+          1.2534946203231812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "forearm_tweak.R.001",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        },
+        {
+          "name": "Stretch To",
+          "type": "STRETCH_TO",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    },
+    "DEF-hand.R": {
+      "parent": "DEF-forearm.R.001",
+      "hide": false,
+      "head_local": [
+        -0.4982999563217163,
+        -0.07210000604391098,
+        1.0459001064300537
+      ],
+      "tail_local": [
+        -0.5789999961853027,
+        -0.1867000013589859,
+        1.0011999607086182
+      ],
+      "matrix_local": [
+        [
+          -0.6264312863349915,
+          -0.5485389232635498,
+          0.5537948608398438,
+          -0.4982999563217163
+        ],
+        [
+          0.1421896070241928,
+          -0.7789656519889832,
+          -0.6107329726219177,
+          -0.07209997624158859
+        ],
+        [
+          0.7663979530334473,
+          -0.30383849143981934,
+          0.5659649968147278,
+          1.0459001064300537
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          -0.8577742576599121,
+          -0.13338536024093628,
+          0.4964183270931244,
+          -0.2301858365535736
+        ],
+        [
+          0.19875076413154602,
+          -0.9766974449157715,
+          0.08099212497472763,
+          -0.08613250404596329
+        ],
+        [
+          0.4740472435951233,
+          0.1681361049413681,
+          0.8642967343330383,
+          1.3263170719146729
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "props": {},
+      "custom_shape": null,
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "enabled": true,
+          "influence": 1.0,
+          "target": "rig",
+          "subtarget": "hand_tweak.R",
+          "pole_target": null,
+          "pole_subtarget": "",
+          "chain_count": null,
+          "pole_angle": null,
+          "use_rotation": null,
+          "use_stretch": null,
+          "target_space": "WORLD",
+          "owner_space": "WORLD",
+          "mix_mode": "REPLACE",
+          "head_tail": 0.0
+        }
+      ],
+      "drivers": []
+    }
+  }
+}

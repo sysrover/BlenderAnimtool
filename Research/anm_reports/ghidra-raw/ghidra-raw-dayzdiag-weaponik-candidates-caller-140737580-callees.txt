@@ -1,0 +1,2 @@
+EnterCriticalSection @ EXTERNAL:000000b5
+FUN_1407375f0 @ 1407375f0

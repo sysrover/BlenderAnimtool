@@ -1,0 +1,1591 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_WeaponIK_DispatcherScan.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 20:34:49 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_WeaponIK_DispatcherScan.java
+Size: 5593 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 15 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+McpInline_WeaponIK_Vtable_Offsets.java:55: error: cannot find symbol
+                FlowType ft = r.getReferenceType().getFlowType();
+                                                  ^
+  symbol:   method getFlowType()
+  location: class ghidra.program.model.symbol.RefType
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM DayZDiag_x64.exe
+SCAN dispatcher candidates: instruction text offset +3 and scalar/opcode 0x0c
+TOTAL_INSTRUCTIONS 3493843
+CANDIDATE_FUNCTIONS 12869 PRINTING 80
+
+FUNCTION FUN_14007f770 @ 14007f770 SCORE 2250 hits=690 off3=362 op0c=328 both=0
+  HIT 14007f92a CMP :: CMP EDX,dword ptr [RBX + 0xc]
+  HIT 14007f9c4 CMP :: CMP EDX,dword ptr [RBX + 0xc]
+  HIT 14007fd85 ADD :: ADD RSI,0x3
+  HIT 14007fe01 ADD :: ADD RSI,0x3
+  HIT 14007fe7d ADD :: ADD RSI,0x3
+  HIT 14007fef9 ADD :: ADD RSI,0x3
+  HIT 14007ff82 ADD :: ADD RSI,0x3
+  HIT 14007fffe ADD :: ADD RSI,0x3
+  CONTEXTS:
+    14007fd71: MOVZX EAX,word ptr [RCX + -0x801]
+    14007fd78: MOV word ptr [RSI],AX
+    14007fd7b: MOVZX EAX,byte ptr [RCX + -0x7ff]
+    14007fd82: MOV byte ptr [RSI + 0x2],AL
+ >> 14007fd85: ADD RSI,0x3
+    14007fd89: JMP 0x14007f9c0
+    14007fd8e: CMP EDX,dword ptr [RBX + 0xc]
+    14007fd91: JGE 0x14007fdaa
+    14007fd93: MOV RAX,qword ptr [RBX + 0x2028]
+    14007fd9a: MOVSXD RCX,EDX
+    14007fd9d: MOVZX R8D,byte ptr [RCX + RAX*0x1]
+    14007fda2: LEA EAX,[RDX + 0x1]
+    14007fda5: MOV dword ptr [RBX + 0x10],EAX
+    14007fded: MOVZX EAX,word ptr [RCX + -0x801]
+    14007fdf4: MOV word ptr [RSI],AX
+    14007fdf7: MOVZX EAX,byte ptr [RCX + -0x7ff]
+    14007fdfe: MOV byte ptr [RSI + 0x2],AL
+ >> 14007fe01: ADD RSI,0x3
+    14007fe05: JMP 0x14008b057
+    14007fe0a: CMP EDX,dword ptr [RBX + 0xc]
+    14007fe0d: JGE 0x14007fe26
+    14007fe0f: MOV RAX,qword ptr [RBX + 0x2028]
+    14007fe16: MOVSXD RCX,EDX
+    14007fe19: MOVZX R8D,byte ptr [RCX + RAX*0x1]
+    14007fe1e: LEA EAX,[RDX + 0x1]
+    14007fe21: MOV dword ptr [RBX + 0x10],EAX
+
+FUNCTION FUN_140d27d10 @ 140d27d10 SCORE 1029 hits=408 off3=407 op0c=1 both=0
+  HIT 140d27f5e LEA :: LEA R10,[R9 + 0xc]
+  HIT 140d280b6 ADD :: ADD RAX,0x3
+  HIT 140d280e5 ADD :: ADD RAX,0x3
+  HIT 140d28122 ADD :: ADD RAX,0x3
+  HIT 140d28151 ADD :: ADD RAX,0x3
+  HIT 140d28185 ADD :: ADD RAX,0x3
+  HIT 140d281b4 ADD :: ADD RAX,0x3
+  HIT 140d281f1 ADD :: ADD RAX,0x3
+  CONTEXTS:
+    140d280a2: MOVZX ECX,word ptr [RDX + -0x801]
+    140d280a9: MOV word ptr [RAX],CX
+    140d280ac: MOVZX ECX,byte ptr [RDX + -0x7ff]
+    140d280b3: MOV byte ptr [RAX + 0x2],CL
+ >> 140d280b6: ADD RAX,0x3
+    140d280ba: JMP 0x140d27da2
+    140d280bf: MOVZX ECX,byte ptr [R10]
+    140d280c3: MOV RDX,RAX
+    140d280c6: SHL RCX,0x2
+    140d280ca: LEA R10,[R9 + 0x2]
+    140d280ce: SUB RDX,RCX
+    140d280d1: MOVZX ECX,word ptr [RDX + -0x801]
+    140d280d8: MOV word ptr [RAX],CX
+    140d280d1: MOVZX ECX,word ptr [RDX + -0x801]
+    140d280d8: MOV word ptr [RAX],CX
+    140d280db: MOVZX ECX,byte ptr [RDX + -0x7ff]
+    140d280e2: MOV byte ptr [RAX + 0x2],CL
+ >> 140d280e5: ADD RAX,0x3
+    140d280e9: MOVZX ECX,byte ptr [R10]
+    140d280ed: INC R10
+    140d280f0: MOV byte ptr [RAX],CL
+    140d280f2: INC RAX
+    140d280f5: XOR EDI,EDI
+    140d280f7: JMP 0x140d27da2
+    140d280fc: MOVZX ECX,byte ptr [R10]
+    140d28100: MOV RDX,RAX
+
+FUNCTION FUN_140075b00 @ 140075b00 SCORE 938 hits=362 off3=362 op0c=0 both=0
+  HIT 140076084 ADD :: ADD RDI,0x3
+  HIT 1400760e0 ADD :: ADD RDI,0x3
+  HIT 14007613c ADD :: ADD RDI,0x3
+  HIT 140076198 ADD :: ADD RDI,0x3
+  HIT 1400761f9 ADD :: ADD RDI,0x3
+  HIT 140076255 ADD :: ADD RDI,0x3
+  HIT 1400762b1 ADD :: ADD RDI,0x3
+  HIT 14007630d ADD :: ADD RDI,0x3
+  CONTEXTS:
+    140076070: MOVZX EAX,word ptr [RCX + -0x801]
+    140076077: MOV word ptr [RDI],AX
+    14007607a: MOVZX EAX,byte ptr [RCX + -0x7ff]
+    140076081: MOV byte ptr [RDI + 0x2],AL
+ >> 140076084: ADD RDI,0x3
+    140076088: JMP 0x140075d30
+    14007608d: CMP R8,qword ptr [RBX + 0x18]
+    140076091: JC 0x1400760aa
+    140076093: MOV RCX,RBX
+    140076096: CALL 0x140075a40
+    14007609b: TEST AL,AL
+    14007609d: JNZ 0x1400760a6
+    14007609f: MOV ECX,0xffffffff
+    1400760cc: MOVZX EAX,word ptr [RCX + -0x801]
+    1400760d3: MOV word ptr [RDI],AX
+    1400760d6: MOVZX EAX,byte ptr [RCX + -0x7ff]
+    1400760dd: MOV byte ptr [RDI + 0x2],AL
+ >> 1400760e0: ADD RDI,0x3
+    1400760e4: JMP 0x14007e8ff
+    1400760e9: CMP R8,qword ptr [RBX + 0x18]
+    1400760ed: JC 0x140076106
+    1400760ef: MOV RCX,RBX
+    1400760f2: CALL 0x140075a40
+    1400760f7: TEST AL,AL
+    1400760f9: JNZ 0x140076102
+    1400760fb: MOV ECX,0xffffffff
+
+FUNCTION FUN_1405619b0 @ 1405619b0 SCORE 612 hits=153 off3=153 op0c=0 both=0
+  HIT 1405619ca MOV :: MOV R9D,0x3e8
+  HIT 1405619f4 MOV :: MOV R9D,0x3e8
+  HIT 140561a17 MOV :: MOV R9D,0x3e8
+  HIT 140561a1d MOV :: MOV R8D,0x3
+  HIT 140561a3a MOV :: MOV R9D,0x3e8
+  HIT 140561a5d MOV :: MOV R9D,0x3e8
+  HIT 140561a80 MOV :: MOV R9D,0x3e8
+  HIT 140561aa3 MOV :: MOV R9D,0x3e8
+  CONTEXTS:
+    1405619b6: MOV RBP,RSP
+    1405619b9: SUB RSP,0x20
+    1405619bd: LEA RAX,[0x140e74430]
+    1405619c4: MOV dword ptr [RCX],0x0
+ >> 1405619ca: MOV R9D,0x3e8
+    1405619d0: MOV qword ptr [RBP + 0x10],RAX
+    1405619d4: MOV R8D,0x1
+    1405619da: MOV dword ptr [RCX + 0x4],0xa
+    1405619e1: LEA RDX,[RBP + 0x10]
+    1405619e5: MOV RBX,RCX
+    1405619e8: CALL 0x1405630e0
+    1405619ed: LEA RAX,[0x140e74438]
+    1405619f4: MOV R9D,0x3e8
+    1405619e1: LEA RDX,[RBP + 0x10]
+    1405619e5: MOV RBX,RCX
+    1405619e8: CALL 0x1405630e0
+    1405619ed: LEA RAX,[0x140e74438]
+ >> 1405619f4: MOV R9D,0x3e8
+    1405619fa: MOV R8D,0x2
+    140561a00: MOV qword ptr [RBP + 0x10],RAX
+    140561a04: LEA RDX,[RBP + 0x10]
+    140561a08: MOV RCX,RBX
+    140561a0b: CALL 0x1405630e0
+    140561a10: LEA RAX,[0x140e7443c]
+    140561a17: MOV R9D,0x3e8
+    140561a1d: MOV R8D,0x3
+
+FUNCTION FUN_1406b4c60 @ 1406b4c60 SCORE 443 hits=181 off3=162 op0c=19 both=0
+  HIT 1406b4d99 IMUL :: IMUL R8,RAX,0x38
+  HIT 1406b4dbc SHR :: SHR RAX,0x3f
+  HIT 1406b4ddc IMUL :: IMUL RDX,RAX,0x38
+  HIT 1406b4e09 IMUL :: IMUL RCX,RAX,0x38
+  HIT 1406b4e3f IMUL :: IMUL RDX,RAX,0x38
+  HIT 1406b4e62 IMUL :: IMUL R8,RAX,0x38
+  HIT 1406b4e91 SHR :: SHR RAX,0x3f
+  HIT 1406b4eac IMUL :: IMUL RCX,RAX,0x38
+  CONTEXTS:
+    1406b4d8b: JMP RCX
+    1406b4d8d: MOV RCX,qword ptr [RSP + 0x30]
+    1406b4d92: MOVSXD RAX,dword ptr [RCX + 0x4]
+    1406b4d96: SUB RCX,R9
+ >> 1406b4d99: IMUL R8,RAX,0x38
+    1406b4d9d: MOV EAX,0x4
+    1406b4da2: MOV word ptr [R8 + RSI*0x1 + 0x8],AX
+    1406b4da8: MOV RAX,0x2aaaaaaaaaaaaaab
+    1406b4db2: IMUL RCX
+    1406b4db5: SAR RDX,0x2
+    1406b4db9: MOV RAX,RDX
+    1406b4dbc: SHR RAX,0x3f
+    1406b4dc0: ADD RAX,RDX
+    1406b4da8: MOV RAX,0x2aaaaaaaaaaaaaab
+    1406b4db2: IMUL RCX
+    1406b4db5: SAR RDX,0x2
+    1406b4db9: MOV RAX,RDX
+ >> 1406b4dbc: SHR RAX,0x3f
+    1406b4dc0: ADD RAX,RDX
+    1406b4dc3: CDQE
+    1406b4dc5: MOV qword ptr [R8 + RSI*0x1],RAX
+    1406b4dc9: MOV RDI,qword ptr [RSP + 0x30]
+    1406b4dce: JMP 0x1406b9920
+    1406b4dd3: MOV RAX,qword ptr [RSP + 0x30]
+    1406b4dd8: MOVSXD RAX,dword ptr [RAX + 0x4]
+    1406b4ddc: IMUL RDX,RAX,0x38
+
+FUNCTION FUN_140cb0dc0 @ 140cb0dc0 SCORE 316 hits=86 off3=82 op0c=4 both=0
+  HIT 140cb0f30 CMP :: CMP EDX,0x3e80
+  HIT 140cb10b0 LEA :: LEA R8D,[RAX + 0x3]
+  HIT 140cb11c6 MOV :: MOV R11D,0x3ea
+  HIT 140cb122a SAR :: SAR ECX,0x3
+  HIT 140cb1249 SHL :: SHL ECX,0x3
+  HIT 140cb1274 CMP :: CMP EBX,0x3
+  HIT 140cb1281 SHL :: SHL EAX,0x3
+  HIT 140cb1292 CMP :: CMP R10D,0x32
+  CONTEXTS:
+    140cb0f19: XORPS XMM9,XMM9
+    140cb0f1d: MOV dword ptr [RBP + 0xe0],R13D
+    140cb0f24: JL 0x140cb108f
+    140cb0f2a: MOV EDX,dword ptr [RDI + 0x90]
+ >> 140cb0f30: CMP EDX,0x3e80
+    140cb0f36: JL 0x140cb108f
+    140cb0f3c: MOV ECX,R12D
+    140cb0f3f: XORPS XMM1,XMM1
+    140cb0f42: IMUL ECX,dword ptr [RDI + 0x70]
+    140cb0f46: XORPS XMM2,XMM2
+    140cb0f49: TEST ECX,ECX
+    140cb0f4b: JLE 0x140cb0f71
+    140cb0f4d: MOV RAX,qword ptr [RBP + 0x288]
+    140cb1099: MOVSS XMM6,dword ptr [0x140de2ec8]
+    140cb10a1: MOV EAX,0x44d
+    140cb10a6: MOV dword ptr [RDI + 0x46cc],R13D
+    140cb10ad: LEA EDX,[RAX + 0x2]
+ >> 140cb10b0: LEA R8D,[RAX + 0x3]
+    140cb10b4: LEA R11D,[RAX + -0x63]
+    140cb10b8: TEST R14D,R14D
+    140cb10bb: JZ 0x140cb119a
+    140cb10c1: CMP dword ptr [RDI + 0x7c],0xfffffc18
+    140cb10c8: JNZ 0x140cb115f
+    140cb10ce: MOV EAX,dword ptr [RDI + 0x3790]
+    140cb10d4: TEST EAX,EAX
+    140cb10d6: JNZ 0x140cb10e2
+
+FUNCTION FUN_1408be400 @ 1408be400 SCORE 312 hits=87 off3=82 op0c=5 both=0
+  HIT 1408be66a LEA :: LEA EDX,[R8 + 0x3]
+  HIT 1408be6aa CMP :: CMP EBX,0x3
+  HIT 1408be6e5 LEA :: LEA EDX,[R8 + 0x3]
+  HIT 1408be76a LEA :: LEA EDX,[R8 + 0x3]
+  HIT 1408bea07 MOV :: MOV EDX,0x3
+  HIT 1408beadf CMP :: CMP EBX,0x3
+  HIT 1408beba3 MOV :: MOV EDX,0x3
+  HIT 1408bebfa CMP :: CMP EBX,0x3
+  CONTEXTS:
+    1408be64f: MOVSS dword ptr [RSP + 0x20],XMM7
+    1408be655: LEA R9,[RBP + 0x138]
+    1408be65c: MOV qword ptr [RBP + 0x138],R13
+    1408be663: LEA RCX,[0x140f0e844]
+ >> 1408be66a: LEA EDX,[R8 + 0x3]
+    1408be66e: CALL 0x1408f0bd0
+    1408be673: TEST AL,AL
+    1408be675: JZ 0x1408be6bb
+    1408be677: MOV EDI,R13D
+    1408be67a: NOP word ptr [RAX + RAX*0x1]
+    1408be680: MOVAPS XMM1,XMM7
+    1408be683: XOR ECX,ECX
+    1408be685: CALL 0x1408f7e80
+    1408be69a: LEA RCX,[0x140f0e850]
+    1408be6a1: MOV EDX,EDI
+    1408be6a3: CALL 0x14091c140
+    1408be6a8: INC EBX
+ >> 1408be6aa: CMP EBX,0x3
+    1408be6ad: JL 0x1408be690
+    1408be6af: INC EDI
+    1408be6b1: CMP EDI,0x4
+    1408be6b4: JL 0x1408be680
+    1408be6b6: CALL 0x1408f2cc0
+    1408be6bb: LEA RCX,[0x140f0e870]
+    1408be6c2: CALL 0x1408a08b0
+    1408be6c7: XOR R8D,R8D
+
+FUNCTION FUN_1401fa6e0 @ 1401fa6e0 SCORE 255 hits=65 off3=64 op0c=3 both=2
+  HIT 1401fa7da MOV :: MOV qword ptr [RAX + -0x8],0x3f800000
+  HIT 1401fa7e8 MOV :: MOV qword ptr [RAX + 0xc],0x3f800000
+  HIT 1401fa7f7 MOV :: MOV qword ptr [RAX + 0x20],0x3f800000
+  HIT 1401fa806 MOV :: MOV qword ptr [RAX + 0x34],0x3f800000
+  HIT 1401fa815 MOV :: MOV qword ptr [RAX + 0x48],0x3f800000
+  HIT 1401fa824 MOV :: MOV qword ptr [RAX + 0x5c],0x3f800000
+  HIT 1401fa833 MOV :: MOV qword ptr [RAX + 0x70],0x3f800000
+  HIT 1401fa845 MOV :: MOV qword ptr [RAX + 0x84],0x3f800000
+  CONTEXTS:
+    1401fa7cb: MOV dword ptr [RDI + 0xdb8],EBX
+    1401fa7d1: MOV dword ptr [RCX],EBX
+    1401fa7d3: MOV qword ptr [RAX + -0x14],RBX
+    1401fa7d7: MOV dword ptr [RAX + -0xc],EBX
+ >> 1401fa7da: MOV qword ptr [RAX + -0x8],0x3f800000
+    1401fa7e2: MOV qword ptr [RAX],RBX
+    1401fa7e5: MOV dword ptr [RAX + 0x8],EBX
+    1401fa7e8: MOV qword ptr [RAX + 0xc],0x3f800000
+    1401fa7f0: MOV qword ptr [RAX + 0x14],RBX
+    1401fa7f4: MOV dword ptr [RAX + 0x1c],EBX
+    1401fa7f7: MOV qword ptr [RAX + 0x20],0x3f800000
+    1401fa7ff: MOV qword ptr [RAX + 0x28],RBX
+    1401fa803: MOV dword ptr [RAX + 0x30],EBX
+    1401fa7d7: MOV dword ptr [RAX + -0xc],EBX
+    1401fa7da: MOV qword ptr [RAX + -0x8],0x3f800000
+    1401fa7e2: MOV qword ptr [RAX],RBX
+    1401fa7e5: MOV dword ptr [RAX + 0x8],EBX
+ >> 1401fa7e8: MOV qword ptr [RAX + 0xc],0x3f800000
+    1401fa7f0: MOV qword ptr [RAX + 0x14],RBX
+    1401fa7f4: MOV dword ptr [RAX + 0x1c],EBX
+    1401fa7f7: MOV qword ptr [RAX + 0x20],0x3f800000
+    1401fa7ff: MOV qword ptr [RAX + 0x28],RBX
+    1401fa803: MOV dword ptr [RAX + 0x30],EBX
+    1401fa806: MOV qword ptr [RAX + 0x34],0x3f800000
+    1401fa80e: MOV qword ptr [RAX + 0x3c],RBX
+    1401fa812: MOV dword ptr [RAX + 0x44],EBX
+    1401fa86f: MOV dword ptr [RAX + 0xa8],EBX
+    1401fa875: MOV qword ptr [RAX + 0xac],0x3f800000
+    1401fa880: MOV qword ptr [RAX + 0xb4],RBX
+    1401fa887: MOV dword ptr [RAX + 0xbc],EBX
+ >> 1401fa88d: MOV qword ptr [RAX + 0xc0],0x3f800000
+    1401fa898: MOV qword ptr [RAX + 0xc8],RBX
+    1401fa89f: MOV dword ptr [RAX + 0xd0],EBX
+    1401fa8a5: MOV qword ptr [RAX + 0xd4],0x3f800000
+    1401fa8b0: MOV qword ptr [RAX + 0xdc],RBX
+    1401fa8b7: MOV dword ptr [RAX + 0xe4],EBX
+    1401fa8bd: MOV qword ptr [RAX + 0xe8],0x3f800000
+    1401fa8c8: MOV qword ptr [RAX + 0xf0],RBX
+    1401fa8cf: MOV dword ptr [RAX + 0xf8],EBX
+
+FUNCTION FUN_14018a110 @ 14018a110 SCORE 248 hits=66 off3=50 op0c=16 both=0
+  HIT 14018a15c LEA :: LEA RCX,[RBP + 0xc90]
+  HIT 14018a1ca MOV :: MOV R9D,0x3
+  HIT 14018a268 MOV :: MOV R9D,0x3
+  HIT 14018a2f3 MOV :: MOV R8D,0x3
+  HIT 14018a430 MOV :: MOV R9D,0x3
+  HIT 14018a4c6 MOV :: MOV R9D,0x3
+  HIT 14018a548 MOV :: MOV R8D,0x3
+  HIT 14018a696 MOV :: MOV R9D,0x3
+  CONTEXTS:
+    14018a1af: LEA RDX,[RBP + 0x840]
+    14018a1b6: MOV dword ptr [RSP + 0x28],0x1
+    14018a1be: LEA R8,[0x140df9010]
+    14018a1c5: MOV qword ptr [RSP + 0x20],RDX
+ >> 14018a1ca: MOV R9D,0x3
+    14018a1d0: MOVUPS XMM0,xmmword ptr [RAX]
+    14018a1d3: LEA RDX,[RBP + 0x29d8]
+    14018a1da: MOVAPS xmmword ptr [RBP + 0x840],XMM0
+    14018a1e1: MOV RAX,qword ptr [RCX]
+    14018a1e4: CALL qword ptr [RAX + 0x198]
+    14018a1ea: XOR ESI,ESI
+    14018a1ec: MOV RCX,qword ptr [RAX]
+    14018a1ef: MOV qword ptr [RAX],RSI
+    14018a24d: LEA RDX,[RBP + 0x840]
+    14018a254: MOV dword ptr [RSP + 0x28],0x2
+    14018a25c: LEA R8,[0x140df9010]
+    14018a263: MOV qword ptr [RSP + 0x20],RDX
+ >> 14018a268: MOV R9D,0x3
+    14018a26e: MOVUPS XMM0,xmmword ptr [RAX]
+    14018a271: LEA RDX,[RBP + 0x29e0]
+    14018a278: MOVAPS xmmword ptr [RBP + 0x850],XMM0
+    14018a27f: MOV RAX,qword ptr [RCX]
+    14018a282: CALL qword ptr [RAX + 0x198]
+    14018a288: MOV RCX,qword ptr [RAX]
+    14018a28b: MOV qword ptr [RAX],RSI
+    14018a28e: MOV RAX,qword ptr [RBP + 0x29e0]
+
+FUNCTION FUN_14010f700 @ 14010f700 SCORE 208 hits=47 off3=47 op0c=3 both=3
+  HIT 14010f715 AND :: AND EDX,0x3f
+  HIT 14010f718 AND :: AND R10D,0x3f
+  HIT 14010f817 MOV :: MOV dword ptr [RAX + RCX*0x4],0x3f800000
+  HIT 14010f84f MOV :: MOV dword ptr [RAX + 0x8],0x3f800000
+  HIT 14010f858 MOV :: MOV dword ptr [RAX + 0x4],0x3f800000
+  HIT 14010f862 MOV :: MOV dword ptr [RAX],0x3f800000
+  HIT 14010f87e MOV :: MOV dword ptr [RAX],0x3f800000
+  HIT 14010f88a MOV :: MOV dword ptr [RDI + RAX*0x4],0x3f800000
+  CONTEXTS:
+    14010f706: XOR R9D,R9D
+    14010f709: MOV EDX,R10D
+    14010f70c: MOV qword ptr [RSP + 0x10],RBX
+    14010f711: SHR R10D,0x6
+ >> 14010f715: AND EDX,0x3f
+    14010f718: AND R10D,0x3f
+    14010f71c: MOV R8,RCX
+    14010f71f: MOV EBX,R10D
+    14010f722: MOV R11D,R9D
+    14010f725: IMUL EBX,EDX
+    14010f728: TEST EBX,EBX
+    14010f72a: JZ 0x14010f7f1
+    14010f730: CMP EBX,0x4
+    14010f709: MOV EDX,R10D
+    14010f70c: MOV qword ptr [RSP + 0x10],RBX
+    14010f711: SHR R10D,0x6
+    14010f715: AND EDX,0x3f
+ >> 14010f718: AND R10D,0x3f
+    14010f71c: MOV R8,RCX
+    14010f71f: MOV EBX,R10D
+    14010f722: MOV R11D,R9D
+    14010f725: IMUL EBX,EDX
+    14010f728: TEST EBX,EBX
+    14010f72a: JZ 0x14010f7f1
+    14010f730: CMP EBX,0x4
+    14010f733: JC 0x14010f76b
+    14010f906: JC 0x14010f8e6
+    14010f908: POP RDI
+    14010f909: RET
+    14010f90a: MOV RAX,qword ptr [R8]
+ >> 14010f90d: MOV dword ptr [RAX + 0xc],0x3f800000
+    14010f914: MOV RAX,qword ptr [R8]
+    14010f917: MOV dword ptr [RAX],0x3f800000
+    14010f91d: POP RDI
+    14010f91e: RET
+    14010f91f: CMP R10D,EDX
+    14010f922: JNC 0x14010fbfc
+    14010f928: CMP R10D,0x8
+    14010f92c: JA 0x14010fbfc
+
+FUNCTION FUN_1401b3c00 @ 1401b3c00 SCORE 192 hits=48 off3=43 op0c=5 both=0
+  HIT 1401b3dba MOV :: MOV dword ptr [RSP + 0x64],0x3ff0000
+  HIT 1401b3e9e MOV :: MOV dword ptr [RSP + 0x64],0x3ff0000
+  HIT 1401b3f74 MOV :: MOV dword ptr [RSP + 0x64],0x3ff0000
+  HIT 1401b403c MOV :: MOV dword ptr [RSP + 0x64],0x3ff0000
+  HIT 1401b410b MOV :: MOV dword ptr [RSP + 0x64],0x3ff0000
+  HIT 1401b41e1 MOV :: MOV dword ptr [RSP + 0x64],0x3ff0000
+  HIT 1401b4369 MOV :: MOV R9B,0x3
+  HIT 1401b440a MOV :: MOV R9B,0x3
+  CONTEXTS:
+    1401b3da1: LEA RAX,[0x140dfda18]
+    1401b3da8: MOV qword ptr [RBP + -0x48],RAX
+    1401b3dac: LEA RCX,[RBP + 0x480]
+    1401b3db3: LEA RAX,[0x140dfb4f8]
+ >> 1401b3dba: MOV dword ptr [RSP + 0x64],0x3ff0000
+    1401b3dc2: MOV qword ptr [RBP + 0x490],RAX
+    1401b3dc9: LEA RAX,[0x140dfda48]
+    1401b3dd0: MOV qword ptr [RBP + 0x480],RAX
+    1401b3dd7: CALL 0x1401484f0
+    1401b3ddc: LEA RDX,[RSP + 0x70]
+    1401b3de1: LEA RCX,[RBP + 0x490]
+    1401b3de8: CALL 0x1401484f0
+    1401b3ded: XORPS XMM0,XMM0
+    1401b3e81: MOV qword ptr [RBP + 0x490],RAX
+    1401b3e88: LEA RAX,[0x140dfdad8]
+    1401b3e8f: MOV qword ptr [RBP + 0x480],RAX
+    1401b3e96: MOV dword ptr [RSP + 0x60],0x7
+ >> 1401b3e9e: MOV dword ptr [RSP + 0x64],0x3ff0000
+    1401b3ea6: CALL 0x1401484f0
+    1401b3eab: LEA RDX,[RSP + 0x70]
+    1401b3eb0: LEA RCX,[RBP + 0x490]
+    1401b3eb7: CALL 0x1401484f0
+    1401b3ebc: XORPS XMM0,XMM0
+    1401b3ebf: LEA RDX,[RBP + -0x78]
+    1401b3ec3: LEA RCX,[RBP + 0x498]
+    1401b3eca: MOVDQU xmmword ptr [RSP + 0x78],XMM0
+
+FUNCTION FUN_140266ce0 @ 140266ce0 SCORE 188 hits=49 off3=41 op0c=8 both=0
+  HIT 140266db3 MOV :: MOV dword ptr [RBP + 0x94],0x3ff0000
+  HIT 140266df1 LEA :: LEA RDX,[RBP + 0xc0]
+  HIT 140266e94 MOV :: MOV dword ptr [RBP + 0xec],0x3ff0000
+  HIT 140266f7b MOV :: MOV dword ptr [RBP + 0x144],0x3ff0000
+  HIT 14026706d MOV :: MOV dword ptr [RBP + 0x19c],0x3ff0000
+  HIT 14026714d MOV :: MOV dword ptr [RBP + 0x1f4],0x3ff0000
+  HIT 14026758d MOV :: MOV R9B,0x3
+  HIT 14026760e MOV :: MOV R9B,0x3
+  CONTEXTS:
+    140266d99: MOV qword ptr [RSP + 0x68],R12
+    140266d9e: LEA RCX,[RBP + 0x11f0]
+    140266da5: MOV qword ptr [RBP + 0x11f0],RAX
+    140266dac: MOV qword ptr [RBP + 0x1208],R14
+ >> 140266db3: MOV dword ptr [RBP + 0x94],0x3ff0000
+    140266dbd: CALL 0x1401484f0
+    140266dc2: LEA RDX,[RBP + 0xa0]
+    140266dc9: LEA RCX,[RBP + 0x1208]
+    140266dd0: CALL 0x1401484f0
+    140266dd5: XORPS XMM0,XMM0
+    140266dd8: LEA RDX,[RBP + 0xb8]
+    140266ddf: LEA RCX,[RSP + 0x60]
+    140266de4: MOVDQU xmmword ptr [RBP + 0xa8],XMM0
+    140266e7a: LEA RAX,[0x140e11f70]
+    140266e81: MOV qword ptr [RSP + 0x78],RAX
+    140266e86: MOV qword ptr [RBP + -0x80],R14
+    140266e8a: MOV dword ptr [RBP + 0xe8],0x1
+ >> 140266e94: MOV dword ptr [RBP + 0xec],0x3ff0000
+    140266e9e: CALL 0x1401484f0
+    140266ea3: LEA RDX,[RBP + 0xf8]
+    140266eaa: LEA RCX,[RBP + -0x80]
+    140266eae: CALL 0x1401484f0
+    140266eb3: XORPS XMM0,XMM0
+    140266eb6: LEA RDX,[RBP + 0x110]
+    140266ebd: LEA RCX,[RBP + -0x78]
+    140266ec1: MOVDQU xmmword ptr [RBP + 0x100],XMM0
+
+FUNCTION FUN_1402a7e00 @ 1402a7e00 SCORE 177 hits=45 off3=44 op0c=1 both=0
+  HIT 1402a7e12 SUB :: SUB RSP,0xc8
+  HIT 1402a7ecc MOV :: MOV dword ptr [RBP + -0x41],0x3
+  HIT 1402a7f06 MOV :: MOV dword ptr [RBP + -0x3d],0x3ff0000
+  HIT 1402a7fae MOV :: MOV dword ptr [RBP + -0x41],0x3
+  HIT 1402a7fb5 MOV :: MOV dword ptr [RBP + -0x3d],0x3ff0000
+  HIT 1402a81de MOV :: MOV dword ptr [RBP + -0x3d],0x3ff0000
+  HIT 1402a8294 MOV :: MOV dword ptr [RBP + -0x3d],0x3ff0000
+  HIT 1402a834a MOV :: MOV dword ptr [RBP + -0x3d],0x3ff0000
+  CONTEXTS:
+    1402a7eb7: CALL 0x1403726a0
+    1402a7ebc: LEA RCX,[RBP + -0x41]
+    1402a7ec0: CALL 0x1401303a0
+    1402a7ec5: LEA RAX,[0x140e1a260]
+ >> 1402a7ecc: MOV dword ptr [RBP + -0x41],0x3
+    1402a7ed3: MOV qword ptr [RBP + -0x49],RAX
+    1402a7ed7: LEA R14,[0x140df92d0]
+    1402a7ede: LEA RAX,[0x140e1a278]
+    1402a7ee5: MOV qword ptr [RBP + 0x77],R14
+    1402a7ee9: XOR EBX,EBX
+    1402a7eeb: MOV qword ptr [RBP + 0x67],RAX
+    1402a7eef: LEA R15,[0x140e083f0]
+    1402a7ef6: MOV qword ptr [RBP + 0x7f],RBX
+    1402a7ef6: MOV qword ptr [RBP + 0x7f],RBX
+    1402a7efa: LEA RDX,[RBP + -0x39]
+    1402a7efe: MOV qword ptr [RBP + 0x6f],R15
+    1402a7f02: LEA RCX,[RBP + 0x67]
+ >> 1402a7f06: MOV dword ptr [RBP + -0x3d],0x3ff0000
+    1402a7f0d: CALL 0x1401484f0
+    1402a7f12: LEA RDX,[RBP + -0x31]
+    1402a7f16: LEA RCX,[RBP + 0x6f]
+    1402a7f1a: CALL 0x1401484f0
+    1402a7f1f: XORPS XMM0,XMM0
+    1402a7f22: LEA RDX,[RBP + -0x19]
+    1402a7f26: LEA RCX,[RBP + 0x77]
+    1402a7f2a: MOVDQU xmmword ptr [RBP + -0x29],XMM0
+
+FUNCTION FUN_140191270 @ 140191270 SCORE 176 hits=44 off3=44 op0c=0 both=0
+  HIT 14019155d MOV :: MOV R9D,0x3
+  HIT 1401915ed MOV :: MOV R9D,0x3
+  HIT 140191669 MOV :: MOV R8D,0x3
+  HIT 140191797 MOV :: MOV R9D,0x3
+  HIT 140191821 MOV :: MOV R9D,0x3
+  HIT 1401918a3 MOV :: MOV R8D,0x3
+  HIT 1401919f1 MOV :: MOV R9D,0x3
+  HIT 140191a6d MOV :: MOV dword ptr [RSP + 0x28],0x3
+  CONTEXTS:
+    140191542: LEA RDX,[RBP + 0x760]
+    140191549: MOV dword ptr [RSP + 0x28],0x1
+    140191551: LEA R8,[0x140dfb1c0]
+    140191558: MOV qword ptr [RSP + 0x20],RDX
+ >> 14019155d: MOV R9D,0x3
+    140191563: MOVUPS XMM0,xmmword ptr [RAX]
+    140191566: LEA RDX,[RSP + 0x30]
+    14019156b: MOVAPS xmmword ptr [RBP + 0x760],XMM0
+    140191572: MOV RAX,qword ptr [RCX]
+    140191575: CALL qword ptr [RAX + 0x198]
+    14019157b: MOV RCX,qword ptr [RAX]
+    14019157e: MOV qword ptr [RAX],RSI
+    140191581: MOV RAX,qword ptr [RSP + 0x30]
+    1401915d2: LEA RDX,[RBP + 0x760]
+    1401915d9: MOV dword ptr [RSP + 0x28],0x2
+    1401915e1: LEA R8,[0x140dfb1c0]
+    1401915e8: MOV qword ptr [RSP + 0x20],RDX
+ >> 1401915ed: MOV R9D,0x3
+    1401915f3: MOVUPS XMM0,xmmword ptr [RAX]
+    1401915f6: LEA RDX,[RSP + 0x38]
+    1401915fb: MOVAPS xmmword ptr [RBP + 0x770],XMM0
+    140191602: MOV RAX,qword ptr [RCX]
+    140191605: CALL qword ptr [RAX + 0x198]
+    14019160b: MOV RCX,qword ptr [RAX]
+    14019160e: MOV qword ptr [RAX],RSI
+    140191611: MOV RAX,qword ptr [RSP + 0x38]
+
+FUNCTION FUN_1405639f0 @ 1405639f0 SCORE 162 hits=44 off3=43 op0c=1 both=0
+  HIT 140563a80 CMP :: CMP CL,0x30
+  HIT 140563ab2 SUB :: SUB ESI,0x30
+  HIT 140563abf CMP :: CMP AL,0x30
+  HIT 140563ac7 CMP :: CMP AL,0x39
+  HIT 140563ad9 CMP :: CMP AL,0x38
+  HIT 140563afc CMP :: CMP AL,0x30
+  HIT 140563b02 CMP :: CMP AL,0x30
+  HIT 140563b10 CMP :: CMP AL,0x39
+  CONTEXTS:
+    140563a6b: MOV R10D,R11D
+    140563a6e: MOV qword ptr [RSP + 0x48],RBP
+    140563a73: MOV qword ptr [RSP + 0x40],RSI
+    140563a78: MOV byte ptr [RSP + 0x98],R8B
+ >> 140563a80: CMP CL,0x30
+    140563a83: JNZ 0x140563a99
+    140563a85: LEA RCX,[R9 + 0x1]
+    140563a89: MOV ESI,R11D
+    140563a8c: MOV qword ptr [RSP + 0x20],RCX
+    140563a91: XOR BPL,BPL
+    140563a94: JMP 0x140563c6a
+    140563a99: LEA EAX,[RCX + -0x31]
+    140563a9c: CMP AL,0x8
+    140563aa4: MOVZX EAX,byte ptr [R9 + 0x1]
+    140563aa9: INC R9
+    140563aac: MOVSX ESI,CL
+    140563aaf: MOV RDX,R9
+ >> 140563ab2: SUB ESI,0x30
+    140563ab5: MOV qword ptr [RSP + 0x20],R9
+    140563aba: TEST R12B,R12B
+    140563abd: JZ 0x140563b02
+    140563abf: CMP AL,0x30
+    140563ac1: JL 0x140563b54
+    140563ac7: CMP AL,0x39
+    140563ac9: JG 0x140563b54
+    140563acf: CMP ESI,0xccccccc
+
+FUNCTION FUN_1406ed540 @ 1406ed540 SCORE 162 hits=44 off3=43 op0c=1 both=0
+  HIT 1406ed5ca CMP :: CMP CL,0x30
+  HIT 1406ed5fd SUB :: SUB R11D,0x30
+  HIT 1406ed60b CMP :: CMP AL,0x30
+  HIT 1406ed613 CMP :: CMP AL,0x39
+  HIT 1406ed626 CMP :: CMP AL,0x38
+  HIT 1406ed64b CMP :: CMP AL,0x30
+  HIT 1406ed651 CMP :: CMP AL,0x30
+  HIT 1406ed660 CMP :: CMP AL,0x39
+  CONTEXTS:
+    1406ed5b3: MOV qword ptr [RSP + 0x80],RBP
+    1406ed5bb: MOV EBX,EDI
+    1406ed5bd: MOV qword ptr [RSP + 0x40],RSI
+    1406ed5c2: MOV byte ptr [RSP + 0x98],R8B
+ >> 1406ed5ca: CMP CL,0x30
+    1406ed5cd: JNZ 0x1406ed5e3
+    1406ed5cf: LEA RCX,[R9 + 0x1]
+    1406ed5d3: MOV R11D,EDI
+    1406ed5d6: MOV qword ptr [RSP + 0x20],RCX
+    1406ed5db: XOR BPL,BPL
+    1406ed5de: JMP 0x1406ed7b8
+    1406ed5e3: LEA EAX,[RCX + -0x31]
+    1406ed5e6: CMP AL,0x8
+    1406ed5ee: MOVZX EAX,byte ptr [R9 + 0x1]
+    1406ed5f3: INC R9
+    1406ed5f6: MOVSX R11D,CL
+    1406ed5fa: MOV RDX,R9
+ >> 1406ed5fd: SUB R11D,0x30
+    1406ed601: MOV qword ptr [RSP + 0x20],R9
+    1406ed606: TEST R12B,R12B
+    1406ed609: JZ 0x1406ed651
+    1406ed60b: CMP AL,0x30
+    1406ed60d: JL 0x1406ed6a8
+    1406ed613: CMP AL,0x39
+    1406ed615: JG 0x1406ed6a8
+    1406ed61b: CMP R11D,0xccccccc
+
+FUNCTION FUN_140138b90 @ 140138b90 SCORE 160 hits=62 off3=60 op0c=2 both=0
+  HIT 140138cc3 CMP :: CMP dword ptr [R15 + 0xc],0x0
+  HIT 140138d2a CMP :: CMP R14D,dword ptr [R15 + 0xc]
+  HIT 140138f03 MOV :: MOV DL,0x30
+  HIT 140138f43 ADD :: ADD R8B,0x30
+  HIT 140138fa7 MOV :: MOV DL,0x30
+  HIT 140138fe1 ADD :: ADD BL,0x30
+  HIT 140139095 MOV :: MOV DL,0x30
+  HIT 1401390b9 SHR :: SHR RDX,0x3
+  CONTEXTS:
+    140138ef6: MOV RAX,qword ptr [RAX]
+    140138ef9: MOVZX R8D,byte ptr [RCX + RAX*0x1]
+    140138efe: TEST R8D,R8D
+    140138f01: JNZ 0x140138f11
+ >> 140138f03: MOV DL,0x30
+    140138f05: LEA RCX,[RSP + 0x30]
+    140138f0a: CALL 0x1401313d0
+    140138f0f: JMP 0x140138f68
+    140138f11: LEA R9,[RBP + 0x160]
+    140138f18: NOP dword ptr [RAX + RAX*0x1]
+    140138f20: DEC R9
+    140138f23: MOV EAX,0x66666667
+    140138f28: IMUL R8D
+    140138f38: SHL AL,0x2
+    140138f3b: LEA ECX,[RAX + RDX*0x1]
+    140138f3e: ADD CL,CL
+    140138f40: SUB R8B,CL
+ >> 140138f43: ADD R8B,0x30
+    140138f47: MOV byte ptr [R9],R8B
+    140138f4a: MOV R8D,EDX
+    140138f4d: TEST EDX,EDX
+    140138f4f: JNZ 0x140138f20
+    140138f51: LEA R8,[RBP + 0x160]
+    140138f58: SUB R8D,R9D
+    140138f5b: LEA RCX,[RSP + 0x30]
+    140138f60: MOV RDX,R9
+
+FUNCTION FUN_1400cbe00 @ 1400cbe00 SCORE 157 hits=43 off3=38 op0c=6 both=1
+  HIT 1400cbe6d MOV :: MOV R12,0x3f8000003f800000
+  HIT 1400cbf16 LEA :: LEA EDX,[R13 + 0xc]
+  HIT 1400cc2a3 MOV :: MOV R9D,0x3c
+  HIT 1400cc484 SAR :: SAR EDX,0x3
+  HIT 1400cc567 MOV :: MOV dword ptr [RBP + 0x8],0x3f000000
+  HIT 1400cc56e MOV :: MOV dword ptr [RBP + 0x4],0x3f000000
+  HIT 1400cc575 MOV :: MOV dword ptr [RBP],0x3f000000
+  HIT 1400cc689 MOV :: MOV dword ptr [RBP + 0x14],0x3f000000
+  CONTEXTS:
+    1400cbe5a: MOV RDX,qword ptr [RAX + 0x118]
+    1400cbe61: ADD RDX,0x2c
+    1400cbe65: CALL 0x1400c6ed0
+    1400cbe6a: XOR R13D,R13D
+ >> 1400cbe6d: MOV R12,0x3f8000003f800000
+    1400cbe77: TEST AL,AL
+    1400cbe79: JZ 0x1400cc2c8
+    1400cbe7f: MOV RCX,qword ptr [RDI + 0x30]
+    1400cbe83: CALL 0x140db8440
+    1400cbe88: MOV RCX,qword ptr [RDI + 0x18]
+    1400cbe8c: LEA EDX,[R13 + 0x9]
+    1400cbe90: MOV RBX,RAX
+    1400cbe93: MOV dword ptr [RSP + 0x50],0xffffffff
+    1400cc290: CALL qword ptr [RAX + 0x10]
+    1400cc293: MOV RAX,qword ptr [RBP + 0xc0]
+    1400cc29a: LEA R8,[RBP + -0x78]
+    1400cc29e: MOV qword ptr [RSP + 0x28],RAX
+ >> 1400cc2a3: MOV R9D,0x3c
+    1400cc2a9: LEA RAX,[0x140de9130]
+    1400cc2b0: MOV dword ptr [RBP + -0x78],0xffffffff
+    1400cc2b7: MOV qword ptr [RSP + 0x20],RAX
+    1400cc2bc: LEA EDX,[R9 + -0x22]
+    1400cc2c0: LEA ECX,[RDX + -0x10]
+    1400cc2c3: CALL 0x140c5a630
+    1400cc2c8: ADDSS XMM7,dword ptr [RDI + 0xf0]
+    1400cc2d0: MOV ECX,0x60
+    1400cc682: LEA RDX,[RBP + 0xc8]
+    1400cc689: MOV dword ptr [RBP + 0x14],0x3f000000
+    1400cc690: LEA RCX,[RBP + -0x60]
+    1400cc694: MOV dword ptr [RBP + 0x10],0x3f000000
+ >> 1400cc69b: MOV dword ptr [RBP + 0xc],0x3f000000
+    1400cc6a2: CALL 0x1401e9420
+    1400cc6a7: MOV EAX,dword ptr [RSI + 0xc]
+    1400cc6aa: MOV R8D,dword ptr [RSI + 0x8]
+    1400cc6ae: LEA EDX,[RAX + 0x1]
+    1400cc6b1: CMP EDX,R8D
+    1400cc6b4: JBE 0x1400cc6df
+    1400cc6b6: LEA EAX,[R8 + 0x1]
+    1400cc6ba: LEA ECX,[0x1 + R8*0x2]
+
+FUNCTION FUN_140122f60 @ 140122f60 SCORE 152 hits=26 off3=26 op0c=6 both=6
+  HIT 140122fd1 MOV :: MOV dword ptr [RBX + 0x98],0x3e4ccccd
+  HIT 140122fdb MOV :: MOV dword ptr [RBX + 0x9c],0x3e4ccccd
+  HIT 140122fe5 MOV :: MOV dword ptr [RBX + 0xa0],0x3e4ccccd
+  HIT 140122fef MOV :: MOV dword ptr [RBX + 0xa4],0x3e4ccccd
+  HIT 140122ff9 MOV :: MOV dword ptr [RBX + 0xa8],0x3f800000
+  HIT 140123003 MOV :: MOV dword ptr [RBX + 0xac],0x3f800000
+  HIT 14012300d MOV :: MOV dword ptr [RBX + 0xb0],0x3f800000
+  HIT 140123017 MOV :: MOV dword ptr [RBX + 0xb4],0x3f800000
+  CONTEXTS:
+    140122fc0: CALL 0x1401e0e50
+    140122fc5: LEA RAX,[0x140df00d0]
+    140122fcc: MOV qword ptr [RBX],RAX
+    140122fcf: XOR EAX,EAX
+ >> 140122fd1: MOV dword ptr [RBX + 0x98],0x3e4ccccd
+    140122fdb: MOV dword ptr [RBX + 0x9c],0x3e4ccccd
+    140122fe5: MOV dword ptr [RBX + 0xa0],0x3e4ccccd
+    140122fef: MOV dword ptr [RBX + 0xa4],0x3e4ccccd
+    140122ff9: MOV dword ptr [RBX + 0xa8],0x3f800000
+    140123003: MOV dword ptr [RBX + 0xac],0x3f800000
+    14012300d: MOV dword ptr [RBX + 0xb0],0x3f800000
+    140123017: MOV dword ptr [RBX + 0xb4],0x3f800000
+    140123021: MOV dword ptr [RBX + 0xb8],0x3e4ccccd
+    140122fc5: LEA RAX,[0x140df00d0]
+    140122fcc: MOV qword ptr [RBX],RAX
+    140122fcf: XOR EAX,EAX
+    140122fd1: MOV dword ptr [RBX + 0x98],0x3e4ccccd
+ >> 140122fdb: MOV dword ptr [RBX + 0x9c],0x3e4ccccd
+    140122fe5: MOV dword ptr [RBX + 0xa0],0x3e4ccccd
+    140122fef: MOV dword ptr [RBX + 0xa4],0x3e4ccccd
+    140122ff9: MOV dword ptr [RBX + 0xa8],0x3f800000
+    140123003: MOV dword ptr [RBX + 0xac],0x3f800000
+    14012300d: MOV dword ptr [RBX + 0xb0],0x3f800000
+    140123017: MOV dword ptr [RBX + 0xb4],0x3f800000
+    140123021: MOV dword ptr [RBX + 0xb8],0x3e4ccccd
+    14012302b: MOV dword ptr [RBX + 0xbc],0x3e4ccccd
+    14012300d: MOV dword ptr [RBX + 0xb0],0x3f800000
+    140123017: MOV dword ptr [RBX + 0xb4],0x3f800000
+    140123021: MOV dword ptr [RBX + 0xb8],0x3e4ccccd
+    14012302b: MOV dword ptr [RBX + 0xbc],0x3e4ccccd
+ >> 140123035: MOV dword ptr [RBX + 0xc0],0x3e4ccccd
+    14012303f: MOV dword ptr [RBX + 0xc4],0x3e4ccccd
+    140123049: MOV dword ptr [RBX + 0xc8],0x3f800000
+    140123053: MOV dword ptr [RBX + 0xcc],0x3f800000
+    14012305d: MOV dword ptr [RBX + 0xd0],0x3f800000
+    140123067: MOV dword ptr [RBX + 0xd4],0x3f800000
+    140123071: MOV dword ptr [RBX + 0xd8],0x3f000000
+    14012307b: MOV qword ptr [RBX + 0xdc],0x3f333333
+    140123086: MOV qword ptr [RBX + 0xe4],RAX
+
+FUNCTION FUN_14025f5b0 @ 14025f5b0 SCORE 151 hits=48 off3=47 op0c=1 both=0
+  HIT 140260243 LEA :: LEA RDX,[RBP + 0xc0]
+  HIT 140260404 MOV :: MOV qword ptr [RBP + 0x43c],0x3f000000
+  HIT 1402604cc MOV :: MOV dword ptr [RBP + 0x44c],0x3f000000
+  HIT 140260692 MOV :: MOV dword ptr [RBP + 0x104],0x3f800000
+  HIT 140260919 SHUFPS :: SHUFPS XMM4,XMM4,0x39
+  HIT 140260b8c MOV :: MOV dword ptr [RSP + 0x60],0x3f800000
+  HIT 140260bf2 SHUFPS :: SHUFPS XMM4,XMM4,0x39
+  HIT 140260ea0 MOV :: MOV dword ptr [RBP + 0x15c],0x3f800000
+  CONTEXTS:
+    1402603e6: MOVAPS XMM0,XMM3
+    1402603e9: MULSS XMM0,dword ptr [0x140de2ec8]
+    1402603f1: MOV qword ptr [RBP + 0x434],0x0
+    1402603fc: MULSS XMM1,dword ptr [0x140de897c]
+ >> 140260404: MOV qword ptr [RBP + 0x43c],0x3f000000
+    14026040f: MULSS XMM0,dword ptr [0x140de84e8]
+    140260417: MOV dword ptr [RBP + 0x448],0x0
+    140260421: MOVSS XMM4,dword ptr [RBP + 0x30]
+    140260426: MOVSS XMM5,dword ptr [RBP + 0x34]
+    14026042b: SUBSS XMM3,XMM0
+    14026042f: MOVSS dword ptr [RBP + -0x6c],XMM1
+    140260434: MOVSS XMM1,dword ptr [RBP + 0xc]
+    140260439: MULSS XMM1,dword ptr [0x140de897c]
+    1402604b2: XORPS XMM0,XMM13
+    1402604b6: MOVAPS xmmword ptr [RBP + 0x460],XMM1
+    1402604bd: LEA RCX,[RBP + 0x620]
+    1402604c4: MOVSS dword ptr [RBP + 0x430],XMM0
+ >> 1402604cc: MOV dword ptr [RBP + 0x44c],0x3f000000
+    1402604d6: CALL 0x140142090
+    1402604db: LEA RDX,[RBP + 0x660]
+    1402604e2: LEA RCX,[RBP + 0x470]
+    1402604e9: CALL 0x1401420b0
+    1402604ee: MOV R8,RAX
+    1402604f1: LEA RDX,[RBP + 0x2f0]
+    1402604f8: LEA RCX,[RBP + 0x430]
+    1402604ff: CALL 0x140141e30
+
+FUNCTION FUN_14012e560 @ 14012e560 SCORE 148 hits=59 off3=59 op0c=0 both=0
+  HIT 14012e64d MOV :: MOV DL,0x30
+  HIT 14012e692 ADD :: ADD DIL,0x30
+  HIT 14012e702 ADD :: ADD DIL,0x30
+  HIT 14012e7e0 MOV :: MOV DL,0x30
+  HIT 14012e809 SHR :: SHR RDX,0x3
+  HIT 14012e81b ADD :: ADD R8B,0x30
+  HIT 14012e89c ADD :: ADD DL,0x30
+  HIT 14012e9d3 MOV :: MOV DL,0x30
+
+FUNCTION FUN_140265020 @ 140265020 SCORE 148 hits=33 off3=32 op0c=3 both=2
+  HIT 1402650af MOV :: MOV dword ptr [RAX + 0x10],0x3d800000
+  HIT 1402650bb MOV :: MOV dword ptr [RAX + 0x18],0x3d800000
+  HIT 1402650c7 MOV :: MOV dword ptr [RAX + 0x20],0x3e000000
+  HIT 1402650d3 MOV :: MOV dword ptr [RAX + 0x28],0x3e000000
+  HIT 1402650df MOV :: MOV dword ptr [RAX + 0x30],0x3e400000
+  HIT 1402650eb MOV :: MOV dword ptr [RAX + 0x38],0x3e400000
+  HIT 1402650f7 MOV :: MOV dword ptr [RAX + 0x40],0x3e800000
+  HIT 140265103 MOV :: MOV dword ptr [RAX + 0x48],0x3e800000
+
+FUNCTION FUN_14012c610 @ 14012c610 SCORE 132 hits=51 off3=51 op0c=0 both=0
+  HIT 14012c70e MOV :: MOV DL,0x30
+  HIT 14012c751 ADD :: ADD BL,0x30
+  HIT 14012c7d1 ADD :: ADD BL,0x30
+  HIT 14012c8bc MOV :: MOV DL,0x30
+  HIT 14012c8e9 SHR :: SHR RDX,0x3
+  HIT 14012c8fb ADD :: ADD R8B,0x30
+  HIT 14012ca72 ADD :: ADD AL,0x30
+  HIT 14012cca5 MOV :: MOV DL,0x30
+
+FUNCTION FUN_1401e1bf0 @ 1401e1bf0 SCORE 132 hits=29 off3=29 op0c=2 both=2
+  HIT 1401e1e4a CMP :: CMP dword ptr [RSI + 0x8],0x32
+  HIT 1401e1e87 MOV :: MOV dword ptr [RSI + 0x8],0x32
+  HIT 1401e1f90 MOV :: MOV qword ptr [RCX + 0xc8],0x3f333333
+  HIT 1401e2049 MOV :: MOV dword ptr [RBX + 0x50],0x3f800000
+  HIT 1401e2214 MOV :: MOV dword ptr [RBX + 0xa4],0x3f800000
+  HIT 1401e23ce MOV :: MOV dword ptr [RBX + 0x58],0x3f800000
+  HIT 1401e23d5 MOV :: MOV dword ptr [RBX + 0x5c],0x3f800000
+  HIT 1401e23dc MOV :: MOV dword ptr [RBX + 0x60],0x3f800000
+
+FUNCTION FUN_140cb6690 @ 140cb6690 SCORE 131 hits=42 off3=21 op0c=21 both=0
+  HIT 140cb66aa SUB :: SUB RSP,0x300
+  HIT 140cb66b1 LEA :: LEA RBP,[RSP + 0xc0]
+  HIT 140cb6834 ADD :: ADD RAX,0x3f
+  HIT 140cb686c ADD :: ADD RAX,0x3f
+  HIT 140cb68e3 SAR :: SAR ESI,0x3
+  HIT 140cb691f SAR :: SAR EDI,0x3
+  HIT 140cb69b7 MOV :: MOV ECX,0x3
+  HIT 140cb69bf SUB :: SUB EDX,0x32
+
+FUNCTION FUN_140129550 @ 140129550 SCORE 128 hits=46 off3=38 op0c=8 both=0
+  HIT 14012968a CMP :: CMP dword ptr [RAX + 0xc],EBX
+  HIT 140129797 MOV :: MOV DL,0x30
+  HIT 1401297b9 SHR :: SHR RDX,0x3
+  HIT 1401297cb ADD :: ADD R8B,0x30
+  HIT 140129879 ADD :: ADD SIL,0x30
+  HIT 140129988 MOV :: MOV DL,0x30
+  HIT 1401299a9 SHR :: SHR RDX,0x3
+  HIT 1401299bb ADD :: ADD R8B,0x30
+
+FUNCTION FUN_1402e2a60 @ 1402e2a60 SCORE 128 hits=32 off3=32 op0c=0 both=0
+  HIT 1402e34eb MOV :: MOV dword ptr [RAX],0x3
+  HIT 1402e362a MOV :: MOV dword ptr [RAX],0x3
+  HIT 1402e3839 MOV :: MOV dword ptr [RAX],0x3
+  HIT 1402e3b45 MOV :: MOV dword ptr [RAX],0x3
+  HIT 1402e42bd MOV :: MOV dword ptr [RAX],0x3
+  HIT 1402e4d44 MOV :: MOV dword ptr [RAX],0x30
+  HIT 1402e4f82 MOV :: MOV dword ptr [RAX],0x3
+  HIT 1402e50fb MOV :: MOV dword ptr [RAX],0x3
+
+FUNCTION FUN_140940d30 @ 140940d30 SCORE 126 hits=35 off3=33 op0c=2 both=0
+  HIT 140940e1c MOV :: MOV dword ptr [0x14468b758],0x3
+  HIT 140940e2c MOV :: MOV dword ptr [0x14468b798],0x3
+  HIT 140940e3c MOV :: MOV dword ptr [0x14468b7d8],0x3
+  HIT 140940e4c MOV :: MOV dword ptr [0x14468b818],0x3
+  HIT 140940e5c MOV :: MOV dword ptr [0x14468b858],0x3
+  HIT 140940e6c MOV :: MOV dword ptr [0x14468b898],0x3
+  HIT 140940e7c MOV :: MOV dword ptr [0x14468b8d8],0x3
+  HIT 140940e8c MOV :: MOV dword ptr [0x14468b918],0x3
+
+FUNCTION FUN_140372b10 @ 140372b10 SCORE 125 hits=42 off3=41 op0c=1 both=0
+  HIT 140372e2b IMUL :: IMUL R8,RAX,0x38
+  HIT 140372e33 MOV :: MOV EAX,0x3fd0
+  HIT 140372e57 IMUL :: IMUL R8,RCX,0x38
+  HIT 140372e5d MOV :: MOV EAX,0x3fd0
+  HIT 140372e7c IMUL :: IMUL R8,RAX,0x38
+  HIT 140372e80 MOV :: MOV EAX,0x3fd0
+  HIT 140372e9e IMUL :: IMUL R8,RCX,0x38
+  HIT 140372ea4 MOV :: MOV EAX,0x3fd0
+
+FUNCTION FUN_140881a40 @ 140881a40 SCORE 124 hits=25 off3=25 op0c=3 both=3
+  HIT 140881da3 MOV :: MOV dword ptr [RCX + 0x4],0x3f800000
+  HIT 140881daa MOV :: MOV dword ptr [RCX + 0x8],0x3f800000
+  HIT 140881db1 MOV :: MOV dword ptr [RCX + 0xc],0x3f800000
+  HIT 140881db8 MOV :: MOV dword ptr [RCX + 0x10],0x3f19999a
+  HIT 140881dce MOV :: MOV dword ptr [RCX + 0x20],0x3f800000
+  HIT 140881deb MOV :: MOV qword ptr [RCX + 0x34],0x3f000000
+  HIT 140881df6 MOV :: MOV qword ptr [RCX + 0x40],0x3f800000
+  HIT 140881dfe MOV :: MOV dword ptr [RCX + 0x48],0x3f800000
+
+FUNCTION FUN_14050d890 @ 14050d890 SCORE 122 hits=25 off3=15 op0c=13 both=3
+  HIT 14050d931 CMP :: CMP dword ptr [RSI + 0xc20],0x10
+  HIT 14050d963 SHL :: SHL R8,0x3
+  HIT 14050d991 MOV :: MOV R8D,0x3e8
+  HIT 14050d9a8 MOV :: MOV R8D,0x3e8
+  HIT 14050d9c2 MOV :: MOV R8D,0x3e8
+  HIT 14050dbce MOV :: MOV dword ptr [RCX + 0xc],0x3f800000
+  HIT 14050e02b MOV :: MOV dword ptr [RCX + RAX*0x1 + 0xc],0x3f800000
+  HIT 14050e064 MOV :: MOV dword ptr [RAX + RCX*0x1 + 0x2c],0x3f800000
+
+FUNCTION FUN_140b3fb50 @ 140b3fb50 SCORE 120 hits=30 off3=30 op0c=1 both=1
+  HIT 140b3fb5b SUB :: SUB RSP,0x30
+  HIT 140b3fbae TEST :: TEST BL,0x3f
+  HIT 140b3fd7b ADD :: ADD RDX,0x30
+  HIT 140b3fea0 TEST :: TEST byte ptr [R8],0x3f
+  HIT 140b3ff1a MOV :: MOV dword ptr [R9],0x3f000000
+  HIT 140b3ff21 MOV :: MOV dword ptr [RCX + -0x2c],0x3f000000
+  HIT 140b3ff28 MOV :: MOV dword ptr [RCX + -0x28],0x3f800000
+  HIT 140b3ff2f MOV :: MOV dword ptr [RCX + -0x24],0x3f800000
+
+FUNCTION FUN_14024ab30 @ 14024ab30 SCORE 116 hits=29 off3=29 op0c=0 both=0
+  HIT 14024ac16 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024acf4 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024adb9 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024ae6f MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024b041 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024b127 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024b1dd MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14024b271 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+
+FUNCTION FUN_140cb4b50 @ 140cb4b50 SCORE 113 hits=30 off3=23 op0c=7 both=0
+  HIT 140cb4b65 SUB :: SUB RSP,0xc0
+  HIT 140cb4c08 SAR :: SAR EDX,0x3
+  HIT 140cb4d19 CMP :: CMP EDX,0x3e8
+  HIT 140cb4d45 CMP :: CMP EDX,0x3ea
+  HIT 140cb4d59 CMP :: CMP EAX,0x3ea
+  HIT 140cb4d71 CMP :: CMP EDX,0x3ea
+  HIT 140cb4db6 CMP :: CMP EDX,0x3ea
+  HIT 140cb4df7 CMP :: CMP R14D,0x3ea
+
+FUNCTION FUN_14016f950 @ 14016f950 SCORE 108 hits=30 off3=26 op0c=4 both=0
+  HIT 14016f968 SUB :: SUB RSP,0xcd0
+  HIT 14016f9d1 LEA :: LEA RDX,[RBP + 0xc28]
+  HIT 14016fc86 SHL :: SHL RCX,0x3
+  HIT 14016fca1 SHL :: SHL R8,0x3
+  HIT 14016fd4b MOV :: MOV dword ptr [RBP + 0x1dc],0x3ff0000
+  HIT 140170024 SHL :: SHL RCX,0x3
+  HIT 14017003f SHL :: SHL R8,0x3
+  HIT 1401700f6 MOV :: MOV dword ptr [RBP + 0x28c],0x3ff0000
+
+FUNCTION FUN_140134ae0 @ 140134ae0 SCORE 106 hits=43 off3=43 op0c=0 both=0
+  HIT 140134bc3 IMUL :: IMUL RDI,RSI,0x38
+  HIT 140134c33 IMUL :: IMUL RDX,RAX,0x38
+  HIT 140134c44 CMP :: CMP EAX,0x3
+  HIT 140134c5f IMUL :: IMUL RAX,RCX,0x38
+  HIT 140134c9d IMUL :: IMUL RCX,R9,0x38
+  HIT 140134cd1 SHR :: SHR RAX,0x3f
+  HIT 140134cdd IMUL :: IMUL R8,RAX,0x38
+  HIT 140134d5e IMUL :: IMUL RDX,RCX,0x38
+
+FUNCTION FUN_140637d90 @ 140637d90 SCORE 104 hits=24 off3=24 op0c=1 both=1
+  HIT 140637d9a MOV :: MOV dword ptr [RCX],0x3f800000
+  HIT 140637da2 MOV :: MOV dword ptr [RCX + 0x4],0x3f800000
+  HIT 140637dac MOV :: MOV dword ptr [RCX + 0x8],0x3f800000
+  HIT 140637db3 MOV :: MOV dword ptr [RCX + 0xc],0x3f800000
+  HIT 140637dba MOV :: MOV qword ptr [RCX + 0x10],0x3f800000
+  HIT 140637dc9 MOV :: MOV dword ptr [RCX + 0x24],0x3f800000
+  HIT 140637dd0 MOV :: MOV dword ptr [RCX + 0x28],0x3f800000
+  HIT 140637dd7 MOV :: MOV dword ptr [RCX + 0x2c],0x3f800000
+
+FUNCTION FUN_14028f500 @ 14028f500 SCORE 98 hits=29 off3=3 op0c=26 both=0
+  HIT 14028f9db SHR :: SHR RAX,0x3f
+  HIT 14028fa2e CMP :: CMP byte ptr [RBP + 0xc7],0x0
+  HIT 14028fc02 CMP :: CMP EDX,0x3
+  HIT 14028fc11 CMP :: CMP AL,0x3a
+
+FUNCTION FUN_140637be0 @ 140637be0 SCORE 96 hits=20 off3=20 op0c=2 both=2
+  HIT 140637bea MOV :: MOV qword ptr [RCX + 0xc],0x3f800000
+  HIT 140637c0c MOV :: MOV dword ptr [RCX + 0x30],0x3f800000
+  HIT 140637c13 MOV :: MOV dword ptr [RCX + 0x34],0x3f800000
+  HIT 140637c1a MOV :: MOV dword ptr [RCX + 0x38],0x3f800000
+  HIT 140637c21 MOV :: MOV dword ptr [RCX + 0x3c],0x3f800000
+  HIT 140637c28 MOV :: MOV dword ptr [RCX + 0x40],0x3f800000
+  HIT 140637c2f MOV :: MOV dword ptr [RCX + 0x44],0x3f800000
+  HIT 140637c36 MOV :: MOV dword ptr [RCX + 0x48],0x3f800000
+
+FUNCTION FUN_140860d00 @ 140860d00 SCORE 96 hits=48 off3=48 op0c=0 both=0
+  HIT 140860d11 SUB :: SUB RSP,0x30
+  HIT 140860d63 AND :: AND EAX,0x3f
+  HIT 140860d72 SAR :: SAR ECX,0x3
+  HIT 140860dbe AND :: AND ECX,0x3f
+  HIT 140860dd1 AND :: AND R8D,0x3f
+  HIT 140860e05 SAR :: SAR ECX,0x3
+  HIT 140860e32 SAR :: SAR ECX,0x3
+  HIT 140860e6b AND :: AND EAX,0x3f
+
+FUNCTION FUN_1403c4ba0 @ 1403c4ba0 SCORE 95 hits=29 off3=8 op0c=21 both=0
+  HIT 1403c4bc9 LEA :: LEA RDX,[RBP + 0xc0]
+  HIT 1403c4c47 LEA :: LEA RCX,[RBP + 0xc0]
+  HIT 1403c4e1f MOV :: MOV dword ptr [RSP + 0x6c],0x3ff0000
+  HIT 1403c4fd6 MOV :: MOV dword ptr [RSP + 0x6c],0x3ff0000
+  HIT 1403c50a5 MOV :: MOV dword ptr [RSP + 0x6c],0x3ff0000
+  HIT 1403c5258 MOV :: MOV dword ptr [RSP + 0x6c],0x3ff0000
+  HIT 1403c53f6 MOV :: MOV dword ptr [RSP + 0x6c],0x3ff0000
+  HIT 1403c5496 MOV :: MOV R9B,0x3
+
+FUNCTION FUN_140194170 @ 140194170 SCORE 94 hits=24 off3=22 op0c=2 both=0
+  HIT 140194264 LEA :: LEA RCX,[RBP + 0xc8]
+  HIT 140194304 LEA :: LEA RDX,[RBP + 0xc8]
+  HIT 14019444b MOV :: MOV R9D,0x3
+  HIT 1401944db MOV :: MOV R9D,0x3
+  HIT 140194557 MOV :: MOV R8D,0x3
+  HIT 140194685 MOV :: MOV R9D,0x3
+  HIT 14019470f MOV :: MOV R9D,0x3
+  HIT 14019478b MOV :: MOV R8D,0x3
+
+FUNCTION FUN_140195130 @ 140195130 SCORE 94 hits=24 off3=22 op0c=2 both=0
+  HIT 140195224 LEA :: LEA RCX,[RBP + 0xc8]
+  HIT 1401952c4 LEA :: LEA RDX,[RBP + 0xc8]
+  HIT 14019540b MOV :: MOV R9D,0x3
+  HIT 14019549b MOV :: MOV R9D,0x3
+  HIT 140195517 MOV :: MOV R8D,0x3
+  HIT 140195645 MOV :: MOV R9D,0x3
+  HIT 1401956cf MOV :: MOV R9D,0x3
+  HIT 14019574b MOV :: MOV R8D,0x3
+
+FUNCTION FUN_140196b20 @ 140196b20 SCORE 94 hits=24 off3=22 op0c=2 both=0
+  HIT 140196c14 LEA :: LEA RCX,[RBP + 0xc8]
+  HIT 140196cb4 LEA :: LEA RDX,[RBP + 0xc8]
+  HIT 140196dfb MOV :: MOV R9D,0x3
+  HIT 140196e8b MOV :: MOV R9D,0x3
+  HIT 140196f07 MOV :: MOV R8D,0x3
+  HIT 140197035 MOV :: MOV R9D,0x3
+  HIT 1401970bf MOV :: MOV R9D,0x3
+  HIT 14019713b MOV :: MOV R8D,0x3
+
+FUNCTION FUN_140198330 @ 140198330 SCORE 94 hits=24 off3=22 op0c=2 both=0
+  HIT 140198424 LEA :: LEA RCX,[RBP + 0xc8]
+  HIT 1401984c4 LEA :: LEA RDX,[RBP + 0xc8]
+  HIT 14019860b MOV :: MOV R9D,0x3
+  HIT 14019869b MOV :: MOV R9D,0x3
+  HIT 140198717 MOV :: MOV R8D,0x3
+  HIT 140198845 MOV :: MOV R9D,0x3
+  HIT 1401988cf MOV :: MOV R9D,0x3
+  HIT 14019894b MOV :: MOV R8D,0x3
+
+FUNCTION FUN_1401992f0 @ 1401992f0 SCORE 94 hits=24 off3=22 op0c=2 both=0
+  HIT 1401993e4 LEA :: LEA RCX,[RBP + 0xc8]
+  HIT 140199484 LEA :: LEA RDX,[RBP + 0xc8]
+  HIT 1401995cb MOV :: MOV R9D,0x3
+  HIT 14019965b MOV :: MOV R9D,0x3
+  HIT 1401996d7 MOV :: MOV R8D,0x3
+  HIT 140199805 MOV :: MOV R9D,0x3
+  HIT 14019988f MOV :: MOV R9D,0x3
+  HIT 14019990b MOV :: MOV R8D,0x3
+
+FUNCTION FUN_140db5240 @ 140db5240 SCORE 94 hits=35 off3=35 op0c=0 both=0
+  HIT 140db529c LEA :: LEA EDX,[RAX + 0x3]
+  HIT 140db52ef LEA :: LEA EDX,[RAX + 0x3]
+  HIT 140db5489 AND :: AND EDX,0x3f
+  HIT 140db548c CMP :: CMP EDX,0x3f
+  HIT 140db54eb AND :: AND R9D,0x3f
+  HIT 140db54ef CMP :: CMP R9D,0x3f
+  HIT 140db551b LEA :: LEA ECX,[RDX + 0x3]
+  HIT 140db5522 ADD :: ADD DL,0x3
+
+FUNCTION FUN_1400ebc60 @ 1400ebc60 SCORE 90 hits=29 off3=27 op0c=2 both=0
+  HIT 1400ebda4 MOV :: MOV byte ptr [RBP + 0x120],0x3d
+  HIT 1400ebec6 MOV :: MOV DL,0x30
+  HIT 1400ebef9 SHR :: SHR RDX,0x3
+  HIT 1400ebf0b ADD :: ADD R8B,0x30
+  HIT 1400ec101 ADD :: ADD SIL,0x30
+  HIT 1400ec326 MOV :: MOV DL,0x30
+  HIT 1400ec361 ADD :: ADD BL,0x30
+  HIT 1400ec45c MOV :: MOV DL,0x30
+
+FUNCTION FUN_14019b990 @ 14019b990 SCORE 90 hits=26 off3=22 op0c=4 both=0
+  HIT 14019bcf3 MOV :: MOV R9D,0x3
+  HIT 14019bd78 MOV :: MOV R9D,0x3
+  HIT 14019be2c MOV :: MOV R8D,0x3
+  HIT 14019bfd1 MOV :: MOV R9D,0x3
+  HIT 14019c050 MOV :: MOV R9D,0x3
+  HIT 14019c0ff MOV :: MOV R8D,0x3
+  HIT 14019c2ae MOV :: MOV R9D,0x3
+  HIT 14019c327 MOV :: MOV R9D,0x3
+
+FUNCTION FUN_140b4d2a0 @ 140b4d2a0 SCORE 90 hits=23 off3=21 op0c=2 both=0
+  HIT 140b4d2d3 CMP :: CMP EAX,0x3
+  HIT 140b4d2e5 CMP :: CMP ECX,0x3b
+  HIT 140b4d2ff MOV :: MOV EAX,0x3fa7
+  HIT 140b4d504 MOV :: MOV EDX,0x3
+  HIT 140b4d5e3 MOV :: MOV EDX,0x3
+  HIT 140b4d6c2 MOV :: MOV EDX,0x3
+  HIT 140b4d6e0 MOV :: MOV dword ptr [RBX + 0x48c],0x3
+  HIT 140b4d7b4 MOV :: MOV EDX,0x3
+
+FUNCTION FUN_140169f40 @ 140169f40 SCORE 88 hits=25 off3=25 op0c=0 both=0
+  HIT 14016a154 SHL :: SHL RCX,0x3
+  HIT 14016a16f SHL :: SHL R8,0x3
+  HIT 14016a3a6 SHL :: SHL RCX,0x3
+  HIT 14016a3c1 SHL :: SHL R8,0x3
+  HIT 14016a463 MOV :: MOV dword ptr [RBP + -0x65],0x3ff0000
+  HIT 14016a6a7 SHL :: SHL RCX,0x3
+  HIT 14016a6c2 SHL :: SHL R8,0x3
+  HIT 14016a761 MOV :: MOV dword ptr [RBP + -0x65],0x3ff0000
+
+FUNCTION FUN_14016b850 @ 14016b850 SCORE 88 hits=22 off3=22 op0c=0 both=0
+  HIT 14016b9f1 MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016baa0 MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016bb4f MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016bbfe MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016bcad MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016bdcb MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016be81 MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+  HIT 14016bf30 MOV :: MOV dword ptr [RBP + -0x45],0x3ff0000
+
+FUNCTION FUN_14019d870 @ 14019d870 SCORE 88 hits=22 off3=22 op0c=0 both=0
+  HIT 14019dc02 MOV :: MOV R9D,0x3
+  HIT 14019dc8c MOV :: MOV R9D,0x3
+  HIT 14019dd08 MOV :: MOV R8D,0x3
+  HIT 14019de56 MOV :: MOV R9D,0x3
+  HIT 14019decc MOV :: MOV dword ptr [RSP + 0x28],0x3
+  HIT 14019dee0 MOV :: MOV R9D,0x3
+  HIT 14019df54 MOV :: MOV R8D,0x3
+  HIT 14019e0b8 MOV :: MOV R9D,0x3
+
+FUNCTION FUN_140da6da0 @ 140da6da0 SCORE 88 hits=32 off3=32 op0c=0 both=0
+  HIT 140da6e8c AND :: AND R9D,0x3f
+  HIT 140da6e94 CMP :: CMP R9D,0x3f
+  HIT 140da6ed2 AND :: AND R9D,0x3f
+  HIT 140da6ed6 CMP :: CMP R9D,0x3f
+  HIT 140da6f12 AND :: AND R9D,0x3f
+  HIT 140da6f16 CMP :: CMP R9D,0x3f
+  HIT 140da6f4b AND :: AND R10D,0x3f
+  HIT 140da6f4f CMP :: CMP R10D,0x3f
+
+FUNCTION FUN_14057f3d0 @ 14057f3d0 SCORE 86 hits=18 off3=18 op0c=2 both=2
+  HIT 14057f3ef CMP :: CMP EAX,0x3
+  HIT 14057f43b MOV :: MOV EDX,0x3
+  HIT 14057f448 ADD :: ADD RCX,0x3c
+  HIT 14057f46b MOV :: MOV dword ptr [RBX + 0x60],0x3
+  HIT 14057f472 MOV :: MOV dword ptr [RBX + 0x38],0x3f000000
+  HIT 14057f47d MOV :: MOV dword ptr [RBX + 0x48],0x3ea8f5c3
+  HIT 14057f4ef MOV :: MOV dword ptr [RAX + 0xc],0x3e4ccccd
+  HIT 14057f512 MOV :: MOV dword ptr [RBX + 0x70],0x3f800000
+
+FUNCTION FUN_1406b2ff0 @ 1406b2ff0 SCORE 86 hits=25 off3=25 op0c=0 both=0
+  HIT 1406b325c CMP :: CMP EDX,0x30
+  HIT 1406b3261 CMP :: CMP EDX,0x39
+  HIT 1406b3277 CMP :: CMP EDX,0x30
+  HIT 1406b32df CMP :: CMP EDX,0x30
+  HIT 1406b32e4 CMP :: CMP EDX,0x39
+  HIT 1406b32fa CMP :: CMP EDX,0x30
+  HIT 1406b3370 MOVZX :: MOVZX R9D,byte ptr [R11 + RAX*0x2 + 0x3]
+  HIT 1406b34f7 SHR :: SHR RCX,0x3
+
+FUNCTION FUN_1406a26c0 @ 1406a26c0 SCORE 84 hits=21 off3=21 op0c=0 both=0
+  HIT 1406a27c9 MOV :: MOV EDX,0x3
+  HIT 1406a281d MOV :: MOV dword ptr [RDX],0x35
+  HIT 1406a2823 CMP :: CMP byte ptr [RCX + 0x1],0x3d
+  HIT 1406a283a CMP :: CMP AL,0x3d
+  HIT 1406a283e MOV :: MOV dword ptr [RDX],0x37
+  HIT 1406a2850 CMP :: CMP AL,0x3e
+  HIT 1406a2854 CMP :: CMP AL,0x3c
+  HIT 1406a286a MOV :: MOV dword ptr [RDX],0x38
+
+FUNCTION FUN_1406a9780 @ 1406a9780 SCORE 83 hits=22 off3=18 op0c=4 both=0
+  HIT 1406a9920 CMP :: CMP EDI,0xc
+  HIT 1406a9a28 MOV :: MOV R9D,0x3
+  HIT 1406aa485 MOV :: MOV EDX,0x3
+  HIT 1406aa60d AND :: AND EAX,0x3
+  HIT 1406aa652 MOV :: MOV dword ptr [R14 + 0x38],0x3
+  HIT 1406aaac7 MOV :: MOV EDX,0x32
+  HIT 1406ab023 MOV :: MOV EDX,0x33
+  HIT 1406ab186 MOV :: MOV R9D,0x3
+
+FUNCTION FUN_140b32f80 @ 140b32f80 SCORE 83 hits=20 off3=19 op0c=2 both=1
+  HIT 140b3352e MOV :: MOV byte ptr [RBX + 0x3],AL
+  HIT 140b337b4 LEA :: LEA RCX,[RCX + 0xc0]
+  HIT 140b337bb MOV :: MOV qword ptr [RCX + RAX*0x1 + -0xc0],0x3f800000
+  HIT 140b337d7 MOV :: MOV qword ptr [RCX + RAX*0x1 + -0xac],0x3f800000
+  HIT 140b337f3 MOV :: MOV qword ptr [RCX + RAX*0x1 + -0x98],0x3f800000
+  HIT 140b33803 MOV :: MOV qword ptr [RCX + RAX*0x1 + -0x90],0x3f800000
+  HIT 140b3381c MOV :: MOV qword ptr [RCX + RAX*0x1 + -0x7c],0x3f800000
+  HIT 140b3382f MOV :: MOV qword ptr [RCX + RAX*0x1 + -0x68],0x3f800000
+
+FUNCTION FUN_140baaa20 @ 140baaa20 SCORE 83 hits=26 off3=23 op0c=3 both=0
+  HIT 140baac51 SUB :: SUB R8D,dword ptr [R9 + 0xc80]
+  HIT 140baafc1 MOV :: MOV qword ptr [RBP + 0x158],0x3f800000
+  HIT 140baafd9 MOV :: MOV dword ptr [RBP + 0x160],0x3f800000
+  HIT 140bab942 MOV :: MOV R9D,0x3f
+  HIT 140babbbd MOV :: MOV R11D,0x3
+  HIT 140babfed MOV :: MOV R9D,0x3f
+  HIT 140bac15e MOV :: MOV R9D,0x3f
+  HIT 140bac437 MOV :: MOV R9D,0x3f
+
+FUNCTION FUN_140193070 @ 140193070 SCORE 82 hits=24 off3=22 op0c=2 both=0
+  HIT 1401934bb MOV :: MOV R9D,0x3
+  HIT 140193545 MOV :: MOV R9D,0x3
+  HIT 1401935c4 LEA :: LEA R8D,[R9 + 0x3]
+  HIT 1401936e9 MOV :: MOV R9D,0x3
+  HIT 140193773 MOV :: MOV R9D,0x3
+  HIT 1401937f2 LEA :: LEA R8D,[R9 + 0x3]
+  HIT 140193937 MOV :: MOV R9D,0x3
+  HIT 1401939ad MOV :: MOV dword ptr [RSP + 0x28],0x3
+
+FUNCTION FUN_140368790 @ 140368790 SCORE 82 hits=27 off3=21 op0c=6 both=0
+  HIT 1403688c3 IMUL :: IMUL RCX,RAX,0x38
+  HIT 1403688e3 IMUL :: IMUL RDX,RAX,0x38
+  HIT 1403689bf CMP :: CMP dword ptr [0x14126f24c],0x3
+  HIT 1403689da IMUL :: IMUL RCX,RAX,0x38
+  HIT 1403689fa IMUL :: IMUL RDX,RAX,0x38
+  HIT 140368d6e TEST :: TEST dword ptr [R8 + 0x14],0x3000
+  HIT 14036905f TEST :: TEST dword ptr [R8 + 0x14],0x3000
+  HIT 14036939c TEST :: TEST dword ptr [R8 + 0x14],0x3000
+
+FUNCTION FUN_140da6060 @ 140da6060 SCORE 82 hits=29 off3=29 op0c=0 both=0
+  HIT 140da60cc LEA :: LEA EDX,[RAX + 0x3]
+  HIT 140da617e AND :: AND R10D,0x3f
+  HIT 140da6182 CMP :: CMP R10D,0x3f
+  HIT 140da61b6 AND :: AND R10D,0x3f
+  HIT 140da61ba CMP :: CMP R10D,0x3f
+  HIT 140da61ee AND :: AND R10D,0x3f
+  HIT 140da61f2 CMP :: CMP R10D,0x3f
+  HIT 140da621f AND :: AND R9D,0x3f
+
+FUNCTION FUN_140daaf20 @ 140daaf20 SCORE 81 hits=31 off3=30 op0c=1 both=0
+  HIT 140daaf39 SUB :: SUB RSP,0xc0
+  HIT 140dab04e SHL :: SHL ECX,0x3
+  HIT 140dab09e LEA :: LEA EDX,[RAX + 0x3]
+  HIT 140dab149 AND :: AND R8D,0x3f
+  HIT 140dab14d CMP :: CMP R8D,0x3f
+  HIT 140dab18a AND :: AND R10D,0x3f
+  HIT 140dab18e CMP :: CMP R10D,0x3f
+  HIT 140dab1d3 AND :: AND R10D,0x3f
+
+FUNCTION FUN_1409ab120 @ 1409ab120 SCORE 80 hits=20 off3=20 op0c=0 both=0
+  HIT 1409ab1bb MOV :: MOV dword ptr [RAX],0x3
+  HIT 1409ab5d8 MOV :: MOV dword ptr [RAX],0x3d
+  HIT 1409ab67a MOV :: MOV dword ptr [RAX],0x30
+  HIT 1409ab695 MOV :: MOV dword ptr [RAX],0x31
+  HIT 1409ab6b0 MOV :: MOV dword ptr [RAX],0x32
+  HIT 1409ab6cb MOV :: MOV dword ptr [RAX],0x33
+  HIT 1409ab6e6 MOV :: MOV dword ptr [RAX],0x34
+  HIT 1409ab6f1 MOV :: MOV dword ptr [RAX],0x35
+
+FUNCTION FUN_1409dde80 @ 1409dde80 SCORE 80 hits=20 off3=20 op0c=0 both=0
+  HIT 1409ddeef MOV :: MOV dword ptr [RBX + 0xa054],0x3f800000
+  HIT 1409ddef9 MOV :: MOV dword ptr [RBX + 0xa058],0x3f800000
+  HIT 1409ddf03 MOV :: MOV dword ptr [RBX + 0xa05c],0x3f800000
+  HIT 1409ddf0d MOV :: MOV dword ptr [RBX + 0xa060],0x3f800000
+  HIT 1409ddf17 MOV :: MOV dword ptr [RBX + 0xa064],0x3f800000
+  HIT 1409ddf21 MOV :: MOV dword ptr [RBX + 0xa068],0x3f800000
+  HIT 1409ddf2b MOV :: MOV dword ptr [RBX + 0xa06c],0x3f800000
+  HIT 1409ddf35 MOV :: MOV dword ptr [RBX + 0xa070],0x3f800000
+
+FUNCTION FUN_1401ae200 @ 1401ae200 SCORE 78 hits=20 off3=18 op0c=2 both=0
+  HIT 1401ae2cb MOV :: MOV dword ptr [RBX + 0x10c],0x3f800000
+  HIT 1401ae2dc MOV :: MOV qword ptr [RBX + 0x110],0x3f800000
+  HIT 1401ae2e7 MOV :: MOV R8D,0x3
+  HIT 1401ae301 MOV :: MOV dword ptr [RBX + 0x120],0x3f800000
+  HIT 1401ae30b MOV :: MOV dword ptr [RBX + 0x124],0x3f800000
+  HIT 1401ae315 MOV :: MOV dword ptr [RBX + 0x128],0x3f800000
+  HIT 1401ae31f MOV :: MOV dword ptr [RBX + 0x12c],0x3f800000
+  HIT 1401ae329 MOV :: MOV dword ptr [RBX + 0x130],0x3f800000
+
+FUNCTION FUN_14052fd70 @ 14052fd70 SCORE 78 hits=20 off3=18 op0c=2 both=0
+  HIT 14052fdd7 MOV :: MOV dword ptr [RSP + 0x48],0x3ccccccd
+  HIT 14052fdf5 MOV :: MOV dword ptr [RSP + 0x44],0x3ccccccd
+  HIT 14052fdfd MOV :: MOV dword ptr [RSP + 0x40],0x3ccccccd
+  HIT 14052fe48 MOV :: MOV dword ptr [RSP + 0x54],0x3d4ccccd
+  HIT 14052fe54 MOV :: MOV dword ptr [RSP + 0x50],0x3d4ccccd
+  HIT 14052fe5c MOV :: MOV dword ptr [RSP + 0x4c],0x3d4ccccd
+  HIT 14052fea7 MOV :: MOV dword ptr [RSP + 0x60],0x3d4ccccd
+  HIT 14052feb3 MOV :: MOV dword ptr [RSP + 0x5c],0x3d4ccccd
+
+FUNCTION FUN_14025cd20 @ 14025cd20 SCORE 76 hits=19 off3=19 op0c=0 both=0
+  HIT 14025cd4f MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025cee8 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025cfa6 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025d063 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025d119 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025d1d6 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025d28c MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14025d349 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+
+FUNCTION FUN_1402c9f30 @ 1402c9f30 SCORE 76 hits=22 off3=22 op0c=0 both=0
+  HIT 1402ca2d5 SHL :: SHL RCX,0x3
+  HIT 1402ca45d SHL :: SHL RCX,0x3
+  HIT 1402ca878 SHL :: SHL RAX,0x3
+  HIT 1402ca8ad SHL :: SHL RAX,0x3
+  HIT 1402ca98f ADD :: ADD RBX,0x38
+  HIT 1402cab2b MOV :: MOV dword ptr [RBX + -0x8],0x3f800000
+  HIT 1402cab32 MOV :: MOV dword ptr [RBX + -0x4],0x3f800000
+  HIT 1402cab39 MOV :: MOV dword ptr [RBX],0x3f800000
+
+FUNCTION FUN_1402cb310 @ 1402cb310 SCORE 73 hits=32 off3=31 op0c=1 both=0
+  HIT 1402cb3cd AND :: AND EAX,0x3f
+  HIT 1402cb3d3 CMP :: CMP AL,0x3f
+  HIT 1402cb5b2 TEST :: TEST ESI,0x300
+  HIT 1402cb61c TEST :: TEST ESI,0x300
+  HIT 1402cb65e SHR :: SHR EAX,0x3
+  HIT 1402cb8b4 AND :: AND ECX,0x3ff
+  HIT 1402cb8f2 AND :: AND EAX,0x3ff
+  HIT 1402cb8ff AND :: AND EDX,0x3ff
+
+FUNCTION FUN_1403ba720 @ 1403ba720 SCORE 73 hits=15 off3=14 op0c=3 both=2
+  HIT 1403ba7a4 SHR :: SHR EDX,0x3
+  HIT 1403ba8e4 LEA :: LEA EDX,[R8 + 0xc]
+  HIT 1403ba9df MOV :: MOV dword ptr [RAX],0x3f800000
+  HIT 1403ba9e5 MOV :: MOV dword ptr [RAX + 0x4],0x3f800000
+  HIT 1403ba9ec MOV :: MOV dword ptr [RAX + 0x8],0x3f800000
+  HIT 1403ba9f3 MOV :: MOV dword ptr [RAX + 0xc],0x3f800000
+  HIT 1403babdd MOV :: MOV qword ptr [RAX + 0x18],0x3f000000
+  HIT 1403babe5 MOV :: MOV qword ptr [RAX + 0x28],0x3f800000
+
+FUNCTION FUN_1400e5e30 @ 1400e5e30 SCORE 72 hits=16 off3=16 op0c=1 both=1
+  HIT 1400e5e64 MOV :: MOV dword ptr [RSP + 0x2c],0x3f800000
+  HIT 1400e5e92 MOV :: MOV dword ptr [RSP + 0x48],0x3f800000
+  HIT 1400e5ec0 MOV :: MOV dword ptr [RSP + 0x64],0x3f800000
+  HIT 1400e5eee MOV :: MOV dword ptr [RBP + -0x80],0x3f800000
+  HIT 1400e5f16 MOV :: MOV dword ptr [RBP + -0x64],0x3f800000
+  HIT 1400e5f3e MOV :: MOV dword ptr [RBP + -0x48],0x3f800000
+  HIT 1400e5f66 MOV :: MOV dword ptr [RBP + -0x2c],0x3f800000
+  HIT 1400e5f8e MOV :: MOV dword ptr [RBP + -0x10],0x3f800000
+
+FUNCTION FUN_140392160 @ 140392160 SCORE 72 hits=18 off3=18 op0c=0 both=0
+  HIT 1403921f7 MOV :: MOV dword ptr [RDI + 0xa0],0x3ec2c2c3
+  HIT 140392208 MOV :: MOV dword ptr [RDI + 0xa4],0x3e7cfcfd
+  HIT 140392219 MOV :: MOV dword ptr [RDI + 0xa8],0x3e30b0b1
+  HIT 14039222a MOV :: MOV dword ptr [RDI + 0xac],0x3dcccccd
+  HIT 14039234e MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 14039240b MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 1403925b4 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+  HIT 140392663 MOV :: MOV dword ptr [RBP + -0x35],0x3ff0000
+
+FUNCTION FUN_14072ddd0 @ 14072ddd0 SCORE 72 hits=23 off3=23 op0c=0 both=0
+  HIT 14072df43 CMP :: CMP dword ptr [0x141266e20],0x3
+  HIT 14072e01b SAR :: SAR RAX,0x3
+  HIT 14072e070 SHR :: SHR R14,0x3
+  HIT 14072e1cb SHR :: SHR R14,0x3
+  HIT 14072e228 MOV :: MOV dword ptr [RBP + 0x140],0x3f800000
+  HIT 14072e235 MOV :: MOV dword ptr [RBP + 0x144],0x3f800000
+  HIT 14072e246 MOV :: MOV dword ptr [RBP + 0x148],0x3f800000
+  HIT 14072e2a3 SHUFPS :: SHUFPS XMM0,XMM0,0x39
+
+FUNCTION FUN_140a33d30 @ 140a33d30 SCORE 72 hits=22 off3=22 op0c=1 both=1
+  HIT 140a33f99 MOV :: MOV EDI,0x3f000000
+  HIT 140a34088 CMP :: CMP EAX,0x3
+  HIT 140a3418e SHL :: SHL RCX,0x3
+  HIT 140a341ac SHL :: SHL R8,0x3
+  HIT 140a34283 SHL :: SHL RCX,0x3
+  HIT 140a342a1 SHL :: SHL R8,0x3
+  HIT 140a343e8 SHL :: SHL RCX,0x3
+  HIT 140a34406 SHL :: SHL R8,0x3
+
+FUNCTION FUN_140b1af10 @ 140b1af10 SCORE 72 hits=16 off3=16 op0c=1 both=1
+  HIT 140b1af27 MOV :: MOV dword ptr [RCX + 0xc],0x3f800000
+  HIT 140b1af2e MOV :: MOV dword ptr [RCX + 0x10],0x3e99999a
+  HIT 140b1af35 MOV :: MOV dword ptr [RCX + 0x14],0x3e99999a
+  HIT 140b1af3c MOV :: MOV dword ptr [RCX + 0x18],0x3e99999a
+  HIT 140b1af43 MOV :: MOV dword ptr [RCX + 0x1c],0x3f800000
+  HIT 140b1af4a MOV :: MOV dword ptr [RCX + 0x20],0x3e4ccccd
+  HIT 140b1af51 MOV :: MOV dword ptr [RCX + 0x24],0x3e4ccccd
+  HIT 140b1af58 MOV :: MOV dword ptr [RCX + 0x28],0x3e4ccccd
+
+FUNCTION FUN_140d92d40 @ 140d92d40 SCORE 72 hits=18 off3=18 op0c=0 both=0
+  HIT 140d92dfc MOV :: MOV dword ptr [RDI + 0x360],0x3e4ccccd
+  HIT 140d92e06 MOV :: MOV dword ptr [RDI + 0x364],0x3e4ccccd
+  HIT 140d92e10 MOV :: MOV qword ptr [RDI + 0x368],0x3e4ccccd
+  HIT 140d92e29 MOV :: MOV dword ptr [RDI + 0x340],0x3f333333
+  HIT 140d92e33 MOV :: MOV dword ptr [RDI + 0x344],0x3f800000
+  HIT 140d92e3d MOV :: MOV dword ptr [RDI + 0x348],0x3f000000
+  HIT 140d92e8f MOV :: MOV dword ptr [RDI + 0x3e0],0x3f800000
+  HIT 140d92ea3 MOV :: MOV qword ptr [RDI + 0x3f8],0x3f000000
+
+FUNCTION FUN_140d92ff0 @ 140d92ff0 SCORE 72 hits=18 off3=18 op0c=0 both=0
+  HIT 140d930d7 MOV :: MOV dword ptr [R14 + 0x360],0x3e4ccccd
+  HIT 140d930e2 MOV :: MOV dword ptr [R14 + 0x364],0x3e4ccccd
+  HIT 140d930ed MOV :: MOV qword ptr [R14 + 0x368],0x3e4ccccd
+  HIT 140d93106 MOV :: MOV dword ptr [R14 + 0x340],0x3f333333
+  HIT 140d93111 MOV :: MOV dword ptr [R14 + 0x344],0x3f800000
+  HIT 140d9311c MOV :: MOV dword ptr [R14 + 0x348],0x3f000000
+  HIT 140d93176 MOV :: MOV dword ptr [R14 + 0x3e0],0x3f800000
+  HIT 140d9318c MOV :: MOV qword ptr [R14 + 0x3f8],0x3f000000
+
+FUNCTION FUN_140932100 @ 140932100 SCORE 70 hits=25 off3=23 op0c=2 both=0
+  HIT 1409323c2 MOV :: MOV EDI,0x3
+  HIT 1409324c9 SHUFPS :: SHUFPS XMM3,XMM3,0x39
+  HIT 140932557 SHR :: SHR ECX,0x3
+  HIT 140932564 SHR :: SHR ECX,0x3
+  HIT 1409327fa SHR :: SHR EAX,0x3
+  HIT 140932890 MOV :: MOV EDI,0x3
+  HIT 1409328be SHR :: SHR EAX,0x3
+  HIT 14093294e MOV :: MOV EDI,0x3
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

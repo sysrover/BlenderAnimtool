@@ -1,0 +1,428 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DayZGuiWidgetPropertyConsumers.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:37:14 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DayZGuiWidgetPropertyConsumers.java
+Size: 6114 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+TARGET_PROGRAM DayZDiag_x64.exe
+TARGET_PATH /DayZDiag_x64.exe
+------------------------------------------------------------
+GLOBAL visible_prop 141281cb0
+  REF from=1403e0d02 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de7e0 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL clipchildren_prop 141281cb8
+  REF from=1403e0e67 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de823 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL ignorepointer_prop 141281cc0
+  REF from=1403e0fc5 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de863 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL position_prop 141281cc8
+  REF from=1403e1248 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403dea29 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL size_prop 141281cd0
+  REF from=1403e12b0 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403dea48 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL halign_prop 141281cd4
+  REF from=1403e1326 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de9b9 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL valign_prop 141281cd8
+  REF from=1403e1395 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de9dd type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL hexactpos_prop 141281cdc
+  REF from=1403e13fd type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de8a7 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL vexactpos_prop 141281ce0
+  REF from=1403e1465 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de8c7 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL hexactsize_prop 141281ce4
+  REF from=1403e14cd type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de8e7 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL vexactsize_prop 141281ce8
+  REF from=1403e1535 type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de907 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL scaled_prop 141281cec
+  REF from=1403e159d type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de927 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL fixaspect_prop 141281cf0
+  REF from=1403e160c type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403de995 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL priority_prop 141281cf4
+  REF from=1403e167b type=WRITE function=FUN_1403e0bf0 entry=1403e0bf0
+  REF from=1403dea01 type=READ function=FUN_1403de7a0 entry=1403de7a0
+  REF_COUNT 2
+------------------------------------------------------------
+GLOBAL image0_prop 141282098
+  REF from=140dca254 type=READ function=FUN_140dca250 entry=140dca250
+  REF from=140dca275 type=WRITE function=FUN_140dca250 entry=140dca250
+  REF from=140028ddb type=DATA function=FUN_140028da0 entry=140028da0
+  REF from=140060731 type=DATA function=FUN_140060540 entry=140060540
+  REF from=14042db60 type=DATA function=FUN_14042db60 entry=14042db60
+  REF_COUNT 5
+------------------------------------------------------------
+GLOBAL src_alpha_prop 1412820a4
+  REF_COUNT 0
+------------------------------------------------------------
+GLOBAL stretch_mode_prop 1412820b0
+  REF_COUNT 0
+============================================================
+DECOMPILE_FUNCTIONS 6
+------------------------------------------------------------
+FUNCTION FUN_1403e0bf0 @ 1403e0bf0
+  C[1] 
+  C[2] undefined8 * FUN_1403e0bf0(undefined8 *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   undefined4 *puVar1;
+  C[6]   char *pcVar2;
+  C[7]   undefined *puVar3;
+  C[8]   SIZE_T SVar4;
+  C[9]   char *local_res8;
+  C[10]   char *local_res10;
+  C[39]   FUN_140131650(param_1 + 1,(byte *)"Widget",param_3,param_4);
+  C[41]   local_98 = "Visible";
+  C[44]   local_res8 = "visible";
+  C[57]   DAT_141281cb0 = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[77]   DAT_141281cb4 = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[81]   local_98 = "Clip children";
+  C[83]   local_res8 = "clipchildren";
+  C[97]   DAT_141281cb8 = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[117]   DAT_141281cbc = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[137]   DAT_141281cc0 = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[177]   DAT_141281cc4 = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[197]   DAT_141281ccc = FUN_140131050((longlong)param_1,&local_90,param_3,param_4);
+  C[200]   pcVar2 = "position";
+  C[202]   puVar1 = FUN_140111940(&local_90,2,"position",SVar4,&DAT_140e3a260);
+  C[203]   DAT_141281cc8 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[209]   DAT_141281cd0 = FUN_140131050((longlong)param_1,puVar1,puVar3,SVar4);
+  C[212]   pcVar2 = "halign";
+  C[214]   puVar1 = FUN_140111ad0(&local_90,8,"halign",0,&DAT_140dea060);
+  C[215]   DAT_141281cd4 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[218]   pcVar2 = "valign";
+  C[220]   puVar1 = FUN_140111ad0(&local_90,8,"valign",0,&DAT_140dea060);
+  C[221]   DAT_141281cd8 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[224]   pcVar2 = "hexactpos";
+  C[226]   puVar1 = FUN_140111940(&local_90,10,"hexactpos",0,"false");
+  C[227]   DAT_141281cdc = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[230]   pcVar2 = "vexactpos";
+  C[232]   puVar1 = FUN_140111940(&local_90,10,"vexactpos",0,"false");
+  C[233]   DAT_141281ce0 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[236]   pcVar2 = "hexactsize";
+  C[238]   puVar1 = FUN_140111940(&local_90,10,"hexactsize",0,"false");
+  C[239]   DAT_141281ce4 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[242]   pcVar2 = "vexactsize";
+  C[244]   puVar1 = FUN_140111940(&local_90,10,"vexactsize",0,"false");
+  C[245]   DAT_141281ce8 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[251]   DAT_141281cec = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[257]   DAT_141281cf0 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[263]   DAT_141281cf4 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[269]   DAT_141281cf8 = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+  C[275]   DAT_141281cfc = FUN_140131050((longlong)param_1,puVar1,pcVar2,SVar4);
+------------------------------------------------------------
+FUNCTION FUN_1403de7a0 @ 1403de7a0
+  C[1] 
+  C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+  C[3] 
+  C[4] void FUN_1403de7a0(longlong *param_1,longlong param_2)
+  C[5] 
+  C[6] {
+  C[7]   undefined1 *puVar1;
+  C[8]   uint *puVar2;
+  C[9]   int *piVar3;
+  C[10]   undefined8 *puVar4;
+  C[43]   plVar21 = FUN_1402bf390((longlong *)(param_2 + 0x18));
+  C[49]   lVar22 = *(longlong *)(param_2 + 0x38);
+  C[50]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cb0 * 8);
+  C[57]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cb4 * 8);
+  C[64]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cb8 * 8);
+  C[69]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cbc * 8);
+  C[76]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cc0 * 8);
+  C[83]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cc4 * 8);
+  C[90]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cdc * 8);
+  C[97]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281ce0 * 8);
+  C[104]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281ce4 * 8);
+  C[111]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281ce8 * 8);
+  C[118]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cec * 8);
+  C[123]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cfc * 8);
+  C[137]   puVar1 = *(undefined1 **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281d04 * 8);
+  C[144]   *(undefined1 *)((longlong)param_1 + 0xac) = uVar19;
+  C[145]   puVar2 = *(uint **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cf0 * 8);
+  C[151]   puVar2 = *(uint **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cd4 * 8);
+  C[157]   puVar2 = *(uint **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cd8 * 8);
+  C[162]   piVar3 = *(int **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cf4 * 8);
+  C[169]   plVar21 = *(longlong **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cc8 * 8);
+  C[175]   puVar4 = *(undefined8 **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cd0 * 8);
+  C[181]   pfVar5 = *(float **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281ccc * 8);
+  C[197]   piVar3 = *(int **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cf8 * 8);
+  C[201]   *(int *)(param_1 + 0x17) = iVar20;
+  C[202]   plVar21 = *(longlong **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281d00 * 8);
+  C[222]         FUN_1402d32c0(param_1 + 0x1d,lVar27);
+------------------------------------------------------------
+FUNCTION FUN_140dca250 @ 140dca250
+  C[1] 
+  C[2] void FUN_140dca250(void)
+  C[3] 
+  C[4] {
+  C[5]   int iVar1;
+  C[6]   int *piVar2;
+  C[7]   
+  C[8]   piVar2 = DAT_141282098;
+  C[9]   if (DAT_141282098 != (int *)0x0) {
+  C[10]     LOCK();
+  C[11]     iVar1 = *DAT_141282098;
+  C[12]     *DAT_141282098 = *DAT_141282098 + -1;
+  C[17]     DAT_141282098 = (int *)0x0;
+------------------------------------------------------------
+FUNCTION FUN_140028da0 @ 140028da0
+  C[1] 
+  C[2] void FUN_140028da0(undefined8 param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+  C[3] 
+  C[4] {
+  C[5]   uint uVar1;
+  C[6]   undefined8 *puVar2;
+  C[7]   undefined8 local_res8 [4];
+  C[8]   
+  C[9]   uVar1 = FUN_14013c6b0("Predators",0);
+  C[10]   puVar2 = FUN_1400608b0(local_res8,"Predators",param_3,param_4);
+  C[11]   FUN_140092170(&DAT_141282098,puVar2,uVar1,FUN_14042b030,FUN_14042b000);
+------------------------------------------------------------
+FUNCTION FUN_140060540 @ 140060540
+  C[1] 
+  C[2] void FUN_140060540(longlong param_1,longlong param_2)
+  C[3] 
+  C[4] {
+  C[5]   longlong lVar1;
+  C[6]   
+  C[7]   *(longlong *)(param_1 + 0x38) = param_2;
+  C[8]   lVar1 = *(longlong *)(param_2 + 0x68);
+  C[9]   FUN_1400924f0(lVar1,&DAT_1411a34f0);
+  C[10]   FUN_1400924f0(lVar1,&DAT_1411a3510);
+  C[11]   lVar1 = *(longlong *)(param_2 + 0x70);
+  C[28]   lVar1 = *(longlong *)(param_2 + 0x80);
+  C[32]   FUN_140094280(lVar1,&DAT_1412820f0);
+  C[36]   lVar1 = *(longlong *)(param_2 + 0x88);
+  C[40]   FUN_1400957c0(*(longlong *)(param_2 + 0x90),&DAT_141282268);
+  C[41]   lVar1 = *(longlong *)(param_2 + 0x78);
+  C[42]   FUN_140093140(lVar1,&DAT_1412820c0);
+  C[43]   FUN_140093140(lVar1,&DAT_141282098);
+  C[45]   FUN_140093140(lVar1,&DAT_141282020);
+  C[46]   FUN_140093140(lVar1,&DAT_141282060);
+  C[48]   lVar1 = *(longlong *)(param_2 + 0x98);
+------------------------------------------------------------
+FUNCTION FUN_14042db60 @ 14042db60
+  C[1] 
+  C[2] undefined8 * FUN_14042db60(void)
+  C[3] 
+  C[4] {
+  C[5]   return &DAT_141282098;
+  C[6] }
+SCRIPT COMPLETED DayZGuiWidgetPropertyConsumers
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

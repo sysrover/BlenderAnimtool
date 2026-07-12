@@ -1,0 +1,1457 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DataExporterCallerSearch.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:48:01 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DataExporterCallerSearch.java
+Size: 8752 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM_COUNT 7
+============================================================
+PROGRAM DayZDiag_x64.exe path=/DayZDiag_x64.exe imageBase=140000000 lang=x86:LE:64:default
+SYMBOL_TOTAL_HITS 0
+DEFINED_STRING_TOTAL_HITS 0
+RAW_STRING_TOTAL_HITS 0
+============================================================
+PROGRAM binarize.exe path=/binarize.exe imageBase=140000000 lang=x86:LE:64:default
+SYMBOL_TOTAL_HITS 0
+DEFINED_STRING_TOTAL_HITS 0
+RAW_STRING_TOTAL_HITS 0
+============================================================
+PROGRAM DayZ_x64.exe path=/DayZ_x64.exe imageBase=140000000 lang=x86:LE:64:default
+SYMBOL_TOTAL_HITS 0
+DEFINED_STRING_TOTAL_HITS 0
+RAW_STRING_TOTAL_HITS 0
+============================================================
+PROGRAM AddonBuilder.exe path=/AddonBuilder.exe imageBase=00400000 lang=x86:LE:32:default
+SYMBOL_TOTAL_HITS 0
+DEFINED_STRING_TOTAL_HITS 0
+RAW_STRING_TOTAL_HITS 0
+============================================================
+PROGRAM dataExporter_v141_x64_RetailDX11.dll path=/dataExporter_v141_x64_RetailDX11.dll imageBase=180000000 lang=x86:LE:64:default
+SYMBOL_HIT needle=ShowAnimExportDialogThread2 name=ShowAnimExportDialogThread2 address=1800b7b90 source=IMPORTED type=Function
+SYMBOL_HIT needle=AnimExportDialog name=ShowAnimExportDialogThread2 address=1800b7b90 source=IMPORTED type=Function
+SYMBOL_HIT needle=ShowExportDialog name=ShowExportDialog address=1800ba700 source=ANALYSIS type=Function
+SYMBOL_HIT needle=ShowExportDialog name=?ShowExportDialog@@YAHPEAUHWND__@@@Z address=1800ba700 source=IMPORTED type=Label
+SYMBOL_HIT needle=ShowExportDialogThread name=ShowExportDialogThread address=1800ba990 source=ANALYSIS type=Function
+SYMBOL_HIT needle=ShowExportDialog name=ShowExportDialogThread address=1800ba990 source=ANALYSIS type=Function
+SYMBOL_HIT needle=ShowExportDialogThread name=?ShowExportDialogThread@@YAHPEAUHWND__@@@Z address=1800ba990 source=IMPORTED type=Label
+SYMBOL_HIT needle=ShowExportDialog name=?ShowExportDialogThread@@YAHPEAUHWND__@@@Z address=1800ba990 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::vftable_meta_ptr address=1809001a8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::vftable address=1809001b0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::vftable_meta_ptr address=180900340 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::vftable address=180900348 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::vftable_meta_ptr address=180900540 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::vftable address=180900548 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::vftable_meta_ptr address=180900608 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::vftable address=180900610 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::vftable_meta_ptr address=180900618 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::vftable address=180900620 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::vftable_meta_ptr address=1809007a8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::vftable address=1809007b0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::vftable_meta_ptr address=180900998 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::vftable address=1809009a0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::vftable_meta_ptr address=1809009a8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::vftable address=1809009b0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::vftable_meta_ptr address=180900ca8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::vftable address=180900cb0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::vftable_meta_ptr address=180900cb8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::vftable address=180900cc0 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::vftable_meta_ptr address=180900cc8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::vftable_meta_ptr address=180900cc8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::vftable_meta_ptr address=180900cc8 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::vftable address=180900cd0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::vftable address=180900cd0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::vftable address=180900cd0 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformModifier::RTTI_Class_Hierarchy_Descriptor address=180a3e1e8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformModifier::RTTI_Class_Hierarchy_Descriptor address=180a3e1e8 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformModifier::RTTI_Base_Class_Array address=180a3e200 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformModifier::RTTI_Base_Class_Array address=180a3e200 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformModifier::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e210 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformModifier::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e210 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformGenerator::RTTI_Class_Hierarchy_Descriptor address=180a3e238 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformGenerator::RTTI_Class_Hierarchy_Descriptor address=180a3e238 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformGenerator::RTTI_Base_Class_Array address=180a3e250 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformGenerator::RTTI_Base_Class_Array address=180a3e250 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformGenerator::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e260 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformGenerator::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e260 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::RTTI_Complete_Object_Locator address=180a3e288 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::RTTI_Class_Hierarchy_Descriptor address=180a3e2b0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::RTTI_Base_Class_Array address=180a3e2c8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e2f0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::RTTI_Complete_Object_Locator address=180a3e3d0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::RTTI_Class_Hierarchy_Descriptor address=180a3e3f8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::RTTI_Base_Class_Array address=180a3e410 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e438 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::RTTI_Complete_Object_Locator address=180a3e460 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::RTTI_Class_Hierarchy_Descriptor address=180a3e488 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::RTTI_Base_Class_Array address=180a3e4a0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e4c8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::RTTI_Complete_Object_Locator address=180a3e4f0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::RTTI_Class_Hierarchy_Descriptor address=180a3e518 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::RTTI_Base_Class_Array address=180a3e530 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e558 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::RTTI_Complete_Object_Locator address=180a3e6d8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::RTTI_Class_Hierarchy_Descriptor address=180a3e700 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::RTTI_Base_Class_Array address=180a3e718 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e748 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::RTTI_Complete_Object_Locator address=180a3e7d8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::RTTI_Complete_Object_Locator address=180a3e8b8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::RTTI_Class_Hierarchy_Descriptor address=180a3e8e0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::RTTI_Base_Class_Array address=180a3e8f8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e910 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::RTTI_Complete_Object_Locator address=180a3e988 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::RTTI_Class_Hierarchy_Descriptor address=180a3e9b0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::RTTI_Base_Class_Array address=180a3e9c8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3e9e8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::RTTI_Complete_Object_Locator address=180a3eb00 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::RTTI_Class_Hierarchy_Descriptor address=180a3eb28 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::RTTI_Base_Class_Array address=180a3eb40 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3eb58 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::RTTI_Complete_Object_Locator address=180a3eb80 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::RTTI_Class_Hierarchy_Descriptor address=180a3eba8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::RTTI_Base_Class_Array address=180a3ebc0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3ebd8 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Complete_Object_Locator address=180a3ec00 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Complete_Object_Locator address=180a3ec00 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Complete_Object_Locator address=180a3ec00 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Class_Hierarchy_Descriptor address=180a3ec28 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Class_Hierarchy_Descriptor address=180a3ec28 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Class_Hierarchy_Descriptor address=180a3ec28 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Base_Class_Array address=180a3ec40 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Base_Class_Array address=180a3ec40 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Base_Class_Array address=180a3ec40 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3ec58 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3ec58 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) address=180a3ec58 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformModifier::RTTI_Type_Descriptor address=180ba5788 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformModifier::RTTI_Type_Descriptor address=180ba5788 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=IAnimExporterAcc::S_TransformGenerator::RTTI_Type_Descriptor address=180ba57c8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=IAnimExporterAcc::S_TransformGenerator::RTTI_Type_Descriptor address=180ba57c8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileCBD::RTTI_Type_Descriptor address=180ba5808 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::RTTI_Type_Descriptor address=180ba58a0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileChBD::RTTI_Type_Descriptor address=180ba58d8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::RTTI_Type_Descriptor address=180ba5910 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialog::RTTI_Type_Descriptor address=180ba59c8 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileFBD::UserData::RTTI_Type_Descriptor address=180ba5a30 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogProfileDiffTgD::UserData::RTTI_Type_Descriptor address=180ba5a98 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransMod::RTTI_Type_Descriptor address=180ba5b38 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=AnimExportDialogCtxTransGen::RTTI_Type_Descriptor address=180ba5b70 source=IMPORTED type=Label
+SYMBOL_HIT needle=IAnimExporterAcc name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Type_Descriptor address=180ba5bb0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExporter name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Type_Descriptor address=180ba5bb0 source=IMPORTED type=Label
+SYMBOL_HIT needle=AnimExportDialog name=`protected:_bool___cdecl_AnimExportDialogCtx::SaveAnimation(class_IAnimExporterAcc*___ptr64,unsigned_int,class_TXA::Animation*___ptr64,class_QString&___ptr64)const___ptr64'::__l7::AnimErrorReporter::RTTI_Type_Descriptor address=180ba5bb0 source=IMPORTED type=Label
+SYMBOL_TOTAL_HITS 111
+DEFINED_STRING_HIT needle=AnimExportDialog address=1808f98a0 text=AnimExportDialog
+  REF from=1800ab3fe type=DATA function=FUN_1800ab3f0 entry=1800ab3f0
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab3f0 1800ab3f0
+
+QDialog * FUN_1800ab3f0(QDialog *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QDialog *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QDialog *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialog" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab431. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QDialog::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab3f0 1800ab3f0
+  REF_COUNT 1 for=1808f98a0
+DEFINED_STRING_HIT needle=AnimExportDialog address=1808f9bd8 text=AnimExportDialogProfileCBD
+  REF from=1800ab5be type=DATA function=FUN_1800ab5b0 entry=1800ab5b0
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab5b0 1800ab5b0
+
+QStyledItemDelegate * FUN_1800ab5b0(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileCBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab5f1. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab5b0 1800ab5b0
+  REF_COUNT 1 for=1808f9bd8
+DEFINED_STRING_HIT needle=AnimExportDialog address=1808f9c50 text=AnimExportDialogProfileChBD
+  REF from=1800ab62e type=DATA function=FUN_1800ab620 entry=1800ab620
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab620 1800ab620
+
+QStyledItemDelegate * FUN_1800ab620(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileChBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab661. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab620 1800ab620
+  REF_COUNT 1 for=1808f9c50
+DEFINED_STRING_HIT needle=AnimExportDialog address=1808f9d10 text=AnimExportDialogProfileDiffTgD
+  REF from=1800ab71e type=DATA function=FUN_1800ab710 entry=1800ab710
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab710 1800ab710
+
+QStyledItemDelegate * FUN_1800ab710(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileDiffTgD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab751. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab710 1800ab710
+  REF_COUNT 1 for=1808f9d10
+DEFINED_STRING_HIT needle=AnimExportDialog address=1808f9df8 text=AnimExportDialogProfileFBD
+  REF from=1800abb4e type=DATA function=FUN_1800abb40 entry=1800abb40
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800abb40 1800abb40
+
+QStyledItemDelegate * FUN_1800abb40(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileFBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800abb81. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800abb40 1800abb40
+  REF_COUNT 1 for=1808f9df8
+DEFINED_STRING_HIT needle=TXA Export Dialog address=1808fff00 text=TXA Export Dialog
+  REF from=1800b3d4c type=DATA function=FUN_1800b3d20 entry=1800b3d20
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800b3d20 1800b3d20
+
+void FUN_1800b3d20(longlong param_1,QWidget *param_2)
+
+{
+  QString *pQVar1;
+  QString local_res8 [8];
+  
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","TXA Export Dialog",0);
+  QWidget::setWindowTitle(param_2,pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export Select:",0);
+  QLabel::setText(*(QLabel **)(param_1 + 0x20),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","All Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x28),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","None",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x30),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Current",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x38),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x48),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show All",0)
+  ;
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x50),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Validate All",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x58),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","ssssssssssssss",0);
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0x78),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Selects base path for all exports / profiles",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x98),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Creates export profile based on selection (pelvis + EntityPos)",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Create Profile",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Reloads all profiles and scripts ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Reload Profiles",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plot takes when exporting ?",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot Takes",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plots all takes for export",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Copies values from current line (bold number) ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Copy Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Pastes path and profile settings to current(bold) line",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Paste Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Saves edited properties in source file "
+                      ,0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Save Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Export all valid and selected takes",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Cancel",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x108),pQVar1);
+  QString::~QString(local_res8);
+  return;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800b3d20 1800b3d20
+  REF_COUNT 1 for=1808fff00
+DEFINED_STRING_HIT needle=dataExporter address=180900fd8 text=/DataExporter.qss
+  REF from=1800ac448 type=DATA function=FUN_1800abcb0 entry=1800abcb0
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800abcb0 1800abcb0
+
+QWidget * FUN_1800abcb0(QWidget *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                       longlong param_5,char *param_6,QWidget param_7)
+
+{
+  char cVar1;
+  bool bVar2;
+  longlong *plVar3;
+  longlong lVar4;
+  QStyledItemDelegate *pQVar5;
+  QStyledItemDelegate *pQVar6;
+  QString *pQVar7;
+  QString *pQVar8;
+  QByteArray *pQVar9;
+  QSettings *this;
+  QPoint *pQVar10;
+  QVariant *pQVar11;
+  QSize *pQVar12;
+  QStyledItemDelegate *pQVar13;
+  longlong local_res18 [2];
+  ulonglong in_stack_fffffffffffffdb8;
+  uint uVar14;
+  QTypedArrayData<unsigned_short> *local_238;
+  QTypedArrayData<unsigned_short> *local_230;
+  QTypedArrayData<unsigned_short> *local_228;
+  longlong *local_220;
+  QString local_218 [8];
+  QString local_210 [8];
+  QTypedArrayData<unsigned_short> *local_208;
+  QTypedArrayData<unsigned_short> *local_200;
+  QTypedArrayData<unsigned_short> *local_1f8;
+  QTypedArrayData<unsigned_short> *local_1f0;
+  QTypedArrayData<unsigned_short> *local_1e8;
+  QTypedArrayData<unsigned_short> *local_1e0;
+  QTypedArrayData<unsigned_short> *local_1d8;
+  QString local_1d0 [8];
+  QString local_1c8 [8];
+  QString local_1c0 [8];
+  QString local_1b8 [8];
+  QObject local_1b0 [8];
+  QObject local_1a8 [8];
+  QObject local_1a0 [8];
+  QObject local_198 [8];
+  QObject local_190 [8];
+  QObject local_188 [8];
+  QObject local_180 [8];
+  QObject local_178 [8];
+  QObject local_170 [8];
+  QObject local_168 [8];
+  QObject local_160 [8];
+  QObject local_158 [8];
+  QObject local_150 [8];
+  QObject local_148 [8];
+  QObject local_140 [8];
+  QObject local_138 [8];
+  QObject local_130 [8];
+  QObject local_128 [8];
+  QString local_120 [8];
+  QByteArray local_118 [8];
+  QString local_110 [8];
+  QPoint local_108 [8];
+  QSize local_100 [8];
+  QString local_f8 [8];
+  QString local_f0 [8];
+  QFile local_e8 [16];
+  undefined8 local_d8;
+  undefined8 local_c0;
+  QString local_b8 [16];
+  QVariant local_a8 [16];
+  QString local_98 [16];
+  QVariant local_88 [16];
+  QString local_78 [16];
+  QVariant local_68 [16];
+  QString local_58 [16];
+  QVariant local_48 [16];
+  
+  local_c0 = 0xfffffffffffffffe;
+  pQVar13 = (QStyledItemDelegate *)0x0;
+  QDialog::QDialog((QDialog *)param_1,param_4,0);
+  *(undefined ***)param_1 = AnimExportDialog::vftable;
+  *(undefined ***)(param_1 + 0x10) = AnimExportDialog::vftable;
+  *(undefined8 *)(param_1 + 0x140) = param_3;
+  QString::QString((QString *)(param_1 + 0x178));
+  QString::QString((QString *)(param_1 + 0x180));
+  QString::QString((QString *)(param_1 + 0x188));
+  QString::QString((QString *)(param_1 + 400));
+  QString::QString((QString *)(param_1 + 0x198));
+  QString::QString((QString *)(param_1 + 0x1a0));
+  QString::QString((QString *)(param_1 + 0x1a8));
+  QString::QString((QString *)(param_1 + 0x1b0));
+  uVar14 = (uint)(in_stack_fffffffffffffdb8 >> 0x20);
+  param_1[0x1b8] = param_7;
+  *(longlong *)(param_1 + 0x170) = param_5;
+  if (*(char *)(param_5 + 0x31) != '\0') {
+    if (*(int *)(*(longlong *)(param_5 + 0x28) + 4) < 1) {
+      local_228 = QString::fromAscii_helper("All exports ok",0xe);
+      local_230 = QString::fromAscii_helper("Export Takes",0xc);
+      lVar4 = (ulonglong)uVar14 << 0x20;
+      QMessageBox::warning(param_1,&local_230,&local_228,0x400,lVar4);
+      uVar14 = (uint)((ulonglong)lVar4 >> 0x20);
+      QString::~QString((QString *)&local_230);
+      pQVar7 = (QString *)&local_228;
+    }
+    else {
+      local_238 = QString::fromAscii_helper("Export Takes",0xc);
+      in_stack_fffffffffffffdb8 = in_stack_fffffffffffffdb8 & 0xffffffff00000000;
+      QMessageBox::warning(param_1,&local_238,param_5 + 0x28,0x400,in_stack_fffffffffffffdb8);
+      uVar14 = (uint)(in_stack_fffffffffffffdb8 >> 0x20);
+      pQVar7 = (QString *)&local_238;
+    }
+    QString::~QString(pQVar7);
+    QString::clear((QString *)(param_5 + 0x28));
+    *(undefined1 *)(param_5 + 0x31) = 0;
+    param_5 = *(longlong *)(param_1 + 0x170);
+  }
+  *(undefined1 *)(param_5 + 0x30) = 0;
+  cVar1 = FUN_180230560();
+  if (cVar1 == '\0') {
+    local_d8 = 0;
+    plVar3 = (longlong *)FUN_1802330a0(0,0);
+    (**(code **)(*plVar3 + 0x98))(plVar3,&DAT_180900e34,0,"currentDir",CONCAT44(uVar14,1000),0);
+  }
+  pQVar5 = (QStyledItemDelegate *)DAT_180c4b180;
+  if (DAT_180c4b180 == (undefined8 *)0x0) {
+    FUN_18015c7d0(&local_220,0x400000,0);
+    if (local_220 != (longlong *)0x0) {
+      LOCK();
+      plVar3 = local_220 + 1;
+      lVar4 = *plVar3;
+      *(int *)plVar3 = (int)*plVar3 + -1;
+      UNLOCK();
+      _guard_check_icall(local_220);
+      if ((int)lVar4 == 1) {
+        (**(code **)(*local_220 + 0x18))(local_220);
+      }
+      local_220 = (longlong *)0x0;
+    }
+    lVar4 = FUN_180223ce0(0x538);
+    pQVar5 = pQVar13;
+    if (lVar4 != 0) {
+      pQVar5 = (QStyledItemDelegate *)FUN_1801a48d0(lVar4);
+    }
+  }
+  DAT_180c4b180 = (undefined8 *)pQVar5;
+  *(undefined8 *)(param_1 + 0x148) = param_2;
+  pQVar6 = operator_new(0x820);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileCBD::vftable;
+    *(undefined8 *)(pQVar6 + 0x10) = 0x100;
+    *(QStyledItemDelegate **)(pQVar6 + 0x18) = pQVar6 + 0x20;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x150) = pQVar5;
+  pQVar6 = operator_new(0x18);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileFBD::vftable;
+    *(QWidget **)(pQVar6 + 0x10) = param_1;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x158) = pQVar5;
+  pQVar6 = operator_new(0x10);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileChBD::vftable;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x160) = pQVar5;
+  pQVar5 = operator_new(0x18);
+  if (pQVar5 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar5,(QObject *)0x0);
+    *(undefined ***)pQVar5 = AnimExportDialogProfileDiffTgD::vftable;
+    *(QWidget **)(pQVar5 + 0x10) = param_1;
+    pQVar13 = pQVar5;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x168) = pQVar13;
+  FUN_1800b4bb0(param_1 + 0x30,param_1);
+  QObject::connect(local_1b0,*(char **)(param_1 + 0x130),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e38);
+  QMetaObject::Connection::~Connection((Connection *)local_1b0);
+  QObject::connect(local_1a8,*(char **)(param_1 + 0x138),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e50);
+  QMetaObject::Connection::~Connection((Connection *)local_1a8);
+  QObject::connect(local_1a0,(char *)param_1,(QObject *)"2accepted()",(char *)param_1,0x80900e68);
+  QMetaObject::Connection::~Connection((Connection *)local_1a0);
+  QObject::connect(local_198,(char *)param_1,(QObject *)"2rejected()",(char *)param_1,0x80900e68);
+  QMetaObject::Connection::~Connection((Connection *)local_198);
+  QObject::connect(local_190,*(char **)(param_1 + 0xb0),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e98);
+  QMetaObject::Connection::~Connection((Connection *)local_190);
+  QObject::connect(local_188,*(char **)(param_1 + 200),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900eb0);
+  QMetaObject::Connection::~Connection((Connection *)local_188);
+  QObject::connect(local_180,*(char **)(param_1 + 0xd0),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ec8);
+  QMetaObject::Connection::~Connection((Connection *)local_180);
+  QObject::connect(local_178,*(char **)(param_1 + 0x120),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ee8);
+  QMetaObject::Connection::~Connection((Connection *)local_178);
+  QObject::connect(local_170,*(char **)(param_1 + 0xd8),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ef8);
+  QMetaObject::Connection::~Connection((Connection *)local_170);
+  QObject::connect(local_168,*(char **)(param_1 + 0xf8),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f10);
+  QMetaObject::Connection::~Connection((Connection *)local_168);
+  QObject::connect(local_160,*(char **)(param_1 + 0x58),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f20);
+  QMetaObject::Connection::~Connection((Connection *)local_160);
+  QObject::connect(local_158,*(char **)(param_1 + 0x60),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f38);
+  QMetaObject::Connection::~Connection((Connection *)local_158);
+  QObject::connect(local_150,*(char **)(param_1 + 0x68),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f58);
+  QMetaObject::Connection::~Connection((Connection *)local_150);
+  QObject::connect(local_148,*(char **)(param_1 + 0x80),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f78);
+  QMetaObject::Connection::~Connection((Connection *)local_148);
+  QObject::connect(local_140,*(char **)(param_1 + 0x78),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f88);
+  QMetaObject::Connection::~Connection((Connection *)local_140);
+  QObject::connect(local_138,*(char **)(param_1 + 0x88),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f98);
+  QMetaObject::Connection::~Connection((Connection *)local_138);
+  QObject::connect(local_130,*(char **)(param_1 + 0x110),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900fb0);
+  QMetaObject::Connection::~Connection((Connection *)local_130);
+  QObject::connect(local_128,*(char **)(param_1 + 0x118),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900fc0);
+  QMetaObject::Connection::~Connection((Connection *)local_128);
+  if (param_6 != (char *)0x0) {
+    lVar4 = -1;
+    do {
+      lVar4 = lVar4 + 1;
+    } while (param_6[lVar4] != '\0');
+    local_208 = QString::fromAscii_helper(param_6,(int)lVar4);
+    if (0 < *(int *)(local_208 + 4)) {
+      pQVar7 = (QString *)QString::QString(local_218,(QString *)&local_208);
+      pQVar8 = (QString *)QString::fromUtf8((char *)local_120,-0x7f6ff028);
+      QString::append(local_218,pQVar8);
+      QString::~QString(local_120);
+      QFile::QFile(local_e8,pQVar7);
+      QString::~QString(local_218);
+      bVar2 = QFile::open(local_e8,1);
+      if (bVar2) {
+        pQVar9 = (QByteArray *)QIODevice::readAll((QIODevice *)local_e8);
+        QString::QString(local_210,pQVar9);
+        QByteArray::~QByteArray(local_118);
+        pQVar7 = (QString *)QString::QString(local_110);
+        QWidget::setStyleSheet(param_1,pQVar7);
+        QString::~QString(local_110);
+        QWidget::setStyleSheet(param_1,local_210);
+        QString::~QString(local_210);
+      }
+      QFile::~QFile(local_e8);
+    }
+    QString::~QString((QString *)&local_208);
+  }
+  FUN_1800b2260(param_1);
+  local_200 = QString::fromAscii_helper("MainWnd",7);
+  this = (QSettings *)FUN_1800ba1e0(*(undefined8 *)(param_1 + 0x140),&local_200);
+  local_1f8 = QString::fromAscii_helper("pos",3);
+  pQVar10 = (QPoint *)QWidget::pos(param_1);
+  QVariant::QVariant(local_a8,pQVar10);
+  pQVar11 = (QVariant *)QSettings::value(this,local_b8,(QVariant *)&local_1f8);
+  QVariant::toPoint(pQVar11);
+  QVariant::~QVariant((QVariant *)local_b8);
+  QVariant::~QVariant(local_a8);
+  QString::~QString((QString *)&local_1f8);
+  local_1f0 = QString::fromAscii_helper("size",4);
+  pQVar12 = (QSize *)QWidget::size(param_1);
+  QVariant::QVariant(local_88,pQVar12);
+  pQVar11 = (QVariant *)QSettings::value(this,local_98,(QVariant *)&local_1f0);
+  QVariant::toSize(pQVar11);
+  QVariant::~QVariant((QVariant *)local_98);
+  QVariant::~QVariant(local_88);
+  QString::~QString((QString *)&local_1f0);
+  local_1e8 = QString::fromAscii_helper("basePath",8);
+  QVariant::QVariant(local_68);
+  pQVar11 = (QVariant *)QSettings::value(this,local_78,(QVariant *)&local_1e8);
+  QVariant::toString(pQVar11);
+  QVariant::~QVariant((QVariant *)local_78);
+  QVariant::~QVariant(local_68);
+  QString::~QString((QString *)&local_1e8);
+  local_1e0 = QString::fromAscii_helper("profilesPath",0xc);
+  QVariant::QVariant(local_48);
+  pQVar11 = (QVariant *)QSettings::value(this,local_58,(QVariant *)&local_1e0);
+  QVariant::toString(pQVar11);
+  QVariant::~QVariant((QVariant *)local_58);
+  QVariant::~QVariant(local_48);
+  QString::~QString((QString *)&local_1e0);
+  FUN_1800ba2a0(*(undefined8 *)(param_1 + 0x140));
+  QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x18),local_1b8);
+  QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),local_1c0);
+  QWidget::move(param_1,local_108);
+  QWidget::resize(param_1,local_100);
+  if (*(int *)(*(longlong *)(*(longlong *)(param_1 + 0x170) + 0x18) + 4) < 1) {
+    local_1d8 = QString::fromAscii_helper("Select Base Path for export",0x1b);
+    QFileDialog::getExistingDirectory
+              (local_res18,param_1,&local_1d8,*(longlong *)(param_1 + 0x170) + 0x18,1);
+    QString::~QString((QString *)&local_1d8);
+    if (*(int *)(local_res18[0] + 4) != 0) {
+      QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x18),(QString *)local_res18);
+      QLineEdit::setText(*(QLineEdit **)(param_1 + 0xa8),(QString *)local_res18);
+    }
+    if (*(int *)(*(longlong *)(*(longlong *)(param_1 + 0x170) + 0x20) + 4) < 1) {
+      pQVar7 = (QString *)QString::QString(local_1d0,(QString *)local_res18);
+      pQVar8 = (QString *)QString::fromUtf8((char *)local_f8,-0x7f6fefd8);
+      QString::append(local_1d0,pQVar8);
+      QString::~QString(local_f8);
+      QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),pQVar7);
+      QString::~QString(local_1d0);
+      QLineEdit::setText(*(QLineEdit **)(param_1 + 0xc0),
+                         (QString *)(*(longlong *)(param_1 + 0x170) + 0x20));
+    }
+    QString::~QString((QString *)local_res18);
+  }
+  else {
+    QLineEdit::setText(*(QLineEdit **)(param_1 + 0xa8),
+                       (QString *)(*(longlong *)(param_1 + 0x170) + 0x18));
+  }
+  lVar4 = *(longlong *)(param_1 + 0x170);
+  if (*(int *)(*(longlong *)(lVar4 + 0x20) + 4) < 1) {
+    pQVar7 = (QString *)QString::QString(local_1c8,(QString *)(lVar4 + 0x18));
+    pQVar8 = (QString *)QString::fromUtf8((char *)local_f0,-0x7f6fefd8);
+    QString::append(local_1c8,pQVar8);
+    QString::~QString(local_f0);
+    QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),pQVar7);
+    QString::~QString(local_1c8);
+    lVar4 = *(longlong *)(param_1 + 0x170);
+  }
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0xc0),(QString *)(lVar4 + 0x20));
+  FUN_1800afd70(*(undefined8 *)(param_1 + 0x170),*(undefined8 *)(param_1 + 0x150),param_1);
+  QString::~QString(local_1c0);
+  QString::~QString(local_1b8);
+  return param_1;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800abcb0 1800abcb0
+  REF_COUNT 1 for=180900fd8
+DEFINED_STRING_HIT needle=ShowExportDialogThread address=1809019b8 text=ShowExportDialogThreadRT Started \n
+  REF from=1800baa24 type=DATA function=FUN_1800baa20 entry=1800baa20
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800baa20 1800baa20
+
+undefined8 FUN_1800baa20(void)
+
+{
+  OutputDebugStringA("ShowExportDialogThreadRT Started \n");
+  ShowExportDialog((HWND__ *)0x0);
+  OutputDebugStringA("ShowExportDialogThreadRT Ended \n");
+  return 0;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800baa20 1800baa20
+  REF_COUNT 1 for=1809019b8
+DEFINED_STRING_HIT needle=ShowExportDialog address=1809019b8 text=ShowExportDialogThreadRT Started \n
+  REF from=1800baa24 type=DATA function=FUN_1800baa20 entry=1800baa20
+  REF_COUNT 1 for=1809019b8
+DEFINED_STRING_HIT needle=ShowExportDialogThread address=1809019e0 text=ShowExportDialogThreadRT Ended \n
+  REF from=1800baa38 type=DATA function=FUN_1800baa20 entry=1800baa20
+  REF_COUNT 1 for=1809019e0
+DEFINED_STRING_HIT needle=ShowExportDialog address=1809019e0 text=ShowExportDialogThreadRT Ended \n
+  REF from=1800baa38 type=DATA function=FUN_1800baa20 entry=1800baa20
+  REF_COUNT 1 for=1809019e0
+DEFINED_STRING_HIT needle=dataExporter_v141_x64_RetailDX11.dll address=180b49064 text=dataExporter_v141_x64_RetailDX11.dll
+  REF from=180b4900c type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b49064
+DEFINED_STRING_HIT needle=dataExporter address=180b49064 text=dataExporter_v141_x64_RetailDX11.dll
+  REF from=180b4900c type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b49064
+DEFINED_STRING_HIT needle=ShowExportDialog address=180b4911f text=?ShowExportDialog@@YAHPEAUHWND__@@@Z
+  REF from=180b4904c type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b4911f
+DEFINED_STRING_HIT needle=ShowExportDialogThread address=180b49144 text=?ShowExportDialogThread@@YAHPEAUHWND__@@@Z
+  REF from=180b49050 type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b49144
+DEFINED_STRING_HIT needle=ShowExportDialog address=180b49144 text=?ShowExportDialogThread@@YAHPEAUHWND__@@@Z
+  REF from=180b49050 type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b49144
+DEFINED_STRING_HIT needle=ShowAnimExportDialogThread2 address=180b4916f text=ShowAnimExportDialogThread2
+  REF from=180b49054 type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b4916f
+DEFINED_STRING_HIT needle=AnimExportDialog address=180b4916f text=ShowAnimExportDialogThread2
+  REF from=180b49054 type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b4916f
+DEFINED_STRING_HIT needle=IAnimExporterAcc address=180ba5798 text=.?AUS_TransformModifier@IAnimExporterAcc@@
+  REF_COUNT 0 for=180ba5798
+DEFINED_STRING_HIT needle=AnimExporter address=180ba5798 text=.?AUS_TransformModifier@IAnimExporterAcc@@
+  REF_COUNT 0 for=180ba5798
+DEFINED_STRING_HIT needle=IAnimExporterAcc address=180ba57d8 text=.?AUS_TransformGenerator@IAnimExporterAcc@@
+  REF_COUNT 0 for=180ba57d8
+DEFINED_STRING_HIT needle=AnimExporter address=180ba57d8 text=.?AUS_TransformGenerator@IAnimExporterAcc@@
+  REF_COUNT 0 for=180ba57d8
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5818 text=.?AVAnimExportDialogProfileCBD@@
+  REF_COUNT 0 for=180ba5818
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba58b0 text=.?AVAnimExportDialogProfileFBD@@
+  REF_COUNT 0 for=180ba58b0
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba58e8 text=.?AVAnimExportDialogProfileChBD@@
+  REF_COUNT 0 for=180ba58e8
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5920 text=.?AVAnimExportDialogProfileDiffTgD@@
+  REF_COUNT 0 for=180ba5920
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba59d8 text=.?AVAnimExportDialog@@
+  REF_COUNT 0 for=180ba59d8
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5a40 text=.?AVUserData@AnimExportDialogProfileFBD@@
+  REF_COUNT 0 for=180ba5a40
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5aa8 text=.?AVUserData@AnimExportDialogProfileDiffTgD@@
+  REF_COUNT 0 for=180ba5aa8
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5b48 text=.?AUAnimExportDialogCtxTransMod@@
+  REF_COUNT 0 for=180ba5b48
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5b80 text=.?AUAnimExportDialogCtxTransGen@@
+  REF_COUNT 0 for=180ba5b80
+DEFINED_STRING_HIT needle=IAnimExporterAcc address=180ba5bc0 text=.?AVAnimErrorReporter@?6??SaveAnimation@AnimExportDialogCtx@@IEBA_NPEAVIAnimExporterAcc@@IPEAVAnimation@TXA@@AEAVQString@@@Z@
+  REF_COUNT 0 for=180ba5bc0
+DEFINED_STRING_HIT needle=AnimExporter address=180ba5bc0 text=.?AVAnimErrorReporter@?6??SaveAnimation@AnimExportDialogCtx@@IEBA_NPEAVIAnimExporterAcc@@IPEAVAnimation@TXA@@AEAVQString@@@Z@
+  REF_COUNT 0 for=180ba5bc0
+DEFINED_STRING_HIT needle=AnimExportDialog address=180ba5bc0 text=.?AVAnimErrorReporter@?6??SaveAnimation@AnimExportDialogCtx@@IEBA_NPEAVIAnimExporterAcc@@IPEAVAnimation@TXA@@AEAVQString@@@Z@
+  REF_COUNT 0 for=180ba5bc0
+DEFINED_STRING_TOTAL_HITS 34
+RAW_STRING_HIT needle=ShowAnimExportDialogThread2 address=180b4916f
+  REF from=180b49054 type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b4916f
+RAW_STRING_HIT needle=ShowExportDialogThread address=1809019b8
+  REF from=1800baa24 type=DATA function=FUN_1800baa20 entry=1800baa20
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800baa20 1800baa20
+
+undefined8 FUN_1800baa20(void)
+
+{
+  OutputDebugStringA("ShowExportDialogThreadRT Started \n");
+  ShowExportDialog((HWND__ *)0x0);
+  OutputDebugStringA("ShowExportDialogThreadRT Ended \n");
+  return 0;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800baa20 1800baa20
+  REF_COUNT 1 for=1809019b8
+RAW_STRING_HIT needle=ShowExportDialogThread address=1809019e0
+  REF from=1800baa38 type=DATA function=FUN_1800baa20 entry=1800baa20
+  REF_COUNT 1 for=1809019e0
+RAW_STRING_HIT needle=ShowExportDialogThread address=180b49145
+  REF_COUNT 0 for=180b49145
+RAW_STRING_HIT needle=ShowExportDialog address=1809019b8
+  REF from=1800baa24 type=DATA function=FUN_1800baa20 entry=1800baa20
+  REF_COUNT 1 for=1809019b8
+RAW_STRING_HIT needle=ShowExportDialog address=1809019e0
+  REF from=1800baa38 type=DATA function=FUN_1800baa20 entry=1800baa20
+  REF_COUNT 1 for=1809019e0
+RAW_STRING_HIT needle=ShowExportDialog address=180b49120
+  REF_COUNT 0 for=180b49120
+RAW_STRING_HIT needle=ShowExportDialog address=180b49145
+  REF_COUNT 0 for=180b49145
+RAW_STRING_HIT needle=dataExporter_v141_x64_RetailDX11.dll address=180b49064
+  REF from=180b4900c type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b49064
+RAW_STRING_HIT needle=dataExporter address=180b49064
+  REF from=180b4900c type=DATA function=<none> entry=<none>
+  REF_COUNT 1 for=180b49064
+RAW_STRING_HIT needle=IAnimExporterAcc address=180ba57b0
+  REF_COUNT 0 for=180ba57b0
+RAW_STRING_HIT needle=IAnimExporterAcc address=180ba57f1
+  REF_COUNT 0 for=180ba57f1
+RAW_STRING_HIT needle=IAnimExporterAcc address=180ba5c07
+  REF_COUNT 0 for=180ba5c07
+RAW_STRING_HIT needle=AnimExporter address=180ba57b1
+  REF_COUNT 0 for=180ba57b1
+RAW_STRING_HIT needle=AnimExporter address=180ba57f2
+  REF_COUNT 0 for=180ba57f2
+RAW_STRING_HIT needle=AnimExporter address=180ba5c08
+  REF_COUNT 0 for=180ba5c08
+RAW_STRING_HIT needle=AnimExportDialog address=1808f98a0
+  REF from=1800ab3fe type=DATA function=FUN_1800ab3f0 entry=1800ab3f0
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab3f0 1800ab3f0
+
+QDialog * FUN_1800ab3f0(QDialog *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QDialog *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QDialog *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialog" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab431. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QDialog::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab3f0 1800ab3f0
+  REF_COUNT 1 for=1808f98a0
+RAW_STRING_HIT needle=AnimExportDialog address=1808f9bd8
+  REF from=1800ab5be type=DATA function=FUN_1800ab5b0 entry=1800ab5b0
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab5b0 1800ab5b0
+
+QStyledItemDelegate * FUN_1800ab5b0(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileCBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab5f1. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab5b0 1800ab5b0
+  REF_COUNT 1 for=1808f9bd8
+RAW_STRING_HIT needle=AnimExportDialog address=1808f9c50
+  REF from=1800ab62e type=DATA function=FUN_1800ab620 entry=1800ab620
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab620 1800ab620
+
+QStyledItemDelegate * FUN_1800ab620(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileChBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab661. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab620 1800ab620
+  REF_COUNT 1 for=1808f9c50
+RAW_STRING_HIT needle=AnimExportDialog address=1808f9d10
+  REF from=1800ab71e type=DATA function=FUN_1800ab710 entry=1800ab710
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800ab710 1800ab710
+
+QStyledItemDelegate * FUN_1800ab710(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileDiffTgD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800ab751. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800ab710 1800ab710
+  REF_COUNT 1 for=1808f9d10
+RAW_STRING_HIT needle=AnimExportDialog address=1808f9df8
+  REF from=1800abb4e type=DATA function=FUN_1800abb40 entry=1800abb40
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800abb40 1800abb40
+
+QStyledItemDelegate * FUN_1800abb40(QStyledItemDelegate *param_1,char *param_2)
+
+{
+  char cVar1;
+  char cVar2;
+  char *pcVar3;
+  QStyledItemDelegate *pQVar4;
+  
+  if (param_2 == (char *)0x0) {
+    return (QStyledItemDelegate *)0x0;
+  }
+  pcVar3 = param_2;
+  do {
+    cVar1 = *pcVar3;
+    cVar2 = pcVar3[(longlong)"AnimExportDialogProfileFBD" - (longlong)param_2];
+    if (cVar1 != cVar2) break;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar2 != '\0');
+  if (cVar1 == cVar2) {
+    return param_1;
+  }
+                    /* WARNING: Could not recover jumptable at 0x0001800abb81. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pQVar4 = QStyledItemDelegate::qt_metacast(param_1,param_2);
+  return pQVar4;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800abb40 1800abb40
+  REF_COUNT 1 for=1808f9df8
+RAW_STRING_HIT needle=AnimExportDialog address=180b49173
+  REF_COUNT 0 for=180b49173
+RAW_STRING_HIT needle=AnimExportDialog address=180ba581c
+  REF_COUNT 0 for=180ba581c
+RAW_STRING_HIT needle=AnimExportDialog address=180ba58b4
+  REF_COUNT 0 for=180ba58b4
+RAW_STRING_HIT needle=AnimExportDialog address=180ba58ec
+  REF_COUNT 0 for=180ba58ec
+RAW_STRING_HIT needle=AnimExportDialog address=180ba5924
+  REF_COUNT 0 for=180ba5924
+RAW_STRING_HIT needle=AnimExportDialog address=180ba59dc
+  REF_COUNT 0 for=180ba59dc
+RAW_STRING_HIT needle=AnimExportDialog address=180ba5a4d
+  REF_COUNT 0 for=180ba5a4d
+RAW_STRING_HIT needle=AnimExportDialog address=180ba5ab5
+  REF_COUNT 0 for=180ba5ab5
+RAW_STRING_HIT needle=AnimExportDialog address=180ba5b4c
+  REF_COUNT 0 for=180ba5b4c
+RAW_STRING_HIT needle=AnimExportDialog address=180ba5b84
+  REF_COUNT 0 for=180ba5b84
+RAW_STRING_HIT needle=AnimExportDialog address=180ba5be8
+  REF_COUNT 0 for=180ba5be8
+RAW_STRING_HIT needle=TXA Export Dialog address=1808fff00
+  REF from=1800b3d4c type=DATA function=FUN_1800b3d20 entry=1800b3d20
+DECOMPILE_BEGIN dataExporter_v141_x64_RetailDX11.dll FUN_1800b3d20 1800b3d20
+
+void FUN_1800b3d20(longlong param_1,QWidget *param_2)
+
+{
+  QString *pQVar1;
+  QString local_res8 [8];
+  
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","TXA Export Dialog",0);
+  QWidget::setWindowTitle(param_2,pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export Select:",0);
+  QLabel::setText(*(QLabel **)(param_1 + 0x20),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","All Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x28),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","None",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x30),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Current",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x38),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x48),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show All",0)
+  ;
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x50),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Validate All",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x58),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","ssssssssssssss",0);
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0x78),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Selects base path for all exports / profiles",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x98),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Creates export profile based on selection (pelvis + EntityPos)",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Create Profile",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Reloads all profiles and scripts ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Reload Profiles",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plot takes when exporting ?",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot Takes",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plots all takes for export",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Copies values from current line (bold number) ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Copy Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Pastes path and profile settings to current(bold) line",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Paste Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Saves edited properties in source file "
+                      ,0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Save Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Export all valid and selected takes",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Cancel",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x108),pQVar1);
+  QString::~QString(local_res8);
+  return;
+}
+
+
+DECOMPILE_END dataExporter_v141_x64_RetailDX11.dll FUN_1800b3d20 1800b3d20
+  REF_COUNT 1 for=1808fff00
+RAW_STRING_TOTAL_HITS 33
+============================================================
+PROGRAM workbenchApp.exe path=/workbenchApp.exe imageBase=140000000 lang=x86:LE:64:default
+SYMBOL_TOTAL_HITS 0
+DEFINED_STRING_HIT needle=dataExporter address=141c09433 text=DataExporterTest
+  REF_COUNT 0 for=141c09433
+DEFINED_STRING_TOTAL_HITS 1
+RAW_STRING_TOTAL_HITS 0
+============================================================
+PROGRAM P3Debinarizer_newone.exe path=/P3Debinarizer_newone.exe imageBase=00400000 lang=x86:LE:32:default
+SYMBOL_TOTAL_HITS 0
+DEFINED_STRING_TOTAL_HITS 0
+RAW_STRING_TOTAL_HITS 0
+SCRIPT COMPLETED DataExporterCallerSearch
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

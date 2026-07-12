@@ -1,0 +1,227 @@
+{
+  "source_file": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v14_roll_locks.blend",
+  "save_as": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v15_green_mirrored.blend",
+  "shape_updates": [
+    "WGT_DAT_FK_Joint_Ring",
+    "WGT_DAT_FK_Roll_Ring",
+    "WGT_DAT_FK_Hand_Ring"
+  ],
+  "pair_updates": [
+    {
+      "left": "FK_LeftArm.L",
+      "right": "FK_RightArm.R",
+      "before": {
+        "right_shape": "WGT_DAT_FK_Joint_Ring",
+        "right_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "right_translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_color": "DEFAULT"
+      },
+      "after": {
+        "right_shape": "WGT_DAT_FK_Joint_Ring",
+        "right_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "right_translation": [
+          0.0,
+          0.05000000074505806,
+          -0.019999999552965164
+        ],
+        "right_rotation": [
+          1.5707963705062866,
+          0.0,
+          0.0
+        ],
+        "left_color": "THEME04",
+        "right_color": "THEME04"
+      }
+    },
+    {
+      "left": "FK_LeftArmRoll.L",
+      "right": "FK_RightArmRoll.R",
+      "before": {
+        "right_shape": "WGT_DAT_FK_Roll_Ring",
+        "right_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "right_translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_color": "DEFAULT"
+      },
+      "after": {
+        "right_shape": "WGT_DAT_FK_Roll_Ring",
+        "right_scale": [
+          1.100000023841858,
+          1.100000023841858,
+          1.100000023841858
+        ],
+        "right_translation": [
+          0.009999999776482582,
+          0.0,
+          -0.009999999776482582
+        ],
+        "right_rotation": [
+          1.5707963705062866,
+          0.0,
+          0.0
+        ],
+        "left_color": "THEME04",
+        "right_color": "THEME04"
+      }
+    },
+    {
+      "left": "FK_LeftForeArm.L",
+      "right": "FK_RightForeArm.R",
+      "before": {
+        "right_shape": "WGT_DAT_FK_Joint_Ring",
+        "right_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "right_translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_color": "DEFAULT"
+      },
+      "after": {
+        "right_shape": "WGT_DAT_FK_Joint_Ring",
+        "right_scale": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "right_translation": [
+          0.0,
+          0.05000000074505806,
+          0.0
+        ],
+        "right_rotation": [
+          1.5707963705062866,
+          0.0,
+          0.0
+        ],
+        "left_color": "THEME04",
+        "right_color": "THEME04"
+      }
+    },
+    {
+      "left": "FK_LeftForeArmRoll.L",
+      "right": "FK_RightForeArmRoll.R",
+      "before": {
+        "right_shape": "WGT_DAT_FK_Roll_Ring",
+        "right_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "right_translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_color": "DEFAULT"
+      },
+      "after": {
+        "right_shape": "WGT_DAT_FK_Roll_Ring",
+        "right_scale": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.6000000238418579
+        ],
+        "right_translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_rotation": [
+          1.5707963705062866,
+          0.0,
+          0.0
+        ],
+        "left_color": "THEME04",
+        "right_color": "THEME04"
+      }
+    },
+    {
+      "left": "FK_LeftHand.L",
+      "right": "FK_RightHand.R",
+      "before": {
+        "right_shape": "WGT_DAT_FK_Hand_Ring",
+        "right_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "right_translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_color": "DEFAULT"
+      },
+      "after": {
+        "right_shape": "WGT_DAT_FK_Hand_Ring",
+        "right_scale": [
+          1.0,
+          0.800000011920929,
+          1.0
+        ],
+        "right_translation": [
+          0.009999999776482582,
+          0.05999999865889549,
+          0.0
+        ],
+        "right_rotation": [
+          1.5707963705062866,
+          0.0,
+          1.5707963705062866
+        ],
+        "left_color": "THEME04",
+        "right_color": "THEME04"
+      }
+    }
+  ],
+  "note": "Copied left FK custom-shape display settings to right FK controls and colored FK controls green."
+}

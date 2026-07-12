@@ -1,0 +1,34 @@
+
+/* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */
+
+void FUN_1404eb350(undefined8 param_1)
+
+{
+  int iVar1;
+  uint uVar2;
+  int local_res20 [2];
+  uint auStack_100a8 [28];
+  undefined1 auStack_10038 [65528];
+  undefined8 uStack_40;
+  
+  uStack_40 = 0x1404eb36d;
+  while (iVar1 = FUN_1404ebc20(param_1,auStack_100a8,4), iVar1 == 4) {
+    iVar1 = FUN_1404ebc20(param_1,local_res20,4);
+    uVar2 = 0;
+    if ((iVar1 != 4) || (uVar2 = auStack_100a8[0], auStack_100a8[0] < 0x16)) goto LAB_1404eb415;
+    if (-1 < local_res20[0]) {
+      FUN_1404ebc20(param_1,auStack_10038,local_res20[0]);
+    }
+  }
+  uVar2 = 0;
+LAB_1404eb415:
+                    /* WARNING: Could not recover jumptable at 0x0001404eb421. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)(IMAGE_DOS_HEADER_140000000.e_magic +
+            *(uint *)(&DAT_1404ebbc0 + (longlong)(int)uVar2 * 4)))
+            (IMAGE_DOS_HEADER_140000000.e_magic +
+             *(uint *)(&DAT_1404ebbc0 + (longlong)(int)uVar2 * 4));
+  return;
+}
+
+

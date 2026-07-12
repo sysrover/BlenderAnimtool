@@ -1,0 +1,12 @@
+===== 0x140decdf4 =====
+{"address":"0x140decdf4","bytes_read":16,"hex_dump":"2B 78 00 00 2B 79 00 00 2B 7A 00 00 2D 78 00 00","ascii_repr":"+x\\0\\0+y\\0\\0+z\\0\\0-x\\0\\0","printable_count":8,"printable_ratio":0.5,"null_terminator_at":2,"max_consecutive_printable":2,"is_likely_string":false,"string_length":0}
+===== 0x140decdf8 =====
+{"address":"0x140decdf8","bytes_read":16,"hex_dump":"2B 79 00 00 2B 7A 00 00 2D 78 00 00 2D 79 00 00","ascii_repr":"+y\\0\\0+z\\0\\0-x\\0\\0-y\\0\\0","printable_count":8,"printable_ratio":0.5,"null_terminator_at":2,"max_consecutive_printable":2,"is_likely_string":false,"string_length":0}
+===== 0x140decdfc =====
+{"address":"0x140decdfc","bytes_read":16,"hex_dump":"2B 7A 00 00 2D 78 00 00 2D 79 00 00 2D 7A 00 00","ascii_repr":"+z\\0\\0-x\\0\\0-y\\0\\0-z\\0\\0","printable_count":8,"printable_ratio":0.5,"null_terminator_at":2,"max_consecutive_printable":2,"is_likely_string":false,"string_length":0}
+===== 0x140dece00 =====
+{"address":"0x140dece00","bytes_read":16,"hex_dump":"2D 78 00 00 2D 79 00 00 2D 7A 00 00 00 00 00 00","ascii_repr":"-x\\0\\0-y\\0\\0-z\\0\\0\\0\\0\\0\\0","printable_count":6,"printable_ratio":0.38,"null_terminator_at":2,"max_consecutive_printable":2,"is_likely_string":false,"string_length":0}
+===== 0x140dece04 =====
+{"address":"0x140dece04","bytes_read":16,"hex_dump":"2D 79 00 00 2D 7A 00 00 00 00 00 00 63 6F 6E 66","ascii_repr":"-y\\0\\0-z\\0\\0\\0\\0\\0\\0conf","printable_count":8,"printable_ratio":0.5,"null_terminator_at":2,"max_consecutive_printable":4,"is_likely_string":true,"detected_string":"-y","suggested_type":"char[3]","string_length":3}
+===== 0x140dece08 =====
+{"address":"0x140dece08","bytes_read":16,"hex_dump":"2D 7A 00 00 00 00 00 00 63 6F 6E 66 69 67 3A 3A","ascii_repr":"-z\\0\\0\\0\\0\\0\\0config::","printable_count":10,"printable_ratio":0.63,"null_terminator_at":2,"max_consecutive_printable":8,"is_likely_string":true,"detected_string":"-z","suggested_type":"char[3]","string_length":3}

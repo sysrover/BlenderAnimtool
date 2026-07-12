@@ -1,0 +1,1786 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DataExporterUsageResearch.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:18:14 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DataExporterUsageResearch.java
+Size: 6546 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+DLL_PROGRAM dataExporter_v141_x64_RetailDX11.dll
+DLL_PATH /dataExporter_v141_x64_RetailDX11.dll
+DLL_IMAGE_BASE 180000000
+WORKBENCH_PROGRAM workbenchApp.exe
+WORKBENCH_PATH /workbenchApp.exe
+============================================================
+DLL_EXPORTS
+EXPORT name=CDPCreateClient,Ordinal_1,?CDPCreateClient@@YAXV?$RStringCT@D@@H00@Z address=1805e76e0 function=CDPCreateClient entry=1805e76e0
+DECOMPILE_BEGIN CDPCreateClient 1805e76e0
+
+/* void __cdecl CDPCreateClient(class RStringCT<char>,int,class RStringCT<char>,class
+   RStringCT<char>) */
+
+void __cdecl
+CDPCreateClient(undefined8 *param_1,undefined4 param_2,longlong *param_3,undefined8 *param_4)
+
+{
+  int iVar1;
+  int *piVar2;
+  undefined8 uVar3;
+  int *local_188;
+  int *local_180;
+  int *local_178 [2];
+  int *local_168 [12];
+  char local_104;
+  
+                    /* 0x5e76e0  1  ?CDPCreateClient@@YAXV?$RStringCT@D@@H00@Z */
+  local_188 = (int *)*param_1;
+  if (local_188 != (int *)0x0) {
+    LOCK();
+    *local_188 = *local_188 + 1;
+    UNLOCK();
+  }
+  uVar3 = FUN_180515220();
+  FUN_180515780(uVar3,&local_188,param_2,1);
+  uVar3 = FUN_180515220();
+  FUN_180527f10(uVar3,local_168,0xffffffff);
+  if (local_168[0] == (int *)0x0) {
+LAB_1805e780d:
+    uVar3 = FUN_180515220();
+    FUN_180514730(uVar3);
+    if (local_168[0] == (int *)0x0) goto LAB_1805e7846;
+  }
+  else {
+    LOCK();
+    *local_168[0] = *local_168[0] + 1;
+    UNLOCK();
+    if ((char)local_168[0][4] == '\0') goto LAB_1805e780d;
+    if ((local_104 != '\0') && ((*param_3 == 0 || (*(char *)(*param_3 + 0x10) == '\0')))) {
+      if (*local_168[0] < 1) {
+        FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_168[0]);
+      }
+      LOCK();
+      iVar1 = *local_168[0];
+      *local_168[0] = *local_168[0] + -1;
+      UNLOCK();
+      if (iVar1 == 1) {
+        FUN_1802242d0(local_168[0]);
+      }
+      FUN_1803e7cb0(local_168);
+      FUN_1800df720(param_1);
+      FUN_1800df720(param_3);
+      FUN_1800df720(param_4);
+      return;
+    }
+    local_180 = (int *)*param_3;
+    if (local_180 != (int *)0x0) {
+      LOCK();
+      *local_180 = *local_180 + 1;
+      UNLOCK();
+    }
+    LOCK();
+    *local_168[0] = *local_168[0] + 1;
+    UNLOCK();
+    local_178[0] = local_168[0];
+    uVar3 = FUN_180515220();
+    FUN_180515f50(uVar3,2,local_178,&local_180);
+    uVar3 = FUN_180515220();
+    FUN_180514100(uVar3);
+  }
+  if (*local_168[0] < 1) {
+    FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_168[0]);
+  }
+  LOCK();
+  iVar1 = *local_168[0];
+  *local_168[0] = *local_168[0] + -1;
+  UNLOCK();
+  if (iVar1 == 1) {
+    FUN_1802242d0(local_168[0]);
+  }
+LAB_1805e7846:
+  FUN_1803e7cb0(local_168);
+  piVar2 = (int *)*param_1;
+  if (piVar2 != (int *)0x0) {
+    if (*piVar2 < 1) {
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar2);
+    }
+    LOCK();
+    iVar1 = *piVar2;
+    *piVar2 = *piVar2 + -1;
+    UNLOCK();
+    if (iVar1 == 1) {
+      FUN_1802242d0(piVar2);
+    }
+    *param_1 = 0;
+  }
+  piVar2 = (int *)*param_3;
+  if (piVar2 != (int *)0x0) {
+    if (*piVar2 < 1) {
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar2);
+    }
+    LOCK();
+    iVar1 = *piVar2;
+    *piVar2 = *piVar2 + -1;
+    UNLOCK();
+    if (iVar1 == 1) {
+      FUN_1802242d0(piVar2);
+    }
+    *param_3 = 0;
+  }
+  piVar2 = (int *)*param_4;
+  if (piVar2 != (int *)0x0) {
+    if (*piVar2 < 1) {
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar2);
+    }
+    LOCK();
+    iVar1 = *piVar2;
+    *piVar2 = *piVar2 + -1;
+    UNLOCK();
+    if (iVar1 == 1) {
+      FUN_1802242d0(piVar2);
+    }
+    *param_4 = 0;
+  }
+  return;
+}
+
+
+DECOMPILE_END CDPCreateClient 1805e76e0
+EXPORT name=CDPCreateServer,Ordinal_2,?CDPCreateServer@@YAXXZ address=1805e7910 function=CDPCreateServer entry=1805e7910
+DECOMPILE_BEGIN CDPCreateServer 1805e7910
+
+/* void __cdecl CDPCreateServer(void) */
+
+void __cdecl CDPCreateServer(void)
+
+{
+  int iVar1;
+  int *piVar2;
+  undefined4 uVar3;
+  int *piVar4;
+  undefined8 uVar5;
+  undefined8 local_res8;
+  int *local_res10;
+  int *local_res18;
+  int *local_res20;
+  undefined8 local_38 [3];
+  
+                    /* 0x5e7910  2  ?CDPCreateServer@@YAXXZ */
+  uVar3 = FUN_1807e1f50();
+  FUN_1807e1f00(&local_res18);
+  local_res10 = (int *)0x0;
+  piVar4 = (int *)FUN_1800bf630(&DAT_1808fa107);
+  piVar2 = local_res10;
+  if (piVar4 != (int *)0x0) {
+    LOCK();
+    *piVar4 = *piVar4 + 1;
+    UNLOCK();
+  }
+  if (local_res10 != (int *)0x0) {
+    if (*local_res10 < 1) {
+      iVar1 = *local_res10;
+      local_res10 = piVar4;
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",iVar1);
+      piVar4 = local_res10;
+    }
+    local_res10 = piVar4;
+    LOCK();
+    iVar1 = *piVar2;
+    *piVar2 = *piVar2 + -1;
+    UNLOCK();
+    piVar4 = local_res10;
+    if (iVar1 == 1) {
+      FUN_1802242d0(piVar2);
+      piVar4 = local_res10;
+    }
+  }
+  local_res10 = piVar4;
+  uVar5 = FUN_180515220();
+  FUN_180515780(uVar5,&local_res10,uVar3,0);
+  local_res8 = 0;
+  if (local_res18 != (int *)0x0) {
+    LOCK();
+    *local_res18 = *local_res18 + 1;
+    UNLOCK();
+  }
+  local_res20 = local_res18;
+  local_38[0] = 0;
+  uVar5 = FUN_180515220();
+  FUN_180513610(uVar5,2,local_38,&local_res20,0x10,uVar3,0,&local_res8,0);
+  FUN_180515220();
+  if (local_res18 != (int *)0x0) {
+    if (*local_res18 < 1) {
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_res18);
+    }
+    LOCK();
+    iVar1 = *local_res18;
+    *local_res18 = *local_res18 + -1;
+    UNLOCK();
+    if (iVar1 == 1) {
+      FUN_1802242d0(local_res18);
+    }
+  }
+  return;
+}
+
+
+DECOMPILE_END CDPCreateServer 1805e7910
+EXPORT name=CDPInitServer,Ordinal_3,?CDPInitServer@@YAPEAVNetTranspServer@@V?$RStringCT@D@@0HHAEAHAEBVParamEntry@@_N@Z address=180548070 function=CDPInitServer entry=180548070
+DECOMPILE_BEGIN CDPInitServer 180548070
+
+/* WARNING: Removing unreachable block (ram,0x0001805494a4) */
+/* WARNING: Removing unreachable block (ram,0x000180549324) */
+/* WARNING: Removing unreachable block (ram,0x0001805491bb) */
+/* WARNING: Removing unreachable block (ram,0x000180549145) */
+/* WARNING: Removing unreachable block (ram,0x000180549040) */
+/* WARNING: Removing unreachable block (ram,0x000180548fab) */
+/* WARNING: Removing unreachable block (ram,0x000180548e9c) */
+/* WARNING: Removing unreachable block (ram,0x000180548c53) */
+/* WARNING: Removing unreachable block (ram,0x000180548a4b) */
+/* WARNING: Removing unreachable block (ram,0x000180548da1) */
+/* WARNING: Removing unreachable block (ram,0x000180548f67) */
+/* WARNING: Removing unreachable block (ram,0x000180548fe2) */
+/* WARNING: Removing unreachable block (ram,0x000180549116) */
+/* WARNING: Removing unreachable block (ram,0x000180549167) */
+/* WARNING: Removing unreachable block (ram,0x00018054926e) */
+/* WARNING: Removing unreachable block (ram,0x0001805493da) */
+/* WARNING: Removing unreachable block (ram,0x0001805484d7) */
+/* WARNING: Removing unreachable block (ram,0x000180549598) */
+/* class NetTranspServer * __ptr64 __cdecl CDPInitServer(class RStringCT<char>,class
+   RStringCT<char>,int,int,int & __ptr64,class ParamEntry const & __ptr64,bool) */
+
+NetTranspServer * __cdecl
+CDPInitServer(int **param_1,undefined8 *param_2,undefined4 param_3,undefined4 param_4,uint *param_5,
+             undefined8 param_6,undefined1 param_7)
+
+{
+  short *psVar1;
+  ushort uVar2;
+  ushort uVar3;
+  longlong lVar4;
+  bool bVar5;
+  char cVar6;
+  int iVar7;
+  uint uVar8;
+  uint uVar9;
+  undefined4 uVar10;
+  undefined4 uVar11;
+  NetTranspServer *pNVar12;
+  int *piVar13;
+  longlong *plVar14;
+  undefined2 *puVar15;
+  undefined8 *puVar16;
+  longlong lVar17;
+  longlong lVar18;
+  undefined8 uVar19;
+  int **ppiVar20;
+  undefined1 *puVar21;
+  char *pcVar22;
+  int *piVar23;
+  int *piVar24;
+  uint uVar25;
+  char *pcVar26;
+  undefined8 *******pppppppuVar27;
+  ulonglong uVar28;
+  uint uVar29;
+  undefined1 *puVar30;
+  ulonglong uVar31;
+  uint uVar32;
+  undefined4 uVar33;
+  undefined8 in_stack_fffffffffffffab8;
+  int *local_4f0;
+  undefined1 local_4e8;
+  char local_4e7;
+  char *local_4e0;
+  uint local_4d8;
+  int *local_4d0;
+  int *local_4c8 [2];
+  NetTranspServer *local_4b8;
+  longlong local_4b0;
+  longlong local_4a8;
+  int *local_4a0;
+  int *local_498;
+  longlong local_490;
+  int *local_488;
+  int *local_480;
+  int *local_478;
+  int *local_470;
+  int *local_468;
+  undefined8 local_460;
+  undefined1 local_458 [8];
+  int *local_450;
+  undefined1 local_448 [8];
+  int *local_440;
+  int *local_438;
+  int *local_430;
+  int *local_428;
+  longlong local_420;
+  longlong *local_418;
+  longlong local_410;
+  longlong *local_408;
+  longlong local_400;
+  longlong *local_3f8;
+  longlong local_3f0;
+  longlong *local_3e8;
+  longlong local_3e0;
+  longlong *local_3d8;
+  undefined8 ******local_3d0 [3];
+  ulonglong local_3b8;
+  longlong local_3b0 [2];
+  longlong local_3a0 [2];
+  longlong local_390 [2];
+  longlong local_380 [2];
+  longlong local_370 [2];
+  longlong local_360 [2];
+  longlong local_350 [2];
+  longlong local_340 [2];
+  longlong local_330 [2];
+  longlong local_320 [2];
+  longlong local_310 [2];
+  longlong local_300 [2];
+  longlong local_2f0 [3];
+  undefined1 local_2d8 [176];
+  undefined1 local_228 [32];
+  undefined1 local_208 [32];
+  undefined4 local_1e8;
+  undefined8 local_1e4;
+  undefined4 local_1dc;
+  undefined1 local_1d8;
+  undefined4 local_1b0;
+  char local_1ac [79];
+  undefined1 local_15d;
+  undefined4 local_15c;
+  undefined1 local_158 [280];
+  
+                    /* 0x548070  3
+                       ?CDPInitServer@@YAPEAVNetTranspServer@@V?$RStringCT@D@@0HHAEAHAEBVParamEntry@@_N@Z
+                        */
+  uVar11 = (undefined4)((ulonglong)in_stack_fffffffffffffab8 >> 0x20);
+  pNVar12 = (NetTranspServer *)FUN_1804effe0(param_6);
+  local_4b8 = pNVar12;
+  FUN_1804e8e60();
+  if (pNVar12 == (NetTranspServer *)0x0) {
+    piVar23 = *param_1;
+    if (piVar23 != (int *)0x0) {
+      if (*piVar23 < 1) {
+        FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar23);
+      }
+      LOCK();
+      iVar7 = *piVar23;
+      *piVar23 = *piVar23 + -1;
+      UNLOCK();
+      if (iVar7 == 1) {
+        FUN_1802242d0(piVar23);
+      }
+      *param_1 = (int *)0x0;
+    }
+    piVar23 = (int *)*param_2;
+    if (piVar23 != (int *)0x0) {
+      if (*piVar23 < 1) {
+        FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar23);
+      }
+      LOCK();
+      iVar7 = *piVar23;
+      *piVar23 = *piVar23 + -1;
+      UNLOCK();
+      if (iVar7 == 1) {
+        FUN_1802242d0(piVar23);
+      }
+      *param_2 = 0;
+    }
+    return (NetTranspServer *)0x0;
+  }
+  (**(code **)(*(longlong *)pNVar12 + 0xb0))(pNVar12,param_6);
+  puVar30 = &DAT_180bdb121;
+  uVar28 = 0;
+  local_1e8 = 0x80;
+  local_1e4 = 0x80;
+  local_15c = 0x276b8;
+  local_1dc = 0;
+  local_1d8 = 0;
+  local_1b0 = 1;
+  if (DAT_183ec1e08 == 0) {
+    pcVar26 = &DAT_180bdb121;
+  }
+  else {
+    pcVar26 = (char *)(DAT_183ec1e08 + 0x10);
+  }
+  strncpy(local_1ac,pcVar26,0x50);
+  local_15d = 0;
+  local_4e7 = '\x01';
+  local_4e8 = 0;
+  local_4f0 = (int *)0x0;
+  piVar13 = (int *)FUN_1800bf630("abc123");
+  piVar23 = local_4f0;
+  if (piVar13 != (int *)0x0) {
+    LOCK();
+    *piVar13 = *piVar13 + 1;
+    UNLOCK();
+  }
+  if (local_4f0 != (int *)0x0) {
+    if (*local_4f0 < 1) {
+      iVar7 = *local_4f0;
+      local_4f0 = piVar13;
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",iVar7);
+      piVar13 = local_4f0;
+    }
+    local_4f0 = piVar13;
+    LOCK();
+    iVar7 = *piVar23;
+    *piVar23 = *piVar23 + -1;
+    UNLOCK();
+    piVar13 = local_4f0;
+    if (iVar7 == 1) {
+      FUN_1802242d0(piVar23);
+      piVar13 = local_4f0;
+    }
+  }
+  local_4f0 = piVar13;
+  uVar33 = 0;
+  cVar6 = FUN_1803d84b0();
+  if (cVar6 == '\0') {
+    *param_5 = (uint)(DAT_180ba3e10 != '\0');
+    piVar23 = DAT_183ecea20;
+    if (*param_1 != (int *)0x0) {
+      piVar13 = *param_1 + 4;
+      piVar24 = piVar13;
+      do {
+        iVar7 = *piVar24;
+        piVar24 = (int *)((longlong)piVar24 + 1);
+      } while ((char)iVar7 != '\0');
+      if ((int)piVar24 - (int)piVar13 != 1) goto LAB_18054967d;
+    }
+    if (DAT_183ecea20 != (int *)0x0) {
+      LOCK();
+      *DAT_183ecea20 = *DAT_183ecea20 + 1;
+      UNLOCK();
+    }
+    local_440 = piVar23;
+    if (piVar23 != (int *)0x0) {
+      LOCK();
+      *piVar23 = *piVar23 + 1;
+      UNLOCK();
+    }
+    local_450 = piVar23;
+    ppiVar20 = (int **)FUN_18054e460(local_448,&local_450);
+    if (param_1 != ppiVar20) {
+      if (*param_1 != (int *)0x0) {
+        FUN_1802a8980();
+      }
+      *param_1 = *ppiVar20;
+      *ppiVar20 = (int *)0x0;
+    }
+    FUN_1800df720(local_448);
+    FUN_1800df720(&local_440);
+    goto LAB_18054967d;
+  }
+  plVar14 = (longlong *)FUN_1807e1f30(&local_488);
+  if ((*plVar14 == 0) || (*(char *)(*plVar14 + 0x10) == '\0')) {
+    bVar5 = true;
+  }
+  else {
+    bVar5 = false;
+  }
+  if (local_488 != (int *)0x0) {
+    if (*local_488 < 1) {
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_488);
+    }
+    LOCK();
+    iVar7 = *local_488;
+    *local_488 = *local_488 + -1;
+    UNLOCK();
+    if (iVar7 == 1) {
+      FUN_1802242d0(local_488);
+    }
+  }
+  if (bVar5) {
+    FUN_1805e8f30(1,
+                  "[ERROR][Server config] :: Server config not found! Make sure you launch server with \"-config=\" parameter."
+                 );
+LAB_18054835c:
+    FUN_1805e8fd0(10);
+    (*(code *)**(undefined8 **)pNVar12)(pNVar12,1);
+  }
+  else {
+    plVar14 = (longlong *)FUN_1807e1f30(&local_480);
+    if (*plVar14 == 0) {
+      puVar21 = &DAT_180bdb121;
+    }
+    else {
+      puVar21 = (undefined1 *)(*plVar14 + 0x10);
+    }
+    cVar6 = FUN_180792ad0(puVar21,0);
+    if (local_480 != (int *)0x0) {
+      if (*local_480 < 1) {
+        FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_480);
+      }
+      LOCK();
+      iVar7 = *local_480;
+      *local_480 = *local_480 + -1;
+      UNLOCK();
+      if (iVar7 == 1) {
+        FUN_1802242d0(local_480);
+      }
+    }
+    if (cVar6 == '\0') {
+      plVar14 = (longlong *)FUN_1807e1f30(&local_478);
+      if (*plVar14 != 0) {
+        puVar30 = (undefined1 *)(*plVar14 + 0x10);
+      }
+      FUN_1805e8f30(1,
+                    "[ERROR][Server config] :: Could not find server config \'%s\'. Make sure path is correct."
+                    ,puVar30);
+      if (local_478 != (int *)0x0) {
+        if (*local_478 < 1) {
+          FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_478);
+        }
+        LOCK();
+        iVar7 = *local_478;
+        *local_478 = *local_478 + -1;
+        UNLOCK();
+        if (iVar7 == 1) {
+          FUN_1802242d0(local_478);
+        }
+      }
+      goto LAB_18054835c;
+    }
+    FUN_180758530(local_2d8);
+    local_460 = 0;
+    FUN_18076c740(local_228,0,&local_460,0,1);
+    plVar14 = (longlong *)FUN_1807e1f30(&local_470);
+    if (*plVar14 == 0) {
+      puVar30 = &DAT_180bdb121;
+    }
+    else {
+      puVar30 = (undefined1 *)(*plVar14 + 0x10);
+    }
+    puVar21 = local_208;
+    FUN_1807603e0(local_2d8,puVar30,0,0,puVar21);
+    if (local_470 != (int *)0x0) {
+      if (*local_470 < 1) {
+        FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_470);
+      }
+      LOCK();
+      iVar7 = *local_470;
+      *local_470 = *local_470 + -1;
+      UNLOCK();
+      if (iVar7 == 1) {
+        FUN_1802242d0(local_470);
+      }
+    }
+    plVar14 = (longlong *)FUN_1807563d0(local_2d8,local_3b0,"hostName",PTR_PTR_180b9ec80);
+    lVar18 = *plVar14;
+    local_490 = lVar18;
+    if (lVar18 != 0) {
+      (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+    }
+    plVar14 = (longlong *)plVar14[1];
+    if (local_3b0[0] != 0) {
+      (**(code **)(*(longlong *)(local_3b0[0] + 0x20) + 0x10))(local_3b0[0] + 0x20);
+    }
+    if (plVar14 == (longlong *)0x0) {
+      FUN_1805e8f30(1,"[ERROR][Server config] :: hostName parameter is missing.");
+      FUN_1805e8fd0(10);
+      (*(code *)**(undefined8 **)pNVar12)(pNVar12,1);
+      if (lVar18 != 0) {
+        (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))();
+      }
+      FUN_180407e00(local_228);
+      FUN_1807587c0(local_2d8);
+      piVar23 = local_4f0;
+      if (local_4f0 != (int *)0x0) {
+        if (*local_4f0 < 1) {
+          FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_4f0);
+        }
+        LOCK();
+        iVar7 = *piVar23;
+        *piVar23 = *piVar23 + -1;
+        UNLOCK();
+        if (iVar7 == 1) {
+          FUN_1802242d0(piVar23);
+        }
+        local_4f0 = (int *)0x0;
+      }
+      goto LAB_18054853c;
+    }
+    plVar14 = (longlong *)(**(code **)(*plVar14 + 0x140))(plVar14,&local_4a0);
+    if (*plVar14 == 0) {
+      pcVar26 = &DAT_180bdb121;
+    }
+    else {
+      pcVar26 = (char *)(*plVar14 + 0x10);
+    }
+    local_4e0 = (char *)0x0;
+    pcVar22 = pcVar26;
+    if (pcVar26 != (char *)0x0) {
+      do {
+        cVar6 = *pcVar22;
+        pcVar22 = pcVar22 + 1;
+      } while (cVar6 != '\0');
+      FUN_1800b2160(&local_4e0,pcVar26,((int)pcVar22 - (int)pcVar26) + -1);
+    }
+    pcVar26 = local_4e0;
+    FUN_1800dedb0(&local_4a0);
+    if (local_4a0 != (int *)0x0) {
+      if (*local_4a0 < 1) {
+        FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_4a0);
+      }
+      LOCK();
+      iVar7 = *local_4a0;
+      *local_4a0 = *local_4a0 + -1;
+      UNLOCK();
+      pcVar26 = local_4e0;
+      if (iVar7 == 1) {
+        FUN_1802242d0(local_4a0);
+        pcVar26 = local_4e0;
+      }
+    }
+    uVar31 = uVar28;
+    if (pcVar26 != (char *)0x0) {
+      uVar2 = *(ushort *)(pcVar26 + -4);
+      pcVar22 = pcVar26;
+      do {
+        uVar32 = (uint)uVar31;
+        if ((*pcVar22 == '\0') || (iVar7 = isspace((int)*pcVar22), iVar7 == 0)) break;
+        uVar32 = uVar32 + 1;
+        uVar31 = (ulonglong)uVar32;
+        pcVar22 = pcVar22 + 1;
+      } while (pcVar22 != (char *)0x0);
+      if (uVar32 != 0) {
+        uVar25 = uVar2 + 1;
+        if ((*(short *)(pcVar26 + -2) != 1) || (*(ushort *)(pcVar26 + -6) < uVar25)) {
+          uVar3 = *(ushort *)(pcVar26 + -4);
+          local_4d8 = uVar3 + 8;
+          if (local_4d8 < uVar25) {
+            local_4d8 = uVar25;
+          }
+          puVar15 = (undefined2 *)FUN_180223ce0(local_4d8 + 6);
+          pcVar22 = (char *)(puVar15 + 3);
+          if (pcVar22 != (char *)0x0) {
+            uVar8 = uVar3 + 1;
+            uVar25 = local_4d8;
+            if (uVar8 < local_4d8) {
+              uVar25 = uVar8;
+            }
+            memcpy(pcVar22,pcVar26,(ulonglong)uVar25);
+            psVar1 = (short *)(pcVar26 + -2);
+            *psVar1 = *psVar1 + -1;
+            if (*psVar1 == 0) {
+              FUN_1802242d0(pcVar26 + -6);
+            }
+            *(undefined4 *)(puVar15 + 1) = 0;
+            puVar15[2] = puVar15[2] + 1;
+            *puVar15 = (short)local_4d8;
+            puVar15[1] = uVar3;
+            pcVar26 = pcVar22;
+            local_4e0 = pcVar22;
+          }
+        }
+        memmove(pcVar26,pcVar26 + uVar32,(ulonglong)((uVar2 - uVar32) + 1));
+        *(ushort *)(pcVar26 + -4) = uVar2 - (short)uVar32;
+      }
+      uVar31 = (ulonglong)*(ushort *)(pcVar26 + -4);
+    }
+    uVar11 = (undefined4)((ulonglong)puVar21 >> 0x20);
+    pcVar22 = pcVar26 + (uVar31 - 1);
+    if (pcVar22 != pcVar26 + -1) {
+      do {
+        uVar32 = (uint)uVar28;
+        iVar7 = isspace((int)*pcVar22);
+        uVar11 = (undefined4)((ulonglong)puVar21 >> 0x20);
+        if (iVar7 == 0) break;
+        uVar32 = uVar32 + 1;
+        uVar28 = (ulonglong)uVar32;
+        pcVar22 = pcVar22 + -1;
+      } while (pcVar22 != pcVar26 + -1);
+      if (uVar32 != 0) {
+        uVar25 = 0;
+        uVar29 = (int)uVar31 - uVar32;
+        local_4d8 = 0;
+        uVar8 = uVar29 + 1;
+        if (pcVar26 == (char *)0x0) {
+LAB_180548756:
+          uVar9 = uVar25 + 8;
+          if (uVar25 + 8 < uVar8) {
+            uVar9 = uVar8;
+          }
+          puVar15 = (undefined2 *)FUN_180223ce0((ulonglong)uVar9 + 6);
+          pcVar22 = (char *)(puVar15 + 3);
+          if (pcVar22 != (char *)0x0) {
+            if (pcVar26 != (char *)0x0) {
+              uVar25 = uVar9;
+              if (local_4d8 + 1 < uVar9) {
+                uVar25 = local_4d8 + 1;
+              }
+              memcpy(pcVar22,pcVar26,(ulonglong)uVar25);
+              psVar1 = (short *)(pcVar26 + -2);
+              *psVar1 = *psVar1 + -1;
+              if (*psVar1 == 0) {
+                FUN_1802242d0();
+              }
+            }
+            *(undefined4 *)(puVar15 + 1) = 0;
+            puVar15[2] = puVar15[2] + 1;
+            *puVar15 = (short)uVar9;
+            puVar15[1] = (short)local_4d8;
+            pcVar26 = pcVar22;
+            local_4e0 = pcVar22;
+          }
+        }
+        else if ((*(short *)(pcVar26 + -2) != 1) || (*(ushort *)(pcVar26 + -6) < uVar8)) {
+          uVar25 = (uint)*(ushort *)(pcVar26 + -4);
+          local_4d8 = (uint)*(ushort *)(pcVar26 + -4);
+          goto LAB_180548756;
+        }
+        pcVar26[uVar29] = '\0';
+        *(short *)(pcVar26 + -4) = (short)uVar31 - (short)uVar32;
+      }
+    }
+    pcVar22 = &DAT_180bdb0d8;
+    if (pcVar26 != (char *)0x0) {
+      pcVar22 = pcVar26;
+    }
+    FUN_1800bafc0(local_4c8,pcVar22);
+    if (param_1 == local_4c8) {
+      if (local_4c8[0] != (int *)0x0) {
+        if (*local_4c8[0] < 1) {
+          FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_4c8[0]);
+        }
+        LOCK();
+        iVar7 = *local_4c8[0];
+        *local_4c8[0] = *local_4c8[0] + -1;
+        UNLOCK();
+        pcVar26 = local_4e0;
+        if (iVar7 == 1) {
+          FUN_1802242d0(local_4c8[0]);
+          pcVar26 = local_4e0;
+        }
+      }
+    }
+    else {
+      piVar23 = *param_1;
+      if (piVar23 != (int *)0x0) {
+        if (*piVar23 < 1) {
+          FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar23);
+        }
+        LOCK();
+        iVar7 = *piVar23;
+        *piVar23 = *piVar23 + -1;
+        UNLOCK();
+        pcVar26 = local_4e0;
+        if (iVar7 == 1) {
+          FUN_1802242d0(piVar23);
+          pcVar26 = local_4e0;
+        }
+      }
+      *param_1 = local_4c8[0];
+    }
+    if (*param_1 == (int *)0x0) {
+LAB_1805495d0:
+      FUN_1805e8f30(1,
+                    "[ERROR][Server config] :: Server name must not be empty (hostName parameter).")
+      ;
+    }
+    else {
+      piVar13 = *param_1 + 4;
+      piVar23 = piVar13;
+      do {
+        iVar7 = *piVar23;
+        piVar23 = (int *)((longlong)piVar23 + 1);
+      } while ((char)iVar7 != '\0');
+      if ((int)piVar23 - (int)piVar13 == 1) goto LAB_1805495d0;
+      iVar7 = FUN_180562dc0(piVar13);
+      if (iVar7 < 0x61) {
+        FUN_1800bafc0(&local_4d0,piVar13);
+        puVar16 = (undefined8 *)FUN_1804b1400();
+        piVar23 = (int *)*puVar16;
+        if (local_4d0 != (int *)0x0) {
+          LOCK();
+          *local_4d0 = *local_4d0 + 1;
+          UNLOCK();
+          pcVar26 = local_4e0;
+        }
+        *puVar16 = local_4d0;
+        if (piVar23 != (int *)0x0) {
+          if (*piVar23 < 1) {
+            FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*piVar23);
+          }
+          LOCK();
+          iVar7 = *piVar23;
+          *piVar23 = *piVar23 + -1;
+          UNLOCK();
+          pcVar26 = local_4e0;
+          if (iVar7 == 1) {
+            FUN_1802242d0(piVar23);
+            pcVar26 = local_4e0;
+          }
+        }
+        if (local_4d0 != (int *)0x0) {
+          if (*local_4d0 < 1) {
+            FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_4d0);
+          }
+          LOCK();
+          iVar7 = *local_4d0;
+          *local_4d0 = *local_4d0 + -1;
+          UNLOCK();
+          pcVar26 = local_4e0;
+          if (iVar7 == 1) {
+            FUN_1802242d0(local_4d0);
+            pcVar26 = local_4e0;
+          }
+        }
+        if (pcVar26 != (char *)0x0) {
+          psVar1 = (short *)(pcVar26 + -2);
+          *psVar1 = *psVar1 + -1;
+          if (*psVar1 == 0) {
+            FUN_1802242d0();
+          }
+        }
+        plVar14 = (longlong *)FUN_1807563d0(local_2d8,local_3a0,"description",PTR_PTR_180b9ec80);
+        lVar18 = *plVar14;
+        if (lVar18 != 0) {
+          (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+        }
+        plVar14 = (longlong *)plVar14[1];
+        if (lVar18 != 0) {
+          (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+        }
+        if (local_490 != 0) {
+          (**(code **)(*(longlong *)(local_490 + 0x20) + 0x10))(local_490 + 0x20);
+        }
+        if (lVar18 != 0) {
+          (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))();
+        }
+        if (local_3a0[0] != 0) {
+          (**(code **)(*(longlong *)(local_3a0[0] + 0x20) + 0x10))(local_3a0[0] + 0x20);
+        }
+        if (plVar14 != (longlong *)0x0) {
+          plVar14 = (longlong *)(**(code **)(*plVar14 + 0x110))(plVar14,&local_468);
+          if (*plVar14 == 0) {
+            puVar30 = &DAT_180bdb121;
+          }
+          else {
+            puVar30 = (undefined1 *)(*plVar14 + 0x10);
+          }
+          FUN_1805e91c0(local_3d0,puVar30);
+          if (local_468 != (int *)0x0) {
+            if (*local_468 < 1) {
+              FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_468);
+            }
+            LOCK();
+            iVar7 = *local_468;
+            *local_468 = *local_468 + -1;
+            UNLOCK();
+            if (iVar7 == 1) {
+              FUN_1802242d0(local_468);
+            }
+          }
+          pppppppuVar27 = local_3d0;
+          if (0xf < local_3b8) {
+            pppppppuVar27 = (undefined8 *******)local_3d0[0];
+          }
+          FUN_1800bafc0(&local_4b0,pppppppuVar27);
+          lVar17 = FUN_1804b1400();
+          if (local_4b0 != 0) {
+            pcVar26 = (char *)(local_4b0 + 0x10);
+            do {
+              cVar6 = *pcVar26;
+              pcVar26 = pcVar26 + 1;
+            } while (cVar6 != '\0');
+            if (0xff < ((int)pcVar26 - (int)(char *)(local_4b0 + 0x10)) + -1) {
+                    /* WARNING: Subroutine does not return */
+              FUN_1807deda0("Description exceeeds the limit of %d characters. Will be truncated.",
+                            0xff);
+            }
+          }
+          FUN_1800c1d80(lVar17 + 8,&local_4b0);
+          FUN_1800df720(&local_4b0);
+          FUN_1800acbc0(local_3d0);
+        }
+        plVar14 = (longlong *)FUN_1807563d0(local_2d8,local_390,"shardId",PTR_PTR_180b9ec80);
+        lVar17 = *plVar14;
+        if (lVar17 != 0) {
+          (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+        }
+        plVar14 = (longlong *)plVar14[1];
+        if (lVar17 != 0) {
+          (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+        }
+        if (lVar18 != 0) {
+          (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))();
+        }
+        if (lVar17 != 0) {
+          (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))(lVar17 + 0x20);
+        }
+        if (local_390[0] != 0) {
+          (**(code **)(*(longlong *)(local_390[0] + 0x20) + 0x10))(local_390[0] + 0x20);
+        }
+        if (plVar14 != (longlong *)0x0) {
+          if (lVar17 != 0) {
+            (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+          }
+          (**(code **)(*plVar14 + 0x110))(plVar14,&local_498);
+          if (local_4f0 != (int *)0x0) {
+            FUN_1802a8980();
+          }
+          local_4f0 = local_498;
+          local_498 = (int *)0x0;
+          FUN_1800df720(&local_498);
+          if (lVar17 != 0) {
+            (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))(lVar17 + 0x20);
+          }
+        }
+        lVar18 = FUN_1804b1400();
+        FUN_1804b15a0(lVar18 + 0x10d,&local_4f0);
+        lVar18 = FUN_1804b1400();
+        if (*(char *)(lVar18 + 0x114) == '\x03') {
+          FUN_1805e8f30(1,"[ERROR][Server config] :: shardId parameter is not in valid format.");
+          FUN_1805e8fd0(10);
+          (*(code *)**(undefined8 **)local_4b8)(local_4b8,1);
+        }
+        else {
+          plVar14 = (longlong *)
+                    FUN_1807563d0(local_2d8,local_380,"enviromentType",PTR_PTR_180b9ec80);
+          lVar18 = *plVar14;
+          if (lVar18 != 0) {
+            (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+          }
+          plVar14 = (longlong *)plVar14[1];
+          if (lVar18 != 0) {
+            (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+          }
+          if (lVar17 != 0) {
+            (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))(lVar17 + 0x20);
+          }
+          if (lVar18 != 0) {
+            (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))();
+          }
+          if (local_380[0] != 0) {
+            (**(code **)(*(longlong *)(local_380[0] + 0x20) + 0x10))(local_380[0] + 0x20);
+          }
+          if (plVar14 != (longlong *)0x0) {
+            plVar14 = (longlong *)(**(code **)(*plVar14 + 0x110))(plVar14,local_458);
+            puVar30 = (undefined1 *)(*plVar14 + 0x10);
+            if (*plVar14 == 0) {
+              puVar30 = &DAT_180bdb121;
+            }
+            lVar17 = FUN_1804b1400();
+            iVar7 = FUN_18015d5b0(puVar30,"internal");
+            if (iVar7 == 0) {
+              *(undefined1 *)(lVar17 + 0x5c) = 1;
+            }
+            else {
+              iVar7 = FUN_18015d5b0(puVar30,"experimental");
+              if (iVar7 == 0) {
+                *(undefined1 *)(lVar17 + 0x5c) = 2;
+              }
+              else {
+                iVar7 = FUN_18015d5b0(puVar30,"stable");
+                if (iVar7 == 0) {
+                  *(undefined1 *)(lVar17 + 0x5c) = 3;
+                }
+              }
+            }
+            FUN_1800df720(local_458);
+          }
+          plVar14 = (longlong *)
+                    FUN_1807563d0(local_2d8,local_370,"shardInitRetryCount",PTR_PTR_180b9ec80);
+          lVar4 = *plVar14;
+          if (lVar4 != 0) {
+            (**(code **)(*(longlong *)(lVar4 + 0x20) + 8))(lVar4 + 0x20);
+          }
+          plVar14 = (longlong *)plVar14[1];
+          if (lVar4 != 0) {
+            (**(code **)(*(longlong *)(lVar4 + 0x20) + 8))(lVar4 + 0x20);
+          }
+          if (lVar18 != 0) {
+            (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))();
+          }
+          if (lVar4 != 0) {
+            (**(code **)(*(longlong *)(lVar4 + 0x20) + 0x10))(lVar4 + 0x20);
+          }
+          if (local_370[0] != 0) {
+            (**(code **)(*(longlong *)(local_370[0] + 0x20) + 0x10))(local_370[0] + 0x20);
+          }
+          if (plVar14 != (longlong *)0x0) {
+            iVar7 = (**(code **)(*plVar14 + 0x150))(plVar14);
+            if (iVar7 < 1) {
+              iVar7 = 1;
+            }
+            else if (10 < iVar7) {
+              iVar7 = 10;
+            }
+            lVar18 = FUN_1804b1400();
+            *(int *)(lVar18 + 0x118) = iVar7;
+          }
+          plVar14 = (longlong *)FUN_1807563d0(local_2d8,local_360,"instanceId",PTR_PTR_180b9ec80);
+          lVar17 = *plVar14;
+          if (lVar17 != 0) {
+            (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+          }
+          plVar14 = (longlong *)plVar14[1];
+          if (lVar17 != 0) {
+            (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+          }
+          if (lVar4 != 0) {
+            (**(code **)(*(longlong *)(lVar4 + 0x20) + 0x10))(lVar4 + 0x20);
+          }
+          if (lVar17 != 0) {
+            (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+          }
+          if (local_360[0] != 0) {
+            (**(code **)(*(longlong *)(local_360[0] + 0x20) + 0x10))(local_360[0] + 0x20);
+          }
+          if ((plVar14 != (longlong *)0x0) &&
+             (cVar6 = (**(code **)(*plVar14 + 0x70))(plVar14), cVar6 != '\0')) {
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))();
+            }
+            iVar7 = (**(code **)(*plVar14 + 0x120))(plVar14);
+            lVar18 = FUN_1804b1400();
+            *(bool *)(lVar18 + 0x13b) = -1 < iVar7;
+            *(int *)(lVar18 + 0x120) = iVar7;
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+            }
+            plVar14 = (longlong *)
+                      FUN_1807563d0(local_2d8,local_350,"storageAutoFix",PTR_PTR_180b9ec80);
+            lVar18 = *plVar14;
+            if (lVar18 != 0) {
+              (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+            }
+            plVar14 = (longlong *)plVar14[1];
+            if (lVar18 != 0) {
+              (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+            }
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+            }
+            if (lVar18 != 0) {
+              (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))(lVar18 + 0x20);
+            }
+            if (local_350[0] != 0) {
+              (**(code **)(*(longlong *)(local_350[0] + 0x20) + 0x10))(local_350[0] + 0x20);
+            }
+            if (plVar14 != (longlong *)0x0) {
+              if (lVar18 != 0) {
+                (**(code **)(*(longlong *)(lVar18 + 0x20) + 8))(lVar18 + 0x20);
+              }
+              iVar7 = (**(code **)(*plVar14 + 0x120))(plVar14);
+              lVar17 = FUN_1804b1400();
+              *(bool *)(lVar17 + 0x13f) = 0 < iVar7;
+              if (lVar18 != 0) {
+                (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))(lVar18 + 0x20);
+              }
+            }
+            plVar14 = (longlong *)
+                      FUN_1807563d0(local_2d8,local_340,"voiceOverNet",PTR_PTR_180b9ec80);
+            lVar17 = *plVar14;
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+            }
+            plVar14 = (longlong *)plVar14[1];
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))(lVar17 + 0x20);
+            }
+            if (lVar18 != 0) {
+              (**(code **)(*(longlong *)(lVar18 + 0x20) + 0x10))(lVar18 + 0x20);
+            }
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+            }
+            if (local_340[0] != 0) {
+              (**(code **)(*(longlong *)(local_340[0] + 0x20) + 0x10))(local_340[0] + 0x20);
+            }
+            if (plVar14 != (longlong *)0x0) {
+              if (lVar17 != 0) {
+                (**(code **)(*(longlong *)(lVar17 + 0x20) + 8))();
+              }
+              local_4e7 = (**(code **)(*plVar14 + 0x130))(plVar14);
+              if (lVar17 != 0) {
+                (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+              }
+            }
+            uVar19 = FUN_1807563d0(local_2d8,local_330,"equalModRequired",PTR_PTR_180b9ec80);
+            FUN_180543a20(&local_420,uVar19);
+            if (local_420 != 0) {
+              (**(code **)(*(longlong *)(local_420 + 0x20) + 8))(local_420 + 0x20);
+            }
+            if (lVar17 != 0) {
+              (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+            }
+            if (local_420 != 0) {
+              (**(code **)(*(longlong *)(local_420 + 0x20) + 0x10))(local_420 + 0x20);
+            }
+            if (local_330[0] != 0) {
+              (**(code **)(*(longlong *)(local_330[0] + 0x20) + 0x10))(local_330[0] + 0x20);
+            }
+            if (local_418 != (longlong *)0x0) {
+              if (local_420 != 0) {
+                (**(code **)(*(longlong *)(local_420 + 0x20) + 8))(local_420 + 0x20);
+              }
+              local_4e8 = (**(code **)(*local_418 + 0x130))(local_418);
+              if (local_420 != 0) {
+                (**(code **)(*(longlong *)(local_420 + 0x20) + 0x10))(local_420 + 0x20);
+              }
+            }
+            uVar19 = FUN_1807563d0(local_2d8,local_320,"requiredBuild",PTR_PTR_180b9ec80);
+            FUN_180543a20(&local_410,uVar19);
+            if (local_410 != 0) {
+              (**(code **)(*(longlong *)(local_410 + 0x20) + 8))(local_410 + 0x20);
+            }
+            if (local_420 != 0) {
+              (**(code **)(*(longlong *)(local_420 + 0x20) + 0x10))();
+            }
+            if (local_410 != 0) {
+              (**(code **)(*(longlong *)(local_410 + 0x20) + 0x10))(local_410 + 0x20);
+            }
+            if (local_320[0] != 0) {
+              (**(code **)(*(longlong *)(local_320[0] + 0x20) + 0x10))(local_320[0] + 0x20);
+            }
+            if (local_408 != (longlong *)0x0) {
+              if (local_410 != 0) {
+                (**(code **)(*(longlong *)(local_410 + 0x20) + 8))(local_410 + 0x20);
+              }
+              uVar10 = (**(code **)(*local_408 + 0x120))(local_408);
+              local_1e4 = CONCAT44(uVar10,(undefined4)local_1e4);
+              if (local_410 != 0) {
+                (**(code **)(*(longlong *)(local_410 + 0x20) + 0x10))(local_410 + 0x20);
+              }
+            }
+            uVar19 = FUN_1807563d0(local_2d8,local_310,"allowedBuild",PTR_PTR_180b9ec80);
+            FUN_180543a20(&local_400,uVar19);
+            if (local_400 != 0) {
+              (**(code **)(*(longlong *)(local_400 + 0x20) + 8))(local_400 + 0x20);
+            }
+            if (local_410 != 0) {
+              (**(code **)(*(longlong *)(local_410 + 0x20) + 0x10))();
+            }
+            if (local_400 != 0) {
+              (**(code **)(*(longlong *)(local_400 + 0x20) + 0x10))(local_400 + 0x20);
+            }
+            if (local_310[0] != 0) {
+              (**(code **)(*(longlong *)(local_310[0] + 0x20) + 0x10))(local_310[0] + 0x20);
+            }
+            if (local_3f8 != (longlong *)0x0) {
+              if (local_400 != 0) {
+                (**(code **)(*(longlong *)(local_400 + 0x20) + 8))(local_400 + 0x20);
+              }
+              local_1dc = (**(code **)(*local_3f8 + 0x120))(local_3f8);
+              if (local_400 != 0) {
+                (**(code **)(*(longlong *)(local_400 + 0x20) + 0x10))(local_400 + 0x20);
+              }
+            }
+            uVar19 = FUN_1807563d0(local_2d8,local_300,"serverTimeAcceleration",PTR_PTR_180b9ec80);
+            FUN_180543a20(&local_3f0,uVar19);
+            if (local_3f0 != 0) {
+              (**(code **)(*(longlong *)(local_3f0 + 0x20) + 8))(local_3f0 + 0x20);
+            }
+            if (local_400 != 0) {
+              (**(code **)(*(longlong *)(local_400 + 0x20) + 0x10))();
+            }
+            if (local_3f0 != 0) {
+              (**(code **)(*(longlong *)(local_3f0 + 0x20) + 0x10))(local_3f0 + 0x20);
+            }
+            if (local_300[0] != 0) {
+              (**(code **)(*(longlong *)(local_300[0] + 0x20) + 0x10))(local_300[0] + 0x20);
+            }
+            if (local_3e8 != (longlong *)0x0) {
+              if (local_3f0 != 0) {
+                (**(code **)(*(longlong *)(local_3f0 + 0x20) + 8))(local_3f0 + 0x20);
+              }
+              uVar33 = (**(code **)(*local_3e8 + 0x118))(local_3e8);
+              if (local_3f0 != 0) {
+                (**(code **)(*(longlong *)(local_3f0 + 0x20) + 0x10))(local_3f0 + 0x20);
+              }
+            }
+            *param_5 = 1;
+            uVar19 = FUN_1807563d0(local_2d8,local_2f0,"allowFilePatching",PTR_PTR_180b9ec80);
+            FUN_180543a20(&local_3e0,uVar19);
+            if (local_3e0 != 0) {
+              (**(code **)(*(longlong *)(local_3e0 + 0x20) + 8))(local_3e0 + 0x20);
+            }
+            if (local_3f0 != 0) {
+              (**(code **)(*(longlong *)(local_3f0 + 0x20) + 0x10))();
+            }
+            if (local_3e0 != 0) {
+              (**(code **)(*(longlong *)(local_3e0 + 0x20) + 0x10))(local_3e0 + 0x20);
+            }
+            if (local_2f0[0] != 0) {
+              (**(code **)(*(longlong *)(local_2f0[0] + 0x20) + 0x10))(local_2f0[0] + 0x20);
+            }
+            if (local_3d8 != (longlong *)0x0) {
+              if (local_3e0 != 0) {
+                (**(code **)(*(longlong *)(local_3e0 + 0x20) + 8))(local_3e0 + 0x20);
+              }
+              uVar32 = (**(code **)(*local_3d8 + 0x120))(local_3d8);
+              *param_5 = uVar32;
+              if (local_3e0 != 0) {
+                (**(code **)(*(longlong *)(local_3e0 + 0x20) + 0x10))(local_3e0 + 0x20);
+              }
+            }
+            if (1 < *param_5) {
+                    /* WARNING: Subroutine does not return */
+              FUN_1807deda0("Wrong value %d in allowedFilePatching. %d..%d allowed. Defaulting to %d"
+                            ,*param_5,0,1,0);
+            }
+            if (local_3e0 != 0) {
+              (**(code **)(*(longlong *)(local_3e0 + 0x20) + 0x10))(local_3e0 + 0x20);
+            }
+            FUN_180407e00(local_228);
+            FUN_1807587c0(local_2d8);
+            pNVar12 = local_4b8;
+LAB_18054967d:
+            if (local_4f0 != (int *)0x0) {
+              LOCK();
+              *local_4f0 = *local_4f0 + 1;
+              UNLOCK();
+            }
+            local_438 = local_4f0;
+            local_430 = (int *)*param_2;
+            if (local_430 != (int *)0x0) {
+              LOCK();
+              *local_430 = *local_430 + 1;
+              UNLOCK();
+            }
+            local_428 = *param_1;
+            if (local_428 != (int *)0x0) {
+              LOCK();
+              *local_428 = *local_428 + 1;
+              UNLOCK();
+            }
+            lVar18 = *(longlong *)pNVar12;
+            uVar10 = FUN_18054e650();
+            cVar6 = (**(code **)(lVar18 + 8))
+                              (pNVar12,&local_428,&local_430,param_3,CONCAT44(uVar11,param_4),uVar10
+                               ,*param_5,&local_1e8,local_4e8,&local_438,uVar33,param_7,0x5a796144);
+            if (cVar6 == '\0') {
+              (*(code *)**(undefined8 **)pNVar12)(pNVar12,1);
+              FUN_1800df720(&local_4f0);
+              FUN_1800df720(param_1);
+              FUN_1800df720(param_2);
+              return (NetTranspServer *)0x0;
+            }
+            if (local_4e7 != '\0') {
+              (**(code **)(*(longlong *)pNVar12 + 0x20))(pNVar12);
+            }
+            uVar11 = (**(code **)(*(longlong *)pNVar12 + 0x90))(pNVar12);
+            FUN_1800bef30(local_158,"Tmp%d",uVar11);
+            local_4a8 = 0;
+            uVar19 = FUN_1800bf630(local_158);
+            FUN_1800c1de0(&local_4a8,uVar19);
+            if (DAT_180c6da70 != 0) {
+              FUN_1802a8980();
+            }
+            DAT_180c6da70 = local_4a8;
+            local_4a8 = 0;
+            FUN_1800df720(&local_4a8);
+            FUN_1800df720(&local_4f0);
+            FUN_1800df720(param_1);
+            FUN_1800df720(param_2);
+            return pNVar12;
+          }
+          FUN_1807e1a70(
+                       "[ERROR][Server config] :: instanceId parameter is mandatory and must be valid 32-bit integer."
+                       );
+          FUN_1805e8fd0(10);
+          (*(code *)**(undefined8 **)local_4b8)(local_4b8,1);
+        }
+        if (lVar17 != 0) {
+          (**(code **)(*(longlong *)(lVar17 + 0x20) + 0x10))();
+        }
+        FUN_180407e00(local_228);
+        FUN_1807587c0(local_2d8);
+        FUN_1800df720(&local_4f0);
+        goto LAB_18054853c;
+      }
+      FUN_1805e8f30(1,
+                    "[ERROR][Server config] :: Maximum server name length is %d characters. Exceeded by %d."
+                    ,0x60,iVar7 + -0x60);
+    }
+    FUN_1805e8fd0(10);
+    (*(code *)**(undefined8 **)local_4b8)(local_4b8,1);
+    if (pcVar26 != (char *)0x0) {
+      psVar1 = (short *)(pcVar26 + -2);
+      *psVar1 = *psVar1 + -1;
+      if (*psVar1 == 0) {
+        FUN_1802242d0();
+      }
+    }
+    if (local_490 != 0) {
+      (**(code **)(*(longlong *)(local_490 + 0x20) + 0x10))(local_490 + 0x20);
+    }
+    FUN_180407e00(local_228);
+    FUN_1807587c0(local_2d8);
+  }
+  piVar23 = local_4f0;
+  if (local_4f0 != (int *)0x0) {
+    if (*local_4f0 < 1) {
+      FUN_1807dec70("Error: RefCountBaseT::DecRef(), refCount = %d",*local_4f0);
+    }
+    LOCK();
+    iVar7 = *piVar23;
+    *piVar23 = *piVar23 + -1;
+    UNLOCK();
+    if (iVar7 == 1) {
+      FUN_1802242d0(piVar23);
+    }
+    local_4f0 = (int *)0x0;
+  }
+LAB_18054853c:
+  FUN_1800df720(param_1);
+  FUN_1800df720(param_2);
+  return (NetTranspServer *)0x0;
+}
+
+
+DECOMPILE_END CDPInitServer 180548070
+EXPORT name=ShowExportDialog,Ordinal_4,?ShowExportDialog@@YAHPEAUHWND__@@@Z address=1800ba700 function=ShowExportDialog entry=1800ba700
+DECOMPILE_BEGIN ShowExportDialog 1800ba700
+
+/* int __cdecl ShowExportDialog(struct HWND__ * __ptr64) */
+
+int __cdecl ShowExportDialog(HWND__ *param_1)
+
+{
+  int iVar1;
+  HWND hWndChild;
+  undefined4 local_res8 [2];
+  int local_res10 [2];
+  QTypedArrayData<unsigned_short> *local_res18;
+  QTypedArrayData<unsigned_short> *local_res20;
+  QSettings *local_1a8;
+  undefined8 uStack_1a0;
+  undefined **local_198 [2];
+  QSettings *local_188;
+  QString local_180 [8];
+  undefined8 local_178;
+  undefined **local_168 [2];
+  undefined **local_158;
+  longlong local_140;
+  undefined1 local_138 [256];
+  char *local_38;
+  char *local_30;
+  
+                    /* 0xba700  4  ?ShowExportDialog@@YAHPEAUHWND__@@@Z */
+  local_178 = 0xfffffffffffffffe;
+  local_res8[0] = 0;
+  local_res10[0] = 0;
+  QApplication::QApplication((QApplication *)local_198,local_res10,(char **)0x0,0x50700);
+  local_198[0] = ExporterApplication::vftable;
+  QString::QString(local_180);
+  local_188 = operator_new(0x10);
+  local_1a8 = local_188;
+  if (local_188 == (QSettings *)0x0) {
+    local_188 = (QSettings *)0x0;
+  }
+  else {
+    local_res20 = QString::fromAscii_helper("BIExporterMB",0xc);
+    local_res8[0] = 1;
+    local_res18 = QString::fromAscii_helper("Bohemia Interactive",0x13);
+    local_res8[0] = 3;
+    QSettings::QSettings(local_188,(QString *)&local_res18,(QString *)&local_res20,(QObject *)0x0);
+    *(undefined ***)local_188 = QSettings::vftable;
+    QString::~QString((QString *)&local_res18);
+    QString::~QString((QString *)&local_res20);
+  }
+  QDialog::QDialog((QDialog *)local_168,0,0);
+  local_168[0] = ExportDialog::vftable;
+  local_158 = ExportDialog::vftable;
+  FUN_1800b4bb0(local_138,local_168);
+  QObject::connect((QObject *)local_res8,local_38,(QObject *)"2clicked()",(char *)local_168,
+                   0x809018a0);
+  QMetaObject::Connection::~Connection((Connection *)local_res8);
+  QObject::connect((QObject *)&local_res18,local_30,(QObject *)"2clicked()",(char *)local_168,
+                   0x80900e50);
+  QMetaObject::Connection::~Connection((Connection *)&local_res18);
+  if (param_1 != (HWND__ *)0x0) {
+    hWndChild = (HWND)QWidget::winId((QWidget *)local_168);
+    SetParent(hWndChild,param_1);
+    local_1a8 = *(QSettings **)(local_140 + 0x14);
+    uStack_1a0 = *(undefined8 *)(local_140 + 0x1c);
+    QRect::setLeft((QRect *)&local_1a8,0x32);
+    QRect::setTop((QRect *)&local_1a8,0x3c);
+    QWidget::setGeometry((QWidget *)local_168,(QRect *)&local_1a8);
+  }
+  QWidget::show((QWidget *)local_168);
+  iVar1 = QApplication::exec();
+  QDialog::~QDialog((QDialog *)local_168);
+  local_198[0] = ExporterApplication::vftable;
+  if (local_188 != (QSettings *)0x0) {
+    (**(code **)(*(longlong *)local_188 + 0x18))(local_188,1);
+  }
+  QString::~QString(local_180);
+  QApplication::~QApplication((QApplication *)local_198);
+  return iVar1;
+}
+
+
+DECOMPILE_END ShowExportDialog 1800ba700
+EXPORT name=ShowExportDialogThread,Ordinal_5,?ShowExportDialogThread@@YAHPEAUHWND__@@@Z address=1800ba990 function=ShowExportDialogThread entry=1800ba990
+DECOMPILE_BEGIN ShowExportDialogThread 1800ba990
+
+/* int __cdecl ShowExportDialogThread(struct HWND__ * __ptr64) */
+
+int __cdecl ShowExportDialogThread(HWND__ *param_1)
+
+{
+  int nPriority;
+  HANDLE hThread;
+  HANDLE hHandle;
+  DWORD local_res10 [2];
+  
+                    /* 0xba990  5  ?ShowExportDialogThread@@YAHPEAUHWND__@@@Z */
+  hThread = GetCurrentThread();
+  nPriority = GetThreadPriority(hThread);
+  local_res10[0] = 0;
+  hHandle = CreateThread((LPSECURITY_ATTRIBUTES)0x0,0,FUN_1800baa20,(LPVOID)0x0,0,local_res10);
+  WaitForSingleObject(hHandle,0xffffffff);
+  CloseHandle(hHandle);
+  SetThreadPriority(hThread,nPriority);
+  return 1;
+}
+
+
+DECOMPILE_END ShowExportDialogThread 1800ba990
+EXPORT name=ShowAnimExportDialogThread2,Ordinal_6 address=1800b7b90 function=ShowAnimExportDialogThread2 entry=1800b7b90
+DECOMPILE_BEGIN ShowAnimExportDialogThread2 1800b7b90
+
+undefined8
+ShowAnimExportDialogThread2
+          (undefined8 param_1,undefined8 param_2,char param_3,undefined1 *param_4,QWidget param_5)
+
+{
+  QWidget QVar1;
+  undefined8 uVar2;
+  int iVar3;
+  QWidget *pQVar4;
+  void *pvVar5;
+  QWidget *pQVar6;
+  QByteArray *pQVar7;
+  HANDLE pvVar8;
+  HANDLE pvVar9;
+  void *_Memory;
+  undefined1 *puVar10;
+  QWidget *lpParameter;
+  longlong lVar11;
+  QWidget *pQVar12;
+  DWORD local_res18 [2];
+  QByteArray local_38 [16];
+  
+                    /* 0xb7b90  6  ShowAnimExportDialogThread2 */
+  pQVar4 = operator_new(0x68);
+  pQVar12 = (QWidget *)0x0;
+  lpParameter = pQVar12;
+  if (pQVar4 != (QWidget *)0x0) {
+    *(undefined8 *)pQVar4 = param_2;
+    *(undefined8 *)(pQVar4 + 8) = 0;
+    *(undefined8 *)(pQVar4 + 0x10) = 0;
+    *(undefined8 *)(pQVar4 + 0x18) = 0;
+    QString::QString((QString *)(pQVar4 + 0x20));
+    QString::QString((QString *)(pQVar4 + 0x28));
+    QString::QString((QString *)(pQVar4 + 0x30));
+    *(undefined2 *)(pQVar4 + 0x38) = 0;
+    *(undefined8 *)(pQVar4 + 0x50) = 0;
+    *(undefined8 *)(pQVar4 + 0x58) = 0xf;
+    puVar10 = &DAT_1808fa107;
+    if (param_4 != (undefined1 *)0x0) {
+      puVar10 = param_4;
+    }
+    pQVar4[0x40] = (QWidget)0x0;
+    lVar11 = -1;
+    do {
+      lVar11 = lVar11 + 1;
+    } while (puVar10[lVar11] != '\0');
+    FUN_1800b2d40();
+    pQVar4[0x60] = param_5;
+    lpParameter = pQVar4;
+  }
+  if (param_3 == '\0') {
+    while( true ) {
+      local_res18[0] = 0;
+      pvVar5 = operator_new(0x20);
+      pQVar4 = pQVar12;
+      if (pvVar5 != (void *)0x0) {
+        pQVar4 = (QWidget *)FUN_1800b9c30(pvVar5,local_res18,0,0x50700);
+      }
+      pvVar5 = operator_new(0x1c0);
+      pQVar6 = pQVar12;
+      if (pvVar5 != (void *)0x0) {
+        pQVar6 = lpParameter + 0x40;
+        if (0xf < *(ulonglong *)(lpParameter + 0x58)) {
+          pQVar6 = *(QWidget **)pQVar6;
+        }
+        pQVar6 = (QWidget *)
+                 FUN_1800abcb0(pvVar5,*(undefined8 *)lpParameter,pQVar4,0,lpParameter + 8,pQVar6,
+                               lpParameter[0x60]);
+      }
+      QWidget::show(pQVar6);
+      QApplication::exec();
+      if (pQVar6 != (QWidget *)0x0) {
+        (**(code **)(*(longlong *)pQVar6 + 0x18))(pQVar6,1);
+      }
+      if (lpParameter[0x38] == (QWidget)0x0) break;
+      uVar2 = *(undefined8 *)lpParameter;
+      pQVar7 = (QByteArray *)QString::toUtf8((QString *)(lpParameter + 0x20));
+      QByteArray::data(pQVar7);
+      QByteArray::~QByteArray(local_38);
+      QString::clear((QString *)(lpParameter + 0x30));
+      lpParameter[0x39] = (QWidget)0x1;
+      FUN_1800ae930(lpParameter + 8,uVar2);
+    }
+  }
+  else {
+    pvVar8 = GetCurrentThread();
+    iVar3 = GetThreadPriority(pvVar8);
+    SetThreadPriority(pvVar8,0);
+    local_res18[0] = 0;
+    pvVar9 = CreateThread((LPSECURITY_ATTRIBUTES)0x0,0,FUN_1800b2250,lpParameter,0,local_res18);
+    WaitForSingleObject(pvVar9,0xffffffff);
+    CloseHandle(pvVar9);
+    SetThreadPriority(pvVar8,iVar3);
+    QVar1 = lpParameter[0x38];
+    while (QVar1 != (QWidget)0x0) {
+      uVar2 = *(undefined8 *)lpParameter;
+      pQVar7 = (QByteArray *)QString::toUtf8((QString *)(lpParameter + 0x20));
+      QByteArray::data(pQVar7);
+      QByteArray::~QByteArray(local_38);
+      QString::clear((QString *)(lpParameter + 0x30));
+      lpParameter[0x39] = (QWidget)0x1;
+      FUN_1800ae930(lpParameter + 8,uVar2,lpParameter + 0x30);
+      pvVar8 = GetCurrentThread();
+      iVar3 = GetThreadPriority(pvVar8);
+      SetThreadPriority(pvVar8,0);
+      local_res18[0] = 0;
+      pvVar9 = CreateThread((LPSECURITY_ATTRIBUTES)0x0,0,FUN_1800b2250,lpParameter,0,local_res18);
+      WaitForSingleObject(pvVar9,0xffffffff);
+      CloseHandle(pvVar9);
+      SetThreadPriority(pvVar8,iVar3);
+      QVar1 = lpParameter[0x38];
+    }
+  }
+  if (0xf < *(ulonglong *)(lpParameter + 0x58)) {
+    pvVar5 = *(void **)(lpParameter + 0x40);
+    _Memory = pvVar5;
+    if ((0xfff < *(ulonglong *)(lpParameter + 0x58) + 1) &&
+       (_Memory = *(void **)((longlong)pvVar5 + -8),
+       0x1f < (ulonglong)((longlong)pvVar5 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  *(undefined8 *)(lpParameter + 0x50) = 0;
+  *(undefined8 *)(lpParameter + 0x58) = 0xf;
+  lpParameter[0x40] = (QWidget)0x0;
+  FUN_1800acf00(lpParameter + 8);
+  free(lpParameter);
+  return 1;
+}
+
+
+DECOMPILE_END ShowAnimExportDialogThread2 1800b7b90
+EXPORT name=entry address=1808cf4e4 function=entry entry=1808cf4e4
+DECOMPILE_BEGIN entry 1808cf4e4
+
+void entry(HINSTANCE__ *param_1,ulong param_2,void *param_3)
+
+{
+  if (param_2 == 1) {
+    __security_init_cookie();
+  }
+  dllmain_dispatch(param_1,param_2,param_3);
+  return;
+}
+
+
+DECOMPILE_END entry 1808cf4e4
+DLL_EXPORT_COUNT 7
+============================================================
+WORKBENCH_DLL_STRING_SCAN
+WORKBENCH_SYMBOL_HITS dataExporter_v141_x64_RetailDX11.dll 0
+WORKBENCH_SYMBOL_HITS ShowExportDialog 0
+WORKBENCH_SYMBOL_HITS ShowExportDialogThread 0
+WORKBENCH_SYMBOL_HITS ShowAnimExportDialogThread2 0
+SCRIPT COMPLETED DataExporterUsageResearch
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

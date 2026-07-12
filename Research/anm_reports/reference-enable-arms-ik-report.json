@@ -1,0 +1,142 @@
+{
+  "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses (2).blend",
+  "changed": [
+    {
+      "bone": "upper_arm_parent.L",
+      "property": "IK_FK",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "upper_arm_parent.L",
+      "property": "pole_vector",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "bone": "upper_arm_parent.L",
+      "property": "IK_Stretch",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "ORG-upper_arm.L",
+      "constraint": "Copy Transforms.001",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "ORG-forearm.L",
+      "constraint": "Copy Transforms.001",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "ORG-hand.L",
+      "constraint": "Copy Transforms.001",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "MCH-upper_arm_ik_target.L",
+      "constraint": "Limit Distance",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "property": "IK_FK",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "property": "pole_vector",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "property": "IK_Stretch",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "ORG-upper_arm.R",
+      "constraint": "Copy Transforms.001",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "ORG-forearm.R",
+      "constraint": "Copy Transforms.001",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "ORG-hand.R",
+      "constraint": "Copy Transforms.001",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    },
+    {
+      "bone": "MCH-upper_arm_ik_target.R",
+      "constraint": "Limit Distance",
+      "before": {
+        "influence": 0.0,
+        "mute": false
+      },
+      "after": {
+        "influence": 1.0,
+        "mute": false
+      }
+    }
+  ],
+  "snapshot": [
+    {
+      "bone": "ORG-upper_arm.L",
+      "props": {
+        "rigify_type": "limbs.super_limb",
+        "rigify_parameters": 

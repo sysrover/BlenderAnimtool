@@ -1,0 +1,200 @@
+{
+  "base": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "out": "P:\\Animation_Weapon\\Weapon_template_aks74u_fullclone_reference_controls_v1.blend",
+  "created": [
+    "DRV_LeftArm",
+    "DRV_LeftArmRoll",
+    "DRV_LeftForeArm",
+    "DRV_LeftForeArmRoll",
+    "DRV_LeftHand",
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "DRV_RightArm",
+    "DRV_RightArmRoll",
+    "DRV_RightForeArm",
+    "DRV_RightForeArmRoll",
+    "DRV_RightHand",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "best": {
+    "L": {
+      "chain_count": 3,
+      "pole_angle": -1.5707963267948966,
+      "score": 0.16462847949002085,
+      "details": [
+        {
+          "bone": "LeftArm",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "LeftArmRoll",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "LeftForeArm",
+          "loc_delta": 1.8143349382111313e-07,
+          "rot_delta_deg": 6.2156924183123365
+        },
+        {
+          "bone": "LeftForeArmRoll",
+          "loc_delta": 0.0001840995450030622,
+          "rot_delta_deg": 3.1108961020639905
+        },
+        {
+          "bone": "LeftHand",
+          "loc_delta": 5.992045778895348e-07,
+          "rot_delta_deg": 0.0
+        }
+      ]
+    },
+    "R": {
+      "chain_count": 3,
+      "pole_angle": 2.356194490192345,
+      "score": 0.0583439822627936,
+      "details": [
+        {
+          "bone": "RightArm",
+          "loc_delta": 0.0,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "RightArmRoll",
+          "loc_delta": 1.862645149230957e-09,
+          "rot_delta_deg": 0.0
+        },
+        {
+          "bone": "RightForeArm",
+          "loc_delta": 3.0719530773294423e-08,
+          "rot_delta_deg": 2.1692452419510126
+        },
+        {
+          "bone": "RightForeArmRoll",
+          "loc_delta": 0.00014578488359631096,
+          "rot_delta_deg": 1.090009292353119
+        },
+        {
+          "bone": "RightHand",
+          "loc_delta": 1.0848209096909341e-07,
+          "rot_delta_deg": 0.0
+        }
+      ]
+    }
+  },
+  "neutral": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 1.8143349382111313e-07,
+      "rot_delta_deg": 6.2156924183123365
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 0.0001840995450030622,
+      "rot_delta_deg": 3.1108961020639905
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 5.992045778895348e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 1.862645149230957e-09,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 3.0719530773294423e-08,
+      "rot_delta_deg": 2.1692452419510126
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 0.00014578488359631096,
+      "rot_delta_deg": 1.090009292353119
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 1.0848209096909341e-07,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "movement": {
+    "L": [
+      {
+        "bone": "LeftArm",
+        "loc_delta": 0.0,
+        "rot_delta_deg": 0.0
+      },
+      {
+        "bone": "LeftArmRoll",
+        "loc_delta": 0.0,
+        "rot_delta_deg": 0.0
+      },
+      {
+        "bone": "LeftForeArm",
+        "loc_delta": 0.0,
+        "rot_delta_deg": 12.031757298476396
+      },
+      {
+        "bone": "LeftForeArmRoll",
+        "loc_delta": 0.042681117049105925,
+        "rot_delta_deg": 10.072900879425406
+      },
+      {
+        "bone": "LeftHand",
+        "loc_delta": 0.05513853539125997,
+        "rot_delta_deg": 1.1391653100360546
+      }
+    ],
+    "R": [
+      {
+        "bone": "RightArm",
+        "loc_delta": 0.0,
+        "rot_delta_deg": 0.0
+      },
+      {
+        "bone": "RightArmRoll",
+        "loc_delta": 0.0,
+        "rot_delta_deg": 0.0
+      },
+      {
+        "bone": "RightForeArm",
+        "loc_delta": 0.0,
+        "rot_delta_deg": 65.63687482939359
+      },
+      {
+        "bone": "RightForeArmRoll",
+        "loc_delta": 0.1059400706543922,
+        "rot_delta_deg": 305.64774150878236
+      },
+      {
+        "bone": "RightHand",
+        "loc_delta": 0.07999673406424472,
+        "rot_delta_deg": 0.0
+      }
+    ]
+  },
+  "visible_controls": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ]
+}

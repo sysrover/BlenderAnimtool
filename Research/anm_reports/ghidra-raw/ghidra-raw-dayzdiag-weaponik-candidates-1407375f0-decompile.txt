@@ -1,0 +1,112 @@
+
+void FUN_1407375f0(longlong *param_1,undefined8 *param_2,undefined8 *param_3)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  code *pcVar3;
+  uint *puVar4;
+  undefined1 uVar5;
+  ulonglong uVar6;
+  ulonglong uVar7;
+  undefined8 *puVar8;
+  undefined8 *puVar9;
+  uint uVar10;
+  ulonglong uVar11;
+  ulonglong uVar12;
+  byte *pbVar13;
+  undefined8 *puVar14;
+  undefined4 local_58 [2];
+  longlong local_50;
+  ulonglong local_48;
+  uint *local_40;
+  ulonglong local_38;
+  
+  puVar14 = (undefined8 *)0x0;
+  if (*(int *)((longlong)param_1 + 0x2c) != 0) {
+    uVar2 = *param_2;
+    pcVar3 = (code *)param_2[1];
+    puVar9 = puVar14;
+    do {
+      lVar1 = (longlong)puVar9 * 0xc;
+      uVar5 = (*pcVar3)(uVar2,*(undefined4 *)(lVar1 + param_1[4]));
+      *(undefined1 *)(lVar1 + 8 + param_1[4]) = uVar5;
+      pbVar13 = (byte *)(param_1[4] + lVar1);
+      if ((pbVar13[8] != 0) && (0 < *(int *)(pbVar13 + 4))) {
+        uVar11 = (ulonglong)*(uint *)(param_1 + 2);
+        uVar10 = ((((*pbVar13 ^ 0x84222325) * 0x1b3 ^ (uint)pbVar13[1]) * 0x1b3 ^ (uint)pbVar13[2])
+                  * 0x1b3 ^ (uint)pbVar13[3]) * 0x1b3;
+        uVar6 = uVar11;
+        if ((int)param_1[1] != 0) {
+          uVar7 = (ulonglong)(uVar10 >> 7);
+          while( true ) {
+            uVar7 = uVar7 & uVar11 - 1;
+            if (((*(byte *)(*param_1 + uVar7) == ((byte)uVar10 & 0x7f)) &&
+                (uVar6 = uVar7, *(int *)pbVar13 == *(int *)(uVar7 * 0x20 + param_1[3]))) ||
+               (uVar6 = uVar11, *(byte *)(*param_1 + uVar7) == 0x80)) break;
+            uVar7 = uVar7 + 1;
+          }
+        }
+        puVar8 = puVar14;
+        if (uVar6 < uVar11) {
+          puVar8 = (undefined8 *)(param_1[3] + 8 + uVar6 * 0x20);
+        }
+        uVar6 = (ulonglong)*(uint *)((longlong)puVar8 + 0xc);
+        if (3 < *(uint *)((longlong)puVar8 + 0xc)) {
+          puVar4 = (uint *)*puVar8;
+          uVar11 = (ulonglong)*puVar4;
+          if (((uVar11 + 4 <= uVar6) && (uVar7 = uVar11 + 8, uVar7 <= uVar6)) &&
+             (uVar12 = (ulonglong)*(uint *)((longlong)puVar4 + uVar11 + 4), uVar12 + uVar7 == uVar6)
+             ) {
+            local_58[0] = *(undefined4 *)pbVar13;
+            local_40 = puVar4 + 1;
+            local_50 = (longlong)puVar4 + uVar7;
+            local_48 = uVar12;
+            local_38 = uVar11;
+            (*(code *)param_3[1])(*param_3,local_58);
+          }
+        }
+      }
+      uVar10 = (int)puVar9 + 1;
+      puVar9 = (undefined8 *)(ulonglong)uVar10;
+    } while (uVar10 < *(uint *)((longlong)param_1 + 0x2c));
+    if (*(uint *)((longlong)param_1 + 0x2c) != 0) {
+      do {
+        pbVar13 = (byte *)(param_1[4] + (longlong)puVar14 * 0xc);
+        if ((pbVar13[8] == 0) || (*(int *)(pbVar13 + 4) < 1)) {
+          *(int *)(pbVar13 + 4) = *(int *)(pbVar13 + 4) + 1;
+          puVar14 = (undefined8 *)(ulonglong)((int)puVar14 + 1);
+        }
+        else {
+          uVar11 = (ulonglong)*(uint *)(param_1 + 2);
+          uVar10 = ((((*pbVar13 ^ 0x84222325) * 0x1b3 ^ (uint)pbVar13[1]) * 0x1b3 ^ (uint)pbVar13[2]
+                    ) * 0x1b3 ^ (uint)pbVar13[3]) * 0x1b3;
+          uVar6 = uVar11;
+          if ((int)param_1[1] != 0) {
+            uVar7 = (ulonglong)(uVar10 >> 7);
+            while( true ) {
+              uVar7 = uVar7 & uVar11 - 1;
+              if (((*(byte *)(*param_1 + uVar7) == ((byte)uVar10 & 0x7f)) &&
+                  (uVar6 = uVar7, *(int *)pbVar13 == *(int *)(uVar7 * 0x20 + param_1[3]))) ||
+                 (uVar6 = uVar11, *(byte *)(*param_1 + uVar7) == 0x80)) break;
+              uVar7 = uVar7 + 1;
+            }
+          }
+          if (uVar6 < uVar11) {
+            *(int *)((longlong)param_1 + 0xc) = *(int *)((longlong)param_1 + 0xc) + 1;
+            *(int *)(param_1 + 1) = (int)param_1[1] + -1;
+            *(undefined1 *)(uVar6 + *param_1) = 0xfe;
+            FUN_1403726a0(*(LPCVOID *)(uVar6 * 0x20 + param_1[3] + 8));
+          }
+          memmove((void *)((longlong)puVar14 * 0xc + param_1[4]),
+                  (void *)(param_1[4] + ((ulonglong)*(uint *)((longlong)param_1 + 0x2c) - 1) * 0xc),
+                  0xc);
+          *(int *)((longlong)param_1 + 0x2c) = *(int *)((longlong)param_1 + 0x2c) + -1;
+        }
+      } while ((uint)puVar14 < *(uint *)((longlong)param_1 + 0x2c));
+    }
+  }
+  return;
+}
+
+

@@ -1,0 +1,37 @@
+
+path                             method description
+----                             ------ -----------
+/analyze_api_call_chains         GET    Detect suspicious API call patterns
+/analyze_struct_field_usage      POST   Analyze structure field access patterns. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/audit_global                    GET    Audit a global variable's documentation state. Returns name, type, length, plate comment, xref count, and list of issues. Use this before set_global so you know exactly what's missing.
+/audit_globals_in_function       GET    Audit every global variable referenced from within a function in one call. Walks the function's instructions, collects unique data references, and returns the per-global audit (same shape as audit_gl…
+/clear_instruction_flow_override POST   Clear flow override at address. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/debugger/step_into              POST   Single-step into the next instruction (follows calls)
+/debugger/step_over              POST   Step over the next instruction (does not follow calls)
+/disassemble_bytes               POST   Disassemble a range of bytes. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/disassemble_function            GET    Get assembly listing of function. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/find_code_gaps                  GET    Find gaps of undefined/unanalyzed bytes in executable memory not covered by any function body. Useful for discovering missed functions in firmware and embedded binaries. Reports each contiguous uncov…
+/get_address_spaces              GET    List all physical address spaces in the program. On programs with multiple address spaces (e.g., embedded targets), use the returned space names to prefix addresses (e.g., mem:1000, code:ff00) for un…
+/get_assembly_context            POST   Get assembly pattern context for xref sources
+/get_bulk_xrefs                  POST   Batch cross-reference retrieval
+/get_field_access_context        POST   Get assembly context for struct field offsets. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/get_function_xrefs              GET    Get cross-references to a function. Accepts function name or address (pass address as 'address' param, or as 'name').
+/get_xrefs_from                  GET    Get cross-references from an address. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/get_xrefs_to                    GET    Get cross-references to an address. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/list_data_items_by_xrefs        GET    List data items sorted by xref count (descending). By default returns only defined data items. `filter` and `type_filter` (each: all/defined/undefined) compose orthogonally to also include unnamed/un…
+/list_globals                    GET    List global DATA symbols. By default returns every global in the program (named + unnamed-but-xrefed undefined addresses). `filter` and `type_filter` (each: all/defined/undefined) compose orthogonall…
+/list_scripts                    GET    List available Ghidra scripts
+/merge_program_documentation     POST   Bulk merge: copy ALL RE documentation from one program to another at matching addresses, in a single server-side transaction. Categories: function names + signatures + plate comments + locals + calli…
+/read_memory                     GET    Read raw memory bytes. Always pass the 'program' argument to target the correct binary — especially when multiple programs are open. On programs with multiple address spaces (e.g., embedded targets),…
+/run_ghidra_script               POST   Execute script with output capture and timeout. Gated by GHIDRA_MCP_ALLOW_SCRIPTS=1 (v5.4.1+).
+/run_script_inline               POST   Execute inline Ghidra script code. Pass the full Java source as the 'code' body parameter. Gated by GHIDRA_MCP_ALLOW_SCRIPTS=1 (v5.4.1+).
+/search_byte_patterns            GET    Search for byte patterns with masks
+/search_data_types               GET    Search data types by pattern
+/search_functions                GET    Search functions by name pattern. Omit name_pattern to list all functions.
+/search_functions_by_tag         GET    List all functions that have a specified tag attached. Returns name + entry address.
+/search_functions_enhanced       GET    Advanced function search with filtering
+/search_strings                  GET    Search strings by regex pattern.
+/set_disassembly_comment         POST   Set disassembly EOL_COMMENT at address. On programs with multiple address spaces (e.g., embedded targets), prefix addresses with the space name (mem:1000) to avoid ambiguous resolution.
+/set_function_tag_comment        POST   Update the comment/description on an existing program-wide function tag.
+
+

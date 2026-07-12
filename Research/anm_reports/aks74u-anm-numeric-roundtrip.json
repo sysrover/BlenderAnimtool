@@ -1,0 +1,788 @@
+{
+  "original": "P:\\DZ\\anims\\anm\\player\\ik\\weapons\\aks74u.anm",
+  "exported": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\blender_roundtrip\\aks74u_roundtrip_export.anm",
+  "bone_count_original": 43,
+  "bone_count_exported": 43,
+  "missing_bones": [],
+  "extra_bones": [],
+  "max_pos_abs_diff_common_frames": 0.7523983473963375,
+  "max_rot_abs_diff_common_frames": 1.9828910399084836,
+  "worst_or_missing": [
+    {
+      "bone": "LeftForeArmDirection",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [
+        1
+      ],
+      "rot_extra_in_export": [
+        1
+      ],
+      "max_pos_abs_diff": 0.06145563213459054,
+      "max_rot_abs_diff": 0.3856445667609216
+    },
+    {
+      "bone": "LeftForeArmDirectionOrigin",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 5.651237690390554e-06,
+      "max_rot_abs_diff": 0.7024319102377738
+    },
+    {
+      "bone": "LeftHandIKTarget",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 0.7523983473963375,
+      "max_rot_abs_diff": 1.7049646921978097
+    },
+    {
+      "bone": "LeftHandIndex1",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.3175353334171636e-06,
+      "max_rot_abs_diff": 0.8018214097097577
+    },
+    {
+      "bone": "LeftHandIndex2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 6.581245628330667e-07,
+      "max_rot_abs_diff": 0.18994130813446986
+    },
+    {
+      "bone": "LeftHandIndex3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 3.2815454757810514e-07,
+      "max_rot_abs_diff": 0.7729837753184637
+    },
+    {
+      "bone": "LeftHandMiddle1",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.274928059779093e-06,
+      "max_rot_abs_diff": 0.4955261676703012
+    },
+    {
+      "bone": "LeftHandMiddle2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 8.037889394971012e-07,
+      "max_rot_abs_diff": 0.22543612300592142
+    },
+    {
+      "bone": "LeftHandMiddle3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 3.127901191024487e-07,
+      "max_rot_abs_diff": 0.7837076772185486
+    },
+    {
+      "bone": "LeftHandOrigin",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 0.750476032144164,
+      "max_rot_abs_diff": 1.6734199371716638
+    },
+    {
+      "bone": "LeftHandPinky",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 3.770143053929975e-07,
+      "max_rot_abs_diff": 0.797994011542592
+    },
+    {
+      "bone": "LeftHandPinky1",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.1902488353809915e-06,
+      "max_rot_abs_diff": 0.24995270244756085
+    },
+    {
+      "bone": "LeftHandPinky2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.2625444126973528e-07,
+      "max_rot_abs_diff": 0.3144310927336257
+    },
+    {
+      "bone": "LeftHandPinky3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 5.771108728402918e-08,
+      "max_rot_abs_diff": 0.8285711712667267
+    },
+    {
+      "bone": "LeftHandRing",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.6992685832740466e-07,
+      "max_rot_abs_diff": 0.797993968701761
+    },
+    {
+      "bone": "LeftHandRing1",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 7.823108330584638e-08,
+      "max_rot_abs_diff": 0.32561297392626964
+    },
+    {
+      "bone": "LeftHandRing2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 7.321212255979684e-07,
+      "max_rot_abs_diff": 0.3351679921768447
+    },
+    {
+      "bone": "LeftHandRing3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.314782208817954e-07,
+      "max_rot_abs_diff": 0.8690886041206417
+    },
+    {
+      "bone": "LeftHandThumb1",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 6.141396230452401e-07,
+      "max_rot_abs_diff": 0.2644757895743559
+    },
+    {
+      "bone": "LeftHandThumb2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 7.800846461461335e-07,
+      "max_rot_abs_diff": 0.9934852005945374
+    },
+    {
+      "bone": "LeftHandThumb3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 2.2849235392641276e-08,
+      "max_rot_abs_diff": 0.8898473412129286
+    },
+    {
+      "bone": "LeftHand_Dummy",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.5961845304338779e-06,
+      "max_rot_abs_diff": 1.9828910399084836
+    },
+    {
+      "bone": "RightForeArmDirection",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 0.25437943623926534,
+      "max_rot_abs_diff": 0.31806076862305954
+    },
+    {
+      "bone": "RightForeArmDirectionOrigin",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.948493902257045e-06,
+      "max_rot_abs_diff": 1.4156947324745541
+    },
+    {
+      "bone": "RightHandIndex1",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.1175869228663426e-07,
+      "max_rot_abs_diff": 0.9506763751776022
+    },
+    {
+      "bone": "RightHandIndex2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 5.390626526963205e-07,
+      "max_rot_abs_diff": 0.49198413020932996
+    },
+    {
+      "bone": "RightHandIndex3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 1.1275867258658812e-07,
+      "max_rot_abs_diff": 0.6619350366798147
+    },
+    {
+      "bone": "RightHandMiddle1",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.470347339524672e-08,
+      "max_rot_abs_diff": 0.5003225777519835
+    },
+    {
+      "bone": "RightHandMiddle2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 8.428740706639681e-07,
+      "max_rot_abs_diff": 1.0528854591476677e-05
+    },
+    {
+      "bone": "RightHandMiddle3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.016790120381364e-07,
+      "max_rot_abs_diff": 0.5930870022559311
+    },
+    {
+      "bone": "RightHandOrigin",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0,
+        1
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 0.48211939371508794,
+      "max_rot_abs_diff": 0.6248013690729638
+    },
+    {
+      "bone": "RightHandPinky",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 5.773127175687232e-07,
+      "max_rot_abs_diff": 1.0000003495030234
+    },
+    {
+      "bone": "RightHandPinky1",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 6.037194935915036e-07,
+      "max_rot_abs_diff": 0.47660972214185926
+    },
+    {
+      "bone": "RightHandPinky2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 5.736862817851129e-07,
+      "max_rot_abs_diff": 0.403917733664297
+    },
+    {
+      "bone": "RightHandPinky3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 5.77419908276422e-08,
+      "max_rot_abs_diff": 0.5662823528242082
+    },
+    {
+      "bone": "RightHandRing",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.470348173579719e-08,
+      "max_rot_abs_diff": 1.0000003517403802
+    },
+    {
+      "bone": "RightHandRing1",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 9.927072824877925e-07,
+      "max_rot_abs_diff": 0.4105673890590058
+    },
+    {
+      "bone": "RightHandRing2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 7.450580596923828e-09,
+      "max_rot_abs_diff": 0.19366945154183934
+    },
+    {
+      "bone": "RightHandRing3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 4.5201508317230243e-07,
+      "max_rot_abs_diff": 0.4650014204805396
+    },
+    {
+      "bone": "RightHandThumb1",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 3.7066638469696045e-07,
+      "max_rot_abs_diff": 1.565521440449067
+    },
+    {
+      "bone": "RightHandThumb2",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 8.075732515072653e-07,
+      "max_rot_abs_diff": 0.5947696646846574
+    },
+    {
+      "bone": "RightHandThumb3",
+      "pos_common_frames": [
+        0
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [
+        1
+      ],
+      "rot_missing_in_export": [],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 3.3140890508959187e-07,
+      "max_rot_abs_diff": 0.5865061299142662
+    },
+    {
+      "bone": "RightHand_Dummy",
+      "pos_common_frames": [
+        0,
+        1
+      ],
+      "rot_common_frames": [
+        0
+      ],
+      "pos_missing_in_export": [],
+      "rot_missing_in_export": [
+        1
+      ],
+      "pos_extra_in_export": [],
+      "rot_extra_in_export": [],
+      "max_pos_abs_diff": 3.7279321904448715e-06,
+      "max_rot_abs_diff": 1.2963619331674003e-05
+    }
+  ],
+  "note": "Decoded float comparison on common frames. Missing frame keys are reported separately from numeric error."
+}

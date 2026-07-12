@@ -1,0 +1,397 @@
+{
+  "mode": "Manual Authoring",
+  "pose_constraints": {
+    "LeftHand": [
+      {
+        "name": "DayZ WeaponIK Preview",
+        "type": "IK",
+        "mute": false,
+        "influence": 1.0,
+        "target": "_DayZ_Character",
+        "subtarget": "LeftHandIKTarget",
+        "pole_target": "WIK_L_Elbow_Pole",
+        "pole_subtarget": "",
+        "chain_count": 3,
+        "use_tail": false,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      }
+    ],
+    "LeftForeArmDirection": [
+      {
+        "name": "DayZ WIK Control Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": true,
+        "influence": 1.0,
+        "target": "WIK_L_Elbow_Pole",
+        "subtarget": "",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      }
+    ],
+    "RightHand": [
+      {
+        "name": "DayZ WeaponIK Preview",
+        "type": "IK",
+        "mute": false,
+        "influence": 1.0,
+        "target": "_DayZ_Character",
+        "subtarget": "RightHandOrigin",
+        "pole_target": "WIK_R_Elbow_Pole",
+        "pole_subtarget": "",
+        "chain_count": 3,
+        "use_tail": true,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      }
+    ],
+    "LeftHandIKTarget": [
+      {
+        "name": "DayZ WIK Control Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "WIK_L_Hand_Target",
+        "subtarget": "",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      },
+      {
+        "name": "DayZ WIK Control Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": false,
+        "influence": 1.0,
+        "target": "WIK_L_Hand_Target",
+        "subtarget": "",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      }
+    ],
+    "RightHandOrigin": [
+      {
+        "name": "DayZ WIK Control Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": true,
+        "influence": 1.0,
+        "target": "WIK_R_Hand_Target",
+        "subtarget": "",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      },
+      {
+        "name": "DayZ WIK Control Copy Rotation",
+        "type": "COPY_ROTATION",
+        "mute": true,
+        "influence": 1.0,
+        "target": "WIK_R_Hand_Target",
+        "subtarget": "",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      }
+    ],
+    "RightForeArmDirection": [
+      {
+        "name": "DayZ WIK Control Copy Location",
+        "type": "COPY_LOCATION",
+        "mute": true,
+        "influence": 1.0,
+        "target": "WIK_R_Elbow_Pole",
+        "subtarget": "",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "WORLD",
+        "target_space": "WORLD"
+      }
+    ],
+    "DZ_FirstPersonCamera": [
+      {
+        "name": "Child Of",
+        "type": "CHILD_OF",
+        "mute": false,
+        "influence": 1.0,
+        "target": "_DayZ_Character",
+        "subtarget": "Head",
+        "pole_target": null,
+        "pole_subtarget": "",
+        "chain_count": null,
+        "use_tail": null,
+        "owner_space": "POSE",
+        "target_space": "WORLD"
+      }
+    ]
+  },
+  "object_constraints": {
+    "1": {
+      "type": "MESH",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [
+        {
+          "name": "Child Of",
+          "type": "CHILD_OF",
+          "mute": false,
+          "target": "_DayZ_Character",
+          "subtarget": "Weapon_Root",
+          "influence": 1.0
+        }
+      ],
+      "props": {
+        "armaObjProps": "<bpy id prop: owner=\"OB1\", name=\"armaObjProps\", address=0x0000026D826077C0>",
+        "conform_object": "<bpy id prop: owner=\"OB1\", name=\"conform_object\", address=0x0000026D82606510>",
+        "xray": "<bpy id prop: owner=\"OB1\", name=\"xray\", address=0x0000026D82607E40>"
+      }
+    },
+    "1.001": {
+      "type": "MESH",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [
+        {
+          "name": "Child Of",
+          "type": "CHILD_OF",
+          "mute": false,
+          "target": "_DayZ_Character",
+          "subtarget": "Weapon_Magazine",
+          "influence": 1.0
+        }
+      ],
+      "props": {
+        "armaObjProps": "<bpy id prop: owner=\"OB1.001\", name=\"armaObjProps\", address=0x0000026D82608B40>",
+        "conform_object": "<bpy id prop: owner=\"OB1.001\", name=\"conform_object\", address=0x0000026D82609DF0>",
+        "xray": "<bpy id prop: owner=\"OB1.001\", name=\"xray\", address=0x0000026D82609770>",
+        "armaHFProps": "<bpy id prop: owner=\"OB1.001\", name=\"armaHFProps\", address=0x0000026D7C80B308>"
+      }
+    },
+    "WIK_L_Computed_Elbow_Pole": {
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [],
+      "props": {
+        "dayz_weaponik_computed_pole": true,
+        "xray": "<bpy id prop: owner=\"OBWIK_L_Computed_Elbow_Pole\", name=\"xray\", address=0x0000026D85DFD9F8>"
+      }
+    },
+    "WIK_L_Elbow_Pole": {
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [],
+      "props": {
+        "dayz_weaponik_control": true,
+        "drives_helper_bone": "LeftForeArmDirection",
+        "mode_note": "World-space control. Use Manual Authoring mode to drive helper bones.",
+        "xray": "<bpy id prop: owner=\"OBWIK_L_Elbow_Pole\", name=\"xray\", address=0x0000026D85DFD598>",
+        "dayz_weaponik_anatomical_pole": true
+      }
+    },
+    "WIK_L_Hand_Target": {
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [],
+      "props": {
+        "dayz_weaponik_control": true,
+        "drives_helper_bone": "LeftHandIKTarget",
+        "mode_note": "World-space control. Use Manual Authoring mode to drive helper bones.",
+        "xray": "<bpy id prop: owner=\"OBWIK_L_Hand_Target\", name=\"xray\", address=0x0000026D85DFF618>"
+      }
+    },
+    "WIK_R_Computed_Elbow_Pole": {
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [],
+      "props": {
+        "dayz_weaponik_computed_pole": true,
+        "xray": "<bpy id prop: owner=\"OBWIK_R_Computed_Elbow_Pole\", name=\"xray\", address=0x0000026D85DFD1D8>"
+      }
+    },
+    "WIK_R_Elbow_Pole": {
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [],
+      "props": {
+        "dayz_weaponik_control": true,
+        "drives_helper_bone": "RightForeArmDirection",
+        "mode_note": "World-space control. Use Manual Authoring mode to drive helper bones.",
+        "xray": "<bpy id prop: owner=\"OBWIK_R_Elbow_Pole\", name=\"xray\", address=0x0000026D85DFE8F8>",
+        "dayz_weaponik_anatomical_pole": true
+      }
+    },
+    "WIK_R_Hand_Target": {
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [],
+      "props": {
+        "dayz_weaponik_control": true,
+        "drives_helper_bone": "RightHandOrigin",
+        "mode_note": "World-space control. Use Manual Authoring mode to drive helper bones.",
+        "xray": "<bpy id prop: owner=\"OBWIK_R_Hand_Target\", name=\"xray\", address=0x0000026D85DFEAD8>"
+      }
+    },
+    "zzzCamera": {
+      "type": "CAMERA",
+      "parent": null,
+      "parent_bone": "",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "target": "_DayZ_Character",
+          "subtarget": "DZ_FirstPersonCamera",
+          "influence": 1.0
+        }
+      ],
+      "props": {
+        "xray": "<bpy id prop: owner=\"OBzzzCamera\", name=\"xray\", address=0x0000026D82608CE0>",
+        "conform_object": "<bpy id prop: owner=\"OBzzzCamera\", name=\"conform_object\", address=0x0000026D82609EC0>"
+      }
+    }
+  },
+  "actions": {
+    "aks74u": {
+      "frame_range": [
+        0.0,
+        1.0
+      ],
+      "groups": [
+        "LeftForeArmDirection",
+        "LeftForeArmDirectionOrigin",
+        "LeftHandIKTarget",
+        "LeftHandIndex1",
+        "LeftHandIndex2",
+        "LeftHandIndex3",
+        "LeftHandMiddle1",
+        "LeftHandMiddle2",
+        "LeftHandMiddle3",
+        "LeftHandOrigin",
+        "LeftHandPinky",
+        "LeftHandPinky1",
+        "LeftHandPinky2",
+        "LeftHandPinky3",
+        "LeftHandRing",
+        "LeftHandRing1",
+        "LeftHandRing2",
+        "LeftHandRing3",
+        "LeftHandThumb1",
+        "LeftHandThumb2",
+        "LeftHandThumb3",
+        "LeftHand_Dummy",
+        "RightForeArmDirection",
+        "RightForeArmDirectionOrigin",
+        "RightHandIndex1",
+        "RightHandIndex2",
+        "RightHandIndex3",
+        "RightHandMiddle1",
+        "RightHandMiddle2",
+        "RightHandMiddle3",
+        "RightHandOrigin",
+        "RightHandPinky",
+        "RightHandPinky1",
+        "RightHandPinky2",
+        "RightHandPinky3",
+        "RightHandRing",
+        "RightHandRing1",
+        "RightHandRing2",
+        "RightHandRing3",
+        "RightHandThumb1",
+        "RightHandThumb2",
+        "RightHandThumb3",
+        "RightHand_Dummy"
+      ],
+      "fcurves": 301
+    },
+    "p_rfl_erc_idle_ras": {
+      "frame_range": [
+        0.0,
+        172.0
+      ],
+      "groups": [
+        "Collision",
+        "EntityPosition",
+        "Head",
+        "LeftArm",
+        "LeftArmExtra",
+        "LeftArmRoll",
+        "LeftElbowExtra",
+        "LeftFoot",
+        "LeftForeArm",
+        "LeftForeArmExtra",
+        "LeftForeArmRoll",
+        "LeftHand",
+        "LeftHipExtra",
+        "LeftKneeExtra",
+        "LeftLeg",
+        "LeftLegRoll",
+        "LeftShoulder",
+        "LeftToeBase",
+        "LeftUpLeg",
+        "LeftUpLegRoll",
+        "LeftWristExtra",
+        "Neck",
+        "Neck1",
+        "Pelvis",
+        "RightArm",
+        "RightArmExtra",
+        "RightArmRoll",
+        "RightElbowExtra",
+        "RightFoot",
+        "RightForeArm",
+        "RightForeArmExtra",
+        "RightForeArmRoll",
+        "RightHand",
+        "RightHipExtra",
+        "RightKneeExtra",
+        "RightLeg",
+        "RightLegRoll",
+        "RightShoulder",
+        "RightToeBase",
+        "RightUpLeg",
+        "RightUpLegRoll",
+        "RightWristExtra",
+        "Spine",
+        "Spine1",
+        "Spine2",
+        "Spine3"
+      ],
+      "fcurves": 226
+    }
+  },
+  "nla": [
+    {
+      "track": "NlaTrack",
+      "mute": false,
+      "strip": "p_rfl_erc_idle_ras",
+      "action": "p_rfl_erc_idle_ras",
+      "influence": 1.0,
+      "blend": "REPLACE"
+    }
+  ],
+  "active_action": "aks74u"
+}

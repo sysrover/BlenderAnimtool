@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-11",
+  "status": "REJECTED_BY_RETAIL_DAYZ",
+  "rejection_reason": "Finger pose twisted into an invalid fist when non-helper transition channels were removed.",
+  "source_action": "DAT_Clean_IK1H",
+  "test_export": "P:\\BlenderAnimtool\\Research\\anm_reports\\ik1h-five-translation-tracks-test-v2.anm",
+  "total_tracks": 22,
+  "translation_tracks": [
+    "RightHand_Dummy",
+    "RightForeArmDirectionOrigin",
+    "RightHandOrigin",
+    "RightForeArmDirection",
+    "RightHand"
+  ],
+  "translation_track_count": 5,
+  "rotation_track_count": 22,
+  "missing_rotation_tracks": [],
+  "rotation_only_tracks": [
+    "RightHandIndex1",
+    "RightHandIndex2",
+    "RightHandIndex3",
+    "RightHandMiddle1",
+    "RightHandMiddle2",
+    "RightHandMiddle3",
+    "RightHandPinky",
+    "RightHandPinky1",
+    "RightHandPinky2",
+    "RightHandPinky3",
+    "RightHandRing",
+    "RightHandRing1",
+    "RightHandRing2",
+    "RightHandRing3",
+    "RightHandThumb1",
+    "RightHandThumb2",
+    "RightHandThumb3"
+  ],
+  "bake_control_matrix_max_error": 0.0,
+  "bake_finger_matrix_max_error": 0.0,
+  "source_installed_hashes_match": true,
+  "hashes_sha256": {
+    "AddSurvivorIK.py": "88EEDD2E92771972513D8FF690F6978CBE50CAD3E76F0CFDFA456D23DA966AAD",
+    "ExportAnm.py": "103AB999B2B72F496AC377603457A5C2EAA1799EDB8243BF0F75F876140D74B5"
+  }
+}

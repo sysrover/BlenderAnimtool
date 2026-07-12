@@ -1,0 +1,309 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_controlrig_v7_truejoint_rollfollow.blend",
+  "chains": {
+    "L": [
+      {
+        "bone": "LeftArm",
+        "head": [
+          -0.04805056005716324,
+          0.1310647428035736,
+          1.4355952739715576
+        ],
+        "tail": [
+          -0.10180159658193588,
+          0.21329264342784882,
+          1.4169028997421265
+        ],
+        "length": 0.10000003191525539,
+        "dir": [
+          -0.5375102162361145,
+          0.8222787976264954,
+          -0.18692368268966675
+        ],
+        "gap_from_prev_tail": null,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_Arm.L",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "LeftArmRoll",
+        "head": [
+          -0.15555259585380554,
+          0.2955204248428345,
+          1.3982106447219849
+        ],
+        "tail": [
+          -0.20930364727973938,
+          0.3777483403682709,
+          1.3795182704925537
+        ],
+        "length": 0.10000005287000444,
+        "dir": [
+          -0.5375102162361145,
+          0.8222786784172058,
+          -0.18692363798618317
+        ],
+        "gap_from_prev_tail": 0.09999989090714241,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Roll Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_Arm.L",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "LeftForeArm",
+        "head": [
+          -0.2039283961057663,
+          0.36952531337738037,
+          1.3813875913619995
+        ],
+        "tail": [
+          -0.10964581370353699,
+          0.40027090907096863,
+          1.3942524194717407
+        ],
+        "length": 0.10000000608561076,
+        "dir": [
+          0.9428257942199707,
+          0.30745595693588257,
+          0.1286482810974121
+        ],
+        "gap_from_prev_tail": 0.01000029299953932,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_ForeArm.L",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "LeftForeArmRoll",
+        "head": [
+          -0.011592179536819458,
+          0.43224623799324036,
+          1.407631754875183
+        ],
+        "tail": [
+          0.08269040286540985,
+          0.4629918336868286,
+          1.4204965829849243
+        ],
+        "length": 0.10000000608561076,
+        "dir": [
+          0.9428257942199707,
+          0.30745595693588257,
+          0.1286482810974121
+        ],
+        "gap_from_prev_tail": 0.10399972775453763,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Roll Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_ForeArm.L",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "LeftHand",
+        "head": [
+          0.055348508059978485,
+          0.45407557487487793,
+          1.4167656898498535
+        ],
+        "tail": [
+          0.1370343565940857,
+          0.5070921778678894,
+          1.3940355777740479
+        ],
+        "length": 0.09999998054699782,
+        "dir": [
+          0.8168586492538452,
+          0.5301661491394043,
+          -0.22730116546154022
+        ],
+        "gap_from_prev_tail": 0.028999973201889063,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_Hand.L",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      }
+    ],
+    "R": [
+      {
+        "bone": "RightArm",
+        "head": [
+          0.19592227041721344,
+          -0.028126545250415802,
+          1.4040647745132446
+        ],
+        "tail": [
+          0.28179290890693665,
+          0.022871609777212143,
+          1.3990215063095093
+        ],
+        "length": 0.10000006474799825,
+        "dir": [
+          0.8587058782577515,
+          0.5099812746047974,
+          -0.05043265223503113
+        ],
+        "gap_from_prev_tail": null,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_Arm.R",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "RightArmRoll",
+        "head": [
+          0.024181127548217773,
+          -0.1301228106021881,
+          1.4141513109207153
+        ],
+        "tail": [
+          0.11005177348852158,
+          -0.07912465929985046,
+          1.40910804271698
+        ],
+        "length": 0.100000069404608,
+        "dir": [
+          0.8587058782577515,
+          0.5099811553955078,
+          -0.05043264850974083
+        ],
+        "gap_from_prev_tail": 0.30000005143519515,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Roll Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_Arm.R",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "RightForeArm",
+        "head": [
+          -0.053102485835552216,
+          -0.17602120339870453,
+          1.4186903238296509
+        ],
+        "tail": [
+          -0.1269473433494568,
+          -0.11077459156513214,
+          1.401666283607483
+        ],
+        "length": 0.10000000659492776,
+        "dir": [
+          -0.7384485006332397,
+          0.6524660587310791,
+          -0.1702403873205185
+        ],
+        "gap_from_prev_tail": 0.19000018932148696,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_ForeArm.R",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "RightForeArmRoll",
+        "head": [
+          0.09754066914319992,
+          -0.3091241121292114,
+          1.4534193277359009
+        ],
+        "tail": [
+          0.023695774376392365,
+          -0.24387747049331665,
+          1.436395287513733
+        ],
+        "length": 0.10000005316104259,
+        "dir": [
+          -0.7384485006332397,
+          0.6524660587310791,
+          -0.17024029791355133
+        ],
+        "gap_from_prev_tail": 0.30399964094003534,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Roll Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_ForeArm.R",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      },
+      {
+        "bone": "RightHand",
+        "head": [
+          0.1499709188938141,
+          -0.35544949769973755,
+          1.4655065536499023
+        ],
+        "tail": [
+          0.1413285881280899,
+          -0.45503872632980347,
+          1.468208909034729
+        ],
+        "length": 0.10000003561917131,
+        "dir": [
+          -0.08642327785491943,
+          -0.9958919286727905,
+          0.027023542672395706
+        ],
+        "gap_from_prev_tail": 0.17100057683195247,
+        "constraints": [
+          {
+            "name": "DAT TrueJoint Follow Rotation",
+            "type": "COPY_ROTATION",
+            "target": "DAT_ControlRigV7",
+            "subtarget": "IK_Hand.R",
+            "owner_space": "WORLD",
+            "target_space": "WORLD"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_controlrig_v6_truejoint.blend",
+  "mode": "POSE",
+  "objects": [
+    {
+      "object": "_DayZ_Character",
+      "visible": [
+        "LeftShoulder",
+        "LeftArm",
+        "LeftArmRoll",
+        "LeftForeArm",
+        "LeftForeArmRoll",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightArmRoll",
+        "RightForeArm",
+        "RightForeArmRoll",
+        "RightHand",
+        "Weapon_Root",
+        "Weapon_Trigger",
+        "Weapon_Magazine",
+        "Weapon_Bolt"
+      ],
+      "bones": [
+        {
+          "bone": "LeftArm",
+          "parent": "LeftShoulder",
+          "head": [
+            -0.04805056005716324,
+            0.1310647428035736,
+            1.4355952739715576
+          ],
+          "tail": [
+            -0.10180159658193588,
+            0.21329264342784882,
+            1.4169028997421265
+          ],
+          "len": 0.10000003191525539,
+          "dir": [
+            -0.5375102162361145,
+            0.8222787976264954,
+            -0.18692368268966675
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Follow Rotation",
+              "type": "COPY_ROTATION",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "IK_Arm.L",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": null,
+              "pole": "",
+              "pole_angle": null
+            }
+          ]
+        },
+        {
+          "bone": "LeftForeArm",
+          "parent": "LeftArmRoll",
+          "head": [
+            -0.20392832159996033,
+            0.36952534317970276,
+            1.3813875913619995
+          ],
+          "tail": [
+            -0.10964573919773102,
+            0.400270938873291,
+            1.3942524194717407
+          ],
+          "len": 0.10000000608561076,
+          "dir": [
+            0.9428257942199707,
+            0.30745595693588257,
+            0.1286482810974121
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Follow Rotation",
+              "type": "COPY_ROTATION",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "IK_ForeArm.L",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": null,
+              "pole": "",
+              "pole_angle": null
+            }
+          ]
+        },
+        {
+          "bone": "LeftHand",
+          "parent": "LeftForeArmRoll",
+          "head": [
+            0.055348560214042664,
+            0.4540756642818451,
+            1.416765809059143
+          ],
+          "tail": [
+            0.13703441619873047,
+            0.507092297077179,
+            1.3940356969833374
+          ],
+          "len": 0.10000000150175764,
+          "dir": [
+            0.8168585300445557,
+            0.5301663279533386,
+            -0.22730112075805664
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Follow Rotation",
+              "type": "COPY_ROTATION",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "IK_Hand.L",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": null,
+              "pole": "",
+              "pole_angle": null
+            }
+          ]
+        },
+        {
+          "bone": "RightArm",
+          "parent": "RightShoulder",
+          "head": [
+            0.19592227041721344,
+            -0.028126545250415802,
+            1.4040647745132446
+          ],
+          "tail": [
+            0.28179290890693665,
+            0.022871609777212143,
+            1.3990215063095093
+          ],
+          "len": 0.10000006474799825,
+          "dir": [
+            0.8587058782577515,
+            0.5099812746047974,
+            -0.05043265223503113
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Follow Rotation",
+              "type": "COPY_ROTATION",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "IK_Arm.R",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": null,
+              "pole": "",
+              "pole_angle": null
+            }
+          ]
+        },
+        {
+          "bone": "RightForeArm",
+          "parent": "RightArmRoll",
+          "head": [
+            -0.05310229957103729,
+            -0.1760212779045105,
+            1.4186925888061523
+          ],
+          "tail": [
+            -0.12694714963436127,
+            -0.11077466607093811,
+            1.4016685485839844
+          ],
+          "len": 0.09999999961000867,
+          "dir": [
+            -0.7384485006332397,
+            0.6524661183357239,
+            -0.1702404022216797
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Follow Rotation",
+              "type": "COPY_ROTATION",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "IK_ForeArm.R",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": null,
+              "pole": "",
+              "pole_angle": null
+            }
+          ]
+        },
+        {
+          "bone": "RightHand",
+          "parent": "RightForeArmRoll",
+          "head": [
+            0.1499710977077484,
+            -0.3554496169090271,
+            1.4655086994171143
+          ],
+          "tail": [
+            0.14132876694202423,
+            -0.4550388753414154,
+            1.468211054801941
+          ],
+          "len": 0.10000006355883469,
+          "dir": [
+            -0.08642324805259705,
+            -0.9958919286727905,
+            0.02702353522181511
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Follow Rotation",
+              "type": "COPY_ROTATION",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "IK_Hand.R",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": null,
+              "pole": "",
+              "pole_angle": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "DAT_ControlRigV6",
+      "visible": [
+        "CTRL_Hand.L",
+        "CTRL_Elbow.L",
+        "CTRL_Hand.R",
+        "CTRL_Elbow.R"
+      ],
+      "bones": [
+        {
+          "bone": "IK_Arm.L",
+          "parent": null,
+          "head": [
+            -0.04805056005716324,
+            0.1310647428035736,
+            1.4355952739715576
+          ],
+          "tail": [
+            -0.2039283812046051,
+            0.36952534317970276,
+            1.3813875913619995
+          ],
+          "len": 0.2899997010960405,
+          "dir": [
+            -0.537510335445404,
+            0.8222788572311401,
+            -0.18692325055599213
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "IK_ForeArm.L",
+          "parent": "IK_Arm.L",
+          "head": [
+            -0.20392835140228271,
+            0.36952531337738037,
+            1.3813875913619995
+          ],
+          "tail": [
+            0.05534866452217102,
+            0.45407572388648987,
+            1.4167656898498535
+          ],
+          "len": 0.2749999118376043,
+          "dir": [
+            0.9428257942199707,
+            0.3074561357498169,
+            0.12864767014980316
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "IK_Hand.L",
+          "parent": "IK_ForeArm.L",
+          "head": [
+            0.05534863471984863,
+            0.45407575368881226,
+            1.416765570640564
+          ],
+          "tail": [
+            0.13703450560569763,
+            0.5070924162864685,
+            1.3940354585647583
+          ],
+          "len": 0.10000003060558342,
+          "dir": [
+            0.8168584704399109,
+            0.5301664471626282,
+            -0.22730106115341187
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Arm IK",
+              "type": "IK",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "CTRL_Hand.L",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": 3,
+              "pole": "CTRL_Elbow.L",
+              "pole_angle": -1.5707963705062866
+            }
+          ]
+        },
+        {
+          "bone": "IK_Arm.R",
+          "parent": null,
+          "head": [
+            0.19592227041721344,
+            -0.028126545250415802,
+            1.4040647745132446
+          ],
+          "tail": [
+            0.4449470639228821,
+            0.11976804584264755,
+            1.3894394636154175
+          ],
+          "len": 0.29000009582942404,
+          "dir": [
+            0.8587058782577515,
+            0.5099811553955078,
+            -0.05043208971619606
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "IK_ForeArm.R",
+          "parent": "IK_Arm.R",
+          "head": [
+            0.4449470341205597,
+            0.11976805329322815,
+            1.389439344406128
+          ],
+          "tail": [
+            0.24187330901622772,
+            0.2991965413093567,
+            1.3426231145858765
+          ],
+          "len": 0.2750005051319674,
+          "dir": [
+            -0.7384485006332397,
+            0.6524659991264343,
+            -0.17024052143096924
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "IK_Hand.R",
+          "parent": "IK_ForeArm.R",
+          "head": [
+            0.2418733388185501,
+            0.2991965413093567,
+            1.342622995376587
+          ],
+          "tail": [
+            0.23323100805282593,
+            0.19960720837116241,
+            1.3453253507614136
+          ],
+          "len": 0.10000013806456555,
+          "dir": [
+            -0.08642319589853287,
+            -0.9958919882774353,
+            0.027023518458008766
+          ],
+          "constraints": [
+            {
+              "name": "DAT TrueJoint Arm IK",
+              "type": "IK",
+              "target": "DAT_ControlRigV6",
+              "subtarget": "CTRL_Hand.R",
+              "owner_space": "WORLD",
+              "target_space": "WORLD",
+              "chain_count": 3,
+              "pole": "CTRL_Elbow.R",
+              "pole_angle": -1.5707963705062866
+            }
+          ]
+        },
+        {
+          "bone": "CTRL_Hand.L",
+          "parent": null,
+          "head": [
+            0.13703444600105286,
+            0.5070923566818237,
+            1.3940355777740479
+          ],
+          "tail": [
+            0.21872028708457947,
+            0.56010901927948,
+            1.3713054656982422
+          ],
+          "len": 0.10000000499421718,
+          "dir": [
+            0.8168583512306213,
+            0.5301665663719177,
+            -0.22730110585689545
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "CTRL_Elbow.L",
+          "parent": null,
+          "head": [
+            -0.543666422367096,
+            0.2729327976703644,
+            1.0179738998413086
+          ],
+          "tail": [
+            -0.543666422367096,
+            0.2729327976703644,
+            1.1979739665985107
+          ],
+          "len": 0.18000006442267535,
+          "dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "CTRL_Hand.R",
+          "parent": null,
+          "head": [
+            0.23323103785514832,
+            0.19960705935955048,
+            1.3453255891799927
+          ],
+          "tail": [
+            0.2245885580778122,
+            0.10001782327890396,
+            1.3480279445648193
+          ],
+          "len": 0.10000005781083167,
+          "dir": [
+            -0.08642474561929703,
+            -0.995891809463501,
+            0.027023538947105408
+          ],
+          "constraints": []
+        },
+        {
+          "bone": "CTRL_Elbow.R",
+          "parent": null,
+          "head": [
+            0.9481748342514038,
+            -0.24109473824501038,
+            1.0404331684112549
+          ],
+          "tail": [
+            0.9481748342514038,
+            -0.24109473824501038,
+            1.220433235168457
+          ],
+          "len": 0.18000006442267535,
+          "dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "constraints": []
+        }
+      ]
+    }
+  ]
+}

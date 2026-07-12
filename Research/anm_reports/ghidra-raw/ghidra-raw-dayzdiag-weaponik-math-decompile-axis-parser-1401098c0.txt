@@ -1,0 +1,44 @@
+
+undefined4 FUN_1401098c0(byte *param_1,undefined1 *param_2,undefined8 *param_3,undefined8 param_4)
+
+{
+  int iVar1;
+  uint uVar2;
+  
+  iVar1 = FUN_140148620(param_1,&DAT_140decdf4);
+  if (iVar1 == 0) {
+    *param_2 = 0;
+    return 1;
+  }
+  iVar1 = FUN_140148620(param_1,&DAT_140decdf8);
+  if (iVar1 == 0) {
+    *param_2 = 1;
+    return 1;
+  }
+  iVar1 = FUN_140148620(param_1,&DAT_140decdfc);
+  if (iVar1 == 0) {
+    *param_2 = 2;
+    return 1;
+  }
+  iVar1 = FUN_140148620(param_1,&DAT_140dece00);
+  if (iVar1 == 0) {
+    *param_2 = 3;
+    return 1;
+  }
+  iVar1 = FUN_140148620(param_1,&DAT_140dece04);
+  if (iVar1 == 0) {
+    *param_2 = 4;
+    return 1;
+  }
+  uVar2 = FUN_140148620(param_1,&DAT_140dece08);
+  if (uVar2 == 0) {
+    *param_2 = 5;
+    return 1;
+  }
+  if (param_3 != (undefined8 *)0x0) {
+    uVar2 = FUN_1400f8c90(param_3,"config:: undefined axis %s",param_1,param_4);
+  }
+  return uVar2 & 0xffffff00;
+}
+
+

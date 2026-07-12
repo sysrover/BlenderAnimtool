@@ -1,0 +1,25 @@
+{
+  "left_pole": [
+    0.2918398380279541,
+    -0.09338188171386719,
+    2.2050604820251465
+  ],
+  "right_pole": [
+    1.2284419536590576,
+    1.0891478061676025,
+    1.1246849298477173
+  ],
+  "left_ik": {
+    "target": "LeftHandIKTarget",
+    "pole_target": "WIK_L_Computed_Elbow_Pole",
+    "chain_count": 3,
+    "use_tail": false
+  },
+  "right_ik": {
+    "target": "RightHandOrigin",
+    "pole_target": "WIK_R_Computed_Elbow_Pole",
+    "chain_count": 3,
+    "use_tail": true
+  },
+  "note": "Computed pole follows DayZDiag origin + originRotation * direction rule for Blender preview."
+}

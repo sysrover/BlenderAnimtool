@@ -1,0 +1,38 @@
+[
+  {
+    "Class": "FbxLODGroup",
+    "VTable": "0x141cba4d8",
+    "SlotB8": "0x14110dff0",
+    "FirstBytes": "b812000000c3cccc"
+  },
+  {
+    "Class": "FbxNull",
+    "VTable": "0x141cd9530",
+    "SlotB8": "0x1411922e0",
+    "FirstBytes": "b801000000c3cccc"
+  },
+  {
+    "Class": "FbxMarker",
+    "VTable": "0x141cd93c0",
+    "SlotB8": "0x141190d70",
+    "FirstBytes": "b802000000c3cccc"
+  },
+  {
+    "Class": "FbxCamera",
+    "VTable": "0x141cd7cf8",
+    "SlotB8": "0x141180410",
+    "FirstBytes": "b807000000c3cccc"
+  },
+  {
+    "Class": "FbxLight",
+    "VTable": "0x141cd8d98",
+    "SlotB8": "0x14118ead0",
+    "FirstBytes": "b80a000000c3cccc"
+  },
+  {
+    "Class": "FbxSkeleton",
+    "VTable": "0x141cd9f00",
+    "SlotB8": "0x1411955f0",
+    "FirstBytes": "b803000000c3cccc"
+  }
+]

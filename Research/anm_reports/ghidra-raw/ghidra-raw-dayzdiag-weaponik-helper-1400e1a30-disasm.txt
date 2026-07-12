@@ -1,0 +1,91 @@
+1400e1a30: MOV R11,RSP 
+1400e1a33: MOV qword ptr [R11 + 0x18],RBX 
+1400e1a37: PUSH RBP 
+1400e1a38: PUSH RSI 
+1400e1a39: PUSH RDI 
+1400e1a3a: SUB RSP,0x90 
+1400e1a41: MOV RSI,qword ptr [RSP + 0xd8] 
+1400e1a49: XOR EAX,EAX 
+1400e1a4b: MOV dword ptr [R9],0xff7fffff 
+1400e1a52: MOV RDI,R9 
+1400e1a55: MOV qword ptr [R9 + 0x4],RAX 
+1400e1a59: MOV RBX,R8 
+1400e1a5c: MOV RBP,RCX 
+1400e1a5f: MOV dword ptr [RSI],0xff7fffff 
+1400e1a65: MOV qword ptr [RSI + 0x4],RAX 
+1400e1a69: CMP EDX,0xff 
+1400e1a6f: JZ 0x1400e1bc5 
+1400e1a75: CMP dword ptr [R8],0xff 
+1400e1a7c: JZ 0x1400e1bc5 
+1400e1a82: CMP dword ptr [R8 + 0x4],0xff 
+1400e1a8a: JZ 0x1400e1bc5 
+1400e1a90: MOV qword ptr [R11 + 0x8],R14 
+1400e1a94: MOV qword ptr [R11 + 0x10],R15 
+1400e1a98: CALL 0x1400d3b50 
+1400e1a9d: MOV EDX,dword ptr [RBX] 
+1400e1a9f: MOV RCX,RBP 
+1400e1aa2: MOV R15,RAX 
+1400e1aa5: CALL 0x1400d3b50 
+1400e1aaa: MOV EDX,dword ptr [RBX + 0x4] 
+1400e1aad: MOV RCX,RBP 
+1400e1ab0: MOV R14,RAX 
+1400e1ab3: CALL 0x1400d3b50 
+1400e1ab8: MOV RBX,RAX 
+1400e1abb: TEST R15,R15 
+1400e1abe: JZ 0x1400e1bb5 
+1400e1ac4: TEST R14,R14 
+1400e1ac7: JZ 0x1400e1bb5 
+1400e1acd: TEST RAX,RAX 
+1400e1ad0: JZ 0x1400e1bb5 
+1400e1ad6: MOVAPS XMM0,xmmword ptr [0x140de9e60] 
+1400e1add: LEA RDX,[RSP + 0x50] 
+1400e1ae2: XORPS XMM1,XMM1 
+1400e1ae5: MOVAPS xmmword ptr [RSP + 0x50],XMM0 
+1400e1aea: MOV RCX,R15 
+1400e1aed: MOVAPS xmmword ptr [RSP + 0x60],XMM1 
+1400e1af2: MOVAPS xmmword ptr [RSP + 0x30],XMM0 
+1400e1af7: MOVAPS xmmword ptr [RSP + 0x40],XMM1 
+1400e1afc: MOVAPS xmmword ptr [RSP + 0x70],XMM0 
+1400e1b01: MOVAPS xmmword ptr [RSP + 0x80],XMM1 
+1400e1b09: CALL 0x1400d39f0 
+1400e1b0e: MOVSS XMM0,dword ptr [RSP + 0x60] 
+1400e1b14: LEA RDX,[RSP + 0x30] 
+1400e1b19: MOVSS XMM1,dword ptr [RSP + 0x64] 
+1400e1b1f: MOV RCX,R14 
+1400e1b22: MOVSS dword ptr [RDI],XMM0 
+1400e1b26: MOVSS XMM0,dword ptr [RSP + 0x68] 
+1400e1b2c: MOVSS dword ptr [RDI + 0x8],XMM0 
+1400e1b31: MOVSS dword ptr [RDI + 0x4],XMM1 
+1400e1b36: CALL 0x1400d39f0 
+1400e1b3b: LEA RDX,[RSP + 0x70] 
+1400e1b40: MOV RCX,RBX 
+1400e1b43: CALL 0x1400d39f0 
+1400e1b48: MOV RAX,qword ptr [RSP + 0xd0] 
+1400e1b50: LEA R8,[RSP + 0x80] 
+1400e1b58: MOVSS XMM0,dword ptr [RSP + 0x40] 
+1400e1b5e: LEA RDX,[RSP + 0x20] 
+1400e1b63: MOVSS XMM1,dword ptr [RSP + 0x44] 
+1400e1b69: LEA RCX,[RSP + 0x30] 
+1400e1b6e: MOVSS dword ptr [RAX],XMM0 
+1400e1b72: MOVSS XMM0,dword ptr [RSP + 0x48] 
+1400e1b78: MOVSS dword ptr [RAX + 0x8],XMM0 
+1400e1b7d: MOVSS dword ptr [RAX + 0x4],XMM1 
+1400e1b82: CALL 0x14013fa00 
+1400e1b87: MOVSS XMM2,dword ptr [RSP + 0x40] 
+1400e1b8d: MOVSS XMM1,dword ptr [RSP + 0x44] 
+1400e1b93: MOVSS XMM0,dword ptr [RSP + 0x48] 
+1400e1b99: ADDSS XMM2,dword ptr [RAX] 
+1400e1b9d: ADDSS XMM1,dword ptr [RAX + 0x4] 
+1400e1ba2: ADDSS XMM0,dword ptr [RAX + 0x8] 
+1400e1ba7: MOVSS dword ptr [RSI],XMM2 
+1400e1bab: MOVSS dword ptr [RSI + 0x4],XMM1 
+1400e1bb0: MOVSS dword ptr [RSI + 0x8],XMM0 
+1400e1bb5: MOV R14,qword ptr [RSP + 0xb0] 
+1400e1bbd: MOV R15,qword ptr [RSP + 0xb8] 
+1400e1bc5: MOV RBX,qword ptr [RSP + 0xc0] 
+1400e1bcd: ADD RSP,0x90 
+1400e1bd4: POP RDI 
+1400e1bd5: POP RSI 
+1400e1bd6: POP RBP 
+1400e1bd7: RET 
+

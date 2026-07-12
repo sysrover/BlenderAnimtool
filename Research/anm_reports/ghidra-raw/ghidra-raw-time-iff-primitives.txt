@@ -1,0 +1,1154 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\AnmTimeAndIffPrimitivesTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 13:15:43 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\AnmTimeAndIffPrimitivesTrace.java
+Size: 3536 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+DATA_VALUES
+DATA_REQUEST 141ca4fa8
+  DATA 141ca4fa8 data=undefined8 422581D1AF600000h value=0x422581d1af600000
+  DATA 141ca4fac data=null value=<none>
+  DATA 141ca4fb0 data=FuncInfo  value=null
+  DATA 141ca4fb4 data=null value=<none>
+  DATA 141ca4fb8 data=null value=<none>
+  DATA 141ca4fbc data=null value=<none>
+  DATA 141ca4fc0 data=null value=<none>
+  DATA 141ca4fc4 data=null value=<none>
+  REF from=141087b47 fn=FUN_141087b40@141087b40
+  REF from=141087b88 fn=FUN_141087b80@141087b80
+  REF from=141089578 fn=FUN_1410894e0@1410894e0
+DATA_REQUEST 141a81ae8
+  DATA 141a81ae8 data=null value=<none>
+  DATA 141a81aec data=null value=<none>
+  DATA 141a81af0 data=null value=<none>
+  DATA 141a81af4 data=null value=<none>
+  DATA 141a81af8 data=null value=<none>
+  DATA 141a81afc data=null value=<none>
+  DATA 141a81b00 data=ds "ENGINE" value=ENGINE
+  DATA 141a81b04 data=null value=<none>
+  REF from=1402ba0e6 fn=FUN_1402ba0a0@1402ba0a0
+============================================================
+------------------------------------------------------------
+FUNCTION_REQUEST 1410879b0 -> FUN_1410879b0@1410879b0
+CALLERS
+  CALLER from=1410d778a fn=FUN_1410d7760@1410d7760
+  CALLER from=1410b4bcc fn=FUN_1410b4bb0@1410b4bb0
+  CALLER from=1410b4e30 fn=FUN_1410b4d50@1410b4d50
+  CALLER from=1410b4e3d fn=FUN_1410b4d50@1410b4d50
+  CALLER from=1410b4e91 fn=FUN_1410b4d50@1410b4d50
+  CALLER from=1410d7a2f fn=FUN_1410d7a00@1410d7a00
+  CALLER from=1410d7a38 fn=FUN_1410d7a00@1410d7a00
+  CALLER from=1410d821e fn=FUN_1410d80e0@1410d80e0
+  CALLER from=1410d8227 fn=FUN_1410d80e0@1410d80e0
+  CALLER from=141293d32 fn=FUN_141293c70@141293c70
+  CALLER from=1410d7797 fn=FUN_1410d7760@1410d7760
+DECOMPILE_BEGIN FUN_1410879b0 1410879b0
+
+undefined4 FUN_1410879b0(void)
+
+{
+  undefined *puVar1;
+  
+  puVar1 = &DAT_1458558a0;
+  if (DAT_1458557a0 != (undefined *)0x0) {
+    puVar1 = DAT_1458557a0;
+  }
+  DAT_1458557a0 = puVar1;
+  return *(undefined4 *)(puVar1 + 0x10);
+}
+
+
+DECOMPILE_END FUN_1410879b0 1410879b0
+INSTRUCTIONS_FIRST_80
+  INS 1410879b0 MOV RCX,qword ptr [0x1458557a0]
+  INS 1410879b7 LEA RAX,[0x1458558a0]
+  INS 1410879be TEST RCX,RCX
+  INS 1410879c1 CMOVNZ RAX,RCX
+  INS 1410879c5 MOV qword ptr [0x1458557a0],RAX
+  INS 1410879cc MOV EAX,dword ptr [RAX + 0x10]
+  INS 1410879cf RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1410894e0 -> FUN_1410894e0@1410894e0
+CALLERS
+  CALLER from=1410884cb fn=FUN_1410884c0@1410884c0
+  CALLER from=141088394 fn=FUN_141088370@141088370
+  CALLER from=1410883de fn=FUN_141088370@141088370
+  CALLER from=141088464 fn=FUN_141088450@141088450
+  CALLER from=14108850b fn=FUN_141088500@141088500
+  CALLER from=14108854b fn=FUN_141088540@141088540
+  CALLER from=141088add fn=FUN_141088640@141088640
+  CALLER from=141088ba6 fn=FUN_141088640@141088640
+  CALLER from=141088c6e fn=FUN_141088640@141088640
+  CALLER from=141088d6a fn=FUN_141088d00@141088d00
+  CALLER from=14108826d fn=FUN_141087cd0@141087cd0
+  CALLER from=1410897c7 fn=FUN_1410895e0@1410895e0
+DECOMPILE_BEGIN FUN_1410894e0 1410894e0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+longlong FUN_1410894e0(int param_1)
+
+{
+  undefined *puVar1;
+  
+  if (param_1 == 0) {
+    puVar1 = &DAT_1458558a0;
+    if (DAT_1458557a0 != (undefined *)0x0) {
+      puVar1 = DAT_1458557a0;
+    }
+    param_1 = *(int *)(puVar1 + 0x10);
+    DAT_1458557a0 = puVar1;
+  }
+  switch(param_1) {
+  case 1:
+    return 0x16f0dfaa;
+  case 2:
+    return 0x1b8772cc;
+  case 3:
+    return 0x2de1bf54;
+  case 4:
+    return 0x370ee598;
+  case 5:
+    return 0x395a2f29;
+  case 6:
+    return 0x5bc37ea8;
+  default:
+    return 0;
+  case 8:
+  case 9:
+    return 0x5bdafc7a;
+  case 10:
+    return 0x6e1dcb30;
+  case 0xb:
+    return 0x72b45e52;
+  case 0xc:
+    return 0x2c0beae;
+  case 0xd:
+    return 0x72d1bb99;
+  case 0xe:
+    return (longlong)(DAT_141ca4fa8 / _DAT_1458559e0);
+  case 0xf:
+    return 0x1cad1794;
+  case 0x10:
+    return 0x263c1f70;
+  case 0x11:
+    return 0x2ded7e3d;
+  }
+}
+
+
+DECOMPILE_END FUN_1410894e0 1410894e0
+INSTRUCTIONS_FIRST_80
+  INS 1410894e0 TEST ECX,ECX
+  INS 1410894e2 JNZ 0x141089503
+  INS 1410894e4 MOV RAX,qword ptr [0x1458557a0]
+  INS 1410894eb LEA RCX,[0x1458558a0]
+  INS 1410894f2 TEST RAX,RAX
+  INS 1410894f5 CMOVNZ RCX,RAX
+  INS 1410894f9 MOV qword ptr [0x1458557a0],RCX
+  INS 141089500 MOV ECX,dword ptr [RCX + 0x10]
+  INS 141089503 DEC ECX
+  INS 141089505 CMP ECX,0x10
+  INS 141089508 JA 0x14108958e
+  INS 14108950e MOVSXD RAX,ECX
+  INS 141089511 LEA RDX,[0x140000000]
+  INS 141089518 MOV ECX,dword ptr [RDX + RAX*0x4 + 0x1089594]
+  INS 14108951f ADD RCX,RDX
+  INS 141089522 JMP RCX
+  INS 141089524 MOV EAX,0x6e1dcb30
+  INS 141089529 RET
+  INS 14108952a MOV EAX,0x370ee598
+  INS 14108952f RET
+  INS 141089530 MOV EAX,0x1b8772cc
+  INS 141089535 RET
+  INS 141089536 MOV EAX,0x5bc37ea8
+  INS 14108953b RET
+  INS 14108953c MOV EAX,0x2de1bf54
+  INS 141089541 RET
+  INS 141089542 MOV EAX,0x16f0dfaa
+  INS 141089547 RET
+  INS 141089548 MOV EAX,0x2c0beae
+  INS 14108954d RET
+  INS 14108954e MOV EAX,0x72b45e52
+  INS 141089553 RET
+  INS 141089554 MOV EAX,0x395a2f29
+  INS 141089559 RET
+  INS 14108955a MOV EAX,0x263c1f70
+  INS 14108955f RET
+  INS 141089560 MOV EAX,0x1cad1794
+  INS 141089565 RET
+  INS 141089566 MOV EAX,0x5bdafc7a
+  INS 14108956b RET
+  INS 14108956c MOV EAX,0x72d1bb99
+  INS 141089571 RET
+  INS 141089572 MOV EAX,0x2ded7e3d
+  INS 141089577 RET
+  INS 141089578 MOVSD XMM0,qword ptr [0x141ca4fa8]
+  INS 141089580 DIVSD XMM0,qword ptr [0x1458559e0]
+  INS 141089588 CVTTSD2SI RAX,XMM0
+  INS 14108958d RET
+  INS 14108958e XOR EAX,EAX
+  INS 141089590 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 141087b40 -> FUN_141087b40@141087b40
+CALLERS
+  CALLER from=140e7590f fn=FUN_140e75770@140e75770
+  CALLER from=140e78414 fn=FUN_140e78260@140e78260
+  CALLER from=1410b509d fn=FUN_1410b4fa0@1410b4fa0
+  CALLER from=141149ef8 fn=FUN_141149e40@141149e40
+  CALLER from=1411ba464 fn=FUN_1411ba3a0@1411ba3a0
+  CALLER from=1412d37d5 fn=FUN_1412d3070@1412d3070
+  CALLER from=141227e1a fn=FUN_141226fd0@141226fd0
+  CALLER from=141227eb2 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412283ba fn=FUN_141226fd0@141226fd0
+  CALLER from=141228464 fn=FUN_141226fd0@141226fd0
+  CALLER from=14122f447 fn=FUN_14122f3b0@14122f3b0
+  CALLER from=1412d67ac fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d783a fn=FUN_1412d77a0@1412d77a0
+  CALLER from=141486b49 fn=FUN_141486300@141486300
+  CALLER from=1410ccc30 fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=141204aa6 fn=FUN_141204510@141204510
+  CALLER from=14120b5aa fn=FUN_14120b380@14120b380
+  CALLER from=1412c1290 fn=FUN_1412c10c0@1412c10c0
+  CALLER from=1411c25a3 fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c25db fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c2651 fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c2913 fn=FUN_1411c26b0@1411c26b0
+  CALLER from=1411c2942 fn=FUN_1411c26b0@1411c26b0
+  CALLER from=1411c29e4 fn=FUN_1411c26b0@1411c26b0
+  CALLER from=1411c2cc3 fn=FUN_1411c2a60@1411c2a60
+  CALLER from=1411c2cfb fn=FUN_1411c2a60@1411c2a60
+  CALLER from=1411c2d9a fn=FUN_1411c2a60@1411c2a60
+  CALLER from=14122a9aa fn=FUN_141229890@141229890
+  CALLER from=14122aa4d fn=FUN_141229890@141229890
+  CALLER from=14122af4d fn=FUN_141229890@141229890
+  CALLER from=14122aff5 fn=FUN_141229890@141229890
+  CALLER from=14122d624 fn=FUN_14122d5d0@14122d5d0
+  CALLER from=14122d251 fn=FUN_14122d1d0@14122d1d0
+  CALLER from=14122dbae fn=FUN_14122d9f0@14122d9f0
+  CALLER from=141360beb fn=FUN_141360b50@141360b50
+  CALLER from=1412c7884 fn=FUN_1412c7590@1412c7590
+  CALLER from=1412c7c04 fn=FUN_1412c7910@1412c7910
+  CALLER from=1412c7f84 fn=FUN_1412c7c90@1412c7c90
+  CALLER from=1412c8304 fn=FUN_1412c8010@1412c8010
+  CALLER from=1412c8684 fn=FUN_1412c8390@1412c8390
+  CALLER from=1412c956f fn=FUN_1412c92f0@1412c92f0
+  CALLER from=1412c987f fn=FUN_1412c9600@1412c9600
+  CALLER from=1412c9b8f fn=FUN_1412c9910@1412c9910
+  CALLER from=1412c9e9c fn=FUN_1412c9c20@1412c9c20
+  CALLER from=1412ca1ac fn=FUN_1412c9f30@1412c9f30
+  CALLER from=1412d2e80 fn=FUN_1412d2e50@1412d2e50
+  CALLER from=1412d2efd fn=FUN_1412d2ec0@1412d2ec0
+  CALLER from=1412d2f4c fn=FUN_1412d2ec0@1412d2ec0
+  CALLER from=1412daf7a fn=FUN_1412dae70@1412dae70
+  CALLER from=1415e0808 fn=FUN_1415e0000@1415e0000
+  CALLER from=1413539bf fn=FUN_141353910@141353910
+  CALLER from=141353a54 fn=FUN_141353910@141353910
+  CALLER from=1414c0c1a fn=FUN_1414c0ad0@1414c0ad0
+  CALLER from=1414c168e fn=FUN_1414c12b0@1414c12b0
+  CALLER from=141360f73 fn=FUN_141360e80@141360e80
+  CALLER from=1414c859a fn=FUN_1414c8200@1414c8200
+  CALLER from=1414c8ada fn=FUN_1414c8820@1414c8820
+  CALLER from=1414c9080 fn=FUN_1414c9000@1414c9000
+DECOMPILE_BEGIN FUN_141087b40 141087b40
+
+void FUN_141087b40(longlong *param_1,double param_2)
+
+{
+  if (0.0 <= param_2) {
+    *param_1 = (longlong)(param_2 * DAT_141ca4fa8 + DAT_141b1fd68);
+    return;
+  }
+  *param_1 = (longlong)(param_2 * DAT_141ca4fa8 - DAT_141b1fd68);
+  return;
+}
+
+
+DECOMPILE_END FUN_141087b40 141087b40
+INSTRUCTIONS_FIRST_80
+  INS 141087b40 XORPS XMM0,XMM0
+  INS 141087b43 COMISD XMM1,XMM0
+  INS 141087b47 MULSD XMM1,qword ptr [0x141ca4fa8]
+  INS 141087b4f JC 0x141087b62
+  INS 141087b51 ADDSD XMM1,qword ptr [0x141b1fd68]
+  INS 141087b59 CVTTSD2SI RAX,XMM1
+  INS 141087b5e MOV qword ptr [RCX],RAX
+  INS 141087b61 RET
+  INS 141087b62 SUBSD XMM1,qword ptr [0x141b1fd68]
+  INS 141087b6a CVTTSD2SI RAX,XMM1
+  INS 141087b6f MOV qword ptr [RCX],RAX
+  INS 141087b72 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 141089440 -> FUN_141089440@141089440
+CALLERS
+  CALLER from=140e75922 fn=FUN_140e75770@140e75770
+  CALLER from=140e7842a fn=FUN_140e78260@140e78260
+  CALLER from=1411f0957 fn=FUN_1411f0670@1411f0670
+  CALLER from=1411f0977 fn=FUN_1411f0670@1411f0670
+  CALLER from=1412d374d fn=FUN_1412d3070@1412d3070
+  CALLER from=1412d3b3f fn=FUN_1412d3070@1412d3070
+  CALLER from=1411c34e1 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c34f9 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c3638 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c36d6 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c3942 fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c157d fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c10ef fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c10ff fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1314 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1332 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1367 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=141224633 fn=FUN_1412244c0@1412244c0
+  CALLER from=14122464a fn=FUN_1412244c0@1412244c0
+  CALLER from=141224824 fn=FUN_1412244c0@1412244c0
+  CALLER from=14122483b fn=FUN_1412244c0@1412244c0
+  CALLER from=1411c435d fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c437a fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c44f1 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4602 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4734 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4a29 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4fc6 fn=FUN_1411c4250@1411c4250
+  CALLER from=141226714 fn=FUN_1412263b0@1412263b0
+  CALLER from=141227209 fn=FUN_141226fd0@141226fd0
+  CALLER from=141229126 fn=FUN_141228f70@141228f70
+  CALLER from=1411c3bd2 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c3bec fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c3d33 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c3e30 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c40b9 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1412d6907 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6a1e fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6a98 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6b02 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6b35 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d6d08 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d7031 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d70b0 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d71cc fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d71fe fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d760b fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d78cc fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1412d78f4 fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1412d7a9b fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1415d2898 fn=FUN_1415d24e0@1415d24e0
+  CALLER from=14110c9b8 fn=FUN_14110c8e0@14110c8e0
+  CALLER from=14110cedc fn=FUN_14110c8e0@14110c8e0
+  CALLER from=1411bb400 fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb5ff fn=FUN_1411bb2b0@1411bb2b0
+  CALLER from=1411bb921 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bb98a fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bb9d0 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbcb2 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbd1b fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411bbd60 fn=FUN_1411bb7b0@1411bb7b0
+  CALLER from=1411c5294 fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411c5342 fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411c563e fn=FUN_1411c51e0@1411c51e0
+  CALLER from=1411ca810 fn=FUN_1411ca710@1411ca710
+  CALLER from=1412e2343 fn=FUN_1412e1fa0@1412e1fa0
+  CALLER from=141229c1a fn=FUN_141229890@141229890
+  CALLER from=1414b28d7 fn=FUN_1414b2740@1414b2740
+  CALLER from=14136e02f fn=FUN_14136df10@14136df10
+  CALLER from=14136e1b5 fn=FUN_14136df10@14136df10
+  CALLER from=141381b9f fn=FUN_1413819f0@1413819f0
+  CALLER from=141381bbf fn=FUN_1413819f0@1413819f0
+  CALLER from=14139ec8d fn=FUN_14139ea90@14139ea90
+  CALLER from=14139ecad fn=FUN_14139ea90@14139ea90
+  CALLER from=1414c9edc fn=FUN_1414c9db0@1414c9db0
+DECOMPILE_BEGIN FUN_141089440 141089440
+
+longlong * FUN_141089440(longlong *param_1,longlong *param_2,longlong *param_3)
+
+{
+  *param_2 = *param_3 + *param_1;
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_141089440 141089440
+INSTRUCTIONS_FIRST_80
+  INS 141089440 MOV RAX,qword ptr [R8]
+  INS 141089443 ADD RAX,qword ptr [RCX]
+  INS 141089446 MOV qword ptr [RDX],RAX
+  INS 141089449 MOV RAX,RDX
+  INS 14108944c RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1410d7760 -> FUN_1410d7760@1410d7760
+CALLERS
+  CALLER from=14caae5cc fn=<none>
+  CALLER from=140e75eb1 fn=FUN_140e75c10@140e75c10
+  CALLER from=1411f5278 fn=FUN_1411f4ea0@1411f4ea0
+  CALLER from=1411f54e5 fn=FUN_1411f5460@1411f5460
+  CALLER from=14127f4b7 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f4e1 fn=FUN_14127eb40@14127eb40
+  CALLER from=141361fb5 fn=FUN_141361f90@141361f90
+  CALLER from=141392955 fn=FUN_141392870@141392870
+  CALLER from=1413823a0 fn=FUN_141382310@141382310
+  CALLER from=141398a84 fn=FUN_141398a70@141398a70
+  CALLER from=1413cc676 fn=FUN_1413cc620@1413cc620
+DECOMPILE_BEGIN FUN_1410d7760 1410d7760
+
+ulonglong FUN_1410d7760(longlong param_1)
+
+{
+  int iVar1;
+  ulonglong uVar2;
+  undefined4 local_res8 [2];
+  uint local_res10 [6];
+  
+  local_res8[0] = 10;
+  FUN_1410a2cd0(param_1 + 0x138,local_res10,local_res8);
+  uVar2 = (ulonglong)local_res10[0];
+  if (local_res10[0] == 0) {
+    iVar1 = FUN_1410879b0();
+    if (iVar1 != 0) {
+      uVar2 = FUN_1410879b0();
+      return uVar2;
+    }
+    uVar2 = 6;
+  }
+  return uVar2;
+}
+
+
+DECOMPILE_END FUN_1410d7760 1410d7760
+INSTRUCTIONS_FIRST_80
+  INS 1410d7760 SUB RSP,0x28
+  INS 1410d7764 ADD RCX,0x138
+  INS 1410d776b MOV dword ptr [RSP + 0x30],0xa
+  INS 1410d7773 LEA R8,[RSP + 0x30]
+  INS 1410d7778 LEA RDX,[RSP + 0x38]
+  INS 1410d777d CALL 0x1410a2cd0
+  INS 1410d7782 MOV EAX,dword ptr [RSP + 0x38]
+  INS 1410d7786 TEST EAX,EAX
+  INS 1410d7788 JNZ 0x1410d77a1
+  INS 1410d778a CALL 0x1410879b0
+  INS 1410d778f TEST EAX,EAX
+  INS 1410d7791 JZ 0x1410d779c
+  INS 1410d7793 ADD RSP,0x28
+  INS 1410d7797 JMP 0x1410879b0
+  INS 1410d779c MOV EAX,0x6
+  INS 1410d77a1 ADD RSP,0x28
+  INS 1410d77a5 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1410884c0 -> FUN_1410884c0@1410884c0
+CALLERS
+  CALLER from=14caaa648 fn=<none>
+  CALLER from=140e75ebc fn=FUN_140e75c10@140e75c10
+  CALLER from=14117f7b8 fn=FUN_14117f750@14117f750
+  CALLER from=14134226d fn=FUN_141342020@141342020
+  CALLER from=14134774a fn=FUN_141347470@141347470
+  CALLER from=1413489ae fn=FUN_141348570@141348570
+  CALLER from=1413496de fn=FUN_141349020@141349020
+  CALLER from=141349cb8 fn=FUN_141349020@141349020
+  CALLER from=14134afc4 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b757 fn=FUN_14134a7e0@14134a7e0
+DECOMPILE_BEGIN FUN_1410884c0 1410884c0
+
+longlong FUN_1410884c0(longlong *param_1,undefined4 param_2)
+
+{
+  longlong lVar1;
+  
+  lVar1 = FUN_1410894e0(param_2);
+  if (lVar1 != 0) {
+    return *param_1 / lVar1;
+  }
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1410884c0 1410884c0
+INSTRUCTIONS_FIRST_80
+  INS 1410884c0 PUSH RBX
+  INS 1410884c2 SUB RSP,0x20
+  INS 1410884c6 MOV RBX,RCX
+  INS 1410884c9 MOV ECX,EDX
+  INS 1410884cb CALL 0x1410894e0
+  INS 1410884d0 MOV R8,RAX
+  INS 1410884d3 TEST RAX,RAX
+  INS 1410884d6 JZ 0x1410884e6
+  INS 1410884d8 MOV RAX,qword ptr [RBX]
+  INS 1410884db CQO
+  INS 1410884dd IDIV R8
+  INS 1410884e0 ADD RSP,0x20
+  INS 1410884e4 POP RBX
+  INS 1410884e5 RET
+  INS 1410884e6 ADD RSP,0x20
+  INS 1410884ea POP RBX
+  INS 1410884eb RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba790 -> FUN_1402ba790@1402ba790
+CALLERS
+  CALLER from=14c9ef31c fn=<none>
+  CALLER from=1402ba3b8 fn=FUN_1402ba320@1402ba320
+DECOMPILE_BEGIN FUN_1402ba790 1402ba790
+
+void FUN_1402ba790(longlong param_1,short param_2)
+
+{
+  ushort local_res10 [12];
+  
+  local_res10[0] = param_2 >> 8 & 0xffU | param_2 << 8;
+  (**(code **)(**(longlong **)(param_1 + 0x110) + 0x28))
+            (*(longlong **)(param_1 + 0x110),local_res10,2);
+  return;
+}
+
+
+DECOMPILE_END FUN_1402ba790 1402ba790
+INSTRUCTIONS_FIRST_80
+  INS 1402ba790 SUB RSP,0x28
+  INS 1402ba794 MOV RCX,qword ptr [RCX + 0x110]
+  INS 1402ba79b MOVZX EAX,DX
+  INS 1402ba79e SAR AX,0x8
+  INS 1402ba7a2 MOV R8D,0xff
+  INS 1402ba7a8 AND AX,R8W
+  INS 1402ba7ac SHL DX,0x8
+  INS 1402ba7b0 OR AX,DX
+  INS 1402ba7b3 MOV R8D,0x2
+  INS 1402ba7b9 MOV word ptr [RSP + 0x38],AX
+  INS 1402ba7be LEA RDX,[RSP + 0x38]
+  INS 1402ba7c3 MOV RAX,qword ptr [RCX]
+  INS 1402ba7c6 CALL qword ptr [RAX + 0x28]
+  INS 1402ba7c9 ADD RSP,0x28
+  INS 1402ba7cd RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba7d0 -> FUN_1402ba7d0@1402ba7d0
+CALLERS
+  CALLER from=14c9ef328 fn=<none>
+  CALLER from=1402ba38d fn=FUN_1402ba320@1402ba320
+DECOMPILE_BEGIN FUN_1402ba7d0 1402ba7d0
+
+void FUN_1402ba7d0(longlong param_1,uint param_2)
+
+{
+  uint local_res10 [6];
+  
+  local_res10[0] =
+       (param_2 & 0xff00 | param_2 << 0x10) << 8 | (int)param_2 >> 8 & 0xff00U |
+       (int)param_2 >> 0x18 & 0xffU;
+  (**(code **)(**(longlong **)(param_1 + 0x110) + 0x28))
+            (*(longlong **)(param_1 + 0x110),local_res10,4);
+  return;
+}
+
+
+DECOMPILE_END FUN_1402ba7d0 1402ba7d0
+INSTRUCTIONS_FIRST_80
+  INS 1402ba7d0 SUB RSP,0x28
+  INS 1402ba7d4 MOV RCX,qword ptr [RCX + 0x110]
+  INS 1402ba7db MOV R8D,EDX
+  INS 1402ba7de AND R8D,0xff00
+  INS 1402ba7e5 MOV EAX,EDX
+  INS 1402ba7e7 SHL EAX,0x10
+  INS 1402ba7ea OR R8D,EAX
+  INS 1402ba7ed MOV EAX,EDX
+  INS 1402ba7ef SAR EAX,0x8
+  INS 1402ba7f2 AND EAX,0xff00
+  INS 1402ba7f7 SHL R8D,0x8
+  INS 1402ba7fb OR R8D,EAX
+  INS 1402ba7fe SAR EDX,0x18
+  INS 1402ba801 MOVZX EAX,DL
+  INS 1402ba804 LEA RDX,[RSP + 0x38]
+  INS 1402ba809 OR R8D,EAX
+  INS 1402ba80c MOV dword ptr [RSP + 0x38],R8D
+  INS 1402ba811 MOV R8D,0x4
+  INS 1402ba817 MOV RAX,qword ptr [RCX]
+  INS 1402ba81a CALL qword ptr [RAX + 0x28]
+  INS 1402ba81d ADD RSP,0x28
+  INS 1402ba821 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba8a0 -> FUN_1402ba8a0@1402ba8a0
+CALLERS
+  CALLER from=14c9ef34c fn=<none>
+  CALLER from=14053277c fn=FUN_1405326f0@1405326f0
+  CALLER from=14053278e fn=FUN_1405326f0@1405326f0
+  CALLER from=14053fa48 fn=FUN_14053f9c0@14053f9c0
+  CALLER from=14053fa5a fn=FUN_14053f9c0@14053f9c0
+  CALLER from=140546d5e fn=FUN_140546cd0@140546cd0
+  CALLER from=140546d94 fn=FUN_140546cd0@140546cd0
+  CALLER from=140546dec fn=FUN_140546cd0@140546cd0
+  CALLER from=14055028e fn=FUN_140550240@140550240
+  CALLER from=1405502a8 fn=FUN_140550240@140550240
+  CALLER from=1405502be fn=FUN_140550240@140550240
+  CALLER from=140550370 fn=FUN_140550240@140550240
+  CALLER from=140e087c3 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=1410695e1 fn=FUN_141068360@141068360
+  CALLER from=141069708 fn=FUN_141068360@141068360
+DECOMPILE_BEGIN FUN_1402ba8a0 1402ba8a0
+
+void FUN_1402ba8a0(longlong param_1,undefined2 *param_2)
+
+{
+  undefined2 local_res8 [16];
+  
+  local_res8[0] = *param_2;
+  (**(code **)(**(longlong **)(param_1 + 0x110) + 0x28))
+            (*(longlong **)(param_1 + 0x110),local_res8,2);
+  return;
+}
+
+
+DECOMPILE_END FUN_1402ba8a0 1402ba8a0
+INSTRUCTIONS_FIRST_80
+  INS 1402ba8a0 SUB RSP,0x28
+  INS 1402ba8a4 MOVZX EAX,word ptr [RDX]
+  INS 1402ba8a7 MOV R8D,0x2
+  INS 1402ba8ad MOV RCX,qword ptr [RCX + 0x110]
+  INS 1402ba8b4 LEA RDX,[RSP + 0x30]
+  INS 1402ba8b9 MOV word ptr [RSP + 0x30],AX
+  INS 1402ba8be MOV RAX,qword ptr [RCX]
+  INS 1402ba8c1 CALL qword ptr [RAX + 0x28]
+  INS 1402ba8c4 ADD RSP,0x28
+  INS 1402ba8c8 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba8d0 -> FUN_1402ba8d0@1402ba8d0
+CALLERS
+  CALLER from=14c9ef358 fn=<none>
+  CALLER from=140530553 fn=FUN_1405303c0@1405303c0
+  CALLER from=14053056f fn=FUN_1405303c0@1405303c0
+  CALLER from=14053057f fn=FUN_1405303c0@1405303c0
+  CALLER from=14053058f fn=FUN_1405303c0@1405303c0
+  CALLER from=1405305d9 fn=FUN_1405303c0@1405303c0
+  CALLER from=1405307c6 fn=FUN_1405303c0@1405303c0
+  CALLER from=1402ba283 fn=FUN_1402ba1f0@1402ba1f0
+  CALLER from=14053a630 fn=FUN_14053a5c0@14053a5c0
+  CALLER from=1402ba922 fn=FUN_1402ba900@1402ba900
+  CALLER from=1402ba95a fn=FUN_1402ba900@1402ba900
+  CALLER from=140550176 fn=FUN_140550140@140550140
+  CALLER from=140550182 fn=FUN_140550140@140550140
+  CALLER from=14055018e fn=FUN_140550140@140550140
+  CALLER from=1405501a2 fn=FUN_140550140@140550140
+  CALLER from=1405501b6 fn=FUN_140550140@140550140
+  CALLER from=1405501ca fn=FUN_140550140@140550140
+  CALLER from=1405501de fn=FUN_140550140@140550140
+  CALLER from=1405504c0 fn=FUN_1405504a0@1405504a0
+  CALLER from=140550502 fn=FUN_1405504a0@1405504a0
+  CALLER from=140550521 fn=FUN_1405504a0@1405504a0
+  CALLER from=140550540 fn=FUN_1405504a0@1405504a0
+  CALLER from=14055055f fn=FUN_1405504a0@1405504a0
+  CALLER from=14055056e fn=FUN_1405504a0@1405504a0
+  CALLER from=14055058d fn=FUN_1405504a0@1405504a0
+  CALLER from=1405505ac fn=FUN_1405504a0@1405504a0
+  CALLER from=140e086e9 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=140e08719 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=140e08732 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=140e08765 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=140e08919 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=140e08951 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=141069612 fn=FUN_141068360@141068360
+  CALLER from=14106963b fn=FUN_141068360@141068360
+  CALLER from=141069684 fn=FUN_141068360@141068360
+  CALLER from=1410696b8 fn=FUN_141068360@141068360
+  CALLER from=141069759 fn=FUN_141068360@141068360
+  CALLER from=1410697a1 fn=FUN_141068360@141068360
+DECOMPILE_BEGIN FUN_1402ba8d0 1402ba8d0
+
+void FUN_1402ba8d0(longlong param_1,undefined4 *param_2)
+
+{
+  undefined4 local_res8 [8];
+  
+  local_res8[0] = *param_2;
+  (**(code **)(**(longlong **)(param_1 + 0x110) + 0x28))
+            (*(longlong **)(param_1 + 0x110),local_res8,4);
+  return;
+}
+
+
+DECOMPILE_END FUN_1402ba8d0 1402ba8d0
+INSTRUCTIONS_FIRST_80
+  INS 1402ba8d0 SUB RSP,0x28
+  INS 1402ba8d4 MOV EAX,dword ptr [RDX]
+  INS 1402ba8d6 MOV R8D,0x4
+  INS 1402ba8dc MOV RCX,qword ptr [RCX + 0x110]
+  INS 1402ba8e3 LEA RDX,[RSP + 0x30]
+  INS 1402ba8e8 MOV dword ptr [RSP + 0x30],EAX
+  INS 1402ba8ec MOV RAX,qword ptr [RCX]
+  INS 1402ba8ef CALL qword ptr [RAX + 0x28]
+  INS 1402ba8f2 ADD RSP,0x28
+  INS 1402ba8f6 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba900 -> FUN_1402ba900@1402ba900
+CALLERS
+  CALLER from=14c9ef364 fn=<none>
+  CALLER from=140546caa fn=FUN_140546c20@140546c20
+DECOMPILE_BEGIN FUN_1402ba900 1402ba900
+
+void FUN_1402ba900(longlong param_1,char *param_2)
+
+{
+  char cVar1;
+  int iVar2;
+  char *pcVar3;
+  int local_res10 [2];
+  
+  pcVar3 = param_2;
+  if (param_2 != (char *)0x0) {
+    do {
+      cVar1 = *pcVar3;
+      pcVar3 = pcVar3 + 1;
+    } while (cVar1 != '\0');
+    iVar2 = (int)pcVar3 - (int)param_2;
+    local_res10[0] = iVar2;
+    FUN_1402ba8d0(param_1,local_res10);
+                    /* WARNING: Could not recover jumptable at 0x0001402ba97e. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(**(longlong **)(param_1 + 0x110) + 0x28))
+              (*(longlong **)(param_1 + 0x110),param_2,iVar2);
+    return;
+  }
+  local_res10[0] = -1;
+  FUN_1402ba8d0(param_1,local_res10);
+  return;
+}
+
+
+DECOMPILE_END FUN_1402ba900 1402ba900
+INSTRUCTIONS_FIRST_80
+  INS 1402ba900 MOV qword ptr [RSP + 0x18],RSI
+  INS 1402ba905 PUSH RDI
+  INS 1402ba906 SUB RSP,0x20
+  INS 1402ba90a MOV RDI,RDX
+  INS 1402ba90d MOV RSI,RCX
+  INS 1402ba910 TEST RDX,RDX
+  INS 1402ba913 JNZ 0x1402ba932
+  INS 1402ba915 LEA RDX,[RSP + 0x38]
+  INS 1402ba91a MOV dword ptr [RSP + 0x38],0xffffffff
+  INS 1402ba922 CALL 0x1402ba8d0
+  INS 1402ba927 MOV RSI,qword ptr [RSP + 0x40]
+  INS 1402ba92c ADD RSP,0x20
+  INS 1402ba930 POP RDI
+  INS 1402ba931 RET
+  INS 1402ba932 MOV qword ptr [RSP + 0x30],RBX
+  INS 1402ba937 MOV RAX,RDI
+  INS 1402ba93a NOP word ptr [RAX + RAX*0x1]
+  INS 1402ba940 MOVZX ECX,byte ptr [RAX]
+  INS 1402ba943 INC RAX
+  INS 1402ba946 TEST CL,CL
+  INS 1402ba948 JNZ 0x1402ba940
+  INS 1402ba94a SUB EAX,EDI
+  INS 1402ba94c LEA RDX,[RSP + 0x38]
+  INS 1402ba951 MOV EBX,EAX
+  INS 1402ba953 MOV RCX,RSI
+  INS 1402ba956 MOV dword ptr [RSP + 0x38],EBX
+  INS 1402ba95a CALL 0x1402ba8d0
+  INS 1402ba95f MOV RCX,qword ptr [RSI + 0x110]
+  INS 1402ba966 MOV R8D,EBX
+  INS 1402ba969 MOV RDX,RDI
+  INS 1402ba96c MOV RAX,qword ptr [RCX]
+  INS 1402ba96f MOV RBX,qword ptr [RSP + 0x30]
+  INS 1402ba974 MOV RSI,qword ptr [RSP + 0x40]
+  INS 1402ba979 ADD RSP,0x20
+  INS 1402ba97d POP RDI
+  INS 1402ba97e JMP qword ptr [RAX + 0x28]
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba1f0 -> FUN_1402ba1f0@1402ba1f0
+CALLERS
+  CALLER from=14c9ef280 fn=<none>
+  CALLER from=140530512 fn=FUN_1405303c0@1405303c0
+  CALLER from=140e086ac fn=FUN_140e06fd0@140e06fd0
+  CALLER from=141068421 fn=FUN_141068360@141068360
+  CALLER from=141079059 fn=FUN_1410783a0@1410783a0
+DECOMPILE_BEGIN FUN_1402ba1f0 1402ba1f0
+
+undefined8 FUN_1402ba1f0(longlong *param_1,longlong *param_2,undefined8 param_3,int param_4)
+
+{
+  char cVar1;
+  int iVar2;
+  int local_res8 [2];
+  
+  (**(code **)(*param_1 + 0x18))();
+  param_1[0x22] = (longlong)param_2;
+  if ((param_2 != (longlong *)0x0) && (cVar1 = (**(code **)(*param_2 + 8))(param_2), cVar1 != '\0'))
+  {
+    local_res8[0] = 0x4d524f46;
+    iVar2 = FUN_1402ba0a0(param_1,local_res8);
+    if (iVar2 != 0) {
+      (**(code **)(*(longlong *)param_1[0x22] + 0x28))((longlong *)param_1[0x22],param_3,4);
+      if (param_4 != 0) {
+        local_res8[0] = 0x53524556;
+        FUN_1402ba0a0(param_1,local_res8);
+        local_res8[0] = param_4;
+        FUN_1402ba8d0(param_1,local_res8);
+        FUN_1402ba320(param_1);
+      }
+      *(undefined1 *)((longlong)param_1 + 0x10c) = 1;
+      return 1;
+    }
+  }
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1402ba1f0 1402ba1f0
+INSTRUCTIONS_FIRST_80
+  INS 1402ba1f0 MOV qword ptr [RSP + 0x10],RBX
+  INS 1402ba1f5 MOV qword ptr [RSP + 0x18],RBP
+  INS 1402ba1fa MOV qword ptr [RSP + 0x20],RSI
+  INS 1402ba1ff PUSH RDI
+  INS 1402ba200 SUB RSP,0x20
+  INS 1402ba204 MOV RAX,qword ptr [RCX]
+  INS 1402ba207 MOV ESI,R9D
+  INS 1402ba20a MOV RBP,R8
+  INS 1402ba20d MOV RDI,RDX
+  INS 1402ba210 MOV RBX,RCX
+  INS 1402ba213 CALL qword ptr [RAX + 0x18]
+  INS 1402ba216 MOV qword ptr [RBX + 0x110],RDI
+  INS 1402ba21d TEST RDI,RDI
+  INS 1402ba220 JZ 0x1402ba29b
+  INS 1402ba222 MOV RAX,qword ptr [RDI]
+  INS 1402ba225 MOV RCX,RDI
+  INS 1402ba228 CALL qword ptr [RAX + 0x8]
+  INS 1402ba22b TEST AL,AL
+  INS 1402ba22d JZ 0x1402ba29b
+  INS 1402ba22f LEA RDX,[RSP + 0x30]
+  INS 1402ba234 MOV dword ptr [RSP + 0x30],0x4d524f46
+  INS 1402ba23c MOV RCX,RBX
+  INS 1402ba23f CALL 0x1402ba0a0
+  INS 1402ba244 TEST EAX,EAX
+  INS 1402ba246 JZ 0x1402ba29b
+  INS 1402ba248 MOV RCX,qword ptr [RBX + 0x110]
+  INS 1402ba24f MOV R8D,0x4
+  INS 1402ba255 MOV RDX,RBP
+  INS 1402ba258 MOV RAX,qword ptr [RCX]
+  INS 1402ba25b CALL qword ptr [RAX + 0x28]
+  INS 1402ba25e TEST ESI,ESI
+  INS 1402ba260 JZ 0x1402ba290
+  INS 1402ba262 LEA RDX,[RSP + 0x30]
+  INS 1402ba267 MOV dword ptr [RSP + 0x30],0x53524556
+  INS 1402ba26f MOV RCX,RBX
+  INS 1402ba272 CALL 0x1402ba0a0
+  INS 1402ba277 LEA RDX,[RSP + 0x30]
+  INS 1402ba27c MOV dword ptr [RSP + 0x30],ESI
+  INS 1402ba280 MOV RCX,RBX
+  INS 1402ba283 CALL 0x1402ba8d0
+  INS 1402ba288 MOV RCX,RBX
+  INS 1402ba28b CALL 0x1402ba320
+  INS 1402ba290 MOV byte ptr [RBX + 0x10c],0x1
+  INS 1402ba297 MOV AL,0x1
+  INS 1402ba299 JMP 0x1402ba29d
+  INS 1402ba29b XOR AL,AL
+  INS 1402ba29d MOV RBX,qword ptr [RSP + 0x38]
+  INS 1402ba2a2 MOV RBP,qword ptr [RSP + 0x40]
+  INS 1402ba2a7 MOV RSI,qword ptr [RSP + 0x48]
+  INS 1402ba2ac ADD RSP,0x20
+  INS 1402ba2b0 POP RDI
+  INS 1402ba2b1 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402ba180 -> FUN_1402ba180@1402ba180
+CALLERS
+  CALLER from=14c9ef274 fn=<none>
+  CALLER from=1402b9f73 fn=FUN_1402b9f60@1402b9f60
+  CALLER from=14053089a fn=FUN_1405303c0@1405303c0
+  CALLER from=140e089ce fn=FUN_140e06fd0@140e06fd0
+  CALLER from=1410697e9 fn=FUN_141068360@141068360
+  CALLER from=14107d512 fn=FUN_1410783a0@1410783a0
+  CALLER from=141a81ad8 fn=<none>
+DECOMPILE_BEGIN FUN_1402ba180 1402ba180
+
+void FUN_1402ba180(longlong param_1)
+
+{
+  longlong *plVar1;
+  
+  plVar1 = *(longlong **)(param_1 + 0x110);
+  if (plVar1 != (longlong *)0x0) {
+    if (*(int *)(param_1 + 0x108) != 0) {
+      FUN_1402ba320(param_1);
+      plVar1 = *(longlong **)(param_1 + 0x110);
+    }
+    (**(code **)(*plVar1 + 0x20))();
+    *(undefined8 *)(param_1 + 0x110) = 0;
+    *(undefined1 *)(param_1 + 0x10c) = 0;
+    *(undefined4 *)(param_1 + 0x108) = 0;
+    return;
+  }
+  *(undefined1 *)(param_1 + 0x10c) = 0;
+  *(undefined4 *)(param_1 + 0x108) = 0;
+  return;
+}
+
+
+DECOMPILE_END FUN_1402ba180 1402ba180
+INSTRUCTIONS_FIRST_80
+  INS 1402ba180 PUSH RBX
+  INS 1402ba182 SUB RSP,0x20
+  INS 1402ba186 MOV RBX,RCX
+  INS 1402ba189 MOV RCX,qword ptr [RCX + 0x110]
+  INS 1402ba190 TEST RCX,RCX
+  INS 1402ba193 JZ 0x1402ba1ce
+  INS 1402ba195 CMP dword ptr [RBX + 0x108],0x0
+  INS 1402ba19c JZ 0x1402ba1ad
+  INS 1402ba19e MOV RCX,RBX
+  INS 1402ba1a1 CALL 0x1402ba320
+  INS 1402ba1a6 MOV RCX,qword ptr [RBX + 0x110]
+  INS 1402ba1ad MOV RAX,qword ptr [RCX]
+  INS 1402ba1b0 CALL qword ptr [RAX + 0x20]
+  INS 1402ba1b3 XOR EAX,EAX
+  INS 1402ba1b5 MOV qword ptr [RBX + 0x110],RAX
+  INS 1402ba1bc MOV byte ptr [RBX + 0x10c],AL
+  INS 1402ba1c2 MOV dword ptr [RBX + 0x108],EAX
+  INS 1402ba1c8 ADD RSP,0x20
+  INS 1402ba1cc POP RBX
+  INS 1402ba1cd RET
+  INS 1402ba1ce XOR EAX,EAX
+  INS 1402ba1d0 MOV byte ptr [RBX + 0x10c],AL
+  INS 1402ba1d6 MOV dword ptr [RBX + 0x108],EAX
+  INS 1402ba1dc ADD RSP,0x20
+  INS 1402ba1e0 POP RBX
+  INS 1402ba1e1 RET
+------------------------------------------------------------
+FUNCTION_REQUEST 1402b9e20 -> FUN_1402b9e20@1402b9e20
+CALLERS
+  CALLER from=14052eead fn=FUN_14052edc0@14052edc0
+  CALLER from=140530482 fn=FUN_1405303c0@1405303c0
+  CALLER from=1402082e3 fn=FUN_140208290@140208290
+  CALLER from=1402b9e98 fn=FUN_1402b9e80@1402b9e80
+  CALLER from=1402b9ee8 fn=FUN_1402b9ed0@1402b9ed0
+  CALLER from=14045de66 fn=FUN_14045de40@14045de40
+  CALLER from=140517d90 fn=FUN_140517d60@140517d60
+  CALLER from=14056889d fn=FUN_140568690@140568690
+  CALLER from=140e07fe9 fn=FUN_140e06fd0@140e06fd0
+  CALLER from=1410683f2 fn=FUN_141068360@141068360
+  CALLER from=141078422 fn=FUN_1410783a0@1410783a0
+DECOMPILE_BEGIN FUN_1402b9e20 1402b9e20
+
+undefined8 * FUN_1402b9e20(undefined8 *param_1)
+
+{
+  *param_1 = enf::IFF::vftable;
+  *(undefined4 *)(param_1 + 1) = 0;
+  *(undefined4 *)(param_1 + 3) = 0;
+  *(undefined4 *)(param_1 + 5) = 0;
+  *(undefined4 *)(param_1 + 7) = 0;
+  *(undefined4 *)(param_1 + 9) = 0;
+  *(undefined4 *)(param_1 + 0xb) = 0;
+  *(undefined4 *)(param_1 + 0xd) = 0;
+  *(undefined4 *)(param_1 + 0xf) = 0;
+  *(undefined4 *)(param_1 + 0x11) = 0;
+  *(undefined4 *)(param_1 + 0x13) = 0;
+  *(undefined4 *)(param_1 + 0x15) = 0;
+  *(undefined4 *)(param_1 + 0x17) = 0;
+  *(undefined4 *)(param_1 + 0x19) = 0;
+  *(undefined4 *)(param_1 + 0x1b) = 0;
+  *(undefined4 *)(param_1 + 0x1d) = 0;
+  *(undefined4 *)(param_1 + 0x1f) = 0;
+  *(undefined1 *)((longlong)param_1 + 0x10c) = 0;
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1402b9e20 1402b9e20
+INSTRUCTIONS_FIRST_80
+  INS 1402b9e20 LEA RAX,[0x141a75880]
+  INS 1402b9e27 MOV qword ptr [RCX],RAX
+  INS 1402b9e2a XOR EAX,EAX
+  INS 1402b9e2c MOV dword ptr [RCX + 0x8],EAX
+  INS 1402b9e2f MOV dword ptr [RCX + 0x18],EAX
+  INS 1402b9e32 MOV dword ptr [RCX + 0x28],EAX
+  INS 1402b9e35 MOV dword ptr [RCX + 0x38],EAX
+  INS 1402b9e38 MOV dword ptr [RCX + 0x48],EAX
+  INS 1402b9e3b MOV dword ptr [RCX + 0x58],EAX
+  INS 1402b9e3e MOV dword ptr [RCX + 0x68],EAX
+  INS 1402b9e41 MOV dword ptr [RCX + 0x78],EAX
+  INS 1402b9e44 MOV dword ptr [RCX + 0x88],EAX
+  INS 1402b9e4a MOV dword ptr [RCX + 0x98],EAX
+  INS 1402b9e50 MOV dword ptr [RCX + 0xa8],EAX
+  INS 1402b9e56 MOV dword ptr [RCX + 0xb8],EAX
+  INS 1402b9e5c MOV dword ptr [RCX + 0xc8],EAX
+  INS 1402b9e62 MOV dword ptr [RCX + 0xd8],EAX
+  INS 1402b9e68 MOV dword ptr [RCX + 0xe8],EAX
+  INS 1402b9e6e MOV dword ptr [RCX + 0xf8],EAX
+  INS 1402b9e74 MOV byte ptr [RCX + 0x10c],AL
+  INS 1402b9e7a MOV RAX,RCX
+  INS 1402b9e7d RET
+SCRIPT COMPLETED AnmTimeAndIffPrimitivesTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

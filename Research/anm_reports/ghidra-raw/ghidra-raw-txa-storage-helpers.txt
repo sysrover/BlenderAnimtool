@@ -1,0 +1,558 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\TxaStorageHelpersTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:36:56 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\TxaStorageHelpersTrace.java
+Size: 2233 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+FUNCTION_REQUEST 141055a40 -> FUN_141055a40@141055a40
+DECOMPILE_BEGIN FUN_141055a40 141055a40
+
+void FUN_141055a40(longlong param_1,char *param_2,char *param_3)
+
+{
+  uint uVar1;
+  longlong *plVar2;
+  char cVar3;
+  uint uVar4;
+  undefined8 *puVar5;
+  uint uVar6;
+  int iVar7;
+  char *pcVar8;
+  longlong lVar9;
+  
+  plVar2 = (longlong *)(param_1 + 0x70);
+  uVar6 = *(uint *)(param_1 + 0x7c);
+  uVar4 = *(uint *)(param_1 + 0x78);
+  uVar1 = uVar6 + 1;
+  if (uVar4 < uVar1) {
+    uVar6 = uVar4 + 4;
+    if (3 < uVar4 + 1) {
+      uVar6 = uVar4 * 2 + 1;
+    }
+    if (uVar1 <= uVar6) {
+      uVar1 = uVar6;
+    }
+    FUN_141056410(plVar2,uVar1);
+    uVar6 = *(uint *)(param_1 + 0x7c);
+  }
+  lVar9 = *plVar2;
+  puVar5 = (undefined8 *)((ulonglong)uVar6 * 0x10 + lVar9);
+  if (puVar5 != (undefined8 *)0x0) {
+    *puVar5 = 0;
+    puVar5[1] = 0;
+    uVar6 = *(uint *)(param_1 + 0x7c);
+    lVar9 = *plVar2;
+  }
+  lVar9 = (ulonglong)uVar6 * 0x10 + lVar9;
+  *(uint *)(param_1 + 0x7c) = uVar6 + 1;
+  pcVar8 = param_2;
+  if (param_2 == (char *)0x0) {
+    iVar7 = 0;
+  }
+  else {
+    do {
+      cVar3 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar3 != '\0');
+    iVar7 = ((int)pcVar8 - (int)param_2) + -1;
+  }
+  FUN_14006e870(lVar9,param_2,iVar7);
+  pcVar8 = param_3;
+  if (param_3 == (char *)0x0) {
+    iVar7 = 0;
+  }
+  else {
+    do {
+      cVar3 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar3 != '\0');
+    iVar7 = ((int)pcVar8 - (int)param_3) + -1;
+  }
+  FUN_14006e870(lVar9 + 8,param_3,iVar7);
+  return;
+}
+
+
+DECOMPILE_END FUN_141055a40 141055a40
+CALLS
+  CALL from=141055a90 ins=CALL 0x141056410
+  CALL from=141055af0 ins=CALL 0x14006e870
+  CALL from=141055b31 ins=JMP 0x14006e870
+FUNCTION_REQUEST 141055b40 -> FUN_141055b40@141055b40
+DECOMPILE_BEGIN FUN_141055b40 141055b40
+
+void FUN_141055b40(longlong param_1,undefined4 param_2,char *param_3,char *param_4,
+                  undefined4 param_5)
+
+{
+  uint uVar1;
+  longlong *plVar2;
+  char cVar3;
+  uint uVar4;
+  int iVar5;
+  int iVar6;
+  undefined8 *puVar7;
+  char *pcVar8;
+  longlong lVar9;
+  undefined4 *puVar10;
+  uint uVar11;
+  
+  plVar2 = (longlong *)(param_1 + 0x60);
+  uVar11 = *(uint *)(param_1 + 0x6c);
+  uVar4 = *(uint *)(param_1 + 0x68);
+  uVar1 = uVar11 + 1;
+  if (uVar4 < uVar1) {
+    uVar11 = uVar4 + 4;
+    if (3 < uVar4 + 1) {
+      uVar11 = uVar4 * 2 + 1;
+    }
+    if (uVar1 <= uVar11) {
+      uVar1 = uVar11;
+    }
+    FUN_140d5df00(plVar2,uVar1);
+    uVar11 = *(uint *)(param_1 + 0x6c);
+  }
+  lVar9 = *plVar2;
+  puVar7 = (undefined8 *)((ulonglong)uVar11 * 0x20 + lVar9);
+  if (puVar7 != (undefined8 *)0x0) {
+    *puVar7 = 0;
+    puVar7[3] = 0;
+    puVar7[1] = 0;
+    puVar7[2] = 0;
+    uVar11 = *(uint *)(param_1 + 0x6c);
+    lVar9 = *plVar2;
+  }
+  puVar10 = (undefined4 *)((ulonglong)uVar11 * 0x20 + lVar9);
+  *(uint *)(param_1 + 0x6c) = uVar11 + 1;
+  *puVar10 = param_2;
+  iVar5 = 0;
+  pcVar8 = param_3;
+  iVar6 = iVar5;
+  if (param_3 != (char *)0x0) {
+    do {
+      cVar3 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar3 != '\0');
+    iVar6 = ((int)pcVar8 - (int)param_3) + -1;
+  }
+  FUN_14006e870(puVar10 + 2,param_3,iVar6);
+  pcVar8 = param_4;
+  if (param_4 != (char *)0x0) {
+    do {
+      cVar3 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+    } while (cVar3 != '\0');
+    iVar5 = ((int)pcVar8 - (int)param_4) + -1;
+  }
+  FUN_14006e870(puVar10 + 4,param_4,iVar5);
+  puVar10[6] = param_5;
+  return;
+}
+
+
+DECOMPILE_END FUN_141055b40 141055b40
+CALLS
+  CALL from=141055b96 ins=CALL 0x140d5df00
+  CALL from=141055c00 ins=CALL 0x14006e870
+  CALL from=141055c2d ins=CALL 0x14006e870
+FUNCTION_REQUEST 141058640 -> FUN_141058640@141058640
+DECOMPILE_BEGIN FUN_141058640 141058640
+
+void FUN_141058640(longlong *param_1,undefined8 *param_2)
+
+{
+  uint uVar1;
+  uint uVar2;
+  uint uVar3;
+  longlong lVar4;
+  undefined1 *puVar5;
+  undefined1 *local_res8;
+  
+  uVar3 = *(uint *)((longlong)param_1 + 0xc);
+  uVar2 = *(uint *)(param_1 + 1);
+  uVar1 = uVar3 + 1;
+  if (uVar2 < uVar1) {
+    uVar3 = uVar2 + 4;
+    if (3 < uVar2 + 1) {
+      uVar3 = uVar2 * 2 + 1;
+    }
+    if (uVar1 <= uVar3) {
+      uVar1 = uVar3;
+    }
+    FUN_14006e550(param_1,uVar1);
+    uVar3 = *(uint *)((longlong)param_1 + 0xc);
+  }
+  *(undefined8 **)(*param_1 + (ulonglong)uVar3 * 8) = param_2;
+  *(int *)((longlong)param_1 + 0xc) = *(int *)((longlong)param_1 + 0xc) + 1;
+  if (*(int *)((longlong)param_2 + 0xc) != 0) {
+    puVar5 = &DAT_14c9c60d0;
+    if (*(undefined1 **)*param_2 != (undefined1 *)0x0) {
+      puVar5 = *(undefined1 **)*param_2;
+    }
+    local_res8 = puVar5;
+    lVar4 = FUN_140dcdc10(param_1 + 2,&local_res8);
+    if (lVar4 != 0) {
+      *(undefined1 **)(lVar4 + 8) = puVar5;
+      *(undefined8 **)(lVar4 + 0x10) = param_2;
+    }
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_141058640 141058640
+CALLS
+  CALL from=14105867a ins=CALL 0x14006e550
+  CALL from=1410586bb ins=CALL 0x140dcdc10
+FUNCTION_REQUEST 141056380 -> FUN_141056380@141056380
+DECOMPILE_BEGIN FUN_141056380 141056380
+
+ulonglong FUN_141056380(longlong param_1,undefined1 *param_2)
+
+{
+  undefined1 *puVar1;
+  int iVar2;
+  undefined1 *puVar3;
+  uint uVar4;
+  ulonglong uVar5;
+  
+  uVar5 = 0;
+  if (*(int *)(param_1 + 0x5c) != 0) {
+    do {
+      puVar1 = (undefined1 *)**(undefined8 **)(*(longlong *)(param_1 + 0x50) + uVar5 * 8);
+      puVar3 = &DAT_14c9c60d0;
+      if (puVar1 != (undefined1 *)0x0) {
+        puVar3 = puVar1;
+      }
+      if (puVar3 == param_2) {
+        return uVar5;
+      }
+      if (((puVar3 != (undefined1 *)0x0) && (param_2 != (undefined1 *)0x0)) &&
+         (iVar2 = FUN_1402c4a30(puVar3,param_2), iVar2 == 0)) {
+        return uVar5;
+      }
+      uVar4 = (int)uVar5 + 1;
+      uVar5 = (ulonglong)uVar4;
+    } while (uVar4 < *(uint *)(param_1 + 0x5c));
+  }
+  return 0xffffffff;
+}
+
+
+DECOMPILE_END FUN_141056380 141056380
+CALLS
+  CALL from=1410563d7 ins=CALL 0x1402c4a30
+FUNCTION_REQUEST 1410564c0 -> FUN_1410564c0@1410564c0
+DECOMPILE_BEGIN FUN_1410564c0 1410564c0
+
+void FUN_1410564c0(longlong param_1,longlong param_2,uint param_3)
+
+{
+  undefined8 *puVar1;
+  undefined8 uVar2;
+  uint uVar3;
+  longlong lVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  undefined4 *puVar7;
+  
+  uVar5 = 0;
+  if (3 < param_3) {
+    lVar4 = param_1 - param_2;
+    puVar7 = (undefined4 *)(param_2 + 0x3c);
+    uVar3 = (param_3 - 4 >> 2) + 1;
+    uVar6 = (ulonglong)uVar3;
+    uVar5 = (ulonglong)(uVar3 * 4);
+    do {
+      if ((undefined8 *)(puVar7 + -0xf) != (undefined8 *)0x0) {
+        puVar1 = (undefined8 *)((longlong)puVar7 + lVar4 + -0x3c);
+        uVar2 = puVar1[1];
+        *(undefined8 *)(puVar7 + -0xf) = *puVar1;
+        *(undefined8 *)(puVar7 + -0xd) = uVar2;
+        puVar7[-0xb] = *(undefined4 *)((longlong)puVar7 + lVar4 + -0x2c);
+        puVar7[-10] = *(undefined4 *)((longlong)puVar7 + lVar4 + -0x28);
+        puVar7[-9] = *(undefined4 *)((longlong)puVar7 + lVar4 + -0x24);
+        puVar7[-8] = *(undefined4 *)((longlong)puVar7 + lVar4 + -0x20);
+        puVar7[-7] = *(undefined4 *)((longlong)puVar7 + lVar4 + -0x1c);
+        puVar7[-6] = *(undefined4 *)((longlong)puVar7 + lVar4 + -0x18);
+      }
+      if ((undefined8 *)(puVar7 + -5) != (undefined8 *)0x0) {
+        puVar1 = (undefined8 *)((longlong)puVar7 + lVar4 + -0x14);
+        uVar2 = puVar1[1];
+        *(undefined8 *)(puVar7 + -5) = *puVar1;
+        *(undefined8 *)(puVar7 + -3) = uVar2;
+        puVar7[-1] = *(undefined4 *)((longlong)puVar7 + lVar4 + -4);
+        *puVar7 = *(undefined4 *)((longlong)puVar7 + lVar4);
+        puVar7[1] = *(undefined4 *)((longlong)puVar7 + lVar4 + 4);
+        puVar7[2] = *(undefined4 *)((longlong)puVar7 + lVar4 + 8);
+        puVar7[3] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0xc);
+        puVar7[4] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x10);
+      }
+      if ((undefined8 *)(puVar7 + 5) != (undefined8 *)0x0) {
+        puVar1 = (undefined8 *)((longlong)puVar7 + lVar4 + 0x14);
+        uVar2 = puVar1[1];
+        *(undefined8 *)(puVar7 + 5) = *puVar1;
+        *(undefined8 *)(puVar7 + 7) = uVar2;
+        puVar7[9] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x24);
+        puVar7[10] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x28);
+        puVar7[0xb] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x2c);
+        puVar7[0xc] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x30);
+        puVar7[0xd] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x34);
+        puVar7[0xe] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x38);
+      }
+      if ((undefined8 *)(puVar7 + 0xf) != (undefined8 *)0x0) {
+        puVar1 = (undefined8 *)(lVar4 + 0x3c + (longlong)puVar7);
+        uVar2 = puVar1[1];
+        *(undefined8 *)(puVar7 + 0xf) = *puVar1;
+        *(undefined8 *)(puVar7 + 0x11) = uVar2;
+        puVar7[0x13] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x4c);
+        puVar7[0x14] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x50);
+        puVar7[0x15] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x54);
+        puVar7[0x16] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x58);
+        puVar7[0x17] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x5c);
+        puVar7[0x18] = *(undefined4 *)((longlong)puVar7 + lVar4 + 0x60);
+      }
+      puVar7 = puVar7 + 0x28;
+      uVar6 = uVar6 - 1;
+    } while (uVar6 != 0);
+  }
+  if ((uint)uVar5 < param_3) {
+    param_1 = param_1 - param_2;
+    puVar7 = (undefined4 *)(param_2 + 0x14 + uVar5 * 0x28);
+    uVar5 = (ulonglong)(param_3 - (uint)uVar5);
+    do {
+      if ((undefined8 *)(puVar7 + -5) != (undefined8 *)0x0) {
+        puVar1 = (undefined8 *)(param_1 + -0x14 + (longlong)puVar7);
+        uVar2 = puVar1[1];
+        *(undefined8 *)(puVar7 + -5) = *puVar1;
+        *(undefined8 *)(puVar7 + -3) = uVar2;
+        puVar7[-1] = *(undefined4 *)(param_1 + -4 + (longlong)puVar7);
+        *puVar7 = *(undefined4 *)((longlong)puVar7 + param_1);
+        puVar7[1] = *(undefined4 *)((longlong)puVar7 + param_1 + 4);
+        puVar7[2] = *(undefined4 *)(param_1 + 8 + (longlong)puVar7);
+        puVar7[3] = *(undefined4 *)((longlong)puVar7 + param_1 + 0xc);
+        puVar7[4] = *(undefined4 *)((longlong)puVar7 + param_1 + 0x10);
+      }
+      puVar7 = puVar7 + 10;
+      uVar5 = uVar5 - 1;
+    } while (uVar5 != 0);
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_1410564c0 1410564c0
+CALLS
+FUNCTION_REQUEST 141057790 -> FUN_141057790@141057790
+DECOMPILE_BEGIN FUN_141057790 141057790
+
+void FUN_141057790(longlong *param_1,uint param_2)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined1 local_res10;
+  
+  lVar1 = *param_1;
+  lVar2 = FUN_14050dc90((ulonglong)param_2 * 0x28);
+  if (lVar1 != 0) {
+    FUN_1410564c0(lVar1,lVar2,*(undefined4 *)((longlong)param_1 + 0xc),local_res10);
+    FUN_14050e300(lVar1);
+  }
+  *(uint *)(param_1 + 1) = param_2;
+  *param_1 = lVar2;
+  return;
+}
+
+
+DECOMPILE_END FUN_141057790 141057790
+CALLS
+  CALL from=1410577b4 ins=CALL 0x14050dc90
+  CALL from=1410577d1 ins=CALL 0x1410564c0
+  CALL from=1410577d9 ins=CALL 0x14050e300
+SCRIPT COMPLETED TxaStorageHelpersTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

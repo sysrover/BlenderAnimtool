@@ -1,0 +1,80 @@
+{
+  "output_blend": "P:\\Animation_Weapon\\Weapon_template_dayz_weaponik_authoring_v2.blend",
+  "source_action": "aks74u",
+  "base_action": "p_rfl_erc_idle_ras",
+  "export_armature": "_DayZ_Character",
+  "control_rig": "DAT_DayZ_Arm_FK_Controls",
+  "control_count": 51,
+  "missing_controls": [],
+  "helper_constraints": {
+    "LeftHandOrigin": [
+      {
+        "name": "DAT_IK_AUTHOR_LeftHandOrigin",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_LeftHandOrigin.L",
+        "influence": 1.0
+      }
+    ],
+    "LeftHandIKTarget": [
+      {
+        "name": "DAT_IK_AUTHOR_LeftHandIKTarget",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_LeftHandTarget.L",
+        "influence": 1.0
+      }
+    ],
+    "LeftForeArmDirection": [
+      {
+        "name": "DAT_IK_AUTHOR_LeftForeArmDirection",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_LeftElbow.L",
+        "influence": 1.0
+      }
+    ],
+    "LeftForeArmDirectionOrigin": [
+      {
+        "name": "DAT_IK_AUTHOR_LeftForeArmDirectionOrigin",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_LeftElbowOrigin.L",
+        "influence": 1.0
+      }
+    ],
+    "RightHandOrigin": [
+      {
+        "name": "DAT_IK_AUTHOR_RightHandOrigin",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_RightHandOrigin.R",
+        "influence": 1.0
+      }
+    ],
+    "RightForeArmDirection": [
+      {
+        "name": "DAT_IK_AUTHOR_RightForeArmDirection",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_RightElbow.R",
+        "influence": 1.0
+      }
+    ],
+    "RightForeArmDirectionOrigin": [
+      {
+        "name": "DAT_IK_AUTHOR_RightForeArmDirectionOrigin",
+        "type": "COPY_TRANSFORMS",
+        "target": "DAT_DayZ_Arm_FK_Controls",
+        "subtarget": "IK_RightElbowOrigin.R",
+        "influence": 1.0
+      }
+    ]
+  },
+  "scene_solver_armature": "_DayZ_Character",
+  "scene_solver_source": "aks74u",
+  "scene_solver_base": "p_rfl_erc_idle_ras",
+  "solver_handler": true,
+  "armature_mode": "IK_AUTHORING_CONTROLS",
+  "raw_preserve": true
+}

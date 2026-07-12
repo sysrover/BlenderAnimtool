@@ -1,0 +1,55 @@
+
+void FUN_140d07b10(longlong param_1,longlong param_2,int param_3,int param_4,int param_5,int param_6
+                  )
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  int iVar3;
+  longlong lVar4;
+  longlong lVar5;
+  longlong lVar6;
+  longlong lVar7;
+  longlong lVar8;
+  longlong lVar9;
+  longlong lVar10;
+  byte *pbVar11;
+  longlong lVar12;
+  longlong lVar13;
+  
+  lVar4 = *(longlong *)(param_1 + 0x110);
+  lVar1 = param_2 + 0x1fc;
+  iVar3 = *(int *)(param_1 + 0x2e0 + (longlong)param_4 * 4);
+  lVar2 = param_1 + (longlong)param_4 * 0x28;
+  lVar5 = *(longlong *)(lVar2 + 0xa0);
+  lVar12 = (longlong)*(int *)(lVar2 + 0x98);
+  lVar6 = *(longlong *)(lVar2 + 0xa8);
+  lVar7 = *(longlong *)(param_1 + 0x118);
+  lVar13 = param_5 * lVar12 + lVar5;
+  lVar8 = *(longlong *)(param_1 + 0x2c0 + (longlong)param_3 * 8);
+  lVar2 = lVar13;
+  while (lVar9 = lVar2, lVar9 < (param_6 - param_5) * lVar12 + lVar13) {
+    lVar2 = lVar9 + lVar12;
+    for (lVar10 = lVar9; lVar10 < lVar2; lVar10 = lVar10 + 1) {
+      if ((*(byte *)(lVar4 + lVar10 * 4) & 1) != 0) {
+        pbVar11 = (byte *)(*(longlong *)(lVar7 + lVar10 * 8) + lVar8);
+        if (lVar9 < lVar10) {
+          FUN_140d06350(pbVar11,iVar3,lVar1);
+        }
+        if (lVar5 < lVar9) {
+          FUN_140d066a0((longlong)pbVar11,iVar3,lVar1);
+        }
+        if ((lVar10 + 1 < lVar2) && ((*(byte *)(lVar4 + 4 + lVar10 * 4) & 1) == 0)) {
+          FUN_140d06350(pbVar11 + 8,iVar3,lVar1);
+        }
+        if ((lVar10 + lVar12 < lVar6 + lVar5) &&
+           ((*(byte *)(lVar4 + (lVar10 + lVar12) * 4) & 1) == 0)) {
+          FUN_140d066a0((longlong)(pbVar11 + iVar3 * 8),iVar3,lVar1);
+        }
+      }
+    }
+  }
+  return;
+}
+
+

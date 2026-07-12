@@ -1,0 +1,4504 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template.blend",
+  "frame_current": 0,
+  "frame_start": 0,
+  "frame_end": 1,
+  "armature": "_DayZ_Character",
+  "actions": [
+    {
+      "name": "aks74u",
+      "frame_range": [
+        0.0,
+        1.0
+      ],
+      "groups": [
+        "LeftHandRing",
+        "LeftHandRing1",
+        "LeftHandRing2",
+        "LeftHandRing3",
+        "LeftHandMiddle1",
+        "LeftHandMiddle2",
+        "LeftHandMiddle3",
+        "LeftHandIndex1",
+        "LeftHandIndex2",
+        "LeftHandIndex3",
+        "LeftHandThumb1",
+        "LeftHandThumb2",
+        "LeftHandThumb3",
+        "LeftHandPinky",
+        "LeftHandPinky1",
+        "LeftHandPinky2",
+        "LeftHandPinky3",
+        "LeftHand_Dummy",
+        "RightHandRing",
+        "RightHandRing1",
+        "RightHandRing2",
+        "RightHandRing3",
+        "RightHandThumb1",
+        "RightHandThumb2",
+        "RightHandThumb3",
+        "RightHandMiddle1",
+        "RightHandMiddle2",
+        "RightHandMiddle3",
+        "RightHandIndex1",
+        "RightHandIndex2",
+        "RightHandIndex3",
+        "RightHandPinky",
+        "RightHandPinky1",
+        "RightHandPinky2",
+        "RightHandPinky3",
+        "RightHand_Dummy",
+        "LeftHandIKTarget",
+        "RightHandOrigin",
+        "RightForeArmDirectionOrigin",
+        "RightForeArmDirection",
+        "LeftHandOrigin",
+        "LeftForeArmDirectionOrigin",
+        "LeftForeArmDirection"
+      ],
+      "fcurve_count": 301,
+      "fcurves_sample": [
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing1\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing2\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandRing3\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle1\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle2\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandMiddle3\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex1\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex2\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandIndex3\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].location",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb1\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb2\"].location",
+          "array_index": 0,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb2\"].location",
+          "array_index": 1,
+          "keys": 2
+        },
+        {
+          "data_path": "pose.bones[\"LeftHandThumb2\"].location",
+          "array_index": 2,
+          "keys": 2
+        }
+      ]
+    },
+    {
+      "name": "p_rfl_erc_idle_ras",
+      "frame_range": [
+        0.0,
+        172.0
+      ],
+      "groups": [
+        "EntityPosition",
+        "Collision",
+        "Pelvis",
+        "LeftUpLeg",
+        "LeftUpLegRoll",
+        "LeftKneeExtra",
+        "LeftLeg",
+        "LeftLegRoll",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightUpLegRoll",
+        "RightKneeExtra",
+        "RightLeg",
+        "RightLegRoll",
+        "RightFoot",
+        "RightToeBase",
+        "Spine",
+        "Spine1",
+        "Spine2",
+        "Spine3",
+        "Neck",
+        "Neck1",
+        "Head",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftArmRoll",
+        "LeftForeArm",
+        "LeftForeArmRoll",
+        "LeftHand",
+        "LeftWristExtra",
+        "LeftForeArmExtra",
+        "LeftElbowExtra",
+        "LeftArmExtra",
+        "RightShoulder",
+        "RightArm",
+        "RightArmExtra",
+        "RightArmRoll",
+        "RightForeArm",
+        "RightForeArmRoll",
+        "RightHand",
+        "RightWristExtra",
+        "RightForeArmExtra",
+        "RightElbowExtra",
+        "RightHipExtra",
+        "LeftHipExtra"
+      ],
+      "fcurve_count": 226,
+      "fcurves_sample": [
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].location",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].location",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].location",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"EntityPosition\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].location",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].location",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].location",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Collision\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].location",
+          "array_index": 0,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].location",
+          "array_index": 1,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].location",
+          "array_index": 2,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 110
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 110
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 110
+        },
+        {
+          "data_path": "pose.bones[\"Pelvis\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 110
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLeg\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 112
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLeg\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 112
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLeg\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 112
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLeg\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 112
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLegRoll\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLegRoll\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLegRoll\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"LeftUpLegRoll\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].location",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].location",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].location",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 109
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 109
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 109
+        },
+        {
+          "data_path": "pose.bones[\"LeftKneeExtra\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 109
+        },
+        {
+          "data_path": "pose.bones[\"LeftLeg\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 97
+        },
+        {
+          "data_path": "pose.bones[\"LeftLeg\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 97
+        },
+        {
+          "data_path": "pose.bones[\"LeftLeg\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 97
+        },
+        {
+          "data_path": "pose.bones[\"LeftLeg\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 97
+        },
+        {
+          "data_path": "pose.bones[\"LeftLegRoll\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"LeftLegRoll\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"LeftLegRoll\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"LeftLegRoll\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"LeftFoot\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 93
+        },
+        {
+          "data_path": "pose.bones[\"LeftFoot\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 93
+        },
+        {
+          "data_path": "pose.bones[\"LeftFoot\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 93
+        },
+        {
+          "data_path": "pose.bones[\"LeftFoot\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 93
+        },
+        {
+          "data_path": "pose.bones[\"LeftToeBase\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"LeftToeBase\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"LeftToeBase\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"LeftToeBase\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 173
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLeg\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 115
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLeg\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 115
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLeg\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 115
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLeg\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 115
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLegRoll\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 125
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLegRoll\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 125
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLegRoll\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 125
+        },
+        {
+          "data_path": "pose.bones[\"RightUpLegRoll\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 125
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].location",
+          "array_index": 0,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].location",
+          "array_index": 1,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].location",
+          "array_index": 2,
+          "keys": 1
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 113
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 113
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 113
+        },
+        {
+          "data_path": "pose.bones[\"RightKneeExtra\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 113
+        },
+        {
+          "data_path": "pose.bones[\"RightLeg\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 96
+        },
+        {
+          "data_path": "pose.bones[\"RightLeg\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 96
+        },
+        {
+          "data_path": "pose.bones[\"RightLeg\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 96
+        },
+        {
+          "data_path": "pose.bones[\"RightLeg\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 96
+        },
+        {
+          "data_path": "pose.bones[\"RightLegRoll\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"RightLegRoll\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"RightLegRoll\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"RightLegRoll\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 117
+        },
+        {
+          "data_path": "pose.bones[\"RightFoot\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"RightFoot\"].rotation_quaternion",
+          "array_index": 1,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"RightFoot\"].rotation_quaternion",
+          "array_index": 2,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"RightFoot\"].rotation_quaternion",
+          "array_index": 3,
+          "keys": 119
+        },
+        {
+          "data_path": "pose.bones[\"RightToeBase\"].rotation_quaternion",
+          "array_index": 0,
+          "keys": 142
+        }
+      ]
+    }
+  ],
+  "armature_action": "aks74u",
+  "nla": [
+    {
+      "name": "NlaTrack",
+      "strips": [
+        {
+          "name": "p_rfl_erc_idle_ras",
+          "action": "p_rfl_erc_idle_ras",
+          "frame_start": 0.0,
+          "frame_end": 172.0
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "1",
+      "type": "MESH",
+      "parent": null,
+      "parent_bone": null,
+      "matrix_world": [
+        [
+          -0.8350272178649902,
+          -0.5501795411109924,
+          0.005610421299934387,
+          -0.14774839580059052
+        ],
+        [
+          0.13831201195716858,
+          -0.20003041625022888,
+          0.969978392124176,
+          0.024931520223617554
+        ],
+        [
+          -0.5325404405593872,
+          0.8107340335845947,
+          0.24312695860862732,
+          1.29896879196167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "constraints": [
+        {
+          "name": "Child Of",
+          "type": "CHILD_OF",
+          "target": "_DayZ_Character",
+          "subtarget": "Weapon_Root"
+        }
+      ]
+    },
+    {
+      "name": "1.001",
+      "type": "MESH",
+      "parent": null,
+      "parent_bone": null,
+      "matrix_world": [
+        [
+          -0.8350334167480469,
+          -0.5501858592033386,
+          0.003758267732337117,
+          -0.14774839580059052
+        ],
+        [
+          0.13675493001937866,
+          -0.20093154907226562,
+          0.970012903213501,
+          0.024931520223617554
+        ],
+        [
+          -0.5329326391220093,
+          0.8105068802833557,
+          0.24302487075328827,
+          1.29896879196167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "constraints": [
+        {
+          "name": "Child Of",
+          "type": "CHILD_OF",
+          "target": "_DayZ_Character",
+          "subtarget": "Weapon_Magazine"
+        }
+      ]
+    }
+  ],
+  "frames": {
+    "0": {
+      "RightArm": {
+        "name": "RightArm",
+        "matrix": [
+          [
+            -0.37055060267448425,
+            0.9234114289283752,
+            0.10002059489488602,
+            0.19588299095630646
+          ],
+          [
+            -0.05966584384441376,
+            -0.13112977147102356,
+            0.9895681142807007,
+            -0.02799757942557335
+          ],
+          [
+            0.9268943071365356,
+            0.36071693897247314,
+            0.10368657112121582,
+            1.4040286540985107
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9170986413955688,
+            0.04191359132528305,
+            -0.3964509963989258,
+            0.0
+          ],
+          [
+            -0.3404307961463928,
+            0.5998294949531555,
+            -0.7240935564041138,
+            0.0
+          ],
+          [
+            0.2074536383152008,
+            0.7990293502807617,
+            0.5643714666366577,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8776812553405762,
+          0.43384823203086853,
+          -0.1720169484615326,
+          -0.10890745371580124
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightArmRoll": {
+        "name": "RightArmRoll",
+        "matrix": [
+          [
+            -0.3373430669307709,
+            0.9410461783409119,
+            -0.0251359473913908,
+            0.011200830340385437
+          ],
+          [
+            -0.4911218285560608,
+            -0.1531510204076767,
+            0.8575219511985779,
+            -0.0017716437578201294
+          ],
+          [
+            0.8031187057495117,
+            0.3016233444213867,
+            0.5138335824012756,
+            1.3318854570388794
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.857035219669342,
+            -2.245041832793504e-05,
+            0.5152578353881836,
+            0.0
+          ],
+          [
+            1.2477944437705446e-05,
+            1.0,
+            2.2816497221356258e-05,
+            0.0
+          ],
+          [
+            -0.5152578353881836,
+            -1.3125183613738045e-05,
+            0.857035219669342,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9635961651802063,
+          -9.324881830252707e-06,
+          0.26736190915107727,
+          9.06198147276882e-06
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArm": {
+        "name": "RightForeArm",
+        "matrix": [
+          [
+            0.05364825576543808,
+            0.9333192110061646,
+            -0.3550164997577667,
+            -0.07349344342947006
+          ],
+          [
+            -0.866285502910614,
+            -0.13333049416542053,
+            -0.4814271628856659,
+            0.012011924758553505
+          ],
+          [
+            -0.4966611862182617,
+            0.33337298035621643,
+            0.801368236541748,
+            1.3047393560409546
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9971228837966919,
+            4.264518338459311e-06,
+            -0.07580192387104034,
+            0.0
+          ],
+          [
+            -0.0683676153421402,
+            -0.4318431317806244,
+            -0.8993538618087769,
+            0.0
+          ],
+          [
+            -0.032738372683525085,
+            0.9019487500190735,
+            -0.4306003749370575,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.5326066613197327,
+          0.8455126285552979,
+          -0.020213579759001732,
+          -0.03209304437041283
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArmRoll": {
+        "name": "RightForeArmRoll",
+        "matrix": [
+          [
+            0.2872415781021118,
+            0.8811208605766296,
+            -0.3756563365459442,
+            -0.26389020681381226
+          ],
+          [
+            -0.6190295815467834,
+            -0.1285179704427719,
+            -0.7747815847396851,
+            0.039211321622133255
+          ],
+          [
+            -0.730954647064209,
+            0.4550913870334625,
+            0.5085241794586182,
+            1.2367314100265503
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.887747049331665,
+            -9.68507052334644e-08,
+            -0.4603317081928253,
+            0.0
+          ],
+          [
+            -6.332931548058696e-07,
+            1.0,
+            -1.431695750397921e-06,
+            0.0
+          ],
+          [
+            0.4603317081928253,
+            1.562508487040759e-06,
+            0.887747049331665,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9715315103530884,
+          7.70485428347456e-07,
+          -0.23691026866436005,
+          -1.3804037735098973e-07
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightHand": {
+        "name": "RightHand",
+        "matrix": [
+          [
+            -0.6419684886932373,
+            -0.7665760517120361,
+            0.015384695492684841,
+            -0.3264502286911011
+          ],
+          [
+            -0.003390785539522767,
+            -0.017227083444595337,
+            -0.9998458027839661,
+            0.048336103558540344
+          ],
+          [
+            0.7667227387428284,
+            -0.6419222354888916,
+            0.00846006814390421,
+            1.2044196128845215
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.7644477486610413,
+            -0.5581622123718262,
+            -0.32260605692863464,
+            0.0
+          ],
+          [
+            0.6279059648513794,
+            0.5311976671218872,
+            0.5688263177871704,
+            0.0
+          ],
+          [
+            -0.14612968266010284,
+            -0.637404203414917,
+            0.756546139717102,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8735257983207703,
+          -0.34521856904029846,
+          -0.050506871193647385,
+          0.3394482135772705
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "mute": false,
+            "influence": 1.0,
+            "target": "_DayZ_Character",
+            "subtarget": "RightHandOrigin",
+            "pole_target": "_DayZ_Character",
+            "pole_subtarget": "RightForeArmDirection",
+            "chain_count": 5
+          }
+        ]
+      },
+      "RightHand_Dummy": {
+        "name": "RightHand_Dummy",
+        "matrix": [
+          [
+            -0.005616679787635803,
+            -0.8350268602371216,
+            0.5501799583435059,
+            -0.1477484107017517
+          ],
+          [
+            -0.9699774384498596,
+            0.1383192539215088,
+            0.2000301480293274,
+            0.024931490421295166
+          ],
+          [
+            -0.24313071370124817,
+            -0.5325390696525574,
+            -0.8107337951660156,
+            1.29896879196167
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.030338430777192116,
+            -0.7301284670829773,
+            0.6826363205909729,
+            0.4590153694152832
+          ],
+          [
+            0.9690994620323181,
+            -0.14577573537826538,
+            -0.19898737967014313,
+            0.31312263011932373
+          ],
+          [
+            0.24479801952838898,
+            0.6675793528556824,
+            0.7031442523002625,
+            -0.552463173866272
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.4590153694152832,
+          0.31312263011932373,
+          -0.552463173866272
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.6300213932991028,
+          0.3438640832901001,
+          0.1737394779920578,
+          0.6742740273475647
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightHandOrigin": {
+        "name": "RightHandOrigin",
+        "matrix": [
+          [
+            -0.6438933610916138,
+            -0.7649438977241516,
+            0.016187816858291626,
+            -0.586097776889801
+          ],
+          [
+            -0.0034027695655822754,
+            -0.018294155597686768,
+            -0.9998269081115723,
+            0.07342731952667236
+          ],
+          [
+            0.7651076912879944,
+            -0.6438369154930115,
+            0.009176557883620262,
+            1.0718847513198853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArmDirectionOrigin": {
+        "name": "RightForeArmDirectionOrigin",
+        "matrix": [
+          [
+            -0.6438926458358765,
+            -0.7649441361427307,
+            0.016187310218811035,
+            0.42057549953460693
+          ],
+          [
+            -0.0034022927284240723,
+            -0.018294155597686768,
+            -0.9998268485069275,
+            0.03382136672735214
+          ],
+          [
+            0.7651081681251526,
+            -0.6438362002372742,
+            0.009176932275295258,
+            1.2313287258148193
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.5260632038116455
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.5969807505607605
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            -0.05735785514116287
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          -0.5260632038116455,
+          0.5969807505607605,
+          -0.05735785514116287
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArmDirection": {
+        "name": "RightForeArmDirection",
+        "matrix": [
+          [
+            -0.6438926458358765,
+            -0.7649441361427307,
+            0.016187310218811035,
+            -0.37573808431625366
+          ],
+          [
+            -0.0034022927284240723,
+            -0.018294155597686768,
+            -0.9998268485069275,
+            0.07845821231603622
+          ],
+          [
+            0.7651081681251526,
+            -0.6438362002372742,
+            0.009176932275295258,
+            1.248939871788025
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftArm": {
+        "name": "LeftArm",
+        "matrix": [
+          [
+            0.5424577593803406,
+            0.01773896813392639,
+            -0.8398959040641785,
+            -0.04808051139116287
+          ],
+          [
+            0.8398312330245972,
+            -0.03592168539762497,
+            0.5416573286056519,
+            0.13119906187057495
+          ],
+          [
+            -0.02056199125945568,
+            -0.9991974830627441,
+            -0.03438376635313034,
+            1.435603380203247
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9362868666648865,
+            0.1139707863330841,
+            -0.3322312831878662,
+            0.0
+          ],
+          [
+            -0.3465172350406647,
+            0.45426177978515625,
+            -0.8207143545150757,
+            0.0
+          ],
+          [
+            0.05738251656293869,
+            0.8835479021072388,
+            0.46481218934059143,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8448901772499084,
+          0.5042845606803894,
+          -0.11528520286083221,
+          -0.1362566202878952
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftArmRoll": {
+        "name": "LeftArmRoll",
+        "matrix": [
+          [
+            0.6332265138626099,
+            0.04018956422805786,
+            -0.7729222774505615,
+            -0.04453280568122864
+          ],
+          [
+            0.7721840143203735,
+            -0.10053226351737976,
+            0.6273952126502991,
+            0.12401465326547623
+          ],
+          [
+            -0.052488721907138824,
+            -0.9941220879554749,
+            -0.09469333291053772,
+            1.2357639074325562
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9703896045684814,
+            7.32791818336409e-07,
+            -0.2415451556444168,
+            0.0
+          ],
+          [
+            -8.467320071758877e-07,
+            1.0,
+            -3.679151348023879e-07,
+            0.0
+          ],
+          [
+            0.2415451556444168,
+            5.615450504592445e-07,
+            0.9703896045684814,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9925698041915894,
+          2.3410449045968562e-07,
+          -0.12167666107416153,
+          -3.9783697047823807e-07
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArm": {
+        "name": "LeftForeArm",
+        "matrix": [
+          [
+            0.9490229487419128,
+            0.023664653301239014,
+            -0.3143172264099121,
+            -0.040915802121162415
+          ],
+          [
+            0.31505540013313293,
+            -0.04034755378961563,
+            0.9482160210609436,
+            0.11496677994728088
+          ],
+          [
+            0.009757602587342262,
+            -0.9989063739776611,
+            -0.045746251940727234,
+            1.146293044090271
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.964939296245575,
+            -2.1353278043534374e-06,
+            -0.2624732553958893,
+            0.0
+          ],
+          [
+            -0.24504801630973816,
+            0.3582800030708313,
+            -0.900881290435791,
+            0.0
+          ],
+          [
+            0.09404085576534271,
+            0.9336142539978027,
+            0.3457179069519043,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8168439865112305,
+          0.5614581108093262,
+          -0.10911323875188828,
+          -0.07499773055315018
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArmRoll": {
+        "name": "LeftForeArmRoll",
+        "matrix": [
+          [
+            0.2313917875289917,
+            -0.0009835194796323776,
+            -0.9728600382804871,
+            -0.0360882468521595
+          ],
+          [
+            0.972054660320282,
+            -0.040487490594387054,
+            0.2312406450510025,
+            0.10673587769269943
+          ],
+          [
+            -0.03961574286222458,
+            -0.9991803765296936,
+            -0.008412548340857029,
+            0.9425164461135864
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            -0.06391789019107819,
+            -1.530502657942634e-07,
+            -0.9979551434516907,
+            0.0
+          ],
+          [
+            8.23616289835627e-07,
+            1.0,
+            -2.0611555839877838e-07,
+            0.0
+          ],
+          [
+            0.9979551434516907,
+            -8.351066185241507e-07,
+            -0.06391789019107819,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.6841352581977844,
+          -2.2984893632838066e-07,
+          -0.7293551564216614,
+          3.56898198106137e-07
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftHand": {
+        "name": "LeftHand",
+        "matrix": [
+          [
+            0.3631955087184906,
+            -0.6868152022361755,
+            -0.629582405090332,
+            -0.03615807741880417
+          ],
+          [
+            0.7555330991744995,
+            -0.17831335961818695,
+            0.6303761005401611,
+            0.10386138409376144
+          ],
+          [
+            -0.5452145934104919,
+            -0.7046216726303101,
+            0.45414870977401733,
+            0.8715745806694031
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.8283070921897888,
+            -0.545366644859314,
+            -0.12838426232337952,
+            0.0
+          ],
+          [
+            0.5577083230018616,
+            0.7806695103645325,
+            0.28198671340942383,
+            0.0
+          ],
+          [
+            -0.053560469299554825,
+            -0.30517256259918213,
+            0.9507896304130554,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9433671236038208,
+          -0.15560200810432434,
+          -0.01982891745865345,
+          0.29232388734817505
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "mute": false,
+            "influence": 1.0,
+            "target": "_DayZ_Character",
+            "subtarget": "LeftHandIKTarget",
+            "pole_target": "_DayZ_Character",
+            "pole_subtarget": "LeftForeArmDirection",
+            "chain_count": 5
+          }
+        ]
+      },
+      "LeftHand_Dummy": {
+        "name": "LeftHand_Dummy",
+        "matrix": [
+          [
+            -0.17307834327220917,
+            -0.757409393787384,
+            0.6295832395553589,
+            -0.11523652076721191
+          ],
+          [
+            -0.6836480498313904,
+            -0.3677665889263153,
+            -0.630375325679779,
+            0.08669957518577576
+          ],
+          [
+            0.7089920043945312,
+            -0.5395192503929138,
+            -0.45414870977401733,
+            0.799216628074646
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            -2.7626867449725978e-05,
+            4.172489695974946e-07,
+            5.960464477539062e-07
+          ],
+          [
+            2.7626867449725978e-05,
+            1.0,
+            -9.387714499098365e-07,
+            -1.3709068298339844e-06
+          ],
+          [
+            -4.1722304899849405e-07,
+            9.387829322804464e-07,
+            1.0,
+            1.430511474609375e-06
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          5.960464477539062e-07,
+          -1.3709068298339844e-06,
+          1.430511474609375e-06
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          4.6938859554757073e-07,
+          2.0861800464899716e-07,
+          1.3813433724862989e-05
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftHandOrigin": {
+        "name": "LeftHandOrigin",
+        "matrix": [
+          [
+            -0.6438876986503601,
+            -0.7649486660957336,
+            0.01618748903274536,
+            0.586174488067627
+          ],
+          [
+            0.0034047365188598633,
+            0.01829203963279724,
+            0.9998269081115723,
+            0.07344280928373337
+          ],
+          [
+            -0.7651122808456421,
+            0.6438314318656921,
+            -0.009173618629574776,
+            1.0715985298156738
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.09999997913837433
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          -0.09999997913837433,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftHandIKTarget": {
+        "name": "LeftHandIKTarget",
+        "matrix": [
+          [
+            0.3583557605743408,
+            -0.6936083436012268,
+            -0.6248911619186401,
+            -0.088015615940094
+          ],
+          [
+            0.7543277144432068,
+            -0.1792556792497635,
+            0.6315513253211975,
+            0.04917525500059128
+          ],
+          [
+            -0.5500645041465759,
+            -0.6976928114891052,
+            0.45897069573402405,
+            0.06767773628234863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.34376952052116394,
+            0.3116956055164337,
+            0.8858151435852051,
+            0.468230664730072
+          ],
+          [
+            -0.5500645041465759,
+            -0.6976928114891052,
+            0.45897069573402405,
+            -0.9395376443862915
+          ],
+          [
+            0.7610858678817749,
+            -0.6450356245040894,
+            -0.06839294731616974,
+            -0.5871894359588623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.468230664730072,
+          -0.9395376443862915,
+          -0.5871894359588623
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.3800276815891266,
+          -0.7262670397758484,
+          0.08205278217792511,
+          -0.5669061541557312
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArmDirectionOrigin": {
+        "name": "LeftForeArmDirectionOrigin",
+        "matrix": [
+          [
+            -0.6438876986503601,
+            -0.7649486660957336,
+            0.01618748903274536,
+            -0.07116594910621643
+          ],
+          [
+            0.0034047365188598633,
+            0.01829203963279724,
+            0.9998269081115723,
+            0.3720110058784485
+          ],
+          [
+            -0.7651122808456421,
+            0.6438314318656921,
+            -0.009173618629574776,
+            1.2756017446517944
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.2681847810745239
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            -0.36463701725006104
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            -0.28600433468818665
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.2681847810745239,
+          -0.36463701725006104,
+          -0.28600433468818665
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArmDirection": {
+        "name": "LeftForeArmDirection",
+        "matrix": [
+          [
+            0.5618171691894531,
+            -0.44573166966438293,
+            0.6969114542007446,
+            0.01809096336364746
+          ],
+          [
+            -0.5032331347465515,
+            0.48449525237083435,
+            0.7155569791793823,
+            -0.04714193940162659
+          ],
+          [
+            -0.6565960645675659,
+            -0.7527203559875488,
+            0.04789070039987564,
+            1.0082147121429443
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.1389092355966568,
+            0.8645665049552917,
+            -0.48293834924697876,
+            0.41386735439300537
+          ],
+          [
+            0.861703634262085,
+            0.1348007768392563,
+            0.48917895555496216,
+            -0.11654072999954224
+          ],
+          [
+            0.4880281984806061,
+            -0.48410120606422424,
+            -0.7262750267982483,
+            0.12917830049991608
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.41386735439300537,
+          -0.11654072999954224,
+          0.12917830049991608
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.3699445128440857,
+          -0.6577200293540955,
+          -0.6561565399169922,
+          -0.0019346451153978705
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "Weapon_Root": {
+        "name": "Weapon_Root",
+        "matrix": [
+          [
+            -0.005610409192740917,
+            -0.8350272178649902,
+            0.5501795411109924,
+            -0.14774839580059052
+          ],
+          [
+            -0.969978392124176,
+            0.138311967253685,
+            0.2000303715467453,
+            0.024931520223617554
+          ],
+          [
+            -0.24312689900398254,
+            -0.5325404405593872,
+            -0.8107340335845947,
+            1.29896879196167
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "Weapon_Magazine": {
+        "name": "Weapon_Magazine",
+        "matrix": [
+          [
+            -0.00375825515948236,
+            -0.8350334167480469,
+            0.5501858592033386,
+            -0.14774839580059052
+          ],
+          [
+            -0.970012903213501,
+            0.13675488531589508,
+            0.20093150436878204,
+            0.024931520223617554
+          ],
+          [
+            -0.2430248111486435,
+            -0.5329326391220093,
+            -0.8105068802833557,
+            1.29896879196167
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "weapon": {
+        "name": "weapon",
+        "matrix": [
+          [
+            0.033579327166080475,
+            -0.7502574920654297,
+            -0.660292387008667,
+            0.2446068376302719
+          ],
+          [
+            0.028067125007510185,
+            -0.6596964597702026,
+            0.7510078549385071,
+            0.010232731699943542
+          ],
+          [
+            -0.9990418553352356,
+            -0.04375089332461357,
+            -0.001094532897695899,
+            1.3452459573745728
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      }
+    },
+    "1": {
+      "RightArm": {
+        "name": "RightArm",
+        "matrix": [
+          [
+            0.709520161151886,
+            -0.6932093501091003,
+            -0.12665875256061554,
+            0.19592228531837463
+          ],
+          [
+            -0.4621264934539795,
+            -0.322027325630188,
+            -0.8262795805931091,
+            -0.028126519173383713
+          ],
+          [
+            0.5319964289665222,
+            0.6447940468788147,
+            -0.5488348007202148,
+            1.4040648937225342
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9170910120010376,
+            0.04190576821565628,
+            -0.3964694142341614,
+            0.0
+          ],
+          [
+            -0.34044715762138367,
+            0.5998056530952454,
+            -0.7241056561470032,
+            0.0
+          ],
+          [
+            0.207460418343544,
+            0.7990476489067078,
+            0.5643430948257446,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8776727914810181,
+          0.4338610768318176,
+          -0.17202578485012054,
+          -0.10891093313694
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightArmRoll": {
+        "name": "RightArmRoll",
+        "matrix": [
+          [
+            0.6558088064193726,
+            -0.7164577841758728,
+            0.2379164844751358,
+            0.3345640301704407
+          ],
+          [
+            0.00021308653231244534,
+            -0.31497517228126526,
+            -0.9491007924079895,
+            0.036278948187828064
+          ],
+          [
+            0.754927396774292,
+            0.6224781274795532,
+            -0.20641052722930908,
+            1.2751061916351318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.8570054173469543,
+            -2.2459465981228277e-05,
+            0.5153074264526367,
+            0.0
+          ],
+          [
+            1.2483803402574267e-05,
+            1.0,
+            2.2822840037406422e-05,
+            0.0
+          ],
+          [
+            -0.5153074264526367,
+            -1.3126301382726524e-05,
+            0.8570054173469543,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9635884761810303,
+          -9.326891813543625e-06,
+          0.26738977432250977,
+          9.065921403816901e-06
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArm": {
+        "name": "RightForeArm",
+        "matrix": [
+          [
+            0.6731349229812622,
+            0.6339629888534546,
+            0.38076460361480713,
+            0.3990454375743866
+          ],
+          [
+            0.03692430630326271,
+            -0.5430518388748169,
+            0.8388884663581848,
+            0.0646267682313919
+          ],
+          [
+            0.7385979294776917,
+            -0.5506243109703064,
+            -0.3889547884464264,
+            1.2190831899642944
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.997123122215271,
+            8.044195965339895e-06,
+            -0.0757988691329956,
+            0.0
+          ],
+          [
+            -0.0683613196015358,
+            -0.43189579248428345,
+            -0.8993291258811951,
+            0.0
+          ],
+          [
+            -0.03274444118142128,
+            0.9019235968589783,
+            -0.4306527376174927,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.5325821042060852,
+          0.8455281853675842,
+          -0.020210230723023415,
+          -0.032093346118927
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArmRoll": {
+        "name": "RightForeArmRoll",
+        "matrix": [
+          [
+            0.7582176327705383,
+            0.6499893069267273,
+            0.05119743198156357,
+            0.26971733570098877
+          ],
+          [
+            0.40673306584358215,
+            -0.5329047441482544,
+            0.7420130372047424,
+            0.17540913820266724
+          ],
+          [
+            0.5095829963684082,
+            -0.5417824983596802,
+            -0.6684287786483765,
+            1.3314104080200195
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.8876214623451233,
+            -9.052496352524031e-08,
+            -0.4605737328529358,
+            0.0
+          ],
+          [
+            -6.418696330001694e-07,
+            1.0,
+            -1.4335646483232267e-06,
+            0.0
+          ],
+          [
+            0.4605737328529358,
+            1.5680909655202413e-06,
+            0.8876214623451233,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9714992046356201,
+          7.724287343080505e-07,
+          -0.23704276978969574,
+          -1.418798518670883e-07
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightHand": {
+        "name": "RightHand",
+        "matrix": [
+          [
+            0.9754784107208252,
+            -0.09506440907716751,
+            0.1985071450471878,
+            0.22356778383255005
+          ],
+          [
+            -0.12710264325141907,
+            -0.9796350002288818,
+            0.1554442048072815,
+            0.21324561536312103
+          ],
+          [
+            0.17968738079071045,
+            -0.1768629401922226,
+            -0.9676944017410278,
+            1.3698772192001343
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.7643224000930786,
+            -0.5583385825157166,
+            -0.32259783148765564,
+            0.0
+          ],
+          [
+            0.6280527710914612,
+            0.5311853885650635,
+            0.5686755776405334,
+            0.0
+          ],
+          [
+            -0.14615420997142792,
+            -0.6372599005699158,
+            0.756662905216217,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8735228776931763,
+          -0.3451353907585144,
+          -0.05049767345190048,
+          0.3395419120788574
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "mute": false,
+            "influence": 1.0,
+            "target": "_DayZ_Character",
+            "subtarget": "RightHandOrigin",
+            "pole_target": "_DayZ_Character",
+            "pole_subtarget": "RightForeArmDirection",
+            "chain_count": 5
+          }
+        ]
+      },
+      "RightHand_Dummy": {
+        "name": "RightHand_Dummy",
+        "matrix": [
+          [
+            0.00014024972915649414,
+            0.00014078617095947266,
+            -1.0000003576278687,
+            0.2065601944923401
+          ],
+          [
+            -0.0002415776252746582,
+            -1.0000015497207642,
+            -0.00014019012451171875,
+            0.41605257987976074
+          ],
+          [
+            -1.0000004768371582,
+            0.00024181604385375977,
+            -0.000140264630317688,
+            1.371115803718567
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.030338430777192116,
+            -0.7301284670829773,
+            0.6826363205909729,
+            0.45901256799697876
+          ],
+          [
+            0.9690994620323181,
+            -0.14577573537826538,
+            -0.19898737967014313,
+            0.3131227493286133
+          ],
+          [
+            0.24479801952838898,
+            0.6675793528556824,
+            0.7031442523002625,
+            -0.5524654984474182
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.45901256799697876,
+          0.3131227493286133,
+          -0.5524654984474182
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.6300213932991028,
+          0.3438640832901001,
+          0.1737394779920578,
+          0.6742740273475647
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightHandOrigin": {
+        "name": "RightHandOrigin",
+        "matrix": [
+          [
+            0.9754780530929565,
+            -0.09506461769342422,
+            0.19850726425647736,
+            0.21406126022338867
+          ],
+          [
+            -0.12710203230381012,
+            -0.9796337485313416,
+            0.15544399619102478,
+            0.11528192460536957
+          ],
+          [
+            0.17968709766864777,
+            -0.17686286568641663,
+            -0.9676942229270935,
+            1.352190613746643
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            -0.49019140005111694,
+            -0.07077419757843018,
+            -0.8687366843223572,
+            -0.3008953332901001
+          ],
+          [
+            0.8595501184463501,
+            -0.20451153814792633,
+            -0.4683466851711273,
+            0.7933139204978943
+          ],
+          [
+            -0.14451980590820312,
+            -0.9763022065162659,
+            0.16108377277851105,
+            0.026322275400161743
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          -0.3008953332901001,
+          0.7933139204978943,
+          0.026322275400161743
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.3414604067802429,
+          -0.3718993067741394,
+          -0.5302348732948303,
+          0.6811363101005554
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArmDirectionOrigin": {
+        "name": "RightForeArmDirectionOrigin",
+        "matrix": [
+          [
+            0.6179123520851135,
+            0.6813653707504272,
+            0.39233291149139404,
+            0.42057549953460693
+          ],
+          [
+            0.17064203321933746,
+            -0.603318989276886,
+            0.779029905796051,
+            0.03382136672735214
+          ],
+          [
+            0.7675058245658875,
+            -0.41442397236824036,
+            -0.4890679121017456,
+            1.2313287258148193
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.18877513706684113,
+            -0.7537529468536377,
+            -0.6294606328010559,
+            -0.5260632038116455
+          ],
+          [
+            0.9699388742446899,
+            0.24334849417209625,
+            -0.0005151514196768403,
+            0.5969807505607605
+          ],
+          [
+            0.15356667339801788,
+            -0.6104410290718079,
+            0.7770322561264038,
+            -0.05735785514116287
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          -0.5260632038116455,
+          0.5969807505607605,
+          -0.05735785514116287
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.7431610226631165,
+          -0.20517928898334503,
+          -0.26341068744659424,
+          0.5798505544662476
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "RightForeArmDirection": {
+        "name": "RightForeArmDirection",
+        "matrix": [
+          [
+            0.6064148545265198,
+            0.7044791579246521,
+            0.3687407076358795,
+            0.4172961115837097
+          ],
+          [
+            0.1074882298707962,
+            -0.5321093201637268,
+            0.8398249745368958,
+            0.06693185865879059
+          ],
+          [
+            0.7878495454788208,
+            -0.4696473777294159,
+            -0.39840230345726013,
+            1.2425752878189087
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.21195822954177856,
+            -0.8111298680305481,
+            -0.5451076030731201,
+            -0.5154595375061035
+          ],
+          [
+            0.9730866551399231,
+            0.226777121424675,
+            0.04092412441968918,
+            0.6023188233375549
+          ],
+          [
+            0.09042322635650635,
+            -0.5391110777854919,
+            0.8373667001724243,
+            -0.024303223937749863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          -0.5154595375061035,
+          0.6023188233375549,
+          -0.024303223937749863
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.7543376088142395,
+          -0.1922331303358078,
+          -0.2106253057718277,
+          0.5913184881210327
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftArm": {
+        "name": "LeftArm",
+        "matrix": [
+          [
+            0.5424032211303711,
+            0.017714589834213257,
+            -0.8399316072463989,
+            -0.048050448298454285
+          ],
+          [
+            0.8398683071136475,
+            -0.03582450747489929,
+            0.5416068434715271,
+            0.13106471300125122
+          ],
+          [
+            -0.02049580216407776,
+            -0.9992014169692993,
+            -0.03430909663438797,
+            1.4355953931808472
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9362816214561462,
+            0.11402962356805801,
+            -0.3322257101535797,
+            0.0
+          ],
+          [
+            -0.3465476334095001,
+            0.45413634181022644,
+            -0.8207709193229675,
+            0.0
+          ],
+          [
+            0.05728355795145035,
+            0.8836047649383545,
+            0.46471622586250305,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8448567986488342,
+          0.504338264465332,
+          -0.11525887250900269,
+          -0.13628846406936646
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftArmRoll": {
+        "name": "LeftArmRoll",
+        "matrix": [
+          [
+            0.6330726146697998,
+            0.040171779692173004,
+            -0.7730491161346436,
+            -0.04450751841068268
+          ],
+          [
+            0.7723148465156555,
+            -0.1004103496670723,
+            0.6272537708282471,
+            0.12389974296092987
+          ],
+          [
+            -0.05242403224110603,
+            -0.9941351413726807,
+            -0.09459222108125687,
+            1.2357550859451294
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9703521728515625,
+            7.623289093316998e-07,
+            -0.24169538915157318,
+            0.0
+          ],
+          [
+            -8.767991062086367e-07,
+            1.0,
+            -3.6605996456273715e-07,
+            0.0
+          ],
+          [
+            0.24169538915157318,
+            5.6712536888881e-07,
+            0.9703521728515625,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9925603866577148,
+          2.350449790355924e-07,
+          -0.12175349146127701,
+          -4.128534669689543e-07
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArm": {
+        "name": "LeftForeArm",
+        "matrix": [
+          [
+            0.9490380883216858,
+            0.023640811443328857,
+            -0.31427261233329773,
+            -0.040892139077186584
+          ],
+          [
+            0.31500881910324097,
+            -0.040251944214105606,
+            0.9482349753379822,
+            0.1148628368973732
+          ],
+          [
+            0.009767381474375725,
+            -0.9989101886749268,
+            -0.0456475168466568,
+            1.1462831497192383
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.9650066494941711,
+            -1.3949180583949783e-06,
+            -0.262225478887558,
+            0.0
+          ],
+          [
+            -0.2448064237833023,
+            0.35838431119918823,
+            -0.9009054899215698,
+            0.0
+          ],
+          [
+            0.09397877007722855,
+            0.9335741996765137,
+            0.3458428978919983,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.8168894052505493,
+          0.5614220499992371,
+          -0.10901233553886414,
+          -0.07491984963417053
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArmRoll": {
+        "name": "LeftForeArmRoll",
+        "matrix": [
+          [
+            0.23305529356002808,
+            -0.001005345955491066,
+            -0.9724625945091248,
+            -0.03606940805912018
+          ],
+          [
+            0.9716613292694092,
+            -0.04037442430853844,
+            0.23290470242500305,
+            0.1066514179110527
+          ],
+          [
+            -0.03949664160609245,
+            -0.9991844892501831,
+            -0.008432799018919468,
+            0.9425057172775269
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            -0.062289319932460785,
+            -1.557107225380605e-07,
+            -0.9980581402778625,
+            0.0
+          ],
+          [
+            8.225548526752391e-07,
+            1.0,
+            -2.0734975691993895e-07,
+            0.0
+          ],
+          [
+            0.9980581402778625,
+            -8.338732300217089e-07,
+            -0.062289319932460785,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.6847301125526428,
+          -2.287483340523977e-07,
+          -0.7287967205047607,
+          3.5717195601137064e-07
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftHand": {
+        "name": "LeftHand",
+        "matrix": [
+          [
+            0.3631961941719055,
+            -0.686815083026886,
+            -0.629581868648529,
+            -0.0361408106982708
+          ],
+          [
+            0.7555330991744995,
+            -0.1783117651939392,
+            0.6303762197494507,
+            0.10378486663103104
+          ],
+          [
+            -0.5452138781547546,
+            -0.7046213150024414,
+            0.4541490375995636,
+            0.8715635538101196
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.8283094167709351,
+            -0.5449681878089905,
+            -0.13005053997039795,
+            0.0
+          ],
+          [
+            0.5578242540359497,
+            0.7804982662200928,
+            0.2822313606739044,
+            0.0
+          ],
+          [
+            -0.05230289697647095,
+            -0.3063202500343323,
+            0.9504905343055725,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.9433051347732544,
+          -0.15598124265670776,
+          -0.020605115219950676,
+          0.29226821660995483
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "mute": false,
+            "influence": 1.0,
+            "target": "_DayZ_Character",
+            "subtarget": "LeftHandIKTarget",
+            "pole_target": "_DayZ_Character",
+            "pole_subtarget": "LeftForeArmDirection",
+            "chain_count": 5
+          }
+        ]
+      },
+      "LeftHand_Dummy": {
+        "name": "LeftHand_Dummy",
+        "matrix": [
+          [
+            -0.17307902872562408,
+            -0.7574094533920288,
+            0.6295827031135559,
+            -0.11521923542022705
+          ],
+          [
+            -0.6836484670639038,
+            -0.36776503920555115,
+            -0.6303754448890686,
+            0.08662323653697968
+          ],
+          [
+            0.7089912295341492,
+            -0.5395190715789795,
+            -0.4541490375995636,
+            0.7992056608200073
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            -2.7626867449725978e-05,
+            4.172489695974946e-07,
+            5.960464477539062e-07
+          ],
+          [
+            2.7626867449725978e-05,
+            1.0,
+            -9.387714499098365e-07,
+            -1.3709068298339844e-06
+          ],
+          [
+            -4.1722304899849405e-07,
+            9.387829322804464e-07,
+            1.0,
+            1.430511474609375e-06
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          5.960464477539062e-07,
+          -1.3709068298339844e-06,
+          1.430511474609375e-06
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          4.6938859554757073e-07,
+          2.0861800464899716e-07,
+          1.3813433724862989e-05
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftHandOrigin": {
+        "name": "LeftHandOrigin",
+        "matrix": [
+          [
+            0.41560983657836914,
+            0.8127672076225281,
+            -0.4082622826099396,
+            0.14407366514205933
+          ],
+          [
+            -0.0796385258436203,
+            0.47965964674949646,
+            0.873833417892456,
+            0.4915671646595001
+          ],
+          [
+            0.9060499668121338,
+            -0.3306601941585541,
+            0.2640787959098816,
+            1.3091630935668945
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            -0.9611073732376099,
+            -0.2687055766582489,
+            0.06380026042461395,
+            0.10432326793670654
+          ],
+          [
+            -0.26396647095680237,
+            0.8258406519889832,
+            -0.4983060956001282,
+            -0.5987843871116638
+          ],
+          [
+            0.08120875060558319,
+            -0.49576663970947266,
+            -0.8646508455276489,
+            -0.4087161123752594
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.10432326793670654,
+          -0.5987843871116638,
+          -0.4087161123752594
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.004555013030767441,
+          0.13937610387802124,
+          -0.9554577469825745,
+          0.2601037323474884
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftHandIKTarget": {
+        "name": "LeftHandIKTarget",
+        "matrix": [
+          [
+            0.3583557605743408,
+            -0.6936083436012268,
+            -0.6248911619186401,
+            -0.088015615940094
+          ],
+          [
+            0.7543277144432068,
+            -0.1792556792497635,
+            0.6315513253211975,
+            0.04917525500059128
+          ],
+          [
+            -0.5500645041465759,
+            -0.6976928114891052,
+            0.45897069573402405,
+            0.06768012046813965
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.34376952052116394,
+            0.3116956055164337,
+            0.8858151435852051,
+            0.468230664730072
+          ],
+          [
+            -0.5500645041465759,
+            -0.6976928114891052,
+            0.45897069573402405,
+            -0.9395352602005005
+          ],
+          [
+            0.7610858678817749,
+            -0.6450356245040894,
+            -0.06839294731616974,
+            -0.5871894359588623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.468230664730072,
+          -0.9395352602005005,
+          -0.5871894359588623
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.3800276815891266,
+          -0.7262670397758484,
+          0.08205278217792511,
+          -0.5669061541557312
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArmDirectionOrigin": {
+        "name": "LeftForeArmDirectionOrigin",
+        "matrix": [
+          [
+            0.6534337401390076,
+            0.7569515705108643,
+            -0.006992248818278313,
+            -0.07116594910621643
+          ],
+          [
+            -0.5765154361724854,
+            0.4916444718837738,
+            -0.6526223421096802,
+            0.3720110058784485
+          ],
+          [
+            -0.49056586623191833,
+            0.4304766058921814,
+            0.7576512694358826,
+            1.2756017446517944
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            -0.04736286401748657,
+            -0.8150810599327087,
+            -0.5774081349372864,
+            0.2681847810745239
+          ],
+          [
+            0.8262306451797485,
+            0.2928816080093384,
+            -0.4812106192111969,
+            -0.36463701725006104
+          ],
+          [
+            0.5613378882408142,
+            -0.49986353516578674,
+            0.6595728993415833,
+            -0.28600433468818665
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.2681847810745239,
+          -0.36463701725006104,
+          -0.28600433468818665
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.6901251077651978,
+          -0.006757077760994434,
+          -0.4125139117240906,
+          0.594569742679596
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "LeftForeArmDirection": {
+        "name": "LeftForeArmDirection",
+        "matrix": [
+          [
+            0.5618171691894531,
+            -0.44573166966438293,
+            0.6969114542007446,
+            0.01809096336364746
+          ],
+          [
+            -0.5032331347465515,
+            0.48449525237083435,
+            0.7155569791793823,
+            -0.04714193940162659
+          ],
+          [
+            -0.6565960645675659,
+            -0.7527203559875488,
+            0.04789070039987564,
+            1.0082147121429443
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            0.1389092355966568,
+            0.8645665049552917,
+            -0.48293834924697876,
+            0.41386735439300537
+          ],
+          [
+            0.861703634262085,
+            0.1348007768392563,
+            0.48917895555496216,
+            -0.11654072999954224
+          ],
+          [
+            0.4880281984806061,
+            -0.48410120606422424,
+            -0.7262750267982483,
+            0.12917830049991608
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.41386735439300537,
+          -0.11654072999954224,
+          0.12917830049991608
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          0.3699445128440857,
+          -0.6577200293540955,
+          -0.6561565399169922,
+          -0.0019346451153978705
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "Weapon_Root": {
+        "name": "Weapon_Root",
+        "matrix": [
+          [
+            0.00014008895959705114,
+            0.0001412829733453691,
+            -1.0000003576278687,
+            0.2065601646900177
+          ],
+          [
+            -0.00023417346528731287,
+            -1.0000015497207642,
+            -0.00014068586460780352,
+            0.41605257987976074
+          ],
+          [
+            -1.0000004768371582,
+            0.0002344119275221601,
+            -0.0001401047920808196,
+            1.371115803718567
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "Weapon_Magazine": {
+        "name": "Weapon_Magazine",
+        "matrix": [
+          [
+            -0.0007894841837696731,
+            0.00013839743041899055,
+            -1.0000001192092896,
+            0.2065601646900177
+          ],
+          [
+            0.0013714393135160208,
+            -1.0000005960464478,
+            -0.0001388501696055755,
+            0.41605257987976074
+          ],
+          [
+            -0.9999992251396179,
+            -0.0013713280204683542,
+            0.0007892448338679969,
+            1.371115803718567
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      },
+      "weapon": {
+        "name": "weapon",
+        "matrix": [
+          [
+            0.03376021608710289,
+            -0.7502350807189941,
+            -0.660308837890625,
+            0.24465593695640564
+          ],
+          [
+            0.028068138286471367,
+            -0.659713089466095,
+            0.7509933710098267,
+            0.010104909539222717
+          ],
+          [
+            -0.9990357756614685,
+            -0.04388738051056862,
+            -0.0012142936466261744,
+            1.3452908992767334
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "constraints": []
+      }
+    }
+  }
+}

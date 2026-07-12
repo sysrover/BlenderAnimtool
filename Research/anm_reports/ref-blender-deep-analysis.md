@@ -1,0 +1,330 @@
+# Reference Blender Deep Analysis
+
+Source: `C:\Users\sysro\Downloads\BlenderPoses.blend`
+
+## Summary
+- objects: `397`
+- armatures: `2`
+- actions: `19`
+- text datablocks: `62`
+
+## Armature `Armature`
+- bones: `156`
+- pose bones: `156`
+- bone collections: `1`
+- object custom props: `['als', 'xray']`
+- data custom props: `['rigify_target_rig', 'xray']`
+
+### Arm/IK Relevant Constraints
+- `RightArm` | COPY_TRANSFORMS | `Constraints` | target=`child_RightArm` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.003` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.004` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.005` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.006` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.007` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.008` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.009` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.010` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.011` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints.012` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightArmTwist` | COPY_TRANSFORMS | `Constraints` | target=`child_RightArmTwist` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightForeArm` | COPY_TRANSFORMS | `Constraints` | target=`child_RightForeArm` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightForeArmTwist` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightForeArmTwist` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightForeArmTwist` | COPY_TRANSFORMS | `Constraints.003` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightForeArmTwist` | COPY_TRANSFORMS | `Constraints.004` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightForeArmTwist` | COPY_TRANSFORMS | `Constraints` | target=`child_RightForeArmTwist` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHand` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHand` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle1` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandMiddle1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle2` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandMiddle2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle3` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandMiddle3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandMiddle4` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandMiddle4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing1` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandRing1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing2` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandRing2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing3` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandRing3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandRing4` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandRing4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky1` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandPinky1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky2` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandPinky2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky3` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandPinky3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandPinky4` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandPinky4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex1` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandIndex1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex2` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandIndex2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex3` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandIndex3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandIndex4` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandIndex4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandThumb2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandThumb2` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandThumb2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandThumb3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandThumb3` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandThumb3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandThumb4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandThumb4` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandThumb4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `RightHandProp` | COPY_TRANSFORMS | `Constraints` | target=`child_RightHandProp` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArm` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftArm` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.003` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.004` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.005` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.006` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.007` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.008` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.009` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.010` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.011` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints.012` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftArmTwist` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftArmTwist` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftForeArm` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftForeArm` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftForeArmTwist` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftForeArmTwist` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftForeArmTwist` | COPY_TRANSFORMS | `Constraints.003` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftForeArmTwist` | COPY_TRANSFORMS | `Constraints.004` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftForeArmTwist` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftForeArmTwist` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHand` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHand` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHand` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandProp` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandProp` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle1` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle1` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandMiddle1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle2` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle2` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandMiddle2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle3` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle3` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandMiddle3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle4` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandMiddle4` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandMiddle4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing1` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing1` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandRing1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing2` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing2` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandRing2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing3` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing3` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandRing3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing4` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandRing4` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandRing4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky1` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky1` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandPinky1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky2` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky2` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandPinky2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky3` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky3` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandPinky3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky4` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandPinky4` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandPinky4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex1` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex1` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex1` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandIndex1` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex2` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex2` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandIndex2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex3` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex3` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandIndex3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex4` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandIndex4` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandIndex4` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb2` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb2` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb2` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandThumb2` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb3` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb3` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb3` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandThumb3` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb4` | COPY_TRANSFORMS | `Constraints.001` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb4` | COPY_TRANSFORMS | `Constraints.002` | target=`None` sub=`` pole=`None` chain=`None` infl=`1.0`
+- `LeftHandThumb4` | COPY_TRANSFORMS | `Constraints` | target=`child_LeftHandThumb4` sub=`` pole=`None` chain=`None` infl=`1.0`
+
+## Armature `rig`
+- bones: `734`
+- pose bones: `734`
+- bone collections: `29`
+- object custom props: `['rig_ui', 'als', 'armaObjProps', 'xray']`
+- data custom props: `['rig_id', 'expykit_retarget', 'xray']`
+
+### Arm/IK Relevant Constraints
+- `ORG-LeftForeArmDirectionOriginPose` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`LeftForeArmDirectionOriginPose` pole=`None` chain=`None` infl=`1.0`
+- `ORG-LeftHandOriginPose` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`LeftHandOriginPose` pole=`None` chain=`None` infl=`1.0`
+- `ORG-RightForeArmDirectionOriginPose` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`RightForeArmDirectionOriginPose` pole=`None` chain=`None` infl=`1.0`
+- `ORG-RightHandOriginPose` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`RightHandOriginPose` pole=`None` chain=`None` infl=`1.0`
+- `VIS_upper_arm_ik_pole.L` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`ORG-forearm.L` pole=`None` chain=`None` infl=`1.0`
+- `VIS_upper_arm_ik_pole.L` | STRETCH_TO | `Stretch To` | target=`rig` sub=`upper_arm_ik_target.L` pole=`None` chain=`None` infl=`1.0`
+- `VIS_upper_arm_ik_pole.R` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`ORG-forearm.R` pole=`None` chain=`None` infl=`1.0`
+- `VIS_upper_arm_ik_pole.R` | STRETCH_TO | `Stretch To` | target=`rig` sub=`upper_arm_ik_target.R` pole=`None` chain=`None` infl=`1.0`
+- `VIS_thigh_ik_pole.L` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`ORG-shin.L` pole=`None` chain=`None` infl=`1.0`
+- `VIS_thigh_ik_pole.L` | STRETCH_TO | `Stretch To` | target=`rig` sub=`thigh_ik_target.L` pole=`None` chain=`None` infl=`1.0`
+- `VIS_thigh_ik_pole.R` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`ORG-shin.R` pole=`None` chain=`None` infl=`1.0`
+- `VIS_thigh_ik_pole.R` | STRETCH_TO | `Stretch To` | target=`rig` sub=`thigh_ik_target.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-thigh_ik_swing.L` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`MCH-thigh_ik_target.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-shin_ik.L` | IK | `IK` | target=`rig` sub=`MCH-thigh_ik_target.L` pole=`` chain=`2` infl=`1.0`
+- `MCH-shin_ik.L` | IK | `IK.001` | target=`rig` sub=`MCH-thigh_ik_target.L` pole=`thigh_ik_target.L` chain=`2` infl=`1.0`
+- `MCH-thigh_ik_swing.R` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`MCH-thigh_ik_target.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-shin_ik.R` | IK | `IK` | target=`rig` sub=`MCH-thigh_ik_target.R` pole=`` chain=`2` infl=`1.0`
+- `MCH-shin_ik.R` | IK | `IK.001` | target=`rig` sub=`MCH-thigh_ik_target.R` pole=`thigh_ik_target.R` chain=`2` infl=`1.0`
+- `MCH-spine_ik.008` | IK | `IK` | target=`rig` sub=`head` pole=`` chain=`3` infl=`1.0`
+- `ORG-upper_arm.L` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_fk.L` pole=`None` chain=`None` infl=`1.0`
+- `ORG-upper_arm.L` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`upper_arm_ik.L` pole=`None` chain=`None` infl=`0.0`
+- `ORG-forearm.L` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_fk.L` pole=`None` chain=`None` infl=`1.0`
+- `ORG-forearm.L` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`MCH-forearm_ik.L` pole=`None` chain=`None` infl=`0.0`
+- `ORG-hand.L` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`hand_fk.L` pole=`None` chain=`None` infl=`1.0`
+- `ORG-hand.L` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`MCH-upper_arm_ik_target.L` pole=`None` chain=`None` infl=`0.0`
+- `MCH-forearm_tweak.L` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`MCH-upper_arm_parent.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-forearm_tweak.L.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-forearm_tweak.L.001` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`hand_tweak.L` pole=`None` chain=`None` infl=`0.5`
+- `MCH-forearm_tweak.L.001` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`hand_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_parent_widget.L` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`root` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.L.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.L.001` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`forearm_tweak.L` pole=`None` chain=`None` infl=`0.5`
+- `MCH-upper_arm_tweak.L.001` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`forearm_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_parent.L` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`root` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_parent.L` | COPY_ROTATION | `Copy Rotation` | target=`rig` sub=`root` pole=`None` chain=`None` infl=`0.0`
+- `MCH-hand_fk.L` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`MCH-upper_arm_parent.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_ik_swing.L` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`MCH-upper_arm_ik_target.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-forearm_ik.L` | IK | `IK` | target=`rig` sub=`MCH-upper_arm_ik_target.L` pole=`` chain=`2` infl=`1.0`
+- `MCH-forearm_ik.L` | IK | `IK.001` | target=`rig` sub=`MCH-upper_arm_ik_target.L` pole=`upper_arm_ik_target.L` chain=`2` infl=`1.0`
+- `MCH-upper_arm_tweak.L` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`MCH-upper_arm_parent.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.L` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`ORG-upper_arm.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.L` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`ORG-upper_arm.L` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.L` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.L` | STRETCH_TO | `Stretch To` | target=`rig` sub=`upper_arm_tweak.L.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.L.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_tweak.L.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.L.001` | STRETCH_TO | `Stretch To` | target=`rig` sub=`forearm_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.L` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.L` | STRETCH_TO | `Stretch To` | target=`rig` sub=`forearm_tweak.L.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.L.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_tweak.L.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.L.001` | STRETCH_TO | `Stretch To` | target=`rig` sub=`hand_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `DEF-hand.L` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`hand_tweak.L` pole=`None` chain=`None` infl=`1.0`
+- `ORG-upper_arm.R` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_fk.R` pole=`None` chain=`None` infl=`1.0`
+- `ORG-upper_arm.R` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`upper_arm_ik.R` pole=`None` chain=`None` infl=`0.0`
+- `ORG-forearm.R` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_fk.R` pole=`None` chain=`None` infl=`1.0`
+- `ORG-forearm.R` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`MCH-forearm_ik.R` pole=`None` chain=`None` infl=`0.0`
+- `ORG-hand.R` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`hand_fk.R` pole=`None` chain=`None` infl=`1.0`
+- `ORG-hand.R` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`MCH-upper_arm_ik_target.R` pole=`None` chain=`None` infl=`0.0`
+- `MCH-forearm_tweak.R` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`MCH-upper_arm_parent.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-forearm_tweak.R.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-forearm_tweak.R.001` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`hand_tweak.R` pole=`None` chain=`None` infl=`0.5`
+- `MCH-forearm_tweak.R.001` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`hand_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_parent_widget.R` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`root` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.R.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.R.001` | COPY_TRANSFORMS | `Copy Transforms.001` | target=`rig` sub=`forearm_tweak.R` pole=`None` chain=`None` infl=`0.5`
+- `MCH-upper_arm_tweak.R.001` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`forearm_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_parent.R` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`root` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_parent.R` | COPY_ROTATION | `Copy Rotation` | target=`rig` sub=`root` pole=`None` chain=`None` infl=`0.0`
+- `MCH-hand_fk.R` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`MCH-upper_arm_parent.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_ik_swing.R` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`MCH-upper_arm_ik_target.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-forearm_ik.R` | IK | `IK` | target=`rig` sub=`MCH-upper_arm_ik_target.R` pole=`` chain=`2` infl=`1.0`
+- `MCH-forearm_ik.R` | IK | `IK.001` | target=`rig` sub=`MCH-upper_arm_ik_target.R` pole=`upper_arm_ik_target.R` chain=`2` infl=`1.0`
+- `MCH-upper_arm_tweak.R` | COPY_SCALE | `Copy Scale` | target=`rig` sub=`MCH-upper_arm_parent.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.R` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`ORG-upper_arm.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_tweak.R` | DAMPED_TRACK | `Damped Track` | target=`rig` sub=`ORG-upper_arm.R` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.R` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.R` | STRETCH_TO | `Stretch To` | target=`rig` sub=`upper_arm_tweak.R.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.R.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`upper_arm_tweak.R.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-upper_arm.R.001` | STRETCH_TO | `Stretch To` | target=`rig` sub=`forearm_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.R` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.R` | STRETCH_TO | `Stretch To` | target=`rig` sub=`forearm_tweak.R.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.R.001` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`forearm_tweak.R.001` pole=`None` chain=`None` infl=`1.0`
+- `DEF-forearm.R.001` | STRETCH_TO | `Stretch To` | target=`rig` sub=`hand_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `DEF-hand.R` | COPY_TRANSFORMS | `Copy Transforms` | target=`rig` sub=`hand_tweak.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-hand_ik.parent.L` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_ik_target.L` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`hand_ik.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_ik_target.L` | LIMIT_DISTANCE | `Limit Distance` | target=`rig` sub=`MCH-upper_arm_parent.L` pole=`None` chain=`None` infl=`0.0`
+- `MCH-upper_arm_ik_target.parent.L` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-hand_ik.parent.R` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_ik_target.R` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`hand_ik.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-upper_arm_ik_target.R` | LIMIT_DISTANCE | `Limit Distance` | target=`rig` sub=`MCH-upper_arm_parent.R` pole=`None` chain=`None` infl=`0.0`
+- `MCH-upper_arm_ik_target.parent.R` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-foot_ik.parent.L` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-thigh_ik_target.L` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`MCH-foot_roll.L` pole=`None` chain=`None` infl=`1.0`
+- `MCH-thigh_ik_target.L` | LIMIT_DISTANCE | `Limit Distance` | target=`rig` sub=`MCH-thigh_parent.L` pole=`None` chain=`None` infl=`0.0`
+- `MCH-thigh_ik_target.parent.L` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-foot_ik.parent.R` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+- `MCH-thigh_ik_target.R` | COPY_LOCATION | `Copy Location` | target=`rig` sub=`MCH-foot_roll.R` pole=`None` chain=`None` infl=`1.0`
+- `MCH-thigh_ik_target.R` | LIMIT_DISTANCE | `Limit Distance` | target=`rig` sub=`MCH-thigh_parent.R` pole=`None` chain=`None` infl=`0.0`
+- `MCH-thigh_ik_target.parent.R` | ARMATURE | `SWITCH_PARENT` | target=`None` sub=`None` pole=`None` chain=`None` infl=`1.0`
+
+## Text Scripts
+- `metarig.py`: 2824 lines, 149937 chars
+- `rig_ui.py`: 1881 lines, 88766 chars
+- `rig_ui.py.001`: 1881 lines, 88766 chars
+- `rig_ui.py.002`: 1881 lines, 88766 chars
+- `rig_ui.py.003`: 1881 lines, 88766 chars
+- `rig_ui.py.004`: 1881 lines, 88868 chars
+- `rig_ui.py.005`: 1881 lines, 88868 chars
+- `rig_ui.py.006`: 1881 lines, 88868 chars
+- `rig_ui.py.007`: 1881 lines, 88868 chars
+- `rig_ui.py.008`: 1881 lines, 88868 chars
+- `rig_ui.py.009`: 1881 lines, 88868 chars
+- `rig_ui.py.010`: 1881 lines, 88868 chars
+- `rig_ui.py.011`: 1881 lines, 88868 chars
+- `rig_ui.py.012`: 1881 lines, 88868 chars
+- `rig_ui.py.013`: 1881 lines, 88868 chars
+- `rig_ui.py.014`: 1881 lines, 88868 chars
+- `rig_ui.py.015`: 1881 lines, 88868 chars
+- `rig_ui.py.016`: 1881 lines, 88868 chars
+- `rig_ui.py.017`: 1881 lines, 88868 chars
+- `rig_ui.py.018`: 1881 lines, 88696 chars
+- `rig_ui.py.019`: 1881 lines, 88696 chars
+- `rig_ui.py.020`: 1881 lines, 88696 chars
+- `rig_ui.py.021`: 1881 lines, 88696 chars
+- `rig_ui.py.022`: 1881 lines, 88696 chars
+- `rig_ui.py.023`: 1881 lines, 88696 chars
+- `rig_ui.py.024`: 1881 lines, 88696 chars
+- `rig_ui.py.025`: 1881 lines, 88696 chars
+- `rig_ui.py.026`: 1881 lines, 88696 chars
+- `rig_ui.py.027`: 1881 lines, 88696 chars
+- `rig_ui.py.028`: 1881 lines, 88868 chars
+- `rig_ui.py.029`: 1881 lines, 88868 chars
+- `rig_ui.py.030`: 1881 lines, 88868 chars
+- `rig_ui.py.031`: 1881 lines, 88868 chars
+- `rig_ui.py.032`: 1881 lines, 88868 chars
+- `rig_ui.py.033`: 1881 lines, 88868 chars
+- `rig_ui.py.034`: 1881 lines, 88868 chars
+- `rig_ui.py.035`: 1881 lines, 88868 chars
+- `rig_ui.py.036`: 1881 lines, 88868 chars
+- `rig_ui.py.037`: 1881 lines, 88868 chars
+- `rig_ui.py.038`: 1881 lines, 88868 chars
+- `rig_ui.py.039`: 1881 lines, 88868 chars
+- `rig_ui.py.040`: 1881 lines, 88868 chars
+- `rig_ui.py.041`: 1881 lines, 88868 chars
+- `rig_ui.py.042`: 1881 lines, 88868 chars
+- `rig_ui.py.043`: 1881 lines, 88868 chars
+- `rig_ui.py.044`: 1881 lines, 88868 chars
+- `rig_ui.py.045`: 1881 lines, 88868 chars
+- `rig_ui.py.046`: 1881 lines, 88868 chars
+- `rig_ui.py.047`: 1881 lines, 88868 chars
+- `rig_ui.py.048`: 1881 lines, 88868 chars
+- `rig_ui.py.049`: 1881 lines, 88868 chars
+- `rig_ui.py.050`: 1881 lines, 88868 chars
+- `rig_ui.py.051`: 1881 lines, 88868 chars
+- `rig_ui.py.052`: 1881 lines, 88868 chars
+- `rig_ui.py.053`: 1881 lines, 88868 chars
+- `rig_ui.py.054`: 1881 lines, 88868 chars
+- `rig_ui.py.055`: 1881 lines, 88868 chars
+- `rig_ui.py.056`: 1881 lines, 88868 chars
+- `Text`: 27 lines, 1028 chars
+- `Text.001`: 29 lines, 1050 chars
+- `Text.002`: 57 lines, 2112 chars
+- `Text.003`: 170 lines, 6137 chars

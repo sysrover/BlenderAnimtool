@@ -1,0 +1,326 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_aks74u_refstyle_ikfk_v11_left_hand_fix.blend",
+  "rig": "DAT_DayZ_RefStyleControlsWireV8",
+  "export": "_DayZ_Character",
+  "rig_props": {
+    "IK_FK_L": 1.0,
+    "IK_FK_R": 1.0
+  },
+  "export_constraints": {
+    "LeftArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Arm.L",
+        "influence": 1.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftArm.L",
+        "influence": 0.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "LeftForeArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ForeArm.L",
+        "influence": 1.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftForeArm.L",
+        "influence": 0.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "LeftHand": [
+      {
+        "name": "DAT_REFWIRE8_ROT_LeftHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Hand.L",
+        "influence": 1.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_LeftHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_LeftHand.L",
+        "influence": 0.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Arm.R",
+        "influence": 1.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightArm.R",
+        "influence": 0.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightForeArm": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_ForeArm.R",
+        "influence": 1.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightForeArm",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightForeArm.R",
+        "influence": 0.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ],
+    "RightHand": [
+      {
+        "name": "DAT_REFWIRE8_ROT_RightHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "OUT_Hand.R",
+        "influence": 1.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      },
+      {
+        "name": "DAT_IKFK_FK_ROT_RightHand",
+        "type": "COPY_ROTATION",
+        "target": "DAT_DayZ_RefStyleControlsWireV8",
+        "subtarget": "FK_RightHand.R",
+        "influence": 0.0,
+        "mute": false,
+        "target_space": "WORLD",
+        "owner_space": "WORLD"
+      }
+    ]
+  },
+  "drivers": [],
+  "fk_bones": {
+    "FK_LeftArm.L": {
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_shape": "WGT_DAT_Joint_Wire_Large",
+      "hide": false
+    },
+    "FK_LeftForeArm.L": {
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_shape": "WGT_DAT_Joint_Wire_Large",
+      "hide": false
+    },
+    "FK_LeftHand.L": {
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_shape": "WGT_DAT_Hand_Wire_Large",
+      "hide": false
+    },
+    "FK_RightArm.R": {
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_shape": "WGT_DAT_Joint_Wire_Large",
+      "hide": false
+    },
+    "FK_RightForeArm.R": {
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_shape": "WGT_DAT_Joint_Wire_Large",
+      "hide": false
+    },
+    "FK_RightHand.R": {
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_shape": "WGT_DAT_Hand_Wire_Large",
+      "hide": false
+    }
+  }
+}

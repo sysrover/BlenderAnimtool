@@ -1,0 +1,29 @@
+import bpy
+
+bone_names = ['RightHandOriginPose','RightForeArmDirectionOriginPose','LeftHandOriginPose','LeftForeArmDirectionOriginPose']
+target_bones = ['RightHand','RightForeArm','LeftHand','LeftForeArm']
+        
+print(bone_names)
+num = 0
+    
+for bone in bone_names:
+    armObj = bpy.data.objects['rig']
+    pose = armObj.pose
+
+    selected_bone = pose.bones.get(bone)
+    print(num)
+    target_bone = target_bones[num]
+    print(target_bone)
+    print(selected_bone)
+    selected_bone.constraints.new(type='COPY_TRANSFORMS')
+    selected_bone.constraints["Copy Transforms"].target = bpy.data.objects["Armature"]
+    selected_bone.constraints["Copy Transforms"].subtarget = target_bone
+    boneToSelect = bpy.data.objects['rig'].pose.bones[bone].bone
+    #Set as active 
+    bpy.context.object.data.bones.active = boneToSelect
+    #Select in viewport
+    boneToSelect.select = True
+    bpy.ops.constraint.apply(constraint="Copy Transforms", owner='BONE')
+    boneToSelect.select = False
+    bpy.context.object.data.bones.active = None
+    num += 1

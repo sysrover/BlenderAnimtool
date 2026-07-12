@@ -1,0 +1,40 @@
+{
+  "file_saved_as": "P:\\Animation_Weapon\\Weapon_template_clean_no_blender_ik.blend",
+  "removed_constraints": [],
+  "removed_control_bones": [],
+  "visible_bones": [
+    "LeftArm",
+    "LeftForeArm",
+    "LeftForeArmDirection",
+    "LeftForeArmDirectionOrigin",
+    "LeftHand",
+    "LeftHandIK",
+    "LeftHandIKTarget",
+    "LeftHandOrigin",
+    "LeftHand_Dummy",
+    "LeftShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightForeArmDirection",
+    "RightForeArmDirectionOrigin",
+    "RightHand",
+    "RightHandIK",
+    "RightHandOrigin",
+    "RightHand_Dummy",
+    "RightShoulder",
+    "Weapon_Bolt",
+    "Weapon_Magazine",
+    "Weapon_Root",
+    "Weapon_Trigger"
+  ],
+  "visible_bones_count": 23,
+  "hidden_shape_objects": [
+    "zJD_Axis",
+    "zJD_Axis_Small",
+    "zJD_Circle",
+    "zJD_Cube",
+    "zJD_SingleArrow",
+    "zJD_Sphere"
+  ],
+  "note": "Restored safe state: no Blender IK authoring constraints and no DAT_CTRL bones. Technical DayZ helpers are visible only for inspection."
+}

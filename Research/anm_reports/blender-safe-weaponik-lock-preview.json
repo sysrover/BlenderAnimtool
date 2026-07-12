@@ -1,0 +1,38 @@
+{
+  "mode": "Viewport Lock Preview",
+  "frame": 30,
+  "removed": [
+    "LeftHand:DayZ WeaponIK Preview",
+    "RightHand:DayZ WeaponIK Preview",
+    "LeftHandIKTarget:DayZ WIK Control Copy Location",
+    "LeftHandIKTarget:DayZ WIK Control Copy Rotation",
+    "RightHandOrigin:DayZ WIK Control Copy Location",
+    "RightHandOrigin:DayZ WIK Control Copy Rotation"
+  ],
+  "left_target_offset_m": [
+    0.0,
+    0.0,
+    -0.02500000037252903
+  ],
+  "left_target": [
+    0.14745819568634033,
+    0.4907490611076355,
+    1.318902611732483
+  ],
+  "right_target": [
+    0.21427154541015625,
+    0.11002010107040405,
+    1.3541133403778076
+  ],
+  "left_hand": [
+    0.14745372533798218,
+    0.46174827218055725,
+    1.3189009428024292
+  ],
+  "right_hand": [
+    0.2142646461725235,
+    0.01001960039138794,
+    1.3541187047958374
+  ],
+  "note": "Preview-only lock. This uses Blender IK for viewport checking, not export truth."
+}

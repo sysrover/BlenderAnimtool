@@ -1,0 +1,17 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\bin\Release\net9.0\PngToEddsVerifier.exe
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\bin\Release\net9.0\PngToEddsVerifier.deps.json
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\bin\Release\net9.0\PngToEddsVerifier.runtimeconfig.json
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\bin\Release\net9.0\PngToEddsVerifier.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\bin\Release\net9.0\PngToEddsVerifier.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\bin\Release\net9.0\K4os.Compression.LZ4.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.csproj.AssemblyReference.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.AssemblyInfoInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.AssemblyInfo.cs
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.csproj.CoreCompileInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEdd.65D5FAAB.Up2Date
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\refint\PngToEddsVerifier.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\PngToEddsVerifier.genruntimeconfig.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEddsVerifier\obj\Release\net9.0\ref\PngToEddsVerifier.dll

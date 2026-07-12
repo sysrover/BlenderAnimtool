@@ -1,0 +1,973 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DayZGuiFunctionDump.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:37:55 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DayZGuiFunctionDump.java
+Size: 3215 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+TARGET_PROGRAM DayZDiag_x64.exe
+------------------------------------------------------------
+FUNCTION_REQUEST 1403de7a0 -> FUN_1403de7a0
+C[1] 
+C[2] /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+C[3] 
+C[4] void FUN_1403de7a0(longlong *param_1,longlong param_2)
+C[5] 
+C[6] {
+C[7]   undefined1 *puVar1;
+C[8]   uint *puVar2;
+C[9]   int *piVar3;
+C[10]   undefined8 *puVar4;
+C[11]   float *pfVar5;
+C[12]   byte *pbVar6;
+C[13]   char cVar7;
+C[14]   char cVar8;
+C[15]   char cVar9;
+C[16]   char cVar10;
+C[17]   char cVar11;
+C[18]   char cVar12;
+C[19]   char cVar13;
+C[20]   char cVar14;
+C[21]   char cVar15;
+C[22]   char cVar16;
+C[23]   char cVar17;
+C[24]   char cVar18;
+C[25]   undefined1 uVar19;
+C[26]   int iVar20;
+C[27]   longlong *plVar21;
+C[28]   longlong lVar22;
+C[29]   uint uVar23;
+C[30]   int iVar24;
+C[31]   char *pcVar25;
+C[32]   uint uVar26;
+C[33]   longlong lVar27;
+C[34]   byte *pbVar28;
+C[35]   float fVar29;
+C[36]   float fVar30;
+C[37]   float fVar31;
+C[38]   float fVar32;
+C[39]   undefined8 local_res10;
+C[40]   undefined8 local_28;
+C[41]   undefined8 uStack_20;
+C[42]   
+C[43]   plVar21 = FUN_1402bf390((longlong *)(param_2 + 0x18));
+C[44]   pcVar25 = &DAT_1411a3470;
+C[45]   if ((char *)*plVar21 != (char *)0x0) {
+C[46]     pcVar25 = (char *)*plVar21;
+C[47]   }
+C[48]   FUN_1403df870((longlong)param_1,pcVar25);
+C[49]   lVar22 = *(longlong *)(param_2 + 0x38);
+C[50]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cb0 * 8);
+C[51]   cVar7 = '\x01';
+C[52]   if (pcVar25 != (char *)0x0) {
+C[53]     cVar7 = *pcVar25;
+C[54]   }
+C[55]   lVar27 = 0;
+C[56]   uVar26 = 0;
+C[57]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cb4 * 8);
+C[58]   if (pcVar25 == (char *)0x0) {
+C[59]     cVar8 = '\0';
+C[60]   }
+C[61]   else {
+C[62]     cVar8 = *pcVar25;
+C[63]   }
+C[64]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cb8 * 8);
+C[65]   cVar9 = '\x01';
+C[66]   if (pcVar25 != (char *)0x0) {
+C[67]     cVar9 = *pcVar25;
+C[68]   }
+C[69]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cbc * 8);
+C[70]   if (pcVar25 == (char *)0x0) {
+C[71]     cVar10 = '\0';
+C[72]   }
+C[73]   else {
+C[74]     cVar10 = *pcVar25;
+C[75]   }
+C[76]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cc0 * 8);
+C[77]   if (pcVar25 == (char *)0x0) {
+C[78]     cVar11 = '\0';
+C[79]   }
+C[80]   else {
+C[81]     cVar11 = *pcVar25;
+C[82]   }
+C[83]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cc4 * 8);
+C[84]   if (pcVar25 == (char *)0x0) {
+C[85]     cVar12 = '\0';
+C[86]   }
+C[87]   else {
+C[88]     cVar12 = *pcVar25;
+C[89]   }
+C[90]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cdc * 8);
+C[91]   if (pcVar25 == (char *)0x0) {
+C[92]     cVar13 = '\0';
+C[93]   }
+C[94]   else {
+C[95]     cVar13 = *pcVar25;
+C[96]   }
+C[97]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281ce0 * 8);
+C[98]   if (pcVar25 == (char *)0x0) {
+C[99]     cVar14 = '\0';
+C[100]   }
+C[101]   else {
+C[102]     cVar14 = *pcVar25;
+C[103]   }
+C[104]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281ce4 * 8);
+C[105]   if (pcVar25 == (char *)0x0) {
+C[106]     cVar15 = '\0';
+C[107]   }
+C[108]   else {
+C[109]     cVar15 = *pcVar25;
+C[110]   }
+C[111]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281ce8 * 8);
+C[112]   if (pcVar25 == (char *)0x0) {
+C[113]     cVar16 = '\0';
+C[114]   }
+C[115]   else {
+C[116]     cVar16 = *pcVar25;
+C[117]   }
+C[118]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cec * 8);
+C[119]   cVar17 = '\x01';
+C[120]   if (pcVar25 != (char *)0x0) {
+C[121]     cVar17 = *pcVar25;
+C[122]   }
+C[123]   pcVar25 = *(char **)(lVar22 + (ulonglong)DAT_141281cfc * 8);
+C[124]   if (pcVar25 == (char *)0x0) {
+C[125]     cVar18 = '\0';
+C[126]   }
+C[127]   else {
+C[128]     cVar18 = *pcVar25;
+C[129]   }
+C[130]   FUN_1403df740(param_1,-(uint)(cVar18 != '\0') & 0x80000 |
+C[131]                         (uint)(cVar7 != '\0') | -(uint)(cVar8 != '\0') & 0x20000 |
+C[132]                         -(uint)(cVar9 != '\0') & 2 | -(uint)(cVar10 != '\0') & 0x10000 |
+C[133]                         -(uint)(cVar11 != '\0') & 0x8000 | -(uint)(cVar12 != '\0') & 0x4000 |
+C[134]                         -(uint)(cVar13 != '\0') & 4 | -(uint)(cVar14 != '\0') & 8 |
+C[135]                         -(uint)(cVar15 != '\0') & 0x10 | -(uint)(cVar16 != '\0') & 0x20 |
+C[136]                         -(uint)(cVar17 != '\0') & 0x20000000,'\0');
+C[137]   puVar1 = *(undefined1 **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281d04 * 8);
+C[138]   if (puVar1 == (undefined1 *)0x0) {
+C[139]     uVar19 = 0;
+C[140]   }
+C[141]   else {
+C[142]     uVar19 = *puVar1;
+C[143]   }
+C[144]   *(undefined1 *)((longlong)param_1 + 0xac) = uVar19;
+C[145]   puVar2 = *(uint **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cf0 * 8);
+C[146]   uVar23 = uVar26;
+C[147]   if (puVar2 != (uint *)0x0) {
+C[148]     uVar23 = *puVar2;
+C[149]   }
+C[150]   FUN_1403df640(param_1,uVar23,'\0');
+C[151]   puVar2 = *(uint **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cd4 * 8);
+C[152]   uVar23 = uVar26;
+C[153]   if (puVar2 != (uint *)0x0) {
+C[154]     uVar23 = *puVar2;
+C[155]   }
+C[156]   FUN_1403df7e0(param_1,uVar23,'\0');
+C[157]   puVar2 = *(uint **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cd8 * 8);
+C[158]   if (puVar2 != (uint *)0x0) {
+C[159]     uVar26 = *puVar2;
+C[160]   }
+C[161]   FUN_1403dfed0(param_1,uVar26,'\0');
+C[162]   piVar3 = *(int **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cf4 * 8);
+C[163]   iVar20 = 0;
+C[164]   iVar24 = iVar20;
+C[165]   if (piVar3 != (int *)0x0) {
+C[166]     iVar24 = *piVar3;
+C[167]   }
+C[168]   FUN_1403dfde0((longlong)param_1,iVar24,0);
+C[169]   plVar21 = *(longlong **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cc8 * 8);
+C[170]   local_28 = lVar27;
+C[171]   if (plVar21 != (longlong *)0x0) {
+C[172]     local_28 = *plVar21;
+C[173]   }
+C[174]   local_res10 = 0x3f8000003f800000;
+C[175]   puVar4 = *(undefined8 **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cd0 * 8);
+C[176]   if (puVar4 != (undefined8 *)0x0) {
+C[177]     local_res10 = *puVar4;
+C[178]   }
+C[179]   uStack_20 = local_res10;
+C[180]   FUN_1403df900(param_1,(float *)&local_28,'\0');
+C[181]   pfVar5 = *(float **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281ccc * 8);
+C[182]   fVar29 = _DAT_140dfc840;
+C[183]   fVar30 = _UNK_140dfc844;
+C[184]   fVar31 = _UNK_140dfc848;
+C[185]   fVar32 = _UNK_140dfc84c;
+C[186]   if (pfVar5 != (float *)0x0) {
+C[187]     fVar29 = *pfVar5;
+C[188]     fVar30 = pfVar5[1];
+C[189]     fVar31 = pfVar5[2];
+C[190]     fVar32 = pfVar5[3];
+C[191]   }
+C[192]   local_28 = CONCAT44(fVar30,fVar29);
+C[193]   uStack_20 = CONCAT44(fVar32,fVar31);
+C[194]   FUN_1403df6d0((longlong)param_1,
+C[195]                 (((int)ROUND(fVar32 * DAT_140de382c) << 8 | (int)ROUND(fVar29 * DAT_140de382c)) << 8
+C[196]                 | (int)ROUND(fVar30 * DAT_140de382c)) << 8 | (int)ROUND(fVar31 * DAT_140de382c));
+C[197]   piVar3 = *(int **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281cf8 * 8);
+C[198]   if (piVar3 != (int *)0x0) {
+C[199]     iVar20 = *piVar3;
+C[200]   }
+C[201]   *(int *)(param_1 + 0x17) = iVar20;
+C[202]   plVar21 = *(longlong **)(*(longlong *)(param_2 + 0x38) + (ulonglong)DAT_141281d00 * 8);
+C[203]   if (plVar21 != (longlong *)0x0) {
+C[204]     pbVar6 = (byte *)*plVar21;
+C[205]     pbVar28 = &DAT_1411a3470;
+C[206]     if (pbVar6 != (byte *)0x0) {
+C[207]       pbVar28 = pbVar6;
+C[208]     }
+C[209]     if ((pbVar28 != (byte *)0x0) && (*pbVar28 != 0)) {
+C[210]       plVar21 = (longlong *)FUN_140351f20(DAT_14126f240,pbVar28,1);
+C[211]       if ((plVar21 == (longlong *)0x0) || ((*(byte *)(plVar21 + 10) & 0x10) == 0)) {
+C[212]         local_28 = _DAT_141120ff8;
+C[213]         uStack_20 = uRam0000000141121000;
+C[214]         FUN_1400902d0(0x20,&local_28,"Widget script class not found or is not managed \'%s\'",
+C[215]                       pbVar28);
+C[216]       }
+C[217]       else {
+C[218]         lVar22 = FUN_140349520(DAT_14126f240,plVar21,'\x01',0);
+C[219]         if (lVar22 != 0) {
+C[220]           lVar27 = lVar22 + 0x10;
+C[221]         }
+C[222]         FUN_1402d32c0(param_1 + 0x1d,lVar27);
+C[223]       }
+C[224]     }
+C[225]   }
+C[226]   return;
+C[227] }
+------------------------------------------------------------
+FUNCTION_REQUEST 1403e42a0 -> FUN_1403e42a0
+C[1] 
+C[2] longlong * FUN_1403e42a0(longlong *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+C[3] 
+C[4] {
+C[5]   short *psVar1;
+C[6]   longlong *plVar2;
+C[7]   undefined4 *puVar3;
+C[8]   byte *pbVar4;
+C[9]   undefined4 *puVar5;
+C[10]   char *pcVar6;
+C[11]   undefined *puVar7;
+C[12]   SIZE_T SVar8;
+C[13]   char *local_res8;
+C[14]   char *local_res10;
+C[15]   undefined *local_res18;
+C[16]   char *local_res20;
+C[17]   char *local_a8;
+C[18]   undefined4 local_a0;
+C[19]   undefined4 local_9c;
+C[20]   longlong local_98;
+C[21]   longlong local_90 [4];
+C[22]   longlong local_70;
+C[23]   longlong local_68;
+C[24]   undefined4 local_60;
+C[25]   LPCVOID local_58;
+C[26]   undefined8 local_50;
+C[27]   
+C[28]   FUN_1403e0bf0(param_1,param_2,param_3,param_4);
+C[29]   *param_1 = (longlong)enf::ImageWidgetClass::vftable;
+C[30]   plVar2 = FUN_1403e2170(param_1,(longlong *)&local_res8);
+C[31]   pbVar4 = &DAT_1411a3470;
+C[32]   if ((byte *)*plVar2 != (byte *)0x0) {
+C[33]     pbVar4 = (byte *)*plVar2;
+C[34]   }
+C[35]   FUN_140131650(param_1 + 1,pbVar4,param_3,param_4);
+C[36]   if (local_res8 != (char *)0x0) {
+C[37]     psVar1 = (short *)(local_res8 + -2);
+C[38]     *psVar1 = *psVar1 + -1;
+C[39]     if (*psVar1 == 0) {
+C[40]       FUN_1403726a0(local_res8 + -6);
+C[41]     }
+C[42]   }
+C[43]   local_a0 = 0xb;
+C[44]   local_a8 = "Image 0";
+C[45]   local_res18 = PTR_s_editbox_141148768;
+C[46]   local_res20 = (char *)0x0;
+C[47]   local_res8 = "image0";
+C[48]   local_res10 = (char *)0x0;
+C[49]   local_9c = 0xff0000;
+C[50]   FUN_1401484f0(&local_res8,&local_98);
+C[51]   FUN_1401484f0(&local_res10,local_90);
+C[52]   local_90[1] = 0;
+C[53]   local_90[2] = 0;
+C[54]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[55]   FUN_1401484f0(&local_res20,&local_70);
+C[56]   FUN_1401484f0(&local_a8,&local_68);
+C[57]   local_60 = 0;
+C[58]   local_58 = (LPCVOID)0x0;
+C[59]   local_50 = 0;
+C[60]   DAT_141281d0c = FUN_140131050((longlong)param_1,&local_a0,param_3,param_4);
+C[61]   FUN_1403726a0(local_58);
+C[62]   FUN_1401303a0(&local_a0);
+C[63]   local_res10 = (char *)0x0;
+C[64]   local_a8 = "Image texture";
+C[65]   local_a0 = 0xf;
+C[66]   local_res20 = "edds";
+C[67]   local_res18 = PTR_s_resourceNamePicker_141148750;
+C[68]   local_res8 = "imageTexture";
+C[69]   local_9c = 0xff0000;
+C[70]   FUN_1401484f0(&local_res8,&local_98);
+C[71]   FUN_1401484f0(&local_res10,local_90);
+C[72]   local_90[1] = 0;
+C[73]   local_90[2] = 0;
+C[74]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[75]   FUN_1401484f0(&local_res20,&local_70);
+C[76]   FUN_1401484f0(&local_a8,&local_68);
+C[77]   local_60 = 0;
+C[78]   local_58 = (LPCVOID)0x0;
+C[79]   local_50 = 0;
+C[80]   DAT_141281d10 = FUN_140131050((longlong)param_1,&local_a0,param_3,param_4);
+C[81]   FUN_1403726a0(local_58);
+C[82]   FUN_1401303a0(&local_a0);
+C[83]   puVar5 = &DAT_140e3d374;
+C[84]   SVar8 = 0;
+C[85]   puVar3 = FUN_140111ad0(&local_a0,8,&DAT_140e3d374,0,"opaque");
+C[86]   DAT_141281d14 = FUN_140131050((longlong)param_1,puVar3,puVar5,SVar8);
+C[87]   FUN_1403726a0(local_58);
+C[88]   FUN_1401303a0(&local_a0);
+C[89]   local_res20 = (char *)0x0;
+C[90]   local_a8 = "Alpha from texture";
+C[91]   local_res18 = PTR_s_checkbox_141148770;
+C[92]   local_res10 = "false";
+C[93]   local_res8 = "src alpha";
+C[94]   local_a0 = 10;
+C[95]   local_9c = 0xff0000;
+C[96]   FUN_1401484f0(&local_res8,&local_98);
+C[97]   FUN_1401484f0(&local_res10,local_90);
+C[98]   local_90[1] = 0;
+C[99]   local_90[2] = 0;
+C[100]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[101]   FUN_1401484f0(&local_res20,&local_70);
+C[102]   FUN_1401484f0(&local_a8,&local_68);
+C[103]   local_60 = 0;
+C[104]   local_58 = (LPCVOID)0x0;
+C[105]   local_50 = 0;
+C[106]   DAT_141281d18 = FUN_140131050((longlong)param_1,&local_a0,puVar5,SVar8);
+C[107]   FUN_1403726a0(local_58);
+C[108]   FUN_1401303a0(&local_a0);
+C[109]   local_a0 = 8;
+C[110]   local_a8 = "No UV wrap";
+C[111]   local_res18 = PTR_s_editbox_141148768;
+C[112]   local_res20 = "-1 1 1";
+C[113]   local_res8 = "no wrap";
+C[114]   local_res10 = "-1";
+C[115]   local_9c = 0xff0000;
+C[116]   FUN_1401484f0(&local_res8,&local_98);
+C[117]   FUN_1401484f0(&local_res10,local_90);
+C[118]   local_90[1] = 0;
+C[119]   local_90[2] = 0;
+C[120]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[121]   FUN_1401484f0(&local_res20,&local_70);
+C[122]   FUN_1401484f0(&local_a8,&local_68);
+C[123]   local_60 = 0x100;
+C[124]   local_58 = (LPCVOID)0x0;
+C[125]   local_50 = 0;
+C[126]   DAT_141281d1c = FUN_140131050((longlong)param_1,&local_a0,puVar5,SVar8);
+C[127]   FUN_1403726a0(local_58);
+C[128]   FUN_1401303a0(&local_a0);
+C[129]   SVar8 = 0;
+C[130]   pcVar6 = "clamp mode";
+C[131]   puVar3 = FUN_140111ad0(&local_a0,8,"clamp mode",0,"invalid");
+C[132]   DAT_141281d20 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar8);
+C[133]   FUN_1403726a0(local_58);
+C[134]   FUN_1401303a0(&local_a0);
+C[135]   local_res20 = "-1 1 1";
+C[136]   local_a8 = "";
+C[137]   local_res18 = PTR_s_editbox_141148768;
+C[138]   local_res8 = "stretch";
+C[139]   local_res10 = "-1";
+C[140]   local_a0 = 8;
+C[141]   local_9c = 0xff0000;
+C[142]   FUN_1401484f0(&local_res8,&local_98);
+C[143]   FUN_1401484f0(&local_res10,local_90);
+C[144]   local_90[1] = 0;
+C[145]   local_90[2] = 0;
+C[146]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[147]   FUN_1401484f0(&local_res20,&local_70);
+C[148]   FUN_1401484f0(&local_a8,&local_68);
+C[149]   local_60 = 0x100;
+C[150]   local_58 = (LPCVOID)0x0;
+C[151]   local_50 = 0;
+C[152]   DAT_141281d24 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar8);
+C[153]   FUN_1403726a0(local_58);
+C[154]   FUN_1401303a0(&local_a0);
+C[155]   pcVar6 = "stretch mode";
+C[156]   SVar8 = 0;
+C[157]   puVar3 = FUN_140111ad0(&local_a0,8,"stretch mode",0,"invalid");
+C[158]   DAT_141281d28 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar8);
+C[159]   FUN_1403726a0(local_58);
+C[160]   FUN_1401303a0(&local_a0);
+C[161]   local_res18 = PTR_s_checkbox_141148770;
+C[162]   local_a8 = "";
+C[163]   local_res8 = "flip u";
+C[164]   local_res20 = (char *)0x0;
+C[165]   local_res10 = "false";
+C[166]   local_a0 = 10;
+C[167]   local_9c = 0xff0000;
+C[168]   FUN_1401484f0(&local_res8,&local_98);
+C[169]   FUN_1401484f0(&local_res10,local_90);
+C[170]   local_90[1] = 0;
+C[171]   local_90[2] = 0;
+C[172]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[173]   FUN_1401484f0(&local_res20,&local_70);
+C[174]   FUN_1401484f0(&local_a8,&local_68);
+C[175]   local_60 = 0;
+C[176]   local_58 = (LPCVOID)0x0;
+C[177]   local_50 = 0;
+C[178]   DAT_141281d2c = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar8);
+C[179]   FUN_1403726a0(local_58);
+C[180]   FUN_1401303a0(&local_a0);
+C[181]   local_res18 = PTR_s_checkbox_141148770;
+C[182]   local_a8 = "";
+C[183]   local_res8 = "flip v";
+C[184]   local_res20 = (char *)0x0;
+C[185]   local_res10 = "false";
+C[186]   local_a0 = 10;
+C[187]   local_9c = 0xff0000;
+C[188]   FUN_1401484f0(&local_res8,&local_98);
+C[189]   FUN_1401484f0(&local_res10,local_90);
+C[190]   local_90[1] = 0;
+C[191]   local_90[2] = 0;
+C[192]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[193]   FUN_1401484f0(&local_res20,&local_70);
+C[194]   FUN_1401484f0(&local_a8,&local_68);
+C[195]   local_60 = 0;
+C[196]   local_58 = (LPCVOID)0x0;
+C[197]   local_50 = 0;
+C[198]   DAT_141281d30 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar8);
+C[199]   FUN_1403726a0(local_58);
+C[200]   FUN_1401303a0(&local_a0);
+C[201]   local_res18 = PTR_s_checkbox_141148770;
+C[202]   local_a8 = "";
+C[203]   local_res10 = "true";
+C[204]   local_res8 = "filter";
+C[205]   local_res20 = (char *)0x0;
+C[206]   local_a0 = 10;
+C[207]   local_9c = 0xff0000;
+C[208]   FUN_1401484f0(&local_res8,&local_98);
+C[209]   FUN_1401484f0(&local_res10,local_90);
+C[210]   local_90[1] = 0;
+C[211]   local_90[2] = 0;
+C[212]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[213]   FUN_1401484f0(&local_res20,&local_70);
+C[214]   FUN_1401484f0(&local_a8,&local_68);
+C[215]   local_60 = 0;
+C[216]   local_58 = (LPCVOID)0x0;
+C[217]   local_50 = 0;
+C[218]   DAT_141281d34 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar8);
+C[219]   FUN_1403726a0(local_58);
+C[220]   FUN_1401303a0(&local_a0);
+C[221]   local_res18 = PTR_s_checkbox_141148770;
+C[222]   local_a8 = "";
+C[223]   local_res8 = "nocache";
+C[224]   local_res20 = (char *)0x0;
+C[225]   local_res10 = "false";
+C[226]   local_a0 = 10;
+C[227]   local_9c = 0xff0000;
+C[228]   FUN_1401484f0(&local_res8,&local_98);
+C[229]   FUN_1401484f0(&local_res10,local_90);
+C[230]   local_90[1] = 0;
+C[231]   local_90[2] = 0;
+C[232]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[233]   FUN_1401484f0(&local_res20,&local_70);
+C[234]   FUN_1401484f0(&local_a8,&local_68);
+C[235]   local_60 = 0;
+C[236]   local_58 = (LPCVOID)0x0;
+C[237]   local_50 = 0;
+C[238]   DAT_141281d38 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar8);
+C[239]   FUN_1403726a0(local_58);
+C[240]   FUN_1401303a0(&local_a0);
+C[241]   pcVar6 = "rotation";
+C[242]   SVar8 = CONCAT71((int7)(SVar8 >> 8),3);
+C[243]   puVar3 = FUN_140111940(&local_a0,3,"rotation",SVar8,"0 0 0");
+C[244]   DAT_141281d3c = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar8);
+C[245]   FUN_1403726a0(local_58);
+C[246]   FUN_1401303a0(&local_a0);
+C[247]   pcVar6 = "pivot";
+C[248]   SVar8 = CONCAT71((int7)(SVar8 >> 8),3);
+C[249]   puVar3 = FUN_140111940(&local_a0,2,"pivot",SVar8,"0.5 0.5");
+C[250]   DAT_141281d40 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar8);
+C[251]   FUN_1403726a0(local_58);
+C[252]   FUN_1401303a0(&local_a0);
+C[253]   puVar7 = &DAT_140df4160;
+C[254]   SVar8 = 0;
+C[255]   puVar3 = FUN_140111940(&local_a0,0xf,&DAT_140df4160,0,0);
+C[256]   DAT_141281d44 = FUN_140131050((longlong)param_1,puVar3,puVar7,SVar8);
+C[257]   FUN_1403726a0(local_58);
+C[258]   FUN_1401303a0(&local_a0);
+C[259]   pcVar6 = "Transition width";
+C[260]   SVar8 = CONCAT71((int7)(SVar8 >> 8),3);
+C[261]   puVar3 = FUN_140111940(&local_a0,1,"Transition width",SVar8,&DAT_140df9a1c);
+C[262]   DAT_141281d48 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar8);
+C[263]   FUN_1403726a0(local_58);
+C[264]   FUN_1401303a0(&local_a0);
+C[265]   pcVar6 = "Progress";
+C[266]   SVar8 = CONCAT71((int7)(SVar8 >> 8),3);
+C[267]   puVar3 = FUN_140111940(&local_a0,1,"Progress",SVar8,&DAT_140dedd84);
+C[268]   DAT_141281d4c = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar8);
+C[269]   FUN_1403726a0(local_58);
+C[270]   FUN_1401303a0(&local_a0);
+C[271]   FUN_140133200();
+C[272]   return param_1;
+C[273] }
+------------------------------------------------------------
+FUNCTION_REQUEST 14040adc0 -> FUN_14040adc0
+C[1] 
+C[2] longlong * FUN_14040adc0(longlong *param_1,undefined8 param_2,undefined8 param_3,SIZE_T param_4)
+C[3] 
+C[4] {
+C[5]   short *psVar1;
+C[6]   longlong *plVar2;
+C[7]   undefined4 *puVar3;
+C[8]   byte *pbVar4;
+C[9]   undefined4 *puVar5;
+C[10]   char *pcVar6;
+C[11]   SIZE_T SVar7;
+C[12]   char *local_res8;
+C[13]   char *local_res10;
+C[14]   undefined *local_res18;
+C[15]   char *local_res20;
+C[16]   char *local_a8;
+C[17]   undefined4 local_a0;
+C[18]   undefined4 local_9c;
+C[19]   longlong local_98;
+C[20]   longlong local_90 [4];
+C[21]   longlong local_70;
+C[22]   longlong local_68;
+C[23]   undefined4 local_60;
+C[24]   LPCVOID local_58;
+C[25]   undefined8 local_50;
+C[26]   
+C[27]   FUN_1403e0bf0(param_1,param_2,param_3,param_4);
+C[28]   *param_1 = (longlong)enf::VideoWidgetClass::vftable;
+C[29]   plVar2 = FUN_1403e2170(param_1,(longlong *)&local_res8);
+C[30]   pbVar4 = &DAT_1411a3470;
+C[31]   if ((byte *)*plVar2 != (byte *)0x0) {
+C[32]     pbVar4 = (byte *)*plVar2;
+C[33]   }
+C[34]   FUN_140131650(param_1 + 1,pbVar4,param_3,param_4);
+C[35]   if (local_res8 != (char *)0x0) {
+C[36]     psVar1 = (short *)(local_res8 + -2);
+C[37]     *psVar1 = *psVar1 + -1;
+C[38]     if (*psVar1 == 0) {
+C[39]       FUN_1403726a0(local_res8 + -6);
+C[40]     }
+C[41]   }
+C[42]   local_a0 = 0xb;
+C[43]   local_a8 = "Video file";
+C[44]   local_res18 = PTR_s_editbox_141148f90;
+C[45]   local_res10 = "";
+C[46]   local_res8 = "video";
+C[47]   local_res20 = (char *)0x0;
+C[48]   local_9c = 0xff0000;
+C[49]   FUN_1401484f0(&local_res8,&local_98);
+C[50]   FUN_1401484f0(&local_res10,local_90);
+C[51]   local_90[1] = 0;
+C[52]   local_90[2] = 0;
+C[53]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[54]   FUN_1401484f0(&local_res20,&local_70);
+C[55]   FUN_1401484f0(&local_a8,&local_68);
+C[56]   local_60 = 0;
+C[57]   local_58 = (LPCVOID)0x0;
+C[58]   local_50 = 0;
+C[59]   DAT_141281e60 = FUN_140131050((longlong)param_1,&local_a0,param_3,param_4);
+C[60]   FUN_1403726a0(local_58);
+C[61]   FUN_1401303a0(&local_a0);
+C[62]   puVar5 = &DAT_140e3d374;
+C[63]   SVar7 = 0;
+C[64]   puVar3 = FUN_140111ad0(&local_a0,8,&DAT_140e3d374,0,"opaque");
+C[65]   DAT_141281e64 = FUN_140131050((longlong)param_1,puVar3,puVar5,SVar7);
+C[66]   FUN_1403726a0(local_58);
+C[67]   FUN_1401303a0(&local_a0);
+C[68]   local_res20 = (char *)0x0;
+C[69]   local_a8 = "Alpha from texture";
+C[70]   local_res18 = PTR_s_checkbox_141148f98;
+C[71]   local_res10 = "false";
+C[72]   local_res8 = "src alpha";
+C[73]   local_a0 = 10;
+C[74]   local_9c = 0xff0000;
+C[75]   FUN_1401484f0(&local_res8,&local_98);
+C[76]   FUN_1401484f0(&local_res10,local_90);
+C[77]   local_90[1] = 0;
+C[78]   local_90[2] = 0;
+C[79]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[80]   FUN_1401484f0(&local_res20,&local_70);
+C[81]   FUN_1401484f0(&local_a8,&local_68);
+C[82]   local_60 = 0;
+C[83]   local_58 = (LPCVOID)0x0;
+C[84]   local_50 = 0;
+C[85]   DAT_141281e68 = FUN_140131050((longlong)param_1,&local_a0,puVar5,SVar7);
+C[86]   FUN_1403726a0(local_58);
+C[87]   FUN_1401303a0(&local_a0);
+C[88]   local_a0 = 8;
+C[89]   local_a8 = "No UV wrap";
+C[90]   local_res18 = PTR_s_editbox_141148f90;
+C[91]   local_res20 = "-1 1 1";
+C[92]   local_res8 = "no wrap";
+C[93]   local_res10 = "-1";
+C[94]   local_9c = 0xff0000;
+C[95]   FUN_1401484f0(&local_res8,&local_98);
+C[96]   FUN_1401484f0(&local_res10,local_90);
+C[97]   local_90[1] = 0;
+C[98]   local_90[2] = 0;
+C[99]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[100]   FUN_1401484f0(&local_res20,&local_70);
+C[101]   FUN_1401484f0(&local_a8,&local_68);
+C[102]   local_60 = 0x100;
+C[103]   local_58 = (LPCVOID)0x0;
+C[104]   local_50 = 0;
+C[105]   DAT_141281e6c = FUN_140131050((longlong)param_1,&local_a0,puVar5,SVar7);
+C[106]   FUN_1403726a0(local_58);
+C[107]   FUN_1401303a0(&local_a0);
+C[108]   pcVar6 = "clamp mode";
+C[109]   SVar7 = 0;
+C[110]   puVar3 = FUN_140111ad0(&local_a0,8,"clamp mode",0,"invalid");
+C[111]   DAT_141281e70 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[112]   FUN_1403726a0(local_58);
+C[113]   FUN_1401303a0(&local_a0);
+C[114]   local_res18 = PTR_s_editbox_141148f90;
+C[115]   local_a8 = "";
+C[116]   local_res8 = "stretch";
+C[117]   local_res20 = "-1 1 1";
+C[118]   local_res10 = "-1";
+C[119]   local_a0 = 8;
+C[120]   local_9c = 0xff0000;
+C[121]   FUN_1401484f0(&local_res8,&local_98);
+C[122]   FUN_1401484f0(&local_res10,local_90);
+C[123]   local_90[1] = 0;
+C[124]   local_90[2] = 0;
+C[125]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[126]   FUN_1401484f0(&local_res20,&local_70);
+C[127]   FUN_1401484f0(&local_a8,&local_68);
+C[128]   local_60 = 0x100;
+C[129]   local_58 = (LPCVOID)0x0;
+C[130]   local_50 = 0;
+C[131]   DAT_141281e74 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar7);
+C[132]   FUN_1403726a0(local_58);
+C[133]   FUN_1401303a0(&local_a0);
+C[134]   pcVar6 = "stretch mode";
+C[135]   SVar7 = 0;
+C[136]   puVar3 = FUN_140111ad0(&local_a0,8,"stretch mode",0,&DAT_140de7f10);
+C[137]   DAT_141281e78 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[138]   FUN_1403726a0(local_58);
+C[139]   FUN_1401303a0(&local_a0);
+C[140]   local_res18 = PTR_s_checkbox_141148f98;
+C[141]   local_a8 = "";
+C[142]   local_res8 = "flip u";
+C[143]   local_res20 = (char *)0x0;
+C[144]   local_res10 = "false";
+C[145]   local_a0 = 10;
+C[146]   local_9c = 0xff0000;
+C[147]   FUN_1401484f0(&local_res8,&local_98);
+C[148]   FUN_1401484f0(&local_res10,local_90);
+C[149]   local_90[1] = 0;
+C[150]   local_90[2] = 0;
+C[151]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[152]   FUN_1401484f0(&local_res20,&local_70);
+C[153]   FUN_1401484f0(&local_a8,&local_68);
+C[154]   local_60 = 0;
+C[155]   local_58 = (LPCVOID)0x0;
+C[156]   local_50 = 0;
+C[157]   DAT_141281e7c = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar7);
+C[158]   FUN_1403726a0(local_58);
+C[159]   FUN_1401303a0(&local_a0);
+C[160]   local_res18 = PTR_s_checkbox_141148f98;
+C[161]   local_a8 = "";
+C[162]   local_res8 = "flip v";
+C[163]   local_res20 = (char *)0x0;
+C[164]   local_res10 = "false";
+C[165]   local_a0 = 10;
+C[166]   local_9c = 0xff0000;
+C[167]   FUN_1401484f0(&local_res8,&local_98);
+C[168]   FUN_1401484f0(&local_res10,local_90);
+C[169]   local_90[1] = 0;
+C[170]   local_90[2] = 0;
+C[171]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[172]   FUN_1401484f0(&local_res20,&local_70);
+C[173]   FUN_1401484f0(&local_a8,&local_68);
+C[174]   local_60 = 0;
+C[175]   local_58 = (LPCVOID)0x0;
+C[176]   local_50 = 0;
+C[177]   DAT_141281e80 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar7);
+C[178]   FUN_1403726a0(local_58);
+C[179]   FUN_1401303a0(&local_a0);
+C[180]   local_res18 = PTR_s_checkbox_141148f98;
+C[181]   local_a8 = "";
+C[182]   local_res10 = "true";
+C[183]   local_res8 = "filter";
+C[184]   local_res20 = (char *)0x0;
+C[185]   local_a0 = 10;
+C[186]   local_9c = 0xff0000;
+C[187]   FUN_1401484f0(&local_res8,&local_98);
+C[188]   FUN_1401484f0(&local_res10,local_90);
+C[189]   local_90[1] = 0;
+C[190]   local_90[2] = 0;
+C[191]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[192]   FUN_1401484f0(&local_res20,&local_70);
+C[193]   FUN_1401484f0(&local_a8,&local_68);
+C[194]   local_60 = 0;
+C[195]   local_58 = (LPCVOID)0x0;
+C[196]   local_50 = 0;
+C[197]   DAT_141281e84 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar7);
+C[198]   FUN_1403726a0(local_58);
+C[199]   FUN_1401303a0(&local_a0);
+C[200]   local_res20 = (char *)0x0;
+C[201]   local_a8 = "Font for subtitles";
+C[202]   local_res10 = "";
+C[203]   local_res18 = &DAT_140e34af8;
+C[204]   local_res8 = "font";
+C[205]   local_a0 = 0xb;
+C[206]   local_9c = 0xff0000;
+C[207]   FUN_1401484f0(&local_res8,&local_98);
+C[208]   FUN_1401484f0(&local_res10,local_90);
+C[209]   local_90[1] = 0;
+C[210]   local_90[2] = 0;
+C[211]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[212]   FUN_1401484f0(&local_res20,&local_70);
+C[213]   FUN_1401484f0(&local_a8,&local_68);
+C[214]   local_60 = 0;
+C[215]   local_58 = (LPCVOID)0x0;
+C[216]   local_50 = 0;
+C[217]   DAT_141281e88 = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar7);
+C[218]   FUN_1403726a0(local_58);
+C[219]   FUN_1401303a0(&local_a0);
+C[220]   local_res20 = (char *)0x0;
+C[221]   local_a8 = "Color for subtitles";
+C[222]   local_res18 = PTR_s_colorPicker_141148f78;
+C[223]   local_res10 = "1 1 1 1";
+C[224]   local_res8 = "text color";
+C[225]   local_a0 = 7;
+C[226]   local_9c = 0x3ff0000;
+C[227]   FUN_1401484f0(&local_res8,&local_98);
+C[228]   FUN_1401484f0(&local_res10,local_90);
+C[229]   local_90[1] = 0;
+C[230]   local_90[2] = 0;
+C[231]   FUN_1401484f0(&local_res18,local_90 + 3);
+C[232]   FUN_1401484f0(&local_res20,&local_70);
+C[233]   FUN_1401484f0(&local_a8,&local_68);
+C[234]   local_60 = 0;
+C[235]   local_58 = (LPCVOID)0x0;
+C[236]   local_50 = 0;
+C[237]   DAT_141281e8c = FUN_140131050((longlong)param_1,&local_a0,pcVar6,SVar7);
+C[238]   FUN_1403726a0(local_58);
+C[239]   FUN_1401303a0(&local_a0);
+C[240]   pcVar6 = "outline size";
+C[241]   SVar7 = 0;
+C[242]   puVar3 = FUN_140111940(&local_a0,8,"outline size",0,&DAT_140dea060);
+C[243]   DAT_141281e90 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[244]   FUN_1403726a0(local_58);
+C[245]   FUN_1401303a0(&local_a0);
+C[246]   pcVar6 = "outline color";
+C[247]   SVar7 = CONCAT71((int7)(SVar7 >> 8),3);
+C[248]   puVar3 = FUN_140111940(&local_a0,7,"outline color",SVar7,"0 0 0 0");
+C[249]   DAT_141281e94 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[250]   FUN_1403726a0(local_58);
+C[251]   FUN_1401303a0(&local_a0);
+C[252]   pcVar6 = "text offset";
+C[253]   SVar7 = CONCAT71((int7)(SVar7 >> 8),3);
+C[254]   puVar3 = FUN_140111940(&local_a0,2,"text offset",SVar7,&DAT_140e3b094);
+C[255]   DAT_141281e98 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[256]   FUN_1403726a0(local_58);
+C[257]   FUN_1401303a0(&local_a0);
+C[258]   pcVar6 = "text background";
+C[259]   SVar7 = 0;
+C[260]   puVar3 = FUN_140111940(&local_a0,10,"text background",0,"false");
+C[261]   DAT_141281e9c = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[262]   FUN_1403726a0(local_58);
+C[263]   FUN_1401303a0(&local_a0);
+C[264]   pcVar6 = "background color";
+C[265]   SVar7 = CONCAT71((int7)(SVar7 >> 8),3);
+C[266]   puVar3 = FUN_140111940(&local_a0,7,"background color",SVar7,"0 0 0 0.8");
+C[267]   DAT_141281ea0 = FUN_140131050((longlong)param_1,puVar3,pcVar6,SVar7);
+C[268]   FUN_1403726a0(local_58);
+C[269]   FUN_1401303a0(&local_a0);
+C[270]   FUN_140133200();
+C[271]   return param_1;
+C[272] }
+------------------------------------------------------------
+FUNCTION_REQUEST 1402e2a60 -> FUN_1402e2a60
+<decompile unavailable>
+SCRIPT COMPLETED DayZGuiFunctionDump
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

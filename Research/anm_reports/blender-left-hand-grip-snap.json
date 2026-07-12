@@ -1,0 +1,32 @@
+{
+  "mode": "Manual Authoring",
+  "snapped_to": {
+    "object": "1",
+    "distance_before": 0.027689944537919262,
+    "point": [
+      0.1957264542579651,
+      0.4422207772731781,
+      1.445682168006897
+    ]
+  },
+  "unmuted_constraints": [
+    "DayZ WIK Control Copy Location",
+    "DayZ WIK Control Copy Rotation"
+  ],
+  "left_hand_after": [
+    0.17537187039852142,
+    0.42214950919151306,
+    1.4505963325500488
+  ],
+  "target_after": [
+    0.1957264542579651,
+    0.4422207772731781,
+    1.445682168006897
+  ],
+  "pole_after": [
+    -0.0919836014509201,
+    0.41494154930114746,
+    0.9796409606933594
+  ],
+  "note": "LeftHandIKTarget is now driven by WIK_L_Hand_Target. This is authoring/preview state; bake/export should write helper tracks."
+}

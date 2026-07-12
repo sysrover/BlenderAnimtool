@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-11",
+  "status": "CONFIRMED_CURRENT_RULE",
+  "rule": "All 22 canonical IK1H tracks export both position and rotation channels.",
+  "test_export": "P:\\UARP_Items_3\\ANM\\cable2_transitions_restored.anm",
+  "total_tracks": 22,
+  "position_track_count": 22,
+  "rotation_track_count": 22,
+  "missing_position_tracks": [],
+  "missing_rotation_tracks": [],
+  "bake_control_matrix_max_error": 0.0,
+  "bake_finger_matrix_max_error": 0.0,
+  "rotation_limits_remain_enabled_during_export": true,
+  "source_installed_hashes_match": true,
+  "hashes_sha256": {
+    "AddSurvivorIK.py": "69D2B0344BC87FC9B0924AC73ED15D8B9663EE509A99F92706D1D894E783948A",
+    "ExportAnm.py": "B05ADAF03CA305599A3E3845A71B738277B909548D4AC483BFB454F61CD2D100"
+  }
+}

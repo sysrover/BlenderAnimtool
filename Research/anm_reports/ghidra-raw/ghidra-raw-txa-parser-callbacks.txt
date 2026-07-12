@@ -1,0 +1,1037 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\TxaParserCallbacksTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:25:57 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\TxaParserCallbacksTrace.java
+Size: 3711 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+IMAGE_BASE 140000000
+VTABLE TXA::ParseAnimation::vftable 141ca35c8
+VTABLE_SLOT TXA::ParseAnimation::vftable[0] slot=141ca35c8 target=1410578e0 fn=FUN_1410578e0@1410578e0
+DECOMPILE_BEGIN FUN_1410578e0 1410578e0
+
+undefined8 FUN_1410578e0(undefined8 param_1,longlong param_2,undefined8 param_3,longlong *param_4)
+
+{
+  char cVar1;
+  uint uVar2;
+  char *pcVar3;
+  int iVar4;
+  uint uVar5;
+  undefined4 uVar6;
+  longlong *plVar7;
+  undefined8 *puVar8;
+  char *pcVar9;
+  longlong *plVar10;
+  uint uVar11;
+  ulonglong uVar12;
+  double dVar13;
+  undefined8 local_res10;
+  
+  if ((*(char **)*param_4 == "version") ||
+     ((*(char **)*param_4 != (char *)0x0 && (iVar4 = FUN_1402c4a30(), iVar4 == 0)))) {
+    puVar8 = (undefined8 *)*param_4;
+    if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+      dVar13 = atof((char *)puVar8[1]);
+      *(float *)(param_2 + 0x3c) = (float)dVar13;
+      return 1;
+    }
+  }
+  else if ((*(undefined1 **)*param_4 == &DAT_141ae30c8) ||
+          ((*(undefined1 **)*param_4 != (undefined1 *)0x0 && (iVar4 = FUN_1402c4a30(), iVar4 == 0)))
+          ) {
+    puVar8 = (undefined8 *)*param_4;
+    if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+      local_res10 = puVar8[1];
+      uVar6 = FUN_140202210(&local_res10,0);
+      *(undefined4 *)(param_2 + 0x80) = uVar6;
+      return 1;
+    }
+  }
+  else {
+    if ((*(char **)*param_4 != "numFrames") &&
+       ((*(char **)*param_4 == (char *)0x0 || (iVar4 = FUN_1402c4a30(), iVar4 != 0)))) {
+      if (*(undefined1 **)*param_4 != &DAT_141b48cdc) {
+        if (*(undefined1 **)*param_4 == (undefined1 *)0x0) {
+          return 1;
+        }
+        iVar4 = FUN_1402c4a30();
+        if (iVar4 != 0) {
+          return 1;
+        }
+      }
+      plVar7 = (longlong *)
+               (**(code **)(*(longlong *)PTR_DAT_142342c60 + 8))(PTR_DAT_142342c60,0x10,0);
+      plVar10 = (longlong *)0x0;
+      if (plVar7 != (longlong *)0x0) {
+        *plVar7 = 0;
+        plVar7[1] = 0;
+        plVar10 = plVar7;
+      }
+      uVar12 = 1;
+      if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+        do {
+          local_res10 = 0;
+          pcVar3 = *(char **)(*param_4 + uVar12 * 8);
+          pcVar9 = pcVar3;
+          if (pcVar3 == (char *)0x0) {
+            iVar4 = 0;
+          }
+          else {
+            do {
+              cVar1 = *pcVar9;
+              pcVar9 = pcVar9 + 1;
+            } while (cVar1 != '\0');
+            iVar4 = ((int)pcVar9 - (int)pcVar3) + -1;
+          }
+          FUN_14006e870(&local_res10,pcVar3,iVar4);
+          uVar5 = *(uint *)((longlong)plVar10 + 0xc);
+          uVar2 = *(uint *)(plVar10 + 1);
+          uVar11 = uVar5 + 1;
+          if (uVar2 < uVar11) {
+            uVar5 = uVar2 + 4;
+            if (3 < uVar2 + 1) {
+              uVar5 = uVar2 * 2 + 1;
+            }
+            if (uVar11 <= uVar5) {
+              uVar11 = uVar5;
+            }
+            FUN_14006e550(plVar10,uVar11);
+            uVar5 = *(uint *)((longlong)plVar10 + 0xc);
+          }
+          uVar11 = (int)uVar12 + 1;
+          uVar12 = (ulonglong)uVar11;
+          *(undefined8 *)(*plVar10 + (ulonglong)uVar5 * 8) = local_res10;
+          *(int *)((longlong)plVar10 + 0xc) = *(int *)((longlong)plVar10 + 0xc) + 1;
+        } while (uVar11 < *(uint *)((longlong)param_4 + 0xc));
+      }
+      FUN_141058640(param_2 + 8,plVar10);
+      return 1;
+    }
+    puVar8 = (undefined8 *)*param_4;
+    if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+      local_res10 = puVar8[1];
+      uVar6 = FUN_140202210(&local_res10,0);
+      *(undefined4 *)(param_2 + 0x84) = uVar6;
+      return 1;
+    }
+  }
+  FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*puVar8);
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1410578e0 1410578e0
+CALLS
+  CALL from=141057909 ins=CALL 0x1402c4a30
+  CALL from=141057931 ins=CALL 0x1402c4a30
+  CALL from=141057959 ins=CALL 0x1402c4a30
+  CALL from=141057981 ins=CALL 0x1402c4a30
+  CALL from=1410579b1 ins=CALL qword ptr [RAX + 0x8]
+  CALL from=141057a10 ins=CALL 0x14006e870
+  CALL from=141057a45 ins=CALL 0x14006e550
+  CALL from=141057a71 ins=CALL 0x141058640
+  CALL from=141057aa8 ins=CALL 0x140202210
+  CALL from=141057ad7 ins=CALL 0x140202210
+  CALL from=141057b00 ins=CALL 0x1400d6bb0
+  CALL from=141057b13 ins=CALL qword ptr [0x14192e560]
+VTABLE_SLOT TXA::ParseAnimation::vftable[1] slot=141ca35d0 target=141057e50 fn=FUN_141057e50@141057e50
+DECOMPILE_BEGIN FUN_141057e50 141057e50
+
+undefined8 FUN_141057e50(undefined8 param_1,longlong param_2,undefined8 param_3,longlong *param_4)
+
+{
+  char cVar1;
+  char *pcVar2;
+  int iVar3;
+  char *pcVar4;
+  undefined8 *puVar5;
+  undefined **local_28;
+  undefined4 local_20;
+  undefined8 local_18;
+  longlong local_10;
+  
+  if ((*(char **)*param_4 == "animation") ||
+     ((*(char **)*param_4 != (char *)0x0 && (iVar3 = FUN_1402c4a30(), iVar3 == 0)))) {
+    puVar5 = (undefined8 *)*param_4;
+    if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+      iVar3 = 0;
+      local_20 = 1;
+      local_18 = 0;
+      local_28 = TXA::ParseAnimation::vftable;
+      pcVar2 = (char *)puVar5[1];
+      pcVar4 = pcVar2;
+      if (pcVar2 != (char *)0x0) {
+        do {
+          cVar1 = *pcVar4;
+          pcVar4 = pcVar4 + 1;
+        } while (cVar1 != '\0');
+        iVar3 = ((int)pcVar4 - (int)pcVar2) + -1;
+      }
+      FUN_14006e870(param_2 + 0x40,pcVar2,iVar3);
+      goto LAB_1410580af;
+    }
+  }
+  else if ((*(undefined **)*param_4 == &DAT_141ca346c) ||
+          ((((*(undefined **)*param_4 != (undefined *)0x0 && (iVar3 = FUN_1402c4a30(), iVar3 == 0))
+            || (pcVar2 = *(char **)*param_4, pcVar2 == "nodeDiff")) ||
+           ((pcVar2 != (char *)0x0 && (iVar3 = FUN_1402c4a30(pcVar2,"nodeDiff"), iVar3 == 0)))))) {
+    puVar5 = (undefined8 *)*param_4;
+    if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+      local_20 = 2;
+      local_28 = TXA::ParseNode::vftable;
+      local_18 = param_1;
+      local_10 = FUN_141055e40(param_2,puVar5[1],0xffffffff,0,1,1,1);
+      FUN_141058e60(param_2,param_3,&local_28);
+      pcVar2 = *(char **)*param_4;
+      if (pcVar2 == "nodeDiff") {
+        *(undefined1 *)(local_10 + 0x28) = 1;
+        return 1;
+      }
+      if (pcVar2 == (char *)0x0) {
+        *(undefined1 *)(local_10 + 0x28) = 0;
+        return 1;
+      }
+      iVar3 = FUN_1402c4a30(pcVar2,"nodeDiff");
+      *(bool *)(local_10 + 0x28) = iVar3 == 0;
+      return 1;
+    }
+  }
+  else {
+    if ((*(char **)*param_4 == "events") ||
+       ((*(char **)*param_4 != (char *)0x0 && (iVar3 = FUN_1402c4a30(), iVar3 == 0)))) {
+      if (*(int *)((longlong)param_4 + 0xc) != 0) {
+        local_20 = 5;
+        local_18 = 0;
+        local_28 = TXA::ParseEvents::vftable;
+        goto LAB_1410580af;
+      }
+    }
+    else {
+      if (*(char **)*param_4 != "custProps") {
+        if (*(char **)*param_4 == (char *)0x0) {
+          return 0;
+        }
+        iVar3 = FUN_1402c4a30();
+        if (iVar3 != 0) {
+          return 0;
+        }
+      }
+      if (*(int *)((longlong)param_4 + 0xc) != 0) {
+        local_20 = 6;
+        local_18 = 0;
+        local_28 = TXA::ParseCustomProperties::vftable;
+LAB_1410580af:
+        FUN_141058e60(param_2,param_3,&local_28);
+        return 1;
+      }
+    }
+    puVar5 = (undefined8 *)*param_4;
+  }
+  FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*puVar5);
+  return 0;
+}
+
+
+DECOMPILE_END FUN_141057e50 141057e50
+CALLS
+  CALL from=141057e91 ins=CALL 0x1402c4a30
+  CALL from=141057ec0 ins=CALL 0x1402c4a30
+  CALL from=141057ee4 ins=CALL 0x1402c4a30
+  CALL from=141057f08 ins=CALL 0x1402c4a30
+  CALL from=141057f2c ins=CALL 0x1402c4a30
+  CALL from=141057fda ins=CALL 0x141055e40
+  CALL from=141057fef ins=CALL 0x141058e60
+  CALL from=141058032 ins=CALL 0x1402c4a30
+  CALL from=14105805b ins=CALL 0x1400d6bb0
+  CALL from=1410580a5 ins=CALL 0x14006e870
+  CALL from=1410580b5 ins=CALL 0x141058e60
+VTABLE_SLOT TXA::ParseAnimation::vftable[2] slot=141ca35d8 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE TXA::ParseNode::vftable 141ca35a8
+VTABLE_SLOT TXA::ParseNode::vftable[0] slot=141ca35a8 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE_SLOT TXA::ParseNode::vftable[1] slot=141ca35b0 target=141058410 fn=FUN_141058410@141058410
+DECOMPILE_BEGIN FUN_141058410 141058410
+
+undefined8 FUN_141058410(longlong param_1,undefined8 param_2,undefined8 param_3,longlong *param_4)
+
+{
+  char *pcVar1;
+  char cVar2;
+  int iVar3;
+  undefined4 uVar4;
+  uint uVar5;
+  ulonglong uVar6;
+  undefined1 *puVar7;
+  undefined **local_28;
+  undefined4 local_20;
+  longlong local_18;
+  longlong local_10;
+  
+  local_18 = param_1;
+  if ((*(undefined **)*param_4 == &DAT_141ca346c) ||
+     ((((*(undefined **)*param_4 != (undefined *)0x0 && (iVar3 = FUN_1402c4a30(), iVar3 == 0)) ||
+       (pcVar1 = *(char **)*param_4, pcVar1 == "nodeDiff")) ||
+      ((pcVar1 != (char *)0x0 && (iVar3 = FUN_1402c4a30(pcVar1,"nodeDiff"), iVar3 == 0)))))) {
+    if (*(uint *)((longlong)param_4 + 0xc) < 2) {
+      FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*(undefined8 *)*param_4);
+      return 0;
+    }
+    local_20 = 2;
+    local_28 = TXA::ParseNode::vftable;
+    puVar7 = &DAT_14c9c60d0;
+    if ((undefined1 *)**(undefined8 **)(param_1 + 0x18) != (undefined1 *)0x0) {
+      puVar7 = (undefined1 *)**(undefined8 **)(param_1 + 0x18);
+    }
+    uVar4 = FUN_141056380(param_2,puVar7);
+    local_10 = FUN_141055e40(param_2,*(undefined8 *)(*param_4 + 8),uVar4,0,1,1,1);
+    cVar2 = FUN_141058e60(param_2,param_3,&local_28);
+    if (cVar2 != '\0') {
+      pcVar1 = *(char **)*param_4;
+      if (pcVar1 == "nodeDiff") {
+        iVar3 = 0;
+      }
+      else if (pcVar1 == (char *)0x0) {
+        iVar3 = -1;
+      }
+      else {
+        iVar3 = FUN_1402c4a30(pcVar1,"nodeDiff");
+      }
+      *(bool *)(local_10 + 0x28) = iVar3 == 0;
+      return 1;
+    }
+  }
+  else if ((*(undefined **)*param_4 == &DAT_141b9c3b8) ||
+          ((*(undefined **)*param_4 != (undefined *)0x0 && (iVar3 = FUN_1402c4a30(), iVar3 == 0))))
+  {
+    if (*(int *)((longlong)param_4 + 0xc) == 1) {
+      *(undefined1 *)(*(longlong *)(param_1 + 0x18) + 0x2a) = 1;
+      *(undefined1 *)(*(longlong *)(param_1 + 0x18) + 0x29) = 1;
+    }
+    else {
+      *(undefined1 *)(*(longlong *)(param_1 + 0x18) + 0x2a) = 0;
+      uVar6 = 1;
+      *(undefined1 *)(*(longlong *)(param_1 + 0x18) + 0x29) = 0;
+      if (1 < *(uint *)((longlong)param_4 + 0xc)) {
+        do {
+          cVar2 = **(char **)(*param_4 + uVar6 * 8);
+          if (cVar2 == 't') {
+            *(undefined1 *)(*(longlong *)(param_1 + 0x18) + 0x29) = 1;
+          }
+          else if ((cVar2 == 'q') || (cVar2 == 's')) {
+            *(undefined1 *)(*(longlong *)(param_1 + 0x18) + 0x2a) = 1;
+          }
+          uVar5 = (int)uVar6 + 1;
+          uVar6 = (ulonglong)uVar5;
+        } while (uVar5 < *(uint *)((longlong)param_4 + 0xc));
+      }
+    }
+    local_20 = 4;
+    local_28 = TXA::ParseKeys::vftable;
+    local_10 = *(undefined8 *)(param_1 + 0x18);
+    cVar2 = FUN_141058e60(param_2,param_3,&local_28);
+    if (cVar2 != '\0') {
+      return 1;
+    }
+  }
+  return 0;
+}
+
+
+DECOMPILE_END FUN_141058410 141058410
+CALLS
+  CALL from=141058458 ins=CALL 0x1402c4a30
+  CALL from=14105847c ins=CALL 0x1402c4a30
+  CALL from=1410584a4 ins=CALL 0x1402c4a30
+  CALL from=14105853e ins=CALL 0x141058e60
+  CALL from=141058563 ins=CALL 0x1400d6bb0
+  CALL from=1410585a0 ins=CALL 0x141056380
+  CALL from=1410585c4 ins=CALL 0x141055e40
+  CALL from=1410585d9 ins=CALL 0x141058e60
+  CALL from=141058602 ins=CALL 0x1402c4a30
+VTABLE_SLOT TXA::ParseNode::vftable[2] slot=141ca35b8 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE TXA::ParseKeys::vftable 141ca3548
+VTABLE_SLOT TXA::ParseKeys::vftable[0] slot=141ca3548 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE_SLOT TXA::ParseKeys::vftable[1] slot=141ca3550 target=1410580e0 fn=FUN_1410580e0@1410580e0
+DECOMPILE_BEGIN FUN_1410580e0 1410580e0
+
+ulonglong FUN_1410580e0(longlong param_1,undefined8 param_2,undefined8 param_3,longlong *param_4)
+
+{
+  undefined4 *puVar1;
+  undefined8 *puVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  longlong lVar9;
+  undefined4 *puVar10;
+  undefined8 uVar11;
+  undefined8 uVar12;
+  uint uVar13;
+  uint uVar14;
+  longlong *plVar15;
+  ulonglong uVar16;
+  uint uVar17;
+  longlong lVar18;
+  ulonglong uVar19;
+  undefined **local_b8;
+  undefined4 local_b0;
+  longlong local_a8;
+  undefined8 local_a0;
+  undefined4 *local_98;
+  
+  plVar15 = (longlong *)*param_4;
+  if (((char *)*plVar15 == "frame") ||
+     (((char *)*plVar15 != (char *)0x0 && (plVar15 = (longlong *)FUN_1402c4a30(), (int)plVar15 == 0)
+      ))) {
+    if (*(uint *)((longlong)param_4 + 0xc) < 2) {
+      plVar15 = (longlong *)
+                FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*(undefined8 *)*param_4);
+    }
+    else {
+      lVar9 = *(longlong *)(param_1 + 0x18);
+      uVar14 = *(uint *)(lVar9 + 0x24);
+      uVar13 = *(uint *)(lVar9 + 0x20);
+      uVar17 = uVar14 + 1;
+      if (uVar13 < uVar17) {
+        uVar14 = uVar13 + 4;
+        if (3 < uVar13 + 1) {
+          uVar14 = uVar13 * 2 + 1;
+        }
+        if (uVar17 <= uVar14) {
+          uVar17 = uVar14;
+        }
+        FUN_141057790(lVar9 + 0x18,uVar17);
+        uVar14 = *(uint *)(lVar9 + 0x24);
+      }
+      lVar18 = *(longlong *)(lVar9 + 0x18);
+      puVar1 = (undefined4 *)(lVar18 + (ulonglong)uVar14 * 0x28);
+      if (puVar1 != (undefined4 *)0x0) {
+        *(undefined8 *)(puVar1 + 3) = 0x3f800000;
+        *(undefined8 *)(puVar1 + 1) = 0;
+        *puVar1 = 0;
+        *(undefined8 *)(puVar1 + 5) = 0;
+        puVar1[9] = 0x3f800000;
+        puVar1[8] = 0x3f800000;
+        puVar1[7] = 0x3f800000;
+        uVar14 = *(uint *)(lVar9 + 0x24);
+        lVar18 = *(longlong *)(lVar9 + 0x18);
+      }
+      puVar1 = (undefined4 *)(lVar18 + (ulonglong)uVar14 * 0x28);
+      *(uint *)(lVar9 + 0x24) = uVar14 + 1;
+      uVar13 = FUN_140202210(*param_4 + 8,0);
+      uVar19 = (ulonglong)uVar13;
+      if (uVar13 != 0) {
+        puVar10 = *(undefined4 **)(*(longlong *)(param_1 + 0x18) + 0x18);
+        *puVar1 = *puVar10;
+        puVar1[1] = puVar10[1];
+        puVar1[2] = puVar10[2];
+        puVar1[3] = puVar10[3];
+        puVar1[4] = puVar10[4];
+        puVar1[5] = puVar10[5];
+        puVar1[6] = puVar10[6];
+        puVar1[7] = puVar10[7];
+        puVar1[8] = puVar10[8];
+        puVar1[9] = puVar10[9];
+      }
+      uVar14 = uVar13;
+      if (2 < *(uint *)((longlong)param_4 + 0xc)) {
+        uVar14 = FUN_140202210(*param_4 + 0x10,0);
+      }
+      local_a0 = *(undefined8 *)(param_1 + 0x18);
+      local_b0 = 3;
+      local_b8 = TXA::ParseFrame::vftable;
+      local_a8 = param_1;
+      local_98 = puVar1;
+      plVar15 = (longlong *)FUN_141058e60(param_2,param_3,&local_b8);
+      if ((char)plVar15 != '\0') {
+        uVar16 = *(ulonglong *)(param_1 + 0x18);
+        lVar9 = *(longlong *)(uVar16 + 0x18);
+        uVar3 = *(undefined4 *)(lVar9 + 0x10 + uVar19 * 0x28);
+        uVar4 = *(undefined4 *)(lVar9 + 0x14 + uVar19 * 0x28);
+        uVar5 = *(undefined4 *)(lVar9 + 0x18 + uVar19 * 0x28);
+        uVar6 = *(undefined4 *)(lVar9 + 0x1c + uVar19 * 0x28);
+        uVar7 = *(undefined4 *)(lVar9 + 0x20 + uVar19 * 0x28);
+        uVar8 = *(undefined4 *)(lVar9 + 0x24 + uVar19 * 0x28);
+        puVar2 = (undefined8 *)(lVar9 + uVar19 * 0x28);
+        uVar11 = *puVar2;
+        uVar12 = puVar2[1];
+        if (uVar13 + 1 <= uVar14) {
+          uVar19 = (ulonglong)((uVar14 - (uVar13 + 1)) + 1);
+          do {
+            lVar9 = *(longlong *)(param_1 + 0x18);
+            uVar14 = *(uint *)(lVar9 + 0x24);
+            uVar17 = *(uint *)(lVar9 + 0x20);
+            uVar13 = uVar14 + 1;
+            if (uVar17 < uVar13) {
+              uVar14 = uVar17 + 4;
+              if (3 < uVar17 + 1) {
+                uVar14 = uVar17 * 2 + 1;
+              }
+              if (uVar13 <= uVar14) {
+                uVar13 = uVar14;
+              }
+              FUN_141057790(lVar9 + 0x18,uVar13);
+              uVar14 = *(uint *)(lVar9 + 0x24);
+            }
+            puVar2 = (undefined8 *)(*(longlong *)(lVar9 + 0x18) + (ulonglong)uVar14 * 0x28);
+            if (puVar2 != (undefined8 *)0x0) {
+              *puVar2 = uVar11;
+              puVar2[1] = uVar12;
+              *(undefined4 *)(puVar2 + 2) = uVar3;
+              *(undefined4 *)((longlong)puVar2 + 0x14) = uVar4;
+              *(undefined4 *)(puVar2 + 3) = uVar5;
+              *(undefined4 *)((longlong)puVar2 + 0x1c) = uVar6;
+              *(undefined4 *)(puVar2 + 4) = uVar7;
+              *(undefined4 *)((longlong)puVar2 + 0x24) = uVar8;
+              uVar14 = *(uint *)(lVar9 + 0x24);
+            }
+            uVar16 = (ulonglong)(uVar14 + 1);
+            *(uint *)(lVar9 + 0x24) = uVar14 + 1;
+            uVar19 = uVar19 - 1;
+          } while (uVar19 != 0);
+        }
+        return CONCAT71((int7)(uVar16 >> 8),1);
+      }
+    }
+  }
+  return (ulonglong)plVar15 & 0xffffffffffffff00;
+}
+
+
+DECOMPILE_END FUN_1410580e0 1410580e0
+CALLS
+  CALL from=14105811f ins=CALL 0x1402c4a30
+  CALL from=14105813b ins=CALL 0x1400d6bb0
+  CALL from=1410581a0 ins=CALL 0x141057790
+  CALL from=141058207 ins=CALL 0x140202210
+  CALL from=141058266 ins=CALL 0x140202210
+  CALL from=14105829f ins=CALL 0x141058e60
+  CALL from=141058377 ins=CALL 0x141057790
+VTABLE_SLOT TXA::ParseKeys::vftable[2] slot=141ca3558 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE TXA::ParseFrame::vftable 141ca3528
+VTABLE_SLOT TXA::ParseFrame::vftable[0] slot=141ca3528 target=141057c80 fn=FUN_141057c80@141057c80
+DECOMPILE_BEGIN FUN_141057c80 141057c80
+
+ulonglong FUN_141057c80(longlong param_1,undefined8 param_2,undefined8 param_3,longlong *param_4)
+
+{
+  longlong lVar1;
+  int iVar2;
+  undefined8 *puVar3;
+  undefined4 uVar4;
+  
+  if (*(undefined **)*param_4 == &DAT_141bdd2b0) {
+LAB_141057dd9:
+    puVar3 = (undefined8 *)*param_4;
+    if (3 < *(uint *)((longlong)param_4 + 0xc)) {
+      uVar4 = FUN_140080e60(puVar3 + 1,0);
+      *(undefined4 *)(*(longlong *)(param_1 + 0x20) + 0x10) = uVar4;
+      uVar4 = FUN_140080e60(*param_4 + 0x10,0);
+      *(undefined4 *)(*(longlong *)(param_1 + 0x20) + 0x14) = uVar4;
+      uVar4 = FUN_140080e60(*param_4 + 0x18,0);
+      lVar1 = *(longlong *)(param_1 + 0x20);
+      *(undefined4 *)(lVar1 + 0x18) = uVar4;
+      return CONCAT71((int7)((ulonglong)lVar1 >> 8),1);
+    }
+  }
+  else {
+    if (*(undefined **)*param_4 != (undefined *)0x0) {
+      iVar2 = FUN_1402c4a30();
+      if (iVar2 == 0) goto LAB_141057dd9;
+    }
+    if (*(undefined **)*param_4 == &DAT_141ca3458) {
+LAB_141057d67:
+      puVar3 = (undefined8 *)*param_4;
+      if (4 < *(uint *)((longlong)param_4 + 0xc)) {
+        uVar4 = FUN_140080e60(puVar3 + 1,0);
+        **(undefined4 **)(param_1 + 0x20) = uVar4;
+        uVar4 = FUN_140080e60(*param_4 + 0x10,0);
+        *(undefined4 *)(*(longlong *)(param_1 + 0x20) + 4) = uVar4;
+        uVar4 = FUN_140080e60(*param_4 + 0x18,0);
+        *(undefined4 *)(*(longlong *)(param_1 + 0x20) + 8) = uVar4;
+        uVar4 = FUN_140080e60(*param_4 + 0x20,0);
+        lVar1 = *(longlong *)(param_1 + 0x20);
+        *(undefined4 *)(lVar1 + 0xc) = uVar4;
+        return CONCAT71((int7)((ulonglong)lVar1 >> 8),1);
+      }
+    }
+    else {
+      if (*(undefined **)*param_4 != (undefined *)0x0) {
+        iVar2 = FUN_1402c4a30();
+        if (iVar2 == 0) goto LAB_141057d67;
+      }
+      puVar3 = (undefined8 *)*param_4;
+      if ((undefined *)*puVar3 != &DAT_141ac9d5c) {
+        if ((undefined *)*puVar3 == (undefined *)0x0) goto LAB_141057df1;
+        puVar3 = (undefined8 *)FUN_1402c4a30();
+        if ((int)puVar3 != 0) goto LAB_141057df1;
+      }
+      puVar3 = (undefined8 *)*param_4;
+      if (3 < *(uint *)((longlong)param_4 + 0xc)) {
+        uVar4 = FUN_140080e60(puVar3 + 1,0);
+        *(undefined4 *)(*(longlong *)(param_1 + 0x20) + 0x1c) = uVar4;
+        uVar4 = FUN_140080e60(*param_4 + 0x10,0);
+        *(undefined4 *)(*(longlong *)(param_1 + 0x20) + 0x20) = uVar4;
+        uVar4 = FUN_140080e60(*param_4 + 0x18,0);
+        lVar1 = *(longlong *)(param_1 + 0x20);
+        *(undefined4 *)(lVar1 + 0x24) = uVar4;
+        return CONCAT71((int7)((ulonglong)lVar1 >> 8),1);
+      }
+    }
+  }
+  puVar3 = (undefined8 *)FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*puVar3);
+LAB_141057df1:
+  return (ulonglong)puVar3 & 0xffffffffffffff00;
+}
+
+
+DECOMPILE_END FUN_141057c80 141057c80
+CALLS
+  CALL from=141057cab ins=CALL 0x1402c4a30
+  CALL from=141057cd3 ins=CALL 0x1402c4a30
+  CALL from=141057cfb ins=CALL 0x1402c4a30
+  CALL from=141057d1c ins=CALL 0x140080e60
+  CALL from=141057d34 ins=CALL 0x140080e60
+  CALL from=141057d4c ins=CALL 0x140080e60
+  CALL from=141057d77 ins=CALL 0x140080e60
+  CALL from=141057d8e ins=CALL 0x140080e60
+  CALL from=141057da6 ins=CALL 0x140080e60
+  CALL from=141057dbe ins=CALL 0x140080e60
+  CALL from=141057dec ins=CALL 0x1400d6bb0
+  CALL from=141057e05 ins=CALL 0x140080e60
+  CALL from=141057e1d ins=CALL 0x140080e60
+  CALL from=141057e35 ins=CALL 0x140080e60
+VTABLE_SLOT TXA::ParseFrame::vftable[1] slot=141ca3530 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE_SLOT TXA::ParseFrame::vftable[2] slot=141ca3538 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE TXA::ParseEvents::vftable 141ca3568
+VTABLE_SLOT TXA::ParseEvents::vftable[0] slot=141ca3568 target=141057bb0 fn=FUN_141057bb0@141057bb0
+DECOMPILE_BEGIN FUN_141057bb0 141057bb0
+
+undefined8 FUN_141057bb0(undefined8 param_1,undefined8 param_2,undefined8 param_3,longlong *param_4)
+
+{
+  uint uVar1;
+  undefined8 uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined8 uVar6;
+  
+  if (*(char **)*param_4 != "event") {
+    if (*(char **)*param_4 == (char *)0x0) {
+      return 0;
+    }
+    iVar3 = FUN_1402c4a30();
+    if (iVar3 != 0) {
+      return 0;
+    }
+  }
+  uVar1 = *(uint *)((longlong)param_4 + 0xc);
+  if (uVar1 < 3) {
+    FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*(undefined8 *)*param_4);
+    return 0;
+  }
+  uVar6 = 0;
+  uVar5 = 0xffffffff;
+  if (3 < uVar1) {
+    uVar6 = *(undefined8 *)(*param_4 + 0x18);
+  }
+  if (4 < uVar1) {
+    uVar5 = FUN_140202210(*param_4 + 0x20,0);
+  }
+  uVar2 = *(undefined8 *)(*param_4 + 0x10);
+  uVar4 = FUN_140202210(*param_4 + 8,0);
+  FUN_141055b40(param_2,uVar4,uVar2,uVar6,uVar5);
+  return 1;
+}
+
+
+DECOMPILE_END FUN_141057bb0 141057bb0
+CALLS
+  CALL from=141057bd7 ins=CALL 0x1402c4a30
+  CALL from=141057bf5 ins=CALL 0x1400d6bb0
+  CALL from=141057c30 ins=CALL 0x140202210
+  CALL from=141057c44 ins=CALL 0x140202210
+  CALL from=141057c58 ins=CALL 0x141055b40
+VTABLE_SLOT TXA::ParseEvents::vftable[1] slot=141ca3570 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE_SLOT TXA::ParseEvents::vftable[2] slot=141ca3578 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE TXA::ParseEvent::vftable null
+VTABLE TXA::ParseCustomProperties::vftable 141ca3588
+VTABLE_SLOT TXA::ParseCustomProperties::vftable[0] slot=141ca3588 target=141057b30 fn=FUN_141057b30@141057b30
+DECOMPILE_BEGIN FUN_141057b30 141057b30
+
+undefined8 FUN_141057b30(undefined8 param_1,undefined8 param_2,undefined8 param_3,longlong *param_4)
+
+{
+  undefined8 *puVar1;
+  int iVar2;
+  
+  if (*(char **)*param_4 != "custProp") {
+    if (*(char **)*param_4 == (char *)0x0) {
+      return 0;
+    }
+    iVar2 = FUN_1402c4a30();
+    if (iVar2 != 0) {
+      return 0;
+    }
+  }
+  puVar1 = (undefined8 *)*param_4;
+  if (*(uint *)((longlong)param_4 + 0xc) < 3) {
+    FUN_1400d6bb0("ERROR: Not enough parameters at %s\n",*puVar1);
+    return 0;
+  }
+  FUN_141055a40(param_2,puVar1[1],puVar1[2]);
+  return 1;
+}
+
+
+DECOMPILE_END FUN_141057b30 141057b30
+CALLS
+  CALL from=141057b57 ins=CALL 0x1402c4a30
+  CALL from=141057b73 ins=CALL 0x1400d6bb0
+  CALL from=141057b90 ins=CALL 0x141055a40
+VTABLE_SLOT TXA::ParseCustomProperties::vftable[1] slot=141ca3590 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE_SLOT TXA::ParseCustomProperties::vftable[2] slot=141ca3598 target=14006c820 fn=save@14006c820
+DECOMPILE_BEGIN save 14006c820
+
+/* public: bool __cdecl nvtt::CubeSurface::save(char const * __ptr64)const __ptr64 */
+
+bool __thiscall nvtt::CubeSurface::save(CubeSurface *this,char *param_1)
+
+{
+                    /* 0x6c820  112  ?save@CubeSurface@nvtt@@QEBA_NPEBD@Z */
+  return false;
+}
+
+
+DECOMPILE_END save 14006c820
+CALLS
+VTABLE TXA::ParseCustomProperty::vftable null
+SCRIPT COMPLETED TxaParserCallbacksTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

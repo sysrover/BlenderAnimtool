@@ -1,0 +1,227 @@
+{
+  "armature_action": "aks74u",
+  "nla": [
+    {
+      "name": "NlaTrack",
+      "mute": false,
+      "is_solo": false,
+      "strips": [
+        {
+          "name": "p_rfl_erc_idle_ras",
+          "action": "p_rfl_erc_idle_ras",
+          "blend_type": "REPLACE",
+          "influence": 0.0,
+          "mute": false,
+          "frame_start": 0.0,
+          "frame_end": 172.0
+        }
+      ]
+    }
+  ],
+  "frames": {
+    "0": {
+      "RightHand": {
+        "loc": [
+          0.49763432145118713,
+          -0.2949923276901245,
+          1.1791441440582275
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "target": "_DayZ_Character",
+            "subtarget": "RightHandOrigin"
+          }
+        ]
+      },
+      "RightHandOrigin": {
+        "loc": [
+          0.5699084997177124,
+          -0.3391772210597992,
+          1.1259732246398926
+        ],
+        "constraints": []
+      },
+      "RightForeArmDirection": {
+        "loc": [
+          0.3711824417114258,
+          -0.21769356727600098,
+          1.2721740007400513
+        ],
+        "constraints": []
+      },
+      "LeftHand": {
+        "loc": [
+          0.3296855390071869,
+          0.31475627422332764,
+          1.0580575466156006
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "target": "_DayZ_Character",
+            "subtarget": "LeftHandIKTarget"
+          }
+        ]
+      },
+      "LeftHandIKTarget": {
+        "loc": [
+          0.9920333623886108,
+          0.689159631729126,
+          0.4773980379104614
+        ],
+        "constraints": []
+      },
+      "LeftHandOrigin": {
+        "loc": [
+          0.23064619302749634,
+          -0.24791067838668823,
+          0.40552040934562683
+        ],
+        "constraints": []
+      },
+      "LeftForeArmDirection": {
+        "loc": [
+          -0.10716596245765686,
+          0.07004468142986298,
+          0.9950546622276306
+        ],
+        "constraints": []
+      },
+      "RightHand_Dummy": {
+        "loc": [
+          0.34067606925964355,
+          -0.1824769377708435,
+          1.2433786392211914
+        ],
+        "constraints": []
+      },
+      "Weapon_Root": {
+        "loc": [
+          0.34067603945732117,
+          -0.1824769526720047,
+          1.2433786392211914
+        ],
+        "constraints": []
+      },
+      "Weapon_Magazine": {
+        "loc": [
+          0.34067603945732117,
+          -0.1824769526720047,
+          1.2433786392211914
+        ],
+        "constraints": []
+      }
+    },
+    "1": {
+      "RightHand": {
+        "loc": [
+          -0.23518149554729462,
+          -0.0826026201248169,
+          1.3488385677337646
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "target": "_DayZ_Character",
+            "subtarget": "RightHandOrigin"
+          }
+        ]
+      },
+      "RightHandOrigin": {
+        "loc": [
+          -0.18799519538879395,
+          -0.003897368907928467,
+          1.309162974357605
+        ],
+        "constraints": []
+      },
+      "RightForeArmDirection": {
+        "loc": [
+          -0.35438260436058044,
+          0.08471250534057617,
+          1.1673129796981812
+        ],
+        "constraints": []
+      },
+      "LeftHand": {
+        "loc": [
+          -0.04520420730113983,
+          -0.08839096128940582,
+          0.9152040481567383
+        ],
+        "constraints": [
+          {
+            "name": "DayZ WeaponIK Preview",
+            "type": "IK",
+            "target": "_DayZ_Character",
+            "subtarget": "LeftHandIKTarget"
+          }
+        ]
+      },
+      "LeftHandIKTarget": {
+        "loc": [
+          -0.10943174362182617,
+          -0.4157624840736389,
+          0.09240728616714478
+        ],
+        "constraints": []
+      },
+      "LeftHandOrigin": {
+        "loc": [
+          0.2557182312011719,
+          0.22270753979682922,
+          1.2103874683380127
+        ],
+        "constraints": []
+      },
+      "LeftForeArmDirection": {
+        "loc": [
+          -0.10705456137657166,
+          0.06990920007228851,
+          0.9950358867645264
+        ],
+        "constraints": []
+      },
+      "RightHand_Dummy": {
+        "loc": [
+          -0.2985598146915436,
+          -0.2687374949455261,
+          1.4013590812683105
+        ],
+        "constraints": []
+      },
+      "Weapon_Root": {
+        "loc": [
+          -0.2985597848892212,
+          -0.2687374949455261,
+          1.4013590812683105
+        ],
+        "constraints": []
+      },
+      "Weapon_Magazine": {
+        "loc": [
+          -0.2985597848892212,
+          -0.2687374949455261,
+          1.4013590812683105
+        ],
+        "constraints": []
+      }
+    }
+  },
+  "parents": {
+    "RightHand": "RightForeArmRoll",
+    "RightHandOrigin": "RightShoulder",
+    "RightForeArmDirection": "RightShoulder",
+    "LeftHand": "LeftForeArmRoll",
+    "LeftHandIKTarget": "RightHand_Dummy",
+    "LeftHandOrigin": "RightHand_Dummy",
+    "LeftForeArmDirection": "LeftShoulder",
+    "RightHand_Dummy": "RightHand",
+    "Weapon_Root": "RightHand_Dummy",
+    "Weapon_Magazine": "Weapon_Root"
+  }
+}

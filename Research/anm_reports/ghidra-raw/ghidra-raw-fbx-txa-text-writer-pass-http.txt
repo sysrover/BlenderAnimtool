@@ -1,0 +1,103 @@
+FBX -> TXA text writer HTTP pass, 2026-05-17
+
+Endpoint note:
+- Ghidra MCP active program reported DayZDiag_x64.exe, so every Workbench query used
+  program=workbenchApp.exe explicitly.
+
+Functions analyzed:
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_1410574b0
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_141058910
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_141055e40
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_1410570b0
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_141056230
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_1410562e0
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_141055c60
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_141055db0
+
+Track creation:
+- FUN_141055e40(animation, name, parentIndex, frameCount, param_5, param_6, param_7)
+  allocates a 0x30-byte TXA track.
+- The track stores name at +0, parent at +8, next sibling at +0xc, first child at
+  +0x10, key buffer at +0x18, key count/capacity at +0x24/+0x20, diff flag at
+  +0x28, and channel bytes at +0x29/+0x2a/+0x2b.
+- When called from the FBX sampler FUN_140e75770/FUN_140e78260, the channel bytes
+  are all 1: FUN_141055e40(..., frameCount, 1, 1, 1).
+- Newly allocated keys default to q=(0,0,0,1), t=(0,0,0), s=(1,1,1).
+
+Track text writer:
+- FUN_1410574b0 writes "node" or "nodeDiff" depending on track diff flag +0x28.
+- It writes the track name, then if key count +0x24 is nonzero it starts a "keys"
+  block.
+- It emits "t" when byte +0x29 is nonzero, "q" when byte +0x2a is nonzero, and
+  "s" when byte +0x2b is nonzero.
+- It recursively writes children by following first-child +0x10 and sibling +0xc.
+
+Frame range compression:
+- FUN_1410574b0 walks contiguous key records and groups adjacent frames while all
+  active components compare equal to the starting key.
+- Translation comparison: FUN_1410562e0(key + 0x10, next + 0x10, 7), three
+  floats, threshold powf(10.0, -7).
+- Quaternion comparison: FUN_141056230(key + 0x00, next + 0x00, 6), four floats,
+  threshold powf(10.0, -6) in one comparison site; FUN_1410570b0's default
+  comparison uses precision argument 6 for "q" default-elision.
+- Scale comparison: FUN_1410562e0(key + 0x1c, next + 0x1c, 5), three floats,
+  threshold powf(10.0, -5).
+- FUN_1410570b0 writes "frame <start> [end]" and includes end only when
+  end != start.
+
+Default elision inside frame block:
+- FUN_1410570b0 compares the frame key against a default key record:
+  q=(0,0,0,1), t=(0,0,0), s=(1,1,1).
+- It omits "t" if translation is default within powf(10.0, -7).
+- It omits "q" if quaternion is default within powf(10.0, -6).
+- It omits "s" if scale is default within powf(10.0, -5).
+- If a component is not default, the function writes the directive and component
+  floats:
+  t -> three floats from key +0x10/+0x14/+0x18
+  q -> four floats from key +0x00/+0x04/+0x08/+0x0c
+  s -> three floats from key +0x1c/+0x20/+0x24
+
+Float/integer formatting:
+- FUN_141055c60 writes floats using format string at DAT_141a757a8.
+- Raw memory at 0x141a757a8 begins "25 2e 2a 66 00", ASCII "%.*f".
+- It first zeroes values whose absolute value is below powf(10.0, -precision).
+- It then trims trailing zeroes after formatting and leaves no unnecessary
+  decimal tail.
+- FUN_141055db0 writes integers with snprintf and the integer format string used
+  elsewhere in TXA text output.
+- Raw memory at 0x141f859e0 begins "00 00 20 41", float 10.0, used by powf.
+
+Tag writer:
+- FUN_141058910 writes stored animation tags before track output.
+- First token after "tag" is written bare; subsequent tokens are quoted.
+- The FBX sampler path has no current evidence of adding tags itself. It can
+  write tags only if the TXA::Animation object already contains them.
+
+Conclusion:
+- confirmed: Workbench FBX->TXA text is not a literal one-frame-per-line dump.
+  It writes hierarchical node/nodeDiff blocks, "keys t q s", compresses repeated
+  adjacent frames into frame ranges, omits default t/q/s components inside frame
+  blocks, and formats floats with "%.*f" precision 7 plus trailing-zero trim.
+
+EntityPosition / import follow-up:
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140e78260:
+  The EntityPosition sampler creates a TXA track with
+  FUN_141055e40(animation, sanitizedName, 0xffffffff, frameCount, 1, 1, 1).
+  It allocates a frameCount * 0x80 matrix array, stores the pointer for later
+  relative-root conversion, samples EntityPosition at each frame, writes q/t
+  keys, and forces scale to 1,1,1.
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140e7bf50:
+  The EntityPosition search is recursive by exact node-name compare and returns
+  the first matching node.
+- /analyze_function_complete?program=workbenchApp.exe&name=FUN_140e7daa0:
+  The import helper creates scene/importer objects, opens the source path via an
+  importer vtable call, imports into the scene, applies an axis/system helper
+  sequence, then calls FUN_141090230(&DAT_142373c80, scene, flags) with local
+  flags 0x1010100 + 0x101 and stores the resulting unit scale at context +0x58.
+
+Mesh-subtree consequence:
+- FUN_140e75770's child recursion is inside the same "if attribute type != 4"
+  branch as track creation. Since vtable evidence maps type 4 to FbxMesh, a mesh
+  node is skipped together with its child traversal in this conversion function.
+  Blender export should not place animated skeleton/null nodes under an FBX mesh
+  node if exact Workbench traversal is desired.

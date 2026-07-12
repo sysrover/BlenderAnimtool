@@ -1,0 +1,171 @@
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:187:      } while (uVar17 != 0);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:188:    }
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:189:    local_b8 = _DAT_141121028;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:190:    uStack_b0 = uRam0000000141121030;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:191:    FUN_1400902d0(8,&local_b8,
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:192:                  "------------------------------------------------------------------------",puVar22
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:193:                 );
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:194:  }
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:195:  puVar4 = (ulonglong *)FUN_1400d83f0(DAT_1411a36f8);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:196:  fVar26 = *(float *)(param_1 + 0x12) + (float)param_2[3];
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:197:  local_1d8 = *(undefined8 *)(param_1[0xe] + 0x28);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:198:  uStack_1d0 = CONCAT71(uStack_1d0._1_7_,*(undefined1 *)((longlong)param_1 + 0x94));
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:199:  fVar25 = fVar26 - *(float *)(param_1 + 0x12);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:200:  FUN_14051a9f0((longlong)(param_1 + 2),fVar25);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:201:  FUN_14051b440(param_1 + 5,fVar25);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:202:  memset(&local_188,0,0x68);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:203:  local_168 = (longlong *)param_1[2];
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:204:  local_188 = (undefined4)param_1[0x12];
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:205:  local_184 = fVar25;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:206:  if (local_168 != (longlong *)0x0) {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:207:    LOCK();
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:208:    plVar5 = local_168 + 1;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:209:    lVar16 = *plVar5;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:338:  param_2[0xe] = local_1b4;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:339:  param_2[0x12] = local_1a4;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:340:  uVar11 = *(uint *)(plVar6 + 0x38);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:341:  if (local_1c4 < *(uint *)(plVar6 + 0x38)) {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:342:    uVar11 = local_1c4;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:343:  }
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:344:  param_2[0x16] = uVar11;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:345:  plVar5 = plVar6;
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:346:  FUN_14051c200((longlong)param_1,(longlong)param_2,plVar6);
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:347:  FUN_140518a70(param_1,plVar6,plVar5,uVar17);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:348:  bVar10 = *(byte *)((longlong)plVar6 + 0x34) & 2;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:349:  plVar5 = plVar6 + 4;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:350:  if (bVar10 == 0) {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:351:    plVar5 = (longlong *)0x0;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:352:  }
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:353:  plVar20 = (longlong *)&DAT_00000008;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:354:  if (plVar5 == (longlong *)0x0) {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:355:    *param_2 = 0xff7fffff;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:356:  }
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:357:  else {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:358:    *param_2 = (int)*plVar5;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:359:    puVar9 = (undefined4 *)((longlong)plVar6 + 0x24);
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:360:    if (bVar10 == 0) {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:361:      puVar9 = (undefined4 *)&DAT_00000004;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:623:14051bcc9: JNZ 0x14051bc70 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:624:14051bccb: MOVUPS XMM0,xmmword ptr [0x141121028] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:625:14051bcd2: LEA R8,[0x140e68400] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:626:14051bcd9: MOV ECX,0x8 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:627:14051bcde: LEA RDX,[RBP + 0x60] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:628:14051bce2: MOVAPS xmmword ptr [RBP + 0x60],XMM0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:629:14051bce6: CALL 0x1400902d0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:630:14051bceb: MOV RCX,qword ptr [0x1411a36f8] 
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:631:14051bcf2: CALL 0x1400d83f0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:632:14051bcf7: MOV RCX,qword ptr [RSI + 0x70] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:633:14051bcfb: MOV R12,RAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:634:14051bcfe: MOVSS XMM0,dword ptr [RSI + 0x90] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:635:14051bd06: MOVAPS XMM8,XMM0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:636:14051bd0a: ADDSS XMM8,dword ptr [R15 + 0xc] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:637:14051bd10: MOV RDX,qword ptr [RCX + 0x28] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:638:14051bd14: MOVZX ECX,byte ptr [RSI + 0x94] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:639:14051bd1b: MOV byte ptr [RSP + 0x48],CL 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:640:14051bd1f: LEA RCX,[RSI + 0x10] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:641:14051bd23: MOV qword ptr [RSP + 0x40],RDX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:642:14051bd28: MOVAPS XMM6,XMM8 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:643:14051bd2c: SUBSS XMM6,XMM0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:644:14051bd30: MOVAPS XMM1,XMM6 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:645:14051bd33: CALL 0x14051a9f0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:780:14051bf4b: MOV qword ptr [RSP + 0x40],RCX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:781:14051bf50: LEA RCX,[RBP + 0x70] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:782:14051bf54: MOV qword ptr [RSP + 0x48],RAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:783:14051bf59: MOVAPS XMM0,xmmword ptr [RSP + 0x40] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:784:14051bf5e: MOV RAX,qword ptr [R12] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:785:14051bf62: MOV qword ptr [RSP + 0x20],RCX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:786:14051bf67: MOV RCX,R12 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:787:14051bf6a: MOVDQA xmmword ptr [RBP + 0x70],XMM0 
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:788:14051bf6f: CALL qword ptr [RAX + 0x30] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:789:14051bf72: MOVSS XMM6,dword ptr [RSI + 0x34] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:790:14051bf77: UCOMISS XMM6,XMM7 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:791:14051bf7a: JZ 0x14051c060 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:792:14051bf80: COMISS XMM6,XMM7 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:793:14051bf83: JBE 0x14051c060 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:794:14051bf89: MOVAPS XMM2,XMM6 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:795:14051bf8c: MOV RDX,R12 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:796:14051bf8f: MOV RCX,RSI 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:797:14051bf92: CALL 0x140516890 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:798:14051bf97: MOV R9,qword ptr [R12] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:799:14051bf9b: MOVAPS XMM3,XMM6 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:800:14051bf9e: MOV R8,RAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:801:14051bfa1: MOV qword ptr [RBP + 0x130],RAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:802:14051bfa8: MOV RDX,RBX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:803:14051bfab: MOV RCX,R12 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:804:14051bfae: MOV R15,RBX 
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:805:14051bfb1: CALL qword ptr [R9 + 0x20] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:806:14051bfb5: MOV RDI,qword ptr [RSI + 0x60] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:807:14051bfb9: MOV RBX,RAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:808:14051bfbc: MOV R13D,dword ptr [RSI + 0x6c] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:809:14051bfc0: XOR EAX,EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:810:14051bfc2: MOV ESI,EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:811:14051bfc4: LEA RCX,[RDI + R13*0x4] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:812:14051bfc8: CMP RDI,RCX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:813:14051bfcb: CMOVA R13D,EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:814:14051bfcf: TEST R13,R13 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:815:14051bfd2: JZ 0x14051c032 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:816:14051bfd4: NOP dword ptr [RAX] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:817:14051bfd8: NOP dword ptr [RAX + RAX*0x1] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:818:14051bfe0: MOV EDX,dword ptr [R15 + 0x30] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:819:14051bfe4: MOV ECX,EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:842:14051c024: XOR EAX,EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:843:14051c026: ADD RDI,0x4 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:844:14051c02a: INC RSI 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:845:14051c02d: CMP RSI,R13 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:846:14051c030: JNZ 0x14051bfe0 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:847:14051c032: MOV RAX,qword ptr [R12] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:848:14051c036: MOV RDX,R15 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:849:14051c039: MOV RCX,R12 
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:850:14051c03c: CALL qword ptr [RAX + 0x40] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:851:14051c03f: MOV RAX,qword ptr [R12] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:852:14051c043: MOV RCX,R12 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:853:14051c046: MOV RDX,qword ptr [RBP + 0x130] 
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:854:14051c04d: CALL qword ptr [RAX + 0x40] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:855:14051c050: MOV R15,qword ptr [RBP + 0x128] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:856:14051c057: XOR EDI,EDI 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:857:14051c059: MOV RSI,qword ptr [RBP + 0x120] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:858:14051c060: MOV EAX,dword ptr [RSP + 0x64] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:859:14051c064: MOV R8,RBX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:860:14051c067: MOV dword ptr [R15 + 0x38],EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:861:14051c06b: MOV RDX,R15 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:862:14051c06e: MOV EAX,dword ptr [RSP + 0x74] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:863:14051c072: MOV RCX,RSI 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:864:14051c075: MOV dword ptr [R15 + 0x48],EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:865:14051c079: MOV EAX,dword ptr [RBX + 0x1c0] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:866:14051c07f: CMP dword ptr [RSP + 0x54],EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:867:14051c083: CMOVC EAX,dword ptr [RSP + 0x54] 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:868:14051c088: MOV dword ptr [R15 + 0x58],EAX 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:974:14051c1fc: POP RBP 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:975:14051c1fd: RET 
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:976:
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:977:===== http://127.0.0.1:8089/get_function_callers?program=DayZDiag_x64.exe&address=0x14051b9f0 =====
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:978:FUN_140511220 @ 140511220
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:979:FUN_14051aa50 @ 14051aa50
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:980:===== http://127.0.0.1:8089/get_function_callees?program=DayZDiag_x64.exe&address=0x14051b9f0 =====
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:981:FUN_1400902d0 @ 1400902d0
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:982:FUN_1400d83f0 @ 1400d83f0
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:983:FUN_1400d9290 @ 1400d9290
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:984:FUN_1400da220 @ 1400da220
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:985:FUN_14011d430 @ 14011d430
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:986:FUN_1402117c0 @ 1402117c0
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:987:FUN_1403726a0 @ 1403726a0
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:988:FUN_14050d0b0 @ 14050d0b0
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:989:FUN_140516890 @ 140516890
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:990:FUN_140518a70 @ 140518a70
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:991:FUN_14051a9f0 @ 14051a9f0
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:992:FUN_14051b440 @ 14051b440
+> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:993:FUN_14051c200 @ 14051c200
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:994:memcpy @ 140dc685e
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:995:memset @ 140dc6858
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:996:===== http://127.0.0.1:8089/decompile_function?program=DayZDiag_x64.exe&address=0x1400da220 =====
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:997:
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:998:uint FUN_1400da220(longlong *param_1,undefined4 *param_2)
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:999:
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1000:{
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1001:  uint uVar1;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1002:  uint uVar2;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1003:  
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1004:  uVar2 = 0;
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1005:  if (*(uint *)(param_1 + 6) != 0) {
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1006:    uVar1 = param_2[7];
+  C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-dispatcher-14051b9f0-chain.txt:1007:    do {

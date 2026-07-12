@@ -1,0 +1,152 @@
+{
+  "base_action": "p_1hd_erc_idle_low",
+  "ik_action": "apple",
+  "remembered_base": "p_1hd_erc_idle_low",
+  "preview_backend": "BLENDER_PROXY_2BONE_PY_SYNC",
+  "control_rig": "DAT_DayZ_Arm_FK_Controls",
+  "missing_controls": [],
+  "default_pose_error": 3.424221106066132e-05,
+  "hand_move": {
+    "control_delta": 0.029999985904747846,
+    "proxy_wrist_delta": 0.029999931389939234,
+    "dayz_hand_delta": 0.029999959711276693,
+    "target_error": 6.006850114687196e-08,
+    "upper_length_error": 6.50319877948391e-08,
+    "lower_length_error": 6.328752150119854e-08,
+    "arm_roll_angle": 0.08040741086006165,
+    "forearm_roll_angle": 0.07687763124704361,
+    "arm_roll_scale_error": 2.0647654623614278e-07,
+    "forearm_roll_scale_error": 3.5762786865234375e-07
+  },
+  "elbow_move": {
+    "proxy_elbow_delta": 0.0016440487057566154,
+    "proxy_wrist_delta": 1.4901161193847656e-08,
+    "control_target_delta": 0.0,
+    "target_error": 7.028863677424642e-08
+  },
+  "wrist_rotation": {
+    "proxy_hand_angle": 0.26179811358451843,
+    "dayz_hand_angle": 0.26179900765419006,
+    "proxy_to_dayz_angle_error": 0.0,
+    "proxy_wrist_delta": 0.0,
+    "bake_control_reset_error": 0.0,
+    "bake_dayz_reset_error": 0.0
+  },
+  "baked_action": "apple",
+  "helper_bake_keys": {
+    "RightForeArmDirection": {
+      "location": [
+        0,
+        1
+      ],
+      "rotation_quaternion": [
+        0,
+        1
+      ]
+    },
+    "RightForeArmDirectionOrigin": {
+      "location": [
+        0,
+        1
+      ],
+      "rotation_quaternion": [
+        0,
+        1
+      ]
+    },
+    "RightHandOrigin": {
+      "location": [
+        0,
+        1
+      ],
+      "rotation_quaternion": [
+        0,
+        1
+      ]
+    },
+    "RightHand_Dummy": {
+      "location": [
+        0,
+        1
+      ],
+      "rotation_quaternion": [
+        0,
+        1
+      ]
+    }
+  },
+  "helpers_have_two_frame_tr": true,
+  "helper_constraints": {
+    "RightHandOrigin": [],
+    "RightForeArmDirection": [],
+    "RightForeArmDirectionOrigin": [],
+    "RightHand_Dummy": []
+  },
+  "export": {
+    "format": "AnimSet6",
+    "frames": 2,
+    "fps": 30,
+    "tracks": [
+      "RightHand",
+      "RightHandRing",
+      "RightHandRing1",
+      "RightHandRing2",
+      "RightHandRing3",
+      "RightHandThumb1",
+      "RightHandThumb2",
+      "RightHandThumb3",
+      "RightHandMiddle1",
+      "RightHandMiddle2",
+      "RightHandMiddle3",
+      "RightHandIndex1",
+      "RightHandIndex2",
+      "RightHandIndex3",
+      "RightHandPinky",
+      "RightHandPinky1",
+      "RightHandPinky2",
+      "RightHandPinky3",
+      "RightHand_Dummy",
+      "RightForeArmDirectionOrigin",
+      "RightHandOrigin",
+      "RightForeArmDirection"
+    ]
+  },
+  "position_tracks": [
+    "RightForeArmDirection",
+    "RightForeArmDirectionOrigin",
+    "RightHandOrigin",
+    "RightHand_Dummy"
+  ],
+  "unexpected_position_tracks": [],
+  "missing_position_tracks": [],
+  "roundtrip": {
+    "max_error": 2.0916647845758973e-05,
+    "worst": {
+      "track": "RightHandThumb3",
+      "channel": "rotation",
+      "frame": 0,
+      "error": 2.0916647845758973e-05
+    },
+    "missing": []
+  },
+  "cycle_debug": {
+    "import_object_rotation_error": 0.0,
+    "raw_to_export_rotation_error": 6.2831854820251465,
+    "setter_to_keyed_basis_error": 0.0,
+    "imported_raw_quaternion_wxyz": [
+      -0.9874011278152466,
+      0.010451863519847393,
+      0.02281450852751732,
+      0.15623492002487183
+    ],
+    "sampled_quaternion_wxyz": [
+      0.9874019622802734,
+      -0.010451564565300941,
+      -0.022813696414232254,
+      -0.1562296748161316
+    ]
+  },
+  "left_tracks": [],
+  "output_anm": "C:\\temp\\dayz_ik1h_proxy_workflow\\apple_proxy_edited.anm",
+  "pass": true
+}

@@ -1,0 +1,57 @@
+import bpy
+
+def apply_modifiers(armature, original_bone_name, target_bone_name):
+    # Get the target armature
+    target_armature = bpy.data.objects.get("Armature")
+    if not armature or not target_armature:
+        print("Armature not found.")
+        return
+    
+    # Switch to Pose Mode
+    bpy.ops.object.mode_set(mode='POSE')
+    
+    # Access the pose bones
+    original_bone = armature.pose.bones.get(original_bone_name)
+    target_bone = target_armature.pose.bones.get(target_bone_name)
+    if not original_bone or not target_bone:
+        print(f"Bones not found: {original_bone_name} or {target_bone_name}.")
+        return
+
+    # Create Copy Location constraint
+    copy_loc = original_bone.constraints.new(type='COPY_LOCATION')
+    copy_loc.target = target_armature
+    copy_loc.subtarget = target_bone_name
+
+    # Create Copy Rotation constraint
+    copy_rot = original_bone.constraints.new(type='COPY_ROTATION')
+    copy_rot.target = target_armature
+    copy_rot.subtarget = target_bone_name
+
+    # Iterate over the constraints and apply them
+    for constraint in original_bone.constraints:
+        bone_name = original_bone_name
+        # Set the bone to active
+        armature.data.bones.active = armature.data.bones[bone_name]
+        
+        # Apply each constraint
+        bpy.ops.constraint.apply(constraint=constraint.name)
+
+# Ensure one armature is selected
+if len(bpy.context.selected_objects) != 1 or bpy.context.object.type != 'ARMATURE':
+    print("Select exactly one armature.")
+else:
+    selected_armature = bpy.context.object
+    # List of bone name pairs (original_name, target_name)
+    bone_pairs = [
+        ("RightHandOriginPose", "RightHand"),
+        ("LeftHandOriginPose", "LeftHand"),
+        ("LeftForeArmDirectionOriginPose", "LeftForeArm"),
+        ("RightForeArmDirectionOriginPose", "RightForeArm")
+    ]
+
+    # Apply the modifiers for each bone pair
+    for original_bone_name, target_bone_name in bone_pairs:
+        apply_modifiers(selected_armature, original_bone_name, target_bone_name)
+
+    # Return to Object Mode
+    bpy.ops.object.mode_set(mode='OBJECT')

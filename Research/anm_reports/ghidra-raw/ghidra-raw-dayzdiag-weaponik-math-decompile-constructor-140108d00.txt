@@ -1,0 +1,55 @@
+
+undefined8 * FUN_140108d00(longlong *param_1,undefined8 param_2)
+
+{
+  undefined8 *puVar1;
+  
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 8))(param_1,0x230,0x10);
+  FUN_1400e5420(puVar1,param_1,param_2);
+  *puVar1 = enf::AnimNodeWeaponIK::vftable;
+  *(undefined4 *)(puVar1 + 7) = 0xffffffff;
+  puVar1[8] = 0;
+  *(undefined4 *)(puVar1 + 9) = 0xffffffff;
+  puVar1[10] = param_1;
+  *(undefined4 *)(puVar1 + 0xb) = 3;
+  puVar1[0xc] = PTR_s_false_14111dbd0;
+  puVar1[0xd] = 0;
+  puVar1[0xe] = param_1;
+  *(undefined4 *)(puVar1 + 0xf) = 3;
+  puVar1[0x10] = PTR_s_false_14111dbd0;
+  puVar1[0x11] = 0;
+  puVar1[0x12] = param_1;
+  *(undefined4 *)(puVar1 + 0x13) = 3;
+  puVar1[0x14] = PTR_s_false_14111dbd0;
+  puVar1[0x15] = 0;
+  *(undefined4 *)(puVar1 + 0x16) = 0x3e99999a;
+  puVar1[0x17] = param_1;
+  *(undefined4 *)(puVar1 + 0x18) = 1;
+  puVar1[0x19] = PTR_DAT_14111dbc0;
+  puVar1[0x1a] = 0;
+  puVar1[0x1b] = param_1;
+  *(undefined4 *)(puVar1 + 0x1c) = 1;
+  puVar1[0x1d] = PTR_DAT_14111dbc0;
+  puVar1[0x1e] = 0;
+  puVar1[0x1f] = 0;
+  *(undefined4 *)(puVar1 + 0x20) = 0xffffffff;
+  *(undefined4 *)(puVar1 + 0x37) = 0xff;
+  *(undefined4 *)((longlong)puVar1 + 0x1bc) = 0xff;
+  *(undefined4 *)(puVar1 + 0x38) = 0xff;
+  *(undefined1 *)((longlong)puVar1 + 0x1c4) = 0;
+  *(undefined4 *)(puVar1 + 0x3e) = 0;
+  *(undefined4 *)((longlong)puVar1 + 500) = 0xff;
+  *(undefined4 *)(puVar1 + 0x3f) = 0xff;
+  *(undefined4 *)((longlong)puVar1 + 0x1fc) = 0xff;
+  *(undefined4 *)(puVar1 + 0x40) = 0xff;
+  *(undefined4 *)((longlong)puVar1 + 0x20c) = 0xff;
+  *(undefined1 *)(puVar1 + 0x43) = 0;
+  puVar1[0x44] = 0;
+  *(undefined4 *)((longlong)puVar1 + 0x204) = 0xff;
+  *(undefined4 *)(puVar1 + 0x41) = 0xff;
+  *(undefined4 *)(puVar1 + 0x42) = 0xff;
+  *(undefined4 *)((longlong)puVar1 + 0x214) = 0xff;
+  return puVar1;
+}
+
+

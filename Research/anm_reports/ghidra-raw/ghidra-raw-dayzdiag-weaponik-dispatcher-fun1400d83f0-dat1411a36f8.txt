@@ -1,0 +1,187 @@
+===== http://127.0.0.1:8089/decompile_function?program=DayZDiag_x64.exe&address=0x1400d83f0 =====
+
+longlong * FUN_1400d83f0(longlong param_1)
+
+{
+  void *_Src;
+  longlong lVar1;
+  longlong *plVar2;
+  BOOL BVar3;
+  
+  EnterCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x100));
+  BVar3 = TryEnterCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x128));
+  if (BVar3 == 0) {
+    return (longlong *)0x0;
+  }
+  lVar1 = (ulonglong)*(uint *)(param_1 + 0x15c) * 8;
+  _Src = (void *)(lVar1 + *(longlong *)(param_1 + 0x150));
+  plVar2 = *(longlong **)((longlong)_Src + -8);
+  *(uint *)(param_1 + 0x15c) = *(uint *)(param_1 + 0x15c) - 1;
+  memmove((void *)((longlong)_Src + -8),_Src,
+          (*(longlong *)(param_1 + 0x150) + -8 + (lVar1 - ((longlong)_Src + -8)) >> 3 & 0xffffffffU)
+          << 3);
+  if (*(int *)(param_1 + 0x15c) != 0) {
+    LeaveCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x128));
+  }
+  LeaveCriticalSection((LPCRITICAL_SECTION)(param_1 + 0x100));
+  (**(code **)(*plVar2 + 0x50))(plVar2);
+  return plVar2;
+}
+
+
+===== http://127.0.0.1:8089/disassemble_function?program=DayZDiag_x64.exe&address=0x1400d83f0 =====
+1400d83f0: MOV qword ptr [RSP + 0x10],RBX 
+1400d83f5: MOV qword ptr [RSP + 0x18],RBP 
+1400d83fa: PUSH RSI ; LPCRITICAL_SECTION lpCriticalSection for EnterCriticalSection
+1400d83fb: SUB RSP,0x20 
+1400d83ff: MOV RBX,RCX 
+1400d8402: ADD RCX,0x100 
+1400d8409: CALL qword ptr [0x140ddc728] 
+1400d840f: LEA RCX,[RBX + 0x128] 
+1400d8416: CALL qword ptr [0x140ddc698] 
+1400d841c: TEST EAX,EAX 
+1400d841e: JNZ 0x1400d8432 
+1400d8420: XOR EAX,EAX 
+1400d8422: MOV RBX,qword ptr [RSP + 0x38] 
+1400d8427: MOV RBP,qword ptr [RSP + 0x40] 
+1400d842c: ADD RSP,0x20 
+1400d8430: POP RSI 
+1400d8431: RET 
+1400d8432: MOV EAX,dword ptr [RBX + 0x15c] 
+1400d8438: MOV R8,qword ptr [RBX + 0x150] 
+1400d843f: MOV qword ptr [RSP + 0x30],RDI 
+1400d8444: LEA R9,[RAX*0x8] 
+1400d844c: DEC EAX 
+1400d844e: LEA RDX,[R9 + R8*0x1] 
+1400d8452: ADD R8,-0x8 
+1400d8456: MOV RDI,qword ptr [RDX + -0x8] 
+1400d845a: LEA RCX,[RDX + -0x8] 
+1400d845e: SUB R9,RCX 
+1400d8461: MOV dword ptr [RBX + 0x15c],EAX 
+1400d8467: ADD R8,R9 
+1400d846a: SAR R8,0x3 
+1400d846e: MOV R8D,R8D 
+1400d8471: SHL R8,0x3 
+1400d8475: CALL 0x140dc6852 
+1400d847a: CMP dword ptr [RBX + 0x15c],0x0 
+1400d8481: JZ 0x1400d8490 
+1400d8483: LEA RCX,[RBX + 0x128] 
+1400d848a: CALL qword ptr [0x140ddc720] 
+1400d8490: LEA RCX,[RBX + 0x100] 
+1400d8497: CALL qword ptr [0x140ddc720] 
+1400d849d: MOV RDX,qword ptr [RDI] 
+1400d84a0: MOV RCX,RDI 
+1400d84a3: CALL qword ptr [RDX + 0x50] 
+1400d84a6: MOV RBX,qword ptr [RSP + 0x38] 
+1400d84ab: MOV RAX,RDI 
+1400d84ae: MOV RDI,qword ptr [RSP + 0x30] 
+1400d84b3: MOV RBP,qword ptr [RSP + 0x40] 
+1400d84b8: ADD RSP,0x20 
+1400d84bc: POP RSI 
+1400d84bd: RET 
+
+===== http://127.0.0.1:8089/read_memory?program=DayZDiag_x64.exe&address=0x1411a36f8&length=128 =====
+{"address":"1411a36f8","length":128,"data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"hex":"0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"}
+===== http://127.0.0.1:8089/analyze_data_region?program=DayZDiag_x64.exe&address=0x1411a36f8&max_scan_bytes=128&include_xref_map=true =====
+{"error":"Address parameter is required."}
+===== http://127.0.0.1:8089/get_xrefs_to?program=DayZDiag_x64.exe&address=0x1411a36f8 =====
+From 14047cbc2 in FUN_14047c860 [READ]
+From 140476a04 in FUN_140476940 [READ]
+From 14051bceb in FUN_14051b9f0 [READ]
+From 14051c164 in FUN_14051b9f0 [READ]
+From 1405171e7 in FUN_140517190 [READ]
+From 140517261 in FUN_140517190 [READ]
+From 14051748a in FUN_140517450 [READ]
+From 140517525 in FUN_140517450 [READ]
+From 1400ce491 in FUN_1400ce3f0 [READ]
+From 1400ce862 in FUN_1400ce840 [READ]
+From 1400ce8fa in FUN_1400ce840 [READ]
+From 1400ced0d in FUN_1400cec90 [READ]
+From 1400d45a0 in FUN_1400d4520 [READ]
+From 1400d4f00 in FUN_1400d4520 [READ]
+From 1400d4f3a in FUN_1400d4520 [READ]
+From 1400d715e in FUN_1400d7150 [READ]
+From 14010a0d7 in FUN_14010a020 [READ]
+From 14010b5d8 in FUN_14010b590 [READ]
+From 14010ca29 in FUN_14010c9b0 [READ]
+From 1400d85b2 in FUN_1400d8580 [READ]
+From 1400de7f9 in FUN_1400de7b0 [READ]
+From 1400e824c in FUN_1400e8240 [READ]
+From 1400e565c in FUN_1400e5650 [READ]
+From 1400e5585 in FUN_1400e5550 [READ]
+From 1400e55b3 in FUN_1400e5550 [READ]
+From 1400e5c34 in FUN_1400e5be0 [READ]
+From 1400e5caf in FUN_1400e5c60 [READ]
+From 1400e5cf9 in FUN_1400e5c60 [READ]
+From 1400e5d67 in FUN_1400e5c60 [READ]
+From 1400e6461 in FUN_1400e6400 [READ]
+From 1400e65c5 in FUN_1400e6540 [READ]
+From 1400e6625 in FUN_1400e65f0 [READ]
+From 1400f2586 in FUN_1400f2550 [READ]
+From 1400f25fe in FUN_1400f2550 [READ]
+From 1400e68d0 in FUN_1400e68c0 [READ]
+From 1400e6ae9 in FUN_1400e6ac0 [READ]
+From 1400e72f3 in FUN_1400e72e0 [READ]
+From 1400e8140 in FUN_1400e8130 [READ]
+From 1400ee240 in FUN_1400ee040 [READ]
+From 1400ee46c in FUN_1400ee040 [READ]
+From 1400ee644 in FUN_1400ee040 [READ]
+From 1400fbbd7 in FUN_1400fbb60 [READ]
+From 1400fd170 in FUN_1400fd100 [READ]
+From 1400fd2b7 in FUN_1400fd100 [READ]
+From 1400fda0d in FUN_1400fd9a0 [READ]
+From 1400fdc4a in FUN_1400fd9a0 [READ]
+From 1400fde00 in FUN_1400fddd0 [READ]
+From 1400fe4ac in FUN_1400fe480 [READ]
+From 140101314 in FUN_140101270 [READ]
+From 140101827 in FUN_1401017e0 [READ]
+From 140101dc0 in FUN_140101d60 [READ]
+From 140101def in FUN_140101d60 [READ]
+From 140102019 in FUN_140101f60 [READ]
+From 1401027a4 in FUN_140102760 [READ]
+From 1401053ac in FUN_1401053a0 [READ]
+From 140106f1f in FUN_140106ca0 [READ]
+From 1401084e3 in FUN_1401083b0 [READ]
+From 14010944f in FUN_1401093e0 [READ]
+From 14010a6f9 in FUN_14010a650 [READ]
+From 14010af3f in FUN_14010a800 [READ]
+From 14010c851 in FUN_14010c660 [READ]
+From 14010c8af in FUN_14010c660 [READ]
+From 1400d77f3 in FUN_1400d77f0 [READ]
+From 1402c5f75 in FUN_1402c5f30 [READ]
+From 1404cd37c in FUN_1404cd340 [READ]
+From 1404cd4ae in FUN_1404cd480 [READ]
+From 1404cd98c in FUN_1404cd970 [READ]
+From 1404ce518 in FUN_1404ce4f0 [READ]
+From 1404ce538 in FUN_1404ce4f0 [READ]
+From 1404ceb5d in FUN_1404ceb20 [READ]
+From 1404cec1e in FUN_1404cebf0 [READ]
+From 1404cf15a in FUN_1404cf100 [READ]
+From 1404cf2be in FUN_1404cf290 [READ]
+From 1404e1b50 in FUN_1404e1b40 [READ]
+From 1404e3bf0 in FUN_1404e3be0 [READ]
+From 1404e3c13 in FUN_1404e3be0 [READ]
+From 1404e3c32 in FUN_1404e3be0 [READ]
+From 1404e3c51 in FUN_1404e3be0 [READ]
+From 1404e3c70 in FUN_1404e3be0 [READ]
+From 1404e3c8f in FUN_1404e3be0 [READ]
+From 1404e3cae in FUN_1404e3be0 [READ]
+From 1404cfe60 in FUN_1404cfe00 [READ]
+From 1404cff27 in FUN_1404cfe00 [READ]
+From 1404cf85c in FUN_1404cf840 [READ]
+From 1404e209d in FUN_1404e2050 [READ]
+From 1404e20bf in FUN_1404e2050 [READ]
+From 1404e20e1 in FUN_1404e2050 [READ]
+From 1404e2317 in FUN_1404e22f0 [READ]
+From 1404e2386 in FUN_1404e22f0 [READ]
+From 1404e2ab5 in FUN_1404e2a90 [READ]
+From 1404e2ad4 in FUN_1404e2a90 [READ]
+From 1404e45ce in FUN_1404e4570 [READ]
+From 1404e4764 in FUN_1404e4740 [READ]
+From 1404e478b in FUN_1404e4740 [READ]
+From 1404e4cb0 in FUN_1404e4c60 [READ]
+From 1404e4dde in FUN_1404e4db0 [READ]
+From 1404e5736 in FUN_1404e5710 [READ]
+From 1404e5755 in FUN_1404e5710 [READ]
+From 1404e5775 in FUN_1404e5710 [READ]
+From 1404e57e1 in FUN_1404e5710 [READ]

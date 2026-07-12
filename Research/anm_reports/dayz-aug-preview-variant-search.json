@@ -1,0 +1,405 @@
+{
+  "count": 384,
+  "best": [
+    {
+      "R_dummy": 0.14195015837776234,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.0682637682833532,
+      "R_fore_len": 0.27500008900055745,
+      "L_fore_len": 0.2749997486443888,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87301913113464,
+      "score": 0.5259330493446572,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.14195015837776234,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.0682637682833532,
+      "R_fore_len": 0.27500008900055745,
+      "L_fore_len": 0.2749997486443888,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87301913113464,
+      "score": 0.5259330493446572,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826371371133233,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.27499984347003037,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87306011226966,
+      "score": 0.5259331986885807,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826371371133233,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.27499984347003037,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87306011226966,
+      "score": 0.5259331986885807,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826381773920943,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.2749998163769933,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87306011226966,
+      "score": 0.525933246358248,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826381773920943,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.2749998163769933,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87306011226966,
+      "score": 0.525933246358248,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.1419501084533097,
+      "R_origin": 0.005439630897495988,
+      "L_target": 0.06826371371133233,
+      "R_fore_len": 0.27500008392061775,
+      "L_fore_len": 0.2749997435644428,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87301913113464,
+      "score": 0.5259332945367856,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.1419501084533097,
+      "R_origin": 0.005439630897495988,
+      "L_target": 0.06826371371133233,
+      "R_fore_len": 0.27500008392061775,
+      "L_fore_len": 0.2749997435644428,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87301913113464,
+      "score": 0.5259332945367856,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.14195015837776234,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826372095918136,
+      "R_fore_len": 0.27500008900055745,
+      "L_fore_len": 0.27499976557754147,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87306011226966,
+      "score": 0.525933320437139,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.14195015837776234,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826372095918136,
+      "R_fore_len": 0.27500008900055745,
+      "L_fore_len": 0.27499976557754147,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87306011226966,
+      "score": 0.525933320437139,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.1419500468422053,
+      "R_origin": 0.005439641848945475,
+      "L_target": 0.06826354402617621,
+      "R_fore_len": 0.2750000144947655,
+      "L_fore_len": 0.27499987394969394,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87306011226966,
+      "score": 0.5259333580720138,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.1419500468422053,
+      "R_origin": 0.005439641848945475,
+      "L_target": 0.06826354402617621,
+      "R_fore_len": 0.2750000144947655,
+      "L_fore_len": 0.27499987394969394,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87306011226966,
+      "score": 0.5259333580720138,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.1419501084533097,
+      "R_origin": 0.005439630897495988,
+      "L_target": 0.06826366212367874,
+      "R_fore_len": 0.27500008392061775,
+      "L_fore_len": 0.2749997858973233,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87306011226966,
+      "score": 0.5259335795538231,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.1419501084533097,
+      "R_origin": 0.005439630897495988,
+      "L_target": 0.06826366212367874,
+      "R_fore_len": 0.27500008392061775,
+      "L_fore_len": 0.2749997858973233,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87306011226966,
+      "score": 0.5259335795538231,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": -1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": 1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.0682637772365712,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.2749998485499745,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87310109340467,
+      "score": 0.5259337241075657,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": -1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.0682637772365712,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.2749998485499745,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87310109340467,
+      "score": 0.5259337241075657,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": -1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.1419500468422053,
+      "R_origin": 0.005439641848945475,
+      "L_target": 0.06826368855702677,
+      "R_fore_len": 0.2750000144947655,
+      "L_fore_len": 0.27499981468367835,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87310109340467,
+      "score": 0.5259337476155774,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": -1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.1419500468422053,
+      "R_origin": 0.005439641848945475,
+      "L_target": 0.06826368855702677,
+      "R_fore_len": 0.2750000144947655,
+      "L_fore_len": 0.27499981468367835,
+      "R_elbow": 174.87310109340467,
+      "L_elbow": 174.87310109340467,
+      "score": 0.5259337476155774,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirection",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirection",
+        "ls": -1,
+        "rrot": true,
+        "lrot": false
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826391409275746,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.27499973679118134,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87310109340467,
+      "score": 0.5259337532871184,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": -1,
+        "rrot": true,
+        "lrot": true
+      }
+    },
+    {
+      "R_dummy": 0.14194998779393372,
+      "R_origin": 0.005439588178272359,
+      "L_target": 0.06826391409275746,
+      "R_fore_len": 0.2750000788406779,
+      "L_fore_len": 0.27499973679118134,
+      "R_elbow": 174.87306011226966,
+      "L_elbow": 174.87310109340467,
+      "score": 0.5259337532871184,
+      "label": {
+        "rt": "RightHandOrigin",
+        "rp": "RightForeArmDirectionOrigin",
+        "rs": 1,
+        "lt": "LeftHandIKTarget",
+        "lp": "LeftForeArmDirectionOrigin",
+        "ls": -1,
+        "rrot": true,
+        "lrot": false
+      }
+    }
+  ]
+}

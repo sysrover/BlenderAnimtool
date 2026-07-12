@@ -1,0 +1,598 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_10871c57dbc08.java
+Program: workbenchApp.exe
+Time: Sun May 31 18:38:09 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_10871c57dbc08.java
+Size: 678 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+
+DISASM 1404eb423-1404ebc22
+1404eb423: MOV R15,qword ptr [RBX + 0x68]
+1404eb427: LEA RDX,[RSP + 0x34]
+1404eb42c: MOV R8D,0x4
+1404eb432: MOV RCX,RBX
+1404eb435: CALL 0x1404ebc20
+1404eb43a: CMP EAX,0x4
+1404eb43d: JNZ 0x1404eb46c
+1404eb43f: MOV EDI,0xffff
+1404eb444: CMP dword ptr [RSP + 0x34],EDI
+1404eb448: CMOVL EDI,dword ptr [RSP + 0x34]
+1404eb44d: TEST EDI,EDI
+1404eb44f: JZ 0x1404eb464
+1404eb451: MOV R8D,EDI
+1404eb454: LEA RDX,[RBP + -0x60]
+1404eb458: MOV RCX,RBX
+1404eb45b: CALL 0x1404ebc20
+1404eb460: TEST EAX,EAX
+1404eb462: JZ 0x1404eb46c
+1404eb464: MOVSXD RAX,EDI
+1404eb467: MOV byte ptr [RBP + RAX*0x1 + -0x60],0x0
+1404eb46c: MOV RAX,qword ptr [RBX + 0x68]
+1404eb470: MOV ECX,dword ptr [RAX + 0x3b4]
+1404eb476: SUB ECX,0x1
+1404eb479: MOVSXD RDI,ECX
+1404eb47c: JS 0x1404eb4be
+1404eb47e: NOP
+1404eb480: MOV RAX,qword ptr [RBX + 0x68]
+1404eb484: MOV RSI,RDI
+1404eb487: MOV RCX,qword ptr [RAX + 0x3a8]
+1404eb48e: LEA RAX,[RBP + -0x60]
+1404eb492: MOV R14,qword ptr [RCX + RDI*0x8]
+1404eb496: MOV RCX,qword ptr [R14 + 0x28]
+1404eb49a: CMP RCX,RAX
+1404eb49d: JZ 0x1404eb4bb
+1404eb49f: TEST RCX,RCX
+1404eb4a2: JZ 0x1404eb4b1
+1404eb4a4: LEA RDX,[RBP + -0x60]
+1404eb4a8: CALL 0x1402c4a30
+1404eb4ad: TEST EAX,EAX
+1404eb4af: JZ 0x1404eb4bb
+1404eb4b1: DEC RDI
+1404eb4b4: TEST RSI,RSI
+1404eb4b7: JG 0x1404eb480
+1404eb4b9: JMP 0x1404eb4be
+1404eb4bb: MOV R15,R14
+1404eb4be: MOV R8D,0x4
+1404eb4c4: LEA RDX,[RSP + 0x38]
+1404eb4c9: MOV RCX,RBX
+1404eb4cc: CALL 0x1404ebc20
+1404eb4d1: CMP EAX,0x4
+1404eb4d4: LEA RDX,[RSP + 0x3c]
+1404eb4d9: MOV EDI,R12D
+1404eb4dc: MOV R8D,0x4
+1404eb4e2: CMOVZ EDI,dword ptr [RSP + 0x38]
+1404eb4e7: MOV RCX,RBX
+1404eb4ea: CALL 0x1404ebc20
+1404eb4ef: CMP EAX,0x4
+1404eb4f2: JZ 0x1404eb503
+1404eb4f4: MOV ESI,R12D
+1404eb4f7: MOV dword ptr [RBP + 0xffe8],R12D
+1404eb4fe: JMP 0x1404eb586
+1404eb503: MOV ESI,0xffff
+1404eb508: CMP dword ptr [RSP + 0x3c],ESI
+1404eb50c: CMOVL ESI,dword ptr [RSP + 0x3c]
+1404eb511: MOV dword ptr [RBP + 0xffe8],ESI
+1404eb517: TEST ESI,ESI
+1404eb519: JZ 0x1404eb53b
+1404eb51b: MOV R8D,ESI
+1404eb51e: LEA RDX,[RBP + -0x60]
+1404eb522: MOV RCX,RBX
+1404eb525: CALL 0x1404ebc20
+1404eb52a: TEST EAX,EAX
+1404eb52c: JNZ 0x1404eb53b
+1404eb52e: MOV ESI,0xffffffff
+1404eb533: MOV dword ptr [RBP + 0xffe8],ESI
+1404eb539: JMP 0x1404eb547
+1404eb53b: MOVSXD RAX,ESI
+1404eb53e: MOV byte ptr [RBP + RAX*0x1 + -0x60],0x0
+1404eb543: TEST ESI,ESI
+1404eb545: JZ 0x1404eb586
+1404eb547: MOV RCX,qword ptr [RBX + 0x68]
+1404eb54b: LEA R8,[RBP + -0x60]
+1404eb54f: TEST EDI,EDI
+1404eb551: MOV qword ptr [RSP + 0x20],R12
+1404eb556: MOV RDX,R15
+1404eb559: SETNZ R9B
+1404eb55d: CALL 0x1404ea5e0
+1404eb562: TEST AL,AL
+1404eb564: JZ 0x1404eb586
+1404eb566: MOVUPS XMM0,xmmword ptr [0x14231cf40]
+1404eb56d: LEA R8,[0x141abf1d8]
+1404eb574: MOV ECX,0x8
+1404eb579: LEA RDX,[RBP + -0x70]
+1404eb57d: MOVAPS xmmword ptr [RBP + -0x70],XMM0
+1404eb581: CALL 0x140075190
+1404eb586: TEST EDI,EDI
+1404eb588: JZ 0x1404eba15
+1404eb58e: MOV RCX,RBX
+1404eb591: CALL 0x1404ec790
+1404eb596: MOV R14D,dword ptr [RBP + 0xfff0]
+1404eb59d: LEA RDI,[0x140000000]
+1404eb5a4: JMP 0x1404eb3c0
+1404eb5a9: MOV R8D,0x4
+1404eb5af: LEA RDX,[RSP + 0x40]
+1404eb5b4: MOV RCX,RBX
+1404eb5b7: CALL 0x1404ebc20
+1404eb5bc: MOV ECX,dword ptr [RSP + 0x44]
+1404eb5c0: CMP EAX,0x4
+1404eb5c3: CMOVZ ECX,dword ptr [RSP + 0x40]
+1404eb5c8: MOV dword ptr [RSP + 0x44],ECX
+1404eb5cc: TEST ECX,ECX
+1404eb5ce: JLE 0x1404eb3c0
+1404eb5d4: MOV ESI,ECX
+1404eb5d6: NOP dword ptr [RAX + RAX*0x1]
+1404eb5e0: MOV R8D,0x4
+1404eb5e6: LEA RDX,[RSP + 0x48]
+1404eb5eb: MOV RCX,RBX
+1404eb5ee: CALL 0x1404ebc20
+1404eb5f3: CMP EAX,0x4
+1404eb5f6: LEA RDX,[RSP + 0x4c]
+1404eb5fb: MOV R8D,0x4
+1404eb601: MOV RCX,RBX
+1404eb604: CMOVZ R14D,dword ptr [RSP + 0x48]
+1404eb60a: CALL 0x1404ebc20
+1404eb60f: CMP EAX,0x4
+1404eb612: CMOVZ R13D,dword ptr [RSP + 0x4c]
+1404eb618: CMP R13D,dword ptr [RBX + 0x54]
+1404eb61c: JNC 0x1404eb662
+1404eb61e: MOV RAX,qword ptr [RBX + 0x48]
+1404eb622: LEA RDI,[R13*0x2]
+1404eb62a: MOV RCX,qword ptr [0x1425ba330]
+1404eb631: ADD RDI,R13
+1404eb634: ADD RDI,RDI
+1404eb637: MOV RDX,qword ptr [RAX + RDI*0x8 + 0x10]
+1404eb63c: TEST R14D,R14D
+1404eb63f: JZ 0x1404eb654
+1404eb641: XOR R8D,R8D
+1404eb644: CALL 0x1404e2720
+1404eb649: MOV RAX,qword ptr [RBX + 0x48]
+1404eb64d: MOV byte ptr [RAX + RDI*0x8 + 0x29],0x1
+1404eb652: JMP 0x1404eb662
+1404eb654: CALL 0x1404e7560
+1404eb659: MOV RAX,qword ptr [RBX + 0x48]
+1404eb65d: MOV byte ptr [RAX + RDI*0x8 + 0x29],0x0
+1404eb662: SUB RSI,0x1
+1404eb666: JNZ 0x1404eb5e0
+1404eb66c: MOV dword ptr [RBP + 0xfff0],R14D
+1404eb673: JMP 0x1404eb3a1
+1404eb678: MOV RCX,RBX
+1404eb67b: CALL 0x1404ebec0
+1404eb680: MOV R8D,0x4
+1404eb686: LEA RDX,[RSP + 0x50]
+1404eb68b: MOV RCX,RBX
+1404eb68e: CALL 0x1404ebc20
+1404eb693: CMP EAX,0x4
+1404eb696: JNZ 0x1404ebba2
+1404eb69c: MOVSXD RDI,dword ptr [RSP + 0x50]
+1404eb6a1: CMP EDI,dword ptr [RBX + 0x60]
+1404eb6a4: JBE 0x1404eb6df
+1404eb6a6: MOV RSI,qword ptr [RBX + 0x58]
+1404eb6aa: MOV ECX,EDI
+1404eb6ac: SHL RCX,0x4
+1404eb6b0: CALL 0x14050dc90
+1404eb6b5: MOV R14,RAX
+1404eb6b8: TEST RSI,RSI
+1404eb6bb: JZ 0x1404eb6d8
+1404eb6bd: MOV R8D,dword ptr [RBX + 0x64]
+1404eb6c1: MOV RDX,RSI
+1404eb6c4: SHL R8,0x4
+1404eb6c8: MOV RCX,RAX
+1404eb6cb: CALL 0x14189f078
+1404eb6d0: MOV RCX,RSI
+1404eb6d3: CALL 0x14050e300
+1404eb6d8: MOV qword ptr [RBX + 0x58],R14
+1404eb6dc: MOV dword ptr [RBX + 0x60],EDI
+1404eb6df: MOV dword ptr [RBX + 0x64],EDI
+1404eb6e2: MOV RSI,RDI
+1404eb6e5: TEST EDI,EDI
+1404eb6e7: JLE 0x1404eb761
+1404eb6e9: MOV R14,qword ptr [RSP + 0x68]
+1404eb6ee: MOV RDI,R12
+1404eb6f1: MOV R12D,dword ptr [RSP + 0x58]
+1404eb6f6: NOP dword ptr [RAX + RAX*0x1]
+1404eb700: MOV R8D,0x8
+1404eb706: LEA RDX,[RSP + 0x60]
+1404eb70b: MOV RCX,RBX
+1404eb70e: CALL 0x1404ebc20
+1404eb713: CMP EAX,0x8
+1404eb716: LEA RDX,[RSP + 0x54]
+1404eb71b: MOV R8D,0x4
+1404eb721: MOV RCX,RBX
+1404eb724: CMOVZ R14,qword ptr [RSP + 0x60]
+1404eb72a: CALL 0x1404ebc20
+1404eb72f: CMP EAX,0x4
+1404eb732: LEA RDI,[RDI + 0x10]
+1404eb736: MOV RAX,qword ptr [RBX + 0x58]
+1404eb73a: CMOVZ R12D,dword ptr [RSP + 0x54]
+1404eb740: MOV qword ptr [RDI + RAX*0x1 + -0x8],R14
+1404eb745: MOV RAX,qword ptr [RBX + 0x58]
+1404eb749: MOV dword ptr [RDI + RAX*0x1 + -0x10],R12D
+1404eb74e: SUB RSI,0x1
+1404eb752: JNZ 0x1404eb700
+1404eb754: MOV dword ptr [RSP + 0x58],R12D
+1404eb759: XOR R12D,R12D
+1404eb75c: MOV qword ptr [RSP + 0x68],R14
+1404eb761: MOV RCX,qword ptr [RBX + 0x68]
+1404eb765: CALL 0x1404ea330
+1404eb76a: CMP dword ptr [RBX + 0x64],0x0
+1404eb76e: LEA RDI,[0x140000000]
+1404eb775: MOV R14D,dword ptr [RBP + 0xfff0]
+1404eb77c: MOV ESI,R12D
+1404eb77f: JBE 0x1404eb3b0
+1404eb785: NOP word ptr [RAX + RAX*0x1]
+1404eb790: MOV R9,qword ptr [RBX + 0x68]
+1404eb794: MOV EAX,R12D
+1404eb797: MOV R8D,dword ptr [R9 + 0x3b4]
+1404eb79e: TEST R8D,R8D
+1404eb7a1: JZ 0x1404eb7c7
+1404eb7a3: MOV R9,qword ptr [R9 + 0x3a8]
+1404eb7aa: MOV EDI,ESI
+1404eb7ac: SHL RDI,0x4
+1404eb7b0: ADD RDI,qword ptr [RBX + 0x58]
+1404eb7b4: MOV RDX,qword ptr [RDI + 0x8]
+1404eb7b8: MOV ECX,EAX
+1404eb7ba: CMP RDX,qword ptr [R9 + RCX*0x8]
+1404eb7be: JZ 0x1404eb80b
+1404eb7c0: INC EAX
+1404eb7c2: CMP EAX,R8D
+1404eb7c5: JC 0x1404eb7b8
+1404eb7c7: MOV EDX,dword ptr [RBX + 0x64]
+1404eb7ca: MOV R8,qword ptr [RBX + 0x58]
+1404eb7ce: MOV ECX,ESI
+1404eb7d0: SHL RCX,0x4
+1404eb7d4: ADD RCX,R8
+1404eb7d7: LEA EAX,[RDX + -0x1]
+1404eb7da: ADD R8,-0x10
+1404eb7de: MOV dword ptr [RBX + 0x64],EAX
+1404eb7e1: MOV EAX,EDX
+1404eb7e3: SHL RAX,0x4
+1404eb7e7: SUB RAX,RCX
+1404eb7ea: LEA RDX,[RCX + 0x10]
+1404eb7ee: ADD R8,RAX
+1404eb7f1: SAR R8,0x4
+1404eb7f5: MOV R8D,R8D
+1404eb7f8: SHL R8,0x4
+1404eb7fc: CALL 0x14189f078
+1404eb801: CMP ESI,dword ptr [RBX + 0x64]
+1404eb804: JC 0x1404eb790
+1404eb806: JMP 0x1404eb3a1
+1404eb80b: MOV RCX,qword ptr [RDX + 0x80]
+1404eb812: TEST RCX,RCX
+1404eb815: JZ 0x1404eb872
+1404eb817: MOV EDX,dword ptr [RDI]
+1404eb819: LEA R9,[RBP + -0x80]
+1404eb81d: LEA R8,[RSP + 0x70]
+1404eb822: CALL 0x1404eda40
+1404eb827: MOV R8,qword ptr [RDI + 0x8]
+1404eb82b: MOV ECX,dword ptr [RDI]
+1404eb82d: MOV RAX,qword ptr [R8 + 0x80]
+1404eb834: CMP dword ptr [RAX + 0x3c],ECX
+1404eb837: JBE 0x1404eb872
+1404eb839: MOV RAX,qword ptr [RAX + 0x30]
+1404eb83d: MOV EDX,dword ptr [RAX + RCX*0x8]
+1404eb840: MOV RAX,qword ptr [R8 + 0x78]
+1404eb844: ADD RDX,qword ptr [RAX + 0x20]
+1404eb848: JZ 0x1404eb872
+1404eb84a: MOV ECX,dword ptr [RDX]
+1404eb84c: MOV EAX,ECX
+1404eb84e: AND EAX,0x7f
+1404eb851: CMP AL,0xa
+1404eb853: JNZ 0x1404eb863
+1404eb855: BTR ECX,0x1b
+1404eb859: BTS ECX,0x1a
+1404eb85d: MOV dword ptr [RDX],ECX
+1404eb85f: INC ESI
+1404eb861: JMP 0x1404eb801
+1404eb863: MOV RCX,qword ptr [RBX + 0x68]
+1404eb867: MOV R8D,0x2000
+1404eb86d: CALL 0x1404e96e0
+1404eb872: INC ESI
+1404eb874: JMP 0x1404eb801
+1404eb876: TEST ESI,ESI
+1404eb878: JS 0x1404eb3c0
+1404eb87e: MOV R8D,ESI
+1404eb881: LEA RDX,[RBP + -0x60]
+1404eb885: MOV RCX,RBX
+1404eb888: CALL 0x1404ebc20
+1404eb88d: JMP 0x1404eb3c0
+1404eb892: MOV RCX,RBX
+1404eb895: CALL 0x1404ebec0
+1404eb89a: MOV byte ptr [RBX + 0x38],0x0
+1404eb89e: JMP 0x1404ebba2
+1404eb8a3: MOV R8D,0x4
+1404eb8a9: LEA RDX,[RBP + 0xffe8]
+1404eb8b0: MOV RCX,RBX
+1404eb8b3: MOV R13D,R12D
+1404eb8b6: MOV R15B,0x1
+1404eb8b9: MOV RDI,R12
+1404eb8bc: MOV R14D,R12D
+1404eb8bf: MOV ESI,R12D
+1404eb8c2: CALL 0x1404ebc20
+1404eb8c7: CMP EAX,0x4
+1404eb8ca: JNZ 0x1404eb9b8
+1404eb8d0: MOV R12D,dword ptr [RBP + 0xffe8]
+1404eb8d7: MOV qword ptr [RSP + 0x60],R12
+1404eb8dc: TEST R12D,R12D
+1404eb8df: JLE 0x1404eb9b8
+1404eb8e5: MOV R12,qword ptr [RBP + 0xffe8]
+1404eb8ec: NOP dword ptr [RAX]
+1404eb8f0: MOV R8D,0x8
+1404eb8f6: LEA RDX,[RBP + 0xfff8]
+1404eb8fd: MOV RCX,RBX
+1404eb900: CALL 0x1404ebc20
+1404eb905: CMP EAX,0x8
+1404eb908: LEA RDX,[RBP + 0xfff0]
+1404eb90f: MOV R8D,0x4
+1404eb915: MOV RCX,RBX
+1404eb918: CMOVZ R12,qword ptr [RBP + 0xfff8]
+1404eb920: CALL 0x1404ebc20
+1404eb925: CMP EAX,0x4
+1404eb928: LEA R15D,[RSI + 0x1]
+1404eb92c: CMOVZ R13D,dword ptr [RBP + 0xfff0]
+1404eb934: CMP R15D,R14D
+1404eb937: JBE 0x1404eb992
+1404eb939: LEA EAX,[R14 + 0x1]
+1404eb93d: CMP EAX,0x4
+1404eb940: LEA ECX,[0x1 + R14*0x2]
+1404eb948: LEA EDX,[R14 + 0x4]
+1404eb94c: MOV EAX,R15D
+1404eb94f: CMOVNC EDX,ECX
+1404eb952: CMP EDX,R15D
+1404eb955: CMOVNC EAX,EDX
+1404eb958: MOV ECX,EAX
+1404eb95a: SHL RCX,0x4
+1404eb95e: MOV R14D,EAX
+1404eb961: CALL 0x14050dc90
+1404eb966: MOV qword ptr [RSP + 0x68],RAX
+1404eb96b: TEST RDI,RDI
+1404eb96e: JZ 0x1404eb98f
+1404eb970: MOV R8D,ESI
+1404eb973: MOV RDX,RDI
+1404eb976: SHL R8,0x4
+1404eb97a: MOV RCX,RAX
+1404eb97d: CALL 0x14189f078
+1404eb982: MOV RCX,RDI
+1404eb985: CALL 0x14050e300
+1404eb98a: MOV RAX,qword ptr [RSP + 0x68]
+1404eb98f: MOV RDI,RAX
+1404eb992: MOV EAX,ESI
+1404eb994: MOV ESI,R15D
+1404eb997: ADD RAX,RAX
+1404eb99a: MOV qword ptr [RDI + RAX*0x8],R12
+1404eb99e: MOV dword ptr [RDI + RAX*0x8 + 0x8],R13D
+1404eb9a3: CMP R15D,dword ptr [RBP + 0xffe8]
+1404eb9aa: JL 0x1404eb8f0
+1404eb9b0: MOV R12,qword ptr [RSP + 0x60]
+1404eb9b5: MOV R15B,0x1
+1404eb9b8: MOVSXD RSI,R12D
+1404eb9bb: TEST R12D,R12D
+1404eb9be: JLE 0x1404eb9ed
+1404eb9c0: MOV RBX,RDI
+1404eb9c3: CALL 0x14036eb60
+1404eb9c8: MOV R8D,dword ptr [RBX + 0x8]
+1404eb9cc: MOV RDX,qword ptr [RBX]
+1404eb9cf: MOV RCX,qword ptr [RAX + 0x160]
+1404eb9d6: CALL 0x14046d350
+1404eb9db: AND R15B,AL
+1404eb9de: LEA RBX,[RBX + 0x10]
+1404eb9e2: SUB RSI,0x1
+1404eb9e6: JNZ 0x1404eb9c3
+1404eb9e8: TEST R15B,R15B
+1404eb9eb: JZ 0x1404eba0d
+1404eb9ed: MOVUPS XMM0,xmmword ptr [0x14231cf40]
+1404eb9f4: LEA R8,[0x141abf210]
+1404eb9fb: MOV ECX,0x8
+1404eba00: LEA RDX,[RBP + -0x70]
+1404eba04: MOVAPS xmmword ptr [RBP + -0x70],XMM0
+1404eba08: CALL 0x140075190
+1404eba0d: MOV RCX,RDI
+1404eba10: CALL 0x14050e300
+1404eba15: MOV EAX,0x1
+1404eba1a: JMP 0x1404ebba4
+1404eba1f: MOV EAX,0xffffffff
+1404eba24: JMP 0x1404ebba4
+1404eba29: MOV dword ptr [0x1425ba314],0x1
+1404eba33: MOV RAX,qword ptr [RBX + 0x68]
+1404eba37: MOV RCX,qword ptr [RAX + 0x2c8]
+1404eba3e: MOV EAX,dword ptr [RCX + 0x48]
+1404eba41: MOV dword ptr [0x1425ba310],EAX
+1404eba47: MOV RAX,qword ptr [RBX + 0x68]
+1404eba4b: MOV RCX,qword ptr [RAX + 0x2c8]
+1404eba52: MOV qword ptr [0x1425ba318],RCX
+1404eba59: MOV EAX,0x2
+1404eba5e: JMP 0x1404ebba4
+1404eba63: MOV dword ptr [0x1425ba314],0x2
+1404eba6d: MOV RAX,qword ptr [RBX + 0x68]
+1404eba71: MOV RCX,qword ptr [RAX + 0x2c8]
+1404eba78: MOV EAX,dword ptr [RCX + 0x48]
+1404eba7b: MOV dword ptr [0x1425ba310],EAX
+1404eba81: MOV RAX,qword ptr [RBX + 0x68]
+1404eba85: MOV RCX,qword ptr [RAX + 0x2c8]
+1404eba8c: MOV EAX,0x2
+1404eba91: MOV qword ptr [0x1425ba318],RCX
+1404eba98: JMP 0x1404ebba4
+1404eba9d: MOV dword ptr [0x1425ba314],0x3
+1404ebaa7: MOV RAX,qword ptr [RBX + 0x68]
+1404ebaab: MOV RCX,qword ptr [RAX + 0x2c8]
+1404ebab2: MOV EAX,dword ptr [RCX + 0x48]
+1404ebab5: DEC EAX
+1404ebab7: JMP 0x1404eba41
+1404ebab9: MOV dword ptr [0x1425ba314],0x4
+1404ebac3: LEA RDX,[RSP + 0x70]
+1404ebac8: MOV RAX,qword ptr [RBX + 0x68]
+1404ebacc: MOV R8D,0x10
+1404ebad2: MOV RCX,qword ptr [RAX + 0x2c8]
+1404ebad9: MOV EAX,dword ptr [RCX + 0x48]
+1404ebadc: DEC EAX
+1404ebade: MOV dword ptr [0x1425ba310],EAX
+1404ebae4: MOV RAX,qword ptr [RBX + 0x68]
+1404ebae8: MOV RCX,qword ptr [RAX + 0x2c8]
+1404ebaef: MOV qword ptr [0x1425ba318],RCX
+1404ebaf6: MOV RCX,RBX
+1404ebaf9: CALL 0x1404ebc20
+1404ebafe: MOV RDI,qword ptr [RSP + 0x70]
+1404ebb03: MOV RCX,qword ptr [RDI + 0x80]
+1404ebb0a: TEST RCX,RCX
+1404ebb0d: JZ 0x1404eba59
+1404ebb13: MOV EDX,dword ptr [RSP + 0x78]
+1404ebb17: LEA R9,[RBP + 0xffe8]
+1404ebb1e: LEA R8,[RBP + 0xfff0]
+1404ebb25: CALL 0x1404eda40
+1404ebb2a: MOV RAX,qword ptr [RDI + 0x80]
+1404ebb31: MOV ECX,dword ptr [RSP + 0x78]
+1404ebb35: CMP dword ptr [RAX + 0x3c],ECX
+1404ebb38: JLE 0x1404eba59
+1404ebb3e: MOV RAX,qword ptr [RAX + 0x30]
+1404ebb42: MOV EDX,dword ptr [RAX + RCX*0x8]
+1404ebb45: MOV RAX,qword ptr [RDI + 0x78]
+1404ebb49: ADD RDX,qword ptr [RAX + 0x20]
+1404ebb4d: JZ 0x1404eba59
+1404ebb53: MOV ECX,dword ptr [RDX]
+1404ebb55: MOV EAX,ECX
+1404ebb57: AND EAX,0x7f
+1404ebb5a: CMP AL,0xa
+1404ebb5c: JNZ 0x1404ebb6f
+1404ebb5e: BTR ECX,0x1a
+1404ebb62: MOV EAX,0x2
+1404ebb67: BTS ECX,0x1b
+1404ebb6b: MOV dword ptr [RDX],ECX
+1404ebb6d: JMP 0x1404ebba4
+1404ebb6f: MOV RCX,qword ptr [RBX + 0x68]
+1404ebb73: MOV R8D,0x4000
+1404ebb79: CALL 0x1404e96e0
+1404ebb7e: MOV EAX,0x2
+1404ebb83: JMP 0x1404ebba4
+1404ebb85: MOV RCX,RBX
+1404ebb88: MOV dword ptr [0x1425ba314],R12D
+1404ebb8f: CALL 0x1404ea340
+1404ebb94: MOV EAX,0x3
+1404ebb99: JMP 0x1404ebba4
+1404ebb9b: MOV dword ptr [0x1425ba314],R12D
+1404ebba2: XOR EAX,EAX
+1404ebba4: MOV R15,qword ptr [RSP + 0x100e0]
+1404ebbac: ADD RSP,0x100a0
+1404ebbb3: POP R14
+1404ebbb5: POP R13
+1404ebbb7: POP R12
+1404ebbb9: POP RDI
+1404ebbba: POP RSI
+1404ebbbb: POP RBX
+1404ebbbc: POP RBP
+1404ebbbd: RET
+1404ebbbe: NOP
+1404ebbc1: MOV EAX,0xb876004e
+1404ebbc6: ADD byte ptr [RDX + 0x76004eb8],R10B
+1404ebbcd: MOV EAX,0xb876004e
+1404ebbd2: ADD byte ptr [RSI + -0x48],R14B
+1404ebbd6: ADD byte ptr [RSI + -0x48],R14B
+1404ebbda: ADD byte ptr [RSI + -0x48],R14B
+1404ebbde: ADD byte ptr [0x1b84f0a9f],R10B
+1404ebbe5: MOV DH,0x4e
+1404ebbe7: ADD byte ptr [RBX],AH
+1404ebbe9: MOV AH,0x4e
+1404ebbeb: ADD byte ptr [RBX + 0x29004eb8],AH
+1404ebbf1: MOV EDX,0xba63004e
+1404ebbf6: ADD byte ptr [RBP + -0x7affb146],R11B
+1404ebbfd: MOV EBX,0xbab9004e
+1404ebc02: ADD byte ptr [RBX + 0x1f004ebb],R11B
+1404ebc09: MOV EDX,0xb876004e
+1404ebc0e: ADD byte ptr [RSI + -0x48],R14B
+1404ebc12: ADD byte ptr [RCX + -0x33ffb14b],R13B
+1404ebc19: INT3
+1404ebc1a: INT3
+1404ebc1b: INT3
+1404ebc1c: INT3
+1404ebc1d: INT3
+1404ebc1e: INT3
+1404ebc1f: INT3
+1404ebc20: MOV qword ptr [RSP + 0x8],RBX
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

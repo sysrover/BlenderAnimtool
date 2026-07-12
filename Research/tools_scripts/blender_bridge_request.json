@@ -1,0 +1,5 @@
+{
+  "code": "import bpy, math, json, os\nfrom mathutils import Vector\nscene=bpy.context.scene\nobjs=list(bpy.data.objects)\narmatures=[o for o in objs if o.type=='ARMATURE']\nweapons=[o for o in objs if any(s in o.name.lower() for s in ['aks','ak74','aks74','weapon','rifle','rfl'])]\nRESULT={\n 'file': bpy.data.filepath,\n 'frame': scene.frame_current,\n 'armatures': [o.name for o in armatures],\n 'weapon_like': [{'name':o.name,'type':o.type,'hidden':o.hide_viewport,'matrix_world':[list(r) for r in o.matrix_world]} for o in weapons[:30]],\n 'custom_props': {o.name:{k:o.get(k) for k in o.keys() if str(k).startswith('dayz_') or str(k).startswith('DAT_')} for o in armatures},\n}",
+  "id": "inspect_weapon_pose_1783731074531",
+  "cmd": "exec"
+}

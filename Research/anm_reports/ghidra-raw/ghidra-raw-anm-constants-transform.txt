@@ -1,0 +1,1279 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\AnmConstantsAndTransformTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:33:06 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\AnmConstantsAndTransformTrace.java
+Size: 3707 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+IMAGE_BASE 140000000
+CONSTANTS
+  141f85aac int=0x477fff00 float=65535.0 double=2.658456699671383E36
+  141f85b08 int=0xff7fffff float=-3.4028235E38 double=2.1178512674E-314
+  141f85ab8 int=0x7f7fffff float=3.4028235E38 double=-5.377643842784962E-19
+  141f858d8 int=0x3f800000 float=1.0 double=5.263544247E-315
+  142373be8 int=0x3a03126f float=5.0E-4 double=3.0090325646415255E-29
+  142373bec int=0x3a03126f float=5.0E-4 double=7.422845959119975E-51
+  142373bf0 int=0x358637bd float=1.0E-6 double=0.007812501557761803
+  142373bf4 int=0x3f800000 float=1.0 double=0.007812501848093234
+  142373bf8 int=0x3f800000 float=1.0 double=0.007812501848093234
+  142373bfc int=0x3f800000 float=1.0 double=0.007812501848093234
+  141be0640 int=0x7f887f88 float=NaN double=9.341837889014481E68
+  141a6d578 int=0xa0b5ed8d float=-3.081979E-19 double=1.0E-6
+============================================================
+FUNCTION_REQUEST 1402badd0 -> FUN_1402badd0@1402badd0
+ENTRY 1402badd0
+CALLERS
+  CALLER from=14c9ef3b8 fn=<none>
+  CALLER from=1406e197a fn=FUN_1406e17c0@1406e17c0
+  CALLER from=1406d9b3d fn=FUN_1406d9920@1406d9920
+  CALLER from=140073ca6 fn=FUN_140073ba0@140073ba0
+  CALLER from=1406dd255 fn=FUN_1406dd120@1406dd120
+  CALLER from=1406dd686 fn=FUN_1406dd660@1406dd660
+  CALLER from=1406de9f0 fn=FUN_1406de4c0@1406de4c0
+  CALLER from=1406e2169 fn=FUN_1406e1f60@1406e1f60
+  CALLER from=1406e240b fn=FUN_1406e1f60@1406e1f60
+  CALLER from=1406e2484 fn=FUN_1406e1f60@1406e1f60
+  CALLER from=1406e25b0 fn=FUN_1406e1f60@1406e1f60
+  CALLER from=1406e266b fn=FUN_1406e1f60@1406e1f60
+  CALLER from=1406e6be6 fn=FUN_1406e6bc0@1406e6bc0
+  CALLER from=14020e752 fn=FUN_14020e6e0@14020e6e0
+  CALLER from=14020e8da fn=FUN_14020e830@14020e830
+  CALLER from=140249120 fn=FUN_140249030@140249030
+  CALLER from=140249490 fn=FUN_140249450@140249450
+  CALLER from=140249fc2 fn=FUN_140249f80@140249f80
+  CALLER from=140cb5f40 fn=FUN_140cb5f20@140cb5f20
+  CALLER from=1403e44ff fn=FUN_1403e43e0@1403e43e0
+  CALLER from=1404844eb fn=FUN_140484490@140484490
+  CALLER from=1406f8854 fn=FUN_1406f8570@1406f8570
+  CALLER from=1406c1c9f fn=FUN_1406c1c40@1406c1c40
+  CALLER from=1406c1ccb fn=FUN_1406c1c40@1406c1c40
+  CALLER from=1406f73de fn=FUN_1406f6f50@1406f6f50
+  CALLER from=1406f37fd fn=FUN_1406f37c0@1406f37c0
+  CALLER from=1406f380a fn=FUN_1406f37c0@1406f37c0
+  CALLER from=140711e73 fn=FUN_140711de0@140711de0
+  CALLER from=140718835 fn=FUN_1407184f0@1407184f0
+  CALLER from=14071885b fn=FUN_1407184f0@1407184f0
+  CALLER from=14066946e fn=FUN_1406691a0@1406691a0
+  CALLER from=14067b6d7 fn=FUN_14067b4c0@14067b4c0
+  CALLER from=14067b6e4 fn=FUN_14067b4c0@14067b4c0
+  CALLER from=1406e1d44 fn=FUN_1406e1a20@1406e1a20
+  CALLER from=1406d94c2 fn=FUN_1406d9360@1406d9360
+  CALLER from=1406db7e6 fn=FUN_1406db750@1406db750
+  CALLER from=1406e19ff fn=FUN_1406e19e0@1406e19e0
+  CALLER from=1406e4a80 fn=FUN_1406e4a30@1406e4a30
+  CALLER from=1406ebd31 fn=FUN_1406eba50@1406eba50
+  CALLER from=1406ec221 fn=FUN_1406ebf40@1406ebf40
+  CALLER from=1406ec7d1 fn=FUN_1406ec4f0@1406ec4f0
+  CALLER from=1406fcda4 fn=FUN_1406fcd20@1406fcd20
+  CALLER from=1406fcdb1 fn=FUN_1406fcd20@1406fcd20
+  CALLER from=1406fe90a fn=FUN_1406fe780@1406fe780
+  CALLER from=1406fe9a4 fn=FUN_1406fe780@1406fe780
+  CALLER from=1406ff32a fn=FUN_1406ff1a0@1406ff1a0
+  CALLER from=1406ff3c4 fn=FUN_1406ff1a0@1406ff1a0
+  CALLER from=1407058e5 fn=FUN_1407055d0@1407055d0
+  CALLER from=140705c1d fn=FUN_1407055d0@1407055d0
+  CALLER from=140701b74 fn=FUN_1407015e0@1407015e0
+  CALLER from=140701ce6 fn=FUN_1407015e0@1407015e0
+  CALLER from=140701d65 fn=FUN_1407015e0@1407015e0
+  CALLER from=140721ea2 fn=FUN_140721bf0@140721bf0
+  CALLER from=140721f0d fn=FUN_140721bf0@140721bf0
+  CALLER from=140721f5e fn=FUN_140721bf0@140721bf0
+  CALLER from=140720557 fn=FUN_140720420@140720420
+  CALLER from=140720a5a fn=FUN_140720970@140720970
+  CALLER from=1407212ff fn=FUN_140721210@140721210
+  CALLER from=140765bc9 fn=FUN_140765800@140765800
+  CALLER from=14076e8d8 fn=FUN_14076e760@14076e760
+  CALLER from=1408e4ec3 fn=FUN_1408e4a90@1408e4a90
+  CALLER from=1408e4ed1 fn=FUN_1408e4a90@1408e4a90
+  CALLER from=140a54281 fn=FUN_140a541c0@140a541c0
+  CALLER from=140a5517f fn=FUN_140a54ef0@140a54ef0
+  CALLER from=140a58212 fn=FUN_140a581a0@140a581a0
+  CALLER from=140a5825a fn=FUN_140a581a0@140a581a0
+  CALLER from=140a58650 fn=FUN_140a58590@140a58590
+  CALLER from=140a586a2 fn=FUN_140a58590@140a58590
+  CALLER from=140a58a16 fn=FUN_140a58590@140a58590
+  CALLER from=140a58c1b fn=FUN_140a58590@140a58590
+  CALLER from=140a58cad fn=FUN_140a58590@140a58590
+  CALLER from=140b731a1 fn=FUN_140b73180@140b73180
+  CALLER from=140b731e1 fn=FUN_140b731c0@140b731c0
+  CALLER from=140b73255 fn=FUN_140b73200@140b73200
+  CALLER from=140b73264 fn=FUN_140b73200@140b73200
+  CALLER from=140d70ee5 fn=FUN_140d70e90@140d70e90
+  CALLER from=140d72cc9 fn=FUN_140d72bb0@140d72bb0
+  CALLER from=140d742cb fn=FUN_140d74220@140d74220
+  CALLER from=140e75b4f fn=FUN_140e75770@140e75770
+  CALLER from=140e784d4 fn=FUN_140e78260@140e78260
+DECOMPILE_BEGIN FUN_1402badd0 1402badd0
+
+float * FUN_1402badd0(float *param_1,float *param_2)
+
+{
+  uint uVar1;
+  ulonglong uVar2;
+  longlong lVar3;
+  longlong lVar4;
+  float fVar5;
+  float fVar6;
+  
+  fVar5 = param_2[8];
+  fVar6 = *param_2 + param_2[4] + fVar5;
+  if (0.0 < fVar6) {
+    fVar6 = fVar6 + DAT_141f858d8;
+    fVar5 = DAT_141f85878 / SQRT(fVar6);
+    param_1[3] = fVar5 * fVar6;
+    *param_1 = (param_2[5] - param_2[7]) * fVar5;
+    param_1[1] = (param_2[6] - param_2[2]) * fVar5;
+    param_1[2] = (param_2[1] - param_2[3]) * fVar5;
+    return param_1;
+  }
+  uVar1 = (uint)(*param_2 < param_2[4]);
+  uVar2 = (ulonglong)uVar1;
+  if (param_2[(ulonglong)uVar1 * 4] <= fVar5 && fVar5 != param_2[(ulonglong)uVar1 * 4]) {
+    uVar2 = 2;
+  }
+  lVar3 = (longlong)*(int *)(&DAT_141a81c18 + uVar2 * 4);
+  lVar4 = (longlong)*(int *)(&DAT_141a81c18 + lVar3 * 4);
+  fVar5 = (param_2[uVar2 * 4] - (param_2[lVar4 * 4] + param_2[lVar3 * 4])) + DAT_141f858d8;
+  fVar6 = DAT_141f85878 / SQRT(fVar5);
+  param_1[uVar2] = fVar6 * fVar5;
+  param_1[3] = (param_2[lVar3 * 3 + lVar4] - param_2[lVar4 * 3 + lVar3]) * fVar6;
+  param_1[lVar3] = (param_2[uVar2 * 3 + lVar3] + param_2[lVar3 * 3 + uVar2]) * fVar6;
+  param_1[lVar4] = (param_2[lVar4 * 3 + uVar2] + param_2[uVar2 * 3 + lVar4]) * fVar6;
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1402badd0 1402badd0
+CALLS
+FUNCTION_REQUEST 1402bbe70 -> FUN_1402bbe70@1402bbe70
+ENTRY 1402bbe70
+CALLERS
+  CALLER from=14c9ef454 fn=<none>
+  CALLER from=1420b1a38 fn=<none>
+  CALLER from=1420b1a6c fn=<none>
+  CALLER from=1402bbdba fn=FUN_1402bbd00@1402bbd00
+  CALLER from=1406e25c5 fn=FUN_1406e1f60@1406e1f60
+  CALLER from=140216fe7 fn=FUN_140215b40@140215b40
+  CALLER from=140485486 fn=FUN_140485390@140485390
+  CALLER from=1406f8879 fn=FUN_1406f8570@1406f8570
+  CALLER from=1406dcee7 fn=FUN_1406dce10@1406dce10
+  CALLER from=1406c1d22 fn=FUN_1406c1c40@1406c1c40
+  CALLER from=1406f7403 fn=FUN_1406f6f50@1406f6f50
+  CALLER from=1406f3844 fn=FUN_1406f37c0@1406f37c0
+  CALLER from=14067b762 fn=FUN_14067b4c0@14067b4c0
+  CALLER from=140721f26 fn=FUN_140721bf0@140721bf0
+  CALLER from=1408e4f13 fn=FUN_1408e4a90@1408e4a90
+  CALLER from=141068c61 fn=FUN_141068360@141068360
+DECOMPILE_BEGIN FUN_1402bbe70 1402bbe70
+
+float * FUN_1402bbe70(float *param_1,float *param_2,float *param_3,float param_4)
+
+{
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  undefined8 uVar4;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  
+  if (0.0 < param_4) {
+    if (param_4 < DAT_141f858d8) {
+      fVar5 = param_1[3];
+      fVar9 = *param_3;
+      fVar10 = param_3[1];
+      fVar11 = param_3[2];
+      fVar12 = param_3[3];
+      fVar1 = *param_1;
+      fVar2 = param_1[1];
+      fVar3 = param_1[2];
+      fVar7 = fVar1 * fVar9 + fVar2 * fVar10 + fVar3 * fVar11 + fVar5 * fVar12;
+      if (fVar7 < 0.0) {
+        fVar7 = (float)((uint)fVar7 ^ DAT_141f85f50);
+        fVar9 = (float)((uint)fVar9 ^ DAT_141f85f50);
+        fVar10 = (float)((uint)fVar10 ^ DAT_141f85f50);
+        fVar11 = (float)((uint)fVar11 ^ DAT_141f85f50);
+        fVar12 = (float)((uint)fVar12 ^ DAT_141f85f50);
+      }
+      fVar8 = DAT_141f858d8 - param_4;
+      if (DAT_141a6d970 <= fVar7) {
+        *param_2 = fVar1 * fVar8 + fVar9 * param_4;
+        param_2[1] = fVar2 * fVar8 + fVar10 * param_4;
+        param_2[2] = fVar3 * fVar8 + fVar11 * param_4;
+        param_2[3] = fVar5 * fVar8 + fVar12 * param_4;
+      }
+      else {
+        fVar5 = acosf(fVar7);
+        fVar7 = sinf(fVar5);
+        fVar7 = DAT_141f858d8 / fVar7;
+        fVar8 = sinf(fVar8 * fVar5);
+        fVar8 = fVar8 * fVar7;
+        fVar6 = sinf(fVar5 * param_4);
+        fVar6 = fVar6 * fVar7;
+        fVar5 = param_1[3];
+        *param_2 = fVar1 * fVar8 + fVar9 * fVar6;
+        param_2[1] = fVar2 * fVar8 + fVar10 * fVar6;
+        param_2[2] = fVar3 * fVar8 + fVar11 * fVar6;
+        param_2[3] = fVar5 * fVar8 + fVar12 * fVar6;
+      }
+    }
+    else {
+      uVar4 = *(undefined8 *)(param_3 + 2);
+      *(undefined8 *)param_2 = *(undefined8 *)param_3;
+      *(undefined8 *)(param_2 + 2) = uVar4;
+    }
+  }
+  else {
+    uVar4 = *(undefined8 *)(param_1 + 2);
+    *(undefined8 *)param_2 = *(undefined8 *)param_1;
+    *(undefined8 *)(param_2 + 2) = uVar4;
+  }
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_1402bbe70 1402bbe70
+CALLS
+  CALL from=1402bbf8f ins=CALL 0x14189f0f0
+  CALL from=1402bbf97 ins=CALL 0x14189f0fc
+  CALL from=1402bbfb8 ins=CALL 0x14189f0fc
+  CALL from=1402bbfd1 ins=CALL 0x14189f0fc
+FUNCTION_REQUEST 140e7e780 -> FUN_140e7e780@140e7e780
+ENTRY 140e7e780
+CALLERS
+  CALLER from=14ca99980 fn=<none>
+  CALLER from=140e759c0 fn=FUN_140e75770@140e75770
+  CALLER from=140e75a5b fn=FUN_140e75770@140e75770
+  CALLER from=140e75adc fn=FUN_140e75770@140e75770
+  CALLER from=140e783bd fn=FUN_140e78260@140e78260
+  CALLER from=140e7845c fn=FUN_140e78260@140e78260
+  CALLER from=140e76a6b fn=FUN_140e76990@140e76990
+  CALLER from=140e76d8f fn=FUN_140e76c80@140e76c80
+  CALLER from=140e776c0 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e77e3f fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7af4f fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7b426 fn=FUN_140e7b350@140e7b350
+  CALLER from=140e79772 fn=FUN_140e79510@140e79510
+  CALLER from=140e7991e fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7aa35 fn=FUN_140e7a720@140e7a720
+DECOMPILE_BEGIN FUN_140e7e780 140e7e780
+
+void FUN_140e7e780(undefined8 param_1,char param_2)
+
+{
+  double dVar1;
+  double dVar2;
+  double dVar3;
+  double dVar4;
+  double dVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  double dVar9;
+  double dVar10;
+  double dVar11;
+  double dVar12;
+  double *pdVar13;
+  undefined8 uVar14;
+  undefined8 uVar15;
+  undefined1 local_c8 [192];
+  
+  pdVar13 = (double *)FUN_14108c1c0(param_1,local_c8,0);
+  dVar1 = *pdVar13;
+  dVar2 = pdVar13[2];
+  dVar3 = pdVar13[1];
+  pdVar13 = (double *)FUN_14108c1c0(param_1,local_c8,2);
+  dVar4 = *pdVar13;
+  dVar5 = pdVar13[2];
+  dVar6 = pdVar13[1];
+  pdVar13 = (double *)FUN_14108c1c0(param_1,local_c8,1);
+  dVar7 = *pdVar13;
+  dVar8 = pdVar13[2];
+  dVar9 = pdVar13[1];
+  pdVar13 = (double *)FUN_14108c1c0(param_1,local_c8,3);
+  uVar15 = DAT_141f85918;
+  dVar10 = *pdVar13;
+  dVar11 = pdVar13[1];
+  dVar12 = pdVar13[2];
+  uVar14 = FUN_14108abf0(local_c8,(double)(float)dVar1,(double)(float)dVar2,(double)(float)dVar3,
+                         DAT_141f85918);
+  FUN_14108e5e0(param_1,0,uVar14);
+  uVar14 = FUN_14108abf0(local_c8,(double)(float)dVar4,(double)(float)dVar5,(double)(float)dVar6,
+                         uVar15);
+  FUN_14108e5e0(param_1,1,uVar14);
+  uVar14 = FUN_14108abf0(local_c8,(double)(float)dVar7,(double)(float)dVar8,(double)(float)dVar9,
+                         uVar15);
+  FUN_14108e5e0(param_1,2,uVar14);
+  uVar14 = FUN_14108abf0(local_c8,(double)(float)dVar10,(double)(float)dVar12,(double)(float)dVar11,
+                         uVar15);
+  FUN_14108e5e0(param_1,3,uVar14);
+  if (param_2 != '\0') {
+    uVar15 = FUN_14108abf0(local_c8,uVar15,uVar15,uVar15,uVar15);
+    FUN_14108cae0(param_1,uVar15);
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_140e7e780 140e7e780
+CALLS
+  CALL from=140e7e7d0 ins=CALL 0x14108c1c0
+  CALL from=140e7e7f2 ins=CALL 0x14108c1c0
+  CALL from=140e7e816 ins=CALL 0x14108c1c0
+  CALL from=140e7e83a ins=CALL 0x14108c1c0
+  CALL from=140e7e889 ins=CALL 0x14108abf0
+  CALL from=140e7e896 ins=CALL 0x14108e5e0
+  CALL from=140e7e8be ins=CALL 0x14108abf0
+  CALL from=140e7e8ce ins=CALL 0x14108e5e0
+  CALL from=140e7e8f6 ins=CALL 0x14108abf0
+  CALL from=140e7e906 ins=CALL 0x14108e5e0
+  CALL from=140e7e93e ins=CALL 0x14108abf0
+  CALL from=140e7e94e ins=CALL 0x14108e5e0
+  CALL from=140e7e96b ins=CALL 0x14108abf0
+  CALL from=140e7e976 ins=CALL 0x14108cae0
+FUNCTION_REQUEST 14108b9d0 -> FUN_14108b9d0@14108b9d0
+ENTRY 14108b9d0
+CALLERS
+  CALLER from=14caaa7bc fn=<none>
+  CALLER from=140e75974 fn=FUN_140e75770@140e75770
+  CALLER from=140e75a4f fn=FUN_140e75770@140e75770
+  CALLER from=140e75a90 fn=FUN_140e75770@140e75770
+  CALLER from=140e783b1 fn=FUN_140e78260@140e78260
+  CALLER from=140e78450 fn=FUN_140e78260@140e78260
+  CALLER from=140e76a51 fn=FUN_140e76990@140e76990
+  CALLER from=140e76a5f fn=FUN_140e76990@140e76990
+  CALLER from=140e76d75 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e76d83 fn=FUN_140e76c80@140e76c80
+  CALLER from=140e776a3 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e776b4 fn=FUN_140e775f0@140e775f0
+  CALLER from=140e77e25 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e77e33 fn=FUN_140e77d30@140e77d30
+  CALLER from=140e7af35 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7af43 fn=FUN_140e7ae40@140e7ae40
+  CALLER from=140e7b409 fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7b41a fn=FUN_140e7b350@140e7b350
+  CALLER from=140e7a1fc fn=FUN_140e79a60@140e79a60
+  CALLER from=14108e1d1 fn=FUN_14108e1c0@14108e1c0
+  CALLER from=140e79766 fn=FUN_140e79510@140e79510
+  CALLER from=140e79826 fn=FUN_140e79510@140e79510
+  CALLER from=140e7990e fn=FUN_140e798b0@140e798b0
+  CALLER from=140e7aa29 fn=FUN_140e7a720@140e7a720
+  CALLER from=140e7aa57 fn=FUN_140e7a720@140e7a720
+  CALLER from=141117695 fn=FUN_1411175a0@1411175a0
+  CALLER from=14108d837 fn=FUN_14108d820@14108d820
+  CALLER from=14108e191 fn=FUN_14108e180@14108e180
+  CALLER from=14108e243 fn=FUN_14108e220@14108e220
+  CALLER from=1410a9b53 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9b7f fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9c43 fn=FUN_1410a9730@1410a9730
+  CALLER from=1412274e6 fn=FUN_141226fd0@141226fd0
+  CALLER from=141207e13 fn=FUN_141207c00@141207c00
+  CALLER from=1410cd2c7 fn=FUN_1410cd180@1410cd180
+  CALLER from=141112bb1 fn=FUN_141112ba0@141112ba0
+  CALLER from=141112c31 fn=FUN_141112c20@141112c20
+  CALLER from=14111b6a1 fn=FUN_14111b470@14111b470
+  CALLER from=14111b7bc fn=FUN_14111b470@14111b470
+  CALLER from=14111c463 fn=FUN_14111c240@14111c240
+  CALLER from=1411e7ada fn=FUN_1411e7aa0@1411e7aa0
+  CALLER from=1411e734a fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411e735a fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411e7367 fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411a9ed7 fn=FUN_1411a9ea0@1411a9ea0
+  CALLER from=141229f4c fn=FUN_141229890@141229890
+  CALLER from=14134dcda fn=FUN_14134d920@14134d920
+  CALLER from=141356094 fn=FUN_141355870@141355870
+  CALLER from=141366290 fn=FUN_141366160@141366160
+  CALLER from=141371c0e fn=FUN_141371bb0@141371bb0
+  CALLER from=141371ca2 fn=FUN_141371bb0@141371bb0
+  CALLER from=1414bbb13 fn=FUN_1414bba30@1414bba30
+  CALLER from=14137852b fn=FUN_1413783c0@1413783c0
+  CALLER from=14137a0ba fn=FUN_141379d00@141379d00
+  CALLER from=1413e2b19 fn=FUN_1413e2a00@1413e2a00
+  CALLER from=1414c5e08 fn=FUN_1414c5bd0@1414c5bd0
+  CALLER from=1414c5e1b fn=FUN_1414c5bd0@1414c5bd0
+  CALLER from=1414c78a7 fn=FUN_1414c7390@1414c7390
+  CALLER from=1414c78ba fn=FUN_1414c7390@1414c7390
+  CALLER from=1413ee673 fn=FUN_1413ee3c0@1413ee3c0
+  CALLER from=1413f5456 fn=FUN_1413f5180@1413f5180
+  CALLER from=1413f7b16 fn=FUN_1413f7760@1413f7760
+DECOMPILE_BEGIN FUN_14108b9d0 14108b9d0
+
+undefined8 * FUN_14108b9d0(undefined8 *param_1,undefined8 *param_2)
+
+{
+  FUN_14108f900();
+  *param_1 = *param_2;
+  param_1[1] = param_2[1];
+  param_1[2] = param_2[2];
+  param_1[3] = param_2[3];
+  param_1[4] = param_2[4];
+  param_1[5] = param_2[5];
+  param_1[6] = param_2[6];
+  param_1[7] = param_2[7];
+  param_1[8] = param_2[8];
+  param_1[9] = param_2[9];
+  param_1[10] = param_2[10];
+  param_1[0xb] = param_2[0xb];
+  param_1[0xc] = param_2[0xc];
+  param_1[0xd] = param_2[0xd];
+  param_1[0xe] = param_2[0xe];
+  param_1[0xf] = param_2[0xf];
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_14108b9d0 14108b9d0
+CALLS
+  CALL from=14108b9e0 ins=CALL 0x14108f900
+FUNCTION_REQUEST 14108dce0 -> FUN_14108dce0@14108dce0
+ENTRY 14108dce0
+CALLERS
+  CALLER from=14caaa8dc fn=<none>
+  CALLER from=1421e4070 fn=<none>
+  CALLER from=1421e4080 fn=<none>
+  CALLER from=140e75a6b fn=FUN_140e75770@140e75770
+  CALLER from=140e783cd fn=FUN_140e78260@140e78260
+  CALLER from=140e7846c fn=FUN_140e78260@140e78260
+  CALLER from=140e797cb fn=FUN_140e79510@140e79510
+  CALLER from=140e7aa45 fn=FUN_140e7a720@140e7a720
+  CALLER from=1410918d3 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091a2c fn=FUN_1410915e0@1410915e0
+  CALLER from=141091a98 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091ae4 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c45 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c97 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091cab fn=FUN_1410915e0@1410915e0
+  CALLER from=1410ba592 fn=FUN_1410ba4a0@1410ba4a0
+  CALLER from=1410a9d51 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9d7e fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9e1c fn=FUN_1410a9730@1410a9730
+  CALLER from=1412274fa fn=FUN_141226fd0@141226fd0
+  CALLER from=14122754e fn=FUN_141226fd0@141226fd0
+  CALLER from=1412275a2 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412275f6 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227653 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227f11 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412284cc fn=FUN_141226fd0@141226fd0
+  CALLER from=141226d45 fn=FUN_141226a10@141226a10
+  CALLER from=141226d89 fn=FUN_141226a10@141226a10
+  CALLER from=141226dcd fn=FUN_141226a10@141226a10
+  CALLER from=141226e11 fn=FUN_141226a10@141226a10
+  CALLER from=1412d83cc fn=FUN_1412d8170@1412d8170
+  CALLER from=1414867b7 fn=FUN_141486300@141486300
+  CALLER from=141487d68 fn=FUN_141487cb0@141487cb0
+  CALLER from=1410cc756 fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410cc9a3 fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410cca2f fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410ccfc1 fn=FUN_1410cccf0@1410cccf0
+  CALLER from=141203e20 fn=FUN_141203a00@141203a00
+  CALLER from=141206135 fn=FUN_141205ef0@141205ef0
+  CALLER from=141206214 fn=FUN_141205ef0@141205ef0
+  CALLER from=141206346 fn=FUN_1412062b0@1412062b0
+  CALLER from=141206610 fn=FUN_1412062b0@1412062b0
+  CALLER from=141206694 fn=FUN_1412062b0@1412062b0
+  CALLER from=1412067e6 fn=FUN_1412062b0@1412062b0
+  CALLER from=14120688b fn=FUN_1412062b0@1412062b0
+  CALLER from=141206dcd fn=FUN_141206d80@141206d80
+  CALLER from=1412078d0 fn=FUN_141207640@141207640
+  CALLER from=1412078e6 fn=FUN_141207640@141207640
+  CALLER from=1412078f9 fn=FUN_141207640@141207640
+  CALLER from=141207a83 fn=FUN_141207640@141207640
+  CALLER from=141207ace fn=FUN_141207640@141207640
+  CALLER from=1411091e6 fn=FUN_1411090a0@1411090a0
+  CALLER from=14110a1b3 fn=FUN_14110a070@14110a070
+  CALLER from=14110aad6 fn=FUN_14110a990@14110a990
+  CALLER from=141116b3b fn=FUN_141116020@141116020
+  CALLER from=141116be3 fn=FUN_141116020@141116020
+  CALLER from=14111bbe6 fn=FUN_14111b470@14111b470
+  CALLER from=14111bc7a fn=FUN_14111b470@14111b470
+  CALLER from=14112391c fn=FUN_141123800@141123800
+  CALLER from=1411e7af1 fn=FUN_1411e7aa0@1411e7aa0
+  CALLER from=1411e7a1a fn=FUN_1411e7990@1411e7990
+  CALLER from=141165940 fn=FUN_1411657d0@1411657d0
+  CALLER from=1411e73f0 fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411e74b9 fn=FUN_1411e72f0@1411e72f0
+  CALLER from=1411e74e3 fn=FUN_1411e72f0@1411e72f0
+  CALLER from=141165fe7 fn=FUN_141165f60@141165f60
+  CALLER from=1411a801b fn=FUN_1411a7b70@1411a7b70
+  CALLER from=1411a9f7a fn=FUN_1411a9ea0@1411a9ea0
+  CALLER from=1411aaacd fn=FUN_1411aa6a0@1411aa6a0
+  CALLER from=141203608 fn=FUN_141203550@141203550
+  CALLER from=141229f74 fn=FUN_141229890@141229890
+  CALLER from=141229fc8 fn=FUN_141229890@141229890
+  CALLER from=14122a01c fn=FUN_141229890@141229890
+  CALLER from=14122a070 fn=FUN_141229890@141229890
+  CALLER from=14122a0ca fn=FUN_141229890@141229890
+  CALLER from=14122aaaf fn=FUN_141229890@141229890
+  CALLER from=14122b056 fn=FUN_141229890@141229890
+  CALLER from=14122e6b3 fn=FUN_14122e1e0@14122e1e0
+  CALLER from=14122e730 fn=FUN_14122e1e0@14122e1e0
+  CALLER from=1412863ed fn=FUN_1412861f0@1412861f0
+DECOMPILE_BEGIN FUN_14108dce0 14108dce0
+
+double * FUN_14108dce0(double *param_1,double *param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  double dVar1;
+  double dVar2;
+  double dVar3;
+  double dVar4;
+  double dVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  uint uVar9;
+  uint uVar10;
+  uint uVar11;
+  uint uVar12;
+  uint uVar13;
+  uint uVar14;
+  
+  FUN_14108f900(param_2,param_2,param_3,param_4,0);
+  FUN_14108c250(param_2);
+  dVar6 = param_1[5] * param_1[10] - param_1[6] * param_1[9];
+  dVar5 = (dVar6 * *param_1 - (param_1[1] * param_1[10] - param_1[2] * param_1[9]) * param_1[4]) +
+          (param_1[1] * param_1[6] - param_1[2] * param_1[5]) * param_1[8];
+  if ((DAT_141ada8e8 < dVar5) || (dVar5 < DAT_141ca5310)) {
+    dVar5 = DAT_141f85918 / dVar5;
+    dVar6 = dVar6 * dVar5;
+    uVar13 = (uint)DAT_141f85f40;
+    uVar14 = (uint)((ulonglong)DAT_141f85f40 >> 0x20);
+    *param_2 = dVar6;
+    dVar3 = (param_1[4] * param_1[10] - param_1[8] * param_1[6]) * dVar5;
+    dVar4 = (double)CONCAT44((uint)((ulonglong)dVar3 >> 0x20) ^ uVar14,SUB84(dVar3,0) ^ uVar13);
+    param_2[4] = dVar4;
+    dVar7 = (param_1[9] * param_1[4] - param_1[8] * param_1[5]) * dVar5;
+    param_2[8] = dVar7;
+    dVar3 = (param_1[1] * param_1[10] - param_1[9] * param_1[2]) * dVar5;
+    uVar11 = SUB84(dVar3,0) ^ uVar13;
+    uVar12 = (uint)((ulonglong)dVar3 >> 0x20) ^ uVar14;
+    param_2[1] = (double)CONCAT44(uVar12,uVar11);
+    dVar2 = (*param_1 * param_1[10] - param_1[8] * param_1[2]) * dVar5;
+    param_2[5] = dVar2;
+    dVar3 = (param_1[9] * *param_1 - param_1[8] * param_1[1]) * dVar5;
+    uVar9 = SUB84(dVar3,0) ^ uVar13;
+    uVar10 = (uint)((ulonglong)dVar3 >> 0x20) ^ uVar14;
+    param_2[9] = (double)CONCAT44(uVar10,uVar9);
+    dVar1 = (param_1[1] * param_1[6] - param_1[2] * param_1[5]) * dVar5;
+    param_2[2] = dVar1;
+    dVar3 = (*param_1 * param_1[6] - param_1[4] * param_1[2]) * dVar5;
+    dVar8 = (double)CONCAT44((uint)((ulonglong)dVar3 >> 0x20) ^ uVar14,SUB84(dVar3,0) ^ uVar13);
+    param_2[6] = dVar8;
+    dVar5 = (param_1[5] * *param_1 - param_1[4] * param_1[1]) * dVar5;
+    param_2[10] = dVar5;
+    dVar6 = param_1[0xd] * dVar4 + param_1[0xc] * dVar6 + param_1[0xe] * dVar7;
+    param_2[0xc] = (double)CONCAT44((uint)((ulonglong)dVar6 >> 0x20) ^ uVar14,
+                                    SUB84(dVar6,0) ^ uVar13);
+    dVar6 = param_1[0xc] * (double)CONCAT44(uVar12,uVar11) + param_1[0xd] * dVar2 +
+            param_1[0xe] * (double)CONCAT44(uVar10,uVar9);
+    param_2[0xd] = (double)CONCAT44((uint)((ulonglong)dVar6 >> 0x20) ^ uVar14,
+                                    SUB84(dVar6,0) ^ uVar13);
+    dVar6 = param_1[0xc];
+    dVar3 = param_1[0xd];
+    dVar2 = param_1[0xe];
+    param_2[0xb] = 0.0;
+    param_2[7] = 0.0;
+    param_2[3] = 0.0;
+    param_2[0xf] = 1.0;
+    dVar5 = dVar6 * dVar1 + dVar3 * dVar8 + dVar2 * dVar5;
+    param_2[0xe] = (double)CONCAT44((uint)((ulonglong)dVar5 >> 0x20) ^ uVar14,
+                                    SUB84(dVar5,0) ^ uVar13);
+  }
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_14108dce0 14108dce0
+CALLS
+  CALL from=14108dd14 ins=CALL 0x14108f900
+  CALL from=14108dd1c ins=CALL 0x14108c250
+FUNCTION_REQUEST 14108cf60 -> FUN_14108cf60@14108cf60
+ENTRY 14108cf60
+CALLERS
+  CALLER from=140e759f6 fn=FUN_140e75770@140e75770
+  CALLER from=140e78482 fn=FUN_140e78260@140e78260
+  CALLER from=140e79c5d fn=FUN_140e79a60@140e79a60
+  CALLER from=1410e72da fn=FUN_1410e7290@1410e7290
+  CALLER from=1410e7318 fn=FUN_1410e7290@1410e7290
+  CALLER from=1410e736b fn=FUN_1410e7290@1410e7290
+  CALLER from=140e797de fn=FUN_140e79510@140e79510
+  CALLER from=141092dcb fn=FUN_141092c60@141092c60
+  CALLER from=1410922e5 fn=FUN_1410921d0@1410921d0
+  CALLER from=141092329 fn=FUN_1410921d0@1410921d0
+  CALLER from=14109236d fn=FUN_1410921d0@1410921d0
+  CALLER from=1410ba5a0 fn=FUN_1410ba4a0@1410ba4a0
+  CALLER from=1410ba241 fn=FUN_1410ba1c0@1410ba1c0
+  CALLER from=1410ba375 fn=FUN_1410ba2c0@1410ba2c0
+  CALLER from=1410ba3d5 fn=FUN_1410ba2c0@1410ba2c0
+  CALLER from=1410bae38 fn=FUN_1410bad60@1410bad60
+  CALLER from=1410bae83 fn=FUN_1410bad60@1410bad60
+  CALLER from=1410baece fn=FUN_1410bad60@1410bad60
+  CALLER from=1410a9b40 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9d3e fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9d61 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9d8e fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9dc5 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9dfc fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9e29 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9e49 fn=FUN_1410a9730@1410a9730
+  CALLER from=1411fe92d fn=FUN_1411fe540@1411fe540
+  CALLER from=141227521 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227575 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412275c9 fn=FUN_141226fd0@141226fd0
+  CALLER from=14122761d fn=FUN_141226fd0@141226fd0
+  CALLER from=141227663 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412276a3 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227f38 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412284f3 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412287d5 fn=FUN_141226fd0@141226fd0
+  CALLER from=14122896f fn=FUN_141226fd0@141226fd0
+  CALLER from=141228c06 fn=FUN_141228ac0@141228ac0
+  CALLER from=141226d39 fn=FUN_141226a10@141226a10
+  CALLER from=141226d69 fn=FUN_141226a10@141226a10
+  CALLER from=141226dad fn=FUN_141226a10@141226a10
+  CALLER from=141226df1 fn=FUN_141226a10@141226a10
+  CALLER from=141226e35 fn=FUN_141226a10@141226a10
+  CALLER from=141228eb3 fn=FUN_141228cb0@141228cb0
+  CALLER from=14122926f fn=FUN_141228f70@141228f70
+  CALLER from=1412292bf fn=FUN_141228f70@141228f70
+  CALLER from=14122f8db fn=FUN_14122f3b0@14122f3b0
+  CALLER from=1412d7fac fn=FUN_1412d7ec0@1412d7ec0
+  CALLER from=1412d83dd fn=FUN_1412d8170@1412d8170
+  CALLER from=1414867de fn=FUN_141486300@141486300
+  CALLER from=141486917 fn=FUN_141486300@141486300
+  CALLER from=141486a9c fn=FUN_141486300@141486300
+  CALLER from=141487d89 fn=FUN_141487cb0@141487cb0
+  CALLER from=1410cc778 fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410cc9c5 fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410cca3c fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410ccfce fn=FUN_1410cccf0@1410cccf0
+  CALLER from=1410cd019 fn=FUN_1410cccf0@1410cccf0
+  CALLER from=1410e5638 fn=FUN_1410e5620@1410e5620
+  CALLER from=141204226 fn=FUN_141204200@141204200
+  CALLER from=141205f3e fn=FUN_141205ef0@141205ef0
+  CALLER from=141205f72 fn=FUN_141205ef0@141205ef0
+  CALLER from=141205fd9 fn=FUN_141205ef0@141205ef0
+  CALLER from=141205ff8 fn=FUN_141205ef0@141205ef0
+  CALLER from=14120608b fn=FUN_141205ef0@141205ef0
+  CALLER from=1412060ef fn=FUN_141205ef0@141205ef0
+  CALLER from=141206143 fn=FUN_141205ef0@141205ef0
+  CALLER from=14120616a fn=FUN_141205ef0@141205ef0
+  CALLER from=1412061ce fn=FUN_141205ef0@141205ef0
+  CALLER from=141206222 fn=FUN_141205ef0@141205ef0
+  CALLER from=141206249 fn=FUN_141205ef0@141205ef0
+  CALLER from=141206353 fn=FUN_1412062b0@1412062b0
+  CALLER from=141206380 fn=FUN_1412062b0@1412062b0
+  CALLER from=141206441 fn=FUN_1412062b0@1412062b0
+  CALLER from=14120646c fn=FUN_1412062b0@1412062b0
+  CALLER from=141206495 fn=FUN_1412062b0@1412062b0
+  CALLER from=1412064cb fn=FUN_1412062b0@1412062b0
+  CALLER from=1412064fd fn=FUN_1412062b0@1412062b0
+  CALLER from=141206524 fn=FUN_1412062b0@1412062b0
+  CALLER from=14120653d fn=FUN_1412062b0@1412062b0
+DECOMPILE_BEGIN FUN_14108cf60 14108cf60
+
+undefined8 * FUN_14108cf60(undefined8 *param_1,undefined8 *param_2)
+
+{
+  *param_1 = *param_2;
+  param_1[1] = param_2[1];
+  param_1[2] = param_2[2];
+  param_1[3] = param_2[3];
+  param_1[4] = param_2[4];
+  param_1[5] = param_2[5];
+  param_1[6] = param_2[6];
+  param_1[7] = param_2[7];
+  param_1[8] = param_2[8];
+  param_1[9] = param_2[9];
+  param_1[10] = param_2[10];
+  param_1[0xb] = param_2[0xb];
+  param_1[0xc] = param_2[0xc];
+  param_1[0xd] = param_2[0xd];
+  param_1[0xe] = param_2[0xe];
+  param_1[0xf] = param_2[0xf];
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_14108cf60 14108cf60
+CALLS
+FUNCTION_REQUEST 14108d8b0 -> FUN_14108d8b0@14108d8b0
+ENTRY 14108d8b0
+CALLERS
+  CALLER from=14caaa8c4 fn=<none>
+  CALLER from=140e759e9 fn=FUN_140e75770@140e75770
+  CALLER from=140e75af3 fn=FUN_140e75770@140e75770
+  CALLER from=140e784a6 fn=FUN_140e78260@140e78260
+  CALLER from=140e797a0 fn=FUN_140e79510@140e79510
+  CALLER from=141091864 fn=FUN_1410915e0@1410915e0
+  CALLER from=14109187b fn=FUN_1410915e0@1410915e0
+  CALLER from=1410918eb fn=FUN_1410915e0@1410915e0
+  CALLER from=141091902 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091919 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091930 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091947 fn=FUN_1410915e0@1410915e0
+  CALLER from=1410919b3 fn=FUN_1410915e0@1410915e0
+  CALLER from=1410919ca fn=FUN_1410915e0@1410915e0
+  CALLER from=1410919de fn=FUN_1410915e0@1410915e0
+  CALLER from=1410919f5 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091ab0 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091ac7 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091aff fn=FUN_1410915e0@1410915e0
+  CALLER from=141091b16 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091b2a fn=FUN_1410915e0@1410915e0
+  CALLER from=141091b41 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091bc6 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091bdd fn=FUN_1410915e0@1410915e0
+  CALLER from=141091bf4 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c0b fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c60 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091c77 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091cbf fn=FUN_1410915e0@1410915e0
+  CALLER from=141091cd2 fn=FUN_1410915e0@1410915e0
+  CALLER from=141091ce9 fn=FUN_1410915e0@1410915e0
+  CALLER from=1410922d7 fn=FUN_1410921d0@1410921d0
+  CALLER from=14109231b fn=FUN_1410921d0@1410921d0
+  CALLER from=14109235f fn=FUN_1410921d0@1410921d0
+  CALLER from=1410ba5bf fn=FUN_1410ba4a0@1410ba4a0
+  CALLER from=1410ba233 fn=FUN_1410ba1c0@1410ba1c0
+  CALLER from=1410ba368 fn=FUN_1410ba2c0@1410ba2c0
+  CALLER from=1410ba3c8 fn=FUN_1410ba2c0@1410ba2c0
+  CALLER from=1410bae2a fn=FUN_1410bad60@1410bad60
+  CALLER from=1410bae75 fn=FUN_1410bad60@1410bad60
+  CALLER from=1410baec0 fn=FUN_1410bad60@1410bad60
+  CALLER from=14108d48e fn=FUN_14108d3b0@14108d3b0
+  CALLER from=14108d706 fn=FUN_14108d630@14108d630
+  CALLER from=1410a9db5 fn=FUN_1410a9730@1410a9730
+  CALLER from=1410a9dec fn=FUN_1410a9730@1410a9730
+  CALLER from=1411fe920 fn=FUN_1411fe540@1411fe540
+  CALLER from=141227511 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227565 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412275b9 fn=FUN_141226fd0@141226fd0
+  CALLER from=14122760d fn=FUN_141226fd0@141226fd0
+  CALLER from=141227693 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227f28 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412284e3 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412287c5 fn=FUN_141226fd0@141226fd0
+  CALLER from=14122895f fn=FUN_141226fd0@141226fd0
+  CALLER from=141228bf9 fn=FUN_141228ac0@141228ac0
+  CALLER from=141226d59 fn=FUN_141226a10@141226a10
+  CALLER from=141226d9d fn=FUN_141226a10@141226a10
+  CALLER from=141226de1 fn=FUN_141226a10@141226a10
+  CALLER from=141226e25 fn=FUN_141226a10@141226a10
+  CALLER from=141228ea6 fn=FUN_141228cb0@141228cb0
+  CALLER from=141229262 fn=FUN_141228f70@141228f70
+  CALLER from=1412292b2 fn=FUN_141228f70@141228f70
+  CALLER from=14122f8ce fn=FUN_14122f3b0@14122f3b0
+  CALLER from=1412d7f9f fn=FUN_1412d7ec0@1412d7ec0
+  CALLER from=1414867ce fn=FUN_141486300@141486300
+  CALLER from=141486907 fn=FUN_141486300@141486300
+  CALLER from=141486a8c fn=FUN_141486300@141486300
+  CALLER from=141487d7c fn=FUN_141487cb0@141487cb0
+  CALLER from=1410cc76b fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410cc9b7 fn=FUN_1410cc0b0@1410cc0b0
+  CALLER from=1410ccff0 fn=FUN_1410cccf0@1410cccf0
+  CALLER from=1410cd009 fn=FUN_1410cccf0@1410cccf0
+  CALLER from=141205f66 fn=FUN_141205ef0@141205ef0
+  CALLER from=141205fea fn=FUN_141205ef0@141205ef0
+  CALLER from=14120607f fn=FUN_141205ef0@141205ef0
+  CALLER from=1412060e3 fn=FUN_141205ef0@141205ef0
+  CALLER from=14120615e fn=FUN_141205ef0@141205ef0
+  CALLER from=1412061c2 fn=FUN_141205ef0@141205ef0
+  CALLER from=14120623d fn=FUN_141205ef0@141205ef0
+DECOMPILE_BEGIN FUN_14108d8b0 14108d8b0
+
+double * FUN_14108d8b0(double *param_1,double *param_2,double *param_3,undefined8 param_4)
+
+{
+  double dVar1;
+  double dVar2;
+  double dVar3;
+  
+  FUN_14108f900(param_2,param_2,param_3,param_4,0);
+  FUN_14108c250(param_2);
+  dVar1 = *param_3;
+  dVar2 = param_3[1];
+  dVar3 = param_3[2];
+  *param_2 = dVar1 * *param_1 + dVar2 * param_1[4] + dVar3 * param_1[8];
+  param_2[1] = dVar2 * param_1[5] + dVar1 * param_1[1] + dVar3 * param_1[9];
+  param_2[2] = dVar2 * param_1[6] + dVar1 * param_1[2] + dVar3 * param_1[10];
+  dVar1 = param_3[4];
+  dVar2 = param_3[5];
+  dVar3 = param_3[6];
+  param_2[4] = dVar1 * *param_1 + dVar2 * param_1[4] + dVar3 * param_1[8];
+  param_2[5] = dVar2 * param_1[5] + dVar1 * param_1[1] + dVar3 * param_1[9];
+  param_2[6] = dVar2 * param_1[6] + dVar1 * param_1[2] + dVar3 * param_1[10];
+  dVar1 = param_3[8];
+  dVar2 = param_3[9];
+  dVar3 = param_3[10];
+  param_2[8] = dVar1 * *param_1 + dVar2 * param_1[4] + dVar3 * param_1[8];
+  param_2[9] = dVar2 * param_1[5] + dVar1 * param_1[1] + dVar3 * param_1[9];
+  param_2[10] = dVar2 * param_1[6] + dVar1 * param_1[2] + dVar3 * param_1[10];
+  dVar1 = param_3[0xd];
+  dVar2 = param_3[0xc];
+  dVar3 = param_3[0xe];
+  param_2[0xc] = dVar2 * *param_1 + dVar1 * param_1[4] + dVar3 * param_1[8] + param_1[0xc];
+  param_2[0xd] = dVar1 * param_1[5] + dVar2 * param_1[1] + dVar3 * param_1[9] + param_1[0xd];
+  param_2[0xe] = dVar1 * param_1[6] + dVar2 * param_1[2] + dVar3 * param_1[10] + param_1[0xe];
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_14108d8b0 14108d8b0
+CALLS
+  CALL from=14108d8d8 ins=CALL 0x14108f900
+  CALL from=14108d8e0 ins=CALL 0x14108c250
+FUNCTION_REQUEST 141089460 -> FUN_141089460@141089460
+ENTRY 141089460
+CALLERS
+  CALLER from=140e75e99 fn=FUN_140e75c10@140e75c10
+  CALLER from=1411f084d fn=FUN_1411f0670@1411f0670
+  CALLER from=1411c75ae fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c7986 fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c79e4 fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c7a5f fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411bdfcd fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be033 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be178 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be1f2 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be26f fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be3db fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be604 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411bf345 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf3fc fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf4b1 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf5f9 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf68e fn=FUN_1411bf170@1411bf170
+  CALLER from=1412d5932 fn=FUN_1412d5850@1412d5850
+  CALLER from=1412d5a06 fn=FUN_1412d5850@1412d5850
+  CALLER from=1412d5bef fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d5c97 fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d5d42 fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d371a fn=FUN_1412d3070@1412d3070
+  CALLER from=1412d373a fn=FUN_1412d3070@1412d3070
+  CALLER from=1412d3aff fn=FUN_1412d3070@1412d3070
+  CALLER from=1411c364c fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411c38cf fn=FUN_1411c33e0@1411c33e0
+  CALLER from=1411bd535 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd560 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd66f fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd6bc fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411c142a fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c144b fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c1481 fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c14af fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c155c fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c165d fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c100b fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1110 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c11dd fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c12a3 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c12d3 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c12e3 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c1324 fn=FUN_1411c0f60@1411c0f60
+  CALLER from=1411c18c6 fn=FUN_1411c16d0@1411c16d0
+  CALLER from=1411c1a50 fn=FUN_1411c16d0@1411c16d0
+  CALLER from=1411c1d20 fn=FUN_1411c1bb0@1411c1bb0
+  CALLER from=1411c21e4 fn=FUN_1411c1bb0@1411c1bb0
+  CALLER from=1411c4507 fn=FUN_1411c4250@1411c4250
+  CALLER from=1411c4f4f fn=FUN_1411c4250@1411c4250
+  CALLER from=14122668f fn=FUN_1412263b0@1412263b0
+  CALLER from=14122669f fn=FUN_1412263b0@1412263b0
+  CALLER from=141226704 fn=FUN_1412263b0@1412263b0
+  CALLER from=14122717a fn=FUN_141226fd0@141226fd0
+  CALLER from=14122718b fn=FUN_141226fd0@141226fd0
+  CALLER from=1412271f7 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227222 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227235 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227247 fn=FUN_141226fd0@141226fd0
+  CALLER from=1411c002e fn=FUN_1411bff10@1411bff10
+  CALLER from=1411c02a7 fn=FUN_1411c01b0@1411c01b0
+  CALLER from=14122909c fn=FUN_141228f70@141228f70
+  CALLER from=1412290ad fn=FUN_141228f70@141228f70
+  CALLER from=141229115 fn=FUN_141228f70@141228f70
+  CALLER from=141229140 fn=FUN_141228f70@141228f70
+  CALLER from=141229153 fn=FUN_141228f70@141228f70
+  CALLER from=141229165 fn=FUN_141228f70@141228f70
+  CALLER from=1411c3c2a fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1411c4041 fn=FUN_1411c3ad0@1411c3ad0
+  CALLER from=1412d604e fn=FUN_1412d5f40@1412d5f40
+  CALLER from=1412d614b fn=FUN_1412d5f40@1412d5f40
+  CALLER from=1412d6770 fn=FUN_1412d6700@1412d6700
+  CALLER from=1412d7566 fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d759f fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d7641 fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d780c fn=FUN_1412d77a0@1412d77a0
+  CALLER from=1415d26b2 fn=FUN_1415d24e0@1415d24e0
+  CALLER from=141204dd2 fn=FUN_141204510@141204510
+  CALLER from=1412059b8 fn=FUN_141204510@141204510
+DECOMPILE_BEGIN FUN_141089460 141089460
+
+longlong * FUN_141089460(longlong *param_1,longlong *param_2,longlong *param_3)
+
+{
+  *param_2 = *param_1 - *param_3;
+  return param_2;
+}
+
+
+DECOMPILE_END FUN_141089460 141089460
+CALLS
+FUNCTION_REQUEST 141087b80 -> FUN_141087b80@141087b80
+ENTRY 141087b80
+CALLERS
+  CALLER from=140e758c1 fn=FUN_140e75770@140e75770
+  CALLER from=140e78388 fn=FUN_140e78260@140e78260
+  CALLER from=14114bccc fn=FUN_14114bc80@14114bc80
+  CALLER from=14114bd23 fn=FUN_14114bc80@14114bc80
+  CALLER from=1411c75b6 fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c798e fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c79ec fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411c7a67 fn=FUN_1411c65c0@1411c65c0
+  CALLER from=1411bdfd5 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be03b fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be180 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be1fa fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be277 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be3e3 fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411be60c fn=FUN_1411bddc0@1411bddc0
+  CALLER from=1411bf34d fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf404 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf4b9 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf601 fn=FUN_1411bf170@1411bf170
+  CALLER from=1411bf696 fn=FUN_1411bf170@1411bf170
+  CALLER from=1412d593a fn=FUN_1412d5850@1412d5850
+  CALLER from=1412d5a0e fn=FUN_1412d5850@1412d5850
+  CALLER from=1412d5bf7 fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d5c9f fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1412d5d4a fn=FUN_1412d5a80@1412d5a80
+  CALLER from=1411bd568 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd575 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd6c4 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411bd6d1 fn=FUN_1411bd3a0@1411bd3a0
+  CALLER from=1411c14b7 fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c15e1 fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c1665 fn=FUN_1411c13a0@1411c13a0
+  CALLER from=1411c18ce fn=FUN_1411c16d0@1411c16d0
+  CALLER from=1411c1a58 fn=FUN_1411c16d0@1411c16d0
+  CALLER from=1411c1d28 fn=FUN_1411c1bb0@1411c1bb0
+  CALLER from=1411c21ec fn=FUN_1411c1bb0@1411c1bb0
+  CALLER from=1412278d4 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227949 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412279c4 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227df2 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227e04 fn=FUN_141226fd0@141226fd0
+  CALLER from=141227e8a fn=FUN_141226fd0@141226fd0
+  CALLER from=141227e9c fn=FUN_141226fd0@141226fd0
+  CALLER from=141228393 fn=FUN_141226fd0@141226fd0
+  CALLER from=14122839f fn=FUN_141226fd0@141226fd0
+  CALLER from=14122843d fn=FUN_141226fd0@141226fd0
+  CALLER from=141228449 fn=FUN_141226fd0@141226fd0
+  CALLER from=1412285ad fn=FUN_141226fd0@141226fd0
+  CALLER from=141228638 fn=FUN_141226fd0@141226fd0
+  CALLER from=1411c0036 fn=FUN_1411bff10@1411bff10
+  CALLER from=1411c02af fn=FUN_1411c01b0@1411c01b0
+  CALLER from=1412d6056 fn=FUN_1412d5f40@1412d5f40
+  CALLER from=1412d6153 fn=FUN_1412d5f40@1412d5f40
+  CALLER from=1412d75a7 fn=FUN_1412d7480@1412d7480
+  CALLER from=1412d7649 fn=FUN_1412d7480@1412d7480
+  CALLER from=14148662a fn=FUN_141486300@141486300
+  CALLER from=141486709 fn=FUN_141486300@141486300
+  CALLER from=141204a8b fn=FUN_141204510@141204510
+  CALLER from=141204b0c fn=FUN_141204510@141204510
+  CALLER from=141204b19 fn=FUN_141204510@141204510
+  CALLER from=141204b25 fn=FUN_141204510@141204510
+  CALLER from=141205751 fn=FUN_141204510@141204510
+  CALLER from=14120580a fn=FUN_141204510@141204510
+  CALLER from=1412058be fn=FUN_141204510@141204510
+  CALLER from=14114bbc5 fn=FUN_14114bb80@14114bb80
+  CALLER from=14114bc51 fn=FUN_14114bbf0@14114bbf0
+  CALLER from=1411ae7d1 fn=FUN_1411ae660@1411ae660
+  CALLER from=1411ae810 fn=FUN_1411ae660@1411ae660
+  CALLER from=1411ae84b fn=FUN_1411ae660@1411ae660
+  CALLER from=1411a7f21 fn=FUN_1411a7b70@1411a7b70
+  CALLER from=1412c12c8 fn=FUN_1412c10c0@1412c10c0
+  CALLER from=1411c0165 fn=FUN_1411c00b0@1411c00b0
+  CALLER from=1411c03ff fn=FUN_1411c0350@1411c0350
+  CALLER from=1411c23f7 fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c2404 fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c258c fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c25bc fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c263a fn=FUN_1411c2340@1411c2340
+  CALLER from=1411c2763 fn=FUN_1411c26b0@1411c26b0
+  CALLER from=1411c2770 fn=FUN_1411c26b0@1411c26b0
+DECOMPILE_BEGIN FUN_141087b80 141087b80
+
+double FUN_141087b80(longlong *param_1)
+
+{
+  return (double)*param_1 / DAT_141ca4fa8;
+}
+
+
+DECOMPILE_END FUN_141087b80 141087b80
+CALLS
+FUNCTION_REQUEST 1410d7760 -> FUN_1410d7760@1410d7760
+ENTRY 1410d7760
+CALLERS
+  CALLER from=14caae5cc fn=<none>
+  CALLER from=140e75eb1 fn=FUN_140e75c10@140e75c10
+  CALLER from=1411f5278 fn=FUN_1411f4ea0@1411f4ea0
+  CALLER from=1411f54e5 fn=FUN_1411f5460@1411f5460
+  CALLER from=14127f4b7 fn=FUN_14127eb40@14127eb40
+  CALLER from=14127f4e1 fn=FUN_14127eb40@14127eb40
+  CALLER from=141361fb5 fn=FUN_141361f90@141361f90
+  CALLER from=141392955 fn=FUN_141392870@141392870
+  CALLER from=1413823a0 fn=FUN_141382310@141382310
+  CALLER from=141398a84 fn=FUN_141398a70@141398a70
+  CALLER from=1413cc676 fn=FUN_1413cc620@1413cc620
+DECOMPILE_BEGIN FUN_1410d7760 1410d7760
+
+ulonglong FUN_1410d7760(longlong param_1)
+
+{
+  int iVar1;
+  ulonglong uVar2;
+  undefined4 local_res8 [2];
+  uint local_res10 [6];
+  
+  local_res8[0] = 10;
+  FUN_1410a2cd0(param_1 + 0x138,local_res10,local_res8);
+  uVar2 = (ulonglong)local_res10[0];
+  if (local_res10[0] == 0) {
+    iVar1 = FUN_1410879b0();
+    if (iVar1 != 0) {
+      uVar2 = FUN_1410879b0();
+      return uVar2;
+    }
+    uVar2 = 6;
+  }
+  return uVar2;
+}
+
+
+DECOMPILE_END FUN_1410d7760 1410d7760
+CALLS
+  CALL from=1410d777d ins=CALL 0x1410a2cd0
+  CALL from=1410d778a ins=CALL 0x1410879b0
+  CALL from=1410d7797 ins=JMP 0x1410879b0
+FUNCTION_REQUEST 1410884c0 -> FUN_1410884c0@1410884c0
+ENTRY 1410884c0
+CALLERS
+  CALLER from=14caaa648 fn=<none>
+  CALLER from=140e75ebc fn=FUN_140e75c10@140e75c10
+  CALLER from=14117f7b8 fn=FUN_14117f750@14117f750
+  CALLER from=14134226d fn=FUN_141342020@141342020
+  CALLER from=14134774a fn=FUN_141347470@141347470
+  CALLER from=1413489ae fn=FUN_141348570@141348570
+  CALLER from=1413496de fn=FUN_141349020@141349020
+  CALLER from=141349cb8 fn=FUN_141349020@141349020
+  CALLER from=14134afc4 fn=FUN_14134a7e0@14134a7e0
+  CALLER from=14134b757 fn=FUN_14134a7e0@14134a7e0
+DECOMPILE_BEGIN FUN_1410884c0 1410884c0
+
+longlong FUN_1410884c0(longlong *param_1,undefined4 param_2)
+
+{
+  longlong lVar1;
+  
+  lVar1 = FUN_1410894e0(param_2);
+  if (lVar1 != 0) {
+    return *param_1 / lVar1;
+  }
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1410884c0 1410884c0
+CALLS
+  CALL from=1410884cb ins=CALL 0x1410894e0
+SCRIPT COMPLETED AnmConstantsAndTransformTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

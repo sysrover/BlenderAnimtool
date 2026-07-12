@@ -1,0 +1,1768 @@
+{
+  "baseline": "C:\\temp\\dayz_weaponik_control_matrix\\baseline.anm",
+  "control_count": 41,
+  "passed_expected_track": 41,
+  "passed_isolation": 17,
+  "results": {
+    "LeftHandOrigin": {
+      "control": "IK_LeftHandOrigin.L",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandOrigin.L\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "LeftHandOrigin"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandOrigin": [
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3089
+    },
+    "LeftHandIKTarget": {
+      "control": "IK_LeftHandTarget.L",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandTarget.L\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "LeftHandIKTarget"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandIKTarget": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              1.043081283569336e-07,
+              1.6917472697719482e-07,
+              2.233239162346967e-06
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": [
+              0.00716529851048435,
+              0.015086038890995246,
+              -0.01100213671664127
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "LeftForeArmDirection": {
+      "control": "IK_LeftElbow.L",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftElbow.L\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "LeftForeArmDirection"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftForeArmDirection": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              0.0,
+              1.346400863300179e-06,
+              -2.904473451054157e-06
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": [
+              0.003332803267472012,
+              -0.003634964406776353,
+              -0.019381268476484678
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "LeftForeArmDirectionOrigin": {
+      "control": "IK_LeftElbowOrigin.L",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftElbowOrigin.L\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "LeftForeArmDirectionOrigin"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftForeArmDirectionOrigin": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              0.0,
+              -3.503906834290138e-06,
+              2.145587772006685e-06
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3089
+    },
+    "RightHandOrigin": {
+      "control": "IK_RightHandOrigin.R",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandOrigin.R\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "RightHandOrigin"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightHandOrigin": [
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3089
+    },
+    "RightForeArmDirection": {
+      "control": "IK_RightElbow.R",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightElbow.R\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "RightForeArmDirection"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightForeArmDirection": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              4.978563851398832e-06,
+              -1.5282525352988685e-06,
+              -4.198873169436457e-06
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": [
+              -0.0060488384465252065,
+              -0.014388978481292725,
+              -0.012509277811431574
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "RightForeArmDirectionOrigin": {
+      "control": "IK_RightElbowOrigin.R",
+      "kind": "helper",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightElbowOrigin.R\"].location",
+        "array_index": 0,
+        "amount": 0.02
+      },
+      "changed_tracks": [
+        "RightForeArmDirectionOrigin"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightForeArmDirectionOrigin": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              -4.359938516274031e-06,
+              -4.399786355940849e-06,
+              5.0211456358306705e-06
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3089
+    },
+    "LeftHandThumb1": {
+      "control": "IK_LeftHandThumb1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandThumb1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandThumb1",
+        "LeftHandThumb2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandThumb1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -4.41559789643442e-06,
+              7.146083031983608e-07,
+              -6.599738822776757e-06,
+              5.893273558044143e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandThumb2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -9.042889063698434e-06,
+              -7.344518428376023e-06,
+              -1.0836894514310025e-05,
+              -9.310746906798784e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandThumb2": {
+      "control": "IK_LeftHandThumb2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandThumb2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandThumb2",
+        "LeftHandThumb3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandThumb2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -3.1059168433544837e-06,
+              0.0,
+              -9.231414529325965e-06,
+              -3.3070728309159136e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandThumb3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -5.243522789910582e-06,
+              1.4826207637555055e-05,
+              -2.901013889250459e-07,
+              6.955918663287264e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              0.003127141108344597,
+              -0.02980547548076298,
+              6.23575912337554e-05,
+              -0.0005015477336678398
+            ]
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "LeftHandThumb3": {
+      "control": "IK_LeftHandThumb3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandThumb3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandThumb3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandThumb3": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              0.0031365998989715503,
+              0.029828078157557714,
+              6.091329986464278e-05,
+              -0.0003806456673338676
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "LeftHandIndex1": {
+      "control": "IK_LeftHandIndex1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandIndex1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandIndex1",
+        "LeftHandIndex2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandIndex1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.1970219194176734e-05,
+              0.0,
+              1.4600845102963333e-05,
+              -2.8584213991322827e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandIndex2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              0.0,
+              9.146569212997724e-06,
+              -2.928278016178787e-06,
+              -1.0345390503929686e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandIndex2": {
+      "control": "IK_LeftHandIndex2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandIndex2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandIndex2",
+        "LeftHandIndex3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandIndex2": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandIndex3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.128309490973367e-05,
+              -6.056916842453464e-06,
+              3.5399727500995404e-06,
+              -1.431637910664918e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandIndex3": {
+      "control": "IK_LeftHandIndex3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandIndex3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandIndex3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandIndex3": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "LeftHandMiddle1": {
+      "control": "IK_LeftHandMiddle1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandMiddle1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandMiddle1",
+        "LeftHandMiddle2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandMiddle1": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandMiddle2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              0.0,
+              -1.9946566610085092e-06,
+              -7.066902614649706e-06,
+              1.0301150193181563e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandMiddle2": {
+      "control": "IK_LeftHandMiddle2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandMiddle2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandMiddle2",
+        "LeftHandMiddle3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandMiddle2": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandMiddle3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.085986966881114e-06,
+              -2.1613265770506485e-07,
+              8.062807315439846e-06,
+              -1.5160741947295442e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandMiddle3": {
+      "control": "IK_LeftHandMiddle3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandMiddle3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandMiddle3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandMiddle3": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "RightHandThumb1": {
+      "control": "IK_RightHandThumb1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandThumb1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandThumb1",
+        "RightHandThumb2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandThumb1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -3.46732785372339e-06,
+              -1.2159647610365809e-05,
+              1.3902240789676057e-06,
+              -5.96579292633237e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandThumb2": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              0.0,
+              1.9402430431747497e-07,
+              -5.807934619281307e-07
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": null
+          },
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              8.851770323496655e-06,
+              -3.5108399274869084e-06,
+              9.42375201262724e-06,
+              7.679979319163976e-09
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3109
+    },
+    "RightHandThumb2": {
+      "control": "IK_RightHandThumb2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandThumb2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandThumb2",
+        "RightHandThumb3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandThumb2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              7.261350977262604e-06,
+              0.0,
+              6.563198635567424e-06,
+              -1.0903772313053395e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandThumb3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -2.6939285557581183e-06,
+              -3.874895286012925e-06,
+              -7.62771956874797e-07,
+              -1.0214213864934152e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandThumb3": {
+      "control": "IK_RightHandThumb3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandThumb3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandThumb3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightHandThumb3": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "RightHandIndex1": {
+      "control": "IK_RightHandIndex1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandIndex1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandIndex1",
+        "RightHandIndex2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandIndex1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.2223131670541232e-05,
+              0.0,
+              -9.275793085461448e-06,
+              -1.334811360731436e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandIndex2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              6.708103478192395e-06,
+              -1.0375094006292301e-05,
+              -5.899628399641532e-06,
+              -1.0628695890080309e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandIndex2": {
+      "control": "IK_RightHandIndex2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandIndex2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandIndex2",
+        "RightHandIndex3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandIndex2": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandIndex3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -9.38662948979374e-06,
+              -1.1452668922799433e-05,
+              1.3724706437345802e-05,
+              -1.5145231460289565e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandIndex3": {
+      "control": "IK_RightHandIndex3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandIndex3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandIndex3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightHandIndex3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.1922548191194843e-05,
+              -1.1032224896069878e-05,
+              4.5616142748117205e-06,
+              -2.3822373013127063e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "RightHandMiddle1": {
+      "control": "IK_RightHandMiddle1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandMiddle1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandMiddle1",
+        "RightHandMiddle2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandMiddle1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.3033030769993292e-05,
+              0.0,
+              3.488477932633849e-06,
+              -1.1453485596835122e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandMiddle2": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              -1.341104507446289e-07,
+              -4.503734191141362e-11,
+              7.758192320794777e-07
+            ]
+          },
+          {
+            "channel": "position",
+            "frame": 1,
+            "delta": null
+          },
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              2.695145705944313e-06,
+              -9.886805244902624e-06,
+              1.0868150680409805e-05,
+              5.103546863560737e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3109
+    },
+    "RightHandMiddle2": {
+      "control": "IK_RightHandMiddle2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandMiddle2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandMiddle2",
+        "RightHandMiddle3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandMiddle2": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandMiddle3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -7.668998589893672e-06,
+              2.5955793582221887e-06,
+              -1.3043898947462385e-05,
+              -7.799354029280892e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              0.004753912942954741,
+              -0.028059080243110657,
+              -0.005310923725293792,
+              -0.00781702574850418
+            ]
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "RightHandMiddle3": {
+      "control": "IK_RightHandMiddle3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandMiddle3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandMiddle3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightHandMiddle3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -5.312307288452001e-06,
+              -6.589137294121805e-08,
+              -7.1496162561413e-06,
+              -1.276406659167506e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              -0.019181654130520975,
+              -0.0007096379995346069,
+              -0.016309213698605385,
+              0.005827460457026756
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "LeftHandRing": {
+      "control": "IK_LeftHandRing",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandRing\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandRing",
+        "LeftHandRing1"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandRing": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              7.973887738904617e-06,
+              -8.905297901429243e-06,
+              -6.483731608789012e-06,
+              -9.237028381514634e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandRing1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              7.175499585621026e-06,
+              -1.3676948371253717e-05,
+              6.518638018815359e-06,
+              -1.4149816375264024e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandRing1": {
+      "control": "IK_LeftHandRing1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandRing1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandRing1",
+        "LeftHandRing2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandRing1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              4.091936800329488e-06,
+              0.0,
+              -4.278502452992328e-06,
+              -1.0777015027385595e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandRing2": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandRing2": {
+      "control": "IK_LeftHandRing2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandRing2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandRing2",
+        "LeftHandRing3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandRing2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              0.0,
+              1.1206143859805728e-05,
+              8.735254922953573e-06,
+              -8.88066713666813e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandRing3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.4493307737749317e-05,
+              -7.946900072771518e-06,
+              7.034188691912302e-06,
+              8.66426923540331e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandRing3": {
+      "control": "IK_LeftHandRing3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandRing3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandRing3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandRing3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              8.56735147457266e-07,
+              0.0,
+              2.3076230719343283e-06,
+              -1.3022591431655073e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "LeftHandPinky": {
+      "control": "IK_LeftHandPinky",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandPinky\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandPinky",
+        "LeftHandPinky1"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandPinky": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              7.956116591850693e-06,
+              -8.948138739861555e-06,
+              8.893681575725815e-06,
+              -9.160659945051108e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandPinky1": [
+          {
+            "channel": "position",
+            "frame": 0,
+            "delta": [
+              -1.221570143192241e-06,
+              7.450580596923828e-09,
+              7.450580596923828e-09
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              0.0,
+              8.435570973713835e-06,
+              1.024795577131421e-05,
+              -4.198090991502923e-07
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandPinky1": {
+      "control": "IK_LeftHandPinky1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandPinky1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandPinky1",
+        "LeftHandPinky2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandPinky1": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandPinky2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -3.2948475238853137e-06,
+              1.0564526258638463e-05,
+              6.906413150264967e-07,
+              2.5134445321706167e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "LeftHandPinky2": {
+      "control": "IK_LeftHandPinky2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandPinky2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandPinky2",
+        "LeftHandPinky3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "LeftHandPinky2": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "LeftHandPinky3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.2922644082591361e-06,
+              -1.301032510855546e-05,
+              2.6329967799526566e-06,
+              1.5001617062693207e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              0.009603118297417806,
+              -0.027822565665701404,
+              -0.005262807520234017,
+              -0.001513674662070419
+            ]
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "LeftHandPinky3": {
+      "control": "IK_LeftHandPinky3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_LeftHandPinky3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "LeftHandPinky3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "LeftHandPinky3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              1.4388533084719324e-06,
+              0.0,
+              6.1172702723877315e-06,
+              3.3945302555515866e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              -0.006130138896765197,
+              0.0288995686602737,
+              -0.0029093878363802977,
+              0.0007848701258531543
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "RightHandRing": {
+      "control": "IK_RightHandRing",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandRing\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandRing",
+        "RightHandRing1"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandRing": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandRing1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.16786320247253e-05,
+              -1.4697077800801539e-05,
+              1.2092664164575773e-05,
+              4.1924986815544685e-09
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandRing1": {
+      "control": "IK_RightHandRing1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandRing1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandRing1",
+        "RightHandRing2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandRing1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -2.1086771899159196e-06,
+              0.0,
+              4.812895976313847e-06,
+              -1.1292905510495999e-05
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandRing2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              2.083704504385331e-06,
+              -9.585094488846757e-06,
+              -7.85647814938173e-06,
+              4.174612711072001e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandRing2": {
+      "control": "IK_RightHandRing2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandRing2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandRing2",
+        "RightHandRing3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandRing2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              8.923369468699649e-06,
+              0.0,
+              -5.647938437380873e-06,
+              -4.675550193122824e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandRing3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.2915920231393319e-05,
+              1.289621745892422e-05,
+              -1.2665074158202394e-05,
+              -6.301215615955869e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              0.007231334784436827,
+              -0.027413666248321533,
+              -0.0045558295287749795,
+              -0.008639941591281453
+            ]
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "RightHandRing3": {
+      "control": "IK_RightHandRing3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandRing3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandRing3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightHandRing3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -8.790945887737767e-06,
+              4.941223651355742e-07,
+              -9.448037040504786e-07,
+              -6.486418782536418e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              -0.018553735845928565,
+              -3.612041473388672e-05,
+              -0.016202877470013255,
+              0.006931862314610182
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    },
+    "RightHandPinky": {
+      "control": "IK_RightHandPinky",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandPinky\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandPinky",
+        "RightHandPinky1"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandPinky": [
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandPinky1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.0261996536142792e-05,
+              -3.9058711502060195e-06,
+              7.672488364640628e-07,
+              4.1057481858786105e-09
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandPinky1": {
+      "control": "IK_RightHandPinky1",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandPinky1\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandPinky1",
+        "RightHandPinky2"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandPinky1": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.3010725984391458e-05,
+              0.0,
+              1.1339638784080286e-05,
+              -8.892749956634916e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandPinky2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              4.163890967578965e-06,
+              -5.625603413987601e-06,
+              7.430125049334713e-06,
+              -5.118489743161092e-09
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ]
+      },
+      "file_size": 3101
+    },
+    "RightHandPinky2": {
+      "control": "IK_RightHandPinky2",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandPinky2\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandPinky2",
+        "RightHandPinky3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": false,
+      "changes": {
+        "RightHandPinky2": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              3.875643863338052e-06,
+              0.0,
+              -3.1921482505636867e-06,
+              -2.043628234860151e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": null
+          }
+        ],
+        "RightHandPinky3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -2.7435726077107425e-07,
+              7.572594385413245e-06,
+              -1.4302042766756173e-06,
+              -6.13649300262864e-08
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              0.019794989025328863,
+              -0.014161646366119385,
+              0.011216352173344102,
+              -0.006329820535138531
+            ]
+          }
+        ]
+      },
+      "file_size": 3091
+    },
+    "RightHandPinky3": {
+      "control": "IK_RightHandPinky3",
+      "kind": "finger",
+      "perturbation": {
+        "data_path": "pose.bones[\"IK_RightHandPinky3\"].rotation_quaternion",
+        "array_index": 1,
+        "amount": 0.03
+      },
+      "changed_tracks": [
+        "RightHandPinky3"
+      ],
+      "expected_track_changed": true,
+      "only_expected_track_changed": true,
+      "changes": {
+        "RightHandPinky3": [
+          {
+            "channel": "rotation",
+            "frame": 0,
+            "delta": [
+              -1.6986345842129325e-06,
+              1.3501987696173945e-05,
+              -1.3628617123839781e-05,
+              -8.675897863463788e-06
+            ]
+          },
+          {
+            "channel": "rotation",
+            "frame": 1,
+            "delta": [
+              -0.018963747995607183,
+              0.011622074992824583,
+              -0.012899255129827591,
+              0.005625435502337073
+            ]
+          }
+        ]
+      },
+      "file_size": 3081
+    }
+  }
+}

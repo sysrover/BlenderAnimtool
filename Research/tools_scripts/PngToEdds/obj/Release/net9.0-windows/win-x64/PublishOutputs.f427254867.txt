@@ -1,0 +1,2 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\single\PngToEdds.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\single\PngToEdds.exe

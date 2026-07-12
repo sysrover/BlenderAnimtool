@@ -1,0 +1,64 @@
+{
+  "source_clean_file": "P:\\Animation_Weapon\\Weapon_template_clean_no_blender_ik.blend",
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_controlrig_v3_refstyle.blend",
+  "dayz_armature": "_DayZ_Character",
+  "control_rig": "DAT_ControlRigV3",
+  "removed_preview_constraints": [],
+  "copy_follow_constraints": [
+    {
+      "bone": "LeftArm",
+      "driver": "DRV_UpperArm.L"
+    },
+    {
+      "bone": "LeftForeArm",
+      "driver": "DRV_ForeArm.L"
+    },
+    {
+      "bone": "LeftHand",
+      "driver": "DRV_Hand.L"
+    },
+    {
+      "bone": "LeftArmRoll",
+      "driver": "DRV_UpperArm.L"
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "driver": "DRV_ForeArm.L"
+    },
+    {
+      "bone": "RightArm",
+      "driver": "DRV_UpperArm.R"
+    },
+    {
+      "bone": "RightForeArm",
+      "driver": "DRV_ForeArm.R"
+    },
+    {
+      "bone": "RightHand",
+      "driver": "DRV_Hand.R"
+    },
+    {
+      "bone": "RightArmRoll",
+      "driver": "DRV_UpperArm.R"
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "driver": "DRV_ForeArm.R"
+    }
+  ],
+  "visible_control_bones": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "hidden_mechanism_bones": [
+    "DRV_UpperArm.L",
+    "DRV_ForeArm.L",
+    "DRV_Hand.L",
+    "DRV_UpperArm.R",
+    "DRV_ForeArm.R",
+    "DRV_Hand.R"
+  ],
+  "note": "Reference-style two-armature authoring rig: controls and IK live on DAT_ControlRigV3; DayZ skeleton follows/bakes and stays free of direct IK controls."
+}

@@ -1,0 +1,135 @@
+{
+  "base": "P:\\Animation_Weapon\\Weapon_template_aks74u_refstyle_controls_wire_v8.blend",
+  "out": "P:\\Animation_Weapon\\Weapon_template_aks74u_refstyle_ikfk_v10.blend",
+  "created": [
+    "FK_LeftArm.L",
+    "FK_LeftArmRoll.L",
+    "FK_LeftForeArm.L",
+    "FK_LeftForeArmRoll.L",
+    "FK_LeftHand.L",
+    "FK_RightArm.R",
+    "FK_RightArmRoll.R",
+    "FK_RightForeArm.R",
+    "FK_RightForeArmRoll.R",
+    "FK_RightHand.R"
+  ],
+  "constraints": [
+    "DAT_IKFK_FK_ROT_LeftArm",
+    "DAT_IKFK_FK_ROT_LeftArmRoll",
+    "DAT_IKFK_FK_ROT_LeftForeArm",
+    "DAT_IKFK_FK_ROT_LeftForeArmRoll",
+    "DAT_IKFK_FK_ROT_LeftHand",
+    "DAT_IKFK_FK_ROT_RightArm",
+    "DAT_IKFK_FK_ROT_RightArmRoll",
+    "DAT_IKFK_FK_ROT_RightForeArm",
+    "DAT_IKFK_FK_ROT_RightForeArmRoll",
+    "DAT_IKFK_FK_ROT_RightHand"
+  ],
+  "neutral": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 3.0719530773294423e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 3.0719530773294423e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 3.0719530773294423e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 6.143906154658885e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 1.1175870895385742e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 7.450580596923828e-09,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 1.2644054553268208e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 1.3075715880680267e-07,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "neutral_ok": true,
+  "fk_moved_delta": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 7.450580596923828e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 1.0133885226201597e-07,
+      "rot_delta_deg": 35.00003057145013
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 0.1226878391843624,
+      "rot_delta_deg": 260.1076737837758
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 0.13486409212753617,
+      "rot_delta_deg": 84.9479711226082
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "fk_ok": true,
+  "note": "Default mode is IK. Set rig custom prop IK_FK_L/R to 0 for FK joint rotation controls."
+}

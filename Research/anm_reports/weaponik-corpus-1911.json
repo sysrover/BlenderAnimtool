@@ -1,0 +1,74 @@
+{
+  "source": "P:\\DZ\\anims\\anm\\player\\ik\\weapons\\1911.anm",
+  "source_format": "AnimSet5",
+  "source_fps": 30,
+  "source_sha256": "f5ab7bc0f8b91ec0616699cc9138233d91ce832eabba6304e9e406998782763c",
+  "raw_sha256": "f5ab7bc0f8b91ec0616699cc9138233d91ce832eabba6304e9e406998782763c",
+  "raw_exact": true,
+  "sampled_compare": {
+    "max_error": 3.060467067772521e-05,
+    "worst": {
+      "track": "LeftForeArmDirection",
+      "channel": "position",
+      "frame": 1,
+      "error": 3.060467067772521e-05
+    },
+    "missing_tracks": []
+  },
+  "control_edit": {
+    "before": 0.016471147537231445,
+    "after": 0.026471147313714027
+  },
+  "control_action_slot": 929201142,
+  "edit_runtime": {
+    "control_location": [
+      0.026471147313714027,
+      -0.17169734835624695,
+      -0.17848020792007446
+    ],
+    "control_world": [
+      0.12484880536794662,
+      0.2459402084350586,
+      1.3236596584320068
+    ],
+    "source_world": [
+      0.12484880536794662,
+      0.2459402084350586,
+      1.3236596584320068
+    ],
+    "constraints": [
+      {
+        "name": "DAT_IK_AUTHOR_LeftHandIKTarget",
+        "enabled": true,
+        "influence": 1.0
+      }
+    ]
+  },
+  "edited_left_target_delta": {
+    "max_error": 0.007791227277836418,
+    "worst": {
+      "track": "LeftHandIKTarget",
+      "channel": "position",
+      "frame": 1,
+      "error": 0.007791227277836418
+    },
+    "missing_tracks": []
+  },
+  "edit_detected": true,
+  "cycle_compare": {
+    "max_error": 0.7686205253862413,
+    "worst": {
+      "track": "RightHandOrigin",
+      "channel": "rotation",
+      "frame": 0,
+      "error": 0.7686205253862413
+    },
+    "missing_tracks": []
+  },
+  "paths": {
+    "raw": "C:\\temp\\dayz_weaponik_corpus\\1911_raw.anm",
+    "sampled": "C:\\temp\\dayz_weaponik_corpus\\1911_sampled.anm",
+    "edited": "C:\\temp\\dayz_weaponik_corpus\\1911_edited.anm",
+    "cycle": "C:\\temp\\dayz_weaponik_corpus\\1911_cycle.anm"
+  }
+}

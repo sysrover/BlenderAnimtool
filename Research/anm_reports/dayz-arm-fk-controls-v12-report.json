@@ -1,0 +1,126 @@
+{
+  "base": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "out": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v12.blend",
+  "addon_module": "C:\\Users\\sysro\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\scripts\\addons\\DayzAnimationTools\\Tools\\AddSurvivorIK.py",
+  "neutral": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 1.4901161193847656e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 7.450580596923828e-09,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 2.2351741790771484e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 5.960464477539063e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 1.2867090135194766e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 1.2867090135194766e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 2.568019619526578e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 2.515605541487654e-07,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "neutral_ok": true,
+  "fk_moved": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 24.999967683107393
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 0.08830719351399774,
+      "rot_delta_deg": 25.00000012650595
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 0.11904157171454507,
+      "rot_delta_deg": 24.999967683107393
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 0.0,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "fk_ok": true,
+  "fk_rig": "DAT_DayZ_Arm_FK_Controls",
+  "created_bones": [
+    "FK_LeftArm.L",
+    "FK_LeftArmRoll.L",
+    "FK_LeftForeArm.L",
+    "FK_LeftForeArmRoll.L",
+    "FK_LeftHand.L",
+    "FK_RightArm.R",
+    "FK_RightArmRoll.R",
+    "FK_RightForeArm.R",
+    "FK_RightForeArmRoll.R",
+    "FK_RightHand.R"
+  ],
+  "active_object": "DAT_DayZ_Arm_FK_Controls",
+  "mode": "OBJECT"
+}

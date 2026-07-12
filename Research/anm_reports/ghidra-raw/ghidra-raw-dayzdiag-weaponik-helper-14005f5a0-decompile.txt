@@ -1,0 +1,75 @@
+
+void FUN_14005f5a0(undefined8 param_1,longlong *param_2,float *param_3,uint param_4)
+
+{
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  float fVar4;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  longlong lVar8;
+  float *pfVar9;
+  uint uVar10;
+  float *pfVar11;
+  longlong lVar12;
+  float local_e8 [3];
+  float local_dc [5];
+  float local_c8;
+  float fStack_c4;
+  float fStack_c0;
+  float fStack_bc;
+  float local_b8;
+  float local_b4;
+  float local_b0;
+  undefined1 local_ac;
+  undefined1 local_ab;
+  undefined1 local_aa;
+  undefined1 local_a9;
+  
+  uVar10 = DAT_140de2b50;
+  pfVar11 = param_3;
+  while (pfVar9 = pfVar11 + 8, pfVar9 < param_3 + (ulonglong)param_4 * 8) {
+    fStack_bc = pfVar11[3];
+    local_ac = *(undefined1 *)(pfVar11 + 7);
+    local_b8 = pfVar11[4];
+    local_b4 = pfVar11[5];
+    local_b0 = pfVar11[6];
+    local_ab = *(undefined1 *)((longlong)pfVar11 + 0x1d);
+    fStack_c4 = (float)((uint)pfVar11[1] ^ uVar10);
+    local_aa = *(undefined1 *)((longlong)pfVar11 + 0x1e);
+    local_c8 = (float)((uint)*pfVar11 ^ uVar10);
+    fStack_c0 = (float)((uint)pfVar11[2] ^ uVar10);
+    local_a9 = *(undefined1 *)((longlong)pfVar11 + 0x1f);
+    pfVar11 = FUN_14013fa00(&local_c8,local_e8,&local_b8);
+    local_b8 = (float)((uint)*pfVar11 ^ uVar10);
+    local_b4 = (float)((uint)pfVar11[1] ^ uVar10);
+    local_b0 = (float)((uint)pfVar11[2] ^ uVar10);
+    pfVar11 = FUN_14013fa00(&local_c8,local_dc,pfVar9 + 4);
+    fVar1 = *pfVar11;
+    fVar2 = pfVar9[2];
+    fVar3 = pfVar9[3];
+    fVar4 = pfVar9[1];
+    fVar5 = *pfVar9;
+    fVar6 = pfVar11[1];
+    fVar7 = pfVar11[2];
+    lVar8 = *param_2;
+    lVar12 = (ulonglong)*(byte *)((longlong)pfVar9 + 0x1d) * 0x20;
+    *(float *)(lVar12 + lVar8) =
+         (fVar3 * local_c8 + fVar5 * fStack_bc + fVar2 * fStack_c4) - fVar4 * fStack_c0;
+    *(float *)(lVar12 + 4 + lVar8) =
+         (fVar4 * fStack_bc + fVar3 * fStack_c4 + fVar5 * fStack_c0) - fVar2 * local_c8;
+    *(float *)(lVar12 + 8 + lVar8) =
+         (fVar2 * fStack_bc + fVar3 * fStack_c0 + fVar4 * local_c8) - fVar5 * fStack_c4;
+    *(float *)(lVar12 + 0xc + lVar8) =
+         ((fVar3 * fStack_bc - fVar5 * local_c8) - fVar4 * fStack_c4) - fVar2 * fStack_c0;
+    *(float *)(lVar12 + 0x10 + lVar8) = local_b8 + fVar1;
+    *(float *)(lVar12 + 0x14 + lVar8) = local_b4 + fVar6;
+    *(float *)(lVar12 + 0x18 + lVar8) = local_b0 + fVar7;
+    pfVar11 = pfVar9;
+  }
+  return;
+}
+
+

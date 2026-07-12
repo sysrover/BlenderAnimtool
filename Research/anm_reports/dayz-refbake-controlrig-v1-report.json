@@ -1,0 +1,233 @@
+{
+  "export_file_before_save": "P:\\Animation_Weapon\\Weapon_template_aks74u_patched_importer_offset.blend",
+  "control_rig": "DAT_ControlRig_RefBakeV1",
+  "created_bones": [
+    "MCH_UpperArm.L",
+    "MCH_ForeArm.L",
+    "MCH_Hand.L",
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "MCH_UpperArm.R",
+    "MCH_ForeArm.R",
+    "MCH_Hand.R",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "removed_old_constraints": [],
+  "follow_constraints": [
+    {
+      "export_bone": "LeftArm",
+      "driver_bone": "MCH_UpperArm.L",
+      "influence": 0.0
+    },
+    {
+      "export_bone": "LeftForeArm",
+      "driver_bone": "MCH_ForeArm.L",
+      "influence": 0.0
+    },
+    {
+      "export_bone": "LeftHand",
+      "driver_bone": "MCH_Hand.L",
+      "influence": 0.0
+    },
+    {
+      "export_bone": "RightArm",
+      "driver_bone": "MCH_UpperArm.R",
+      "influence": 0.0
+    },
+    {
+      "export_bone": "RightForeArm",
+      "driver_bone": "MCH_ForeArm.R",
+      "influence": 0.0
+    },
+    {
+      "export_bone": "RightHand",
+      "driver_bone": "MCH_Hand.R",
+      "influence": 0.0
+    }
+  ],
+  "bake_offsets": {
+    "LeftArm": {
+      "driver_bone": "MCH_UpperArm.L",
+      "offset": [
+        [
+          0.9679461121559143,
+          0.12087120115756989,
+          -0.22015994787216187,
+          0.2986784279346466
+        ],
+        [
+          0.03743494302034378,
+          0.7973567843437195,
+          0.6023457050323486,
+          -0.8363665342330933
+        ],
+        [
+          0.24835240840911865,
+          -0.591279923915863,
+          0.7672737240791321,
+          0.42353013157844543
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "LeftForeArm": {
+      "driver_bone": "MCH_ForeArm.L",
+      "offset": [
+        [
+          0.9799724221229553,
+          -0.17199765145778656,
+          -0.10035187005996704,
+          0.2461681067943573
+        ],
+        [
+          0.01719506084918976,
+          0.5751519203186035,
+          -0.817865788936615,
+          1.3310906887054443
+        ],
+        [
+          0.19838953018188477,
+          0.7997604608535767,
+          0.5665903687477112,
+          0.13485726714134216
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "LeftHand": {
+      "driver_bone": "MCH_Hand.L",
+      "offset": [
+        [
+          0.8527279496192932,
+          0.0029621347784996033,
+          -0.5223469734191895,
+          0.7468496561050415
+        ],
+        [
+          0.3803933560848236,
+          0.6818034648895264,
+          0.6248556971549988,
+          -0.7618431448936462
+        ],
+        [
+          0.35798904299736023,
+          -0.7315294146537781,
+          0.580265998840332,
+          0.9070202708244324
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "RightArm": {
+      "driver_bone": "MCH_UpperArm.R",
+      "offset": [
+        [
+          -0.4725375771522522,
+          -0.7284134030342102,
+          -0.4961075186729431,
+          0.9645823240280151
+        ],
+        [
+          -0.6144084930419922,
+          -0.1312909722328186,
+          0.7779877185821533,
+          -1.0037883520126343
+        ],
+        [
+          -0.6318314075469971,
+          0.672440767288208,
+          -0.3855034410953522,
+          2.0880398750305176
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "RightForeArm": {
+      "driver_bone": "MCH_ForeArm.R",
+      "offset": [
+        [
+          -0.007973942905664444,
+          -0.528052031993866,
+          -0.8491745591163635,
+          1.748767614364624
+        ],
+        [
+          -0.4783029556274414,
+          0.747771680355072,
+          -0.46050339937210083,
+          0.5946387052536011
+        ],
+        [
+          0.8781576752662659,
+          0.4024902284145355,
+          -0.2585331201553345,
+          1.2861435413360596
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "RightHand": {
+      "driver_bone": "MCH_Hand.R",
+      "offset": [
+        [
+          0.41816943883895874,
+          0.20266364514827728,
+          -0.8854731321334839,
+          1.2864973545074463
+        ],
+        [
+          -0.10316132009029388,
+          0.9790829420089722,
+          0.1753702461719513,
+          -0.20769444108009338
+        ],
+        [
+          0.9024925231933594,
+          0.018012074753642082,
+          0.43032917380332947,
+          0.5523081421852112
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "active_export_follow_constraints": [],
+  "control_ik_constraints": [
+    "MCH_ForeArm.L:DAT_REFBAKE_IK_ARM_L:IK:1.0",
+    "MCH_Hand.L:DAT_REFBAKE_COPY_HAND_CTRL_L:COPY_TRANSFORMS:1.0",
+    "MCH_ForeArm.R:DAT_REFBAKE_IK_ARM_R:IK:1.0",
+    "MCH_Hand.R:DAT_REFBAKE_COPY_HAND_CTRL_R:COPY_TRANSFORMS:1.0"
+  ],
+  "saved_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend"
+}

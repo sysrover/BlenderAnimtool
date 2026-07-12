@@ -1,0 +1,30 @@
+===== pattern 80 78 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 80 79 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 80 7a 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 80 7b 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 80 7d 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 80 7e 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 80 7f 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 78 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 79 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 7a 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 7b 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 7c 24 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 7d 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 7e 03 0c =====
+[{"note":"No matches found"}]
+===== pattern 41 80 7f 03 0c =====
+[{"note":"No matches found"}]

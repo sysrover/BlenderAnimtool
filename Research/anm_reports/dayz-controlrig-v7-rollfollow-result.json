@@ -1,0 +1,23 @@
+{
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_controlrig_v7_truejoint_rollfollow.blend",
+  "control_rig": "DAT_ControlRigV7",
+  "added_roll_follow": [
+    {
+      "bone": "LeftArmRoll",
+      "proxy": "IK_Arm.L"
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "proxy": "IK_ForeArm.L"
+    },
+    {
+      "bone": "RightArmRoll",
+      "proxy": "IK_Arm.R"
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "proxy": "IK_ForeArm.R"
+    }
+  ],
+  "note": "v7 is v6 true-joint proxy IK plus rotation follow on DayZ ArmRoll/ForeArmRoll bones, so the DayZ hierarchy between arm and forearm follows the solved segment."
+}

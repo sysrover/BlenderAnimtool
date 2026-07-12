@@ -1,0 +1,194 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_dayz_weaponik_authoring_v3.blend",
+  "frame": 1,
+  "armatures": [
+    {
+      "name": "_DayZ_Character",
+      "hidden": true,
+      "props": {
+        "dayz_weaponik_mode": "ANM authoring mode; DayZDiag preview solver not applied",
+        "dayz_weaponik_modes": "Imported Playback: control constraints muted; Manual Authoring: unmute DayZ WIK Control constraints.",
+        "dayz_arm_authoring_mode": "IK_AUTHORING_CONTROLS",
+        "dayz_arm_fk_control_rig": "DAT_DayZ_Arm_FK_Controls",
+        "dayz_source_action_baked_to_controls": "aks74u.002",
+        "dayz_weaponik_last_solver": "Blender two-stage fixed-length preview over DayZ base pose",
+        "dayz_live_weaponik_solver_visual_mode": "DAYZDIAG_PIPELINE",
+        "dayz_live_weaponik_solver_source": "aks74u.002",
+        "dayz_live_weaponik_solver_base": "p_rfl_erc_idle_ras",
+        "dayz_weaponik_preview_shoulder_clearance": 0.04
+      },
+      "bones": {
+        "RightShoulder": {
+          "head": [
+            0.070257,
+            0.043182,
+            1.339854
+          ],
+          "x": [
+            -0.226886,
+            0.399835,
+            0.888062
+          ],
+          "y": [
+            -0.792417,
+            0.454335,
+            -0.407007
+          ],
+          "z": [
+            -0.566213,
+            -0.79606,
+            0.213754
+          ]
+        },
+        "RightArm": {
+          "head": [
+            0.195922,
+            -0.028127,
+            1.404065
+          ],
+          "x": [
+            0.439123,
+            -0.417631,
+            0.79546
+          ],
+          "y": [
+            -0.845162,
+            0.108306,
+            0.523423
+          ],
+          "z": [
+            -0.304751,
+            -0.902139,
+            -0.305406
+          ]
+        },
+        "RightForeArm": {
+          "head": [
+            0.44102,
+            -0.059537,
+            1.252274
+          ],
+          "x": [
+            0.575824,
+            0.156849,
+            0.802387
+          ],
+          "y": [
+            0.679854,
+            -0.636994,
+            -0.36337
+          ],
+          "z": [
+            0.454121,
+            0.754743,
+            -0.473431
+          ]
+        },
+        "RightHand": {
+          "head": [
+            0.25406,
+            0.115636,
+            1.3522
+          ],
+          "x": [
+            0.976177,
+            -0.079233,
+            0.201992
+          ],
+          "y": [
+            -0.086425,
+            -0.995892,
+            0.027023
+          ],
+          "z": [
+            0.19902,
+            -0.043836,
+            -0.979015
+          ]
+        },
+        "LeftHand": {
+          "head": [
+            0.166796,
+            0.409874,
+            1.342086
+          ],
+          "x": [
+            0.551589,
+            -0.191595,
+            0.811813
+          ],
+          "y": [
+            0.692057,
+            0.64842,
+            -0.317188
+          ],
+          "z": [
+            -0.465624,
+            0.736779,
+            0.490256
+          ]
+        },
+        "RightForeArmDirection": {
+          "head": [
+            0.42844,
+            0.032058,
+            1.250627
+          ],
+          "x": [
+            0.603985,
+            0.271458,
+            0.749341
+          ],
+          "y": [
+            0.709854,
+            -0.610706,
+            -0.350922
+          ],
+          "z": [
+            0.362367,
+            0.743874,
+            -0.561553
+          ]
+        },
+        "LeftForeArmDirection": {
+          "head": [
+            0.002294,
+            0.431756,
+            1.311557
+          ],
+          "x": [
+            0.599825,
+            -0.7402,
+            -0.303833
+          ],
+          "y": [
+            0.769846,
+            0.43041,
+            0.471258
+          ],
+          "z": [
+            -0.218052,
+            -0.516577,
+            0.82801
+          ]
+        }
+      }
+    },
+    {
+      "name": "DAT_ControlRig_RefBakeV1",
+      "hidden": true,
+      "props": {},
+      "bones": {}
+    },
+    {
+      "name": "DAT_DayZ_Arm_FK_Controls",
+      "hidden": true,
+      "props": {
+        "dayz_control_action_source": "aks74u.002",
+        "dayz_control_action_mode": "IK"
+      },
+      "bones": {}
+    }
+  ],
+  "weapon_like": []
+}

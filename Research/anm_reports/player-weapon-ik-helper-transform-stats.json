@@ -1,0 +1,105 @@
+{
+  "source": "P:/DZ/anims/anm/player/ik/weapons/*.anm",
+  "fileCount": 66,
+  "helpers": [
+    {
+      "helper": "RightHand_Dummy",
+      "count": 66,
+      "zeroPos": 0,
+      "onePosKey": 62,
+      "twoPosKey": 4,
+      "rotTwoSame": 65,
+      "posLenMin": 0.043894,
+      "posLenMedian": 0.180448,
+      "posLenMax": 0.262215
+    },
+    {
+      "helper": "LeftHand_Dummy",
+      "count": 66,
+      "zeroPos": 0,
+      "onePosKey": 59,
+      "twoPosKey": 7,
+      "rotTwoSame": 64,
+      "posLenMin": 0.063052,
+      "posLenMedian": 0.108554,
+      "posLenMax": 0.21081
+    },
+    {
+      "helper": "RightHandOrigin",
+      "count": 49,
+      "zeroPos": 3,
+      "onePosKey": 45,
+      "twoPosKey": 4,
+      "rotTwoSame": 40,
+      "posLenMin": 0.0,
+      "posLenMedian": 0.050289,
+      "posLenMax": 0.152507
+    },
+    {
+      "helper": "RightForeArmDirectionOrigin",
+      "count": 48,
+      "zeroPos": 0,
+      "onePosKey": 48,
+      "twoPosKey": 0,
+      "rotTwoSame": 33,
+      "posLenMin": 0.235075,
+      "posLenMedian": 0.274999,
+      "posLenMax": 0.275002
+    },
+    {
+      "helper": "RightForeArmDirection",
+      "count": 49,
+      "zeroPos": 0,
+      "onePosKey": 41,
+      "twoPosKey": 8,
+      "rotTwoSame": 44,
+      "posLenMin": 0.264477,
+      "posLenMedian": 0.274999,
+      "posLenMax": 0.297555
+    },
+    {
+      "helper": "LeftHandIKTarget",
+      "count": 49,
+      "zeroPos": 0,
+      "onePosKey": 44,
+      "twoPosKey": 5,
+      "rotTwoSame": 40,
+      "posLenMin": 0.063052,
+      "posLenMedian": 0.126838,
+      "posLenMax": 0.210809
+    },
+    {
+      "helper": "LeftHandOrigin",
+      "count": 48,
+      "zeroPos": 0,
+      "onePosKey": 44,
+      "twoPosKey": 4,
+      "rotTwoSame": 37,
+      "posLenMin": 0.070345,
+      "posLenMedian": 0.11618,
+      "posLenMax": 0.150432
+    },
+    {
+      "helper": "LeftForeArmDirectionOrigin",
+      "count": 48,
+      "zeroPos": 0,
+      "onePosKey": 48,
+      "twoPosKey": 0,
+      "rotTwoSame": 30,
+      "posLenMin": 0.274997,
+      "posLenMedian": 0.275,
+      "posLenMax": 0.275002
+    },
+    {
+      "helper": "LeftForeArmDirection",
+      "count": 49,
+      "zeroPos": 0,
+      "onePosKey": 45,
+      "twoPosKey": 4,
+      "rotTwoSame": 28,
+      "posLenMin": 0.257331,
+      "posLenMedian": 0.275,
+      "posLenMax": 0.275003
+    }
+  ]
+}

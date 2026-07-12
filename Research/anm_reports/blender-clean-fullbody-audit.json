@@ -1,0 +1,72 @@
+{
+  "mode": "Clean FullBody Only",
+  "active_action": null,
+  "constraints": {
+    "DZ_FirstPersonCamera": [
+      {
+        "name": "Child Of",
+        "type": "CHILD_OF",
+        "mute": false,
+        "influence": 1.0
+      }
+    ]
+  },
+  "non_identity_basis": [
+    "EntityPosition",
+    "Pelvis",
+    "LeftUpLeg",
+    "LeftUpLegRoll",
+    "LeftKneeExtra",
+    "LeftLeg",
+    "LeftLegRoll",
+    "LeftFoot",
+    "LeftToeBase",
+    "RightUpLeg",
+    "RightUpLegRoll",
+    "RightKneeExtra",
+    "RightLeg",
+    "RightLegRoll",
+    "RightFoot",
+    "RightToeBase",
+    "Spine",
+    "Spine1",
+    "Spine2",
+    "Spine3",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftArmRoll",
+    "LeftForeArm",
+    "LeftForeArmRoll",
+    "LeftHand",
+    "LeftWristExtra",
+    "LeftForeArmExtra",
+    "LeftElbowExtra",
+    "LeftArmExtra",
+    "RightShoulder",
+    "RightArm",
+    "RightArmExtra",
+    "RightArmRoll",
+    "RightForeArm",
+    "RightForeArmRoll",
+    "RightHand",
+    "RightWristExtra",
+    "RightForeArmExtra",
+    "RightElbowExtra",
+    "RightHipExtra",
+    "LeftHipExtra",
+    "Collision"
+  ],
+  "nla": [
+    {
+      "track": "NlaTrack",
+      "mute": false,
+      "strip": "p_rfl_erc_idle_ras",
+      "action": "p_rfl_erc_idle_ras",
+      "influence": 1.0,
+      "strip_mute": false
+    }
+  ]
+}

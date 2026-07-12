@@ -1,0 +1,1707 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\FbxAnimResourceTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 12:08:36 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\FbxAnimResourceTrace.java
+Size: 6628 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+PROGRAM workbenchApp.exe
+IMAGE_BASE 140000000
+============================================================
+SYMBOL HITS
+SYMBOL needle=FBXResourceClass addr=141aaeb50 name=enf::FBXResourceClass::vftable_meta_ptr type=Label
+SYMBOL needle=FBXResourceClass addr=141aaeb58 name=enf::FBXResourceClass::vftable type=Label
+SYMBOL needle=FBXResourceClass addr=141aaec20 name=s_FBXResourceClass_141aaec20 type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141aaeef0 name=enf::FBXAnimResourceClass::vftable_meta_ptr type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141aaeef8 name=enf::FBXAnimResourceClass::vftable type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141aaefc0 name=s_FBXAnimResourceClass_141aaefc0 type=Label
+SYMBOL needle=FBXConverter.exe addr=141c5e998 name=s_FBXConverter.exe_-anm_-bin_-simp_141c5e998 type=Label
+SYMBOL needle=FBXResourceClass addr=141c8c498 name=FBXResourceClassWB::vftable_meta_ptr type=Label
+SYMBOL needle=FBXResourceClass addr=141c8c4a0 name=FBXResourceClassWB::vftable type=Label
+SYMBOL needle=FBXResourceClass addr=141c8c568 name=s_FBXResourceClassWB_141c8c568 type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141c8c838 name=FBXAnimResourceClassWB::vftable_meta_ptr type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141c8c840 name=FBXAnimResourceClassWB::vftable type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141c8c908 name=s_FBXAnimResourceClassWB_141c8c908 type=Label
+SYMBOL needle=FbxAnimStack addr=141ca7560 name=s_FbxAnimStack_141ca7560 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141ca7da0 name=s_Import|IncludeGrp|Animation_141ca7da0 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141ca7f40 name=s_Import|IncludeGrp|Animation|Extr_141ca7f40 type=Label
+SYMBOL needle=FbxSkeleton addr=141ca80d0 name=s_FbxSkeleton_141ca80d0 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141ca8348 name=s_Import|IncludeGrp|Animation|Defo_141ca8348 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cb73c0 name=s_Import|IncludeGrp|Animation|Curv_141cb73c0 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cec258 name=s_Import|IncludeGrp|Animation_141cec258 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cef8e0 name=s_Import|IncludeGrp|Animation|Curv_141cef8e0 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cef940 name=s_Import|IncludeGrp|Animation|Curv_141cef940 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cef9a0 name=s_Import|IncludeGrp|Animation|Curv_141cef9a0 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cefa00 name=s_Import|IncludeGrp|Animation|Curv_141cefa00 type=Label
+SYMBOL needle=Import|IncludeGrp|Animation addr=141cefbb0 name=s_Import|IncludeGrp|Animation|Samp_141cefbb0 type=Label
+SYMBOL needle=FBXResourceClass addr=141fafe58 name=enf::FBXResourceClass::RTTI_Complete_Object_Locator type=Label
+SYMBOL needle=FBXResourceClass addr=141fafe80 name=enf::FBXResourceClass::RTTI_Class_Hierarchy_Descriptor type=Label
+SYMBOL needle=FBXResourceClass addr=141fafea0 name=enf::FBXResourceClass::RTTI_Base_Class_Array type=Label
+SYMBOL needle=FBXResourceClass addr=141fafee8 name=enf::FBXResourceClass::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141fb00f8 name=enf::FBXAnimResourceClass::RTTI_Complete_Object_Locator type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141fb0120 name=enf::FBXAnimResourceClass::RTTI_Class_Hierarchy_Descriptor type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141fb0140 name=enf::FBXAnimResourceClass::RTTI_Base_Class_Array type=Label
+SYMBOL needle=FBXAnimResourceClass addr=141fb0188 name=enf::FBXAnimResourceClass::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) type=Label
+SYMBOL needle=FBXResourceClass addr=142065c90 name=FBXResourceClassWB::RTTI_Complete_Object_Locator type=Label
+SYMBOL needle=FBXResourceClass addr=142065cb8 name=FBXResourceClassWB::RTTI_Class_Hierarchy_Descriptor type=Label
+SYMBOL needle=FBXResourceClass addr=142065cd0 name=FBXResourceClassWB::RTTI_Base_Class_Array type=Label
+SYMBOL needle=FBXResourceClass addr=142065d20 name=FBXResourceClassWB::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) type=Label
+SYMBOL needle=FBXAnimResourceClass addr=142065f50 name=FBXAnimResourceClassWB::RTTI_Complete_Object_Locator type=Label
+SYMBOL needle=FBXAnimResourceClass addr=142065f78 name=FBXAnimResourceClassWB::RTTI_Class_Hierarchy_Descriptor type=Label
+SYMBOL needle=FBXAnimResourceClass addr=142065f90 name=FBXAnimResourceClassWB::RTTI_Base_Class_Array type=Label
+SYMBOL needle=FBXAnimResourceClass addr=142065fe0 name=FBXAnimResourceClassWB::RTTI_Base_Class_Descriptor_at_(0,-1,0,64) type=Label
+SYMBOL needle=FBXResourceClass addr=1424e8118 name=enf::FBXResourceClass::RTTI_Type_Descriptor type=Label
+SYMBOL needle=FBXAnimResourceClass addr=1424e81d8 name=enf::FBXAnimResourceClass::RTTI_Type_Descriptor type=Label
+SYMBOL needle=FBXResourceClass addr=14252bf30 name=FBXResourceClassWB::RTTI_Type_Descriptor type=Label
+SYMBOL needle=FBXAnimResourceClass addr=14252bff0 name=FBXAnimResourceClassWB::RTTI_Type_Descriptor type=Label
+============================================================
+DEFINED STRING HITS
+STRING needle=FBXResourceClass addr=141aaec20 text=FBXResourceClass
+  REF from=140f6473d fn=FUN_140f64690@140f64690
+  REF from=140fc4240 fn=FUN_140fc3a70@140fc3a70
+  REF from=140457b60 fn=FUN_140457b60@140457b60
+  REF from=140457b67 fn=FUN_140457b60@140457b60
+STRING needle=FBXAnimResourceClass addr=141aaefc0 text=FBXAnimResourceClass
+  REF from=140f64773 fn=FUN_140f64690@140f64690
+  REF from=140fc429b fn=FUN_140fc3a70@140fc3a70
+  REF from=140457b50 fn=FUN_140457b50@140457b50
+  REF from=140457b57 fn=FUN_140457b50@140457b50
+STRING needle=FBXConverter.exe addr=141c5e998 text=FBXConverter.exe -anm -bin -simplename "%s" "%s/%s"
+  REF from=140ebdf5e fn=FUN_140ebdce0@140ebdce0
+STRING needle=FBXResourceClass addr=141c8c568 text=FBXResourceClassWB
+  REF from=140fce240 fn=FUN_140fce240@140fce240
+  REF from=140fce247 fn=FUN_140fce240@140fce240
+STRING needle=FBXAnimResourceClass addr=141c8c908 text=FBXAnimResourceClassWB
+  REF from=140fce230 fn=FUN_140fce230@140fce230
+  REF from=140fce237 fn=FUN_140fce230@140fce230
+STRING needle=FbxAnimStack addr=141ca7560 text=FbxAnimStack
+  REF from=1410ab6d7 fn=FUN_1410aa960@1410aa960
+STRING needle=Import|IncludeGrp|Animation addr=141ca7da0 text=Import|IncludeGrp|Animation
+  REF from=1410b0e22 fn=FUN_1410b0860@1410b0860
+STRING needle=Convert Animation Curves At: (fps) addr=141ca7eb0 text=Convert Animation Curves At: (fps)
+  REF from=1410b0f28 fn=FUN_1410b0860@1410b0860
+  REF from=1410b0f2f fn=FUN_1410b0860@1410b0860
+STRING needle=Import|IncludeGrp|Animation addr=141ca7f40 text=Import|IncludeGrp|Animation|ExtraGrp
+  REF from=1410b0fdf fn=FUN_1410b0860@1410b0860
+STRING needle=Animation Take addr=141ca7f78 text=Animation Take
+  REF from=1410b1025 fn=FUN_1410b0860@1410b0860
+  REF from=1410b102c fn=FUN_1410b0860@1410b0860
+STRING needle=Bake Animation Layers addr=141ca8070 text=Bake Animation Layers
+  REF from=1410b1167 fn=FUN_1410b0860@1410b0860
+  REF from=1410b116e fn=FUN_1410b0860@1410b0860
+STRING needle=FbxSkeleton addr=141ca80d0 text=FbxSkeleton
+  REF from=1410acc68 fn=FUN_1410aa960@1410aa960
+STRING needle=Import|IncludeGrp|Animation addr=141ca8348 text=Import|IncludeGrp|Animation|Deformation
+  REF from=1410b146a fn=FUN_1410b0860@1410b0860
+STRING needle=Import|IncludeGrp|Animation addr=141cb73c0 text=Import|IncludeGrp|Animation|CurveFilter|CurveFilterApplyCstKeyRed|CurveFilterCstKeyRedRPrec
+  REF from=1410dd250 fn=FUN_1410dcbc0@1410dcbc0
+STRING needle=Import|IncludeGrp|Animation addr=141cec258 text=Import|IncludeGrp|Animation
+  REF from=1411ece87 fn=FUN_1411ec680@1411ec680
+STRING needle=Import|IncludeGrp|Animation addr=141cef8e0 text=Import|IncludeGrp|Animation|CurveFilter|CurveFilterApplyCstKeyRed|CurveFilterCstKeyRedOPrec
+  REF from=14120b0ec fn=FUN_14120b060@14120b060
+STRING needle=Import|IncludeGrp|Animation addr=141cef940 text=Import|IncludeGrp|Animation|CurveFilter|CurveFilterApplyCstKeyRed|CurveFilterCstKeyRedTPrec
+  REF from=14120b100 fn=FUN_14120b060@14120b060
+STRING needle=Import|IncludeGrp|Animation addr=141cef9a0 text=Import|IncludeGrp|Animation|CurveFilter|CurveFilterApplyCstKeyRed|CurveFilterCstKeyRedRPrec
+  REF from=14120b11a fn=FUN_14120b060@14120b060
+STRING needle=Import|IncludeGrp|Animation addr=141cefa00 text=Import|IncludeGrp|Animation|CurveFilter|CurveFilterApplyCstKeyRed|CurveFilterCstKeyRedSPrec
+  REF from=14120b135 fn=FUN_14120b060@14120b060
+STRING needle=Import|IncludeGrp|Animation addr=141cefbb0 text=Import|IncludeGrp|Animation|SamplingPanel|CurveFilterSamplingRate
+  REF from=14120b58b fn=FUN_14120b380@14120b380
+STRING needle=FBXResourceClass addr=1424e8128 text=.?AVFBXResourceClass@enf@@
+STRING needle=FBXAnimResourceClass addr=1424e81e8 text=.?AVFBXAnimResourceClass@enf@@
+STRING needle=FBXResourceClass addr=14252bf40 text=.?AVFBXResourceClassWB@@
+STRING needle=FBXAnimResourceClass addr=14252c000 text=.?AVFBXAnimResourceClassWB@@
+============================================================
+RAW NEEDLE HITS
+RAW needle=FBXAnimResourceClass addr=141aaefc0
+  REF from=140f64773 fn=FUN_140f64690@140f64690
+  REF from=140fc429b fn=FUN_140fc3a70@140fc3a70
+  REF from=140457b50 fn=FUN_140457b50@140457b50
+  REF from=140457b57 fn=FUN_140457b50@140457b50
+RAW needle=FBXAnimResourceClass addr=141c8c908
+  REF from=140fce230 fn=FUN_140fce230@140fce230
+  REF from=140fce237 fn=FUN_140fce230@140fce230
+RAW needle=FBXAnimResourceClass addr=1424e81ec
+RAW needle=FBXAnimResourceClass addr=14252c004
+RAW needle=FBXResourceClass addr=141aaec20
+  REF from=140f6473d fn=FUN_140f64690@140f64690
+  REF from=140fc4240 fn=FUN_140fc3a70@140fc3a70
+  REF from=140457b60 fn=FUN_140457b60@140457b60
+  REF from=140457b67 fn=FUN_140457b60@140457b60
+RAW needle=FBXResourceClass addr=141c8c568
+  REF from=140fce240 fn=FUN_140fce240@140fce240
+  REF from=140fce247 fn=FUN_140fce240@140fce240
+RAW needle=FBXResourceClass addr=1424e812c
+RAW needle=FBXResourceClass addr=14252bf44
+RAW needle=FBXConverter.exe addr=141c5e998
+  REF from=140ebdf5e fn=FUN_140ebdce0@140ebdce0
+RAW needle=Convert Animation Curves At: (fps) addr=141ca7eb0
+  REF from=1410b0f28 fn=FUN_1410b0860@1410b0860
+  REF from=1410b0f2f fn=FUN_1410b0860@1410b0860
+RAW needle=Animation Take addr=141ca7f78
+  REF from=1410b1025 fn=FUN_1410b0860@1410b0860
+  REF from=1410b102c fn=FUN_1410b0860@1410b0860
+RAW needle=Bake Animation Layers addr=141ca8070
+  REF from=1410b1167 fn=FUN_1410b0860@1410b0860
+  REF from=1410b116e fn=FUN_1410b0860@1410b0860
+RAW needle=Import|IncludeGrp|Animation addr=141ca7da0
+  REF from=1410b0e22 fn=FUN_1410b0860@1410b0860
+RAW needle=Import|IncludeGrp|Animation addr=141ca7f40
+  REF from=1410b0fdf fn=FUN_1410b0860@1410b0860
+RAW needle=Import|IncludeGrp|Animation addr=141ca8348
+  REF from=1410b146a fn=FUN_1410b0860@1410b0860
+RAW needle=Import|IncludeGrp|Animation addr=141cb73c0
+  REF from=1410dd250 fn=FUN_1410dcbc0@1410dcbc0
+RAW needle=Import|IncludeGrp|Animation addr=141cec258
+  REF from=1411ece87 fn=FUN_1411ec680@1411ec680
+RAW needle=Import|IncludeGrp|Animation addr=141cef8e0
+  REF from=14120b0ec fn=FUN_14120b060@14120b060
+RAW needle=Import|IncludeGrp|Animation addr=141cef940
+  REF from=14120b100 fn=FUN_14120b060@14120b060
+RAW needle=Import|IncludeGrp|Animation addr=141cef9a0
+  REF from=14120b11a fn=FUN_14120b060@14120b060
+RAW needle=Import|IncludeGrp|Animation addr=141cefa00
+  REF from=14120b135 fn=FUN_14120b060@14120b060
+RAW needle=Import|IncludeGrp|Animation addr=141cefbb0
+  REF from=14120b58b fn=FUN_14120b380@14120b380
+RAW needle=FbxAnimStack addr=141ca7560
+  REF from=1410ab6d7 fn=FUN_1410aa960@1410aa960
+RAW needle=FbxSkeleton addr=141ca80d0
+  REF from=1410acc68 fn=FUN_1410aa960@1410aa960
+============================================================
+------------------------------------------------------------
+FUNCTION_REQUEST 140fc9aa0 -> FUN_140fc9aa0@140fc9aa0
+ENTRY 140fc9aa0
+CALLERS
+  CALLER from=14caa4a50 fn=<none>
+  CALLER from=140f6477d fn=FUN_140f64690@140f64690
+DECOMPILE_BEGIN FUN_140fc9aa0 140fc9aa0
+
+undefined8 * FUN_140fc9aa0(undefined8 *param_1)
+
+{
+  FUN_1404555f0();
+  *param_1 = FBXAnimResourceClassWB::vftable;
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_140fc9aa0 140fc9aa0
+CALLS
+  CALL from=140fc9aa9 ins=CALL 0x1404555f0
+------------------------------------------------------------
+FUNCTION_REQUEST 140fc9ad0 -> FUN_140fc9ad0@140fc9ad0
+ENTRY 140fc9ad0
+CALLERS
+  CALLER from=14caa4a5c fn=<none>
+  CALLER from=140f64747 fn=FUN_140f64690@140f64690
+DECOMPILE_BEGIN FUN_140fc9ad0 140fc9ad0
+
+undefined8 * FUN_140fc9ad0(undefined8 *param_1)
+
+{
+  FUN_1404557a0();
+  *param_1 = FBXResourceClassWB::vftable;
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_140fc9ad0 140fc9ad0
+CALLS
+  CALL from=140fc9ad9 ins=CALL 0x1404557a0
+------------------------------------------------------------
+FUNCTION_REQUEST 140f64690 -> FUN_140f64690@140f64690
+ENTRY 140f64690
+CALLERS
+  CALLER from=14caa172c fn=<none>
+  CALLER from=1419359e0 fn=<none>
+  CALLER from=141c771f8 fn=<none>
+DECOMPILE_BEGIN FUN_140f64690 140f64690
+
+void FUN_140f64690(longlong param_1)
+
+{
+  longlong *plVar1;
+  longlong lVar2;
+  undefined8 *puVar3;
+  undefined8 *puVar4;
+  void *pvVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  undefined1 local_res10 [8];
+  
+  plVar1 = DAT_1425b7658;
+  lVar2 = FUN_14050dc90(0x70);
+  puVar7 = (undefined8 *)0x0;
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9c50(lVar2,"XOBResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9bf0(lVar2,"TXOResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9ad0(lVar2,"FBXResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9aa0(lVar2,"FBXAnimResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9a10(lVar2,"EDDSResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"DDSResourceClass");
+    *puVar4 = DDSResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"TGAResourceClass");
+    *puVar4 = TGAResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"PNGResourceClass");
+    *puVar4 = PNGResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"HDRResourceClass");
+    *puVar4 = HDRResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"PAAResourceClass");
+    *puVar4 = PAAResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"JPGResourceClass");
+    *puVar4 = JPGResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  puVar4 = (undefined8 *)FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (puVar4 != (undefined8 *)0x0) {
+    FUN_140455ba0(puVar4,"TIFFResourceClass");
+    *puVar4 = TIFFResourceClassWB::vftable;
+    puVar3 = puVar4;
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc98c0(lVar2,"ANMResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9bc0(lVar2,"TXAResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9a40(lVar2,"EMATResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9b60(lVar2,"PTCResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9b30(lVar2,"OGGResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9c20(lVar2,"WAVResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9b00(lVar2,"FNTResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9a70(lVar2,"EntityTemplateResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc99e0(lVar2,"ComponentTemplateResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140455440(lVar2,"AnimWorkspaceResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9b90(lVar2,"ResourceClass");
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc98f0(lVar2);
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9980(lVar2);
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9920(lVar2);
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc9950(lVar2);
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  lVar2 = FUN_14050dc90(0x70);
+  puVar3 = puVar7;
+  if (lVar2 != 0) {
+    puVar3 = (undefined8 *)FUN_140fc99b0(lVar2);
+  }
+  (**(code **)(*plVar1 + 0xd0))(plVar1,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141aaddc8,1,1,uVar6,3,0,"Runtime format of a mesh object.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141aaeb4c,2,1,uVar6,0x20,
+                           ":/Workbench/ScriptEditor/fileIcon.png",
+                           "Intermediate textual format of an mesh object.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141aaec34,1,1,0,0,0,"Source mesh object file type.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,&DAT_141bde4fc,1,1,0,0,0,"RV engine object model.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141f78204,5,3,uVar6,0x3f,
+                           ":/Workbench/MaterialEditor/normalIcon.png","Material definition file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c6fd58,4,2,uVar6,0x13,0,"Source format of a texture file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141f77428,3,2,uVar6,0x13,0,"Runtime format of a texture.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141bde504,4,2,uVar6,0x12,0,"Source format of a texture file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141bde500,4,2,uVar6,0x12,0,"Source format of a texture file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141bde51c,4,2,uVar6,0x12,0,"Source format of a texture file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141bde518,4,2,uVar6,0x12,0,"Source format of a texture file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c6fd5c,4,2,uVar6,0x12,0,"Source format of a texture file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a756d0,6,4,uVar6,1,0,"Runtime animation data format.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a756d4,7,4,uVar6,0x20,
+                           ":/Workbench/ScriptEditor/fileIcon.png",
+                           "Intermediate format of an animation data.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ParticleEditor_142372860);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141aaddcc,0xe,5,uVar6,0x23,0,
+                           "Runtime format of a particle effect.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_WorldEditor_142373538);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c46888,0x16,8,uVar6,0x20,
+                           ":/Workbench/ScriptEditor/fileIcon.png","World definition file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_WorldEditor_142373538);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,PTR_DAT_14231c718,0x17,9,uVar6,0x23,
+                           ":/Workbench/WorldEditor/Entity/entityTemplate.png","Entity prefab file."
+                          );
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_WorldEditor_142373538);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,PTR_DAT_14231c720,0x18,9,uVar6,0x21,
+                           ":/Workbench/WorldEditor/Entity/componentTemplate.png",
+                           "Component prefab file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,"layout",0xf,6,uVar6,0x2f,
+                           ":/Workbench/GuiLayoutEditor/normalIcon.png",
+                           "GUI layout definition file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,"imageset",0x10,6,uVar6,0x2f,
+                           ":/Workbench/ImageSetEditor/normalIcon.png","Atlas file of GUI images.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,"styles",0x11,6,uVar6,0x2f,
+                           ":/Workbench/WidgetStyleEditor/normalIcon.png","Style definition file");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141aaf464,0x12,6,0,3,
+                           ":/Workbench/FontEditor/FontEditor16.png","Runtime format of a font.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c779e4,0x12,6,0,2,
+                           ":/Workbench/FontEditor/FontEditor16.png",
+                           "Source format of a TrueType font.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c77a0c,0x12,6,0,2,
+                           ":/Workbench/FontEditor/FontEditor16.png",
+                           "Source format of an OpenType font.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ScriptEditor_1423730c0);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a7ac60,0x13,7,uVar6,0x27,0,"Enforce Script file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ScriptEditor_1423730c0);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c77a48,0x15,7,uVar6,0x21,
+                           ":/Workbench/ScriptEditor/fileIcon.png","Enforce Script Solution file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ScriptEditor_1423730c0);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,"sproj",0x14,7,uVar6,0x21,":/Workbench/ScriptEditor/fileIcon.png",
+                           "Enforce Script Project file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a756c0,8,4,uVar6,0x25,0,"Animation workspace file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141f6a7b0,9,4,uVar6,0x25,0,"Animation graph file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141f6a7cc,10,4,uVar6,0x25,0,"Animation set instance file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a756cc,0xb,4,uVar6,0x25,0,"Animation event table.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a756c8,0xc,4,uVar6,0x25,0,"Animation sync table.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AnimEditor_142371250);
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141a756c4,0xd,4,uVar6,0x25,0,"Animation set table.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_ResourceManager_142372f10);
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,&DAT_141a7a630,0x19,10,uVar6,3,0,"Sound file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)FUN_1402646d0(local_res10);
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AudioEditor_142371e48);
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,*puVar3,0x19,10,uVar6,0x21,0,"Audio bank.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)FUN_140264700(local_res10);
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AudioEditor_142371e48);
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,*puVar3,0x19,10,uVar6,0x21,0,"Audio shader");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)FUN_1402646e0(local_res10);
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AudioEditor_142371e48);
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,*puVar3,0x19,10,uVar6,0x21,0,"Audio category.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)FUN_1402646f0(local_res10);
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AudioEditor_142371e48);
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,*puVar3,0x19,10,uVar6,0x21,0,"Audio project.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)FUN_140264710(local_res10);
+    uVar6 = FUN_140f5fec0(param_1,PTR_s_AudioEditor_142371e48);
+    puVar3 = (undefined8 *)FUN_140f4e7a0(pvVar5,*puVar3,0x19,10,uVar6,0x21,0,"Audio signal.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141bacaf4,0,0,0,0x20,":/Workbench/ScriptEditor/fileIcon.png",
+                           &DAT_141f68c1a);
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c77b78,0,0,0,0x20,":/Workbench/ScriptEditor/fileIcon.png",
+                           &DAT_141f68c1a);
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,"gproj",0,0,0,0x20,":/Workbench/ScriptEditor/fileIcon.png",
+                           "Game project settings file.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141b4efcc,0,0,0,0x20,":/Workbench/ScriptEditor/fileIcon.png",
+                           &DAT_141f68c1a);
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  puVar3 = puVar7;
+  if (pvVar5 != (void *)0x0) {
+    puVar3 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141c77bc8,0,0,0,0x20,":/Workbench/ScriptEditor/fileIcon.png",
+                           "Configuration file (inputs, menu etc.).");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar3);
+  pvVar5 = operator_new(0x30);
+  if (pvVar5 != (void *)0x0) {
+    puVar7 = (undefined8 *)
+             FUN_140f4e7a0(pvVar5,&DAT_141ab0b28,0,0,0,0x20,":/Workbench/ScriptEditor/fileIcon.png",
+                           "Enforce Script virtual machine instructions.");
+  }
+  FUN_140f4eea0(param_1 + 0x18,puVar7);
+  return;
+}
+
+
+DECOMPILE_END FUN_140f64690 140f64690
+CALLS
+  CALL from=140f646c1 ins=CALL 0x14050dc90
+  CALL from=140f646db ins=CALL 0x140fc9c50
+  CALL from=140f646ee ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f646f9 ins=CALL 0x14050dc90
+  CALL from=140f64711 ins=CALL 0x140fc9bf0
+  CALL from=140f64724 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f6472f ins=CALL 0x14050dc90
+  CALL from=140f64747 ins=CALL 0x140fc9ad0
+  CALL from=140f6475a ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64765 ins=CALL 0x14050dc90
+  CALL from=140f6477d ins=CALL 0x140fc9aa0
+  CALL from=140f64790 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f6479b ins=CALL 0x14050dc90
+  CALL from=140f647b3 ins=CALL 0x140fc9a10
+  CALL from=140f647c6 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f647d1 ins=CALL 0x14050dc90
+  CALL from=140f647ec ins=CALL 0x140455ba0
+  CALL from=140f64809 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64814 ins=CALL 0x14050dc90
+  CALL from=140f6482f ins=CALL 0x140455ba0
+  CALL from=140f6484c ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64857 ins=CALL 0x14050dc90
+  CALL from=140f64872 ins=CALL 0x140455ba0
+  CALL from=140f6488f ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f6489a ins=CALL 0x14050dc90
+  CALL from=140f648b5 ins=CALL 0x140455ba0
+  CALL from=140f648d2 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f648dd ins=CALL 0x14050dc90
+  CALL from=140f648f8 ins=CALL 0x140455ba0
+  CALL from=140f64915 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64920 ins=CALL 0x14050dc90
+  CALL from=140f6493b ins=CALL 0x140455ba0
+  CALL from=140f64958 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64963 ins=CALL 0x14050dc90
+  CALL from=140f6497e ins=CALL 0x140455ba0
+  CALL from=140f6499b ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f649a6 ins=CALL 0x14050dc90
+  CALL from=140f649be ins=CALL 0x140fc98c0
+  CALL from=140f649d1 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f649dc ins=CALL 0x14050dc90
+  CALL from=140f649f4 ins=CALL 0x140fc9bc0
+  CALL from=140f64a07 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64a12 ins=CALL 0x14050dc90
+  CALL from=140f64a2a ins=CALL 0x140fc9a40
+  CALL from=140f64a3d ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64a48 ins=CALL 0x14050dc90
+  CALL from=140f64a60 ins=CALL 0x140fc9b60
+  CALL from=140f64a73 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64a7e ins=CALL 0x14050dc90
+  CALL from=140f64a96 ins=CALL 0x140fc9b30
+  CALL from=140f64aa9 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64ab4 ins=CALL 0x14050dc90
+  CALL from=140f64acc ins=CALL 0x140fc9c20
+  CALL from=140f64adf ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64aea ins=CALL 0x14050dc90
+  CALL from=140f64b02 ins=CALL 0x140fc9b00
+  CALL from=140f64b15 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64b20 ins=CALL 0x14050dc90
+  CALL from=140f64b38 ins=CALL 0x140fc9a70
+  CALL from=140f64b4b ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64b56 ins=CALL 0x14050dc90
+  CALL from=140f64b6e ins=CALL 0x140fc99e0
+  CALL from=140f64b81 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64b8c ins=CALL 0x14050dc90
+  CALL from=140f64ba4 ins=CALL 0x140455440
+  CALL from=140f64bb7 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64bc2 ins=CALL 0x14050dc90
+  CALL from=140f64bda ins=CALL 0x140fc9b90
+  CALL from=140f64bed ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64bf8 ins=CALL 0x14050dc90
+  CALL from=140f64c09 ins=CALL 0x140fc98f0
+  CALL from=140f64c1c ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64c27 ins=CALL 0x14050dc90
+  CALL from=140f64c38 ins=CALL 0x140fc9980
+  CALL from=140f64c4b ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64c56 ins=CALL 0x14050dc90
+  CALL from=140f64c67 ins=CALL 0x140fc9920
+  CALL from=140f64c7a ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64c85 ins=CALL 0x14050dc90
+  CALL from=140f64c96 ins=CALL 0x140fc9950
+  CALL from=140f64ca9 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64cb4 ins=CALL 0x14050dc90
+  CALL from=140f64cc5 ins=CALL 0x140fc99b0
+  CALL from=140f64cd8 ins=CALL qword ptr [RAX + 0xd0]
+  CALL from=140f64ce3 ins=CALL 0x14180c3c8
+  CALL from=140f64cfe ins=CALL 0x140f5fec0
+  CALL from=140f64d34 ins=CALL 0x140f4e7a0
+  CALL from=140f64d45 ins=CALL 0x140f4eea0
+  CALL from=140f64d4f ins=CALL 0x14180c3c8
+  CALL from=140f64d71 ins=CALL 0x140f5fec0
+  CALL from=140f64da8 ins=CALL 0x140f4e7a0
+  CALL from=140f64db9 ins=CALL 0x140f4eea0
+  CALL from=140f64dc3 ins=CALL 0x14180c3c8
+  CALL from=140f64dfe ins=CALL 0x140f4e7a0
+  CALL from=140f64e0f ins=CALL 0x140f4eea0
+  CALL from=140f64e19 ins=CALL 0x14180c3c8
+  CALL from=140f64e54 ins=CALL 0x140f4e7a0
+  CALL from=140f64e65 ins=CALL 0x140f4eea0
+  CALL from=140f64e6f ins=CALL 0x14180c3c8
+  CALL from=140f64e8a ins=CALL 0x140f5fec0
+  CALL from=140f64ec8 ins=CALL 0x140f4e7a0
+  CALL from=140f64ed9 ins=CALL 0x140f4eea0
+  CALL from=140f64ee3 ins=CALL 0x14180c3c8
+  CALL from=140f64f05 ins=CALL 0x140f5fec0
+  CALL from=140f64f35 ins=CALL 0x140f4e7a0
+  CALL from=140f64f46 ins=CALL 0x140f4eea0
+  CALL from=140f64f50 ins=CALL 0x14180c3c8
+  CALL from=140f64f6b ins=CALL 0x140f5fec0
+  CALL from=140f64fa2 ins=CALL 0x140f4e7a0
+  CALL from=140f64fb3 ins=CALL 0x140f4eea0
+  CALL from=140f64fbd ins=CALL 0x14180c3c8
+  CALL from=140f64fd8 ins=CALL 0x140f5fec0
+  CALL from=140f65008 ins=CALL 0x140f4e7a0
+  CALL from=140f65019 ins=CALL 0x140f4eea0
+  CALL from=140f65023 ins=CALL 0x14180c3c8
+  CALL from=140f6503e ins=CALL 0x140f5fec0
+  CALL from=140f6506e ins=CALL 0x140f4e7a0
+  CALL from=140f6507f ins=CALL 0x140f4eea0
+  CALL from=140f65089 ins=CALL 0x14180c3c8
+  CALL from=140f650a4 ins=CALL 0x140f5fec0
+  CALL from=140f650d4 ins=CALL 0x140f4e7a0
+  CALL from=140f650e5 ins=CALL 0x140f4eea0
+  CALL from=140f650ef ins=CALL 0x14180c3c8
+  CALL from=140f6510a ins=CALL 0x140f5fec0
+  CALL from=140f6513a ins=CALL 0x140f4e7a0
+  CALL from=140f6514b ins=CALL 0x140f4eea0
+  CALL from=140f65155 ins=CALL 0x14180c3c8
+  CALL from=140f65170 ins=CALL 0x140f5fec0
+  CALL from=140f651a0 ins=CALL 0x140f4e7a0
+  CALL from=140f651b1 ins=CALL 0x140f4eea0
+  CALL from=140f651bb ins=CALL 0x14180c3c8
+  CALL from=140f651d6 ins=CALL 0x140f5fec0
+  CALL from=140f6520d ins=CALL 0x140f4e7a0
+  CALL from=140f6521e ins=CALL 0x140f4eea0
+  CALL from=140f65228 ins=CALL 0x14180c3c8
+  CALL from=140f65243 ins=CALL 0x140f5fec0
+  CALL from=140f6527a ins=CALL 0x140f4e7a0
+  CALL from=140f6528b ins=CALL 0x140f4eea0
+  CALL from=140f65295 ins=CALL 0x14180c3c8
+  CALL from=140f652b0 ins=CALL 0x140f5fec0
+  CALL from=140f652e7 ins=CALL 0x140f4e7a0
+  CALL from=140f652f8 ins=CALL 0x140f4eea0
+  CALL from=140f65302 ins=CALL 0x14180c3c8
+  CALL from=140f6531d ins=CALL 0x140f5fec0
+  CALL from=140f65354 ins=CALL 0x140f4e7a0
+  CALL from=140f65365 ins=CALL 0x140f4eea0
+  CALL from=140f6536f ins=CALL 0x14180c3c8
+  CALL from=140f6538a ins=CALL 0x140f5fec0
+  CALL from=140f653c8 ins=CALL 0x140f4e7a0
+  CALL from=140f653d9 ins=CALL 0x140f4eea0
+  CALL from=140f653e3 ins=CALL 0x14180c3c8
+  CALL from=140f653fe ins=CALL 0x140f5fec0
+  CALL from=140f6543c ins=CALL 0x140f4e7a0
+  CALL from=140f6544d ins=CALL 0x140f4eea0
+  CALL from=140f65457 ins=CALL 0x14180c3c8
+  CALL from=140f65472 ins=CALL 0x140f5fec0
+  CALL from=140f654b0 ins=CALL 0x140f4e7a0
+  CALL from=140f654c1 ins=CALL 0x140f4eea0
+  CALL from=140f654cb ins=CALL 0x14180c3c8
+  CALL from=140f654e6 ins=CALL 0x140f5fec0
+  CALL from=140f65524 ins=CALL 0x140f4e7a0
+  CALL from=140f65535 ins=CALL 0x140f4eea0
+  CALL from=140f6553f ins=CALL 0x14180c3c8
+  CALL from=140f6555a ins=CALL 0x140f5fec0
+  CALL from=140f65598 ins=CALL 0x140f4e7a0
+  CALL from=140f655a9 ins=CALL 0x140f4eea0
+  CALL from=140f655b3 ins=CALL 0x14180c3c8
+  CALL from=140f655fa ins=CALL 0x140f4e7a0
+  CALL from=140f6560b ins=CALL 0x140f4eea0
+  CALL from=140f65615 ins=CALL 0x14180c3c8
+  CALL from=140f65655 ins=CALL 0x140f4e7a0
+  CALL from=140f65666 ins=CALL 0x140f4eea0
+  CALL from=140f65670 ins=CALL 0x14180c3c8
+  CALL from=140f656b0 ins=CALL 0x140f4e7a0
+  CALL from=140f656c1 ins=CALL 0x140f4eea0
+  CALL from=140f656cb ins=CALL 0x14180c3c8
+  CALL from=140f656e6 ins=CALL 0x140f5fec0
+  CALL from=140f6571d ins=CALL 0x140f4e7a0
+  CALL from=140f6572e ins=CALL 0x140f4eea0
+  CALL from=140f65738 ins=CALL 0x14180c3c8
+  CALL from=140f65753 ins=CALL 0x140f5fec0
+  CALL from=140f6578a ins=CALL 0x140f4e7a0
+  CALL from=140f6579b ins=CALL 0x140f4eea0
+  CALL from=140f657a5 ins=CALL 0x14180c3c8
+  CALL from=140f657c0 ins=CALL 0x140f5fec0
+  CALL from=140f657f7 ins=CALL 0x140f4e7a0
+  CALL from=140f65808 ins=CALL 0x140f4eea0
+  CALL from=140f65812 ins=CALL 0x14180c3c8
+  CALL from=140f6582d ins=CALL 0x140f5fec0
+  CALL from=140f65864 ins=CALL 0x140f4e7a0
+  CALL from=140f65875 ins=CALL 0x140f4eea0
+  CALL from=140f6587f ins=CALL 0x14180c3c8
+  CALL from=140f6589a ins=CALL 0x140f5fec0
+  CALL from=140f658d1 ins=CALL 0x140f4e7a0
+  CALL from=140f658e2 ins=CALL 0x140f4eea0
+  CALL from=140f658ec ins=CALL 0x14180c3c8
+  CALL from=140f65907 ins=CALL 0x140f5fec0
+  CALL from=140f6593e ins=CALL 0x140f4e7a0
+  CALL from=140f6594f ins=CALL 0x140f4eea0
+  CALL from=140f65959 ins=CALL 0x14180c3c8
+  CALL from=140f65974 ins=CALL 0x140f5fec0
+  CALL from=140f659ab ins=CALL 0x140f4e7a0
+  CALL from=140f659bc ins=CALL 0x140f4eea0
+  CALL from=140f659c6 ins=CALL 0x14180c3c8
+  CALL from=140f659e1 ins=CALL 0x140f5fec0
+  CALL from=140f65a18 ins=CALL 0x140f4e7a0
+  CALL from=140f65a29 ins=CALL 0x140f4eea0
+  CALL from=140f65a33 ins=CALL 0x14180c3c8
+  CALL from=140f65a4e ins=CALL 0x140f5fec0
+  CALL from=140f65a85 ins=CALL 0x140f4e7a0
+  CALL from=140f65a96 ins=CALL 0x140f4eea0
+  CALL from=140f65aa0 ins=CALL 0x14180c3c8
+  CALL from=140f65abb ins=CALL 0x140f5fec0
+  CALL from=140f65af2 ins=CALL 0x140f4e7a0
+  CALL from=140f65b03 ins=CALL 0x140f4eea0
+  CALL from=140f65b0d ins=CALL 0x14180c3c8
+  CALL from=140f65b22 ins=CALL 0x1402646d0
+  CALL from=140f65b34 ins=CALL 0x140f5fec0
+  CALL from=140f65b67 ins=CALL 0x140f4e7a0
+  CALL from=140f65b78 ins=CALL 0x140f4eea0
+  CALL from=140f65b82 ins=CALL 0x14180c3c8
+  CALL from=140f65b97 ins=CALL 0x140264700
+  CALL from=140f65ba9 ins=CALL 0x140f5fec0
+  CALL from=140f65bdc ins=CALL 0x140f4e7a0
+  CALL from=140f65bed ins=CALL 0x140f4eea0
+  CALL from=140f65bf7 ins=CALL 0x14180c3c8
+  CALL from=140f65c0c ins=CALL 0x1402646e0
+  CALL from=140f65c1e ins=CALL 0x140f5fec0
+  CALL from=140f65c51 ins=CALL 0x140f4e7a0
+  CALL from=140f65c62 ins=CALL 0x140f4eea0
+  CALL from=140f65c6c ins=CALL 0x14180c3c8
+  CALL from=140f65c81 ins=CALL 0x1402646f0
+  CALL from=140f65c93 ins=CALL 0x140f5fec0
+  CALL from=140f65cc6 ins=CALL 0x140f4e7a0
+  CALL from=140f65cd7 ins=CALL 0x140f4eea0
+  CALL from=140f65ce1 ins=CALL 0x14180c3c8
+  CALL from=140f65cf6 ins=CALL 0x140264710
+  CALL from=140f65d08 ins=CALL 0x140f5fec0
+  CALL from=140f65d3b ins=CALL 0x140f4e7a0
+  CALL from=140f65d4c ins=CALL 0x140f4eea0
+  CALL from=140f65d56 ins=CALL 0x14180c3c8
+  CALL from=140f65d92 ins=CALL 0x140f4e7a0
+  CALL from=140f65da3 ins=CALL 0x140f4eea0
+  CALL from=140f65dad ins=CALL 0x14180c3c8
+  CALL from=140f65de2 ins=CALL 0x140f4e7a0
+  CALL from=140f65df3 ins=CALL 0x140f4eea0
+  CALL from=140f65dfd ins=CALL 0x14180c3c8
+  CALL from=140f65e39 ins=CALL 0x140f4e7a0
+  CALL from=140f65e4a ins=CALL 0x140f4eea0
+  CALL from=140f65e54 ins=CALL 0x14180c3c8
+  CALL from=140f65e89 ins=CALL 0x140f4e7a0
+  CALL from=140f65e9a ins=CALL 0x140f4eea0
+  CALL from=140f65ea4 ins=CALL 0x14180c3c8
+  CALL from=140f65ee0 ins=CALL 0x140f4e7a0
+  CALL from=140f65ef1 ins=CALL 0x140f4eea0
+  CALL from=140f65efb ins=CALL 0x14180c3c8
+  CALL from=140f65f37 ins=CALL 0x140f4e7a0
+  CALL from=140f65f5e ins=JMP 0x140f4eea0
+------------------------------------------------------------
+FUNCTION_REQUEST 140ebdce0 -> FUN_140ebdce0@140ebdce0
+ENTRY 140ebdce0
+CALLERS
+  CALLER from=14ca9be28 fn=<none>
+  CALLER from=140ebb741 fn=FUN_140eba9d0@140eba9d0
+  CALLER from=140ebb748 fn=FUN_140eba9d0@140eba9d0
+DECOMPILE_BEGIN FUN_140ebdce0 140ebdce0
+
+/* WARNING: Function: _alloca_probe replaced with injection: alloca_probe */
+
+void FUN_140ebdce0(undefined8 param_1)
+
+{
+  int iVar1;
+  uint uVar2;
+  QString *pQVar3;
+  QString *pQVar4;
+  QFileInfo *this;
+  QByteArray *pQVar5;
+  QDir *this_00;
+  QByteArray *this_01;
+  QByteArray *this_02;
+  char *pcVar6;
+  char *pcVar7;
+  char *pcVar8;
+  uint uVar9;
+  Data *local_res18;
+  QString local_res20 [8];
+  QString local_1118 [8];
+  QString local_1110 [8];
+  QString local_1108 [8];
+  QString local_1100 [8];
+  QString local_10f8 [8];
+  QString local_10f0 [8];
+  QString local_10e8 [8];
+  QByteArray local_10e0 [8];
+  QByteArray local_10d8 [8];
+  QString local_10d0 [8];
+  QDir local_10c8 [8];
+  QByteArray local_10c0 [8];
+  QString local_10b8 [8];
+  QFileInfo local_10b0 [8];
+  QByteArray local_10a8 [8];
+  undefined8 local_10a0;
+  QFileDialog local_1098 [48];
+  QFileDialog local_1068 [48];
+  char local_1038 [4088];
+  undefined8 uStack_40;
+  
+  uStack_40 = 0x140ebdcfe;
+  local_10a0 = 0xfffffffffffffffe;
+  QString::QString(local_1118,"Fbx (*.fbx)");
+  QString::QString(local_res20,"Export Fbx");
+  pQVar3 = (QString *)QString::QString(local_10f8);
+  QFileDialog::QFileDialog(local_1068,(QWidget *)0x0,local_res20,pQVar3,local_1118);
+  QString::~QString(local_10f8);
+  QString::~QString(local_res20);
+  QString::~QString(local_1118);
+  QFileDialog::setFileMode(local_1068,3);
+  iVar1 = QDialog::exec((QDialog *)local_1068);
+  if (iVar1 == 0) goto LAB_140ebe117;
+  QString::QString(local_1110,"Destination Folder");
+  pQVar3 = (QString *)QString::QString(local_10e8);
+  pQVar4 = (QString *)QString::QString(local_10f0);
+  QFileDialog::QFileDialog(local_1098,(QWidget *)0x0,local_1110,pQVar4,pQVar3);
+  QString::~QString(local_10f0);
+  QString::~QString(local_10e8);
+  QString::~QString(local_1110);
+  QFileDialog::setFileMode(local_1098,2);
+  iVar1 = QDialog::exec((QDialog *)local_1098);
+  if (iVar1 != 0) {
+    QFileDialog::selectedFiles(local_1068);
+    uVar9 = 0;
+    iVar1 = QListData::size((QListData *)&local_res18);
+    if (iVar1 != 0) {
+      do {
+        if (1 < *(uint *)local_res18) {
+          FUN_140d5fe10(&local_res18,*(uint *)(local_res18 + 4));
+        }
+        pQVar3 = (QString *)QListData::at((QListData *)&local_res18,uVar9);
+        this = (QFileInfo *)QFileInfo::QFileInfo(local_10b0,pQVar3);
+        pQVar3 = (QString *)QFileInfo::fileName(this);
+        pQVar5 = (QByteArray *)QString::toLatin1(pQVar3);
+        this_00 = (QDir *)QFileDialog::directory(local_1098);
+        pQVar3 = (QString *)QDir::absolutePath(this_00);
+        this_01 = (QByteArray *)QString::toLatin1(pQVar3);
+        if (1 < *(uint *)local_res18) {
+          FUN_140d5fe10(&local_res18,*(uint *)(local_res18 + 4));
+        }
+        pQVar3 = (QString *)QListData::at((QListData *)&local_res18,uVar9);
+        this_02 = (QByteArray *)QString::toLatin1(pQVar3);
+        pcVar6 = QByteArray::operator_char_const____ptr64(pQVar5);
+        pcVar7 = QByteArray::operator_char_const____ptr64(this_01);
+        pcVar8 = QByteArray::operator_char_const____ptr64(this_02);
+        FUN_140092000(local_1038,"FBXConverter.exe -anm -bin -simplename \"%s\" \"%s/%s\"",pcVar8,
+                      pcVar7,pcVar6);
+        QByteArray::~QByteArray(local_10e0);
+        QByteArray::~QByteArray(local_10d8);
+        QString::~QString(local_10d0);
+        QDir::~QDir(local_10c8);
+        QByteArray::~QByteArray(local_10c0);
+        QString::~QString(local_10b8);
+        QFileInfo::~QFileInfo(local_10b0);
+        iVar1 = system(local_1038);
+        if (iVar1 != 0) {
+          if (1 < *(uint *)local_res18) {
+            FUN_140d5fe10(&local_res18,*(uint *)(local_res18 + 4));
+          }
+          pQVar3 = (QString *)QListData::at((QListData *)&local_res18,uVar9);
+          pQVar5 = (QByteArray *)QString::toLatin1(pQVar3);
+          pcVar7 = QByteArray::operator_char_const____ptr64(pQVar5);
+          FUN_140092000(local_1038,"Cannot convert \'%s\'",pcVar7);
+          QByteArray::~QByteArray(local_10a8);
+          QString::QString(local_1100,local_1038);
+          QString::QString(local_1108,"Error");
+          QMessageBox::critical
+                    (param_1,local_1108,local_1100,0x400,(ulonglong)pcVar6 & 0xffffffff00000000);
+          QString::~QString(local_1108);
+          QString::~QString(local_1100);
+        }
+        uVar9 = uVar9 + 1;
+        uVar2 = QListData::size((QListData *)&local_res18);
+      } while (uVar9 < uVar2);
+    }
+    if (*(int *)local_res18 == 0) {
+LAB_140ebe0d3:
+      iVar1 = *(int *)(local_res18 + 8);
+      pQVar3 = (QString *)(local_res18 + ((longlong)*(int *)(local_res18 + 0xc) + 2) * 8);
+      while (pQVar3 != (QString *)(local_res18 + ((longlong)iVar1 + 2) * 8)) {
+        pQVar3 = pQVar3 + -8;
+        QString::~QString(pQVar3);
+      }
+      QListData::dispose(local_res18);
+    }
+    else if (*(int *)local_res18 != -1) {
+      LOCK();
+      iVar1 = *(int *)local_res18;
+      *(int *)local_res18 = *(int *)local_res18 + -1;
+      UNLOCK();
+      if (iVar1 == 1) goto LAB_140ebe0d3;
+    }
+  }
+  QFileDialog::~QFileDialog(local_1098);
+LAB_140ebe117:
+  QFileDialog::~QFileDialog(local_1068);
+  return;
+}
+
+
+DECOMPILE_END FUN_140ebdce0 140ebdce0
+CALLS
+  CALL from=140ebdcf9 ins=CALL 0x14180c420
+  CALL from=140ebdd20 ins=CALL qword ptr [0x141927df0]
+  CALL from=140ebdd35 ins=CALL qword ptr [0x141927df0]
+  CALL from=140ebdd41 ins=CALL qword ptr [0x141927d78]
+  CALL from=140ebdd62 ins=CALL qword ptr [0x14192b4c8]
+  CALL from=140ebdd6e ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebdd7c ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebdd88 ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebdd97 ins=CALL qword ptr [0x14192b4f0]
+  CALL from=140ebdda1 ins=CALL qword ptr [0x141929f88]
+  CALL from=140ebddbb ins=CALL qword ptr [0x141927df0]
+  CALL from=140ebddc7 ins=CALL qword ptr [0x141927d78]
+  CALL from=140ebddd5 ins=CALL qword ptr [0x141927d78]
+  CALL from=140ebddef ins=CALL qword ptr [0x14192b4c8]
+  CALL from=140ebddfb ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebde07 ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebde13 ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebde22 ins=CALL qword ptr [0x14192b4f0]
+  CALL from=140ebde2c ins=CALL qword ptr [0x141929f88]
+  CALL from=140ebde45 ins=CALL qword ptr [0x14192b4d8]
+  CALL from=140ebde59 ins=CALL qword ptr [0x141928040]
+  CALL from=140ebde86 ins=CALL 0x140d5fe10
+  CALL from=140ebde95 ins=CALL qword ptr [0x141927e18]
+  CALL from=140ebdea2 ins=CALL qword ptr [0x141928628]
+  CALL from=140ebdeb0 ins=CALL qword ptr [0x141927480]
+  CALL from=140ebdebe ins=CALL qword ptr [0x141928598]
+  CALL from=140ebdecf ins=CALL qword ptr [0x14192c190]
+  CALL from=140ebdede ins=CALL qword ptr [0x141927490]
+  CALL from=140ebdeed ins=CALL qword ptr [0x141928598]
+  CALL from=140ebdf0c ins=CALL 0x140d5fe10
+  CALL from=140ebdf1b ins=CALL qword ptr [0x141927e18]
+  CALL from=140ebdf29 ins=CALL qword ptr [0x141927dd0]
+  CALL from=140ebdf35 ins=CALL qword ptr [0x141927320]
+  CALL from=140ebdf41 ins=CALL qword ptr [0x141927320]
+  CALL from=140ebdf4d ins=CALL qword ptr [0x141927320]
+  CALL from=140ebdf69 ins=CALL 0x140092000
+  CALL from=140ebdf74 ins=CALL qword ptr [0x141927d68]
+  CALL from=140ebdf80 ins=CALL qword ptr [0x141927d68]
+  CALL from=140ebdf8c ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebdf97 ins=CALL qword ptr [0x141927058]
+  CALL from=140ebdfa2 ins=CALL qword ptr [0x141927d68]
+  CALL from=140ebdfad ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebdfb8 ins=CALL qword ptr [0x141928630]
+  CALL from=140ebdfc2 ins=CALL qword ptr [0x14192e948]
+  CALL from=140ebdfe6 ins=CALL 0x140d5fe10
+  CALL from=140ebdff5 ins=CALL qword ptr [0x141927e18]
+  CALL from=140ebe002 ins=CALL qword ptr [0x141927dd0]
+  CALL from=140ebe00c ins=CALL qword ptr [0x141927320]
+  CALL from=140ebe020 ins=CALL 0x140092000
+  CALL from=140ebe02a ins=CALL qword ptr [0x141927d68]
+  CALL from=140ebe039 ins=CALL qword ptr [0x141927df0]
+  CALL from=140ebe04c ins=CALL qword ptr [0x141927df0]
+  CALL from=140ebe075 ins=CALL qword ptr [0x14192dd88]
+  CALL from=140ebe081 ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebe08d ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebe09d ins=CALL qword ptr [0x141928040]
+  CALL from=140ebe0f7 ins=CALL qword ptr [0x141927d88]
+  CALL from=140ebe105 ins=CALL qword ptr [0x141928008]
+  CALL from=140ebe110 ins=CALL qword ptr [0x14192b4d0]
+  CALL from=140ebe11b ins=CALL qword ptr [0x14192b4d0]
+------------------------------------------------------------
+FUNCTION_REQUEST 1410b5220 -> FUN_1410b5220@1410b5220
+ENTRY 1410b5220
+CALLERS
+  CALLER from=14caaca30 fn=<none>
+  CALLER from=1410aad7c fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_1410b5220 1410b5220
+
+longlong * FUN_1410b5220(undefined8 param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  longlong *plVar1;
+  undefined8 local_res10 [3];
+  
+  local_res10[0] = param_2;
+  plVar1 = (longlong *)FUN_1410b91b0(param_1,local_res10);
+  (**(code **)(*plVar1 + 0x60))(plVar1,param_3);
+  FUN_1410a58c0(plVar1,1,1);
+  return plVar1;
+}
+
+
+DECOMPILE_END FUN_1410b5220 1410b5220
+CALLS
+  CALL from=1410b5237 ins=CALL 0x1410b91b0
+  CALL from=1410b5248 ins=CALL qword ptr [R9 + 0x60]
+  CALL from=1410b5257 ins=CALL 0x1410a58c0
+------------------------------------------------------------
+FUNCTION_REQUEST 1410bb470 -> FUN_1410bb470@1410bb470
+ENTRY 1410bb470
+CALLERS
+  CALLER from=14caace20 fn=<none>
+  CALLER from=1421ecebc fn=<none>
+  CALLER from=1410abbea fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_1410bb470 1410bb470
+
+longlong *
+FUN_1410bb470(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong lVar1;
+  longlong *plVar2;
+  undefined8 uVar3;
+  
+  uVar3 = 0xfffffffffffffffe;
+  lVar1 = FUN_141084320(0x1c8);
+  if (lVar1 == 0) {
+    plVar2 = (longlong *)0x0;
+  }
+  else {
+    plVar2 = (longlong *)FUN_1410bd1a0(lVar1,param_1,param_2,param_4,uVar3,lVar1);
+  }
+  (**(code **)(*plVar2 + 0x60))(plVar2,param_3);
+  FUN_1410a58c0(plVar2,1,1);
+  return plVar2;
+}
+
+
+DECOMPILE_END FUN_1410bb470 1410bb470
+CALLS
+  CALL from=1410bb497 ins=CALL 0x141084320
+  CALL from=1410bb4b4 ins=CALL 0x1410bd1a0
+  CALL from=1410bb4c9 ins=CALL qword ptr [RAX + 0x60]
+  CALL from=1410bb4d7 ins=CALL 0x1410a58c0
+------------------------------------------------------------
+FUNCTION_REQUEST 14110c500 -> FUN_14110c500@14110c500
+ENTRY 14110c500
+CALLERS
+  CALLER from=14cab09fc fn=<none>
+  CALLER from=1421fa7b4 fn=<none>
+  CALLER from=1410ab6ba fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_14110c500 14110c500
+
+longlong *
+FUN_14110c500(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong lVar1;
+  longlong *plVar2;
+  undefined8 uVar3;
+  
+  uVar3 = 0xfffffffffffffffe;
+  lVar1 = FUN_141084320(200);
+  if (lVar1 == 0) {
+    plVar2 = (longlong *)0x0;
+  }
+  else {
+    plVar2 = (longlong *)FUN_14110daf0(lVar1,param_1,param_2,param_4,uVar3,lVar1);
+  }
+  (**(code **)(*plVar2 + 0x60))(plVar2,param_3);
+  FUN_1410a58c0(plVar2,1,1);
+  return plVar2;
+}
+
+
+DECOMPILE_END FUN_14110c500 14110c500
+CALLS
+  CALL from=14110c527 ins=CALL 0x141084320
+  CALL from=14110c544 ins=CALL 0x14110daf0
+  CALL from=14110c559 ins=CALL qword ptr [RAX + 0x60]
+  CALL from=14110c567 ins=CALL 0x1410a58c0
+------------------------------------------------------------
+FUNCTION_REQUEST 141195560 -> FUN_141195560@141195560
+ENTRY 141195560
+CALLERS
+  CALLER from=14cab73ec fn=<none>
+  CALLER from=142212914 fn=<none>
+  CALLER from=1410acc57 fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_141195560 141195560
+
+longlong *
+FUN_141195560(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong lVar1;
+  longlong *plVar2;
+  undefined8 uVar3;
+  
+  uVar3 = 0xfffffffffffffffe;
+  lVar1 = FUN_141084320(0xb0);
+  if (lVar1 == 0) {
+    plVar2 = (longlong *)0x0;
+  }
+  else {
+    plVar2 = (longlong *)FUN_141195cb0(lVar1,param_1,param_2,param_4,uVar3,lVar1);
+  }
+  (**(code **)(*plVar2 + 0x60))(plVar2,param_3);
+  FUN_1410a58c0(plVar2,1,1);
+  return plVar2;
+}
+
+
+DECOMPILE_END FUN_141195560 141195560
+CALLS
+  CALL from=141195587 ins=CALL 0x141084320
+  CALL from=1411955a4 ins=CALL 0x141195cb0
+  CALL from=1411955b9 ins=CALL qword ptr [RAX + 0x60]
+  CALL from=1411955c7 ins=CALL 0x1410a58c0
+------------------------------------------------------------
+FUNCTION_REQUEST 1411145d0 -> FUN_1411145d0@1411145d0
+ENTRY 1411145d0
+CALLERS
+  CALLER from=14cab0ec4 fn=<none>
+  CALLER from=1421fbb88 fn=<none>
+  CALLER from=1410aabaf fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_1411145d0 1411145d0
+
+longlong *
+FUN_1411145d0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong *plVar1;
+  undefined8 uVar2;
+  
+  uVar2 = 0xfffffffffffffffe;
+  plVar1 = (longlong *)FUN_141084320(0xa8);
+  if (plVar1 != (longlong *)0x0) {
+    FUN_1410a72f0(plVar1,param_1,param_2,param_4,uVar2,plVar1);
+    *plVar1 = (longlong)&PTR_FUN_141cbab50;
+    plVar1[0x10] = 0;
+    plVar1[0x11] = 0;
+    FUN_1410a06e0();
+  }
+  (**(code **)(*plVar1 + 0x60))(plVar1,param_3);
+  FUN_1410a58c0(plVar1,1,1);
+  return plVar1;
+}
+
+
+DECOMPILE_END FUN_1411145d0 1411145d0
+CALLS
+  CALL from=1411145fc ins=CALL 0x141084320
+  CALL from=14111461c ins=CALL 0x1410a72f0
+  CALL from=141114648 ins=CALL 0x1410a06e0
+  CALL from=14111465c ins=CALL qword ptr [R8 + 0x60]
+  CALL from=14111466b ins=CALL 0x1410a58c0
+------------------------------------------------------------
+FUNCTION_REQUEST 1410f6a10 -> FUN_1410f6a10@1410f6a10
+ENTRY 1410f6a10
+CALLERS
+  CALLER from=14caafdf0 fn=<none>
+  CALLER from=1421f7e30 fn=<none>
+  CALLER from=1410ac17b fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_1410f6a10 1410f6a10
+
+longlong *
+FUN_1410f6a10(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong *plVar1;
+  undefined8 uVar2;
+  
+  uVar2 = 0xfffffffffffffffe;
+  plVar1 = (longlong *)FUN_141084320(0xb0);
+  if (plVar1 != (longlong *)0x0) {
+    FUN_1410a72f0(plVar1,param_1,param_2,param_4,uVar2,plVar1);
+    *plVar1 = (longlong)&PTR_FUN_141cb94d8;
+    plVar1[0x12] = 0;
+    plVar1[0x13] = 0;
+    plVar1[0x14] = 0;
+    plVar1[0x15] = 0;
+  }
+  (**(code **)(*plVar1 + 0x60))(plVar1,param_3);
+  FUN_1410a58c0(plVar1,1,1);
+  return plVar1;
+}
+
+
+DECOMPILE_END FUN_1410f6a10 1410f6a10
+CALLS
+  CALL from=1410f6a3c ins=CALL 0x141084320
+  CALL from=1410f6a5c ins=CALL 0x1410a72f0
+  CALL from=1410f6a97 ins=CALL qword ptr [R8 + 0x60]
+  CALL from=1410f6aa6 ins=CALL 0x1410a58c0
+------------------------------------------------------------
+FUNCTION_REQUEST 1410e0620 -> FUN_1410e0620@1410e0620
+ENTRY 1410e0620
+CALLERS
+  CALLER from=14caaeba8 fn=<none>
+  CALLER from=1421f4a44 fn=<none>
+  CALLER from=1410ac308 fn=FUN_1410aa960@1410aa960
+DECOMPILE_BEGIN FUN_1410e0620 1410e0620
+
+longlong *
+FUN_1410e0620(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  longlong lVar1;
+  longlong *plVar2;
+  undefined8 uVar3;
+  
+  uVar3 = 0xfffffffffffffffe;
+  lVar1 = FUN_141084320(0x2e0);
+  if (lVar1 == 0) {
+    plVar2 = (longlong *)0x0;
+  }
+  else {
+    plVar2 = (longlong *)FUN_1410e1410(lVar1,param_1,param_2,param_4,uVar3,lVar1);
+  }
+  (**(code **)(*plVar2 + 0x60))(plVar2,param_3);
+  FUN_1410a58c0(plVar2,1,1);
+  return plVar2;
+}
+
+
+DECOMPILE_END FUN_1410e0620 1410e0620
+CALLS
+  CALL from=1410e0647 ins=CALL 0x141084320
+  CALL from=1410e0664 ins=CALL 0x1410e1410
+  CALL from=1410e0679 ins=CALL qword ptr [RAX + 0x60]
+  CALL from=1410e0687 ins=CALL 0x1410a58c0
+SCRIPT COMPLETED FbxAnimResourceTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

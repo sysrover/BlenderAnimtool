@@ -1,0 +1,6 @@
+{
+  "property_before_reload": true,
+  "property_after_reload": true,
+  "errors": [],
+  "note": "If property_after_reload is false, restart Blender or disable/enable the addon to load the patched operator class."
+}

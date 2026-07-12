@@ -1,0 +1,51 @@
+1408dce30: TEST R9D,0xff000000 
+1408dce37: JZ 0x1408dcf23 
+1408dce3d: MOV qword ptr [RSP + 0x8],RBX 
+1408dce42: PUSH RDI 
+1408dce43: SUB RSP,0x40 
+1408dce47: TEST byte ptr [RCX + 0x30],0x1 
+1408dce4b: MOV EDI,R9D 
+1408dce4e: MOVSS XMM0,dword ptr [0x140de2ec8] 
+1408dce56: MOV RBX,RCX 
+1408dce59: MOVSS XMM3,dword ptr [RDX] 
+1408dce5d: MOVSS XMM4,dword ptr [RDX + 0x4] 
+1408dce62: ADDSS XMM3,XMM0 
+1408dce66: MOV EAX,dword ptr [RSP + 0x78] 
+1408dce6a: ADDSS XMM4,XMM0 
+1408dce6e: MOVSS XMM1,dword ptr [R8] 
+1408dce73: MOVSS XMM2,dword ptr [R8 + 0x4] 
+1408dce79: MOV dword ptr [RSP + 0x20],EAX 
+1408dce7d: JZ 0x1408dceab 
+1408dce7f: SUBSS XMM1,XMM0 
+1408dce83: MOVSS dword ptr [RSP + 0x38],XMM3 
+1408dce89: SUBSS XMM2,XMM0 
+1408dce8d: MOVSS dword ptr [RSP + 0x3c],XMM4 
+1408dce93: LEA R8,[RSP + 0x30] 
+1408dce98: LEA RDX,[RSP + 0x38] 
+1408dce9d: MOVSS dword ptr [RSP + 0x30],XMM1 
+1408dcea3: MOVSS dword ptr [RSP + 0x34],XMM2 
+1408dcea9: JMP 0x1408dcedd 
+1408dceab: SUBSS XMM1,dword ptr [0x140f196b8] 
+1408dceb3: SUBSS XMM2,dword ptr [0x140f196b8] 
+1408dcebb: MOVSS dword ptr [RSP + 0x30],XMM3 
+1408dcec1: LEA R8,[RSP + 0x38] 
+1408dcec6: MOVSS dword ptr [RSP + 0x34],XMM4 
+1408dcecc: LEA RDX,[RSP + 0x30] 
+1408dced1: MOVSS dword ptr [RSP + 0x38],XMM1 
+1408dced7: MOVSS dword ptr [RSP + 0x3c],XMM2 
+1408dcedd: MOVSS XMM3,dword ptr [RSP + 0x70] 
+1408dcee3: CALL 0x1408e4d00 
+1408dcee8: MOVSS XMM0,dword ptr [RSP + 0x80] 
+1408dcef1: MOV R9D,EDI 
+1408dcef4: MOV R8D,dword ptr [RBX + 0x50] 
+1408dcef8: MOV RCX,RBX 
+1408dcefb: MOV RDX,qword ptr [RBX + 0x58] 
+1408dceff: MOVSS dword ptr [RSP + 0x28],XMM0 
+1408dcf05: MOV dword ptr [RSP + 0x20],0x1 
+1408dcf0d: CALL 0x1408dc010 
+1408dcf12: MOV dword ptr [RBX + 0x50],0x0 
+1408dcf19: MOV RBX,qword ptr [RSP + 0x50] 
+1408dcf1e: ADD RSP,0x40 
+1408dcf22: POP RDI 
+1408dcf23: RET 
+

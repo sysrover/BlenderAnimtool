@@ -1,0 +1,59 @@
+PROGRAM DayZDiag_x64.exe
+CANDIDATES 0x140d06350, 0x1407375f0, 0x140c54ad0, 0x140c55a90, 0x1402cb310, 0x1408dc010
+GENERATED 2026-05-17T20:32:41.6716372-04:00
+
+===== 0x140d06350 =====
+decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-decompile.txt bytes=4920
+disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-disasm.txt bytes=7812
+callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-callers.txt bytes=25
+callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-callees.txt bytes=35
+xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-xrefs_to.txt bytes=127
+xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-xrefs_from.txt bytes=21
+complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140d06350-complete.txt bytes=36
+
+===== 0x1407375f0 =====
+decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-decompile.txt bytes=4366
+disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-disasm.txt bytes=6093
+callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-callers.txt bytes=25
+callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-callees.txt bytes=45
+xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-xrefs_to.txt bytes=118
+xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-xrefs_from.txt bytes=45
+complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1407375f0-complete.txt bytes=36
+
+===== 0x140c54ad0 =====
+decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-decompile.txt bytes=13200
+disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-disasm.txt bytes=31478
+callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-callers.txt bytes=25
+callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-callees.txt bytes=35
+xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-xrefs_to.txt bytes=74
+xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-xrefs_from.txt bytes=21
+complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c54ad0-complete.txt bytes=36
+
+===== 0x140c55a90 =====
+decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-decompile.txt bytes=12042
+disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-disasm.txt bytes=31432
+callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-callers.txt bytes=25
+callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-callees.txt bytes=35
+xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-xrefs_to.txt bytes=74
+xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-xrefs_from.txt bytes=21
+complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-140c55a90-complete.txt bytes=36
+
+===== 0x1402cb310 =====
+decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-decompile.txt bytes=24504
+disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-disasm.txt bytes=33559
+callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-callers.txt bytes=25
+callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-callees.txt bytes=441
+xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-xrefs_to.txt bytes=202
+xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-xrefs_from.txt bytes=22
+complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1402cb310-complete.txt bytes=36
+
+===== 0x1408dc010 =====
+decompile -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-decompile.txt bytes=19034
+disasm -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-disasm.txt bytes=28365
+callers -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-callers.txt bytes=519
+callees -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-callees.txt bytes=77
+xrefs_to -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-xrefs_to.txt bytes=1390
+xrefs_from -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-xrefs_from.txt bytes=45
+complete -> C:\Users\sysro\diag\CsharpModVScode\anm\ghidra-raw\ghidra-raw-dayzdiag-weaponik-candidates-1408dc010-complete.txt bytes=36
+
+

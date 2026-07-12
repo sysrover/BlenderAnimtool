@@ -1,0 +1,114 @@
+{
+  "base_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "saved_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_previewrig_v4_native.blend",
+  "removed_handlers": [],
+  "removed_preview": [],
+  "preview_mesh": "DAT_PreviewMesh_Female_body",
+  "constraints": [
+    {
+      "target_bone": "LeftArm",
+      "driver_bone": "MCH_UpperArm.L"
+    },
+    {
+      "target_bone": "LeftArmRoll",
+      "driver_bone": "MCH_UpperArm.L"
+    },
+    {
+      "target_bone": "LeftForeArm",
+      "driver_bone": "MCH_ForeArm.L"
+    },
+    {
+      "target_bone": "LeftForeArmRoll",
+      "driver_bone": "MCH_ForeArm.L"
+    },
+    {
+      "target_bone": "LeftHand",
+      "driver_bone": "MCH_Hand.L"
+    },
+    {
+      "target_bone": "RightArm",
+      "driver_bone": "MCH_UpperArm.R"
+    },
+    {
+      "target_bone": "RightArmRoll",
+      "driver_bone": "MCH_UpperArm.R"
+    },
+    {
+      "target_bone": "RightForeArm",
+      "driver_bone": "MCH_ForeArm.R"
+    },
+    {
+      "target_bone": "RightForeArmRoll",
+      "driver_bone": "MCH_ForeArm.R"
+    },
+    {
+      "target_bone": "RightHand",
+      "driver_bone": "MCH_Hand.R"
+    }
+  ],
+  "neutral_delta": [
+    {
+      "bone": "LeftArm",
+      "loc_delta": 5.0669426131007984e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftArmRoll",
+      "loc_delta": 9.685754776000977e-08,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArm",
+      "loc_delta": 1.1175870895385742e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftForeArmRoll",
+      "loc_delta": 1.3738191809196602e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "LeftHand",
+      "loc_delta": 1.341104507446289e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArm",
+      "loc_delta": 1.1926748300777466e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightArmRoll",
+      "loc_delta": 2.4131141216608354e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArm",
+      "loc_delta": 3.6578101680532734e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightForeArmRoll",
+      "loc_delta": 3.8426509375058493e-07,
+      "rot_delta_deg": 0.0
+    },
+    {
+      "bone": "RightHand",
+      "loc_delta": 3.7814907850174666e-07,
+      "rot_delta_deg": 0.0
+    }
+  ],
+  "visible_meshes": [
+    "1",
+    "1.001",
+    "DAT_PreviewMesh_Female_body"
+  ],
+  "visible_control_bones": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "handlers_left": [],
+  "helper_text": "DAT_NATIVE_PREVIEW_BAKE"
+}

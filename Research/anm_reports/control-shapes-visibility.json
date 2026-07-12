@@ -1,0 +1,329 @@
+{
+  "file": "P:\\Animation_Weapon\\Weapon_template_aks74u_refstyle_ikfk_v11_left_hand_fix.blend",
+  "shape_count": 16,
+  "shapes": [
+    {
+      "name": "WGT_DAT_Elbow_Circle",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Elbow_Diamond",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Elbow_Disc_Clickable",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Elbow_Wire_Large",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [
+        "DAT_DayZ_RefStyleControlsWireV8:CTRL_Elbow.L",
+        "DAT_DayZ_RefStyleControlsWireV8:CTRL_Elbow.R"
+      ],
+      "used_by_count": 2
+    },
+    {
+      "name": "WGT_DAT_Hand_Plate",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Hand_Plate_Clickable",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Hand_Rounded_Rect",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Hand_Wire_Large",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [
+        "DAT_DayZ_RefStyleControlsWireV8:CTRL_Hand.L",
+        "DAT_DayZ_RefStyleControlsWireV8:CTRL_Hand.R",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_LeftHand.L",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_RightHand.R"
+      ],
+      "used_by_count": 4
+    },
+    {
+      "name": "WGT_DAT_Joint_Disc_Clickable",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Joint_Flat_Circle",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Joint_Ring",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Joint_Wire_Large",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_Hand.L",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_ForeArm.L",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_Arm.L",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_Hand.R",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_ForeArm.R",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_Arm.R",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_LeftArm.L",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_LeftForeArm.L",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_RightArm.R",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_RightForeArm.R"
+      ],
+      "used_by_count": 10
+    },
+    {
+      "name": "WGT_DAT_Roll_Flat_Rect",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Roll_Line",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Roll_Rect_Clickable",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [],
+      "used_by_count": 0
+    },
+    {
+      "name": "WGT_DAT_Roll_Wire_Large",
+      "type": "MESH",
+      "collections": [
+        "WeaponObjects"
+      ],
+      "hide_viewport": true,
+      "hide_get": true,
+      "hide_select": false,
+      "display_type": "TEXTURED",
+      "show_wire": false,
+      "show_in_front": false,
+      "used_by": [
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_ForeArmRoll.L",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_ArmRoll.L",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_ForeArmRoll.R",
+        "DAT_DayZ_RefStyleControlsWireV8:OUT_ArmRoll.R",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_LeftArmRoll.L",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_LeftForeArmRoll.L",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_RightArmRoll.R",
+        "DAT_DayZ_RefStyleControlsWireV8:FK_RightForeArmRoll.R"
+      ],
+      "used_by_count": 8
+    }
+  ],
+  "candidate_collections": [
+    {
+      "name": "BoneShapes",
+      "hide_viewport": true,
+      "objects": [
+        "zJD_Axis_Small",
+        "zJD_SingleArrow",
+        "zJD_Circle",
+        "zJD_Cube",
+        "zJD_Sphere",
+        "zzzCamera",
+        "zJD_Axis"
+      ]
+    },
+    {
+      "name": "DayZ WeaponIK Controls",
+      "hide_viewport": false,
+      "objects": []
+    }
+  ],
+  "changed": [
+    "collection:BoneShapes:hide_viewport=False",
+    "object:WGT_DAT_Elbow_Circle:hide_viewport=False",
+    "object:WGT_DAT_Elbow_Circle:hide_set(False)",
+    "object:WGT_DAT_Elbow_Diamond:hide_viewport=False",
+    "object:WGT_DAT_Elbow_Diamond:hide_set(False)",
+    "object:WGT_DAT_Elbow_Disc_Clickable:hide_viewport=False",
+    "object:WGT_DAT_Elbow_Disc_Clickable:hide_set(False)",
+    "object:WGT_DAT_Elbow_Wire_Large:hide_viewport=False",
+    "object:WGT_DAT_Elbow_Wire_Large:hide_set(False)",
+    "object:WGT_DAT_Hand_Plate:hide_viewport=False",
+    "object:WGT_DAT_Hand_Plate:hide_set(False)",
+    "object:WGT_DAT_Hand_Plate_Clickable:hide_viewport=False",
+    "object:WGT_DAT_Hand_Plate_Clickable:hide_set(False)",
+    "object:WGT_DAT_Hand_Rounded_Rect:hide_viewport=False",
+    "object:WGT_DAT_Hand_Rounded_Rect:hide_set(False)",
+    "object:WGT_DAT_Hand_Wire_Large:hide_viewport=False",
+    "object:WGT_DAT_Hand_Wire_Large:hide_set(False)",
+    "object:WGT_DAT_Joint_Disc_Clickable:hide_viewport=False",
+    "object:WGT_DAT_Joint_Disc_Clickable:hide_set(False)",
+    "object:WGT_DAT_Joint_Flat_Circle:hide_viewport=False",
+    "object:WGT_DAT_Joint_Flat_Circle:hide_set(False)",
+    "object:WGT_DAT_Joint_Ring:hide_viewport=False",
+    "object:WGT_DAT_Joint_Ring:hide_set(False)",
+    "object:WGT_DAT_Joint_Wire_Large:hide_viewport=False",
+    "object:WGT_DAT_Joint_Wire_Large:hide_set(False)",
+    "object:WGT_DAT_Roll_Flat_Rect:hide_viewport=False",
+    "object:WGT_DAT_Roll_Flat_Rect:hide_set(False)",
+    "object:WGT_DAT_Roll_Line:hide_viewport=False",
+    "object:WGT_DAT_Roll_Line:hide_set(False)",
+    "object:WGT_DAT_Roll_Rect_Clickable:hide_viewport=False",
+    "object:WGT_DAT_Roll_Rect_Clickable:hide_set(False)",
+    "object:WGT_DAT_Roll_Wire_Large:hide_viewport=False",
+    "object:WGT_DAT_Roll_Wire_Large:hide_set(False)"
+  ]
+}

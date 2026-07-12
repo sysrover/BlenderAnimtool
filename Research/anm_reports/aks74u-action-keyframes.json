@@ -1,0 +1,1040 @@
+{
+  "aks74u": {
+    "frame_range": [
+      0.0,
+      1.0
+    ],
+    "fcurves": {
+      "RightHandOrigin.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.03574502468109131
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.location[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.5782453417778015
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.location[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.22095343470573425
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.45173171162605286
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.8087913393974304
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.2586837410926819
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.2736380100250244
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.459015429019928
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.45901259779930115
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.location[1]": [
+        {
+          "co": [
+            0.0,
+            0.31312310695648193
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.3131229877471924
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.location[2]": [
+        {
+          "co": [
+            0.0,
+            -0.5524632334709167
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            -0.5524656772613525
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.6300213932991028
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.6300213932991028
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.3438640832901001
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.3438640832901001
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.1737395077943802
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.1737395077943802
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.6742740273475647
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.6742740273475647
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.2023186832666397
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.location[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.41319578886032104
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.location[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.8094707131385803
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.5926900506019592
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.6800471544265747
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.245153546333313
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.355182021856308
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.18306094408035278
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.location[1]": [
+        {
+          "co": [
+            0.0,
+            -0.09999996423721313
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.813481867313385
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.location[2]": [
+        {
+          "co": [
+            0.0,
+            1.4901161193847656e-08
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.3877212405204773
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.48342299461364746
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.260945200920105
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.18213635683059692
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.8154980540275574
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.039113402366638184
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.location[1]": [
+        {
+          "co": [
+            0.0,
+            -0.10427570343017578
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.location[2]": [
+        {
+          "co": [
+            0.0,
+            0.39662304520606995
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.2873474657535553
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.8636413216590881
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            -0.37248361110687256
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            -0.18113771080970764
+          ],
+          "interp": "LINEAR"
+        }
+      ]
+    }
+  },
+  "aks74u_helpers_only": {
+    "frame_range": [
+      0.0,
+      1.0
+    ],
+    "fcurves": {
+      "RightHandOrigin.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.03574502468109131
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.location[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.5782453417778015
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.location[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.22095343470573425
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.45173171162605286
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.8087913393974304
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.2586837410926819
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHandOrigin.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.2736380100250244
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.459015429019928
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.45901259779930115
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.location[1]": [
+        {
+          "co": [
+            0.0,
+            0.31312310695648193
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.3131229877471924
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.location[2]": [
+        {
+          "co": [
+            0.0,
+            -0.5524632334709167
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            -0.5524656772613525
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.6300213932991028
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.6300213932991028
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.3438640832901001
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.3438640832901001
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.1737395077943802
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.1737395077943802
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "RightHand_Dummy.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.6742740273475647
+          ],
+          "interp": "LINEAR"
+        },
+        {
+          "co": [
+            1.0,
+            0.6742740273475647
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.2023186832666397
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.location[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.41319578886032104
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.location[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.8094707131385803
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.5926900506019592
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.6800471544265747
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.245153546333313
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandIKTarget.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.355182021856308
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.18306094408035278
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.location[1]": [
+        {
+          "co": [
+            0.0,
+            -0.09999996423721313
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.813481867313385
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.location[2]": [
+        {
+          "co": [
+            0.0,
+            1.4901161193847656e-08
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.3877212405204773
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.48342299461364746
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            0.260945200920105
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.18213635683059692
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftHandOrigin.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            0.0
+          ],
+          "interp": "BEZIER"
+        },
+        {
+          "co": [
+            1.0,
+            -0.8154980540275574
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.location[0]": [
+        {
+          "co": [
+            0.0,
+            0.039113402366638184
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.location[1]": [
+        {
+          "co": [
+            0.0,
+            -0.10427570343017578
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.location[2]": [
+        {
+          "co": [
+            0.0,
+            0.39662304520606995
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[0]": [
+        {
+          "co": [
+            0.0,
+            0.2873474657535553
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[1]": [
+        {
+          "co": [
+            0.0,
+            0.8636413216590881
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[2]": [
+        {
+          "co": [
+            0.0,
+            -0.37248361110687256
+          ],
+          "interp": "LINEAR"
+        }
+      ],
+      "LeftForeArmDirection.rotation_quaternion[3]": [
+        {
+          "co": [
+            0.0,
+            -0.18113771080970764
+          ],
+          "interp": "LINEAR"
+        }
+      ]
+    }
+  }
+}

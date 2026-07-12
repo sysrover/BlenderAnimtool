@@ -1,0 +1,133 @@
+===== http://127.0.0.1:8089/decompile_function?program=DayZDiag_x64.exe&address=0x1400da470 =====
+
+void FUN_1400da470(undefined8 *param_1,int param_2)
+
+{
+  int iVar1;
+  uint *puVar2;
+  undefined8 uVar3;
+  uint uVar4;
+  longlong lVar5;
+  
+  *(int *)(param_1 + 6) = *(int *)(param_1 + 6) + param_2;
+  iVar1 = *(int *)(param_1 + 4);
+  uVar4 = iVar1 + 3U & 0xfffffffc;
+  *(uint *)(param_1 + 4) = uVar4;
+  if (uVar4 + param_2 <= *(uint *)(param_1 + 2)) {
+    puVar2 = (uint *)param_1[5];
+    if (puVar2 != (uint *)0x0) {
+      *puVar2 = *puVar2 & 0xff000000;
+      *puVar2 = *puVar2 | iVar1 + 3U & 0xfffffc;
+    }
+    puVar2 = (uint *)(param_1[3] + 8 + (ulonglong)*(uint *)(param_1 + 4));
+    *puVar2 = *puVar2 & 0xff000001;
+    *puVar2 = *puVar2 | 1;
+    *(int *)(param_1 + 4) = *(int *)(param_1 + 4) + param_2;
+    param_1[5] = puVar2;
+    return;
+  }
+  lVar5 = *(longlong *)param_1[3];
+  if (lVar5 == 0) {
+    uVar3 = FUN_1400da440(param_1);
+    *(undefined8 *)param_1[3] = uVar3;
+    lVar5 = *(longlong *)param_1[3];
+  }
+  param_1[3] = lVar5;
+  *(int *)(param_1 + 4) = param_2;
+  *(uint *)param_1[5] = *(uint *)param_1[5] & 0xff000000;
+  lVar5 = param_1[3];
+  puVar2 = (uint *)(lVar5 + 8);
+  *puVar2 = *puVar2 & 0xff000001;
+  puVar2 = (uint *)(lVar5 + 8);
+  *puVar2 = *puVar2 | 1;
+  param_1[5] = puVar2;
+  return;
+}
+
+
+===== http://127.0.0.1:8089/disassemble_function?program=DayZDiag_x64.exe&address=0x1400da470 =====
+1400da470: MOV qword ptr [RSP + 0x8],RBX 
+1400da475: PUSH RDI 
+1400da476: SUB RSP,0x20 
+1400da47a: ADD dword ptr [RCX + 0x30],EDX 
+1400da47d: MOV RBX,RCX 
+1400da480: MOV ECX,dword ptr [RCX + 0x20] 
+1400da483: MOV EDI,EDX 
+1400da485: ADD ECX,0x3 
+1400da488: AND ECX,0xfffffffc 
+1400da48b: MOV dword ptr [RBX + 0x20],ECX 
+1400da48e: LEA EAX,[RCX + RDX*0x1] 
+1400da491: CMP EAX,dword ptr [RBX + 0x10] 
+1400da494: JA 0x1400da4d6 
+1400da496: MOV RAX,qword ptr [RBX + 0x28] 
+1400da49a: TEST RAX,RAX 
+1400da49d: JZ 0x1400da4ad 
+1400da49f: AND dword ptr [RAX],0xff000000 
+1400da4a5: AND ECX,0xffffff 
+1400da4ab: OR dword ptr [RAX],ECX 
+1400da4ad: MOV RAX,qword ptr [RBX + 0x18] 
+1400da4b1: MOV ECX,dword ptr [RBX + 0x20] 
+1400da4b4: ADD RAX,0x8 
+1400da4b8: ADD RAX,RCX 
+1400da4bb: AND dword ptr [RAX],0xff000001 
+1400da4c1: OR dword ptr [RAX],0x1 
+1400da4c4: ADD dword ptr [RBX + 0x20],EDI 
+1400da4c7: MOV qword ptr [RBX + 0x28],RAX 
+1400da4cb: MOV RBX,qword ptr [RSP + 0x30] 
+1400da4d0: ADD RSP,0x20 
+1400da4d4: POP RDI 
+1400da4d5: RET 
+1400da4d6: MOV RAX,qword ptr [RBX + 0x18] 
+1400da4da: MOV RCX,qword ptr [RAX] 
+1400da4dd: TEST RCX,RCX 
+1400da4e0: JNZ 0x1400da4f8 
+1400da4e2: MOV RCX,RBX 
+1400da4e5: CALL 0x1400da440 
+1400da4ea: MOV RCX,qword ptr [RBX + 0x18] 
+1400da4ee: MOV qword ptr [RCX],RAX 
+1400da4f1: MOV RAX,qword ptr [RBX + 0x18] 
+1400da4f5: MOV RCX,qword ptr [RAX] 
+1400da4f8: MOV qword ptr [RBX + 0x18],RCX 
+1400da4fc: MOV dword ptr [RBX + 0x20],EDI 
+1400da4ff: MOV RAX,qword ptr [RBX + 0x28] 
+1400da503: AND dword ptr [RAX],0xff000000 
+1400da509: MOV RAX,qword ptr [RBX + 0x18] 
+1400da50d: AND dword ptr [RAX + 0x8],0xff000001 
+1400da514: ADD RAX,0x8 
+1400da518: OR dword ptr [RAX],0x1 
+1400da51b: MOV qword ptr [RBX + 0x28],RAX 
+1400da51f: MOV RBX,qword ptr [RSP + 0x30] 
+1400da524: ADD RSP,0x20 
+1400da528: POP RDI 
+1400da529: RET 
+
+===== http://127.0.0.1:8089/decompile_function?program=DayZDiag_x64.exe&address=0x1400da440 =====
+
+void FUN_1400da440(undefined8 *param_1)
+
+{
+  undefined8 *puVar1;
+  
+  *(int *)((longlong)param_1 + 0x34) =
+       *(int *)((longlong)param_1 + 0x34) + *(int *)(param_1 + 2) + 8;
+  puVar1 = (undefined8 *)
+           (**(code **)(*(longlong *)*param_1 + 8))
+                     ((longlong *)*param_1,*(int *)(param_1 + 2) + 8,4);
+  *puVar1 = 0;
+  return;
+}
+
+
+===== http://127.0.0.1:8089/disassemble_function?program=DayZDiag_x64.exe&address=0x1400da440 =====
+1400da440: SUB RSP,0x28 
+1400da444: MOV EDX,dword ptr [RCX + 0x10] 
+1400da447: MOV R8D,0x4 
+1400da44d: ADD EDX,0x8 
+1400da450: ADD dword ptr [RCX + 0x34],EDX 
+1400da453: MOV RCX,qword ptr [RCX] 
+1400da456: MOV RAX,qword ptr [RCX] 
+1400da459: CALL qword ptr [RAX + 0x8] 
+1400da45c: MOV qword ptr [RAX],0x0 
+1400da463: ADD RSP,0x28 
+1400da467: RET 
+

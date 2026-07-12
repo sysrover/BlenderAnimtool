@@ -1,0 +1,29 @@
+
+void FUN_1400c5500(uint *param_1)
+
+{
+  uint uVar1;
+  uint uVar2;
+  uint *puVar3;
+  uint *puVar4;
+  uint uVar5;
+  undefined1 local_28 [40];
+  
+  uVar2 = DAT_140cecf40;
+  puVar4 = param_1 + 4;
+  uVar1 = param_1[3];
+  uVar5 = param_1[1] ^ DAT_140cecf40;
+  *param_1 = *param_1 ^ DAT_140cecf40;
+  param_1[1] = uVar5;
+  param_1[2] = param_1[2] ^ uVar2;
+  param_1[3] = uVar1;
+  puVar3 = (uint *)FUN_14012cc10(uVar1,local_28);
+  uVar1 = puVar3[1];
+  uVar5 = puVar3[2];
+  *puVar4 = *puVar3 ^ uVar2;
+  puVar4[1] = uVar1 ^ uVar2;
+  puVar4[2] = uVar5 ^ uVar2;
+  return;
+}
+
+

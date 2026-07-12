@@ -1,0 +1,1742 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\DataExporterShowAnimDeepTrace.java
+Program: workbenchApp.exe
+Time: Sun May 17 11:56:52 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\DataExporterShowAnimDeepTrace.java
+Size: 5796 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 13 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+TARGET_PROGRAM dataExporter_v141_x64_RetailDX11.dll
+TARGET_PATH /dataExporter_v141_x64_RetailDX11.dll
+TARGET_IMAGE_BASE 180000000
+============================================================
+FUNCTION_REQUEST 1800b7b90
+FUNCTION ShowAnimExportDialogThread2 entry=1800b7b90
+CALLERS
+  CALLER from=180b4903c function=<none> entry=<none>
+  CALLER from=183ee8740 function=<none> entry=<none>
+  CALLER from=180aca29c function=<none> entry=<none>
+  CALLER from=180aca2d8 function=<none> entry=<none>
+  CALLER from=Entry Point function=<none> entry=<none>
+CALLEES
+  CALL from=1800b7bb5 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b7bd8 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800b7be2 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800b7bec to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800b7c29 to=1800b2d40 function=FUN_1800b2d40 entry=1800b2d40
+  CALL from=1800b7c5d to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b7c7b to=1800b9c30 function=FUN_1800b9c30 entry=1800b9c30
+  CALL from=1800b7c8d to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b7cc6 to=1800abcb0 function=FUN_1800abcb0 entry=1800abcb0
+  CALL from=1800b7cd6 to=EXTERNAL:000001c2 function=show entry=EXTERNAL:000001c2
+  CALL from=1800b7cdc to=EXTERNAL:000001cd function=exec entry=EXTERNAL:000001cd
+  CALL from=1800b7d0b to=EXTERNAL:0000015a function=toUtf8 entry=EXTERNAL:0000015a
+  CALL from=1800b7d14 to=EXTERNAL:00000145 function=data entry=EXTERNAL:00000145
+  CALL from=1800b7d1f to=EXTERNAL:00000144 function=~QByteArray entry=EXTERNAL:00000144
+  CALL from=1800b7d29 to=EXTERNAL:00000153 function=clear entry=EXTERNAL:00000153
+  CALL from=1800b7d3d to=1800ae930 function=FUN_1800ae930 entry=1800ae930
+  CALL from=1800b7d47 to=EXTERNAL:000000a0 function=GetCurrentThread entry=EXTERNAL:000000a0
+  CALL from=1800b7d53 to=EXTERNAL:0000009e function=GetThreadPriority entry=EXTERNAL:0000009e
+  CALL from=1800b7d60 to=EXTERNAL:0000009f function=SetThreadPriority entry=EXTERNAL:0000009f
+  CALL from=1800b7d8e to=EXTERNAL:000000a1 function=CreateThread entry=EXTERNAL:000000a1
+  CALL from=1800b7d9f to=EXTERNAL:000000a2 function=WaitForSingleObject entry=EXTERNAL:000000a2
+  CALL from=1800b7da8 to=EXTERNAL:000000a4 function=CloseHandle entry=EXTERNAL:000000a4
+  CALL from=1800b7db3 to=EXTERNAL:0000009f function=SetThreadPriority entry=EXTERNAL:0000009f
+  CALL from=1800b7dde to=EXTERNAL:0000015a function=toUtf8 entry=EXTERNAL:0000015a
+  CALL from=1800b7de7 to=EXTERNAL:00000145 function=data entry=EXTERNAL:00000145
+  CALL from=1800b7df2 to=EXTERNAL:00000144 function=~QByteArray entry=EXTERNAL:00000144
+  CALL from=1800b7dfc to=EXTERNAL:00000153 function=clear entry=EXTERNAL:00000153
+  CALL from=1800b7e11 to=1800ae930 function=FUN_1800ae930 entry=1800ae930
+  CALL from=1800b7e16 to=EXTERNAL:000000a0 function=GetCurrentThread entry=EXTERNAL:000000a0
+  CALL from=1800b7e22 to=EXTERNAL:0000009e function=GetThreadPriority entry=EXTERNAL:0000009e
+  CALL from=1800b7e2f to=EXTERNAL:0000009f function=SetThreadPriority entry=EXTERNAL:0000009f
+  CALL from=1800b7e5d to=EXTERNAL:000000a1 function=CreateThread entry=EXTERNAL:000000a1
+  CALL from=1800b7e6e to=EXTERNAL:000000a2 function=WaitForSingleObject entry=EXTERNAL:000000a2
+  CALL from=1800b7e77 to=EXTERNAL:000000a4 function=CloseHandle entry=EXTERNAL:000000a4
+  CALL from=1800b7e82 to=EXTERNAL:0000009f function=SetThreadPriority entry=EXTERNAL:0000009f
+  CALL from=1800b7eeb to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800b7f04 to=1800acf00 function=FUN_1800acf00 entry=1800acf00
+  CALL from=1800b7f11 to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800b7f23 to=EXTERNAL:000003aa function=_invalid_parameter_noinfo_noreturn entry=EXTERNAL:000003aa
+DECOMPILE_BEGIN ShowAnimExportDialogThread2 1800b7b90
+
+undefined8
+ShowAnimExportDialogThread2
+          (undefined8 param_1,undefined8 param_2,char param_3,undefined1 *param_4,QWidget param_5)
+
+{
+  QWidget QVar1;
+  undefined8 uVar2;
+  int iVar3;
+  QWidget *pQVar4;
+  void *pvVar5;
+  QWidget *pQVar6;
+  QByteArray *pQVar7;
+  HANDLE pvVar8;
+  HANDLE pvVar9;
+  void *_Memory;
+  undefined1 *puVar10;
+  QWidget *lpParameter;
+  longlong lVar11;
+  QWidget *pQVar12;
+  DWORD local_res18 [2];
+  QByteArray local_38 [16];
+  
+                    /* 0xb7b90  6  ShowAnimExportDialogThread2 */
+  pQVar4 = operator_new(0x68);
+  pQVar12 = (QWidget *)0x0;
+  lpParameter = pQVar12;
+  if (pQVar4 != (QWidget *)0x0) {
+    *(undefined8 *)pQVar4 = param_2;
+    *(undefined8 *)(pQVar4 + 8) = 0;
+    *(undefined8 *)(pQVar4 + 0x10) = 0;
+    *(undefined8 *)(pQVar4 + 0x18) = 0;
+    QString::QString((QString *)(pQVar4 + 0x20));
+    QString::QString((QString *)(pQVar4 + 0x28));
+    QString::QString((QString *)(pQVar4 + 0x30));
+    *(undefined2 *)(pQVar4 + 0x38) = 0;
+    *(undefined8 *)(pQVar4 + 0x50) = 0;
+    *(undefined8 *)(pQVar4 + 0x58) = 0xf;
+    puVar10 = &DAT_1808fa107;
+    if (param_4 != (undefined1 *)0x0) {
+      puVar10 = param_4;
+    }
+    pQVar4[0x40] = (QWidget)0x0;
+    lVar11 = -1;
+    do {
+      lVar11 = lVar11 + 1;
+    } while (puVar10[lVar11] != '\0');
+    FUN_1800b2d40();
+    pQVar4[0x60] = param_5;
+    lpParameter = pQVar4;
+  }
+  if (param_3 == '\0') {
+    while( true ) {
+      local_res18[0] = 0;
+      pvVar5 = operator_new(0x20);
+      pQVar4 = pQVar12;
+      if (pvVar5 != (void *)0x0) {
+        pQVar4 = (QWidget *)FUN_1800b9c30(pvVar5,local_res18,0,0x50700);
+      }
+      pvVar5 = operator_new(0x1c0);
+      pQVar6 = pQVar12;
+      if (pvVar5 != (void *)0x0) {
+        pQVar6 = lpParameter + 0x40;
+        if (0xf < *(ulonglong *)(lpParameter + 0x58)) {
+          pQVar6 = *(QWidget **)pQVar6;
+        }
+        pQVar6 = (QWidget *)
+                 FUN_1800abcb0(pvVar5,*(undefined8 *)lpParameter,pQVar4,0,lpParameter + 8,pQVar6,
+                               lpParameter[0x60]);
+      }
+      QWidget::show(pQVar6);
+      QApplication::exec();
+      if (pQVar6 != (QWidget *)0x0) {
+        (**(code **)(*(longlong *)pQVar6 + 0x18))(pQVar6,1);
+      }
+      if (lpParameter[0x38] == (QWidget)0x0) break;
+      uVar2 = *(undefined8 *)lpParameter;
+      pQVar7 = (QByteArray *)QString::toUtf8((QString *)(lpParameter + 0x20));
+      QByteArray::data(pQVar7);
+      QByteArray::~QByteArray(local_38);
+      QString::clear((QString *)(lpParameter + 0x30));
+      lpParameter[0x39] = (QWidget)0x1;
+      FUN_1800ae930(lpParameter + 8,uVar2);
+    }
+  }
+  else {
+    pvVar8 = GetCurrentThread();
+    iVar3 = GetThreadPriority(pvVar8);
+    SetThreadPriority(pvVar8,0);
+    local_res18[0] = 0;
+    pvVar9 = CreateThread((LPSECURITY_ATTRIBUTES)0x0,0,FUN_1800b2250,lpParameter,0,local_res18);
+    WaitForSingleObject(pvVar9,0xffffffff);
+    CloseHandle(pvVar9);
+    SetThreadPriority(pvVar8,iVar3);
+    QVar1 = lpParameter[0x38];
+    while (QVar1 != (QWidget)0x0) {
+      uVar2 = *(undefined8 *)lpParameter;
+      pQVar7 = (QByteArray *)QString::toUtf8((QString *)(lpParameter + 0x20));
+      QByteArray::data(pQVar7);
+      QByteArray::~QByteArray(local_38);
+      QString::clear((QString *)(lpParameter + 0x30));
+      lpParameter[0x39] = (QWidget)0x1;
+      FUN_1800ae930(lpParameter + 8,uVar2,lpParameter + 0x30);
+      pvVar8 = GetCurrentThread();
+      iVar3 = GetThreadPriority(pvVar8);
+      SetThreadPriority(pvVar8,0);
+      local_res18[0] = 0;
+      pvVar9 = CreateThread((LPSECURITY_ATTRIBUTES)0x0,0,FUN_1800b2250,lpParameter,0,local_res18);
+      WaitForSingleObject(pvVar9,0xffffffff);
+      CloseHandle(pvVar9);
+      SetThreadPriority(pvVar8,iVar3);
+      QVar1 = lpParameter[0x38];
+    }
+  }
+  if (0xf < *(ulonglong *)(lpParameter + 0x58)) {
+    pvVar5 = *(void **)(lpParameter + 0x40);
+    _Memory = pvVar5;
+    if ((0xfff < *(ulonglong *)(lpParameter + 0x58) + 1) &&
+       (_Memory = *(void **)((longlong)pvVar5 + -8),
+       0x1f < (ulonglong)((longlong)pvVar5 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  *(undefined8 *)(lpParameter + 0x50) = 0;
+  *(undefined8 *)(lpParameter + 0x58) = 0xf;
+  lpParameter[0x40] = (QWidget)0x0;
+  FUN_1800acf00(lpParameter + 8);
+  free(lpParameter);
+  return 1;
+}
+
+
+DECOMPILE_END ShowAnimExportDialogThread2 1800b7b90
+============================================================
+FUNCTION_REQUEST 1800b9c30
+FUNCTION FUN_1800b9c30 entry=1800b9c30
+CALLERS
+  CALLER from=183ee8860 function=<none> entry=<none>
+  CALLER from=1800b1785 function=FUN_1800b1740 entry=1800b1740
+  CALLER from=1800b7c7b function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800b9c56 to=EXTERNAL:00000190 function=QApplication entry=EXTERNAL:00000190
+  CALL from=1800b9c6b to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800b9c75 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b9c91 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800b9cae to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800b9cd2 to=EXTERNAL:00000110 function=QSettings entry=EXTERNAL:00000110
+  CALL from=1800b9cf8 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b9d09 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+DECOMPILE_BEGIN FUN_1800b9c30 1800b9c30
+
+QApplication * FUN_1800b9c30(QApplication *param_1,int *param_2,char **param_3,int param_4)
+
+{
+  QSettings *this;
+  QSettings *pQVar1;
+  QSettings *pQVar2;
+  QTypedArrayData<unsigned_short> *local_30;
+  QTypedArrayData<unsigned_short> *local_28;
+  undefined8 local_20;
+  QSettings *local_18;
+  
+  local_20 = 0xfffffffffffffffe;
+  pQVar1 = (QSettings *)0x0;
+  QApplication::QApplication(param_1,param_2,param_3,param_4);
+  *(undefined ***)param_1 = ExporterApplication::vftable;
+  QString::QString((QString *)(param_1 + 0x18));
+  this = operator_new(0x10);
+  pQVar2 = pQVar1;
+  local_18 = this;
+  if (this != (QSettings *)0x0) {
+    local_28 = QString::fromAscii_helper("BIExporterMB",0xc);
+    local_30 = QString::fromAscii_helper("Bohemia Interactive",0x13);
+    pQVar1 = (QSettings *)0x3;
+    QSettings::QSettings(this,(QString *)&local_30,(QString *)&local_28,(QObject *)0x0);
+    *(undefined ***)this = QSettings::vftable;
+    pQVar2 = this;
+  }
+  *(QSettings **)(param_1 + 0x10) = pQVar2;
+  if (((ulonglong)pQVar1 & 2) != 0) {
+    pQVar1 = (QSettings *)(ulonglong)((uint)pQVar1 & 0xfffffffd);
+    QString::~QString((QString *)&local_30);
+  }
+  if (((ulonglong)pQVar1 & 1) != 0) {
+    QString::~QString((QString *)&local_28);
+  }
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1800b9c30 1800b9c30
+============================================================
+FUNCTION_REQUEST 1800b2d40
+FUNCTION FUN_1800b2d40 entry=1800b2d40
+CALLERS
+  CALLER from=183ee8578 function=<none> entry=<none>
+  CALLER from=180ac9404 function=<none> entry=<none>
+  CALLER from=180ac9414 function=<none> entry=<none>
+  CALLER from=180ac9428 function=<none> entry=<none>
+  CALLER from=1800382e5 function=FUN_1800382d0 entry=1800382d0
+  CALLER from=18003e458 function=FUN_18003e440 entry=18003e440
+  CALLER from=18003e488 function=FUN_18003e470 entry=18003e470
+  CALLER from=18003e4b8 function=FUN_18003e4a0 entry=18003e4a0
+  CALLER from=18003e4e8 function=FUN_18003e4d0 entry=18003e4d0
+  CALLER from=18003e518 function=FUN_18003e500 entry=18003e500
+  CALLER from=18003e548 function=FUN_18003e530 entry=18003e530
+  CALLER from=1800634f8 function=FUN_1800634e0 entry=1800634e0
+  CALLER from=180063528 function=FUN_180063510 entry=180063510
+  CALLER from=180063558 function=FUN_180063540 entry=180063540
+  CALLER from=180063588 function=FUN_180063570 entry=180063570
+  CALLER from=1800635b8 function=FUN_1800635a0 entry=1800635a0
+  CALLER from=1800635e8 function=FUN_1800635d0 entry=1800635d0
+  CALLER from=180063618 function=FUN_180063600 entry=180063600
+  CALLER from=180063648 function=FUN_180063630 entry=180063630
+  CALLER from=1800b7c29 function=ShowAnimExportDialogThread2 entry=1800b7b90
+  CALLER from=18023a48f function=FUN_18023a430 entry=18023a430
+  CALLER from=18023a4bb function=FUN_18023a430 entry=18023a430
+  CALLER from=180240661 function=FUN_1802405b0 entry=1802405b0
+  CALLER from=1803a447e function=FUN_1803a40e0 entry=1803a40e0
+  CALLER from=18057e746 function=FUN_18057e6f0 entry=18057e6f0
+  CALLER from=180579492 function=FUN_1805793e0 entry=1805793e0
+  CALLER from=18056f962 function=FUN_18056f850 entry=18056f850
+  CALLER from=1805737a0 function=FUN_180573770 entry=180573770
+  CALLER from=18058ba01 function=FUN_18058b9c0 entry=18058b9c0
+  CALLER from=18058ba54 function=FUN_18058b9c0 entry=18058b9c0
+  CALLER from=18057a17a function=FUN_18057a140 entry=18057a140
+  CALLER from=18058dcc6 function=FUN_18058dc40 entry=18058dc40
+  CALLER from=18057ab02 function=FUN_18057aa10 entry=18057aa10
+  CALLER from=18057ab26 function=FUN_18057aa10 entry=18057aa10
+  CALLER from=18057b1b3 function=FUN_18057b160 entry=18057b160
+  CALLER from=1805804b6 function=FUN_180580290 entry=180580290
+  CALLER from=1805804e0 function=FUN_180580290 entry=180580290
+  CALLER from=18057b97d function=FUN_18057b940 entry=18057b940
+  CALLER from=18057b9e0 function=FUN_18057b9a0 entry=18057b9a0
+  CALLER from=18057ba19 function=FUN_18057b9a0 entry=18057b9a0
+  CALLER from=18057ba90 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bac2 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057baf6 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bb30 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bb6d function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bbb0 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bbf3 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bc36 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bcfe function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bd41 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bd84 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bdc7 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057be0a function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057be4d function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057be90 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bed3 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bf16 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bf59 function=FUN_18057ba50 entry=18057ba50
+  CALLER from=18057bfff function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c028 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c0b1 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c0da function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c138 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c15f function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c1ba function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c1de function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c238 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c25c function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c2b6 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c2da function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c4e8 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057c50c function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057ca3d function=FUN_18057bf90 entry=18057bf90
+  CALLER from=18057ca61 function=FUN_18057bf90 entry=18057bf90
+  CALLER from=180586527 function=FUN_180586490 entry=180586490
+  CALLER from=180586553 function=FUN_180586490 entry=180586490
+  CALLER from=18057caf2 function=FUN_18057caa0 entry=18057caa0
+  CALLER from=18057cb1b function=FUN_18057caa0 entry=18057caa0
+  CALLER from=18057cbaf function=FUN_18057caa0 entry=18057caa0
+  CALLER from=18057cbd8 function=FUN_18057caa0 entry=18057caa0
+  CALLER from=18057cc8e function=FUN_18057cc40 entry=18057cc40
+  CALLER from=18057cd06 function=FUN_18057cc40 entry=18057cc40
+  CALLER from=18057fce5 function=FUN_18057fcb0 entry=18057fcb0
+  CALLER from=18057fd85 function=FUN_18057fd50 entry=18057fd50
+  CALLER from=18057d1a3 function=FUN_18057d170 entry=18057d170
+  CALLER from=18057d1cd function=FUN_18057d170 entry=18057d170
+  CALLER from=18057dbdd function=FUN_18057db60 entry=18057db60
+  CALLER from=180586300 function=FUN_180586280 entry=180586280
+  CALLER from=18057dd05 function=FUN_18057dc90 entry=18057dc90
+  CALLER from=18057dd2e function=FUN_18057dc90 entry=18057dc90
+  CALLER from=180582335 function=FUN_180582280 entry=180582280
+  CALLER from=18058004f function=FUN_180580000 entry=180580000
+  CALLER from=180581a09 function=FUN_1805819c0 entry=1805819c0
+  CALLER from=180581ddd function=FUN_180581d90 entry=180581d90
+  CALLER from=1805833ef function=FUN_1805831f0 entry=1805831f0
+  CALLER from=1805869e6 function=FUN_180586930 entry=180586930
+  CALLER from=18058352e function=FUN_1805834e0 entry=1805834e0
+  CALLER from=1805835a6 function=FUN_1805834e0 entry=1805834e0
+  CALLER from=180583618 function=FUN_1805834e0 entry=1805834e0
+  CALLER from=18058368e function=FUN_1805834e0 entry=1805834e0
+  CALLER from=180583707 function=FUN_1805834e0 entry=1805834e0
+  CALLER from=1805837a6 function=FUN_1805834e0 entry=1805834e0
+  CALLER from=180583843 function=FUN_1805834e0 entry=1805834e0
+  CALLER from=1805838e0 function=FUN_1805834e0 entry=1805834e0
+  CALLER from=180583a30 function=FUN_1805839f0 entry=1805839f0
+  CALLER from=180583ab1 function=FUN_1805839f0 entry=1805839f0
+  CALLER from=180583b36 function=FUN_1805839f0 entry=1805839f0
+  CALLER from=180583c96 function=FUN_180583c30 entry=180583c30
+  CALLER from=180583cbf function=FUN_180583c30 entry=180583c30
+  CALLER from=180583d48 function=FUN_180583c30 entry=180583c30
+  CALLER from=180583d6f function=FUN_180583c30 entry=180583c30
+  CALLER from=180583dc6 function=FUN_180583c30 entry=180583c30
+  CALLER from=180583dea function=FUN_180583c30 entry=180583c30
+  CALLER from=180583ea1 function=FUN_180583c30 entry=180583c30
+  CALLER from=180583ec5 function=FUN_180583c30 entry=180583c30
+  CALLER from=18058406a function=FUN_180583c30 entry=180583c30
+  CALLER from=1805841be function=FUN_180584170 entry=180584170
+  CALLER from=180584236 function=FUN_180584170 entry=180584170
+  CALLER from=1805842b0 function=FUN_180584170 entry=180584170
+  CALLER from=180584351 function=FUN_180584170 entry=180584170
+  CALLER from=1805843c7 function=FUN_180584170 entry=180584170
+  CALLER from=180584465 function=FUN_180584170 entry=180584170
+  CALLER from=1805844f7 function=FUN_180584170 entry=180584170
+  CALLER from=180584595 function=FUN_180584170 entry=180584170
+  CALLER from=180584633 function=FUN_180584170 entry=180584170
+  CALLER from=1805846c5 function=FUN_180584170 entry=180584170
+  CALLER from=180584757 function=FUN_180584170 entry=180584170
+  CALLER from=1805847e9 function=FUN_180584170 entry=180584170
+  CALLER from=180584887 function=FUN_180584170 entry=180584170
+  CALLER from=180584925 function=FUN_180584170 entry=180584170
+  CALLER from=1805849c3 function=FUN_180584170 entry=180584170
+  CALLER from=180584a61 function=FUN_180584170 entry=180584170
+  CALLER from=180584aff function=FUN_180584170 entry=180584170
+  CALLER from=180584b91 function=FUN_180584170 entry=180584170
+  CALLER from=180584c23 function=FUN_180584170 entry=180584170
+  CALLER from=180584cb5 function=FUN_180584170 entry=180584170
+  CALLER from=180584d53 function=FUN_180584170 entry=180584170
+  CALLER from=180584de5 function=FUN_180584170 entry=180584170
+  CALLER from=180584e77 function=FUN_180584170 entry=180584170
+  CALLER from=180584f09 function=FUN_180584170 entry=180584170
+  CALLER from=180584f9b function=FUN_180584170 entry=180584170
+  CALLER from=18058502d function=FUN_180584170 entry=180584170
+  CALLER from=1805850ba function=FUN_180584170 entry=180584170
+  CALLER from=180585129 function=FUN_180584170 entry=180584170
+  CALLER from=180585198 function=FUN_180584170 entry=180584170
+  CALLER from=180585221 function=FUN_180584170 entry=180584170
+  CALLER from=18058526c function=FUN_180584170 entry=180584170
+  CALLER from=180585421 function=FUN_180584170 entry=180584170
+  CALLER from=180585460 function=FUN_180584170 entry=180584170
+  CALLER from=180585830 function=FUN_1805855f0 entry=1805855f0
+  CALLER from=180585854 function=FUN_1805855f0 entry=1805855f0
+  CALLER from=1805858dd function=FUN_1805855f0 entry=1805855f0
+  CALLER from=180585901 function=FUN_1805855f0 entry=1805855f0
+  CALLER from=1805859be function=FUN_180585970 entry=180585970
+  CALLER from=180585a36 function=FUN_180585970 entry=180585970
+  CALLER from=180585aa8 function=FUN_180585970 entry=180585970
+  CALLER from=180585b2e function=FUN_180585970 entry=180585970
+  CALLER from=180585bb0 function=FUN_180585970 entry=180585970
+  CALLER from=180585dfe function=FUN_180585db0 entry=180585db0
+  CALLER from=180585e76 function=FUN_180585db0 entry=180585db0
+  CALLER from=180585ee8 function=FUN_180585db0 entry=180585db0
+  CALLER from=180585f6e function=FUN_180585db0 entry=180585db0
+  CALLER from=1805868ff function=FUN_1805867b0 entry=1805867b0
+  CALLER from=180586dd0 function=FUN_180586d90 entry=180586d90
+  CALLER from=180586e02 function=FUN_180586d90 entry=180586d90
+  CALLER from=180586e36 function=FUN_180586d90 entry=180586d90
+  CALLER from=180586e95 function=FUN_180586d90 entry=180586d90
+  CALLER from=18058731e function=FUN_1805872a0 entry=1805872a0
+  CALLER from=18058745f function=FUN_1805872a0 entry=1805872a0
+  CALLER from=18058749e function=FUN_1805872a0 entry=1805872a0
+  CALLER from=18058806a function=FUN_180588030 entry=180588030
+  CALLER from=180588271 function=FUN_180588230 entry=180588230
+  CALLER from=180588fca function=FUN_180588f90 entry=180588f90
+  CALLER from=18058974f function=FUN_180589620 entry=180589620
+  CALLER from=18058bf0c function=FUN_18058bc40 entry=18058bc40
+  CALLER from=1805899b9 function=FUN_180589920 entry=180589920
+  CALLER from=1805899fe function=FUN_180589920 entry=180589920
+  CALLER from=180589a1d function=FUN_180589920 entry=180589920
+  CALLER from=180589a9f function=FUN_180589920 entry=180589920
+  CALLER from=180589abe function=FUN_180589920 entry=180589920
+  CALLER from=180589afe function=FUN_180589920 entry=180589920
+  CALLER from=180589b1d function=FUN_180589920 entry=180589920
+  CALLER from=180589b98 function=FUN_180589920 entry=180589920
+  CALLER from=180589bb3 function=FUN_180589920 entry=180589920
+  CALLER from=180589d81 function=FUN_180589d20 entry=180589d20
+  CALLER from=180589da8 function=FUN_180589d20 entry=180589d20
+  CALLER from=180589de5 function=FUN_180589d20 entry=180589d20
+  CALLER from=180589fb0 function=FUN_180589f40 entry=180589f40
+  CALLER from=180589fce function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a00f function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a02d function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a0f3 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a126 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a1cb function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a1f3 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a29d function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a2bb function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a34d function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a36b function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a44e function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a46c function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a4f2 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a510 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a551 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a56f function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a5f5 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a613 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a65d function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a687 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a720 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a74a function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a7df function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a809 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a859 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a883 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a95e function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a988 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058a9d8 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058aa02 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058ab20 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058ab4a function=FUN_180589f40 entry=180589f40
+  CALLER from=18058abc6 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058ac09 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058ac33 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058ad30 function=FUN_180589f40 entry=180589f40
+  CALLER from=18058b3a2 function=FUN_18058b330 entry=18058b330
+  CALLER from=18058b3be function=FUN_18058b330 entry=18058b330
+  CALLER from=18058b3e7 function=FUN_18058b330 entry=18058b330
+  CALLER from=18058b501 function=FUN_18058b4a0 entry=18058b4a0
+  CALLER from=18058b528 function=FUN_18058b4a0 entry=18058b4a0
+  CALLER from=18058b56d function=FUN_18058b4a0 entry=18058b4a0
+  CALLER from=18058cd79 function=FUN_18058cd50 entry=18058cd50
+  CALLER from=18058ce90 function=FUN_18058ce00 entry=18058ce00
+  CALLER from=18058d7c1 function=FUN_18058d770 entry=18058d770
+  CALLER from=18058d15a function=FUN_18058d0d0 entry=18058d0d0
+  CALLER from=18058d3c8 function=FUN_18058d0d0 entry=18058d0d0
+  CALLER from=1805dc05b function=FUN_1805dc000 entry=1805dc000
+  CALLER from=1805dc080 function=FUN_1805dc000 entry=1805dc000
+  CALLER from=1805dc42b function=FUN_1805dc360 entry=1805dc360
+  CALLER from=1805dc589 function=FUN_1805dc360 entry=1805dc360
+  CALLER from=1805dc641 function=FUN_1805dc360 entry=1805dc360
+  CALLER from=1805dd0df function=FUN_1805dd090 entry=1805dd090
+  CALLER from=1805dd677 function=FUN_1805dd160 entry=1805dd160
+  CALLER from=1805dd715 function=FUN_1805dd160 entry=1805dd160
+  CALLER from=1807e101f function=FUN_1807e0fd0 entry=1807e0fd0
+  CALLER from=180580a1d function=FUN_180580a00 entry=180580a00
+  CALLER from=18058d88e function=FUN_18058d860 entry=18058d860
+CALLEES
+  CALL from=1800b2d77 to=1808df418 function=memmove entry=1808df418
+  CALL from=1800b2de6 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b2e0a to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b2e28 to=1808df412 function=memcpy entry=1808df412
+  CALL from=1800b2e60 to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800b2e83 to=EXTERNAL:000003aa function=_invalid_parameter_noinfo_noreturn entry=EXTERNAL:000003aa
+  CALL from=1800b2e8a to=1800b2ca0 function=FUN_1800b2ca0 entry=1800b2ca0
+DECOMPILE_BEGIN FUN_1800b2d40 1800b2d40
+
+longlong * FUN_1800b2d40(longlong *param_1,void *param_2,size_t param_3)
+
+{
+  ulonglong uVar1;
+  void *pvVar2;
+  ulonglong uVar3;
+  ulonglong uVar4;
+  void *_Memory;
+  longlong *_Dst;
+  ulonglong uVar5;
+  void *_Dst_00;
+  
+  uVar1 = param_1[3];
+  if (uVar1 < param_3) {
+    if (0x7fffffffffffffff < param_3) {
+                    /* WARNING: Subroutine does not return */
+      FUN_1800b2ca0();
+    }
+    uVar3 = param_3 | 0xf;
+    uVar5 = 0x7fffffffffffffff;
+    if (((uVar3 < 0x8000000000000000) && (uVar1 <= 0x7fffffffffffffff - (uVar1 >> 1))) &&
+       (uVar4 = (uVar1 >> 1) + uVar1, uVar5 = uVar3, uVar3 < uVar4)) {
+      uVar5 = uVar4;
+    }
+    uVar3 = uVar5 + 1;
+    if (uVar3 < 0x1000) {
+      if (uVar3 == 0) {
+        _Dst_00 = (void *)0x0;
+      }
+      else {
+        _Dst_00 = operator_new(uVar3);
+      }
+    }
+    else {
+      uVar4 = uVar5 + 0x28;
+      if (uVar4 <= uVar3) {
+        uVar4 = 0xffffffffffffffff;
+      }
+      pvVar2 = operator_new(uVar4);
+      if (pvVar2 == (void *)0x0) goto LAB_1800b2e83;
+      _Dst_00 = (void *)((longlong)pvVar2 + 0x27U & 0xffffffffffffffe0);
+      *(void **)((longlong)_Dst_00 - 8) = pvVar2;
+    }
+    param_1[2] = param_3;
+    param_1[3] = uVar5;
+    memcpy(_Dst_00,param_2,param_3);
+    *(undefined1 *)((longlong)_Dst_00 + param_3) = 0;
+    if (0xf < uVar1) {
+      pvVar2 = (void *)*param_1;
+      _Memory = pvVar2;
+      if ((0xfff < uVar1 + 1) &&
+         (_Memory = *(void **)((longlong)pvVar2 + -8),
+         0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)_Memory)))) {
+LAB_1800b2e83:
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+    *param_1 = (longlong)_Dst_00;
+  }
+  else {
+    _Dst = param_1;
+    if (0xf < uVar1) {
+      _Dst = (longlong *)*param_1;
+    }
+    param_1[2] = param_3;
+    memmove(_Dst,param_2,param_3);
+    *(undefined1 *)((longlong)_Dst + param_3) = 0;
+  }
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1800b2d40 1800b2d40
+============================================================
+FUNCTION_REQUEST 1800acf00
+FUNCTION FUN_1800acf00 entry=1800acf00
+CALLERS
+  CALLER from=183ee8170 function=<none> entry=<none>
+  CALLER from=1800b7f04 function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800acf32 to=1800b7fb0 function=FUN_1800b7fb0 entry=1800b7fb0
+  CALL from=1800acf40 to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800acf60 to=1800b8010 function=FUN_1800b8010 entry=1800b8010
+  CALL from=1800acf6e to=1808ce3a8 function=free entry=1808ce3a8
+  CALL from=1800acf80 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800acf8b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800acf96 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800acfa0 to=1802242d0 function=FUN_1802242d0 entry=1802242d0
+DECOMPILE_BEGIN FUN_1800acf00 1800acf00
+
+void FUN_1800acf00(longlong *param_1)
+
+{
+  void *pvVar1;
+  uint uVar2;
+  ulonglong uVar3;
+  
+  uVar3 = 0;
+  if (*(int *)((longlong)param_1 + 0xc) != 0) {
+    do {
+      pvVar1 = *(void **)(*param_1 + uVar3 * 8);
+      if (pvVar1 != (void *)0x0) {
+        FUN_1800b7fb0(pvVar1);
+        free(pvVar1);
+      }
+      uVar2 = (int)uVar3 + 1;
+      uVar3 = (ulonglong)uVar2;
+    } while (uVar2 < *(uint *)((longlong)param_1 + 0xc));
+  }
+  *(undefined4 *)((longlong)param_1 + 0xc) = 0;
+  pvVar1 = (void *)param_1[2];
+  if (pvVar1 != (void *)0x0) {
+    FUN_1800b8010(pvVar1);
+    free(pvVar1);
+    param_1[2] = 0;
+  }
+  QString::~QString((QString *)(param_1 + 5));
+  QString::~QString((QString *)(param_1 + 4));
+  QString::~QString((QString *)(param_1 + 3));
+  FUN_1802242d0(*param_1);
+  return;
+}
+
+
+DECOMPILE_END FUN_1800acf00 1800acf00
+============================================================
+FUNCTION_REQUEST 1800b1740
+FUNCTION FUN_1800b1740 entry=1800b1740
+CALLERS
+  CALLER from=183ee84dc function=<none> entry=<none>
+  CALLER from=1800b2254 function=FUN_1800b2250 entry=1800b2250
+CALLEES
+  CALL from=1800b1765 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b1785 to=1800b9c30 function=FUN_1800b9c30 entry=1800b9c30
+  CALL from=1800b1797 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800b17d9 to=1800abcb0 function=FUN_1800abcb0 entry=1800abcb0
+  CALL from=1800b17e4 to=EXTERNAL:000001c2 function=show entry=EXTERNAL:000001c2
+  CALL from=1800b17ea to=EXTERNAL:000001cd function=exec entry=EXTERNAL:000001cd
+DECOMPILE_BEGIN FUN_1800b1740 1800b1740
+
+void FUN_1800b1740(undefined8 *param_1)
+
+{
+  QWidget *pQVar1;
+  QWidget *this;
+  longlong *plVar2;
+  undefined4 local_res10 [2];
+  void *local_res18;
+  
+  this = (QWidget *)0x0;
+  local_res10[0] = 0;
+  local_res18 = operator_new(0x20);
+  pQVar1 = this;
+  if (local_res18 != (void *)0x0) {
+    pQVar1 = (QWidget *)FUN_1800b9c30(local_res18,local_res10,0,0x50700);
+  }
+  local_res18 = operator_new(0x1c0);
+  if (local_res18 != (void *)0x0) {
+    plVar2 = param_1 + 8;
+    if (0xf < (ulonglong)param_1[0xb]) {
+      plVar2 = (longlong *)*plVar2;
+    }
+    this = (QWidget *)
+           FUN_1800abcb0(local_res18,*param_1,pQVar1,0,param_1 + 1,plVar2,
+                         *(undefined1 *)(param_1 + 0xc));
+  }
+  QWidget::show(this);
+  QApplication::exec();
+  if (this != (QWidget *)0x0) {
+    (**(code **)(*(longlong *)this + 0x18))(this,1);
+  }
+  return;
+}
+
+
+DECOMPILE_END FUN_1800b1740 1800b1740
+============================================================
+FUNCTION_REQUEST 1800b2250
+FUNCTION FUN_1800b2250 entry=1800b2250
+CALLERS
+  CALLER from=183ee8548 function=<none> entry=<none>
+  CALLER from=1800b7d7b function=ShowAnimExportDialogThread2 entry=1800b7b90
+  CALLER from=1800b7e4a function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800b2254 to=1800b1740 function=FUN_1800b1740 entry=1800b1740
+DECOMPILE_BEGIN FUN_1800b2250 1800b2250
+
+undefined8 FUN_1800b2250(void)
+
+{
+  FUN_1800b1740();
+  return 0;
+}
+
+
+DECOMPILE_END FUN_1800b2250 1800b2250
+============================================================
+FUNCTION_REQUEST 1800abcb0
+FUNCTION FUN_1800abcb0 entry=1800abcb0
+CALLERS
+  CALLER from=183ee80ec function=<none> entry=<none>
+  CALLER from=1800b17d9 function=FUN_1800b1740 entry=1800b1740
+  CALLER from=1800b7cc6 function=ShowAnimExportDialogThread2 entry=1800b7b90
+CALLEES
+  CALL from=1800abcf0 to=EXTERNAL:000001d3 function=QDialog entry=EXTERNAL:000001d3
+  CALL from=1800abd1a to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd28 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd36 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd44 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd52 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd60 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd6e to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abd7c to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800abdba to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800abde5 to=EXTERNAL:00000218 function=warning entry=EXTERNAL:00000218
+  CALL from=1800abdff to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800abe16 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800abe42 to=EXTERNAL:00000218 function=warning entry=EXTERNAL:00000218
+  CALL from=1800abe4e to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800abe5a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800abe64 to=EXTERNAL:00000153 function=clear entry=EXTERNAL:00000153
+  CALL from=1800abe79 to=180230560 function=FUN_180230560 entry=180230560
+  CALL from=1800abe8e to=1802330a0 function=FUN_1802330a0 entry=1802330a0
+  CALL from=1800abed5 to=18015c7d0 function=FUN_18015c7d0 entry=18015c7d0
+  CALL from=1800abef9 to=180064720 function=_guard_check_icall entry=180064720
+  CALL from=1800abf15 to=180223ce0 function=FUN_180223ce0 entry=180223ce0
+  CALL from=1800abf2c to=1801a48d0 function=FUN_1801a48d0 entry=1801a48d0
+  CALL from=1800abf49 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800abf62 to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800abf94 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800abfad to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800abfd2 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800abfeb to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800ac00c to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800ac025 to=EXTERNAL:0000020c function=QStyledItemDelegate entry=EXTERNAL:0000020c
+  CALL from=1800ac04c to=1800b4bb0 function=FUN_1800b4bb0 entry=1800b4bb0
+  CALL from=1800ac076 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac080 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac0ab to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac0b5 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac0dc to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac0e6 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac106 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac110 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac13b to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac145 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac170 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac17a to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac1a5 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac1af to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac1da to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac1e4 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac20f to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac219 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac244 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac24e to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac276 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac280 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac2a8 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac2b2 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac2da to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac2e4 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac30f to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac319 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac341 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac34b to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac376 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac380 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac3ab to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac3b5 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac3e0 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ac3ea to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ac410 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac42f to=EXTERNAL:00000135 function=QString entry=EXTERNAL:00000135
+  CALL from=1800ac453 to=EXTERNAL:0000015b function=fromUtf8 entry=EXTERNAL:0000015b
+  CALL from=1800ac462 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800ac46d to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac47d to=EXTERNAL:0000012b function=QFile entry=EXTERNAL:0000012b
+  CALL from=1800ac489 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac49b to=EXTERNAL:00000129 function=open entry=EXTERNAL:00000129
+  CALL from=1800ac4b0 to=EXTERNAL:0000011b function=readAll entry=EXTERNAL:0000011b
+  CALL from=1800ac4bf to=EXTERNAL:0000015f function=QString entry=EXTERNAL:0000015f
+  CALL from=1800ac4ca to=EXTERNAL:00000144 function=~QByteArray entry=EXTERNAL:00000144
+  CALL from=1800ac4d4 to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800ac4e1 to=EXTERNAL:000001bf function=setStyleSheet entry=EXTERNAL:000001bf
+  CALL from=1800ac4ec to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac4fa to=EXTERNAL:000001bf function=setStyleSheet entry=EXTERNAL:000001bf
+  CALL from=1800ac506 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac514 to=EXTERNAL:0000012a function=~QFile entry=EXTERNAL:0000012a
+  CALL from=1800ac520 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac529 to=1800b2260 function=FUN_1800b2260 entry=1800b2260
+  CALL from=1800ac53a to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac551 to=1800ba1e0 function=FUN_1800ba1e0 entry=1800ba1e0
+  CALL from=1800ac565 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac57a to=EXTERNAL:000001b8 function=pos entry=EXTERNAL:000001b8
+  CALL from=1800ac58a to=EXTERNAL:00000101 function=QVariant entry=EXTERNAL:00000101
+  CALL from=1800ac5a3 to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac5b1 to=EXTERNAL:000000fd function=toPoint entry=EXTERNAL:000000fd
+  CALL from=1800ac5bf to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac5cd to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac5d9 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac5eb to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac600 to=EXTERNAL:000001b9 function=size entry=EXTERNAL:000001b9
+  CALL from=1800ac610 to=EXTERNAL:00000102 function=QVariant entry=EXTERNAL:00000102
+  CALL from=1800ac629 to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac637 to=EXTERNAL:0000010b function=toSize entry=EXTERNAL:0000010b
+  CALL from=1800ac645 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac653 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac65f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac671 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac682 to=EXTERNAL:00000107 function=QVariant entry=EXTERNAL:00000107
+  CALL from=1800ac69a to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac6a8 to=EXTERNAL:000000fe function=toString entry=EXTERNAL:000000fe
+  CALL from=1800ac6b6 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac6c4 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac6cf to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac6e1 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac6f2 to=EXTERNAL:00000107 function=QVariant entry=EXTERNAL:00000107
+  CALL from=1800ac70a to=EXTERNAL:0000011f function=value entry=EXTERNAL:0000011f
+  CALL from=1800ac718 to=EXTERNAL:000000fe function=toString entry=EXTERNAL:000000fe
+  CALL from=1800ac726 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac734 to=EXTERNAL:00000106 function=~QVariant entry=EXTERNAL:00000106
+  CALL from=1800ac73f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac74c to=1800ba2a0 function=FUN_1800ba2a0 entry=1800ba2a0
+  CALL from=1800ac760 to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac775 to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac782 to=EXTERNAL:000001c3 function=move entry=EXTERNAL:000001c3
+  CALL from=1800ac78f to=EXTERNAL:000001c5 function=resize entry=EXTERNAL:000001c5
+  CALL from=1800ac7b9 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ac7e4 to=EXTERNAL:00000216 function=getExistingDirectory entry=EXTERNAL:00000216
+  CALL from=1800ac7ef to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac814 to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac828 to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac84e to=EXTERNAL:00000135 function=QString entry=EXTERNAL:00000135
+  CALL from=1800ac872 to=EXTERNAL:0000015b function=fromUtf8 entry=EXTERNAL:0000015b
+  CALL from=1800ac880 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800ac88b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac89f to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac8aa to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac8c2 to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac8d0 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac8df to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac8fe to=EXTERNAL:00000135 function=QString entry=EXTERNAL:00000135
+  CALL from=1800ac922 to=EXTERNAL:0000015b function=fromUtf8 entry=EXTERNAL:0000015b
+  CALL from=1800ac930 to=EXTERNAL:0000013b function=append entry=EXTERNAL:0000013b
+  CALL from=1800ac93b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac94f to=EXTERNAL:00000137 function=operator= entry=EXTERNAL:00000137
+  CALL from=1800ac95a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac972 to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800ac989 to=1800afd70 function=FUN_1800afd70 entry=1800afd70
+  CALL from=1800ac993 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ac99e to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+DECOMPILE_BEGIN FUN_1800abcb0 1800abcb0
+
+QWidget * FUN_1800abcb0(QWidget *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                       longlong param_5,char *param_6,QWidget param_7)
+
+{
+  char cVar1;
+  bool bVar2;
+  longlong *plVar3;
+  longlong lVar4;
+  QStyledItemDelegate *pQVar5;
+  QStyledItemDelegate *pQVar6;
+  QString *pQVar7;
+  QString *pQVar8;
+  QByteArray *pQVar9;
+  QSettings *this;
+  QPoint *pQVar10;
+  QVariant *pQVar11;
+  QSize *pQVar12;
+  QStyledItemDelegate *pQVar13;
+  longlong local_res18 [2];
+  ulonglong in_stack_fffffffffffffdb8;
+  uint uVar14;
+  QTypedArrayData<unsigned_short> *local_238;
+  QTypedArrayData<unsigned_short> *local_230;
+  QTypedArrayData<unsigned_short> *local_228;
+  longlong *local_220;
+  QString local_218 [8];
+  QString local_210 [8];
+  QTypedArrayData<unsigned_short> *local_208;
+  QTypedArrayData<unsigned_short> *local_200;
+  QTypedArrayData<unsigned_short> *local_1f8;
+  QTypedArrayData<unsigned_short> *local_1f0;
+  QTypedArrayData<unsigned_short> *local_1e8;
+  QTypedArrayData<unsigned_short> *local_1e0;
+  QTypedArrayData<unsigned_short> *local_1d8;
+  QString local_1d0 [8];
+  QString local_1c8 [8];
+  QString local_1c0 [8];
+  QString local_1b8 [8];
+  QObject local_1b0 [8];
+  QObject local_1a8 [8];
+  QObject local_1a0 [8];
+  QObject local_198 [8];
+  QObject local_190 [8];
+  QObject local_188 [8];
+  QObject local_180 [8];
+  QObject local_178 [8];
+  QObject local_170 [8];
+  QObject local_168 [8];
+  QObject local_160 [8];
+  QObject local_158 [8];
+  QObject local_150 [8];
+  QObject local_148 [8];
+  QObject local_140 [8];
+  QObject local_138 [8];
+  QObject local_130 [8];
+  QObject local_128 [8];
+  QString local_120 [8];
+  QByteArray local_118 [8];
+  QString local_110 [8];
+  QPoint local_108 [8];
+  QSize local_100 [8];
+  QString local_f8 [8];
+  QString local_f0 [8];
+  QFile local_e8 [16];
+  undefined8 local_d8;
+  undefined8 local_c0;
+  QString local_b8 [16];
+  QVariant local_a8 [16];
+  QString local_98 [16];
+  QVariant local_88 [16];
+  QString local_78 [16];
+  QVariant local_68 [16];
+  QString local_58 [16];
+  QVariant local_48 [16];
+  
+  local_c0 = 0xfffffffffffffffe;
+  pQVar13 = (QStyledItemDelegate *)0x0;
+  QDialog::QDialog((QDialog *)param_1,param_4,0);
+  *(undefined ***)param_1 = AnimExportDialog::vftable;
+  *(undefined ***)(param_1 + 0x10) = AnimExportDialog::vftable;
+  *(undefined8 *)(param_1 + 0x140) = param_3;
+  QString::QString((QString *)(param_1 + 0x178));
+  QString::QString((QString *)(param_1 + 0x180));
+  QString::QString((QString *)(param_1 + 0x188));
+  QString::QString((QString *)(param_1 + 400));
+  QString::QString((QString *)(param_1 + 0x198));
+  QString::QString((QString *)(param_1 + 0x1a0));
+  QString::QString((QString *)(param_1 + 0x1a8));
+  QString::QString((QString *)(param_1 + 0x1b0));
+  uVar14 = (uint)(in_stack_fffffffffffffdb8 >> 0x20);
+  param_1[0x1b8] = param_7;
+  *(longlong *)(param_1 + 0x170) = param_5;
+  if (*(char *)(param_5 + 0x31) != '\0') {
+    if (*(int *)(*(longlong *)(param_5 + 0x28) + 4) < 1) {
+      local_228 = QString::fromAscii_helper("All exports ok",0xe);
+      local_230 = QString::fromAscii_helper("Export Takes",0xc);
+      lVar4 = (ulonglong)uVar14 << 0x20;
+      QMessageBox::warning(param_1,&local_230,&local_228,0x400,lVar4);
+      uVar14 = (uint)((ulonglong)lVar4 >> 0x20);
+      QString::~QString((QString *)&local_230);
+      pQVar7 = (QString *)&local_228;
+    }
+    else {
+      local_238 = QString::fromAscii_helper("Export Takes",0xc);
+      in_stack_fffffffffffffdb8 = in_stack_fffffffffffffdb8 & 0xffffffff00000000;
+      QMessageBox::warning(param_1,&local_238,param_5 + 0x28,0x400,in_stack_fffffffffffffdb8);
+      uVar14 = (uint)(in_stack_fffffffffffffdb8 >> 0x20);
+      pQVar7 = (QString *)&local_238;
+    }
+    QString::~QString(pQVar7);
+    QString::clear((QString *)(param_5 + 0x28));
+    *(undefined1 *)(param_5 + 0x31) = 0;
+    param_5 = *(longlong *)(param_1 + 0x170);
+  }
+  *(undefined1 *)(param_5 + 0x30) = 0;
+  cVar1 = FUN_180230560();
+  if (cVar1 == '\0') {
+    local_d8 = 0;
+    plVar3 = (longlong *)FUN_1802330a0(0,0);
+    (**(code **)(*plVar3 + 0x98))(plVar3,&DAT_180900e34,0,"currentDir",CONCAT44(uVar14,1000),0);
+  }
+  pQVar5 = (QStyledItemDelegate *)DAT_180c4b180;
+  if (DAT_180c4b180 == (undefined8 *)0x0) {
+    FUN_18015c7d0(&local_220,0x400000,0);
+    if (local_220 != (longlong *)0x0) {
+      LOCK();
+      plVar3 = local_220 + 1;
+      lVar4 = *plVar3;
+      *(int *)plVar3 = (int)*plVar3 + -1;
+      UNLOCK();
+      _guard_check_icall(local_220);
+      if ((int)lVar4 == 1) {
+        (**(code **)(*local_220 + 0x18))(local_220);
+      }
+      local_220 = (longlong *)0x0;
+    }
+    lVar4 = FUN_180223ce0(0x538);
+    pQVar5 = pQVar13;
+    if (lVar4 != 0) {
+      pQVar5 = (QStyledItemDelegate *)FUN_1801a48d0(lVar4);
+    }
+  }
+  DAT_180c4b180 = (undefined8 *)pQVar5;
+  *(undefined8 *)(param_1 + 0x148) = param_2;
+  pQVar6 = operator_new(0x820);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileCBD::vftable;
+    *(undefined8 *)(pQVar6 + 0x10) = 0x100;
+    *(QStyledItemDelegate **)(pQVar6 + 0x18) = pQVar6 + 0x20;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x150) = pQVar5;
+  pQVar6 = operator_new(0x18);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileFBD::vftable;
+    *(QWidget **)(pQVar6 + 0x10) = param_1;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x158) = pQVar5;
+  pQVar6 = operator_new(0x10);
+  pQVar5 = pQVar13;
+  if (pQVar6 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar6,(QObject *)0x0);
+    *(undefined ***)pQVar6 = AnimExportDialogProfileChBD::vftable;
+    pQVar5 = pQVar6;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x160) = pQVar5;
+  pQVar5 = operator_new(0x18);
+  if (pQVar5 != (QStyledItemDelegate *)0x0) {
+    QStyledItemDelegate::QStyledItemDelegate(pQVar5,(QObject *)0x0);
+    *(undefined ***)pQVar5 = AnimExportDialogProfileDiffTgD::vftable;
+    *(QWidget **)(pQVar5 + 0x10) = param_1;
+    pQVar13 = pQVar5;
+  }
+  *(QStyledItemDelegate **)(param_1 + 0x168) = pQVar13;
+  FUN_1800b4bb0(param_1 + 0x30,param_1);
+  QObject::connect(local_1b0,*(char **)(param_1 + 0x130),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e38);
+  QMetaObject::Connection::~Connection((Connection *)local_1b0);
+  QObject::connect(local_1a8,*(char **)(param_1 + 0x138),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e50);
+  QMetaObject::Connection::~Connection((Connection *)local_1a8);
+  QObject::connect(local_1a0,(char *)param_1,(QObject *)"2accepted()",(char *)param_1,0x80900e68);
+  QMetaObject::Connection::~Connection((Connection *)local_1a0);
+  QObject::connect(local_198,(char *)param_1,(QObject *)"2rejected()",(char *)param_1,0x80900e68);
+  QMetaObject::Connection::~Connection((Connection *)local_198);
+  QObject::connect(local_190,*(char **)(param_1 + 0xb0),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900e98);
+  QMetaObject::Connection::~Connection((Connection *)local_190);
+  QObject::connect(local_188,*(char **)(param_1 + 200),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900eb0);
+  QMetaObject::Connection::~Connection((Connection *)local_188);
+  QObject::connect(local_180,*(char **)(param_1 + 0xd0),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ec8);
+  QMetaObject::Connection::~Connection((Connection *)local_180);
+  QObject::connect(local_178,*(char **)(param_1 + 0x120),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ee8);
+  QMetaObject::Connection::~Connection((Connection *)local_178);
+  QObject::connect(local_170,*(char **)(param_1 + 0xd8),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900ef8);
+  QMetaObject::Connection::~Connection((Connection *)local_170);
+  QObject::connect(local_168,*(char **)(param_1 + 0xf8),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f10);
+  QMetaObject::Connection::~Connection((Connection *)local_168);
+  QObject::connect(local_160,*(char **)(param_1 + 0x58),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f20);
+  QMetaObject::Connection::~Connection((Connection *)local_160);
+  QObject::connect(local_158,*(char **)(param_1 + 0x60),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f38);
+  QMetaObject::Connection::~Connection((Connection *)local_158);
+  QObject::connect(local_150,*(char **)(param_1 + 0x68),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f58);
+  QMetaObject::Connection::~Connection((Connection *)local_150);
+  QObject::connect(local_148,*(char **)(param_1 + 0x80),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f78);
+  QMetaObject::Connection::~Connection((Connection *)local_148);
+  QObject::connect(local_140,*(char **)(param_1 + 0x78),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f88);
+  QMetaObject::Connection::~Connection((Connection *)local_140);
+  QObject::connect(local_138,*(char **)(param_1 + 0x88),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900f98);
+  QMetaObject::Connection::~Connection((Connection *)local_138);
+  QObject::connect(local_130,*(char **)(param_1 + 0x110),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900fb0);
+  QMetaObject::Connection::~Connection((Connection *)local_130);
+  QObject::connect(local_128,*(char **)(param_1 + 0x118),(QObject *)"2clicked()",(char *)param_1,
+                   0x80900fc0);
+  QMetaObject::Connection::~Connection((Connection *)local_128);
+  if (param_6 != (char *)0x0) {
+    lVar4 = -1;
+    do {
+      lVar4 = lVar4 + 1;
+    } while (param_6[lVar4] != '\0');
+    local_208 = QString::fromAscii_helper(param_6,(int)lVar4);
+    if (0 < *(int *)(local_208 + 4)) {
+      pQVar7 = (QString *)QString::QString(local_218,(QString *)&local_208);
+      pQVar8 = (QString *)QString::fromUtf8((char *)local_120,-0x7f6ff028);
+      QString::append(local_218,pQVar8);
+      QString::~QString(local_120);
+      QFile::QFile(local_e8,pQVar7);
+      QString::~QString(local_218);
+      bVar2 = QFile::open(local_e8,1);
+      if (bVar2) {
+        pQVar9 = (QByteArray *)QIODevice::readAll((QIODevice *)local_e8);
+        QString::QString(local_210,pQVar9);
+        QByteArray::~QByteArray(local_118);
+        pQVar7 = (QString *)QString::QString(local_110);
+        QWidget::setStyleSheet(param_1,pQVar7);
+        QString::~QString(local_110);
+        QWidget::setStyleSheet(param_1,local_210);
+        QString::~QString(local_210);
+      }
+      QFile::~QFile(local_e8);
+    }
+    QString::~QString((QString *)&local_208);
+  }
+  FUN_1800b2260(param_1);
+  local_200 = QString::fromAscii_helper("MainWnd",7);
+  this = (QSettings *)FUN_1800ba1e0(*(undefined8 *)(param_1 + 0x140),&local_200);
+  local_1f8 = QString::fromAscii_helper("pos",3);
+  pQVar10 = (QPoint *)QWidget::pos(param_1);
+  QVariant::QVariant(local_a8,pQVar10);
+  pQVar11 = (QVariant *)QSettings::value(this,local_b8,(QVariant *)&local_1f8);
+  QVariant::toPoint(pQVar11);
+  QVariant::~QVariant((QVariant *)local_b8);
+  QVariant::~QVariant(local_a8);
+  QString::~QString((QString *)&local_1f8);
+  local_1f0 = QString::fromAscii_helper("size",4);
+  pQVar12 = (QSize *)QWidget::size(param_1);
+  QVariant::QVariant(local_88,pQVar12);
+  pQVar11 = (QVariant *)QSettings::value(this,local_98,(QVariant *)&local_1f0);
+  QVariant::toSize(pQVar11);
+  QVariant::~QVariant((QVariant *)local_98);
+  QVariant::~QVariant(local_88);
+  QString::~QString((QString *)&local_1f0);
+  local_1e8 = QString::fromAscii_helper("basePath",8);
+  QVariant::QVariant(local_68);
+  pQVar11 = (QVariant *)QSettings::value(this,local_78,(QVariant *)&local_1e8);
+  QVariant::toString(pQVar11);
+  QVariant::~QVariant((QVariant *)local_78);
+  QVariant::~QVariant(local_68);
+  QString::~QString((QString *)&local_1e8);
+  local_1e0 = QString::fromAscii_helper("profilesPath",0xc);
+  QVariant::QVariant(local_48);
+  pQVar11 = (QVariant *)QSettings::value(this,local_58,(QVariant *)&local_1e0);
+  QVariant::toString(pQVar11);
+  QVariant::~QVariant((QVariant *)local_58);
+  QVariant::~QVariant(local_48);
+  QString::~QString((QString *)&local_1e0);
+  FUN_1800ba2a0(*(undefined8 *)(param_1 + 0x140));
+  QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x18),local_1b8);
+  QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),local_1c0);
+  QWidget::move(param_1,local_108);
+  QWidget::resize(param_1,local_100);
+  if (*(int *)(*(longlong *)(*(longlong *)(param_1 + 0x170) + 0x18) + 4) < 1) {
+    local_1d8 = QString::fromAscii_helper("Select Base Path for export",0x1b);
+    QFileDialog::getExistingDirectory
+              (local_res18,param_1,&local_1d8,*(longlong *)(param_1 + 0x170) + 0x18,1);
+    QString::~QString((QString *)&local_1d8);
+    if (*(int *)(local_res18[0] + 4) != 0) {
+      QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x18),(QString *)local_res18);
+      QLineEdit::setText(*(QLineEdit **)(param_1 + 0xa8),(QString *)local_res18);
+    }
+    if (*(int *)(*(longlong *)(*(longlong *)(param_1 + 0x170) + 0x20) + 4) < 1) {
+      pQVar7 = (QString *)QString::QString(local_1d0,(QString *)local_res18);
+      pQVar8 = (QString *)QString::fromUtf8((char *)local_f8,-0x7f6fefd8);
+      QString::append(local_1d0,pQVar8);
+      QString::~QString(local_f8);
+      QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),pQVar7);
+      QString::~QString(local_1d0);
+      QLineEdit::setText(*(QLineEdit **)(param_1 + 0xc0),
+                         (QString *)(*(longlong *)(param_1 + 0x170) + 0x20));
+    }
+    QString::~QString((QString *)local_res18);
+  }
+  else {
+    QLineEdit::setText(*(QLineEdit **)(param_1 + 0xa8),
+                       (QString *)(*(longlong *)(param_1 + 0x170) + 0x18));
+  }
+  lVar4 = *(longlong *)(param_1 + 0x170);
+  if (*(int *)(*(longlong *)(lVar4 + 0x20) + 4) < 1) {
+    pQVar7 = (QString *)QString::QString(local_1c8,(QString *)(lVar4 + 0x18));
+    pQVar8 = (QString *)QString::fromUtf8((char *)local_f0,-0x7f6fefd8);
+    QString::append(local_1c8,pQVar8);
+    QString::~QString(local_f0);
+    QString::operator=((QString *)(*(longlong *)(param_1 + 0x170) + 0x20),pQVar7);
+    QString::~QString(local_1c8);
+    lVar4 = *(longlong *)(param_1 + 0x170);
+  }
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0xc0),(QString *)(lVar4 + 0x20));
+  FUN_1800afd70(*(undefined8 *)(param_1 + 0x170),*(undefined8 *)(param_1 + 0x150),param_1);
+  QString::~QString(local_1c0);
+  QString::~QString(local_1b8);
+  return param_1;
+}
+
+
+DECOMPILE_END FUN_1800abcb0 1800abcb0
+============================================================
+FUNCTION_REQUEST 1800b3d20
+FUNCTION FUN_1800b3d20 entry=1800b3d20
+CALLERS
+  CALLER from=183ee86b0 function=<none> entry=<none>
+  CALLER from=1800b74a5 function=FUN_1800b4bb0 entry=1800b4bb0
+CALLEES
+  CALL from=1800b3d5e to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3d6b to=EXTERNAL:000001be function=setWindowTitle entry=EXTERNAL:000001be
+  CALL from=1800b3d76 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3d99 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3da7 to=EXTERNAL:000001ee function=setText entry=EXTERNAL:000001ee
+  CALL from=1800b3db2 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3dd5 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3de3 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3dee to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3e11 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3e1f to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3e2a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3e4d to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3e5b to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3e66 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3e89 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3e97 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3ea2 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3ec5 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3ed3 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3ede to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3f01 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3f0f to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3f1a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3f3d to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3f4b to=EXTERNAL:000001f2 function=setText entry=EXTERNAL:000001f2
+  CALL from=1800b3f56 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3f79 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3f8a to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b3f95 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3fb8 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b3fc9 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b3fd4 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b3ff7 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4008 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4013 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4036 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4047 to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b4052 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4075 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4086 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4091 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b40b4 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b40c5 to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b40d0 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b40f3 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4104 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b410f to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4132 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4143 to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b414e to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4171 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4182 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b418d to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b41b0 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b41c1 to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b41cc to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b41ef to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4200 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b420b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b422e to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b423f to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b424a to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b426d to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b427e to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4289 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b42ac to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b42bd to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b42c8 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b42eb to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b42fc to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4307 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b432a to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b433b to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b4346 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4369 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b437a to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4385 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b43a8 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b43b9 to=EXTERNAL:000001c1 function=setToolTip entry=EXTERNAL:000001c1
+  CALL from=1800b43c4 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b43e7 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b43f8 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4403 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800b4426 to=EXTERNAL:00000169 function=translate entry=EXTERNAL:00000169
+  CALL from=1800b4437 to=EXTERNAL:000001ce function=setText entry=EXTERNAL:000001ce
+  CALL from=1800b4442 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+DECOMPILE_BEGIN FUN_1800b3d20 1800b3d20
+
+void FUN_1800b3d20(longlong param_1,QWidget *param_2)
+
+{
+  QString *pQVar1;
+  QString local_res8 [8];
+  
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","TXA Export Dialog",0);
+  QWidget::setWindowTitle(param_2,pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export Select:",0);
+  QLabel::setText(*(QLabel **)(param_1 + 0x20),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","All Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x28),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","None",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x30),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Current",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x38),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show Valid",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x48),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Show All",0)
+  ;
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x50),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Validate All",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x58),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","ssssssssssssss",0);
+  QLineEdit::setText(*(QLineEdit **)(param_1 + 0x78),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Selects base path for all exports / profiles",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x80),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","...",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x98),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Creates export profile based on selection (pelvis + EntityPos)",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Create Profile",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Reloads all profiles and scripts ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Reload Profiles",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xa8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plot takes when exporting ?",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot Takes",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xc0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Plots all takes for export",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Plot",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 200),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Copies values from current line (bold number) ",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Copy Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog",
+                      "Pastes path and profile settings to current(bold) line",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Paste Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xe8),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Saves edited properties in source file "
+                      ,0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Save Values",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0xf0),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)
+           QCoreApplication::translate
+                     ((char *)local_res8,"TXAExportDialog","Export all valid and selected takes",0);
+  QWidget::setToolTip(*(QWidget **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Export",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x100),pQVar1);
+  QString::~QString(local_res8);
+  pQVar1 = (QString *)QCoreApplication::translate((char *)local_res8,"TXAExportDialog","Cancel",0);
+  QAbstractButton::setText(*(QAbstractButton **)(param_1 + 0x108),pQVar1);
+  QString::~QString(local_res8);
+  return;
+}
+
+
+DECOMPILE_END FUN_1800b3d20 1800b3d20
+============================================================
+FUNCTION_REQUEST 1800ba700
+FUNCTION ShowExportDialog entry=1800ba700
+CALLERS
+  CALLER from=180b49034 function=<none> entry=<none>
+  CALLER from=183ee8944 function=<none> entry=<none>
+  CALLER from=Entry Point function=<none> entry=<none>
+  CALLER from=1800baa33 function=FUN_1800baa20 entry=1800baa20
+CALLEES
+  CALL from=1800ba745 to=EXTERNAL:00000190 function=QApplication entry=EXTERNAL:00000190
+  CALL from=1800ba75d to=EXTERNAL:00000151 function=QString entry=EXTERNAL:00000151
+  CALL from=1800ba767 to=1808ce36c function=operator_new entry=1808ce36c
+  CALL from=1800ba783 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ba7a4 to=EXTERNAL:0000013d function=fromAscii_helper entry=EXTERNAL:0000013d
+  CALL from=1800ba7d0 to=EXTERNAL:00000110 function=QSettings entry=EXTERNAL:00000110
+  CALL from=1800ba7f8 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ba80b to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ba81c to=EXTERNAL:000001d3 function=QDialog entry=EXTERNAL:000001d3
+  CALL from=1800ba843 to=1800b4bb0 function=FUN_1800b4bb0 entry=1800b4bb0
+  CALL from=1800ba876 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ba883 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ba8b7 to=EXTERNAL:00000167 function=connect entry=EXTERNAL:00000167
+  CALL from=1800ba8c4 to=EXTERNAL:00000164 function=~Connection entry=EXTERNAL:00000164
+  CALL from=1800ba8d5 to=EXTERNAL:00000191 function=winId entry=EXTERNAL:00000191
+  CALL from=1800ba8e1 to=EXTERNAL:000000ac function=SetParent entry=EXTERNAL:000000ac
+  CALL from=1800ba8fe to=EXTERNAL:00000112 function=setLeft entry=EXTERNAL:00000112
+  CALL from=1800ba90e to=EXTERNAL:00000111 function=setTop entry=EXTERNAL:00000111
+  CALL from=1800ba91e to=EXTERNAL:000001c6 function=setGeometry entry=EXTERNAL:000001c6
+  CALL from=1800ba929 to=EXTERNAL:000001c2 function=show entry=EXTERNAL:000001c2
+  CALL from=1800ba92f to=EXTERNAL:000001cd function=exec entry=EXTERNAL:000001cd
+  CALL from=1800ba93c to=EXTERNAL:000001d4 function=~QDialog entry=EXTERNAL:000001d4
+  CALL from=1800ba95a to=1800ba1a0 function=FUN_1800ba1a0 entry=1800ba1a0
+  CALL from=1800ba963 to=EXTERNAL:00000136 function=~QString entry=EXTERNAL:00000136
+  CALL from=1800ba96e to=EXTERNAL:0000018f function=~QApplication entry=EXTERNAL:0000018f
+DECOMPILE_BEGIN ShowExportDialog 1800ba700
+
+/* int __cdecl ShowExportDialog(struct HWND__ * __ptr64) */
+
+int __cdecl ShowExportDialog(HWND__ *param_1)
+
+{
+  int iVar1;
+  HWND hWndChild;
+  undefined4 local_res8 [2];
+  int local_res10 [2];
+  QTypedArrayData<unsigned_short> *local_res18;
+  QTypedArrayData<unsigned_short> *local_res20;
+  QSettings *local_1a8;
+  undefined8 uStack_1a0;
+  undefined **local_198 [2];
+  QSettings *local_188;
+  QString local_180 [8];
+  undefined8 local_178;
+  undefined **local_168 [2];
+  undefined **local_158;
+  longlong local_140;
+  undefined1 local_138 [256];
+  char *local_38;
+  char *local_30;
+  
+                    /* 0xba700  4  ?ShowExportDialog@@YAHPEAUHWND__@@@Z */
+  local_178 = 0xfffffffffffffffe;
+  local_res8[0] = 0;
+  local_res10[0] = 0;
+  QApplication::QApplication((QApplication *)local_198,local_res10,(char **)0x0,0x50700);
+  local_198[0] = ExporterApplication::vftable;
+  QString::QString(local_180);
+  local_188 = operator_new(0x10);
+  local_1a8 = local_188;
+  if (local_188 == (QSettings *)0x0) {
+    local_188 = (QSettings *)0x0;
+  }
+  else {
+    local_res20 = QString::fromAscii_helper("BIExporterMB",0xc);
+    local_res8[0] = 1;
+    local_res18 = QString::fromAscii_helper("Bohemia Interactive",0x13);
+    local_res8[0] = 3;
+    QSettings::QSettings(local_188,(QString *)&local_res18,(QString *)&local_res20,(QObject *)0x0);
+    *(undefined ***)local_188 = QSettings::vftable;
+    QString::~QString((QString *)&local_res18);
+    QString::~QString((QString *)&local_res20);
+  }
+  QDialog::QDialog((QDialog *)local_168,0,0);
+  local_168[0] = ExportDialog::vftable;
+  local_158 = ExportDialog::vftable;
+  FUN_1800b4bb0(local_138,local_168);
+  QObject::connect((QObject *)local_res8,local_38,(QObject *)"2clicked()",(char *)local_168,
+                   0x809018a0);
+  QMetaObject::Connection::~Connection((Connection *)local_res8);
+  QObject::connect((QObject *)&local_res18,local_30,(QObject *)"2clicked()",(char *)local_168,
+                   0x80900e50);
+  QMetaObject::Connection::~Connection((Connection *)&local_res18);
+  if (param_1 != (HWND__ *)0x0) {
+    hWndChild = (HWND)QWidget::winId((QWidget *)local_168);
+    SetParent(hWndChild,param_1);
+    local_1a8 = *(QSettings **)(local_140 + 0x14);
+    uStack_1a0 = *(undefined8 *)(local_140 + 0x1c);
+    QRect::setLeft((QRect *)&local_1a8,0x32);
+    QRect::setTop((QRect *)&local_1a8,0x3c);
+    QWidget::setGeometry((QWidget *)local_168,(QRect *)&local_1a8);
+  }
+  QWidget::show((QWidget *)local_168);
+  iVar1 = QApplication::exec();
+  QDialog::~QDialog((QDialog *)local_168);
+  local_198[0] = ExporterApplication::vftable;
+  if (local_188 != (QSettings *)0x0) {
+    (**(code **)(*(longlong *)local_188 + 0x18))(local_188,1);
+  }
+  QString::~QString(local_180);
+  QApplication::~QApplication((QApplication *)local_198);
+  return iVar1;
+}
+
+
+DECOMPILE_END ShowExportDialog 1800ba700
+============================================================
+SCRIPT COMPLETED DataExporterShowAnimDeepTrace
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

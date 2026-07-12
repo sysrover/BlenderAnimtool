@@ -1,0 +1,36 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_WeaponIKPropertyTable2.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 19:54:33 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_WeaponIKPropertyTable2.java
+Size: 1307 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+
+=== SCRIPT EXECUTION ERROR ===
+Error: MemoryAccessException: Address ram:00000008 does not exist in memory
+Stack trace:
+ghidra.program.model.mem.MemoryAccessException: Address ram:00000008 does not exist in memory
+	at ghidra.program.database.mem.MemoryMapDB.getByte(MemoryMapDB.java:1395)
+	at McpInline_WeaponIKPropertyTable2.str(McpInline_WeaponIKPropertyTable2.java:12)
+	at McpInline_WeaponIKPropertyTable2.run(McpInline_WeaponIKPropertyTable2.java:22)
+	at ghidra.app.script.GhidraScript.executeNormal(GhidraScript.java:460)
+	at ghidra.app.script.GhidraScript.doExecute(GhidraScript.java:314)
+	at ghidra.app.script.GhidraScript.execute(GhidraScript.java:290)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:920)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+

@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-11",
+  "status": "CONFIRMED_CURRENT_RULE",
+  "rule": "Never disable LIMIT_ROTATION constraints during ANM export sampling.",
+  "bone": "RightHandThumb1",
+  "constraint": {
+    "name": "Limit Rotation",
+    "type": "LIMIT_ROTATION",
+    "owner_space": "LOCAL",
+    "influence": 1.0,
+    "enabled_after_export": true,
+    "measured_effect_degrees": 54.07730899880769
+  },
+  "previous_unconstrained_xyzw": [-0.6999924182891846, 0.047498041263178914, 0.5420345908323931, 0.4625494107567709],
+  "corrected_constrained_xyzw": [-0.5842620730400085, 0.2645968628280786, 0.24514863924142494, 0.726992384523105],
+  "exported_rotation_change_degrees": 54.078378281754226,
+  "test_export": "P:\\BlenderAnimtool\\Research\\anm_reports\\ik1h-rotation-limits-export-test.anm",
+  "game_test_export": "P:\\UARP_Items_3\\ANM\\cable2_limits_enabled.anm",
+  "translation_tracks": [
+    "RightForeArmDirection",
+    "RightForeArmDirectionOrigin",
+    "RightHand",
+    "RightHandOrigin",
+    "RightHand_Dummy"
+  ],
+  "rotation_track_count": 22,
+  "exporter_hash_sha256": "E37CF6ABC8ABA025B48F365032B9CF6BCB735440F6A2E89E425D34F946A19A47"
+}

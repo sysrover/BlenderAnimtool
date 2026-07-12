@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "instance": "ref",
+  "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses (2).blend",
+  "generation": 1779123413.9898496,
+  "initial_dump": {
+    "dump": "C:\\Users\\sysro\\diag\\CsharpModVScode\\anm\\blender-ref-skeleton-dump.json",
+    "armatures": 2,
+    "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses (2).blend"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source_clean_file": "P:\\Animation_Weapon\\Weapon_template_clean_no_blender_ik.blend",
+  "saved_as": "P:\\Animation_Weapon\\Weapon_template_controlrig_v6_truejoint.blend",
+  "dayz_armature": "_DayZ_Character",
+  "control_rig": "DAT_ControlRigV6",
+  "visible_control_bones": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "hidden_proxy_bones": [
+    "IK_Arm.L",
+    "IK_ForeArm.L",
+    "IK_Hand.L",
+    "IK_Arm.R",
+    "IK_ForeArm.R",
+    "IK_Hand.R"
+  ],
+  "dayz_follow_constraints": [
+    {
+      "bone": "LeftArm",
+      "proxy": "IK_Arm.L"
+    },
+    {
+      "bone": "LeftForeArm",
+      "proxy": "IK_ForeArm.L"
+    },
+    {
+      "bone": "LeftHand",
+      "proxy": "IK_Hand.L"
+    },
+    {
+      "bone": "RightArm",
+      "proxy": "IK_Arm.R"
+    },
+    {
+      "bone": "RightForeArm",
+      "proxy": "IK_ForeArm.R"
+    },
+    {
+      "bone": "RightHand",
+      "proxy": "IK_Hand.R"
+    }
+  ],
+  "note": "True-joint IK rig: proxy joints are Arm.head -> ForeArm.head -> Hand.head, so DayZ roll-bone tails are not used as elbow/wrist joints."
+}

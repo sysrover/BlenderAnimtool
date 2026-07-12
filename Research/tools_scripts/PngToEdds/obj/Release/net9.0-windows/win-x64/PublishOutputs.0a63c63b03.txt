@@ -1,0 +1,6 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\publish\PngToEdds.exe
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\publish\PngToEdds.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\publish\PngToEdds.deps.json
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\publish\PngToEdds.runtimeconfig.json
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\publish\PngToEdds.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\PngToEdds\publish\K4os.Compression.LZ4.dll

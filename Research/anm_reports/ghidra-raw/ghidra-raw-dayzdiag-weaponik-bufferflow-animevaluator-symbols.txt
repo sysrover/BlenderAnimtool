@@ -1,0 +1,353 @@
+=== GHIDRA SCRIPT EXECUTION ===
+Script: C:\Users\sysro\ghidra_scripts\McpInline_FindAnimEvaluatorSymbols.java
+Program: DayZDiag_x64.exe
+Time: Sun May 17 20:37:52 EDT 2026
+
+Found script: C:\Users\sysro\ghidra_scripts\McpInline_FindAnimEvaluatorSymbols.java
+Size: 644 bytes
+
+Script provider: JavaScriptProvider
+
+--- SCRIPT OUTPUT ---
+C:\Users\sysro\ghidra_scripts hasn't changed, with 15 files failing in previous build(s):
+DumpAnmWorkbenchResearch.java:116: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator outbound = currentProgram.getReferenceManager().getReferencesFrom(caller.getBody().getMinAddress());
+                                                                                                   ^
+CodexInheritSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpWorkbenchVariableCap.java:9: error: cannot find symbol
+    Memory mem = currentProgram.getMemory();
+    ^
+  symbol:   class Memory
+  location: class McpWorkbenchVariableCap
+CodexSymbolDatabaseDeepDive.java:34: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+            Address found = findBytes(b.getStart(), needle, null, true, monitor);
+                                                ^
+CodexSymbolDatabaseDeepDive.java:37: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+                ReferenceIterator it = getReferencesTo(found);
+                                                      ^
+CodexSymbolDatabaseDeepDive.java:47: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+                found = findBytes(next, needle, null, true, monitor);
+                                  ^
+DumpContinueGate.java:44: error: cannot find symbol
+            Address address = toAddr(raw);
+            ^
+  symbol:   class Address
+  location: class DumpContinueGate
+McpInlineBatchSummary.java:21: error: incompatible types: ghidra.program.model.symbol.Reference[] cannot be converted to ghidra.program.model.symbol.ReferenceIterator
+        ReferenceIterator refs = getReferencesTo(function.getEntryPoint());
+                                                ^
+McpInlineBatchSummary.java:31: error: incompatible types: java.util.Set<ghidra.program.model.listing.Function> cannot be converted to ghidra.program.model.listing.Function[]
+        Function[] called = function.getCalledFunctions(monitor);
+                                                       ^
+decompile.java:12: error: class DecompileAndXrefs is public, should be declared in a file named DecompileAndXrefs.java
+public class DecompileAndXrefs extends GhidraScript {
+       ^
+McpInline_70041c1b38f8.java:9: error: illegal start of expression
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                      ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                        ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                         ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                 ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                               ^
+McpInline_70041c1b38f8.java:9: error: not a statement
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                        ^
+McpInline_70041c1b38f8.java:9: error: ';' expected
+void printFunctionRefs(Program p, String addrText, String label) throws Exception {
+                                                                                 ^
+McpInline_70041c1b38f8.java:21: error: illegal start of expression
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                 ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                   ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                    ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                            ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:21: error: not a statement
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:21: error: ';' expected
+void printCallsIn(Program p, String addrText, int max) throws Exception {
+                                                                       ^
+McpInline_70041c1b38f8.java:39: error: illegal start of expression
+void printSlice(Program p, String addrText, int count) throws Exception {
+^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+               ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                 ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                  ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                          ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                     ^
+McpInline_70041c1b38f8.java:39: error: not a statement
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                              ^
+McpInline_70041c1b38f8.java:39: error: ';' expected
+void printSlice(Program p, String addrText, int count) throws Exception {
+                                                                       ^
+McpWorkbenchControlRule.java:16: error: getFunction(java.lang.String) in McpWorkbenchControlRule cannot override getFunction(java.lang.String) in ghidra.program.flatapi.FlatProgramAPI
+    private Function getFunction(String name) {
+                     ^
+  overridden method is final
+ExportVftablesDump.java:73: warning: [removal] PLATE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:73: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PLATE_COMMENT));
+		                          ^
+ExportVftablesDump.java:74: warning: [removal] PRE_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                                              ^
+ExportVftablesDump.java:74: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.PRE_COMMENT));
+		                          ^
+ExportVftablesDump.java:75: warning: [removal] EOL_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                                              ^
+ExportVftablesDump.java:75: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.EOL_COMMENT));
+		                          ^
+ExportVftablesDump.java:76: warning: [removal] POST_COMMENT in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                                              ^
+ExportVftablesDump.java:76: warning: [removal] getComment(int) in ghidra.program.model.listing.CodeUnit has been deprecated and marked for removal
+		writeOneCommentBlock(w, cu.getComment(CodeUnit.POST_COMMENT));
+		                          ^
+DayZGuiButtonStyleScan.java:95: error: incompatible types: ghidra.program.model.symbol.ReferenceIterator cannot be converted to ghidra.program.model.symbol.Reference[]
+        Reference[] refs = program.getReferenceManager().getReferencesTo(address);
+                                                                        ^
+McpInline_WeaponIK_Vtable_Offsets.java:55: error: cannot find symbol
+                FlowType ft = r.getReferenceType().getFlowType();
+                                                  ^
+  symbol:   method getFlowType()
+  location: class ghidra.program.model.symbol.RefType
+CodexTypeInheritanceCheck.java:32: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+CodexSdbSmall.java:18: error: incompatible types: ghidra.program.model.address.Address cannot be converted to ghidra.program.model.address.AddressSetView
+          Address found = findBytes(cur, bytes, null, true, monitor);
+                                    ^
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                   ^
+  symbol: class GhidraScript
+McpInlineTest.java:1: error: cannot find symbol
+public class McpInlineTest extends GhidraScript { public void run() throws Exception { println("hello"); } }
+                                                                                       ^
+  symbol:   method println(java.lang.String)
+  location: class McpInlineTest
+
+Unexpected error activating bundle: 5327a1f
+java.lang.IllegalArgumentException: Source file for script does not exist!: C:\Users\sysro\ghidra_scripts\McpInline_70041c1b38f8.java
+	at ghidra.app.script.ScriptInfo.<init>(ScriptInfo.java:83)
+	at ghidra.app.script.GhidraScriptUtil.newScriptInfo(GhidraScriptUtil.java:390)
+	at ghidra.app.script.GhidraScriptInfoManager.getScriptInfo(GhidraScriptInfoManager.java:87)
+	at ghidra.app.plugin.core.script.GhidraScriptComponentProvider$RefreshingBundleHostListener.bundleBuilt(GhidraScriptComponentProvider.java:1238)
+	at ghidra.app.plugin.core.osgi.BundleHost.fireBundleBuilt(BundleHost.java:784)
+	at ghidra.app.plugin.core.osgi.BundleHost.notifyBundleBuilt(BundleHost.java:779)
+	at ghidra.app.plugin.core.osgi.GhidraSourceBundle.build(GhidraSourceBundle.java:616)
+	at ghidra.app.plugin.core.osgi.BundleHost.activateAll(BundleHost.java:685)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:158)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:909)
+	at ghidra.app.script.GhidraScript.runScript(GhidraScript.java:830)
+	at com.xebyte.core.ProgramScriptService.lambda$runGhidraScript$5(ProgramScriptService.java:1248)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+SYM 140de28a0 Label enf::IAnimDebuggerRemoteServerWB::vftable_meta_ptr
+SYM 140de28a8 Label enf::IAnimDebuggerRemoteServerWB::vftable
+SYM 140de28d0 Label enf::IAnimDebuggerRemoteClientGame::vftable_meta_ptr
+SYM 140de28d8 Label enf::IAnimDebuggerRemoteClientGame::vftable
+SYM 140de2930 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::vftable_meta_ptr
+SYM 140de2938 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::vftable
+SYM 140de2958 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::vftable_meta_ptr
+SYM 140de2960 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::vftable
+SYM 140de2990 Label enf::IAnimWorkspace::vftable_meta_ptr
+SYM 140de2998 Label enf::IAnimWorkspace::vftable
+SYM 140de2a00 Label enf::IAnimWorkspace::vftable_meta_ptr
+SYM 140de2a08 Label enf::IAnimWorkspace::vftable
+SYM 140de2a38 Label enf::IAnimWorkspace::vftable_meta_ptr
+SYM 140de2a40 Label enf::IAnimWorkspace::vftable
+SYM 140de2a78 Label s_IAnimWorkspace_140de2a78
+SYM 140de9298 Label enf::IAnimDebugger::IDbgInstance::vftable_meta_ptr
+SYM 140de92a0 Label enf::IAnimDebugger::IDbgInstance::vftable
+SYM 140de92b8 Label enf::IAnimDebugger::vftable_meta_ptr
+SYM 140de92c0 Label enf::IAnimDebugger::vftable
+SYM 140de97f8 Label enf::IAnimAllocatorGlobal::vftable_meta_ptr
+SYM 140de9800 Label enf::IAnimAllocatorGlobal::vftable
+SYM 140de9d78 Label enf::AnimEvaluator::vftable_meta_ptr
+SYM 140de9d80 Label enf::AnimEvaluator::vftable
+SYM 140de9de0 Label enf::IAnimEvaluator::vftable_meta_ptr
+SYM 140de9de8 Label enf::IAnimEvaluator::vftable
+SYM 140dea550 Label enf::IAnimGraph::vftable_meta_ptr
+SYM 140dea558 Label enf::IAnimGraph::vftable
+SYM 140dea5f0 Label enf::IAnimGraph::vftable_meta_ptr
+SYM 140dea5f8 Label enf::IAnimGraph::vftable
+SYM 140dea628 Label enf::IAnimGraph::vftable_meta_ptr
+SYM 140dea630 Label enf::IAnimGraph::vftable
+SYM 140dea668 Label s_IAnimGraph_140dea668
+SYM 140dea850 Label enf::IAnimGraphControl::vftable_meta_ptr
+SYM 140dea858 Label enf::IAnimGraphControl::vftable
+SYM 140dece30 Label enf::IAnimEventTable::vftable_meta_ptr
+SYM 140dece38 Label enf::IAnimEventTable::vftable
+SYM 140decea0 Label enf::IAnimEventTable::vftable_meta_ptr
+SYM 140decea8 Label enf::IAnimEventTable::vftable
+SYM 140deced8 Label enf::IAnimEventTable::vftable_meta_ptr
+SYM 140decee0 Label enf::IAnimEventTable::vftable
+SYM 140decf18 Label s_IAnimEventTable_140decf18
+SYM 140ded038 Label enf::IAnimSetInstance::vftable_meta_ptr
+SYM 140ded040 Label enf::IAnimSetInstance::vftable
+SYM 140ded0b0 Label enf::IAnimSetInstance::vftable_meta_ptr
+SYM 140ded0b8 Label enf::IAnimSetInstance::vftable
+SYM 140ded0e8 Label enf::IAnimSetInstance::vftable_meta_ptr
+SYM 140ded0f0 Label enf::IAnimSetInstance::vftable
+SYM 140ded128 Label s_IAnimSetInstance_140ded128
+SYM 140ded2d0 Label enf::IAnimSetTemplate::vftable_meta_ptr
+SYM 140ded2d8 Label enf::IAnimSetTemplate::vftable
+SYM 140ded340 Label enf::IAnimSetTemplate::vftable_meta_ptr
+SYM 140ded348 Label enf::IAnimSetTemplate::vftable
+SYM 140ded378 Label enf::IAnimSetTemplate::vftable_meta_ptr
+SYM 140ded380 Label enf::IAnimSetTemplate::vftable
+SYM 140ded3b8 Label s_IAnimSetTemplate_140ded3b8
+SYM 140ded430 Label enf::IAnimSyncTable::vftable_meta_ptr
+SYM 140ded438 Label enf::IAnimSyncTable::vftable
+SYM 140ded4a0 Label enf::IAnimSyncTable::vftable_meta_ptr
+SYM 140ded4a8 Label enf::IAnimSyncTable::vftable
+SYM 140ded4d8 Label enf::IAnimSyncTable::vftable_meta_ptr
+SYM 140ded4e0 Label enf::IAnimSyncTable::vftable
+SYM 140ded518 Label s_IAnimSyncTable_140ded518
+SYM 140f9bd38 Label enf::IAnimDebuggerRemoteServerWB::RTTI_Complete_Object_Locator
+SYM 140f9bd60 Label enf::IAnimDebuggerRemoteServerWB::RTTI_Class_Hierarchy_Descriptor
+SYM 140f9bd78 Label enf::IAnimDebuggerRemoteServerWB::RTTI_Base_Class_Array
+SYM 140f9bd90 Label enf::IAnimDebuggerRemoteServerWB::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140f9bdb8 Label enf::IAnimDebuggerRemoteClientGame::RTTI_Complete_Object_Locator
+SYM 140f9bde0 Label enf::IAnimDebuggerRemoteClientGame::RTTI_Class_Hierarchy_Descriptor
+SYM 140f9bdf8 Label enf::IAnimDebuggerRemoteClientGame::RTTI_Base_Class_Array
+SYM 140f9be10 Label enf::IAnimDebuggerRemoteClientGame::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140f9be38 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::RTTI_Complete_Object_Locator
+SYM 140f9be60 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::RTTI_Class_Hierarchy_Descriptor
+SYM 140f9be78 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::RTTI_Base_Class_Array
+SYM 140f9be98 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140f9bec0 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::RTTI_Complete_Object_Locator
+SYM 140f9bee8 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::RTTI_Class_Hierarchy_Descriptor
+SYM 140f9bf00 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::RTTI_Base_Class_Array
+SYM 140f9bf20 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140f9c180 Label enf::IAnimWorkspace::RTTI_Complete_Object_Locator
+SYM 140f9c1a8 Label enf::IAnimWorkspace::RTTI_Class_Hierarchy_Descriptor
+SYM 140f9c1c0 Label enf::IAnimWorkspace::RTTI_Base_Class_Array
+SYM 140f9c208 Label enf::IAnimWorkspace::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140f9c2b0 Label enf::IAnimWorkspace::RTTI_Complete_Object_Locator
+SYM 140f9c2d8 Label enf::IAnimWorkspace::RTTI_Complete_Object_Locator
+SYM 140fa0fc0 Label enf::IAnimDebugger::RTTI_Complete_Object_Locator
+SYM 140fa0fe8 Label enf::IAnimDebugger::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa1000 Label enf::IAnimDebugger::RTTI_Base_Class_Array
+SYM 140fa1018 Label enf::IAnimDebugger::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa1040 Label enf::IAnimDebugger::IDbgInstance::RTTI_Complete_Object_Locator
+SYM 140fa1068 Label enf::IAnimDebugger::IDbgInstance::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa1080 Label enf::IAnimDebugger::IDbgInstance::RTTI_Base_Class_Array
+SYM 140fa1098 Label enf::IAnimDebugger::IDbgInstance::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa1ae0 Label enf::IAnimAllocatorGlobal::RTTI_Complete_Object_Locator
+SYM 140fa1b08 Label enf::IAnimAllocatorGlobal::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa1b20 Label enf::IAnimAllocatorGlobal::RTTI_Base_Class_Array
+SYM 140fa1b38 Label enf::IAnimAllocatorGlobal::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa2038 Label enf::AnimEvaluator::RTTI_Complete_Object_Locator
+SYM 140fa2060 Label enf::AnimEvaluator::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa2078 Label enf::AnimEvaluator::RTTI_Base_Class_Array
+SYM 140fa2090 Label enf::AnimEvaluator::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa20b8 Label enf::IAnimEvaluator::RTTI_Complete_Object_Locator
+SYM 140fa20e0 Label enf::IAnimEvaluator::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa20f8 Label enf::IAnimEvaluator::RTTI_Base_Class_Array
+SYM 140fa2118 Label enf::IAnimEvaluator::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa2808 Label enf::IAnimGraph::RTTI_Complete_Object_Locator
+SYM 140fa2830 Label enf::IAnimGraph::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa2850 Label enf::IAnimGraph::RTTI_Base_Class_Array
+SYM 140fa2898 Label enf::IAnimGraph::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa28c0 Label enf::IAnimGraph::RTTI_Complete_Object_Locator
+SYM 140fa28e8 Label enf::IAnimGraph::RTTI_Complete_Object_Locator
+SYM 140fa2968 Label enf::IAnimGraphControl::RTTI_Complete_Object_Locator
+SYM 140fa2990 Label enf::IAnimGraphControl::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa29a8 Label enf::IAnimGraphControl::RTTI_Base_Class_Array
+SYM 140fa29c8 Label enf::IAnimGraphControl::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa4f40 Label enf::IAnimEventTable::RTTI_Complete_Object_Locator
+SYM 140fa4f68 Label enf::IAnimEventTable::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa4f80 Label enf::IAnimEventTable::RTTI_Base_Class_Array
+SYM 140fa4fc0 Label enf::IAnimEventTable::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa4fe8 Label enf::IAnimEventTable::RTTI_Complete_Object_Locator
+SYM 140fa5010 Label enf::IAnimEventTable::RTTI_Complete_Object_Locator
+SYM 140fa5180 Label enf::IAnimSetInstance::RTTI_Complete_Object_Locator
+SYM 140fa51a8 Label enf::IAnimSetInstance::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa51c0 Label enf::IAnimSetInstance::RTTI_Base_Class_Array
+SYM 140fa5210 Label enf::IAnimSetInstance::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa5260 Label enf::IAnimSetInstance::RTTI_Complete_Object_Locator
+SYM 140fa5288 Label enf::IAnimSetInstance::RTTI_Complete_Object_Locator
+SYM 140fa53a8 Label enf::IAnimSetTemplate::RTTI_Complete_Object_Locator
+SYM 140fa53d0 Label enf::IAnimSetTemplate::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa53f0 Label enf::IAnimSetTemplate::RTTI_Base_Class_Array
+SYM 140fa5438 Label enf::IAnimSetTemplate::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa5460 Label enf::IAnimSetTemplate::RTTI_Complete_Object_Locator
+SYM 140fa5488 Label enf::IAnimSetTemplate::RTTI_Complete_Object_Locator
+SYM 140fa54b0 Label enf::IAnimSyncTable::RTTI_Complete_Object_Locator
+SYM 140fa54d8 Label enf::IAnimSyncTable::RTTI_Class_Hierarchy_Descriptor
+SYM 140fa54f0 Label enf::IAnimSyncTable::RTTI_Base_Class_Array
+SYM 140fa5530 Label enf::IAnimSyncTable::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+SYM 140fa5558 Label enf::IAnimSyncTable::RTTI_Complete_Object_Locator
+SYM 140fa5580 Label enf::IAnimSyncTable::RTTI_Complete_Object_Locator
+SYM 14115dd80 Label enf::IAnimDebuggerRemoteServerWB::RTTI_Type_Descriptor
+SYM 14115ddb8 Label enf::IAnimDebuggerRemoteClientGame::RTTI_Type_Descriptor
+SYM 14115ddf0 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteServerWB>::RTTI_Type_Descriptor
+SYM 14115de50 Label enf::CThread::ParamsMethod<class_enf::IAnimDebuggerRemoteClientGame>::RTTI_Type_Descriptor
+SYM 14115df80 Label enf::IAnimWorkspace::RTTI_Type_Descriptor
+SYM 14115fd68 Label enf::IAnimDebugger::RTTI_Type_Descriptor
+SYM 14115fd90 Label enf::IAnimDebugger::IDbgInstance::RTTI_Type_Descriptor
+SYM 141160080 Label enf::IAnimGraph::RTTI_Type_Descriptor
+SYM 1411600d0 Label enf::IAnimAllocatorGlobal::RTTI_Type_Descriptor
+SYM 141160250 Label enf::AnimEvaluator::RTTI_Type_Descriptor
+SYM 141160278 Label enf::IAnimEvaluator::RTTI_Type_Descriptor
+SYM 141160518 Label enf::IAnimSetTemplate::RTTI_Type_Descriptor
+SYM 141160548 Label enf::IAnimSyncTable::RTTI_Type_Descriptor
+SYM 141160618 Label enf::IAnimGraphControl::RTTI_Type_Descriptor
+SYM 1411616b0 Label enf::IAnimEventTable::RTTI_Type_Descriptor
+SYM 141161708 Label enf::IAnimSetInstance::RTTI_Type_Descriptor
+SCRIPT COMPLETED SUCCESSFULLY
+
+
+=== SCRIPT COMPLETED SUCCESSFULLY ===
+

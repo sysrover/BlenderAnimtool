@@ -1,0 +1,61 @@
+{
+  "blend_before": "P:\\Animation_Weapon\\Weapon_template_dayz_arm_fk_controls_v17_roll_y_only.blend",
+  "tests": [
+    {
+      "action": "1911",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "error": null,
+      "samples": {
+        "0": {
+          "RH_to_RHO": 1.4600096599955427e-07,
+          "LH_to_LTarget": 1.4600096599955427e-07
+        },
+        "1": {
+          "RH_to_RHO": 2.4755668231600746e-07,
+          "LH_to_LTarget": 8.429369702178807e-08
+        }
+      }
+    },
+    {
+      "action": "famas",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "error": null,
+      "samples": {
+        "0": {
+          "RH_to_RHO": 2.3276357876976293e-07,
+          "LH_to_LTarget": 1.7881393432617188e-07
+        },
+        "1": {
+          "RH_to_RHO": 5.960464477539063e-08,
+          "LH_to_LTarget": 1.0745380149674383e-07
+        }
+      }
+    },
+    {
+      "action": "aks74u",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "error": null,
+      "samples": {
+        "0": {
+          "RH_to_RHO": 1.999200562387517e-07,
+          "LH_to_LTarget": 1.228781230931777e-07
+        },
+        "1": {
+          "RH_to_RHO": 1.6391277313232422e-07,
+          "LH_to_LTarget": 1.519626234052415e-07
+        }
+      }
+    }
+  ],
+  "solver": "DayZDiag FUN_1400e1be0 Python port via WeaponIKSolver.py",
+  "order": "primary/right chain first, depsgraph update per bone, secondary/left chain after primary"
+}

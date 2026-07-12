@@ -1,0 +1,17 @@
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.csproj.AssemblyReference.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.AssemblyInfoInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.AssemblyInfo.cs
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.csproj.CoreCompileInputs.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\bin\Release\net9.0\Lz4Probe.exe
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\bin\Release\net9.0\Lz4Probe.deps.json
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\bin\Release\net9.0\Lz4Probe.runtimeconfig.json
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\bin\Release\net9.0\Lz4Probe.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\bin\Release\net9.0\Lz4Probe.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\bin\Release\net9.0\K4os.Compression.LZ4.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.csproj.Up2Date
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\refint\Lz4Probe.dll
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.pdb
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\Lz4Probe.genruntimeconfig.cache
+C:\Users\sysro\diag\CsharpModVScode\tools\Lz4Probe\obj\Release\net9.0\ref\Lz4Probe.dll

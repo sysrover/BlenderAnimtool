@@ -1,0 +1,37 @@
+{
+  "source_file": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_controlrig_v1.blend",
+  "saved_blend": "P:\\Animation_Weapon\\Weapon_template_aks74u_refbake_previewrig_v2.blend",
+  "removed_handlers": 0,
+  "removed_preview": [],
+  "preview_armature": "DAT_PreviewSkeleton",
+  "preview_meshes": [
+    "DAT_PreviewMesh_Female_body",
+    "DAT_PreviewMesh_zEntityPosition",
+    "DAT_PreviewMesh_zMale_body"
+  ],
+  "hidden_original_meshes": [
+    "Female_body",
+    "zEntityPosition",
+    "zMale_body"
+  ],
+  "driven_bones": [
+    "LeftArm",
+    "LeftArmRoll",
+    "LeftForeArm",
+    "LeftForeArmRoll",
+    "LeftHand",
+    "RightArm",
+    "RightArmRoll",
+    "RightForeArm",
+    "RightForeArmRoll",
+    "RightHand"
+  ],
+  "visible_control_bones": [
+    "CTRL_Hand.L",
+    "CTRL_Elbow.L",
+    "CTRL_Hand.R",
+    "CTRL_Elbow.R"
+  ],
+  "live_preview_enabled": true,
+  "helper_text": "DAT_PREVIEW_BAKE_HELPERS"
+}

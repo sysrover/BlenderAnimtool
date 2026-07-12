@@ -1,0 +1,484 @@
+{
+  "file": "C:\\Users\\sysro\\Downloads\\BlenderPoses (2).blend",
+  "changed": [
+    {
+      "bone": "upper_arm_parent.L",
+      "property": "IK_FK",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "upper_arm_parent.L",
+      "property": "pole_vector",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "bone": "upper_arm_parent.L",
+      "property": "IK_Stretch",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "ORG-upper_arm.L",
+      "constraint": "Copy Transforms",
+      "before": 0.0,
+      "after": 0.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-upper_arm.L",
+      "constraint": "Copy Transforms.001",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-forearm.L",
+      "constraint": "Copy Transforms",
+      "before": 0.0,
+      "after": 0.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-forearm.L",
+      "constraint": "Copy Transforms.001",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-hand.L",
+      "constraint": "Copy Transforms",
+      "before": 0.0,
+      "after": 0.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-hand.L",
+      "constraint": "Copy Transforms.001",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "MCH-forearm_ik.L",
+      "constraint": "IK",
+      "before_mute": true,
+      "after_mute": true
+    },
+    {
+      "bone": "MCH-forearm_ik.L",
+      "constraint": "IK.001",
+      "before_mute": false,
+      "after_mute": false
+    },
+    {
+      "bone": "MCH-upper_arm_ik_target.L",
+      "constraint": "Copy Location",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "property": "IK_FK",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "property": "pole_vector",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "property": "IK_Stretch",
+      "before": 1.0,
+      "after": 1.0
+    },
+    {
+      "bone": "ORG-upper_arm.R",
+      "constraint": "Copy Transforms",
+      "before": 0.0,
+      "after": 0.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-upper_arm.R",
+      "constraint": "Copy Transforms.001",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-forearm.R",
+      "constraint": "Copy Transforms",
+      "before": 0.0,
+      "after": 0.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-forearm.R",
+      "constraint": "Copy Transforms.001",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-hand.R",
+      "constraint": "Copy Transforms",
+      "before": 0.0,
+      "after": 0.0,
+      "mute": false
+    },
+    {
+      "bone": "ORG-hand.R",
+      "constraint": "Copy Transforms.001",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    },
+    {
+      "bone": "MCH-forearm_ik.R",
+      "constraint": "IK",
+      "before_mute": true,
+      "after_mute": true
+    },
+    {
+      "bone": "MCH-forearm_ik.R",
+      "constraint": "IK.001",
+      "before_mute": false,
+      "after_mute": false
+    },
+    {
+      "bone": "MCH-upper_arm_ik_target.R",
+      "constraint": "Copy Location",
+      "before": 1.0,
+      "after": 1.0,
+      "mute": false
+    }
+  ],
+  "removed_drivers": [
+    "pose.bones[\"ORG-upper_arm.L\"].constraints[\"Copy Transforms\"].influence",
+    "pose.bones[\"ORG-upper_arm.L\"].constraints[\"Copy Transforms.001\"].influence",
+    "pose.bones[\"ORG-forearm.L\"].constraints[\"Copy Transforms\"].influence",
+    "pose.bones[\"ORG-forearm.L\"].constraints[\"Copy Transforms.001\"].influence",
+    "pose.bones[\"ORG-hand.L\"].constraints[\"Copy Transforms\"].influence",
+    "pose.bones[\"ORG-hand.L\"].constraints[\"Copy Transforms.001\"].influence",
+    "pose.bones[\"MCH-forearm_ik.L\"].constraints[\"IK\"].mute",
+    "pose.bones[\"MCH-forearm_ik.L\"].constraints[\"IK.001\"].mute",
+    "pose.bones[\"MCH-upper_arm_ik_target.L\"].constraints[\"Copy Location\"].influence",
+    "pose.bones[\"ORG-upper_arm.R\"].constraints[\"Copy Transforms\"].influence",
+    "pose.bones[\"ORG-upper_arm.R\"].constraints[\"Copy Transforms.001\"].influence",
+    "pose.bones[\"ORG-forearm.R\"].constraints[\"Copy Transforms\"].influence",
+    "pose.bones[\"ORG-forearm.R\"].constraints[\"Copy Transforms.001\"].influence",
+    "pose.bones[\"ORG-hand.R\"].constraints[\"Copy Transforms\"].influence",
+    "pose.bones[\"ORG-hand.R\"].constraints[\"Copy Transforms.001\"].influence",
+    "pose.bones[\"MCH-forearm_ik.R\"].constraints[\"IK\"].mute",
+    "pose.bones[\"MCH-forearm_ik.R\"].constraints[\"IK.001\"].mute",
+    "pose.bones[\"MCH-upper_arm_ik_target.R\"].constraints[\"Copy Location\"].influence"
+  ],
+  "snapshot": [
+    {
+      "bone": "ORG-upper_arm.L",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "upper_arm_fk.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "upper_arm_ik.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {
+        "rigify_type": "limbs.super_limb",
+        "rigify_parameters": "<bpy id prop: owner=\"OBrig\", name=\"rigify_parameters\", address=0x000001EC3D132E50>"
+      }
+    },
+    {
+      "bone": "ORG-forearm.L",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "forearm_fk.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-forearm_ik.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {
+        "rigify_type": ""
+      }
+    },
+    {
+      "bone": "ORG-hand.L",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "hand_fk.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {
+        "rigify_type": ""
+      }
+    },
+    {
+      "bone": "MCH-forearm_ik.L",
+      "constraints": [
+        {
+          "name": "IK",
+          "type": "IK",
+          "influence": 1.0,
+          "mute": true,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "IK.001",
+          "type": "IK",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.L",
+          "pole_target": "rig",
+          "pole_subtarget": "upper_arm_ik_target.L"
+        }
+      ],
+      "props": {}
+    },
+    {
+      "bone": "MCH-upper_arm_ik_target.L",
+      "constraints": [
+        {
+          "name": "Copy Location",
+          "type": "COPY_LOCATION",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "hand_ik.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Limit Distance",
+          "type": "LIMIT_DISTANCE",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.L",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {}
+    },
+    {
+      "bone": "upper_arm_parent.L",
+      "constraints": [],
+      "props": {
+        "FK_limb_follow": 0.0,
+        "IK_FK": 1.0,
+        "IK_Stretch": 1.0,
+        "pole_vector": 1,
+        "IK_parent": 1,
+        "pole_parent": 6
+      }
+    },
+    {
+      "bone": "ORG-upper_arm.R",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "upper_arm_fk.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "upper_arm_ik.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {
+        "rigify_type": "limbs.super_limb",
+        "rigify_parameters": "<bpy id prop: owner=\"OBrig\", name=\"rigify_parameters\", address=0x000001EC07525070>"
+      }
+    },
+    {
+      "bone": "ORG-forearm.R",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "forearm_fk.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-forearm_ik.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {
+        "rigify_type": ""
+      }
+    },
+    {
+      "bone": "ORG-hand.R",
+      "constraints": [
+        {
+          "name": "Copy Transforms",
+          "type": "COPY_TRANSFORMS",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "hand_fk.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Copy Transforms.001",
+          "type": "COPY_TRANSFORMS",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {
+        "rigify_type": ""
+      }
+    },
+    {
+      "bone": "MCH-forearm_ik.R",
+      "constraints": [
+        {
+          "name": "IK",
+          "type": "IK",
+          "influence": 1.0,
+          "mute": true,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "IK.001",
+          "type": "IK",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_ik_target.R",
+          "pole_target": "rig",
+          "pole_subtarget": "upper_arm_ik_target.R"
+        }
+      ],
+      "props": {}
+    },
+    {
+      "bone": "MCH-upper_arm_ik_target.R",
+      "constraints": [
+        {
+          "name": "Copy Location",
+          "type": "COPY_LOCATION",
+          "influence": 1.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "hand_ik.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        },
+        {
+          "name": "Limit Distance",
+          "type": "LIMIT_DISTANCE",
+          "influence": 0.0,
+          "mute": false,
+          "target": "rig",
+          "subtarget": "MCH-upper_arm_parent.R",
+          "pole_target": null,
+          "pole_subtarget": ""
+        }
+      ],
+      "props": {}
+    },
+    {
+      "bone": "upper_arm_parent.R",
+      "constraints": [],
+      "props": {
+        "FK_limb_follow": 0.0,
+        "IK_FK": 1.0,
+        "IK_Stretch": 1.0,
+        "pole_vector": 1,
+        "IK_parent": 1,
+        "pole_parent": 6
+      }
+    }
+  ],
+  "note": "Forced arms into IK mode in current reference scene; not saved."
+}
